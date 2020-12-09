@@ -1,8 +1,8 @@
 # default configuration
-baseURL = "/"
+baseURL = "http://examplesite.com"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "nws-theme"
+theme = "kross-hugo"
 title = "Kross | Hugo Portfolio Template"
 
 # css plugins
@@ -50,29 +50,6 @@ weight = 4
 URL = "contact"
 name = "Contact"
 weight = 5
-
-#top menu
-
-[[menu.top]]
-URL = "agenda"
-name = "Agenda"
-weight = 1
-
-[[menu.top]]
-URL = "documentation"
-name = "Documentation"
-weight = 2
-
-[[menu.top]]
-URL = "faq"
-name = "FAQ"
-weight = 3
-
-[[menu.top]]
-URL = "blog"
-name = "Blog"
-weight = 4
-
 
 
 # default parameters
