@@ -18,4 +18,5 @@ fields:
     required: false
   label: Role
 pages:
+- content/team/Carole-Faure.md
 - content/team/Sitapha-Dia.md
