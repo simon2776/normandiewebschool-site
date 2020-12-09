@@ -17,3 +17,5 @@ fields:
   config:
     required: false
   label: Role
+pages:
+- content/team/Sitapha-Dia.md
