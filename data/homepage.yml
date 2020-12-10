@@ -1,33 +1,86 @@
+# banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : "Bienvenue à la <br/> <span class=\"font-weight-medium\">NORMANDIE WEB SCHOOL</span>"
+  title-line-twho : "Bienvenue à la <br/> NORMANDIE WEB SCHOOL"
+  subtitle: "L'école des métiers du numérique au coeur des entreprises"
 
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  button:
-    enable : true
-    label : "know more"
-    URL : "about"
+  title: "Qui sommes-nous ?"
+  content : "La NWS est une École d’Enseignement Supérieur Technique Privée qui forme en 3 ou 5 ans aux métiers du
+  numérique (développement web, du web design et du marketing digital...) et amène vers un titre d’état (RNCP). Notre
+   pédagogie est active et répond aux besoins des étudiants d’aujourd’hui. Sortir du modèle classique de l’enseignement, casser les codes, éviter l’enseignement descendant et pousser les apprenants à réfléchir, à remettre en question leurs acquis et chercher de nouvelles manières d’agir.À la Normandie Web School l’étudiant est acteur de son propre apprentissage et construit ses compétences dans des situations réelles ou proches de la réalité et au plus près des besoins des entreprises. Tel est l’ADN de nos formations."
 
-skill:
-  enable : true
-  title : "Skills"
+
+filieres:
+    enable: true;
+    item:
+      - title: "Filière Développement"
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet."
+        from: "À partir du bac + 1"
+        to: "Jusqu'au bac +5"
+        color: "color-yellow"
+
+      - title: "Filière Design"
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet."
+        from: "À partir du bac + 1"
+        to: "Jusqu'au bac +5"
+        color: "color-blue"
+
+      - title: "Filière Marketing"
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet."
+        from: "À partir du bac + 1"
+        to: "Jusqu'au bac +5"
+        color: "color-orange"
+
+cursus:
+  enable: true;
+  title: "Le cursus"
+  subtitle: "Le parcours de la Normandie Web School résumé en un schéma"
+
+reasons:
+  enable: true
+  title: "5 bonnes raisons d'intégrer la School"
   item:
-    - title : "Web Design"
-      progress : "90%"
-      color : "#fdb157"
+    - logo : "images/reasons/star.svg"
+      content: "Monter en compétences avec des experts métiers et des professionnels reconnus dans le domaine du numérique."
+      alt: "Monter en compétences"
 
-    - title : "Logo Design"
-      progress : "60%"
-      color : "#9473e6"
+    - logo : "images/reasons/window.svg"
+      content: "Monter en compétences avec des experts métiers et des professionnels reconnus dans le domaine du numérique."
+      alt: "Monter en compétences"
 
-    - title : "After Effects"
-      progress : "80%"
-      color : "#bdecf6"
+    - logo : "images/reasons/connect.svg"
+      content: "Monter en compétences avec des experts métiers et des professionnels reconnus dans le domaine du numérique."
+      alt: "Monter en compétences"
 
-    - title : "Web App"
-      progress : "70%"
-      color : "#ffbcaa"
+    - logo : "images/reasons/student.svg"
+      content: "Monter en compétences avec des experts métiers et des professionnels reconnus dans le domaine du numérique."
+      alt: "Monter en compétences"
+
+    - logo : "images/reasons/diploma.svg"
+      content: "Monter en compétences avec des experts métiers et des professionnels reconnus dans le domaine du numérique."
+      alt: "Monter en compétences"
+
+data:
+  enable: true
+  title: "Quelques chiffres"
+  item:
+    - number: 249
+      title: "étudiants diplômés"
+    - number: 249
+      title: "étudiants diplômés"
+    - number: 249
+      title: "étudiants diplômés"
+    - number: 249
+      title: "étudiants diplômés"
+    - number: 249
+      title: "étudiants diplômés"
+
+team:
+  enable: true
+  title: "L'équipe NWS"
+  content: "Découvrez l'équipe de la Normandie Web School au service de la pédagogie et du développement de chacun des étudiants."
 
 experience:
   enable : true
