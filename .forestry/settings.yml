@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/partners
+  label: Partners
+  create: documents
+  match: "*"
+  templates:
+  - partners
+- type: directory
   path: content/team
   label: Team
   create: documents
