@@ -17,6 +17,13 @@ fields:
   config:
     required: false
   label: Role
+- name: type
+  type: text
+  config:
+    required: false
+  label: type
+  hidden: true
+  default: team
 pages:
 - content/team/Carole-Faure.md
 - content/team/Sitapha-Dia.md
