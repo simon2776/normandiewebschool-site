@@ -1,6 +1,6 @@
 +++
 name = "Sylvain Ténier"
 picture = ""
-role = "Directeur pédagogique"
+role = "Directeur pédagogique "
 
 +++
