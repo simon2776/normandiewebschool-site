@@ -20,6 +20,7 @@ fields:
     maxSize: 64
   label: Image
 pages:
+- content/partners/cfa-academique.md
 - content/partners/isd-flaubert.md
 - content/partners/metropole-rouen-normandie.md
 - content/partners/nwx.md
