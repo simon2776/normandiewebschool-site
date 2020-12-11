@@ -20,4 +20,5 @@ fields:
     maxSize: 64
   label: Image
 pages:
+- content/partners/metropole-rouen-normandie.md
 - content/partners/region-normandie.md
