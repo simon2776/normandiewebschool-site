@@ -29,3 +29,5 @@ fields:
   label: Type
   hidden: true
   default: testimonial
+pages:
+- content/testimonials/maman-d-eleve.md
