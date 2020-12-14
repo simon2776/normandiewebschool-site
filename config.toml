@@ -1,123 +1,93 @@
-# default configuration
 baseURL = "/"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "nws-theme"
 title = "Kross | Hugo Portfolio Template"
-
-# css plugins
-[[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
-
-[[params.plugins.css]]
-URL = "plugins/slick/slick.css"
-
-[[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
-
-
-# js plugin
-[[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
-
-[[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
-
-[[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
-
-[[params.plugins.js]]
-URL = "plugins/shuffle/shuffle.min.js"
-
-
-# menu
 [[menu.main]]
-URL = "about"
-name = "About"
-weight = 2
-
+name = "Demande d'inscription"
+weight = 8
 [[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 3
-
+name = "Contact"
+weight = 7
 [[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
-weight = 4
-
+name = "FAQ"
+weight = 6
+[[menu.main]]
+name = "Agenda"
+weight = 5
 [[menu.main]]
 URL = "contact"
-name = "Contact"
-weight = 5
-
-#top menu
-
-[[menu.top]]
-URL = "agenda"
-name = "Agenda"
-weight = 1
-
-[[menu.top]]
-URL = "documentation"
-name = "Documentation"
+name = "Les entreprises"
+weight = 4
+[[menu.main]]
+URL = "portfolio"
+name = "Nos étudiants"
+weight = 3
+[[menu.main]]
+URL = "blog"
+name = "Les cursus"
 weight = 2
-
+[[menu.main]]
+URL = "about"
+name = "Accueil"
+weight = 1
+[[menu.top]]
+URL = "blog"
+name = "Blog"
+weight = 4
 [[menu.top]]
 URL = "faq"
 name = "FAQ"
 weight = 3
-
 [[menu.top]]
-URL = "blog"
-name = "Blog"
-weight = 4
-
-
-
-# default parameters
+URL = "documentation"
+name = "Documentation"
+weight = 2
+[[menu.top]]
+URL = "agenda"
+name = "Agenda"
+weight = 1
 [params]
+abstract = "Grâce à une vision transverse des différents métiers du numérique dans un monde en perpétuel mutation, la Normandie Web School."
+address = "Seine Innopolis <br/> 72 Rue de la République <br/> 76140 Le Petit-Quevilly"
+author = "Johnathan Smith"
+copyright = "Normandie Web School © 2020"
+description = "This is meta description"
+email = "contact@normandiewebschool.fr"
+google_analitycs_id = "Your ID"
 home = "Home"
 logo = "images/logo.png"
-# theme color
-theme_color = "#41228e"
-
-# meta description
-author = "Johnathan Smith"
-description = "This is meta description"
-# google analitycs
-google_analitycs_id = "Your ID"
-abstract = "Grâce à une vision transverse des différents métiers du numérique dans un monde en perpétuel mutation, la Normandie Web School."
-# contact info
-address = "Seine Innopolis <br/> 72 Rue de la République <br/> 76140 Le Petit-Quevilly"
 phone = "02.79.02.73.78"
-email = "contact@normandiewebschool.fr"
-# copyright
-copyright = "Normandie Web School © 2020"
-
-# contact
+theme_color = "#41228e"
 [params.contact]
 enable = true
-form_action = "#" # contact form works with : https://formspree.io
-
-# preloader
+form_action = "#"
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
 [params.preloader]
 enable = true
-preloader = "" # use png, jpg, svg or gif format
-
-# social site
+preloader = ""
 [[params.social]]
 URL = "#"
 icon = "ti-facebook"
-
 [[params.social]]
 URL = "#"
 icon = "ti-instagram"
-
 [[params.social]]
 URL = "#"
 icon = "ti-dribbble"
-
 [[params.social]]
 URL = "#"
 icon = "ti-twitter-alt"
