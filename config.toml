@@ -76,7 +76,7 @@ description = "This is meta description"
 email = "contact@normandiewebschool.fr"
 google_analitycs_id = "Your ID"
 home = "Home"
-logo = "images/logo.png"
+logo = "images/logo_nws.png"
 phone = "02.79.02.73.78"
 theme_color = "#41228e"
 [params.contact]
