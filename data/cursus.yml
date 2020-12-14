@@ -1,0 +1,34 @@
+---
+global: ''
+banner:
+  title: ''
+  title-line-twho: ''
+  subtitle: ''
+about:
+  enable: false
+  title: ''
+  content: ''
+filieres:
+  enable: ''
+  item: []
+cursus:
+  enable: ''
+  title: ''
+  subtitle: ''
+reasons:
+  enable: false
+  title: ''
+  item: []
+data:
+  enable: false
+  title: ''
+  item: []
+team:
+  enable: false
+  title: ''
+  content: ''
+partners:
+  enable: false
+  title: ''
+testimonials:
+  enable: false
