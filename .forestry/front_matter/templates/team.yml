@@ -25,7 +25,5 @@ fields:
   hidden: true
   default: team
 pages:
-- content/team/Carole-Faure.md
-- content/team/Sitapha-Dia.md
 - content/team/carine-colona.md
 - content/team/sylvain-tenier.md
