@@ -3,7 +3,7 @@
 
 :root {
     --orange: #CA4B38;
-    --blue: #00A5A5;
+    --green: #00A5A5;
     --yellow: #FEC800;
     --grey: #717171;
 }
@@ -14,12 +14,25 @@
 .color-yellow {
     color: var(--yellow);
 }
+.color-grey {
+    color: var(--grey);
+}
 
 .color-blue {
-    color: var(--blue);
+    color: var(--green);
 
     button {
-        color: var(--blue);
+        color: var(--green);
+    }
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+.bg-grey {
+    background-color: var(--grey);
+    p {
+        color: white;
     }
 }
 
@@ -61,7 +74,7 @@ CARD COMPONENT
         }
         &.color-blue {
             &:after {
-                background-color: var(--blue);
+                background-color: var(--green);
             }
         }
     }
@@ -128,7 +141,7 @@ CARD COMPONENT
                 }
 
                 &.color-blue {
-                    background-color: var(--blue);
+                    background-color: var(--green);
                 }
             }
         }
@@ -188,7 +201,7 @@ GLOBAL
         background-color: var(--red);
     }
     .blue {
-        background-color: var(--blue);
+        background-color: var(--green);
     }
     .yellow {
         background-color: var(--yellow);
@@ -200,7 +213,7 @@ GLOBAL
 
     &.color-blue {
         &:after {
-            background-color: var(--blue);
+            background-color: var(--green);
         }
     }
     &.color-yellow {
@@ -225,6 +238,16 @@ GLOBAL
     }
 }
 
+hr {
+    height: 4px;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    &.white {
+        background-color: white;
+    }
+}
 .btn {
     font-size: 1.2em;
     &.color-yellow {
@@ -236,8 +259,30 @@ GLOBAL
         color: white !important;
     }
     &.color-blue {
-        background-color: var(--blue);
-        color: white !important;
+
+        &:not(.btn-outline){
+            background-color: var(--green);
+            color: white !important;
+        }
+
+        &.btn-outline {
+            background-color: transparent !important;
+            color: var(--green) !important;
+            border: 2px solid var(--green) !important;
+        }
+    }
+    &.color-white {
+
+        &:not(.btn-outline){
+            background-color: white;
+            color: var(--green) !important;
+        }
+
+        &.btn-outline {
+            background-color: transparent !important;
+            color: white !important;
+            border: 2px solid white !important;
+        }
     }
 }
 
@@ -254,8 +299,45 @@ SPECIFIC
     }
 }
 
+footer {
+    p {
+        color: white;
+        font-size: 1.2em;
+    }
+}
+
+
+.testimonial {
+    h3 {
+        font-size: 2em;
+    }
+    h4 {
+        font-size: 1em;
+    }
+}
+
+.partner-card {
+    padding: 1em 2em;
+    img {
+        object-fit: contain;
+        height: 100px;
+        width: auto;
+    }
+}
+
 .big-number {
     font-size: 6em;
+}
+
+img.border-blue {
+    border: 5px solid var(--green);
+}
+img.border-white {
+    border: 5px solid white;
+}
+img.team-image {
+    width: 150px;
+    height: 150px;
 }
 /*
 NAVBAR
@@ -298,8 +380,8 @@ NAVBAR
 
 
         &:last-child {
-            background-color: var(--blue);
-            border: 2px solid var(--blue);
+            background-color: var(--green);
+            border: 2px solid var(--green);
 
             .nav-link {
                 color: white;

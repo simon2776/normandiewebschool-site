@@ -1,58 +1,49 @@
-{{ if .Site.Params.contact.enable }}
-<!-- contact -->
-<section class="section section-on-footer" data-background="{{`images/backgrounds/bg-dots.png` | absURL}}">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Contact Info</h2>
-      </div>
-      <div class="col-lg-8 mx-auto">
-        <div class="bg-white rounded text-center p-5 shadow-down">
-          <h4 class="mb-80">Contact Form</h4>
-          <form action="{{.Site.Params.contact.form_action}}" method="POST" class="row">
-            <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
-            </div>
-            <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
-            </div>
-            <div class="col-12">
-              <textarea name="message" id="message" class="form-control px-0 mb-4"
-                placeholder="Type Message Here"></textarea>
-            </div>
-            <div class="col-lg-6 col-10 mx-auto">
-              <button class="btn btn-primary w-100">send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /contact -->
-{{ end }}
-
 <!-- footer -->
-<footer class="bg-dark footer-section">
-  <div class="section">
+<footer class="bg-green">
     <div class="container">
+      <div class="row text-center">
+
+        <div class="col-12">
+          <img class="m-auto" src="/images/assets/nws-white-logo.png" alt="Normandie Web School">
+          <hr class="white small"/>
+          <p>{{ .Site.Params.Abstract}}</p>
+        </div>
+
+      </div>
+
       <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.email}}</p>
+        <div class="col-md-4 mt-4 pl-4 pr-4">
+          <a href="" class="w-100 btn font-weight-medium color-white color-blue pt-3 pb-3">Nous contacter</a>
         </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.phone}}</p>
+
+        <div class="col-md-4 mt-4 pl-4 pr-4">
+          <a href="" class="w-100 btn btn-outline font-weight-medium color-white pt-3 pb-3">Actualités de l'école</a>
         </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.address}}</p>
+        <div class="col-md-4 mt-4 pl-4 pr-4">
+          <a href="" class="w-100 btn btn-outline font-weight-medium color-white pt-3 pb-3">Blog de l'école</a>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-4 mt-4">
+          <p>{{ .Site.Params.Address | markdownify }}</p>
+        </div>
+        <div class="col-md-4 mt-4">
+          <p>{{ .Site.Params.Phone}}</p>
+        </div>
+        <div class="col-md-4 mt-4">
+          <p>{{ .Site.Params.Email}}</p>
         </div>
       </div>
     </div>
-  </div>
-  <div class="border-top text-center border-dark py-5">
+
+  <div class="border-top text-center bg-grey py-5">
+
+    <ul>
+      <li><a href="">Mentions Légales</a></li>
+      <li><a href="">Politique de confidentialité</a></li>
+      <li><a href="">CGU</a></li>
+    </ul>
     <p class="mb-0 text-light">{{ .Site.Params.copyright | markdownify }}</p>
   </div>
 </footer>
