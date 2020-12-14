@@ -4,6 +4,26 @@ summaryLength = "10"
 theme = "nws-theme"
 title = "Kross | Hugo Portfolio Template"
 [[menu.main]]
+name = "Master Expert digital"
+parent = "Les cursus"
+weight = 5
+[[menu.main]]
+name = "Bachelor design"
+parent = "Les cursus"
+weight = 4
+[[menu.main]]
+name = "Bachelor développement"
+parent = "Les cursus"
+weight = 3
+[[menu.main]]
+name = "Bachelor marketing"
+parent = "Les cursus"
+weight = 2
+[[menu.main]]
+name = "Cursus intital"
+parent = "Les cursus"
+weight = 1
+[[menu.main]]
 name = "Demande d'inscription"
 weight = 8
 [[menu.main]]
