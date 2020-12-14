@@ -11,6 +11,20 @@
         })
     });
 
+    // Side menu
+    $("#burger").on('click', function () {
+        $("#side-menu").toggleClass("opened");
+        $('.layer-menu').toggleClass("opened");
+        $('body').toggleClass("scroll-disabled");
+    });
+
+    $(".layer-menu").on('click', function () {
+        $("#side-menu").toggleClass("opened");
+        $('.layer-menu').toggleClass("opened");
+        $('body').toggleClass("scroll-disabled");
+    });
+
+
 
     // Sticky Menu
     $(window).scroll(function () {
