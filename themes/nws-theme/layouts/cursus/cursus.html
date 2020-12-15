@@ -89,10 +89,18 @@
                     {{.content | markdownify}}
                   </p>
 
-                  <ul class="mt-3 {{ .color }}">
+                  <ul class="mt-3 {{ .color }} pl-0">
                     <li>[ {{.from}} ]</li>
                   </ul>
                 </div>
+
+                {{if .image}}
+                <div class="logo">
+                  {{ range .item }}
+                    <img src="{{.url}}" alt="">
+                  {{ end }}
+                </div>
+                {{ end }}
               </div>
             </div>
           </div>
@@ -111,7 +119,7 @@
   {{ end }}
 
 
-<!--  -->
+<!-- filieres -->
   {{ if .Site.Data.cursus.filieres.enable }}
   {{ with .Site.Data.cursus.filieres }}
   <section class="bg-white clip-bottom-lightgrey pt-5">
@@ -125,7 +133,16 @@
         <div class="cursus_filieres mt-5">
           {{ range .item }}
             <div class="row flex-column align-items-center mb-5">
+              {{if .image}}
+              <div class="circle">
+                <img src="{{.bulle}}" />
+              </div>
+              {{end}}
+              
+              {{if (not .image)}}
               <h3>{{.bulle}}</h3>
+              {{end}}
+
               <p>{{.title}}</p>
               <p>{{.content | markdownify}}</p>
               <a href="{{.link}}" class="mb-5">En savoir plus</a>

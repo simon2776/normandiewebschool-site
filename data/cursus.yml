@@ -13,41 +13,54 @@ about:
 cursus:
   enable: true;
   item:
-    - title: "Cursus intial"
+    - image : false
+      title: "Cursus intial"
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet."
       from: "Bac +1"
       color: "color-yellow"
 
-    - title: "Spécialisations"
+    - image : true
+      title: "Spécialisations"
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet."
       from: "Bac +3"
       color: "color-blue"
+      item: 
+        - url: "/images/marketing.svg"
+        - url: "/images/marketing.svg"
+        - url: "/images/marketing.svg"
 
-    - title: "Master"
+    - image : true
+      title: "Master"
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet."
       from: "Master"
       color: "color-orange"
+      item: 
+        - url: "/images/marketing.svg"
+        - url: "/images/marketing.svg"
 
 filieres:
   enable: true
   title: 'Le cursus en infographie'
   subtitle: 'Le parcours de la Normandie Web School résumé en un schéma. '
   item:  
-    - bulle : "1ère année"
+    - image : false
+      bulle : "1ère année"
       title : "Concepteur numérique"
       content: "Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital."
       arrow: true
       arrowImage: "/images/arrow-down.svg"
       link: "#"
 
-    - bulle : ""
+    - image : true
+      bulle : "/images/marketing.svg"
       title : "Spécialisation Marketing"
       content: "Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital."
       arrow: true
       arrowImage: "/images/arrow-down.svg"
       link: "#"
 
-    - bulle : "3ème année"
+    - image : false
+      bulle : "3ème année"
       title : "Chef de projet digital"
       content: "Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital."
       arrow: false

@@ -605,6 +605,19 @@ HERO HEADER
         font-weight: bold;
     }
 
+    .circle {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        border-radius: 50%;
+        text-align: center;
+        border: 7px solid var(--green);
+    }
+
+
+
     p {
         margin: 0;
         width: 60%;
