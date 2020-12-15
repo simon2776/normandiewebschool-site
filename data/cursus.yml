@@ -1,34 +1,40 @@
 ---
 global: ''
 banner:
-  title: Cursus
+  title: 'Nos <span class=\"font-weight-medium\">Cursus</span>'
   title-line-twho: ''
-  subtitle: ''
+  subtitle: 'Un enseignement professionnalisant et varié pour un avenir 100% numérique.'
 about:
-  enable: false
-  title: ''
-  content: ''
-filieres:
-  enable: ''
-  item: []
+  enable: true
+  title: 'Titre de la section'
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim.
+            Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat.
+            Integer nec dui a elit volutpat tincidunt. '
 cursus:
-  enable: ''
-  title: ''
-  subtitle: ''
-reasons:
-  enable: false
-  title: ''
-  item: []
+  enable: true;
+  item:
+    - title: "Cursus intial"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet."
+      from: "Bac +1"
+      color: "color-yellow"
+
+    - title: "Spécialisations"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet."
+      from: "Bac +3"
+      color: "color-blue"
+
+    - title: "Master"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet."
+      from: "Master"
+      color: "color-orange"
+
+filieres:
+  enable: true
+  title: 'Le cursus en infographie'
+  subtitle: 'Le parcours de la Normandie Web School résumé en un schéma. '
 data:
   enable: false
   title: ''
   item: []
-team:
-  enable: false
-  title: ''
-  content: ''
-partners:
-  enable: false
-  title: ''
 testimonials:
   enable: false

@@ -6,6 +6,7 @@
     --green: #00A5A5;
     --yellow: #FEC800;
     --grey: #717171;
+    --lightgrey : #F2F2F2;
 }
 
 .color-orange {
@@ -35,6 +36,9 @@
         color: white;
     }
 }
+.bg-lightgrey {
+    background-color: var(--lightgrey) !important;
+}
 
 .font-weight-medium {
     font-weight: 500;
@@ -42,6 +46,37 @@
 
 .scroll-disabled {
     overflow: hidden;
+}
+
+
+.clip-top-white {
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        height: 150px;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        clip-path: polygon(0 70%, 0% 100%, 100% 100%);
+    }
+}
+
+.clip-bottom-lightgrey {
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        height: 150px;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        background: var(--lightgrey);
+        clip-path: polygon(100% 70%, 0% 100%, 100% 100%);
+    }
 }
 
 /*
@@ -62,7 +97,7 @@ CARD COMPONENT
             height: 10px;
             content: '';
             position: absolute;
-            bottom: 0;
+            bottom: -1px;
             left: 0;
         }
 
@@ -484,6 +519,7 @@ HERO HEADER
         bottom: 0;
         right: 0;
         transform: translate(40%, 40%);
+        filter: none;
     }
 
     .navbar {
@@ -533,4 +569,23 @@ HERO HEADER
     
     }
 
+}
+
+
+// Cursus
+
+
+.cursus-title {
+    font-weight: bold;
+    color: #BEBEBE;
+    font-size: 1.2rem;
+}
+
+
+.points {
+    position: absolute;
+    filter: brightness(0.5);
+    bottom: 0;
+    right: 0;
+    transform: translate(25%, 45%);
 }
