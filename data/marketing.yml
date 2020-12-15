@@ -1,0 +1,20 @@
+---
+global: ''
+banner:
+  title: ''
+  title-line-twho: ''
+  subtitle: ''
+about:
+  enable: false
+  title: ''
+  content: ''
+cursus:
+  enable: ''
+  item: []
+filieres:
+  enable: false
+  title: ''
+  subtitle: ''
+  item: []
+testimonials:
+  enable: false
