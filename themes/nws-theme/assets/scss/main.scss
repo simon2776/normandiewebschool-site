@@ -589,3 +589,36 @@ HERO HEADER
     right: 0;
     transform: translate(25%, 45%);
 }
+
+.cursus_filieres {
+
+    h3 {
+        color: var(--orange);
+        height: 150px;
+        display: flex;
+        align-items: center;
+        width: 150px;
+        border-radius: 50%;
+        text-align: center;
+        border: 7px solid var(--green);
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    p {
+        margin: 0;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        
+        &:first-of-type {
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+    }
+
+    a {
+        color: var(--green);
+        text-decoration: underline;
+    }
+}

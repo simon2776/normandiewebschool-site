@@ -32,9 +32,27 @@ filieres:
   enable: true
   title: 'Le cursus en infographie'
   subtitle: 'Le parcours de la Normandie Web School résumé en un schéma. '
-data:
-  enable: false
-  title: ''
-  item: []
+  item:  
+    - bulle : "1ère année"
+      title : "Concepteur numérique"
+      content: "Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital."
+      arrow: true
+      arrowImage: "/images/arrow-down.svg"
+      link: "#"
+
+    - bulle : ""
+      title : "Spécialisation Marketing"
+      content: "Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital."
+      arrow: true
+      arrowImage: "/images/arrow-down.svg"
+      link: "#"
+
+    - bulle : "3ème année"
+      title : "Chef de projet digital"
+      content: "Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital."
+      arrow: false
+      link: "#"
+
 testimonials:
-  enable: false
+  enable: true
+  # testimonials item comes from 'content/testimonials'

@@ -122,9 +122,18 @@
           <p>{{ .subtitle }}</p>
         </div>
 
-        <div class="col-12 mt-4 d-flex">
-          <img src="/images/assets/infographie-cursus.svg" style="margin: 0 auto" width="90%"
-               alt="Cursus à la Normandie Web School">
+        <div class="cursus_filieres mt-5">
+          {{ range .item }}
+            <div class="row flex-column align-items-center mb-5">
+              <h3>{{.bulle}}</h3>
+              <p>{{.title}}</p>
+              <p>{{.content | markdownify}}</p>
+              <a href="{{.link}}" class="mb-5">En savoir plus</a>
+              {{if .arrow}}
+              <img src="{{.arrowImage}}"/>
+              {{ end }}
+            </div>
+          {{ end }}
         </div>
       </div>
     </div>

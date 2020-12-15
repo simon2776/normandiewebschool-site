@@ -15,6 +15,9 @@ body {
   color: #4c4c4c;
 }
 
+section {
+  overflow: hidden;
+}
 
 p {
   font-weight: 400;
@@ -208,7 +211,7 @@ a:hover {
 
 .section {
   padding-top: 80px;
-  padding-bottom: 80px
+  padding-bottom: 80px;
 }
 
 .section-title {
