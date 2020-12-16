@@ -4,35 +4,35 @@
   class="hero-area bg-primary overflow-hidden d-flex align-items-center"
   id="parallax"
 >
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-11 d-none d-md-block">
-        <h1>{{ .title | safeHTML }}</h1>
-        <h2>{{ .subtitle | safeHTML }}</h2>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-11 d-none d-md-block">
+                <h1>{{ .title | safeHTML }}</h1>
+                <h2>{{ .subtitle | safeHTML }}</h2>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 <!-- /hero area -->
 
 <section class="pb-4 bg-lightgrey up">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <img src="{{.logo}}" alt="" />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                <img src="{{.logo}}" alt="" />
 
-          <div class="card-header {{.color}}">
-            <h3 class="m-auto">{{ .title | safeHTML }}</h3>
-          </div>
+                <div class="card-header {{.color}}">
+                    <h3 class="m-auto">{{ .title | safeHTML }}</h3>
+                </div>
 
-          <div class="card-body">
-            <p class="font-weight-medium text-center">
-              {{ .description | safeHTML }}
-            </p>
-          </div>
+                <div class="card-body">
+                    <p class="font-weight-medium text-center">
+                    {{ .description | safeHTML }}
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <div class="row justify-content-between p-3 btn-filieres">
         {{ range .buttons }}
@@ -71,64 +71,160 @@
 {{ if .skills.enable }}
 {{ with .skills }}
 <section class="bg-lightgrey pt-4 clip-bottom-white skills">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-
-        <div class="card">
-          <div class="card-header color-blue with-separator" id="headingAbout" data-toggle="collapse"
-               data-target="#collapseAbout">
-            <h3 class="mb-0">
-                {{.title}}
-            </h3>
-            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="true"
-                    aria-controls="collapseOne">
-              >
-            </button>
-        </div>
-
-
-
-          <div id="collapseAbout" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
-            <div class="card-body">
-                <p class="mb-4">
-                    {{.subtitle}}
-                </p>
-                {{ range .item }}
-                    <div class="row flex-column align-items-center skill mt-5">
-                      <div class="icon mb-3">
-                          <img src="{{.icon}}" alt="">
-                      </div>
-                      <h3>{{.title}}</h3>
-                      <p>{{.description}}</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div 
+                        class="card-header color-blue with-separator" 
+                        id="headingAbout" 
+                        data-toggle="collapse"
+                        data-target="#collapseAbout"
+                    >
+                        <h3 class="mb-0">
+                            {{.title}}
+                        </h3>
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="true"
+                                aria-controls="collapseOne">
+                        >
+                        </button>
                     </div>
-                {{ end }}
-                <div class="row mt-5 mb-4">
-                    <div class="col-12 d-flex justify-content-center">
-                      <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher toutes les compétences</a>
+
+                    <div id="collapseAbout" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <p class="mb-4">
+                                {{.subtitle}}
+                            </p>
+                            {{ range .item }}
+                                <div class="row flex-column align-items-center skill mt-5">
+                                <div class="icon mb-3">
+                                    <img src="{{.icon}}" alt="">
+                                </div>
+                                <h3>{{.title}}</h3>
+                                <p>{{.description}}</p>
+                                </div>
+                            {{ end }}
+                            <div class="row mt-5 mb-4">
+                                <div class="col-12 d-flex justify-content-center">
+                                <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher toutes les compétences</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-          </div>
         </div>
-
-      </div>
     </div>
-  </div>
 </section>
 {{ end }}
 {{ end }}
 
 
-{{ if .skills.enable }}
-{{ with .skills }}
-<section class="pt-4 clip-bottom-white skills">
-  <div class="container">
-    <div class="row">
-      
+{{ if .years.enable }}
+{{ with .years }}
+<section class="section" id="years">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">  
+                <div
+                    id="yearCarousel"
+                    class="carousel slide"
+                    data-ride="carousel"
+                    data-interval="false"
+                >
+                    <div class="carousel-indicators justify-content-between">
+                        {{range $index, $value := .item}}
+                        <a
+                            data-target="#yearCarousel"
+                            data-slide-to="{{$index}}"
+                            class="btn btn-years {{.active}}"
+                        >{{.button}}</a>
+                        {{end}}
+                    </div>
+        
+                    <div class="carousel-inner mt-5">
+                        {{ range $index, $value := .item }}
+                        <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">
+                            <div class="color-blue with-separator">
+                                <h3 class="mb-0">
+                                    {{.title}}
+                                </h3>
+                            </div>
+                            <p class="mt-4">{{.subtitle}}</p>
+                            {{ range $index, $value := .etape }}
+                                <div class="row flex-column mt-4">
+                                    <div class="step container">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="number mb-0 mr-2">
+                                                {{add $index 1}}
+                                            </p>
+                                            <h3 class="mb-0"> 
+                                                {{.title}}
+                                            </h3>
+                                        </div>
+                                        <p>
+                                            {{.content}}
+                                        </p>
+                                    </div>
+                                </div>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                        <div class="row mt-5 mb-4">
+                            <div class="col-12 d-flex justify-content-center">
+                            <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher toutes les unités d'enseignement</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 {{ end }}
 {{ end }}
 
+{{ if .profession.enable }}
+{{ with .profession }}
+<section class="clip-bottom-lightgrey skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header color-blue with-separator" id="headingProfession" data-toggle="collapse"
+                        data-target="#collapseProfession">
+                        <h3 class="mb-0">
+                            {{.title}}
+                        </h3>
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseProfession" aria-expanded="true"
+                                aria-controls="collapseOne">
+                        >
+                        </button>
+                    </div>
+
+
+                    <div id="collapseProfession" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <p class="mb-4">
+                                {{.subtitle}}
+                            </p>
+                            {{ range .item }}
+                                <div class="row flex-column align-items-center profession mt-5">
+                                    <h3>{{.title}}</h3>
+                                    <p>{{.description}}</p>
+                                </div>
+                            {{ end }}
+                            <div class="row mt-5 mb-4">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher tous les débouchés</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
