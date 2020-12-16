@@ -1,20 +1,47 @@
 ---
 global: ''
 banner:
-  title: ''
-  title-line-twho: ''
-  subtitle: ''
+  logo: '/images/marketing.svg'
+  title: 'Filière Design'
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. <br/><br/>
+    Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat. <br/><br/>
+    Integer nec dui a elit volutpat tincidunt.'
+  color: 'color-orange '
+  buttons:
+    - arrow: 'left'
+      label: 'Marketing'
+      color: 'color-orange'
+      justify: 'text-right'
+    - arrow: 'right'
+      label: 'Développement'
+      color: 'color-yellow'
+
+      justify: 'text-left'
+
 about:
-  enable: false
-  title: ''
-  content: ''
-cursus:
-  enable: ''
-  item: []
+  enable: true
+  image: '/images/valerie.png'
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. <br/><br/>
+    Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat.'
+skills:
+  enable: true
+  title: 'Les Compétences'
+  subtitle : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
+  item:
+    - icon: '/images/creativity.svg'
+      title: 'Créativité'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
+    - icon: '/images/search.svg'
+      title: 'Curiosité'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
+
 filieres:
   enable: false
   title: ''
   subtitle: ''
   item: []
 testimonials:
-  enable: false
+  enable: true
+  # testimonials item comes from 'content/testimonials'
