@@ -1,0 +1,23 @@
+---
+global: ''
+banner:
+  title: ''
+  title-line-twho: ''
+  subtitle: ''
+about:
+  enable: false
+  title: ''
+  content: ''
+recrutement:
+  enable: false
+  item: []
+colorBlock:
+  enable: false
+  item: []
+partners:
+  enable: false
+  title: ''
+  subtitle: ''
+  partner: []
+testimonials:
+  enable: false
