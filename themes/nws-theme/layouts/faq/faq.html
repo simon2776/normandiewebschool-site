@@ -1,0 +1,120 @@
+{{ define "main" }}
+
+<!-- hero area -->
+<section
+  class="hero-area bg-primary overflow-hidden d-flex align-items-center"
+  id="parallax"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 d-none d-md-block">
+        <h1>{{ .Site.Data.faq.banner.title | safeHTML }}</h1>
+        <h2>{{ .Site.Data.faq.banner.subtitle | safeHTML }}</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /hero area -->
+
+<section class="pb-4 bg-lightgrey up">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header color-orange with-separator">
+            <h3>{{ .Site.Data.faq.banner.title | safeHTML }}</h3>
+          </div>
+
+          <div class="card-body">
+            <p class="font-weight-medium">
+              {{ .Site.Data.faq.banner.subtitle | safeHTML }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ if .Site.Data.faq.subjects.enable }} {{ with .Site.Data.faq.subjects }}
+<section
+  class="accordion-section clearfix bg-lightgrey clip-bottom-white"
+  aria-label="Question Accordions"
+>
+  <div class="container">
+    <div class="row">
+      {{range $subject, $el := .item}}
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <div class="card-header color-blue flex-column">
+            <img
+              class="card-img-top rounded-circle card-img-top border-blue team-image m-auto"
+              src="{{.image}}"
+              alt="Valérie"
+            />
+            <h3 class="m-auto py-3">{{.subject}}</h3>
+            <p>{{.subtitle}}</p>
+          </div>
+
+          <div class="container">
+            <div
+              class="panel-group"
+              id="accordion"
+              role="tablist"
+              aria-multiselectable="true"
+            >
+              {{ range $index, $value := .questions }}
+              <div class="panel panel-default">
+                <div
+                  class="panel-heading py-2 mb-3"
+                  role="tab"
+                  id="heading-{{$subject}}-{{$index}}"
+                >
+                  <h3 class="panel-title">
+                    <a
+                      class="collapsed"
+                      role="button"
+                      title=""
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse-{{$subject}}-{{$index}}"
+                      aria-expanded="true"
+                      aria-controls="collapse-{{$subject}}-{{$index}}"
+                    >
+                      {{.question}}
+                    </a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse-{{$subject}}-{{$index}}"
+                  class="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="heading-{{$subject}}-{{$index}}"
+                >
+                  <div class="panel-body mb-4">
+                    <p>{{.answer}}</p>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
+
+<section class="my-5">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <a href="" class="btn font-weight-medium color-blue py-3 px-4"
+        >Vous avez encore des <br />
+        questions ?</a
+      >
+    </div>
+  </div>
+</section>
+{{ end }}

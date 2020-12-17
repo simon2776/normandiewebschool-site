@@ -910,3 +910,27 @@ HERO HEADER
     transform: translate(-25%, 15%);
   }
 }
+
+//
+
+.accordion-section {
+  .card {
+    z-index: 9;
+  }
+  .panel-default {
+    .panel-heading {
+      border-bottom: 1px solid var(--green);
+      padding: 0;
+
+      a {
+        display: block;
+        font-size: 1.3rem;
+        color: var(--green);
+      }
+    }
+
+    .panel-body {
+      font-size: 1.2rem;
+    }
+  }
+}
