@@ -1,0 +1,4 @@
+---
+title: 'Entreprises'
+type: 'page'
+---

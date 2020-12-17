@@ -1,20 +1,54 @@
 ---
 global: ''
 banner:
-  title: ''
+  title: 'Les Entreprises'
   title-line-twho: ''
-  subtitle: ''
+  subtitle: 'Un enseignement professionnalisant et varié pour un avenir 100% numérique.'
 about:
-  enable: false
-  title: ''
-  content: ''
-cursus:
-  enable: ''
-  item: []
-filieres:
-  enable: false
-  title: ''
-  subtitle: ''
-  item: []
+  enable: true
+  title: 'Introduction'
+  content: '
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. <br /><br />
+    Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat. <br /><br />
+    Integer nec dui a elit volutpat tincidunt. '
+recrutement:
+  enable: true
+  item:
+    - image: '/images/valerie.png'
+      title: 'Les stages'
+      content:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim.
+        Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat.'
+      color: 'color-blue'
+    - image: '/images/valerie.png'
+      title: "L'alternance"
+      content:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim.
+        Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat.'
+      color: 'color-orange'
+colorBlock:
+  enable: true
+  item:
+    - title: 'Intervenir à la School'
+      content:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero, sodales ut tempor consequat, fringilla vel libero.'
+      button: 'Je postule'
+      color: 'color-blue'
+    - title: 'Soumettre un projet'
+      content:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero, sodales ut tempor consequat, fringilla vel libero.'
+      button: "J'ai un projet"
+      color: 'color-yellow'
+partners:
+  enable: true
+  title: 'Les entreprises qui nous font confiance'
+  subtitle: "Découvrez l'équipe de la Normandie Web School au service de la pédagogie et du développement de chacun des étudiants."
+  partner:
+    - logo: ''
+    - logo: ''
+    - logo: ''
+    - logo: ''
 testimonials:
   enable: false

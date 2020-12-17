@@ -828,3 +828,85 @@ HERO HEADER
     line-height: 1.1;
   }
 }
+
+// enteprises
+
+.recrutement {
+  .card {
+    z-index: 9 !important;
+  }
+
+  &.clip-bottom-white {
+    &:after {
+      height: 300px !important;
+    }
+  }
+}
+
+// colorBlock
+
+.colorBlocks {
+  .colorBlock {
+    box-shadow: none;
+    color: #fff;
+    overflow: visible;
+    z-index: 9;
+
+    .card-header {
+      background: transparent;
+
+      h3 {
+        margin-right: auto;
+      }
+    }
+
+    .card-body {
+      p {
+        color: #fff;
+        text-align: left;
+      }
+    }
+
+    a {
+      position: absolute;
+      background: #fff !important;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      box-shadow: 0px 0px 12px #00000029;
+    }
+
+    &.color-blue {
+      background: var(--green);
+
+      a {
+        color: var(--green) !important;
+        border: 2px solid var(--green);
+      }
+    }
+
+    &.color-orange {
+      background: var(--orange);
+
+      a {
+        color: var(--orange);
+        border: 2px solid var(--orange);
+      }
+    }
+
+    &.color-yellow {
+      background: var(--yellow);
+
+      a {
+        color: var(--yellow);
+        border: 2px solid var(--yellow);
+      }
+    }
+  }
+
+  .points {
+    left: 0;
+    right: auto;
+    transform: translate(-25%, 15%);
+  }
+}

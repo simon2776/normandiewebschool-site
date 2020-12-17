@@ -1,0 +1,228 @@
+{{ define "main" }}
+
+  <!-- hero area -->
+  <section class="hero-area bg-primary overflow-hidden d-flex align-items-center" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 d-none d-md-block">
+          <h1>{{ .Site.Data.entreprises.banner.title | safeHTML }}</h1>
+          <h2>{{ .Site.Data.entreprises.banner.subtitle | safeHTML }}</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /hero area -->
+
+  <section class="pb-4 bg-lightgrey up">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+              <div class="card-header color-orange with-separator">
+                <h3>
+                  {{ .Site.Data.entreprises.banner.title | safeHTML }}
+                </h3>
+              </div>
+
+              <div class="card-body">
+                <p class="font-weight-medium">
+                  {{ .Site.Data.entreprises.banner.subtitle | safeHTML }}
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ if .Site.Data.entreprises.about.enable }}
+  <!-- about -->
+  <section class="pb-4 bg-lightgrey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          {{ with .Site.Data.entreprises.about }}
+          <div class="card">
+            <div class="card-header color-blue with-separator">
+              <h3 class="mb-0">
+                  {{.title}}
+              </h3>
+            </div>
+
+            <div id="collapseAbout" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  {{.content | markdownify}}
+                </p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+
+  <!-- Recrutement -->
+  {{ if .Site.Data.entreprises.recrutement.enable }}
+  {{ with .Site.Data.entreprises.recrutement }}
+  <section class="bg-lightgrey clip-bottom-white recrutement">
+    <div class="container">
+      <div class="row mb-3">
+        <p class="cursus-title pl-5 mb-0">Vous recrutez ?</p>
+        <img src="/images/cursus-wave.svg" class='ml-3 mb-1' alt="">
+      </div>
+      <div class="row">
+        {{ range .item }}
+          <div class="col-md-12 mb-4">
+            <div class="card center-card {{ .color }}">
+              <div class="card-header">
+                <img 
+                  class="card-img-top rounded-circle card-img-top border-blue team-image" 
+                  src="{{.image}}" 
+                  alt="Valérie"
+                >
+                <h3>{{.title}}</h3>
+              </div>
+
+              <div>
+                <div class="card-body">
+                  <p>
+                    {{.content | markdownify}}
+                  </p>
+                  <div class="row">
+                    <div class="col-12 d-flex justify-content-center mt-4">
+                    <a href="" class="btn font-weight-medium {{.color}} mb-3 pt-3 pb-3 px-5">Je recrute !</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+
+
+<!-- ColorBlock -->
+  {{ if .Site.Data.entreprises.colorBlock.enable }}
+  {{ with .Site.Data.entreprises.colorBlock }}
+  <section class="bg-white clip-bottom-lightgrey pt-5 overflow-hidden colorBlocks">
+    <div class="container pb-5">
+      <div class="row">
+        {{ range .item }}
+           <div class="col-md-12 mb-5">
+            <div class="mb-5 card center-card colorBlock {{ .color }}">
+              <div class="card-header">
+                <h3>{{.title}}</h3>
+              </div>
+              <div>
+                <div class="card-body">
+                  <p>
+                    {{.content | markdownify}}
+                  </p>
+                  <a href="" class="btn font-weight-medium pt-3 pb-3 px-4">{{.button}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    <img src="/images/points.svg" alt="" class="points">
+  </section>
+  {{ end }}
+  {{ end }}
+
+
+{{ if .Site.Data.homepage.testimonials.enable }}
+  <!-- Team -->
+  <section class="bg-lightgrey pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          {{ $testimonials := where .Site.RegularPages "Type" "in" "testimonial" }}
+
+          <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#testimonalsCarouselIndicator" data-slide-to="0" class="active"></li>
+              <li data-target="#testimonalsCarouselIndicator" data-slide-to="1"></li>
+              <li data-target="#testimonalsCarouselIndicator" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              {{ range $index, $value := $testimonials }}
+                <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">
+                  {{ partial "testimonial.html" . }}
+                </div>
+              {{ end }}
+            </div>
+
+            <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
+
+{{ if .Site.Data.entreprises.partners.enable }}
+{{ with .Site.Data.entreprises.partners }}
+<section class="section bg-lightgrey">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div 
+                        class="card-header color-blue with-separator" 
+                        id="headingPartners" 
+                        data-toggle="collapse"
+                        data-target="#collapsePartners"
+                    >
+                        <h3 class="mb-0">
+                            {{.title}}
+                        </h3>
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsePartners" aria-expanded="true"
+                                aria-controls="collapseOne">
+                        >
+                        </button>
+                    </div>
+
+                    <div id="collapsePartners" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <p class="mb-4">
+                                {{.subtitle}}
+                            </p>
+                            {{ range .item }}
+                                <img src="{{.logo}}" alt="">
+                            {{ end }}
+                            <div class="row mt-5 mb-4">
+                                <div class="col-12 d-flex justify-content-center">
+                                <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher toutes les compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ end }}
