@@ -1,0 +1,9 @@
+---
+global: ''
+banner:
+  title: ''
+  title-line-twho: ''
+  subtitle: ''
+subjects:
+  enable: false
+  item: []
