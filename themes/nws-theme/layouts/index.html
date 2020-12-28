@@ -14,7 +14,7 @@
   <!-- /hero area -->
 
   <section>
-    <div class="container">
+    <div class="pb-4 container bg-lightgrey up">
       <div class="row">
         <div class="col-md-12">
             <div class="card">
@@ -37,7 +37,7 @@
 
   {{ if .Site.Data.homepage.about.enable }}
   <!-- about -->
-  <section>
+  <section class="bg-lightgrey pb-4">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -71,26 +71,30 @@
   <!-- filières -->
   {{ if .Site.Data.homepage.filieres.enable }}
   {{ with .Site.Data.homepage.filieres }}
-  <section>
+  <section class="py-5 bg-lightgrey">
     <div class="container">
+      <div class="row mb-4 px-5">
+        <p class="cursus-title mb-0">Nos filières</p>
+        <img src="/images/cursus-wave.svg" class='ml-3 mb-1' alt="">
+      </div>
       <div class="row">
-        {{ range .item }}
-          <div class="col-md-12">
+        {{ range $index, $value := .item }}
+          <div class="col-md-12 pb-4">
           <div class="card center-card with-border {{ .color }}">
-            <div class="card-header" id="headingDev" data-toggle="collapse"
-                 data-target="#collapseDev" >
+            <div class="card-header" id="heading-{{$index}}" data-toggle="collapse"
+                 data-target="#collapse-{{$index}}" >
 
               <img src="" alt="" width="100px" height="100px" style="background-color: grey;">
 
               <h3>{{.title}}</h3>
 
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseDev" aria-expanded="true"
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-{{$index}}" aria-expanded="true"
                         aria-controls="collapseOne">
                   >
               </button>
             </div>
 
-            <div id="collapseDev" class="collapse show" aria-labelledby="headingDev" data-parent="#accordion">
+            <div id="collapse-{{$index}}" class="collapse show" aria-labelledby="heading-{{$index}}" data-parent="#accordion">
               <div class="card-body">
                 <p>
                   {{.content | markdownify}}
@@ -111,7 +115,7 @@
         {{ end }}
       </div>
 
-      <div class="row">
+      <div class="row pb-5">
         <div class="col-12 d-flex justify-content-center mt-4">
           <a href="" class="btn font-weight-medium color-blue mt-5 mb-3 pt-3 pb-3 pl-4 pr-4">Demande d'inscription</a>
         </div>
@@ -127,7 +131,7 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center mt-5">
           <h3 class="title-medium color-orange">{{ .title }}</h3>
           <p>{{ .subtitle }}</p>
         </div>
@@ -181,11 +185,14 @@
   {{ if .Site.Data.homepage.data.enable }}
   {{ with .Site.Data.homepage.data }}
   <!-- reasons -->
-  <section class="section">
+  <section class="mb-5">
     <div class="container">
+      <div class="row mb-4 px-5">
+        <p class="cursus-title mb-0">{{ .title | markdownify }}</p>
+        <img src="/images/cursus-wave.svg" class='ml-3 mb-1' alt="">
+      </div>
       <div class="row">
         <div class="col-lg-12 text-center">
-            <h3 class="title-medium color-blue mt-5 mb-0">{{ .title | markdownify }}</h3>
 
             {{ range .item }}
 
@@ -249,8 +256,8 @@
 
 {{ if .Site.Data.homepage.partners.enable }}
   <!-- Team -->
-  <section>
-    <div class="container">
+  <section class="clip-bottom-lightgrey pb-5">
+    <div class="container mb-5">
       <div class="row">
         <div class="col-md-12">
               <h3 class="mb-0 text-center title-medium color-orange mt-5 mb-0">
@@ -272,7 +279,7 @@
 
 {{ if .Site.Data.homepage.testimonials.enable }}
   <!-- Team -->
-  <section>
+  <section class="bg-lightgrey">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

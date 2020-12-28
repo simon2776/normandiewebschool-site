@@ -934,3 +934,46 @@ HERO HEADER
     }
   }
 }
+
+//
+
+.input-icon {
+  input {
+    background: #f3f3f3;
+    padding: 5px;
+    padding-left: 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 50px;
+    width: 100%;
+    outline: none;
+    height: 40px;
+
+    &::placeholder {
+      color: #717171;
+      opacity: 0.5;
+    }
+  }
+
+  textarea {
+    background: #f3f3f3;
+    padding: 5px;
+    padding-left: 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    width: 100%;
+    outline: none;
+
+    &::placeholder {
+      color: #717171;
+      opacity: 0.5;
+    }
+  }
+}
+
+.form-check {
+  label {
+    font-size: 0.7rem;
+    color: #717171;
+    opacity: 0.5;
+  }
+}
