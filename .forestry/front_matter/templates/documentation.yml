@@ -54,3 +54,5 @@ fields:
     - type: boolean
       name: required
       label: required
+pages:
+- data/documentation.yml
