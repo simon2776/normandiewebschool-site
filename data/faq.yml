@@ -3,121 +3,126 @@ global: ''
 banner:
   title: La Foire aux questions
   title-line-twho: ''
-  subtitle: Des questions ? Des réponses ! Ici vous retrouverez toutes les informations
+  subtitle:
+    Des questions ? Des réponses ! Ici vous retrouverez toutes les informations
     que vous recherchez.
-about:
-  enable: false
-  title: ''
-  content: ''
-recrutement:
-  enable: false
-  item: []
-colorBlock:
-  enable: false
-  item: []
-partners:
-  enable: false
-  title: ''
-  subtitle: ''
-  partner: []
-testimonials:
-  enable: false
 subjects:
   enable: true
   item:
-  - image: "/images/valerie.png"
-    subject: Sujet n°1
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-      erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
-    questions:
-    - question: Question de la mort qui tue qu'on se pose tous mais auquel personne
-        ne sait répondre ?
-      answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
-        enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
-        porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
-        Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
-        dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
-        ultricies orci. Morbi egestas elit at gravida congue.
-    - question: Question de la mort qui tue qu'on se pose tous mais auquel personne
-        ne sait répondre ?
-      answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
-        enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
-        porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
-        Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
-        dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
-        ultricies orci. Morbi egestas elit at gravida congue.
-    - question: Question de la mort qui tue qu'on se pose tous mais auquel personne
-        ne sait répondre ?
-      answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
-        enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
-        porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
-        Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
-        dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
-        ultricies orci. Morbi egestas elit at gravida congue.
-  - image: "/images/valerie.png"
-    subject: Sujet n°2
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-      erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
-    questions:
-    - question: Question de la mort qui tue qu'on se pose tous mais auquel personne
-        ne sait répondre ?
-      answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
-        enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
-        porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
-        Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
-        dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
-        ultricies orci. Morbi egestas elit at gravida congue.
-    - question: Question de la mort qui tue qu'on se pose tous mais auquel personne
-        ne sait répondre ?
-      answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
-        enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
-        porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
-        Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
-        dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
-        ultricies orci. Morbi egestas elit at gravida congue.
-    - question: Question de la mort qui tue qu'on se pose tous mais auquel personne
-        ne sait répondre ?
-      answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
-        enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
-        porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
-        Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
-        dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
-        ultricies orci. Morbi egestas elit at gravida congue.
-  - image: "/images/valerie.png"
-    subject: Sujet n°3
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-      erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
-    questions:
-    - question: Question de la mort qui tue qu'on se pose tous mais auquel personne
-        ne sait répondre ?
-      answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
-        enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
-        porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
-        Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
-        dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
-        ultricies orci. Morbi egestas elit at gravida congue.
-    - question: Question de la mort qui tue qu'on se pose tous mais auquel personne
-        ne sait répondre ?
-      answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
-        enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
-        porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
-        Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
-        dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
-        ultricies orci. Morbi egestas elit at gravida congue.
-    - question: Question de la mort qui tue qu'on se pose tous mais auquel personne
-        ne sait répondre ?
-      answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
-        enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
-        porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
-        Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
-        dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
-        ultricies orci. Morbi egestas elit at gravida congue.
+    - image: '/images/valerie.png'
+      subject: Sujet n°1
+      subtitle:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+      questions:
+        - question:
+            Question de la mort qui tue qu'on se pose tous mais auquel personne
+            ne sait répondre ?
+          answer:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+            erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
+            enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
+            porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
+            Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
+            dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
+            ultricies orci. Morbi egestas elit at gravida congue.
+        - question:
+            Question de la mort qui tue qu'on se pose tous mais auquel personne
+            ne sait répondre ?
+          answer:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+            erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
+            enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
+            porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
+            Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
+            dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
+            ultricies orci. Morbi egestas elit at gravida congue.
+        - question:
+            Question de la mort qui tue qu'on se pose tous mais auquel personne
+            ne sait répondre ?
+          answer:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+            erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
+            enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
+            porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
+            Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
+            dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
+            ultricies orci. Morbi egestas elit at gravida congue.
+    - image: '/images/valerie.png'
+      subject: Sujet n°2
+      subtitle:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+      questions:
+        - question:
+            Question de la mort qui tue qu'on se pose tous mais auquel personne
+            ne sait répondre ?
+          answer:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+            erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
+            enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
+            porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
+            Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
+            dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
+            ultricies orci. Morbi egestas elit at gravida congue.
+        - question:
+            Question de la mort qui tue qu'on se pose tous mais auquel personne
+            ne sait répondre ?
+          answer:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+            erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
+            enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
+            porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
+            Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
+            dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
+            ultricies orci. Morbi egestas elit at gravida congue.
+        - question:
+            Question de la mort qui tue qu'on se pose tous mais auquel personne
+            ne sait répondre ?
+          answer:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+            erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
+            enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
+            porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
+            Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
+            dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
+            ultricies orci. Morbi egestas elit at gravida congue.
+    - image: '/images/valerie.png'
+      subject: Sujet n°3
+      subtitle:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+        erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+      questions:
+        - question:
+            Question de la mort qui tue qu'on se pose tous mais auquel personne
+            ne sait répondre ?
+          answer:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+            erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
+            enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
+            porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
+            Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
+            dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
+            ultricies orci. Morbi egestas elit at gravida congue.
+        - question:
+            Question de la mort qui tue qu'on se pose tous mais auquel personne
+            ne sait répondre ?
+          answer:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+            erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
+            enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
+            porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
+            Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
+            dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
+            ultricies orci. Morbi egestas elit at gravida congue.
+        - question:
+            Question de la mort qui tue qu'on se pose tous mais auquel personne
+            ne sait répondre ?
+          answer:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
+            erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque
+            enim. Vivamus quis mi magna. Suspendisse ante dui, laoreet a enim ut, accumsan
+            porttitor nunc. Praesent vel nunc dictum, vehicula nibh sed, hendrerit massa.
+            Nulla vel libero porttitor, varius turpis sollicitudin, tempus ligula. Duis
+            dictum tristique porta. Aliquam rutrum maximus elit a interdum. Vivamus nec
+            ultricies orci. Morbi egestas elit at gravida congue.
