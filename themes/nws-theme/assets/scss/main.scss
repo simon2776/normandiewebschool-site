@@ -977,3 +977,47 @@ HERO HEADER
     opacity: 0.5;
   }
 }
+
+.event {
+  background: #00a5a5;
+  border-radius: 15px;
+  padding: 10px;
+
+  .date {
+    p {
+      color: #fff;
+      margin: 0;
+      font-size: 0.7rem;
+
+      @media (min-width: 400px) {
+        font-size: 0.8rem;
+      }
+
+      &:first-of-type {
+        font-size: 0.8rem;
+
+        @media (min-width: 400px) {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    border-right: 1px solid #fff;
+  }
+
+  .desc {
+    p {
+      color: #fff;
+      margin: 0;
+      font-size: 0.5rem;
+
+      @media (min-width: 380px) {
+        font-size: 0.6rem;
+      }
+
+      @media (min-width: 400px) {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
