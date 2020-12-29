@@ -18,7 +18,7 @@
       <div class="row">
         <div class="col-md-12">
             <div class="card">
-              <div class="card-header color-orange">
+              <div class="card-header color-orange with-separator">
                 <h3>
                   {{ .Site.Data.homepage.banner.title | safeHTML }}
                 </h3>
@@ -157,7 +157,7 @@
   {{ if .Site.Data.homepage.reasons.enable }}
   {{ with .Site.Data.homepage.reasons }}
   <!-- reasons -->
-  <section class="section" id="reasons">
+  <section class="section bg-lightgrey clip-top-white" id="reasons">
     <div class="container">
       <div class="row">
 
@@ -185,7 +185,7 @@
   {{ if .Site.Data.homepage.data.enable }}
   {{ with .Site.Data.homepage.data }}
   <!-- reasons -->
-  <section class="mb-5">
+  <section class="mb-5 pb-5 bg-lightgrey">
     <div class="container">
       <div class="row mb-4 px-5">
         <p class="cursus-title mb-0">{{ .title | markdownify }}</p>
@@ -280,7 +280,7 @@
 {{ if .Site.Data.homepage.testimonials.enable }}
   <!-- Team -->
   <section class="bg-lightgrey">
-    <div class="container">
+    <div class="container pb-5">
       <div class="row">
         <div class="col-md-12">
 

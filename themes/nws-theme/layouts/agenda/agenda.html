@@ -36,12 +36,18 @@
   </div>
 </section>
 
+{{ partial "getEvents.html" . }}
+
 {{ if .Site.Data.agenda.event.enable }} {{ with .Site.Data.agenda.event }}
 <section
-  class="accordion-section clearfix bg-lightgrey clip-bottom-white"
+  class="accordion-section clearfix bg-lightgrey py-5"
   aria-label="Question Accordions"
 >
   <div class="container">
+    <div class="row mb-4 px-5 flex-nowrap">
+      <p class="cursus-title mb-0">Nos événements par mois</p>
+      <img src="/images/cursus-wave.svg" class='ml-3 mb-1 w-25 cover' alt="">
+    </div>
     <div class="row">
       <div class="col-md-12 mb-4">
         <div class="card">
@@ -53,9 +59,9 @@
               role="tablist"
               aria-multiselectable="true"
             >
-              <div class="panel panel-default">
+              <div class="panel panel-default mb-3">
                 <div
-                  class="panel-heading py-2 mb-3"
+                  class="panel-heading py-2"
                   role="tab"
                   id="heading-{{$index}}"
                 >
@@ -114,14 +120,4 @@
 </section>
 {{ end }} {{ end }}
 
-<section class="my-5 overflow-hidden">
-  <div class="row">
-    <div class="col-12 d-flex justify-content-center">
-      <a href="" class="btn font-weight-medium color-blue py-3 px-4"
-        >Vous avez encore des <br />
-        questions ?</a
-      >
-    </div>
-  </div>
-</section>
 {{ end }}

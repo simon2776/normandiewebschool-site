@@ -50,20 +50,21 @@ reasons:
       alt: "Monter en compétences"
 
     - logo : "images/reasons/window.svg"
-      content: "Monter en compétences avec des experts métiers et des professionnels reconnus dans le domaine du numérique."
-      alt: "Monter en compétences"
-
-    - logo : "images/reasons/connect.svg"
-      content: "Monter en compétences avec des experts métiers et des professionnels reconnus dans le domaine du numérique."
-      alt: "Monter en compétences"
+      content: "Bénéficier d’un apprentissage pratique sur des projets qui ont du sens en partenariat avec des entreprises."
+      alt: "Projet"
 
     - logo : "images/reasons/student.svg"
-      content: "Monter en compétences avec des experts métiers et des professionnels reconnus dans le domaine du numérique."
-      alt: "Monter en compétences"
+      content: "Être et évoluer au cœur de l’écosystème numérique normand."
+      alt: "écosystème numérique"
+
+    - logo : "images/reasons/connect.svg"
+      content: "Développer ses compétences grâce à un cursus complet et une mise en pratique en alternance et en stage."
+      alt: "Alternance et stage"
+
 
     - logo : "images/reasons/diploma.svg"
-      content: "Monter en compétences avec des experts métiers et des professionnels reconnus dans le domaine du numérique."
-      alt: "Monter en compétences"
+      content: "Un diplôme titre RNCP reconnu par l'État."
+      alt: "titre RNCP"
 
 data:
   enable: true
@@ -71,17 +72,15 @@ data:
   item:
     - number: 249
       title: "étudiants diplômés"
-    - number: 249
-      title: "étudiants diplômés"
-    - number: 249
-      title: "étudiants diplômés"
-    - number: 249
-      title: "étudiants diplômés"
-    - number: 249
-      title: "étudiants diplômés"
+    - number: 168
+      title: "étudiants par an"
+    - number: 3
+      title: "spécialisations"
+    - number: 7
+      title: "collaborateurs"
 
 team:
-  enable: true
+  enable: trueks
   title: "L'équipe NWS"
   content: "Découvrez l'équipe de la Normandie Web School au service de la pédagogie et du développement de chacun des étudiants."
   # team item comes from 'content/team'

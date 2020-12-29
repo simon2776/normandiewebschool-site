@@ -22,7 +22,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="card">
-          <div class="card-header color-orange">
+          <div class="card-header color-orange with-separator">
             <h3>{{ .Site.Data.documentation.banner.title | safeHTML }}</h3>
           </div>
 
@@ -37,13 +37,13 @@
   </div>
 </section>
 
-{{ if .Site.Data.documentation.form.enable }}
+{{ if .Site.Data.documentation.documents.enable }}
 <!-- about -->
 <section class="bg-lightgrey pb-4">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        {{ with .Site.Data.documentation.form }}
+        {{ with .Site.Data.documentation.documents }}
         <div class="card">
           <div class="card-header color-blue with-separator">
             <h3 class="mb-0">{{.title}}</h3>
@@ -52,54 +52,7 @@
           <div>
             <div class="card-body">
               <p>{{.subtitle}}</p>
-              <form class="mt-4">
-                <div class="form-group">
-                  {{range .input}} {{if (not .textarea)}}
-                  <div class="input-icon pb-3 position-relative">
-                    <img src="{{.icon}}" alt="" class="position-absolute" />
-                    <input
-                      type="{{.type}}"
-                      placeholder="{{.placeholder}}"
-                      required="{{.required}}"
-                      class="form-control"
-                    />
-                  </div>
-                  {{end}} {{if .textarea}}
-                  <div class="input-icon pb-3 position-relative">
-                    <img src="{{.icon}}" alt="" class="position-absolute" />
-                    <textarea
-                      cols="30"
-                      rows="10"
-                      placeholder="{{.placeholder}}"
-                      required="{{.required}}"
-                    ></textarea>
-                  </div>
-                  {{end}} {{end}} {{range $index, $el := .checkbox}}
-                  <div class="form-check py-3">
-                    <input
-                      type="checkbox"
-                      class="form-check-input"
-                      id="checkbox-{{$index}}"
-                    />
-                    <label class="form-check-label" for="checkbox-{{$index}}"
-                      >{{.content}}</label
-                    >
-                  </div>
-                  {{end}}
-
-                  <div class="row mt-4">
-                    <div class="col-12 d-flex justify-content-center">
-                      <button
-                        type="submit"
-                        class="btn font-weight-medium color-blue py-3 px-4"
-                      >
-                        Accéder à toute la <br />
-                        documentation
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </form>
+              {{ partial "getDocuments.html" . }}
             </div>
           </div>
         </div>

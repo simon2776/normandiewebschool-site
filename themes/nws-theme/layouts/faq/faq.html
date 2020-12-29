@@ -38,7 +38,8 @@
 
 {{ if .Site.Data.faq.subjects.enable }} {{ with .Site.Data.faq.subjects }}
 <section
-  class="accordion-section clearfix bg-lightgrey clip-bottom-white"
+  id="faq"
+  class="accordion-section bg-lightgrey clip-bottom-white"
   aria-label="Question Accordions"
 >
   <div class="container">
@@ -48,12 +49,12 @@
         <div class="card">
           <div class="card-header color-blue flex-column">
             <img
-              class="card-img-top rounded-circle card-img-top border-blue team-image m-auto"
+              class="card-img-top rounded-circle card-img-top team-image m-auto"
               src="{{.image}}"
               alt="Valérie"
             />
-            <h3 class="m-auto py-3">{{.subject}}</h3>
-            <p>{{.subtitle}}</p>
+            <h3 class="m-auto py-3 title-medium color-blue">{{.subject}}</h3>
+            <p class="text-center mb-4">{{.subtitle}}</p>
           </div>
 
           <div class="container">
@@ -64,9 +65,9 @@
               aria-multiselectable="true"
             >
               {{ range $index, $value := .questions }}
-              <div class="panel panel-default">
+              <div class="panel panel-default mb-3">
                 <div
-                  class="panel-heading py-2 mb-3"
+                  class="panel-heading py-2"
                   role="tab"
                   id="heading-{{$subject}}-{{$index}}"
                 >
@@ -110,7 +111,7 @@
 <section class="my-5 overflow-hidden">
   <div class="row">
     <div class="col-12 d-flex justify-content-center">
-      <a href="" class="btn font-weight-medium color-blue py-3 px-4"
+      <a href="" class="btn font-weight-medium color-blue py-3 px-5"
         >Vous avez encore des <br />
         questions ?</a
       >

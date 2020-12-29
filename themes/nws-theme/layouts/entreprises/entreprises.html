@@ -69,7 +69,7 @@
   <!-- Recrutement -->
   {{ if .Site.Data.entreprises.recrutement.enable }}
   {{ with .Site.Data.entreprises.recrutement }}
-  <section class="bg-lightgrey clip-bottom-white recrutement">
+  <section class="bg-lightgrey clip-bottom-white recrutement pt-5">
     <div class="container">
       <div class="row mb-3">
         <p class="cursus-title pl-5 mb-0">Vous recrutez ?</p>
@@ -81,11 +81,11 @@
             <div class="card center-card {{ .color }}">
               <div class="card-header">
                 <img 
-                  class="card-img-top rounded-circle card-img-top border-blue team-image" 
+                  class="card-img-top rounded-circle card-img-top team-image" 
                   src="{{.image}}" 
                   alt="Valérie"
                 >
-                <h3>{{.title}}</h3>
+                <h3 class="title-medium {{.color}}">{{.title}}</h3>
               </div>
 
               <div>
@@ -212,7 +212,7 @@
                             {{ end }}
                             <div class="row mt-5 mb-4">
                                 <div class="col-12 d-flex justify-content-center">
-                                <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher toutes les compétences</a>
+                                <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher toutes les entreprises</a>
                                 </div>
                             </div>
                         </div>

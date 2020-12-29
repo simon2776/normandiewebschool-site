@@ -48,12 +48,12 @@
 {{end}}
 
 {{ with .about }}
-<section class="pb-4 bg-lightgrey">
+<section class="pb-4 bg-lightgrey position-relative" id="filiere-doc">
     <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <img src="{{.image}}" class="d-block mx-auto my-4" alt="">
-            <p class="font-weight-medium text-center">
+            <img src="{{.image}}" class="d-block mx-auto my-4" style="width: 200px;" alt="">
+            <p class="font-weight-medium text-center px-3">
                 {{ .description | safeHTML }}
               </p>
           </div>
@@ -65,6 +65,8 @@
             </div>
         </div>
     </div>
+      <img src="/images/points.svg" alt="" class="points">
+
 </section>
 {{ end }}
 

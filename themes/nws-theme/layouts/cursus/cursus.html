@@ -69,7 +69,7 @@
   <!-- Nos cursus -->
   {{ if .Site.Data.cursus.cursus.enable }}
   {{ with .Site.Data.cursus.cursus }}
-  <section class="py-5 bg-lightgrey clip-top-white overflow-hidden">
+  <section class="py-5 bg-lightgrey clip-bottom-white overflow-hidden" id="cursus">
     <div class="container">
       <div class="row mb-4 px-5">
         <p class="cursus-title mb-0">Nos cursus</p>
@@ -80,7 +80,7 @@
           <div class="col-md-12 mb-4">
             <div class="card center-card {{ .color }}">
               <div class="card-header">
-                <h3>{{.title}}</h3>
+                <h3 class="title-medium {{.color}}">{{.title}}</h3>
               </div>
 
               <div>
@@ -108,8 +108,8 @@
       </div>
 
       <div class="row">
-        <div class="col-12 d-flex justify-content-center mt-4">
-          <a href="" class="btn font-weight-medium color-blue mt-5 mb-3 pt-3 pb-3 pl-4 pr-4">Demande d'inscription</a>
+        <div class="col-12 d-flex justify-content-center my-4">
+          <a href="" class="btn font-weight-medium color-blue my-5 py-3 px-4">Demande d'inscription</a>
         </div>
       </div>
       <img src="/images/points.svg" alt="" class="points">
@@ -162,7 +162,7 @@
 {{ if .Site.Data.homepage.testimonials.enable }}
   <!-- Team -->
   <section class="bg-lightgrey">
-    <div class="container">
+    <div class="container pb-5">
       <div class="row">
         <div class="col-md-12">
 
