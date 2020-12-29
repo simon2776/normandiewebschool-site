@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://nws-test.netlify.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "nws-theme"

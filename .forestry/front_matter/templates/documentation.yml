@@ -55,5 +55,4 @@ fields:
       name: required
       label: required
 pages:
-- data/documentation-1.yml
 - data/documentation.yml
