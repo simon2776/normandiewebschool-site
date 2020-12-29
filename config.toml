@@ -1,7 +1,7 @@
 baseURL = "https://nws-test.netlify.com"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "nws-theme"
+theme = "kross-hugo"
 title = "Kross | Hugo Portfolio Template"
 [[menu.main]]
 name = "Master Expert digital"
