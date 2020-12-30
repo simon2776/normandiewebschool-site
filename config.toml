@@ -47,10 +47,6 @@ weight = 3
 URL = "blog"
 name = "Les cursus"
 weight = 2
-[[menu.main]]
-URL = "about"
-name = "Accueil"
-weight = 1
 [[menu.top]]
 URL = "blog"
 name = "Blog"
