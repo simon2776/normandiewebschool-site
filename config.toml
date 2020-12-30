@@ -51,6 +51,7 @@ weight = 3
 [[menu.main]]
 URL = "blog"
 name = "Les cursus"
+url = "/cursus"
 weight = 2
 [[menu.top]]
 URL = "blog"
