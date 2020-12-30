@@ -115,6 +115,23 @@
   opacity: 0.5;
 }
 
+.card-header {
+  .fa-angle-down {
+    transform: rotate(180deg);
+    transition: 0.3s;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+  }
+
+  &.collapsed {
+    .fa-angle-down {
+      transform: rotate(0deg);
+    }
+  }
+}
+
 .accordion-section {
   .card {
     z-index: 9;
@@ -133,6 +150,50 @@
 
     .panel-body {
       font-size: 1.2rem;
+    }
+  }
+}
+
+//carousel
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}
+
+.carousel-arrow {
+  font-size: 2rem;
+}
+
+.carousel-indicators {
+  bottom: 0;
+  li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    &.active {
+      background-color: var(--green);
+    }
+  }
+}
+
+//Pannel
+.panel-heading {
+  .fa-angle-down {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 1.7rem;
+    transform: translateY(-50%) rotate(180deg);
+    color: var(--green);
+    transition: 0.3s;
+  }
+
+  .collapsed {
+    .fa-angle-down {
+      transform: translateY(-50%) rotate(0deg);
     }
   }
 }
@@ -623,6 +684,18 @@ HERO HEADER
           margin: 0.5rem 0;
         }
       }
+    }
+  }
+}
+
+//home
+#home-filieres {
+  .card-header {
+    .fa-angle-down {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 2rem;
     }
   }
 }
