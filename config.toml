@@ -4,6 +4,11 @@ summaryLength = "10"
 theme = "nws-theme"
 title = "Kross | Hugo Portfolio Template"
 [[menu.main]]
+URL = "about"
+name = "Accueil"
+url = "/"
+weight = 1
+[[menu.main]]
 name = "Master Expert digital"
 parent = "Les cursus"
 weight = 5

@@ -98,8 +98,3 @@ partners:
   title: Nos partenaires
 testimonials:
   enable: true
-menu:
-  main:
-    URL: about
-    name: Accueil
-    weight: 1
