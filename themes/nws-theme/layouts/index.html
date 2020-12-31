@@ -13,8 +13,8 @@
   </section>
   <!-- /hero area -->
 
-  <section>
-    <div class="pb-4 container bg-lightgrey up">
+  <section class="bg-lightgrey">
+    <div class="pb-4 container up">
       <div class="row">
         <div class="col-md-12">
             <div class="card">
@@ -214,30 +214,16 @@
       <div class="row">
         <div class="col-md-12">
           <div class="card">
-            <div class="card-header color-blue with-separator" id="headingTeam" data-toggle="collapse"
-                 data-target="#collapseTeam">
+            <div class="card-header color-blue with-separator">
               <h3 class="mb-0">
                 {{.Site.Data.homepage.team.title}}
               </h3>
-              <i class="fas fa-angle-down rotate-icon"></i>
             </div>
 
-            <div id="collapseTeam" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
+            <div>
               <div class="card-body">
                 <p> {{ .Site.Data.homepage.team.content }}</p>
-
-                {{ $team := where .Site.RegularPages "Type" "in" "team" }}
-
-                {{ range first 2 $team }}
-                  {{partial "team.html" . }}
-                {{ end }}
-
-                <div class="row">
-                  <div class="col d-flex align-items-center">
-                    <a href=""
-                       class="w-100 btn btn-outline font-weight-medium color-blue pt-3 pb-3">Afficher toute l'équipe</a>
-                  </div>
-                </div>
+                {{partial "getTeams.html" . }}
               </div>
             </div>
           </div>
