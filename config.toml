@@ -1,4 +1,4 @@
-baseURL = "https://nws-test.netlify.com"
+baseURL = "https://nws-akarah-preprod.netlify.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "nws-theme"
@@ -7,7 +7,6 @@ title = "Kross | Hugo Portfolio Template"
 URL = "/"
 name = "Accueil"
 weight = 1
-
 [[menu.main]]
 name = "Master Expert digital"
 parent = "Les cursus"
