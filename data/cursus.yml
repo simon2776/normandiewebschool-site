@@ -14,14 +14,14 @@ about:
     Integer nec dui a elit volutpat tincidunt. '
   image: '/images/sitapha-cours.png'
 cursus:
-  enable: true;
+  enable: true
   item:
     - image: true
       title: Cursus intial
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.
       from: Bac +1
       color: color-yellow
-      item: 
+      item:
         - url : /images/logo_nws.png
 
     - image: true
