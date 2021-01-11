@@ -19,38 +19,37 @@ filieres:
   enable: true;
   item:
   - title: Filière Marketing
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
-      porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
-      in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis
-      ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus
-      sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae
-      lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.
+    content: "Le marketing digital, un univers riche en communication numérique. \nCréez
+      des supports, concevez des textes de qualité, exposez vos idées et des valeurs
+      sur les réseaux sociaux en travaillant avec des professionnels des métiers."
     from: À partir du bac + 1
-    to: Jusqu'au bac +5
+    to: Jusqu'au bac + 3
     color: color-orange
     logo: images/logo-marketing.png
   - title: Filière Design
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
-      porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
-      in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis
-      ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus
-      sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae
-      lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.
+    content: 'Le design graphique, un monde au programme riche et varié afin de devenir
+      un pro de la création de sites, de visuels, de supports... Exprimez votre créativité
+      et augmentez vos compétences grâce aux professionnels de cet univers et au logiciels
+      techniques utilisés. '
     from: À partir du bac + 1
-    to: Jusqu'au bac +5
+    to: Jusqu'au bac + 3
     color: color-blue
     logo: images/logo-design.png
   - title: Filière Développement
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
-      porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
-      in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis
-      ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus
-      sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae
-      lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.
+    content: "Développez des supports numérique à l'aide de logiciels techniques et
+      accompagnez de professionnels. \nDevenez des experts du développement en exprimant
+      votre savoir faire et vos compétences techniques. "
     from: À partir du bac + 1
-    to: Jusqu'au bac +5
+    to: Jusqu'au bac + 3
     color: color-yellow
     logo: images/logo-dev.png
+  - title: Masters
+    content: 'Expert digital, tel sera votre statut après avoir développer vos compétences
+      et vos connaissances au sein de ce Master très complet. '
+    from: Du bac+4
+    to: Au bac+5
+    color: ''
+    logo: ''
 cursus:
   enable: true;
   title: Le cursus
