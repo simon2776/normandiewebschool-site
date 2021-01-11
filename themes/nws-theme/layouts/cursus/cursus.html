@@ -15,33 +15,8 @@
 {{ partial "components/page-title" (dict "context" . "title" .Site.Data.cursus.banner.title "subtitle" .Site.Data.cursus.banner.subtitle ) }}
 
   {{ if .Site.Data.cursus.about.enable }}
-  <!-- about -->
-  <section class="pb-4 bg-lightgrey">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 second-push-top">
-
-          {{ with .Site.Data.cursus.about }}
-          <div class="card">
-            <div class="card-header color-blue with-separator">
-              <h3 class="mb-0">
-                  {{.title}}
-              </h3>
-            </div>
-
-            <div id="collapseAbout" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
-              <div class="card-body">
-                <p>
-                  {{.content | markdownify}}
-                </p>
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- about -->
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Site.Data.cursus.about.title "content" .Site.Data.cursus.about.content "image" .Site.Data.cursus.about.image  ) }}
   {{ end }}
 
 
