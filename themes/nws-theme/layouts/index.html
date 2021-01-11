@@ -45,10 +45,7 @@
   {{ with .Site.Data.homepage.filieres }}
   <section class="py-5 bg-lightgrey clip-bottom-white c-xl c-up " id="home-filieres">
     <div class="container">
-      <div class="row mb-4 px-5 d-block d-lg-none">
-        <p class="cursus-title mb-0">Nos filières</p>
-        <img src="/images/cursus-wave.svg" class='ml-3 mb-1' alt="">
-      </div>
+      {{ partial "components/wavy-title" (dict "context" . "title" "Nos filières") }}
       <div class="row">
         {{ range $index, $value := .item }}
           <div class="col-md-12 col-lg-4 pb-4">
@@ -99,7 +96,7 @@
 
   {{ if .Site.Data.homepage.cursus.enable }}
   {{ with .Site.Data.homepage.cursus }}
-  <section>
+  <section class='overflow-hidden'>
     <div class="container d-block position-relative" id="cursus">
       <div class="row">
         <div class="col-12 text-center text-lg-left mt-5 lg-absolute">
@@ -185,7 +182,7 @@
 
 {{ if .Site.Data.homepage.team.enable }}
   <!-- Team -->
-  <section class="bg-lightgrey clip-bottom-white" id="home-team">
+  <section class="bg-lg-lightgrey clip-lg-bottom-white" id="home-team">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -240,7 +237,7 @@
 
           {{ $testimonials := where .Site.RegularPages "Type" "in" "testimonial" }}
 
-          <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+          <div id="testimonialsCarousel" class="carousel slide pb-5" data-ride="carousel">
             <ol class="carousel-indicators">
               {{ range $index, $value := $testimonials }}
               <li data-target="#testimonalsCarouselIndicator" data-slide-to="{{$index}}" class="{{ if (eq $index 0 )}}active{{end}}"></li>
