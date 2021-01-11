@@ -1,0 +1,27 @@
+---
+global: ''
+banner:
+  logo: ''
+  title: ''
+  description: ''
+  color: ''
+  buttons: []
+about:
+  enable: false
+  image: ''
+  description: ''
+skills:
+  enable: false
+  title: ''
+  subtitle: ''
+  item: []
+years:
+  enable: false
+  item: []
+profession:
+  enable: false
+  title: ''
+  subtitle: ''
+  item: []
+testimonials:
+  enable: false
