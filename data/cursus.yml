@@ -26,46 +26,33 @@ about:
 cursus:
   enable: true
   item:
-    - image: true
-      title: 'Cursus intial'
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
-        porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
-        in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis
-        ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus
-        sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae
-        lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.'
+    - title: 'Cursus intial'
+      content: 'Débutez le Bachelor chef de projet digital par le biais de cette première année en tant que concepteur numérique.
+                Apprenez et développez de nombreuses compétences en design graphique, en marketing digital et en développement web.
+                Vous pourrez par la suite choisir votre coup de coeur en deuxième année et sélectionner la filière qui vous attirera le plus.'
       from: 'Bac +1'
       color: color-yellow
-      item:
-      - url: "/images/logo_nws.png"
-    - image: true
-      title: Spécialisations
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
-        porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
-        in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis
-        ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus
-        sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae
-        lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.'
-      from: 'Bac +3'
+      images:
+        - url: "/images/logo_nws.png"
+
+    - title: Spécialisations
+      content: "Après une première année riche en partage de connaissances et de compétences, une possibilité s'offre à tous les étudiants : choisir sa spécialisation.
+                Chacun d'eux à la possibilité de choisir la filière qui le passionne : Développement web, design graphisme ou marketing digital.
+                À la fin de ces deux années d'études accentuées sur un thème, l'étudiant aura la chance de pouvoir recevoir son diplôme et son titre de chef de projet digital."
+      from: 'Bac +2/3'
       color: color-blue
-      item:
+      images:
         - url: "/images/logo-marketing.png"
         - url: "/images/logo-design.png"
         - url: "/images/logo-dev.png"
-    - image: true
-      title: Master
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
-        porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
-        in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis
-        ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus
-        sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae
-        lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.'
+    - title: Master
+      content: "Après avoir reçu votre diplôme en tant que chef de projet digital ou ayant déjà un Bac+3 dans le domaine de la communication ou du numérique, la possibilité d'intégrer le master expert digital s'offre à vous.
+                Ayez la chance de pouvoir poursuivre des cours regroupant du marketing et du digital toujours enseigné par des professionnels.
+                Ayez également l'avantage de poursuivre votre cursus en alternance pour développer encore plus vos connaissances et vos compétences."
       from: 'Master'
       color: color-orange
-      item:
+      images:
         - url: "/images/logo-isd.png"
-          title: ''
-          subtitle: ''
 filieres:
   enable: true
   title: 'Le cursus en infographie'
