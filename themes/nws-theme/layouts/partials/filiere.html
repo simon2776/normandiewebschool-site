@@ -1,19 +1,8 @@
 <!-- hero area -->
 {{ with .banner }}
-<section
-  class="hero-area bg-primary overflow-hidden d-flex align-items-center"
-  id="parallax"
->
-    <!--<div class="container">
-        <div class="row">
-            <div class="col-lg-11 d-none d-md-block">
-                <h1>{{ .title | safeHTML }}</h1>
-                <h2>{{ .subtitle | safeHTML }}</h2>
-            </div>
-        </div>
-    </div>-->
+<section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .image | absURL }}')">
+
 </section>
-<!-- /hero area -->
 
 <section class="pb-4 bg-lightgrey up">
     <div class="container">
