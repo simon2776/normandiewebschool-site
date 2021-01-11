@@ -1,22 +1,22 @@
 ---
 global: ''
 banner:
-  logo: /images/logo-design.png
-  title: 'Filière Design'
+  logo: /images/logo-dev.png
+  title: 'Filière Développement'
   image: images/cursus_bg.png
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. <br/><br/>
     Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat. <br/><br/>
     Integer nec dui a elit volutpat tincidunt.'
-  color: 'color-blue'
+  color: 'color-yellow'
   buttons:
     - arrow: 'left'
       label: 'Marketing'
       color: 'color-orange'
       justify: 'text-right'
     - arrow: 'right'
-      label: 'Développement'
-      color: 'color-yellow'
+      label: 'Design'
+      color: 'color-blue'
       justify: 'text-left'
 
 about:
