@@ -2,10 +2,11 @@
 
 <!-- hero area -->
 <section
-  class="hero-area bg-primary overflow-hidden d-flex align-items-center"
+  class="hero-area overflow-hidden d-flex align-items-center"
   id="parallax"
+  style="background-image: url('{{ "images/backgrounds/background-faq.png" | absURL }}')"
 >
-  <div class="container">
+  <div class="container d-block d-lg-none">
     <div class="row">
       <div class="col-lg-11 d-none d-md-block">
         <h1>{{ .Site.Data.faq.banner.title | safeHTML }}</h1>
@@ -15,26 +16,7 @@
   </div>
 </section>
 <!-- /hero area -->
-
-<section class="pb-4 bg-lightgrey up">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-header color-orange with-separator">
-            <h3>{{ .Site.Data.faq.banner.title | safeHTML }}</h3>
-          </div>
-
-          <div class="card-body">
-            <p class="font-weight-medium">
-              {{ .Site.Data.faq.banner.subtitle | safeHTML }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{ partial "components/page-title" (dict "context" . "title" .Site.Data.faq.banner.title "subtitle" .Site.Data.faq.banner.subtitle ) }}
 
 {{ if .Site.Data.faq.subjects.enable }} {{ with .Site.Data.faq.subjects }}
 <section
@@ -44,65 +26,68 @@
 >
   <div class="container">
     <div class="row">
-      {{range $subject, $el := .item}}
+      {{ $.Scratch.Add "i" 0 }}
+      {{ range $subject, $el := .item }}
+        {{ $i := $.Scratch.Get "i" }}
       <div class="col-md-12 mb-4">
-        <div class="card">
-          <div class="card-header color-blue flex-column">
-            <img
-              class="card-img-top rounded-circle card-img-top team-image m-auto"
-              src="{{.image}}"
-              alt="Valérie"
-            />
-            <h3 class="m-auto py-3 title-medium color-blue">{{.subject}}</h3>
-            <p class="text-center mb-4">{{.subtitle}}</p>
-          </div>
+          <div class="card {{ if eq $i 0 }} second-push-top {{end}}">
+            <div class="card-header color-blue flex-column">
+              <img
+                class="card-img-top rounded-circle card-img-top team-image m-auto"
+                src="{{.image}}"
+                alt="Valérie"
+              />
+              <h3 class="m-auto py-3 title-medium color-blue">{{.subject}}</h3>
+              <p class="text-center mb-4">{{.subtitle}}</p>
+            </div>
 
-          <div class="container">
-            <div
-              class="panel-group"
-              id="accordion"
-              role="tablist"
-              aria-multiselectable="true"
-            >
-              {{ range $index, $value := .questions }}
-              <div class="panel panel-default mb-3">
-                <div
-                  class="panel-heading py-2"
-                  role="tab"
-                  id="heading-{{$subject}}-{{$index}}"
-                >
-                  <h3 class="panel-title">
-                    <a
-                      class="collapsed position-relative"
-                      role="button"
-                      title=""
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                      href="#collapse-{{$subject}}-{{$index}}"
-                      aria-expanded="true"
-                      aria-controls="collapse-{{$subject}}-{{$index}}"
-                    >
-                      {{.question}}
-                      <i class="fas fa-angle-down rotate-icon"></i>
-                    </a>
-                  </h3>
-                </div>
-                <div
-                  id="collapse-{{$subject}}-{{$index}}"
-                  class="panel-collapse collapse"
-                  role="tabpanel"
-                  aria-labelledby="heading-{{$subject}}-{{$index}}"
-                >
-                  <div class="panel-body mb-4">
-                    <p>{{.answer}}</p>
+            <div class="container">
+              <div
+                class="panel-group"
+                id="accordion"
+                role="tablist"
+                aria-multiselectable="true"
+              >
+                {{ range $index, $value := .questions }}
+                <div class="panel panel-default mb-3">
+                  <div
+                    class="panel-heading py-2"
+                    role="tab"
+                    id="heading-{{$subject}}-{{$index}}"
+                  >
+                    <h3 class="panel-title">
+                      <a
+                        class="collapsed position-relative"
+                        role="button"
+                        title=""
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                        href="#collapse-{{$subject}}-{{$index}}"
+                        aria-expanded="true"
+                        aria-controls="collapse-{{$subject}}-{{$index}}"
+                      >
+                        {{.question}}
+                        <i class="fas fa-angle-down rotate-icon"></i>
+                      </a>
+                    </h3>
+                  </div>
+                  <div
+                    id="collapse-{{$subject}}-{{$index}}"
+                    class="panel-collapse collapse"
+                    role="tabpanel"
+                    aria-labelledby="heading-{{$subject}}-{{$index}}"
+                  >
+                    <div class="panel-body mb-4">
+                      <p>{{.answer}}</p>
+                    </div>
                   </div>
                 </div>
+                {{ end }}
               </div>
-              {{ end }}
             </div>
           </div>
         </div>
-      </div>
+      {{ $.Scratch.Add "i" 1 }}
       {{ end }}
     </div>
   </div>

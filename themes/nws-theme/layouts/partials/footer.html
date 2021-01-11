@@ -1,8 +1,7 @@
 <!-- footer -->
 <footer class="bg-green">
-    <div class="container py-5">
-      <div class="row text-center">
-
+    <div class="container py-5 footer-lg-grid">
+      <div class="row text-center" style="grid-area: Info">
         <div class="col-12">
           <img class="m-auto" src="/images/assets/nws-white-logo.png" alt="Normandie Web School">
           <hr class="white small"/>
@@ -11,27 +10,27 @@
 
       </div>
 
-      <div class="row">
-        <div class="col-md-4 mt-4 pl-4 pr-4">
+      <div class="row"  style="grid-area: Buttons">
+        <div class="col-md-4 col-lg-12 mt-4 pl-4 pr-4">
           <a href="" class="w-100 btn font-weight-medium color-white color-blue pt-3 pb-3">Nous contacter</a>
         </div>
 
-        <div class="col-md-4 mt-4 pl-4 pr-4">
+        <div class="col-md-4 col-lg-12 mt-4 pl-4 pr-4">
           <a href="" class="w-100 btn btn-outline font-weight-medium color-white pt-3 pb-3">Actualités de l'école</a>
         </div>
-        <div class="col-md-4 mt-4 pl-4 pr-4">
+        <div class="col-md-4 col-lg-12 mt-4 pl-4 pr-4">
           <a href="" class="w-100 btn btn-outline font-weight-medium color-white pt-3 pb-3">Blog de l'école</a>
         </div>
       </div>
 
-      <div class="row text-center">
-        <div class="col-md-4 mt-4">
+      <div class="row text-center text-lg-left"  style="grid-area: Contact">
+        <div class="col-md-4 col-lg-12 mt-4">
           <p>{{ .Site.Params.Address | markdownify }}</p>
         </div>
-        <div class="col-md-4 mt-4">
+        <div class="col-md-4 col-lg-12 mt-4">
           <p>{{ .Site.Params.Phone}}</p>
         </div>
-        <div class="col-md-4 mt-4">
+        <div class="col-md-4 col-lg-12 mt-4">
           <p>{{ .Site.Params.Email}}</p>
         </div>
       </div>

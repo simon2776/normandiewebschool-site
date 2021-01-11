@@ -1,7 +1,7 @@
 {{ define "main" }}
 
   <!-- hero area -->
-  <section class="hero-area bg-primary overflow-hidden d-flex align-items-center " id="parallax">
+  <section class="hero-area overflow-hidden d-flex align-items-center " id="parallax" style="background-image: url('{{ .Site.Data.homepage.banner.image | absURL }}')">
     <div class="container">
       <div class="row">
         <div class="col-lg-11 d-none d-md-block">
@@ -13,7 +13,7 @@
   </section>
   <!-- /hero area -->
 
-  <section class="bg-lightgrey">
+  <section class="bg-lightgrey d-block d-lg-none">
     <div class="pb-4 container up">
       <div class="row">
         <div class="col-md-12">
@@ -36,52 +36,27 @@
   </section>
 
   {{ if .Site.Data.homepage.about.enable }}
-  <!-- about -->
-  <section class="bg-lightgrey pb-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-          {{ with .Site.Data.homepage.about }}
-          <div class="card">
-            <div class="card-header color-blue with-separator" id="headingAbout" data-toggle="collapse"
-                 data-target="#collapseAbout">
-              <h3 class="mb-0">
-                  {{.title}}
-              </h3>
-              <i class="fas fa-angle-down rotate-icon"></i>
-            </div>
-
-            <div id="collapseAbout" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
-              <div class="card-body">
-                {{.content | markdownify}}
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- about -->
+    {{ partial "components/page-introduction" (dict "context" . "title" .Site.Data.homepage.about.title "content" .Site.Data.homepage.about.content "image" .Site.Data.homepage.about.image  ) }}
   {{ end }}
 
   <!-- filières -->
   {{ if .Site.Data.homepage.filieres.enable }}
   {{ with .Site.Data.homepage.filieres }}
-  <section class="py-5 bg-lightgrey" id="home-filieres">
+  <section class="py-5 bg-lightgrey clip-bottom-white c-xl c-up " id="home-filieres">
     <div class="container">
-      <div class="row mb-4 px-5">
+      <div class="row mb-4 px-5 d-block d-lg-none">
         <p class="cursus-title mb-0">Nos filières</p>
         <img src="/images/cursus-wave.svg" class='ml-3 mb-1' alt="">
       </div>
       <div class="row">
         {{ range $index, $value := .item }}
-          <div class="col-md-12 pb-4">
+          <div class="col-md-12 col-lg-4 pb-4">
           <div class="card center-card with-border {{ .color }}">
             <div class="card-header" id="heading-{{$index}}" data-toggle="collapse"
                  data-target="#collapse-{{$index}}" >
 
-              <img src="" alt="" width="100px" height="100px" style="background-color: grey;">
+              <img src="{{ .logo | absURL }}" alt="" width="100px" height="100px">
 
               <h3>
                 {{.title}}
@@ -111,7 +86,7 @@
         {{ end }}
       </div>
 
-      <div class="row pb-5">
+      <div class="row pb-5 d-block d-lg-none">
         <div class="col-12 d-flex justify-content-center mt-4">
           <a href="" class="btn font-weight-medium color-blue mt-5 mb-3 pt-3 pb-3 pl-4 pr-4">Demande d'inscription</a>
         </div>
@@ -125,20 +100,28 @@
   {{ if .Site.Data.homepage.cursus.enable }}
   {{ with .Site.Data.homepage.cursus }}
   <section>
-    <div class="container">
+    <div class="container d-block position-relative" id="cursus">
       <div class="row">
-        <div class="col-12 text-center mt-5">
-          <h3 class="title-medium color-orange">{{ .title }}</h3>
+        <div class="col-12 text-center text-lg-left mt-5 lg-absolute">
+          <h3 class="title-medium color-orange  with-separator-lg-left">{{ .title }}</h3>
           <p>{{ .subtitle }}</p>
+          <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 d-none fit d-lg-block">
+            En savoir plus
+          </a>
+
         </div>
 
+        <img src="/images/assets/desktop-cursus.svg" class="d-none d-lg-block mt-lg-5" style="margin: 0 auto; margin-left: -10%" width="120%"
+             alt="Cursus à la Normandie Web School">
+
+
         <div class="col-12 mt-4 d-flex">
-          <img src="/images/assets/infographie-cursus.svg" style="margin: 0 auto" width="90%"
+          <img src="/images/assets/infographie-cursus.svg" class="d-block d-lg-none" style="margin: 0 auto" width="90%"
                alt="Cursus à la Normandie Web School">
         </div>
       </div>
 
-      <div class="row">
+      <div class="row d-block d-lg-none">
         <div class="col-12 d-flex justify-content-center mt-4">
           <a href="" class="btn font-weight-medium color-orange mt-5 mb-3 pt-3 pb-3 pl-4 pr-4">En savoir plus</a>
         </div>
@@ -160,12 +143,12 @@
         <div class="col-lg-12 text-center">
           <div class="card center-card with-border {{ .color }}">
             <h3 class="title-medium color-blue mt-5 mb-0">{{ .title | markdownify }}</h3>
-            <div class="card-body">
+            <div class="card-body d-lg-flex">
               {{ range .item }}
-              <div class="mt-4">
+              <div class="mt-4 mt-lg-0 w-lg-20">
                 <img src="{{ .logo }}" alt="" class="mt-4" width="130px">
 
-                <p class="mt-4 mr-5 ml-5">{{.content}}</p>
+                <p class="mt-4 mr-md-5 ml-md-5 mr-lg-1 ml-lg-1 mt-lg-3">{{.content}}</p>
               </div>
               {{ end }}
             </div>
@@ -181,23 +164,18 @@
   {{ if .Site.Data.homepage.data.enable }}
   {{ with .Site.Data.homepage.data }}
   <!-- reasons -->
-  <section class="mb-5 pb-5 bg-lightgrey">
+  <section class="mb-lg-0 mb-5 pb-5 bg-lightgrey">
     <div class="container">
-      <div class="row mb-4 px-5">
-        <p class="cursus-title mb-0">{{ .title | markdownify }}</p>
-        <img src="/images/cursus-wave.svg" class='ml-3 mb-1' alt="">
-      </div>
+        {{ partial "components/wavy-title" (dict "context" . "title" .title) }}
       <div class="row">
-        <div class="col-lg-12 text-center">
-
             {{ range .item }}
-
+        <div class="col-md-12 col-lg-3 text-center">
             <div class="mt-5">
               <span class="big-number color-orange">{{.number}}</span>
               <p class=" font-weight-bold">- {{.title}} -</p>
             </div>
-            {{ end }}
         </div>
+            {{ end }}
       </div>
     </div>
   </section>
@@ -205,24 +183,22 @@
   {{ end }}
   {{ end }}
 
-
-
 {{ if .Site.Data.homepage.team.enable }}
   <!-- Team -->
-  <section>
+  <section class="bg-lightgrey clip-bottom-white" id="home-team">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="card">
-            <div class="card-header color-blue with-separator">
-              <h3 class="mb-0">
+            <div class="card-header color-blue with-separator with-separator-lg-center justify-content-lg-center ">
+              <h3 class="mb-0 text-lg-center text-left">
                 {{.Site.Data.homepage.team.title}}
               </h3>
             </div>
 
             <div>
-              <div class="card-body">
-                <p> {{ .Site.Data.homepage.team.content }}</p>
+              <div class="card-body row">
+                <p class="d-block d-lg-none"> {{ .Site.Data.homepage.team.content }}</p>
                 {{partial "getTeams.html" . }}
               </div>
             </div>
@@ -235,16 +211,15 @@
 
 {{ if .Site.Data.homepage.partners.enable }}
   <!-- Team -->
-  <section class="clip-bottom-lightgrey pb-5">
+  <section class="clip-bottom-lightgrey pb-5 mt-0 mt-lg-4">
     <div class="container mb-5">
       <div class="row">
         <div class="col-md-12">
-              <h3 class="mb-0 text-center title-medium color-orange mt-5 mb-0">
+              <h3 class="mb-0 text-center with-separator-lg-left text-lg-left title-medium color-orange mt-5 mb-0">
                 {{.Site.Data.homepage.partners.title}}
               </h3>
 
                 {{ $partners := where .Site.RegularPages "Type" "in" "partner" }}
-
             <div class="row">
               {{ range $partners }}
                 {{ partial "partner.html" . }}
@@ -259,7 +234,7 @@
 {{ if .Site.Data.homepage.testimonials.enable }}
   <!-- Team -->
   <section class="bg-lightgrey">
-    <div class="container pb-5">
+    <div class="container pb-5 pt-0 pt-lg-5 pb-0 pb-lg-5">
       <div class="row">
         <div class="col-md-12">
 

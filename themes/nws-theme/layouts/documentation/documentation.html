@@ -8,7 +8,7 @@
 >
   <div class="container">
     <div class="row">
-      <div class="col-lg-11 d-none d-md-block">
+      <div class="col-lg-11 d-block d-lg-none">
         <h1>{{ .Site.Data.documentation.banner.title | safeHTML }}</h1>
         <h2>{{ .Site.Data.documentation.banner.subtitle | safeHTML }}</h2>
       </div>
@@ -16,33 +16,14 @@
   </div>
 </section>
 <!-- /hero area -->
-
-<section class="bg-lightgrey">
-  <div class="pb-4 container up">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-header color-orange with-separator">
-            <h3>{{ .Site.Data.documentation.banner.title | safeHTML }}</h3>
-          </div>
-
-          <div class="card-body">
-            <p class="font-weight-medium">
-              {{ .Site.Data.documentation.banner.subtitle | safeHTML }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{ partial "components/page-title" (dict "context" . "title" .Site.Data.documentation.banner.title "subtitle" .Site.Data.documentation.banner.subtitle ) }}
 
 {{ if .Site.Data.documentation.documents.enable }}
 <!-- about -->
 <section class="bg-lightgrey pb-4">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 second-push-top">
         {{ with .Site.Data.documentation.documents }}
         <div class="card">
           <div class="card-header color-blue with-separator">

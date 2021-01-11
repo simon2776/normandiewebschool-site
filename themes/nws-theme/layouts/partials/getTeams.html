@@ -12,7 +12,7 @@
             })
         {{end}}
 
-        let max = 1
+        let max = mobileCheck() ? 1 : 6;
 
         const displayEvents = (max) => {
             let html = ''
@@ -54,7 +54,7 @@
 </script>
 
 <div class="container py-4">
-  <div id="teams"></div>
+  <div id="teams" class="row"></div>
   <div class="row mt-4">
     <div class="col-12 d-flex justify-content-center">
       <button

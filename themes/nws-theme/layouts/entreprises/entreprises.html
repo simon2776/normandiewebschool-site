@@ -4,7 +4,7 @@
   <section class="hero-area bg-primary overflow-hidden d-flex align-items-center" id="parallax">
     <div class="container">
       <div class="row">
-        <div class="col-lg-11 d-none d-md-block">
+        <div class="col-lg-11 d-block d-lg-none">
           <h1>{{ .Site.Data.entreprises.banner.title | safeHTML }}</h1>
           <h2>{{ .Site.Data.entreprises.banner.subtitle | safeHTML }}</h2>
         </div>
@@ -13,27 +13,7 @@
   </section>
   <!-- /hero area -->
 
-  <section class="pb-4 bg-lightgrey up">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-              <div class="card-header color-orange with-separator">
-                <h3>
-                  {{ .Site.Data.entreprises.banner.title | safeHTML }}
-                </h3>
-              </div>
-
-              <div class="card-body">
-                <p class="font-weight-medium">
-                  {{ .Site.Data.entreprises.banner.subtitle | safeHTML }}
-                </p>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
+{{ partial "components/page-title" (dict "context" . "title" .Site.Data.entreprises.banner.title "subtitle" .Site.Data.entreprises.banner.subtitle ) }}
 
   {{ if .Site.Data.entreprises.about.enable }}
   <!-- about -->
@@ -43,7 +23,7 @@
         <div class="col-md-12">
 
           {{ with .Site.Data.entreprises.about }}
-          <div class="card">
+          <div class="card second-push-top">
             <div class="card-header color-blue with-separator">
               <h3 class="mb-0">
                   {{.title}}
@@ -71,18 +51,15 @@
   {{ with .Site.Data.entreprises.recrutement }}
   <section class="bg-lightgrey clip-bottom-white recrutement pt-5">
     <div class="container">
-      <div class="row mb-3">
-        <p class="cursus-title pl-5 mb-0">Vous recrutez ?</p>
-        <img src="/images/cursus-wave.svg" class='ml-3 mb-1' alt="">
-      </div>
+        {{ partial "components/wavy-title" (dict "context" . "title" "Vous recrutez ?") }}
       <div class="row">
         {{ range .item }}
-          <div class="col-md-12 mb-4">
+          <div class="col-md-12 col-lg-6 mb-4">
             <div class="card center-card {{ .color }}">
               <div class="card-header">
-                <img 
-                  class="card-img-top rounded-circle card-img-top team-image" 
-                  src="{{.image}}" 
+                <img
+                  class="card-img-top rounded-circle card-img-top team-image"
+                  src="{{.image}}"
                   alt="Valérie"
                 >
                 <h3 class="title-medium {{.color}}">{{.title}}</h3>
@@ -117,7 +94,7 @@
     <div class="container pb-5">
       <div class="row">
         {{ range .item }}
-           <div class="col-md-12 mb-5">
+           <div class="col-md-12 col-lg-6 mb-5">
             <div class="mb-5 card center-card colorBlock {{ .color }}">
               <div class="card-header">
                 <h3>{{.title}}</h3>
@@ -182,13 +159,13 @@
 
 {{ if .Site.Data.entreprises.partners.enable }}
 {{ with .Site.Data.entreprises.partners }}
-<section class="section bg-lightgrey">
+<section class="section bg-lightgrey d-block d-lg-none">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
-                    <div 
-                        class="card-header color-blue with-separator" 
+                    <div
+                        class="card-header color-blue with-separator"
                     >
                         <h3 class="mb-0 pr-4">
                             {{.title}}

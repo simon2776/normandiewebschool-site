@@ -4,9 +4,11 @@ banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: Bienvenue à la <br/> NORMANDIE WEB SCHOOL
   subtitle: L'école des métiers du numérique au coeur des entreprises
+  image: images/fond-seine-innopolis.png
 about:
   enable: true
   title: Qui sommes-nous ?
+  image: 'images/sitapha-cours.png'
   content: La NWS est une École d’Enseignement Supérieur Technique Privée qui forme
     en 3 ou 5 ans aux métiers du numérique (développement web, du web design et du
     marketing digital...) et amène vers un titre d’état (RNCP). Notre pédagogie est
@@ -30,6 +32,7 @@ filieres:
     from: À partir du bac + 1
     to: Jusqu'au bac +5
     color: color-yellow
+    logo: images/logo-dev.png
   - title: Filière Design
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
       porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
@@ -40,6 +43,7 @@ filieres:
     from: À partir du bac + 1
     to: Jusqu'au bac +5
     color: color-blue
+    logo: images/logo-design.png
   - title: Filière Marketing
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
       porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
@@ -50,6 +54,7 @@ filieres:
     from: À partir du bac + 1
     to: Jusqu'au bac +5
     color: color-orange
+    logo: images/logo-marketing.png
 cursus:
   enable: true;
   title: Le cursus

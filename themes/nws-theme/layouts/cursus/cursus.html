@@ -4,7 +4,7 @@
   <section class="hero-area bg-primary overflow-hidden d-flex align-items-center" id="parallax">
     <div class="container">
       <div class="row">
-        <div class="col-lg-11 d-none d-md-block">
+        <div class="col-lg-11 d-block d-lg-none">
           <h1>{{ .Site.Data.cursus.banner.title | safeHTML }}</h1>
           <h2>{{ .Site.Data.cursus.banner.subtitle | safeHTML }}</h2>
         </div>
@@ -12,35 +12,14 @@
     </div>
   </section>
   <!-- /hero area -->
-
-  <section class="pb-4 bg-lightgrey up">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-              <div class="card-header color-orange with-separator">
-                <h3>
-                  {{ .Site.Data.cursus.banner.title | safeHTML }}
-                </h3>
-              </div>
-
-              <div class="card-body">
-                <p class="font-weight-medium">
-                  {{ .Site.Data.cursus.banner.subtitle | safeHTML }}
-                </p>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
+{{ partial "components/page-title" (dict "context" . "title" .Site.Data.cursus.banner.title "subtitle" .Site.Data.cursus.banner.subtitle ) }}
 
   {{ if .Site.Data.cursus.about.enable }}
   <!-- about -->
   <section class="pb-4 bg-lightgrey">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 second-push-top">
 
           {{ with .Site.Data.cursus.about }}
           <div class="card">
@@ -69,15 +48,15 @@
   <!-- Nos cursus -->
   {{ if .Site.Data.cursus.cursus.enable }}
   {{ with .Site.Data.cursus.cursus }}
-  <section class="py-5 bg-lightgrey clip-bottom-white overflow-hidden" id="cursus">
+  <section class="py-5 bg-lightgrey clip-bottom-white overflow-hidden " id="cursus">
     <div class="container">
-      <div class="row mb-4 px-5">
+      <div class="row mb-4 px-5 d-block d-lg-none">
         <p class="cursus-title mb-0">Nos cursus</p>
         <img src="/images/cursus-wave.svg" class='ml-3 mb-1' alt="">
       </div>
       <div class="row">
         {{ range .item }}
-          <div class="col-md-12 mb-4">
+          <div class="col-md-12 col-lg-4 mb-4">
             <div class="card center-card {{ .color }}">
               <div class="card-header">
                 <h3 class="title-medium {{.color}}">{{.title}}</h3>
@@ -103,11 +82,14 @@
                 {{ end }}
               </div>
             </div>
+            <div class="col-12 d-flex justify-content-center my-4">
+              <a href="" class="btn font-weight-medium color-blue my-5 py-3 px-4">Demande d'inscription</a>
+            </div>
           </div>
         {{ end }}
       </div>
 
-      <div class="row">
+      <div class="row d-block d-lg-none">
         <div class="col-12 d-flex justify-content-center my-4">
           <a href="" class="btn font-weight-medium color-blue my-5 py-3 px-4">Demande d'inscription</a>
         </div>
@@ -125,12 +107,16 @@
   <section class="bg-white clip-bottom-lightgrey pt-5">
     <div class="container pb-5">
       <div class="row">
-        <div class="col-12 text-center">
-          <h3 class="title-medium color-orange">{{ .title }}</h3>
+        <div class="col-12 text-center text-lg-left">
+          <h3 class="title-medium with-separator-lg-left color-orange">{{ .title }}</h3>
           <p>{{ .subtitle }}</p>
         </div>
 
-        <div class="cursus_filieres mt-5">
+        <div class="cursus_filieres mt-5 ">
+
+          <img src="{{ `/images/arrow-down.svg` | absURL }}" class="arrow-1 d-none d-lg-block"/>
+          <img src="{{ `/images/arrow-down.svg` | absURL }}" class="arrow-2 d-none d-lg-block"/>
+
           {{ range .item }}
             <div class="row flex-column align-items-center mb-5">
               {{if .image}}
@@ -138,7 +124,7 @@
                 <img src="{{.bulle}}" />
               </div>
               {{end}}
-              
+
               {{if (not .image)}}
               <h3>{{.bulle}}</h3>
               {{end}}
@@ -147,7 +133,7 @@
               <p>{{.content | markdownify}}</p>
               <a href="{{.link}}" class="mb-5">En savoir plus</a>
               {{if .arrow}}
-              <img src="{{.arrowImage}}"/>
+              <img src="{{.arrowImage}}" class="d-block d-lg-none"/>
               {{ end }}
             </div>
           {{ end }}

@@ -13,36 +13,43 @@ form:
           type: 'text'
           required: false
           name: 'last_name'
+          width: '50'
         - icon: ''
           placeholder: 'Votre prénom'
           type: 'text'
           required: false
           name: 'first_name'
+          width: '50'
         - icon: ''
           placeholder: 'Votre adresse e-mail*'
           type: 'email'
           required: true
           name: 'email'
+          width: '50'
         - icon: ''
           placeholder: 'Confirmer votre adresse e-mail*'
           type: 'email'
           required: true
           name: 'email_confirmation'
+          width: '50'
         - icon: ''
           placeholder: 'Votre numéro de téléphone'
           type: 'phone'
           required: false
           name: 'phone'
+          width: '50'
         - icon: ''
           placeholder: "L'objet de votre message*"
           type: 'text'
           required: true
           name: 'object'
+          width: '100'
         - icon: ''
           placeholder: 'Votre message*'
           textarea: true
           required: true
           name: 'message'
+          width: '100'
     checkbox:
         - content: "En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre d'apport d'information concernant les formations proposées par l'école."
           required: true
