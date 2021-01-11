@@ -7,69 +7,119 @@ banner:
   image: images/cursus_bg.png
 about:
   enable: true
-  title: 'Titre de la section'
-  content:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim.
-    Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat.
-    Integer nec dui a elit volutpat tincidunt. '
-  image: '/images/sitapha-cours.png'
+  title: L'enseignement à la NWS
+  content: "La Normandie Web School propose un cursus riche et varié pour qui veut
+    développer ses compétences et ses connaissances en numérique et en digital. Le
+    cursus global se divise en quatre branche. Tout d'abord, l'étudiant doit suivre
+    le cursus initial pour obtenir toutes les compétences requise en design, en développement
+    et marketing pour pouvoir entamer sa deuxième année (la première année n'est pas
+    un passage obligatoire pour toutes personnes ayant un Bac+1 ou un Bac+2 dans le
+    domaine de la communication ou du numérique ou du développement web). \n\nAprès
+    avoir passer le cap de la deuxième année, l'étudiant a un choix à faire : Celui
+    de choisir sa spécialité. Ici, ses goûts, ses talents et ses compétences vont
+    jouer. L'étudiant aura le choix entre trois filières : Design graphique, Marketing
+    digital ou développement web. Ce choix sera suivi pendant trois années et ce jusqu'à
+    l'obtention du diplôme \"Chef de projet digital\". \n\nAprès ces trois années,
+    s'il le désire l'étudiant peut intégrer le Master \"Expert Digital\" et développer
+    encore plus ses compétences et ses connaissances en matière de numérique.  "
+  image: "/images/sitapha-cours.png"
 cursus:
   enable: true;
   item:
-    - image: true
-      title: Cursus intial
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.
-      from: Bac +1
-      color: color-yellow
-      item: 
-        - url : /images/logo_nws.png
-
-    - image: true
-      title: 'Spécialisations'
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.'
-      from: 'Bac +3'
-      color: 'color-blue'
-      item:
-        - url:  /images/logo-marketing.png
-        - url: /images/logo-design.png
-        - url: /images/logo-dev.png
-
-    - image: true
-      title: 'Master'
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam, in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.'
-      from: 'Master'
-      color: 'color-orange'
-      item:
-        - url: /images/logo-isd.png
-
+  - image: true
+    title: Cursus intial
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
+      porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
+      in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis
+      ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus
+      sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae
+      lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.
+    from: Bac +1
+    color: color-yellow
+    item:
+    - url: "/images/logo_nws.png"
+  - image: true
+    title: Spécialisations
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
+      porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
+      in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis
+      ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus
+      sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae
+      lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.
+    from: Bac +3
+    color: color-blue
+    item:
+    - url: "/images/logo-marketing.png"
+    - url: "/images/logo-design.png"
+    - url: "/images/logo-dev.png"
+  - image: true
+    title: Master
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
+      porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
+      in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis
+      ornare libero. Maecenas maximus placerat est, eu varius est. Etiam finibus tellus
+      sed odio rhoncus, eu lobortis augue euismod. Cras metus dui, fringilla vitae
+      lacinia volutpat, pulvinar eu erat. Aliquam quis dolor at ligula faucibus aliquet.
+    from: Master
+    color: color-orange
+    item:
+    - url: "/images/logo-isd.png"
+  title: ''
+  subtitle: ''
 filieres:
   enable: true
-  title: 'Le cursus en infographie'
+  title: Le cursus en infographie
   subtitle: 'Le parcours de la Normandie Web School résumé en un schéma. '
   item:
-    - image: false
-      bulle: '1ère année'
-      title: 'Concepteur numérique'
-      content: 'Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital.'
-      arrow: true
-      arrowImage: '/images/arrow-down.svg'
-      link: '#'
-
-    - image: true
-      bulle: '/images/marketing.svg'
-      title: 'Spécialisation Marketing'
-      content: 'Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital.'
-      arrow: true
-      arrowImage: '/images/arrow-down.svg'
-      link: '#'
-
-    - image: false
-      bulle: '3ème année'
-      title: 'Chef de projet digital'
-      content: 'Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital.'
-      arrow: false
-      link: '#'
-
+  - image: false
+    bulle: 1ère année
+    title: Concepteur numérique
+    content: Suivez cette première année pour vous former au métier de concepteur
+      numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor
+      chef de projet digital.
+    arrow: true
+    arrowImage: "/images/arrow-down.svg"
+    link: "#"
+    from: ''
+    to: ''
+    color: ''
+  - image: true
+    bulle: "/images/marketing.svg"
+    title: Spécialisation Marketing
+    content: Suivez cette première année pour vous former au métier de concepteur
+      numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor
+      chef de projet digital.
+    arrow: true
+    arrowImage: "/images/arrow-down.svg"
+    link: "#"
+    from: ''
+    to: ''
+    color: ''
+  - image: false
+    bulle: 3ème année
+    title: Chef de projet digital
+    content: Suivez cette première année pour vous former au métier de concepteur
+      numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor
+      chef de projet digital.
+    arrow: false
+    link: "#"
+    from: ''
+    to: ''
+    color: ''
 testimonials:
   enable: true
-  # testimonials item comes from 'content/testimonials'
+reasons:
+  enable: false
+  title: ''
+  item: []
+data:
+  enable: false
+  title: ''
+  item: []
+team:
+  enable: false
+  title: ''
+  content: ''
+partners:
+  enable: false
+  title: ''
