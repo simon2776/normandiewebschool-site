@@ -43,13 +43,6 @@ filieres:
     to: Jusqu'au bac + 3
     color: color-yellow
     logo: images/logo-dev.png
-  - title: Masters
-    content: 'Expert digital, tel sera votre statut après avoir développer vos compétences
-      et vos connaissances au sein de ce Master très complet. '
-    from: Du bac+4
-    to: Au bac+5
-    color: ''
-    logo: ''
 cursus:
   enable: true;
   title: Le cursus
