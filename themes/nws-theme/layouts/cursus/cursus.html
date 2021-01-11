@@ -2,14 +2,7 @@
 
   <!-- hero area -->
   <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Site.Data.cursus.banner.image | absURL }}')">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-11 d-block d-lg-none">
-          <h1>{{ .Site.Data.cursus.banner.title | safeHTML }}</h1>
-          <h2>{{ .Site.Data.cursus.banner.subtitle | safeHTML }}</h2>
-        </div>
-      </div>
-    </div>
+   
   </section>
   <!-- /hero area -->
 {{ partial "components/page-title" (dict "context" . "title" .Site.Data.cursus.banner.title "subtitle" .Site.Data.cursus.banner.subtitle ) }}
@@ -25,10 +18,8 @@
   {{ with .Site.Data.cursus.cursus }}
   <section class="py-5 bg-lightgrey clip-bottom-white overflow-hidden " id="cursus">
     <div class="container">
-      <div class="row mb-4 px-5 d-block d-lg-none">
-        <p class="cursus-title mb-0">Nos cursus</p>
-        <img src="/images/cursus-wave.svg" class='ml-3 mb-1' alt="">
-      </div>
+      {{ partial "components/wavy-title" (dict "context" . "title" "Nos cursus") }}
+
       <div class="row">
         {{ range .item }}
           <div class="col-md-12 col-lg-4 mb-4">
@@ -49,7 +40,7 @@
                 </div>
 
                 {{if .image}}
-                <div class="logo">
+                <div class="logo d-flex justify-content-around">
                   {{ range .item }}
                     <img src="{{.url}}" alt="">
                   {{ end }}
@@ -57,7 +48,7 @@
                 {{ end }}
               </div>
             </div>
-            <div class="col-12 d-flex justify-content-center my-4">
+            <div class="col-12 justify-content-center my-4 d-none d-lg-flex">
               <a href="" class="btn font-weight-medium color-blue my-5 py-3 px-4">Demande d'inscription</a>
             </div>
           </div>
@@ -104,8 +95,8 @@
               <h3>{{.bulle}}</h3>
               {{end}}
 
-              <p>{{.title}}</p>
-              <p>{{.content | markdownify}}</p>
+              <p class="w-lg-100">{{.title}}</p>
+              <p class="w-lg-100">{{.content | markdownify}}</p>
               <a href="{{.link}}" class="mb-5">En savoir plus</a>
               {{if .arrow}}
               <img src="{{.arrowImage}}" class="d-block d-lg-none"/>
@@ -129,7 +120,7 @@
 
           {{ $testimonials := where .Site.RegularPages "Type" "in" "testimonial" }}
 
-          <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+          <div id="testimonialsCarousel" class="carousel slide pb-5" data-ride="carousel">
             <ol class="carousel-indicators">
              {{ range $index, $value := $testimonials }}
               <li data-target="#testimonalsCarouselIndicator" data-slide-to="{{$index}}" class="{{ if (eq $index 0 )}}active{{end}}"></li>
