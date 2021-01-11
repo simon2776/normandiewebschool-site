@@ -56,26 +56,26 @@ cursus:
 filieres:
   enable: true
   title: 'Le cursus en infographie'
-  subtitle: 'Le parcours de la Normandie Web School résumé en un schéma. '
+  subtitle: 'Le cursus à la Normandie Web School se divise en 4 années. Découvrez les dans ce court schéma représentatif.'
   item:
     - image: false
       bulle: '1ère année'
-      title: 'Concepteur numérique'
-      content: 'Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital.'
+      title: 'Cursus intial'
+      content: 'Suivez une première année en tant que concepteur numérique et développez des compétences complètes en digital et en numérique.'
       arrow: true
       arrowImage: '/images/arrow-down.svg'
       link: '#'
     - image: true
       bulle: '/images/marketing.svg'
-      title: 'Spécialisation Marketing'
-      content: 'Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital.'
+      title: 'Spécialisation'
+      content: 'Choisissez selon vos talents et vos passions une spécialisation adéquats. Vous avez le choix entre développement web, design graphique ou marketing digital.'
       arrow: true
       arrowImage: '/images/arrow-down.svg'
       link: '#'
     - image: false
-      bulle: '3ème année'
-      title: 'Chef de projet digital'
-      content: 'Suivez cette première année pour vous former au métier de concepteur numérique. Cette année est la clé pour poursuivre le cursus et obtenir un Bachelor chef de projet digital.'
+      bulle: '4e & 5e année'
+      title: 'Master "Expert Digital"'
+      content: 'Devenez expert digital en suivant ce master spécialisé dans les métiers du numérique. '
       arrow: false
       link: '#'
 
