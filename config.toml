@@ -1,5 +1,5 @@
 baseURL = "https://nws-akarah-preprod.netlify.com"
-languageCode = "en-us"
+languageCode = "fr-fr"
 summaryLength = "10"
 theme = "nws-theme"
 title = "Normandie Web School • L'école des métiers du numérique"
@@ -19,16 +19,12 @@ weight = 7
 URL = "entreprises"
 name = "Les entreprises"
 weight = 4
-#[[menu.desktop]]
-#URL = "etudiants"
-#name = "Nos étudiants"
-#weight = 3
 [[menu.desktop]]
 URL = "cursus"
 name = "Les cursus"
 weight = 2
 [[menu.desktop]]
-URL = 'cursus'
+URL = "cursus"
 name = "Étudier à la NWS"
 parent = "Les cursus"
 weight = 1
@@ -49,7 +45,6 @@ weight = 2
 name = "Master Expert digital"
 parent = "Les cursus"
 weight = 5
-
 [[menu.main]]
 name = "Bachelor design"
 parent = "Les cursus"
@@ -86,15 +81,10 @@ weight = 5
 URL = "entreprises"
 name = "Les entreprises"
 weight = 4
-#[[menu.main]]
-#URL = "etudiants"
-#name = "Nos étudiants"
-#weight = 3
 [[menu.main]]
 URL = "cursus"
 name = "Les cursus"
 weight = 2
-
 [[menu.top]]
 URL = "blog"
 name = "Blog"
