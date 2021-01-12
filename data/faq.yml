@@ -6,6 +6,7 @@ banner:
   subtitle:
     Des questions ? Des réponses ! Ici vous retrouverez toutes les informations
     que vous recherchez.
+  image: /images/backgrounds/background-faq.png
 subjects:
   enable: true
   item:
