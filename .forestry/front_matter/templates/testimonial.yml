@@ -28,6 +28,10 @@ fields:
       format: markdown
   label: Content
   hidden: false
+- name: theme
+  type: tag_list
+  default: []
+  label: Thème
 - name: type
   type: text
   config:
