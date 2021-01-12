@@ -1,15 +1,7 @@
 {{ define "main" }}
 
   <!-- hero area -->
-  <section class="hero-area bg-primary overflow-hidden d-flex align-items-center" id="parallax">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-11 d-block d-lg-none">
-          <h1>{{ .Site.Data.entreprises.banner.title | safeHTML }}</h1>
-          <h2>{{ .Site.Data.entreprises.banner.subtitle | safeHTML }}</h2>
-        </div>
-      </div>
-    </div>
+  <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Site.Data.entreprises.banner.image | absURL }}')">
   </section>
   <!-- /hero area -->
 
@@ -127,7 +119,7 @@
 
           {{ $testimonials := where .Site.RegularPages "Type" "in" "testimonial" }}
 
-          <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+          <div id="testimonialsCarousel" class="carousel slide pb-5" data-ride="carousel">
             <ol class="carousel-indicators">
               {{ range $index, $value := $testimonials }}
               <li data-target="#testimonalsCarouselIndicator" data-slide-to="{{$index}}" class="{{ if (eq $index 0 )}}active{{end}}"></li>

@@ -4,6 +4,7 @@ banner:
   title: 'Les Entreprises'
   title-line-twho: ''
   subtitle: 'Un enseignement professionnalisant et varié pour un avenir 100% numérique.'
+  image: '/images/cursus_bg.png'
 about:
   enable: true
   title: 'Introduction'

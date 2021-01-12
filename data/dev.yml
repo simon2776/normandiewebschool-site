@@ -3,7 +3,7 @@ global: ''
 banner:
   logo: /images/logo-dev.png
   title: 'Filière Développement'
-  image: images/cursus_bg.png
+  image: /images/cursus_bg.png
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. <br/><br/>
     Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat. <br/><br/>
