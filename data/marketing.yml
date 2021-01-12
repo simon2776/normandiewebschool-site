@@ -2,7 +2,7 @@
 global: ''
 banner:
   logo: /images/logo-marketing.png
-  title: 'Spécialité Marketing digital, 2e Année'
+  title: 'Spécialité Marketing digital'
   image: images/cursus_bg.png
   description:
     "Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez dans tous les détails du marketing et obtenez en fin d'année votre titre RNCP de niveau 5 équivalant au BAC+2.
@@ -49,21 +49,53 @@ years:
   enable: true
   item:
     - button: '1er année'
-      title: 'Programme Année 1'
+      title: 'Le programme en cursus initial'
       active: 'active'
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
+      subtitle: 'De nombreux cours riches et variés y sont enseignés. Développez vos compétences en graphisme, design, marketing et développement. '
       etape:
-        - title: 'Storymaps'
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
-        - title: 'Veille artistique & composition'
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
-        - title: 'UI & UX Design Web'
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
-        - title: 'Photo & vidéo Pro'
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
+        - title: 'Création graphique'
+          content: "- Eco-conception graphique <br/>
+                         - Tendances graphiques & veille <br/>
+                         - Formes, couleurs et polices <br/>
+                         - Identité visuelle & charte graphique <br/>
+                         - Illustrations vectorielles et bitmap <br/>
+                         - Prise de vue et retouches photo <br/>
+                         - Réalisation Print <br/>
+                         - Infographies <br/>
+                         - Outils graphiques professionnels: Illustrator, inDesign, Lightroom, Photoshop, XD"
+        - title: 'Vidéo et animation'
+          content: "- Ecoconception vidéo <br/>
+                         - Scénarisation <br/>
+                         - Prise de vue en studio et en extérieur <br/>
+                         - Montage vidéo <br/>
+                         - Motion Design <br/>
+                         - Outils vidéo professionnels: Adobe Premiere, After Effects"
+        - title: 'Création de sites web'
+          content: "- Eco-conception web <br/>
+                   - Sites mobiles et desktop <br/>
+                   - Conception d’interfaces <br/>
+                   - Grilles de mise en page <br/>
+                   - Systèmes de design et composants web  <br/>
+                   - Langages du web  HTML / CSS / JavaScript <br/>
+                   - Accessibilité et ergonomie <br/>
+                   - Rédaction de contenus <br/>
+                   - Référencement naturel (SEO) <br/>
+                   - Publication
+                   "
+        - title: 'Communication et e-commerce'
+          content: "- Fondamentaux du marketing digital <br/>
+                         - Réseaux sociaux professionnels <br/>
+                         - Réseaux sociaux graphiques et vidéo <br/>
+                         - Rédaction et envoi e-mailing & newsletter <br/>
+                         - Intégration de contenus (CMS) <br/>
+                         - Sites e-commerce <br/>
+                         - Audit lexical, search console et analytics <br/>
+                         - Analyse d'éco performance <br/>
+                         - Systèmes professionnels de diffusion: Wordpress, Woocommerce, Sendinblue <br/>
+                         "
     - button: '2e année marketing'
       title: 'Programme de la deuxième année marketing'
-      subtitle: 'Suivez ce programme intensif pour devenir un professionnel du marketing. '
+      subtitle: 'Suivez ce programme intensif pour devenir un professionnel du marketing.'
       etape:
         - title: 'Stratégie Marketing'
           content: "- Les étapes de la démarche marketing (analyser planification, suivi), <br/>
@@ -104,17 +136,47 @@ years:
                    - Anglais technique <br/>
                    - Certifications : compétences numériques, outils Adobe"
     - button: '3e année'
-      title: 'Programme Année 3'
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
+      title: 'Spécialité marketing digital, 3e année'
+      subtitle: "
+      Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez dans tous les détails du marketing, c'est la clé pour obtenir en fin d'année votre titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre au nom d'un d'un chef de projet digital.<br/><br/>
+      Apprenez et pratiquez toutes les techniques du marketing pour devenir un pro du numérique. Voici les compétences et connaissances qui vous seront enseignées afin d'obtenir le statut de chef de projet digital.
+      "
       etape:
-        - title: 'Storymaps'
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
-        - title: 'Veille artistique & composition'
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
-        - title: 'UI & UX Design Web'
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
-        - title: 'Photo & vidéo Pro'
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero.'
+        - title: "Entrepreneuriat et innovation"
+          content: "- Étude de marché, Benchmark concurrentiel <br/>
+                   - Formalisation des objectifs, de la cible et du positionnement  <br/>
+                   - Définition d’une stratégie digitale  <br/>
+                   - Veille systématique et curation de contenu <br/>
+                   - Écoresponsabilité et modèle économique web <br/>
+                   - Pitch projet devant des parties prenantes"
+        - title: "Etude du besoin"
+          content: "- Rédaction d’un brief client <br/>
+                       - Identification des acteurs du projet sous forme de Personas <br/>
+                       - Définition d’une solution technique (site et médias) répondant aux besoins <br/>
+                       - Estimation des coûts de conception, de mise en place et de suivi <br/>
+                       - Rédaction d’une proposition technique et commerciale"
+        - title: "Marketing agile"
+          content: "- Mise en oeuvre d’un processus agile associant le client <br/>
+                       - Sélection des médias Paid/Owned/Earned <br/>
+                       - Création de tunnels optimisés UX/UI <br/>
+                       - Réalisation d’un site e-commerce <br/>
+                       - Tests, Recettage et validation"
+        - title: "Gestion des Risques et Amélioration Continue"
+          content: "- Facteurs-risques et cadre juridique  <br/>
+                   - Communication de crise : web et réseaux sociaux <br/>
+                   - Post-Mortem et atelier d’auto-critique <br/>
+                   - Refonte et optimisation sous contrainte de la Direction Marketing"
+        - title: "Événementiel"
+          content: "- Mise en place et déploiement de la stratégie digitale d’un évènement <br/>
+                   - Workflow de Lead Nurturing (scoring, marketing automation, data analysis)  <br/>
+                   - Web TV : création et diffusion de contenu et live vidéo"
+        - title: "Projet certifiant"
+          content: "- Cahier des charges et dossier de production <br/>
+                   - Gestion de projet : allocation de ressources,  planning et budget <br/>
+                   - Réalisation et gestion d’un projet en mode agence <br/>
+                   - Reporting et communication à l’oral et à l’écrit <br/>
+                   - Ecoute, curiosité, culture & Intelligence collective Travail en équipe, esprit collaboratif <br/>
+                   - Responsabilité sociétale"
 profession:
   enable: true
   title: 'Les débouchés métiers'

@@ -141,7 +141,7 @@
                                     {{.title}}
                                 </h3>
                             </div>
-                            <p class="mt-4 text-lg-center">{{.subtitle}}</p>
+                            <p class="mt-4 text-lg-center">{{.subtitle | safeHTML }}</p>
 
                             <div class="row">
                                 {{ range $index, $value := .etape }}
