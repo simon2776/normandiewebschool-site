@@ -328,6 +328,18 @@ a:hover {
   overflow: hidden;
 }
 
+.icn-contact {
+  position: absolute !important;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  &.icn-contact-message {
+    top: 11px;
+    transform: translateY(0px);
+  }
+}
+
 .shadow {
   box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important;
 }
