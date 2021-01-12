@@ -1,7 +1,6 @@
 +++
-draft = true
 name = "Jean-Claude Torrel"
-picture = ""
+picture = "/images/jean-claude.jpg"
 role = "Directeur des systèmes d’information"
 
 +++
