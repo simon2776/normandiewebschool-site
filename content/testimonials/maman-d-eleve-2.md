@@ -1,9 +1,9 @@
 +++
-content = "Ma fille est à la NWS et c'est vraiment une bonne école. Surtout en filière design ! Il paraît qu'ils font du coloriage toute la journée, mais non c'est faux ! C'est de la gouache. "
+content = "Une super bonne ambiance dans la classe. Les intervenants sont vraiment gentils et attentifs. C'est un plaisir de travailler ici."
 image = "/images/valerie.png"
-name = "Valérie"
-title = "Maman d'élève"
-tag = "Test"
+name = "Gabriel Abate"
+tag = ["cursus", "initial"]
+title = "1ère année, 2020"
 type = "testimonial"
 
 +++
