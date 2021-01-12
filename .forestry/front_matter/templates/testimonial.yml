@@ -40,4 +40,5 @@ fields:
   hidden: true
   default: testimonial
 pages:
+- content/testimonials/1ere-annee-2020.md
 - content/testimonials/maman-d-eleve.md
