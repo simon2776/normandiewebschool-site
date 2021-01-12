@@ -1,5 +1,17 @@
 @import 'variables';
 
+//
+@media (min-width: 768px) {
+  .footer-lg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: 'Info Info'
+                         'Buttons Contact';
+  }
+}
+
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .first-push-top {
@@ -27,10 +39,8 @@
   }
 
   .footer-lg-grid {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 0px 0px;
     grid-template-areas: 'Contact Info Buttons';
   }
 
