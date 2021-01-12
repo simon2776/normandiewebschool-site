@@ -103,6 +103,13 @@
 
             <div class="carousel-inner">
               {{ range $index, $value := $testimonials }}
+                   {{ range .Params.Tag }}
+                      {{ $name := . }}
+                      {{if (eq $name "entreprises")}}
+                      <li><a href="">{{ $name }}</a></li>
+                      {{end}}
+                  {{ end }}
+
                 <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">
                   {{ partial "testimonial.html" . }}
                 </div>
