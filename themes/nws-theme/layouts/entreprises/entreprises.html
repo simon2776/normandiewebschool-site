@@ -7,47 +7,22 @@
 
 {{ partial "components/page-title" (dict "context" . "title" .Site.Data.entreprises.banner.title "subtitle" .Site.Data.entreprises.banner.subtitle ) }}
 
-  {{ if .Site.Data.entreprises.about.enable }}
-  <!-- about -->
-  <section class="pb-4 bg-lightgrey">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-          {{ with .Site.Data.entreprises.about }}
-          <div class="card second-push-top">
-            <div class="card-header color-blue with-separator">
-              <h3 class="mb-0">
-                  {{.title}}
-              </h3>
-            </div>
-
-            <div id="collapseAbout" class="collapse show" aria-labelledby="collapseOne" data-parent="#accordion">
-              <div class="card-body">
-                <p>
-                  {{.content | markdownify}}
-                </p>
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </section>
+ {{ if .Site.Data.entreprises.about.enable }}
+    <!-- about -->
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Site.Data.entreprises.about.title "content" .Site.Data.entreprises.about.content "image" .Site.Data.entreprises.about.image  ) }}
   {{ end }}
 
 
   <!-- Recrutement -->
   {{ if .Site.Data.entreprises.recrutement.enable }}
   {{ with .Site.Data.entreprises.recrutement }}
-  <section class="bg-lightgrey clip-bottom-white recrutement pt-5">
+  <section class="bg-lightgrey clip-bottom-white recrutement pt-5 mb-lg-5">
     <div class="container">
         {{ partial "components/wavy-title" (dict "context" . "title" "Vous recrutez ?") }}
       <div class="row">
         {{ range .item }}
           <div class="col-md-12 col-lg-6 mb-4">
-            <div class="card center-card {{ .color }}">
+            <div class="card center-card {{ .color }} position-relative overflow-visible">
               <div class="card-header">
                 <img
                   class="card-img-top rounded-circle card-img-top team-image"
@@ -63,8 +38,8 @@
                     {{.content | markdownify}}
                   </p>
                   <div class="row">
-                    <div class="col-12 d-flex justify-content-center mt-4">
-                    <a href="" class="btn font-weight-medium {{.color}} mb-3 pt-3 pb-3 px-5">Je recrute !</a>
+                    <div class="col-12 d-flex justify-content-center position-lg-absolute">
+                    <a href="" class="btn font-weight-medium {{.color}} my-3 py-3 px-5">Je recrute !</a>
                     </div>
                   </div>
                 </div>
@@ -112,7 +87,7 @@
 
 {{ if .Site.Data.homepage.testimonials.enable }}
   <!-- Team -->
-  <section class="bg-lightgrey pt-5">
+  <section class="bg-lightgrey container pb-5 pt-0 pt-lg-5 pb-0 pb-lg-5">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
