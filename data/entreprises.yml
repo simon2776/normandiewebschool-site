@@ -8,6 +8,7 @@ banner:
 about:
   enable: true
   title: 'Introduction'
+  image: '/images/sitapha-cours.png'
   content: '
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. <br /><br />
     Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat. <br /><br />
@@ -15,13 +16,13 @@ about:
 recrutement:
   enable: true
   item:
-    - image: '/images/valerie.png'
+    - image: '/images/entreprise_1.png'
       title: 'Les stages'
       content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim.
         Nam sollicitudin orci a dui imperdiet placerat. Vestibulum accumsan sodales nulla, non lobortis ante iaculis id. In commodo accumsan lorem ut feugiat.'
       color: 'color-blue'
-    - image: '/images/valerie.png'
+    - image: /images/entreprises_2.png
       title: "L'alternance"
       content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim.
