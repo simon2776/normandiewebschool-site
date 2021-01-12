@@ -90,7 +90,7 @@
                                         <img src="{{.icon}}" alt="">
                                     </div>
                                     <h3 class="">{{.title}}</h3>
-                                    <p>{{.description}}</p>
+                                    <p>{{.description | markdownify }}</p>
                                     </div>
                                 {{ end }}
                             </div>
@@ -156,7 +156,7 @@
                                                 </h3>
                                             </div>
                                             <p>
-                                                {{.content}}
+                                                {{.content | safeHTML }}
                                             </p>
                                         </div>
                                     </div>
