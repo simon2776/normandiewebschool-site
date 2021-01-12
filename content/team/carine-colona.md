@@ -1,6 +1,7 @@
 +++
 name = "Carine Colona"
-picture = ""
-role = ""
+picture = "/images/carine.jpg"
+role = "Assistante pédagogique et admission"
+type = ""
 
 +++
