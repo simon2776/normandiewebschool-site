@@ -26,4 +26,5 @@ fields:
   default: team
 pages:
 - content/team/carine-colona.md
+- content/team/jean-claude.md
 - content/team/sylvain-tenier.md
