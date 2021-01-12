@@ -1,6 +1,6 @@
 +++
 name = "Carole Faure"
-picture = "/images/carole-faure.jpg"
+picture = "/images/carole.jpg"
 role = "Responsable relations entreprises"
 
 +++
