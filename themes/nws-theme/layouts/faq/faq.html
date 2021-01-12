@@ -6,14 +6,6 @@
   id="parallax"
   style="background-image: url('{{ "images/backgrounds/background-faq.png" | absURL }}')"
 >
-  <div class="container d-block d-lg-none">
-    <div class="row">
-      <div class="col-lg-11 d-none d-md-block">
-        <h1>{{ .Site.Data.faq.banner.title | safeHTML }}</h1>
-        <h2>{{ .Site.Data.faq.banner.subtitle | safeHTML }}</h2>
-      </div>
-    </div>
-  </div>
 </section>
 <!-- /hero area -->
 {{ partial "components/page-title" (dict "context" . "title" .Site.Data.faq.banner.title "subtitle" .Site.Data.faq.banner.subtitle ) }}
@@ -32,13 +24,19 @@
       <div class="col-md-12 mb-4">
           <div class="card {{ if eq $i 0 }} second-push-top {{end}}">
             <div class="card-header color-blue flex-column">
-              <img
-                class="card-img-top rounded-circle card-img-top team-image m-auto"
-                src="{{.image}}"
-                alt="Valérie"
-              />
-              <h3 class="m-auto py-3 title-medium color-blue">{{.subject}}</h3>
-              <p class="text-center mb-4">{{.subtitle}}</p>
+              <div class="row pb-lg-4">
+                <div class="col-12 text-center col-lg-2">
+                  <img
+                    class="card-img-top rounded-circle card-img-top team-image w-100 fit-contain"
+                    src="{{.image}}"
+                    alt="Valérie"
+                  />
+                </div>
+                <div class="col-12 text-center col-lg-10 text-lg-left">
+                  <h3 class="m-auto py-3 py-lg-0 title-medium title-medium-lg-left color-blue">{{.subject}}</h3>
+                  <p class="mb-4">{{.subtitle}}</p>
+                </div>
+              </div>
             </div>
 
             <div class="container">
@@ -57,7 +55,7 @@
                   >
                     <h3 class="panel-title">
                       <a
-                        class="collapsed position-relative"
+                        class="collapsed position-relative pr-5"
                         role="button"
                         title=""
                         data-toggle="collapse"
