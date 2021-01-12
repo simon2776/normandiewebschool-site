@@ -3,6 +3,7 @@ content = "Ma fille est à la NWS et c'est vraiment une bonne école. Surtout en
 image = "/images/valerie.png"
 name = "Valérie"
 title = "Maman d'élève"
+tag = "Test"
 type = "testimonial"
 
 +++
