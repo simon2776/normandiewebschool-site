@@ -3,17 +3,10 @@
 
 <!-- hero area -->
 <section
-  class="hero-area bg-primary overflow-hidden d-flex align-items-center"
+  class="hero-area overflow-hidden d-flex align-items-center"
   id="parallax"
+  style="background-image: url('{{ .Site.Data.documentation.banner.image | absURL }}')"
 >
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-11 d-block d-lg-none">
-        <h1>{{ .Site.Data.documentation.banner.title | safeHTML }}</h1>
-        <h2>{{ .Site.Data.documentation.banner.subtitle | safeHTML }}</h2>
-      </div>
-    </div>
-  </div>
 </section>
 <!-- /hero area -->
 {{ partial "components/page-title" (dict "context" . "title" .Site.Data.documentation.banner.title "subtitle" .Site.Data.documentation.banner.subtitle ) }}
