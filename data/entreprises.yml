@@ -4,9 +4,11 @@ banner:
   title: 'Les Entreprises'
   title-line-twho: ''
   subtitle: "La Normandie Web School proche de ses collaborateurs et des intervenants."
+  image: '/images/cursus_bg.png'
 about:
   enable: true
   title: 'Introduction'
+  image: '/images/sitapha-cours.png'
   content: "Les entreprises sont l’un des piliers de l’école que ce soit pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.
              Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes au plus proche de la réalité des besoins en compétences .
              Nous travaillons en étroite collaboration avec les entreprises, tout secteur confondu, de la TPE à celle du CAC 40 mais aussi avec des associations, des collectivités locales, des administrations publiques, des syndicats professionnels… Le numérique touche tous les secteurs et tous les services et est encore en devenir pour certaines organisations dont la transition digitale est en cours. L’école est un partenaire, voire un accélérateur de cette transition pour beaucoup de nos partenaires.
@@ -14,7 +16,7 @@ about:
 recrutement:
   enable: true
   item:
-    - image: '/images/valerie.png'
+    - image: '/images/entreprise_1.png'
       title: 'Les stages'
       button: 'Trouvez votre stagiaire'
       content:
@@ -23,7 +25,7 @@ recrutement:
          Année 2: stage de 4 mois à partir du mois de mars <br/>
          Année 3: stage de 6 mois équivalent temps plein à partir de janvier"
       color: 'color-blue'
-    - image: '/images/valerie.png'
+    - image: /images/entreprises_2.png
       title: "L'alternance"
       button: 'Trouvez votre alternant'
       content:

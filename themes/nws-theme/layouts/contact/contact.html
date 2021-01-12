@@ -3,8 +3,9 @@
 
 <!-- hero area -->
 <section
-  class="hero-area bg-primary overflow-hidden d-flex align-items-center"
+  class="hero-area overflow-hidden d-flex align-items-center"
   id="parallax"
+  style="background-image: url('{{ .Site.Data.contact.banner.image | absURL }}')"
 >
   <div class="container d-block d-lg-none">
     <div class="row">
@@ -36,19 +37,19 @@
               <form class="mt-3" method="POST" data-netlify="true">
                 <div class="form-group">
                   {{range .input}} {{if (not .textarea)}}
-                  <div class="input-icon pb-3 position-relative w-lg-{{ .width }} d-lg-inline-block">
-                    <img src="{{.icon}}" alt="" class="position-absolute" />
+                  <div class="input-icon mb-3 position-relative w-lg-{{ .width }} d-lg-inline-block">
+                    <img src="{{.icon}}" alt="" class="icn-contact" />
                     <input
                       type="{{.type}}"
                       placeholder="{{.placeholder}}"
                       required="{{.required}}"
-                      class="form-control"
+                      class="form-control {{.className}}"
                       name={{.name}}
                     />
                   </div>
                   {{end}} {{if .textarea}}
-                  <div class="input-icon pb-3 position-relative">
-                    <img src="{{.icon}}" alt="" class="position-absolute" />
+                  <div class="input-icon mb-3 position-relative">
+                    <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
                     <textarea
                       cols="30"
                       rows="10"
@@ -57,25 +58,30 @@
                       name="{{.name}}"
                     ></textarea>
                   </div>
-                  {{end}} {{end}} {{range $index, $el := .checkbox}}
-                  <div class="form-check pb-3">
-                    <input
-                      type="checkbox"
-                      class="form-check-input"
-                      id="checkbox-{{$index}}"
-                      name="{{.name}}"
-                    />
-                    <label class="form-check-label" for="checkbox-{{$index}}"
-                      >{{.content}}</label
-                    >
-                  </div>
-                  {{end}}
-                  <div class="row justify-content-center my-5">
-                    <!-- <div
-                      class="g-recaptcha"
-                      data-sitekey="6LeZ5RcaAAAAAHpywfieV8DIvg0Bw9razayBtrcu"
-                    ></div> -->
-                    <div data-netlify-recaptcha="true"></div>
+                  {{end}} {{end}} 
+                  <div class="row mb-lg-4">
+                    <div class="col-lg-8">
+                      {{range $index, $el := .checkbox}}
+                      <div class="form-check pb-3">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="checkbox-{{$index}}"
+                          name="{{.name}}"
+                        />
+                        <label class="form-check-label" for="checkbox-{{$index}}"
+                          >{{.content}}</label
+                        >
+                      </div>
+                      {{end}}
+                    </div>
+                    <div class="col-lg-3 d-flex justify-content-center my-5">
+                      <!-- <div
+                        class="g-recaptcha"
+                        data-sitekey="6LeZ5RcaAAAAAHpywfieV8DIvg0Bw9razayBtrcu"
+                      ></div> -->
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
                   </div>
 
                   <div class="row">
@@ -93,14 +99,23 @@
             </div>
           </div>
         </div>
-        {{ end }}
       </div>
 
-      <div class="col-4 d-none d-lg-block">
-        <div class="card second-push-top">
-
+      <div class="col-lg-4 mt-5 mt-lg-0">
+        <div class="card second-push-top subForm">
+          {{range .item}}
+          <div class="row mt-5 d-flex flex-column align-items-center">
+            <img src="{{.image}}" alt="" class="mb-4">
+            <h3 class="color-blue w-100 px-4 text-center">  {{ .info | safeHTML }}</h3>
+            <p class="">{{.subInfo}}</p>
+          </div>
+          {{end}}
+          <div class="col-12 justify-content-center my-4 d-none d-lg-flex">
+              <a href="" class="btn font-weight-medium color-blue py-3 px-4">Demande d'inscription</a>
+          </div>
         </div>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>

@@ -126,6 +126,22 @@
     }
   }
 
+  .position-lg-absolute {
+    position: absolute !important;
+  }
+
+  .title-medium-lg-left {
+    &.title-medium {
+      &:after {
+        margin: 0;
+        margin-top: 0.5em !important;
+        margin-bottom: 0.5em !important;
+        content: '';
+        left: 0;
+      }
+    }
+  }
+
   #cursus {
     /*min-height: 100Vh;*/ /*
     background-image: url('/images/assets/desktop-cursus.svg');

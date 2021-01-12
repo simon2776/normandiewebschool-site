@@ -23,8 +23,8 @@ about:
   enable: true
   image: /images/filieres_img1.png
   description:
-    "BAC+1 dans le domaine communication / multimédia / Développement informatique / Infographie <br/>
-     BAC+ Expérience professionnelle"
+    'BAC+1 dans le domaine communication / multimédia / Développement informatique / Infographie <br/>
+    BAC+ Expérience professionnelle'
 skills:
   enable: true
   title: 'Les Compétences'
@@ -43,7 +43,7 @@ skills:
       title: "Ouvert d'esprit"
       description: ''
     - icon: '/images/search.svg'
-      title: "Communicant"
+      title: 'Communicant'
       description: ''
 years:
   enable: true
@@ -98,43 +98,47 @@ years:
       subtitle: 'Suivez ce programme intensif pour devenir un professionnel du marketing.'
       etape:
         - title: 'Stratégie Marketing'
-          content: "- Les étapes de la démarche marketing (analyser planification, suivi), <br/>
+          content:
+            '- Les étapes de la démarche marketing (analyser planification, suivi), <br/>
             - Une analyse concurrentielle comparative, <br/>
             - La rédaction du plan marketing opérationnel, <br/>
             - La conception de calendriers éditorials <br/>
-            - La production de contenu original conforme au plan marketing."
-        - title: "Référencement naturel et performance web"
+            - La production de contenu original conforme au plan marketing.'
+        - title: 'Référencement naturel et performance web'
           content: "- La typologie de contenus et audit lexical,
-                    - La réalisation d'un prototype avec un contenu optimisé SEO, <br/>
-                     - La configuration et le déploiement d'un site éco-performants et de  CMS, <br/>
-                     - La validation de l'accessibilité et des performances techniques et environnementales, <br/>
-                     - La réalisation d'une présentation client. "
+            - La réalisation d'un prototype avec un contenu optimisé SEO, <br/>
+            - La configuration et le déploiement d'un site éco-performants et de  CMS, <br/>
+            - La validation de l'accessibilité et des performances techniques et environnementales, <br/>
+            - La réalisation d'une présentation client. "
         - title: 'Analytics, segmentation et reporting'
-          content: "- La définition d'une stratégie réseaux sociaux et advertising, <br/>
-                     - L'écriture et la publication de contenus originaux, <br/>
-                     - La diffusion de contenu original sur les réseaux sociaux, <br/>
-                     - L'optimisation d'une campagne publicitaires  \"réseaux sociaux \" <br/>
-                     - La certification Google Ads."
+          content:
+            '- La définition d''une stratégie réseaux sociaux et advertising, <br/>
+            - L''écriture et la publication de contenus originaux, <br/>
+            - La diffusion de contenu original sur les réseaux sociaux, <br/>
+            - L''optimisation d''une campagne publicitaires  "réseaux sociaux " <br/>
+            - La certification Google Ads.'
         - title: "Tunnel d'acquisiton"
           content: "- Google Analytics, Tag Manager et DataStudio, <br/>
-                    - L'exploration et la visualisation de données, <br/>
-                     - La réalisation d'un scoring pour la segmentation <br/>
-                     - La mise en place d'un Dashboard dynamique"
-        - title: "Marketing social et vidéo"
-          content: "- Création d’un tunnel d’acquisition conforme à un plan marketing, <br/>
-                       - Déploiement d’une stratégie de content marketing web et réseaux sociaux, <br/>
-                       - Création et diffusion d’un email et d’une newsletter, <br/>
-                       - Automatisation  des actions de Lead Nurturing / Growth Hacking."
-        - title: "Posture professionnelle"
-          content: "- Écoute, curiosité, culture & Intelligence collective  travail en équipe, esprit collaboratif <br/>
-                       - Connaissance de soi et des autres <br/>
-                       - Positionnement professionnel <br/>
-                       - Responsabilité sociétale"
-        - title: "E-learning et certifications"
-          content: "- Culture et outils numériques <br/>
-                   - Renforcement orthographique et grammatical <br/>
-                   - Anglais technique <br/>
-                   - Certifications : compétences numériques, outils Adobe"
+            - L'exploration et la visualisation de données, <br/>
+            - La réalisation d'un scoring pour la segmentation <br/>
+            - La mise en place d'un Dashboard dynamique"
+        - title: 'Marketing social et vidéo'
+          content:
+            '- Création d’un tunnel d’acquisition conforme à un plan marketing, <br/>
+            - Déploiement d’une stratégie de content marketing web et réseaux sociaux, <br/>
+            - Création et diffusion d’un email et d’une newsletter, <br/>
+            - Automatisation  des actions de Lead Nurturing / Growth Hacking.'
+        - title: 'Posture professionnelle'
+          content:
+            '- Écoute, curiosité, culture & Intelligence collective travail en équipe, esprit collaboratif <br/>
+            - Connaissance de soi et des autres <br/>
+            - Positionnement professionnel <br/>
+            - Responsabilité sociétale'
+        - title: 'E-learning et certifications'
+          content: '- Culture et outils numériques <br/>
+            - Renforcement orthographique et grammatical <br/>
+            - Anglais technique <br/>
+            - Certifications : compétences numériques, outils Adobe'
     - button: '3e année'
       title: 'Spécialité marketing digital, 3e année'
       subtitle: "
@@ -187,7 +191,7 @@ profession:
     - title: 'Chef de projet marketing'
       description: "Proposez des projets, organisez les dans leur globalité et accompagnez les équipes chargées de la production à travers un suivi complet, la création d'un plan marketing, des études de marchés, de la veille et des réunions et des rencontres."
     - title: 'Gestionnaire de contenu site web'
-      description: "Rédigez le contenu rédactionnel du site web en prenant en compte le référencement et les algorithmes des navigateurs de recherches, sélectionnez des images et des vidéos adaptés au produit / service et analysez les retombées du site Internet."
+      description: 'Rédigez le contenu rédactionnel du site web en prenant en compte le référencement et les algorithmes des navigateurs de recherches, sélectionnez des images et des vidéos adaptés au produit / service et analysez les retombées du site Internet.'
     - title: 'Rédacteur web'
       description: "Rédigez le contenu d'un site web en prenant en compte la demande et les besoins de l'entreprise, le référencement SEO et SEA et les algorithmes des navigateurs de recherches. "
     - title: 'Web marketer'

@@ -2,39 +2,14 @@
 
 <!-- hero area -->
 <section
-  class="hero-area bg-primary overflow-hidden d-flex align-items-center"
+  class="hero-area overflow-hidden d-flex align-items-center"
   id="parallax"
+  style="background-image: url('{{ .Site.Data.agenda.banner.image | absURL }}')"
 >
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-11 d-none d-md-block">
-        <h1>{{ .Site.Data.agenda.banner.title | safeHTML }}</h1>
-        <h2>{{ .Site.Data.agenda.banner.subtitle | safeHTML }}</h2>
-      </div>
-    </div>
-  </div>
 </section>
 <!-- /hero area -->
 
-<section class="pb-4 bg-lightgrey up">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-header color-orange with-separator">
-            <h3>{{ .Site.Data.agenda.banner.title | safeHTML }}</h3>
-          </div>
-
-          <div class="card-body">
-            <p class="font-weight-medium">
-              {{ .Site.Data.agenda.banner.subtitle | safeHTML }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{ partial "components/page-title" (dict "context" . "title" .Site.Data.agenda.banner.title "subtitle" .Site.Data.agenda.banner.subtitle ) }}
 
 {{ partial "getEvents.html" . }}
 
