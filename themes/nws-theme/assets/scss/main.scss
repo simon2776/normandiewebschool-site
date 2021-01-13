@@ -472,6 +472,16 @@ footer {
     color: white;
     font-size: 1.2em;
   }
+
+  .subfooter {
+    ul {
+      li {
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
 }
 
 .testimonial {
@@ -505,6 +515,7 @@ img.border-white {
 img.team-image {
   width: 150px;
   height: 150px;
+  object-fit: cover;
 }
 /*
 NAVBAR
