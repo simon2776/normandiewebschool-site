@@ -109,44 +109,8 @@
   {{ end }}
 
 
-{{ if .Site.Data.homepage.testimonials.enable }}
-  <!-- Team -->
-  <section class="bg-lightgrey">
-    <div class="container pb-5">
-      <div class="row">
-        <div class="col-md-12">
-
-          {{ $testimonials := where .Site.RegularPages "Type" "in" "testimonial" }}
-
-          <div id="testimonialsCarousel" class="carousel slide pb-5" data-ride="carousel">
-            <ol class="carousel-indicators">
-             {{ range $index, $value := $testimonials }}
-              <li data-target="#testimonalsCarouselIndicator" data-slide-to="{{$index}}" class="{{ if (eq $index 0 )}}active{{end}}"></li>
-              {{end}}
-            </ol>
-
-            <div class="carousel-inner">
-              {{ range $index, $value := $testimonials }}
-       
-                <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">
-                  {{ partial "testimonial.html" . }}
-                </div>
-              {{ end }}
-            </div>
-
-            <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
-              <span class="color-blue"><i class="fa fa-angle-left carousel-arrow" aria-hidden="true"></i></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-slide="next">
-              <span class="color-blue"><i class="fa fa-angle-right carousel-arrow" aria-hidden="true"></i></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+{{ if .Site.Data.cursus.testimonials.enable }}
+    {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "cursus") ) }}
 {{ end }}
 
 {{ end }}
