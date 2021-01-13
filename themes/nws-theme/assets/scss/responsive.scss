@@ -1,6 +1,21 @@
 @import 'variables';
 
 //
+@media(min-width: 450px) {
+  .subfooter {
+    ul {
+      flex-direction: row !important;
+      li {
+        &:nth-child(2) {
+          border-left: 1px solid #fff;
+          border-right: 1px solid #fff;
+        }
+      }
+    }
+  }
+}
+
+//
 @media (min-width: 768px) {
   .footer-lg-grid {
     display: grid;

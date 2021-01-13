@@ -127,6 +127,7 @@
 
             <div class="carousel-inner">
               {{ range $index, $value := $testimonials }}
+       
                 <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">
                   {{ partial "testimonial.html" . }}
                 </div>
