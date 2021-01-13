@@ -4,7 +4,7 @@ banner:
   title: "L'Agenda de la NWS"
   title-line-twho: ''
   subtitle: 'Retrouvez tous nos événements, nos journées portes ouvertes et bien plus encore.'
-  image: /images/agenda_bg.png
+  image: /images/agenda_bg.jpg
 event:
   enable: true
   month:

@@ -4,7 +4,7 @@ banner:
   title: Nos <span class=\"font-weight-medium\">Cursus</span>
   title-line-twho: ''
   subtitle: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
-  image: images/cursus_bg.png
+  image: images/cursus-initial.jpg
 about:
   enable: true
   title: L'enseignement à la NWS
