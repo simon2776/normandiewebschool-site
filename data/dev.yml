@@ -14,10 +14,12 @@ banner:
       label: 'Marketing'
       color: 'color-orange'
       justify: 'text-right'
+      href: '/marketing'
     - arrow: 'right'
       label: 'Design'
       color: 'color-blue'
       justify: 'text-left'
+      href: '/design'
 
 about:
   enable: true
