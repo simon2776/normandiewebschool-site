@@ -1,6 +1,6 @@
 ---
 label: FAQ
-hide_body: true
+hide_body: false
 display_field: global
 fields:
 - type: text
