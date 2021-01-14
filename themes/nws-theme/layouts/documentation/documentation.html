@@ -118,8 +118,8 @@
       body: new URLSearchParams(formData).toString()
     })
     .then(() => {
-        document.cookie = "documentation=true";
-      window.location.replace("/documentation");
+      document.cookie = "documentation=true";
+      requestedDocs()
     })
     .catch((err) => alert(err))
   })
