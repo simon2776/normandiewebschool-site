@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: content/faq/faq.yml
+  path: data/taq/faq.yml
   label: FAQ
 - type: directory
   path: content/testimonials
