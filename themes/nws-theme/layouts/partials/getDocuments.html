@@ -13,7 +13,7 @@
         let lastIndex = 0
         obj.map((event, i) => {
             if(i > max ) return
-            html = html + `<div class="row docs mb-2">
+            html = html + `<div class="row docs mb-2 avoid-click">
                             <div class="desc col-10 d-flex flex-column justify-content-center">
                                 <p class="font-weight-bold">${event.name}</p>
                                 <p>${event.format}</p>
