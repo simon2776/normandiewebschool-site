@@ -10,6 +10,10 @@ sections:
   path: content/_index.md
   label: Accueil
 - type: document
+  path: content/cursus/_index.md
+  label: Cursus
+  match: "**/*"
+- type: document
   path: content/documentation/_index.md
   label: Documentation
 - type: heading
