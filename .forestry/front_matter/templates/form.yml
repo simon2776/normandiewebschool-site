@@ -1,4 +1,14 @@
 ---
 label: Form
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: form
+  type: include
+  config: {}
+  template: form
+  label: Form
