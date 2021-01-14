@@ -1,0 +1,17 @@
+---
+global: ''
+banner:
+  title: ''
+  title-line-twho: ''
+  subtitle: ''
+  image: ''
+documents:
+  enable: false
+  title: ''
+  subtitle: ''
+  document: []
+form:
+  title: ''
+  subtitle: ''
+  input: []
+  checkbox: []
