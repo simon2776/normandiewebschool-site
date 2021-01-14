@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: content/faq
+  path: content/faq/faq.yml
   label: FAQ
-  match: "**/*"
 - type: directory
   path: content/testimonials
   label: Testimonials
