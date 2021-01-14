@@ -9,7 +9,6 @@ sections:
 - type: document
   path: content/_index.md
   label: Accueil
-  match: "**/*"
 - type: document
   path: content/documentation/_index.md
   label: Documentation
