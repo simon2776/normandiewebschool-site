@@ -4,9 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: data/faq/*
+- type: directory
+  path: content/faq
   label: FAQ
+  create: documents
+  match: "**/*"
+  templates:
+  - faq
 - type: directory
   path: content/testimonials
   label: Testimonials
