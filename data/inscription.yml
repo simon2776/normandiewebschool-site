@@ -1,17 +1,96 @@
 ---
 global: ''
 banner:
-  title: ''
+  title: 'Candidatez à la NWS'
   title-line-twho: ''
-  subtitle: ''
-  image: ''
+  subtitle: 'Vous avez deux possibilités pour candidater'
+  image: /images/doc_bg.png
 documents:
-  enable: false
-  title: ''
-  subtitle: ''
-  document: []
+  enable: true
+  title: 'Télécharger le PDF'
+  subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+  document:
+    - icon: '/images/icn-cloud.png'
+      name: 'Présentation générale de la NWS'
+      format: 'PDF'
+    - icon: '/images/icn-cloud.png'
+      name: 'Présentation générale de la NWS'
+      format: 'PDF'
+    - icon: '/images/icn-cloud.png'
+      name: 'Présentation générale de la NWS'
+      format: 'PDF'
+    - icon: '/images/icn-cloud.png'
+      name: 'Présentation générale de la NWS'
+      format: 'PDF'
+    - icon: '/images/icn-cloud.png'
+      name: 'Présentation générale de la NWS'
+      format: 'PDF'
+    - icon: '/images/icn-cloud.png'
+      name: 'Présentation générale de la NWS'
+      format: 'PDF'
+    - icon: '/images/icn-cloud.png'
+      name: 'Présentation générale de la NWS'
+      format: 'PDF'
+    - icon: '/images/icn-cloud.png'
+      name: 'Présentation générale de la NWS'
+      format: 'PDF'
 form:
-  title: ''
-  subtitle: ''
-  input: []
-  checkbox: []
+  title: Candidatez sur le site
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim.
+  input:
+    - icon: '/images/icn-mail.png'
+      placeholder: 'Sexe*'
+      type: 'text'
+      required: true
+      name: 'sexe'
+      width: '50'
+    - icon: '/images/icn-user.png'
+      placeholder: 'Nom*'
+      type: 'text'
+      required: true
+      name: 'lastname'
+      width: '50'
+    - icon: '/images/icn-user.png'
+      placeholder: 'Prénom*'
+      type: 'text'
+      required: true
+      name: 'firstname'
+      width: '50'
+    - icon: '/images/icn-user.png'
+      placeholder: 'Age*'
+      type: 'number'
+      required: true
+      name: 'age'
+      width: '50'
+    - icon: '/images/icn-user.png'
+      placeholder: 'Adresse*'
+      type: 'text'
+      required: true
+      name: 'adresse'
+      width: '50'
+    - icon: '/images/icn-user.png'
+      placeholder: 'Ville*'
+      type: 'text'
+      required: true
+      name: 'city'
+      width: '50'
+    - icon: '/images/icn-mail.png'
+      placeholder: 'Votre adresse e-mail*'
+      type: 'email'
+      required: true
+      name: 'email'
+      width: '50'
+    - icon: '/images/icn-phone.png'
+      placeholder: 'Votre numéro de téléphone'
+      type: 'phone'
+      required: false
+      name: 'phone'
+      width: '50'
+  checkbox:
+    - content: "En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre d'apport d'information concernant les formations proposées par l'école."
+      required: true
+      name: 'RGPD'
+
+    - content: "J'accepte recevoir les actualités de la Normandie Web School  ainsi que des publications à portée commerciales."
+      required: false
+      name: 'newsletter'

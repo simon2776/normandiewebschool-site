@@ -1,0 +1,97 @@
+{{ define "main" }}
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+<!-- hero area -->
+<section
+  class="hero-area overflow-hidden d-flex align-items-center"
+  id="parallax"
+  style="background-image: url('{{ .Site.Data.inscription.banner.image | absURL }}')"
+>
+</section>
+<!-- /hero area -->
+{{ partial "components/page-title" (dict "context" . "title" .Site.Data.inscription.banner.title "subtitle" .Site.Data.inscription.banner.subtitle ) }}
+
+{{ if .Site.Data.inscription.documents.enable }}
+
+
+<section class="bg-lightgrey pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        {{ with .Site.Data.inscription.form }}
+        <div class="card second-push-top">
+            <div class="card-header color-blue with-separator">
+              <h3 class="mb-0">{{.title}}</h3>
+            </div>
+            <p class="pt-3 px-3 m-0">{{.subtitle}}</p>
+          <div>
+            <div class="card-body">
+              <form name="documentation" class="mt-3" data-netlify="true" id="doc-form">
+                <div class="form-group">
+                  {{range .input}} 
+                  <div class="input-icon mb-3 position-relative w-lg-{{ .width }} d-lg-inline-block">
+                    <img src="{{.icon}}" alt="" class="icn-contact" />
+                    <input
+                      type="{{.type}}"
+                      placeholder="{{.placeholder}}"
+                      required="{{.required}}"
+                      class="form-control {{.className}}"
+                      name={{.name}}
+                    />
+                  </div>
+                  {{end}}
+                  <div class="row mb-lg-4 align-items-center">
+                    <div class="col-lg-8">
+                      {{range $index, $el := .checkbox}}
+                      <div class="form-check py-2">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="checkbox-{{$index}}"
+                          name="{{.name}}"
+                        />
+                        <label class="form-check-label" for="checkbox-{{$index}}"
+                          >{{.content}}</label
+                        >
+                      </div>
+                      {{end}}
+                    </div>
+
+                    <div class="col-lg-4 mt-3 mt-lg-0 d-flex justify-content-center">
+                      <button
+                        type="submit"
+                        class="btn font-weight-medium color-blue px-3"
+                      >
+                        Envoyer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        {{end}}
+      </div>
+
+      <div class="col-lg-4 mt-5 mt-lg-0 d-none d-lg-block">
+        {{ with .Site.Data.inscription.documents }}
+          <div class="card second-push-top">
+            <div class="card-header color-blue with-separator">
+              <h3 class="mb-0">{{.title}}</h3>
+            </div>
+
+            <div>
+              <div class="card-body">
+                <p>{{.subtitle}}</p>
+                {{ partial "getDocuments.html" . }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
