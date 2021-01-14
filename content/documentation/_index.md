@@ -7,7 +7,7 @@ banner:
   title: La Documentation sur l'école
   title-line-twho: ''
   subtitle: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
-  image: "/images/doc_bg.png"
+  image: "/images/innopolis-background.png"
 documents:
   enable: true
   title: Téléchargez les documents
