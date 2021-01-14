@@ -118,3 +118,11 @@ fields:
   - type: boolean
     name: enable
     label: enable
+  - name: testimonails
+    type: blocks
+    label: Testimonails
+    template_types:
+    - testimonial
+    config:
+      min: 
+      max: 
