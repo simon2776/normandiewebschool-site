@@ -24,8 +24,19 @@ fields:
   label: Type
   hidden: true
   default: team
+- name: weight
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Ordre
 pages:
 - content/team/carine-colona.md
+- content/team/chloe-vitry.md
 - content/team/jean-claude.md
 - content/team/sabrina-morisse.md
 - content/team/sylvain-tenier.md

@@ -1,6 +1,7 @@
 +++
 name = "Timothée Nguyen"
 picture = "/images/thimothee.JPG"
-role = "Alternant"
-draft = true
+role = "Alternant chef de projet digital "
+type = ""
+
 +++
