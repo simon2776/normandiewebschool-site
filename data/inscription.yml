@@ -9,70 +9,25 @@ documents:
   enable: true
   title: 'Télécharger le PDF'
   subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
-  document:
-    - icon: '/images/icn-cloud.png'
-      name: 'Présentation générale de la NWS'
-      format: 'PDF'
-    - icon: '/images/icn-cloud.png'
-      name: 'Présentation générale de la NWS'
-      format: 'PDF'
-    - icon: '/images/icn-cloud.png'
-      name: 'Présentation générale de la NWS'
-      format: 'PDF'
-    - icon: '/images/icn-cloud.png'
-      name: 'Présentation générale de la NWS'
-      format: 'PDF'
-    - icon: '/images/icn-cloud.png'
-      name: 'Présentation générale de la NWS'
-      format: 'PDF'
-    - icon: '/images/icn-cloud.png'
-      name: 'Présentation générale de la NWS'
-      format: 'PDF'
-    - icon: '/images/icn-cloud.png'
-      name: 'Présentation générale de la NWS'
-      format: 'PDF'
-    - icon: '/images/icn-cloud.png'
-      name: 'Présentation générale de la NWS'
-      format: 'PDF'
+  icon: '/images/icn-cloud.png'
+  name: 'Présentation générale de la NWS'
+  format: 'PDF'
 form:
   title: Candidatez sur le site
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim.
+  subtitle: 
+    "Après avoir reçu votre dossier de candidature, un membre de l’administration de l’école va vous contacter pour fixer un jour et une heure pour un entretien sur place. Un test rapide sur le numérique vous sera proposé puis une rencontre avec un membre de l’équipe pédagogique et notre directeur vous ferons passer un entretien. Une réponse vous sera ensuite donnée très rapidement."
   input:
-    - icon: '/images/icn-mail.png'
-      placeholder: 'Sexe*'
+    - icon: '/images/icn-user.png'
+      placeholder: 'Votre nom de famille'
       type: 'text'
-      required: true
-      name: 'sexe'
+      required: false
+      name: 'last_name'
       width: '50'
     - icon: '/images/icn-user.png'
-      placeholder: 'Nom*'
+      placeholder: 'Votre prénom'
       type: 'text'
-      required: true
-      name: 'lastname'
-      width: '50'
-    - icon: '/images/icn-user.png'
-      placeholder: 'Prénom*'
-      type: 'text'
-      required: true
-      name: 'firstname'
-      width: '50'
-    - icon: '/images/icn-user.png'
-      placeholder: 'Age*'
-      type: 'number'
-      required: true
-      name: 'age'
-      width: '50'
-    - icon: '/images/icn-user.png'
-      placeholder: 'Adresse*'
-      type: 'text'
-      required: true
-      name: 'adresse'
-      width: '50'
-    - icon: '/images/icn-user.png'
-      placeholder: 'Ville*'
-      type: 'text'
-      required: true
-      name: 'city'
+      required: false
+      name: 'first_name'
       width: '50'
     - icon: '/images/icn-mail.png'
       placeholder: 'Votre adresse e-mail*'
@@ -80,12 +35,31 @@ form:
       required: true
       name: 'email'
       width: '50'
+    - icon: '/images/icn-mail.png'
+      placeholder: 'Confirmer votre adresse e-mail*'
+      type: 'email'
+      required: true
+      name: 'email_confirmation'
+      width: '50'
     - icon: '/images/icn-phone.png'
       placeholder: 'Votre numéro de téléphone'
       type: 'phone'
       required: false
       name: 'phone'
       width: '50'
+    - icon: '/images/icn-obj.png'
+      placeholder: "L'objet de votre message*"
+      type: 'text'
+      required: true
+      name: 'object'
+      width: '100'
+      className: 'w-lg-50'
+    - icon: '/images/icn-msg.png'
+      placeholder: 'Votre message*'
+      textarea: true
+      required: true
+      name: 'message'
+      width: '100'
   checkbox:
     - content: "En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre d'apport d'information concernant les formations proposées par l'école."
       required: true

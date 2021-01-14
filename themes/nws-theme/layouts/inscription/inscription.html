@@ -27,9 +27,9 @@
             <p class="pt-3 px-3 m-0">{{.subtitle}}</p>
           <div>
             <div class="card-body">
-              <form name="inscription" class="mt-3" data-netlify="true" id="inscription-form">
+              <form name='inscription' class="mt-3" method="POST" data-netlify="true">
                 <div class="form-group">
-                  {{range .input}} 
+                  {{range .input}} {{if (not .textarea)}}
                   <div class="input-icon mb-3 position-relative w-lg-{{ .width }} d-lg-inline-block">
                     <img src="{{.icon}}" alt="" class="icn-contact" />
                     <input
@@ -40,11 +40,22 @@
                       name={{.name}}
                     />
                   </div>
-                  {{end}}
-                  <div class="row mb-lg-4 align-items-center">
+                  {{end}} {{if .textarea}}
+                  <div class="input-icon mb-3 position-relative">
+                    <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
+                    <textarea
+                      cols="30"
+                      rows="10"
+                      placeholder="{{.placeholder}}"
+                      required="{{.required}}"
+                      name="{{.name}}"
+                    ></textarea>
+                  </div>
+                  {{end}} {{end}} 
+                  <div class="row mb-lg-4">
                     <div class="col-lg-8">
                       {{range $index, $el := .checkbox}}
-                      <div class="form-check py-2">
+                      <div class="form-check pb-3">
                         <input
                           type="checkbox"
                           class="form-check-input"
@@ -57,13 +68,22 @@
                       </div>
                       {{end}}
                     </div>
+                    <div class="col-lg-4 d-flex justify-content-center my-5 my-lg-0">
+                      <!-- <div
+                        class="g-recaptcha"
+                        data-sitekey="6LeZ5RcaAAAAAHpywfieV8DIvg0Bw9razayBtrcu"
+                      ></div> -->
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
+                  </div>
 
-                    <div class="col-lg-4 mt-3 mt-lg-0 d-flex justify-content-center">
+                  <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
                       <button
                         type="submit"
-                        class="btn font-weight-medium color-blue px-3"
+                        class="btn font-weight-medium color-blue py-3 px-5"
                       >
-                        Envoyer
+                        Envoyer le message
                       </button>
                     </div>
                   </div>
@@ -85,7 +105,29 @@
             <div>
               <div class="card-body">
                 <p>{{.subtitle}}</p>
-                {{ partial "getDocuments.html" . }}
+                <div class="container py-4">
+                <div id="docs">
+                  <div class="row docs mb-2">
+                    <div class="desc col-10 d-flex flex-column justify-content-center">
+                      <p class="font-weight-bold">{{.name}}</p>
+                      <p>{{.format}}</p>
+                    </div>
+                    <div class="icon col-2 d-flex flex-column justify-content-center">
+                      <img src="{{.icon}}" style="object-fit: contain";/>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-12 d-flex justify-content-center">
+                    <button
+                      id="more"
+                      class="btn btn-outline font-weight-medium color-blue py-3"
+                    >
+                      Afficher plus de documentation
+                    </button>
+                  </div>
+                </div>
+              </div>
               </div>
             </div>
           </div>
