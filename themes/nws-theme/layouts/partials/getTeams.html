@@ -3,7 +3,7 @@
 <script>
     window.onload = () => {
         const data = []
-        {{range $team}}
+        {{range $team.ByWeight}}
             data.push({
                 name: {{.Params.Name }},
                 image: {{.Params.Picture | relURL}},
