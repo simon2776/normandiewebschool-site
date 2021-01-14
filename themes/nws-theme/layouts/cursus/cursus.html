@@ -1,21 +1,21 @@
 {{ define "main" }}
 
   <!-- hero area -->
-  <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Site.Data.cursus.banner.image | absURL }}')">
+  <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
 
   </section>
   <!-- /hero area -->
-{{ partial "components/page-title" (dict "context" . "title" .Site.Data.cursus.banner.title "subtitle" .Site.Data.cursus.banner.subtitle ) }}
+{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
-  {{ if .Site.Data.cursus.about.enable }}
+  {{ if .Params.about.enable }}
     <!-- about -->
-    {{ partial "components/page-introduction-up" (dict "context" . "title" .Site.Data.cursus.about.title "content" .Site.Data.cursus.about.content "image" .Site.Data.cursus.about.image  ) }}
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image  ) }}
   {{ end }}
 
 
   <!-- Nos cursus -->
-  {{ if .Site.Data.cursus.cursus.enable }}
-  {{ with .Site.Data.cursus.cursus }}
+  {{ if .Params.cursus.enable }}
+  {{ with .Params.cursus }}
   <section class="py-5 bg-lightgrey clip-bottom-white overflow-hidden " id="cursus">
     <div class="container">
       {{ partial "components/wavy-title" (dict "context" . "title" "Nos cursus") }}
@@ -66,8 +66,8 @@
 
 
 <!-- filieres -->
-  {{ if .Site.Data.cursus.filieres.enable }}
-  {{ with .Site.Data.cursus.filieres }}
+  {{ if .Params.filieres.enable }}
+  {{ with .Params.filieres }}
   <section class="bg-white clip-bottom-lightgrey pt-5">
     <div class="container pb-5">
       <div class="row">
@@ -108,9 +108,6 @@
   {{ end }}
   {{ end }}
 
-
-{{ if .Site.Data.cursus.testimonials.enable }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "testimonial") }}
     {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "cursus") ) }}
-{{ end }}
-
 {{ end }}
