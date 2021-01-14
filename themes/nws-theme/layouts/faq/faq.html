@@ -21,7 +21,7 @@
       {{ $.Scratch.Add "i" 0 }}
       {{ range $subject, $el := .item }}
         {{ $i := $.Scratch.Get "i" }}
-      <div class="col-md-12 mb-4">
+        <div class="col-md-12 mb-4">
           <div class="card {{ if eq $i 0 }} second-push-top {{end}}">
             <div class="card-header color-blue flex-column">
               <div class="row pb-lg-4">
@@ -95,7 +95,7 @@
 <section class="my-5 overflow-hidden">
   <div class="row">
     <div class="col-12 d-flex justify-content-center">
-      <a href="" class="btn font-weight-medium color-blue py-3 px-5"
+      <a href="/contact" class="btn font-weight-medium color-blue py-3 px-5"
         >Vous avez encore des <br />
         questions ?</a
       >
