@@ -24,9 +24,8 @@ fields:
   label: Type
   hidden: true
   default: team
-- name: Ordre
+- name: weight
   type: number
-  label: Weight
   description: ''
   default: 0
   required: true
@@ -34,6 +33,7 @@ fields:
     min: 
     max: 
     step: 
+  label: Ordre
 pages:
 - content/team/carine-colona.md
 - content/team/chloe-vitry.md
