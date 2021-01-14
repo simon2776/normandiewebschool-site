@@ -1,0 +1,120 @@
+---
+label: page-cursus
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: textarea
+  name: description
+  label: description
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: title-line-twho
+    label: title-line-twho
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: file
+    name: image
+    label: image
+- type: field_group
+  name: about
+  label: about
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: file
+    name: image
+    label: image
+- type: field_group
+  name: cursus
+  label: cursus
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: item
+    label: item
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: content
+      label: content
+    - type: text
+      name: from
+      label: from
+    - type: text
+      name: color
+      label: color
+    - type: field_group_list
+      name: images
+      label: images
+      fields:
+      - type: file
+        name: url
+        label: url
+- type: field_group
+  name: filieres
+  label: filieres
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: field_group_list
+    name: item
+    label: item
+    fields:
+    - type: boolean
+      name: image
+      label: image
+    - type: text
+      name: bulle
+      label: bulle
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: content
+      label: content
+    - type: boolean
+      name: arrow
+      label: arrow
+    - type: file
+      name: arrowImage
+      label: arrowImage
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: testimonials
+  label: testimonials
+  fields:
+  - type: boolean
+    name: enable
+    label: enable

@@ -12,7 +12,6 @@ sections:
 - type: document
   path: content/cursus/_index.md
   label: Cursus
-  match: "**/*"
 - type: document
   path: content/documentation/_index.md
   label: Documentation
