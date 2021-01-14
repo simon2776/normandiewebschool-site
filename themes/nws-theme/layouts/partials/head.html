@@ -1,12 +1,26 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ .Site.Title }}</title>
+  <title>{{with .Title }}Normandie Web School • {{ . }} {{ else }} {{ .Site.Title }} {{ end }}</title>
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+
+  <link rel="dns-prefetch" href="{{ .Site.BaseURL }}">
+  <link rel="preconnect" href="{{ .Site.BaseURL }}">
+  <link rel="canonical" href="{{ .Site.BaseURL }}"/>
+  <!-- open graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ .Site.Title }}"/>
+  <meta property="og:description" content="{{ .Site.Params.description }}"/>
+  <meta property="og:site_name" content="{{ .Site.Title }}"/>
+  <meta property="og:url" content="{{ .Site.BaseURL }}"/>
+  <meta property="og:locale" content="fr">
+  {{ if .Params.og_image }} {{ else }} {{ end }}
+
   {{ hugo.Generator }}
 
   <style>

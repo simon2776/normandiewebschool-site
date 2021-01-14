@@ -1,5 +1,7 @@
 ---
-global: 0"
+global:
+description: La NWS est une École d’Enseignement Supérieur Technique Privée qui forme en 3 ou 5 ans aux métiers du numérique (développement web, du web design et du marketing digital...) et amène vers un titre d’état (RNCP).
+customTitle: L'école des métiers du numérique
 banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: Bienvenue à la <br/> NORMANDIE WEB SCHOOL
@@ -19,9 +21,11 @@ filieres:
   enable: true;
   item:
   - title: Filière Marketing
-    content: "Le marketing digital, un univers riche en communication numérique. \nCréez
-      des supports, concevez des textes de qualité, exposez vos idées et des valeurs
-      sur les réseaux sociaux en travaillant avec des professionnels des métiers."
+    content: |-
+      Le marketing digital, un univers riche en communication numérique.
+
+      Créez des supports, concevez des textes de qualité, exposez vos idées et des valeurs
+      sur les réseaux sociaux en travaillant avec des professionnels des métiers.
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-orange
