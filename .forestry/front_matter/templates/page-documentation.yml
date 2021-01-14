@@ -30,30 +30,31 @@ fields:
     label: Image de fond
 - type: field_group
   name: documents
-  label: documents
+  label: Documents
   fields:
   - type: boolean
     name: enable
     label: enable
   - type: text
     name: title
-    label: title
+    label: Titre
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Description
   - type: field_group_list
     name: document
-    label: document
+    label: Documents
     fields:
     - type: file
       name: icon
-      label: icon
+      label: Icône
     - type: text
       name: name
-      label: name
+      label: Nom du document
     - type: text
       name: format
-      label: format
+      label: Format du document
+      default: PDF
 - type: field_group
   name: form
   label: form
