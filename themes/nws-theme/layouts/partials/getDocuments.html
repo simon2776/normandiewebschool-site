@@ -13,13 +13,13 @@
         let lastIndex = 0
         obj.map((event, i) => {
             if(i > max ) return
-            html = html + `<div class="row docs mb-2">
+            html = html + `<div class="row docs mb-2 avoid-click">
                             <div class="desc col-10 d-flex flex-column justify-content-center">
                                 <p class="font-weight-bold">${event.name}</p>
                                 <p>${event.format}</p>
                             </div>
                             <div class="icon col-2 d-flex flex-column justify-content-center">
-                                <img src="{{.icon}}" />
+                                <img src="${event.icon}" style="object-fit: contain";/>
                             </div>
                         </div>`
 
