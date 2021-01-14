@@ -1,6 +1,7 @@
 {{ define "main" }}
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+
 <!-- hero area -->
 <section
   class="hero-area overflow-hidden d-flex align-items-center"
@@ -17,7 +18,7 @@
 <section class="bg-lightgrey pb-4">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-8">
+      <div class="col-12 col-lg-8 form-section">
         {{ with .Site.Data.documentation.form }}
         <div class="card second-push-top">
             <div class="card-header color-blue with-separator">
@@ -26,9 +27,9 @@
             <p class="pt-3 px-3 m-0">{{.subtitle}}</p>
           <div>
             <div class="card-body">
-              <form action ='/documentation' name="documentation" class="mt-3" method="POST" data-netlify="true">
+              <form name="documentation" class="mt-3" data-netlify="true" id="doc-form">
                 <div class="form-group">
-                  {{range .input}} {{if (not .textarea)}}
+                  {{range .input}} 
                   <div class="input-icon mb-3 position-relative w-lg-{{ .width }} d-lg-inline-block">
                     <img src="{{.icon}}" alt="" class="icn-contact" />
                     <input
@@ -39,7 +40,7 @@
                       name={{.name}}
                     />
                   </div>
-                  {{end}} {{end}} 
+                  {{end}}
                   <div class="row mb-lg-4 align-items-center">
                     <div class="col-lg-8">
                       {{range $index, $el := .checkbox}}
@@ -75,7 +76,7 @@
         {{end}}
       </div>
 
-      <div class="col-lg-4 mt-5 mt-lg-0 d-none d-lg-block">
+      <div class="col-lg-4 mt-5 mt-lg-0 d-none d-lg-block doc-section">
         {{ with .Site.Data.documentation.documents }}
           <div class="card second-push-top">
             <div class="card-header color-blue with-separator">
@@ -94,4 +95,42 @@
     </div>
   </div>
 </section>
+
+<script> 
+  const formSection = document.querySelector('.form-section')
+  const docSection = document.querySelector('.doc-section')
+
+  let cookies = document.cookie.split(';')
+  cookies = cookies.filter(cookie => cookie === 'documentation=true')
+
+  if(cookies.length > 0) {
+    requestedDocs()
+  }
+
+  console.log(document.querySelector('#doc-form'))
+  document.querySelector('#doc-form').addEventListener('submit', (e) => {
+    e.preventDefault()
+    let myForm = document.getElementById('#doc-form');
+    let formData = new FormData(myForm)
+    fetch('/', {
+      method: 'POST',
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString()
+    })
+    .then(() => {
+        document.cookie = "documentation=true";
+      window.location.replace("/documentation");
+    })
+    .catch((err) => alert(err))
+  })
+
+
+  function requestedDocs() {
+    formSection.style.display = 'none'
+    docSection.classList.remove('d-none')
+    docSection.classList.remove('col-lg-4')
+    docSection.classList.add('col-12')
+    docSection.classList.add('requested')
+  }
+</script>
 {{ end }} {{ end }}

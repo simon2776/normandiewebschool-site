@@ -1238,3 +1238,17 @@ HERO HEADER
     }
   }
 }
+
+.requested {
+  @media (min-width: 992px) {
+    #docs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .docs {
+        width: 33%;
+      }
+    }
+  }
+}
