@@ -6,20 +6,19 @@
 <section
   class="hero-area overflow-hidden d-flex align-items-center"
   id="parallax"
-  style="background-image: url('{{ .Site.Data.documentation.banner.image | absURL }}')"
+  style="background-image: url('{{ .Params.banner.image | absURL }}')"
 >
 </section>
 <!-- /hero area -->
-{{ partial "components/page-title" (dict "context" . "title" .Site.Data.documentation.banner.title "subtitle" .Site.Data.documentation.banner.subtitle ) }}
+{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
-{{ if .Site.Data.documentation.documents.enable }}
-
+{{ if .Params.documents.enable }}
 
 <section class="bg-lightgrey pb-4">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8 form-section">
-        {{ with .Site.Data.documentation.form }}
+        {{ with .Params.form }}
         <div class="card second-push-top">
             <div class="card-header color-blue with-separator">
               <h3 class="mb-0">{{.title}}</h3>
@@ -29,7 +28,7 @@
             <div class="card-body">
               <form name="documentation" class="mt-3" data-netlify="true" id="doc-form">
                 <div class="form-group">
-                  {{range .input}} 
+                  {{range .input}}
                   <div class="input-icon mb-3 position-relative w-lg-{{ .width }} d-lg-inline-block">
                     <img src="{{.icon}}" alt="" class="icn-contact" />
                     <input
@@ -77,7 +76,7 @@
       </div>
 
       <div class="col-lg-4 mt-5 mt-lg-0 d-none d-lg-block doc-section">
-        {{ with .Site.Data.documentation.documents }}
+        {{ with .Params.documents }}
           <div class="card second-push-top">
             <div class="card-header color-blue with-separator">
               <h3 class="mb-0">{{.title}}</h3>
@@ -96,7 +95,7 @@
   </div>
 </section>
 
-<script> 
+<script>
   const formSection = document.querySelector('.form-section')
   const docSection = document.querySelector('.doc-section')
 
@@ -123,7 +122,6 @@
     })
     .catch((err) => alert(err))
   })
-
 
   function requestedDocs() {
     formSection.style.display = 'none'
