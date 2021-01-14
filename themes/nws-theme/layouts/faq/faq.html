@@ -21,7 +21,7 @@
       {{ $.Scratch.Add "i" 0 }}
       {{ range $subject, $el := .item }}
         {{ $i := $.Scratch.Get "i" }}
-      <div class="col-md-12 mb-4">
+        <div class="col-md-12 mb-4">
           <div class="card {{ if eq $i 0 }} second-push-top {{end}}">
             <div class="card-header color-blue flex-column">
               <div class="row pb-lg-4">
