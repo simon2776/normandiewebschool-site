@@ -4,32 +4,30 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Meta title
+- type: text
+  name: description
+  label: Meta description
 - type: datetime
   name: date
   label: date
-- type: text
-  name: description
-  label: description
-- type: text
-  name: toto
-  label: toto
 - type: field_group
   name: banner
-  label: banner
+  label: Bannière
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
   - type: text
     name: title-line-twho
-    label: title-line-twho
+    label: Titre ligne 2
+    hidden: true
   - type: text
     name: subtitle
-    label: subtitle
+    label: Sous Titre
   - type: file
     name: image
-    label: image
+    label: Image de fond
 - type: field_group
   name: documents
   label: documents
