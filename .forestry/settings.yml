@@ -15,6 +15,10 @@ sections:
 - type: document
   path: content/documentation/_index.md
   label: Documentation
+- type: document
+  path: content/confidentialite/_index.md
+  label: Politique de confidentialité
+  match: "**/*"
 - type: heading
   label: Données
 - type: directory
