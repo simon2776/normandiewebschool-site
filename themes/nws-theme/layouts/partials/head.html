@@ -50,7 +50,7 @@
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 
-  <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@1.8.3/tarteaucitron.js"></script>
 
   <script type="text/javascript">
     tarteaucitron.init({
@@ -59,7 +59,7 @@
       "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
       "cookieName": "tarteaucitron", /* Cookie name */
 
-      "orientation": "middle", /* Banner position (top - bottom) */
+      "orientation": "bottom", /* Banner position (top - bottom) */
                           
       "showAlertSmall": false, /* Show the small banner on bottom right */
       "cookieslist": false, /* Show the cookie list */
@@ -87,5 +87,13 @@
 
       "mandatory": true, /* Show a message about mandatory cookies */
     });
+
+
+
+    ////
+    tarteaucitron.user.matomoId = '4';
+    tarteaucitron.user.matomoHost = 'https://analytics.akarah.com/';
+    (tarteaucitron.job = tarteaucitron.job || []).push('matomo');
+
   </script>
 </head>
