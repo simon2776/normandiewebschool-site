@@ -139,5 +139,3 @@ fields:
   - type: boolean
     name: enable
     label: enable
-pages:
-- data/design.yml

@@ -102,5 +102,3 @@ fields:
   - type: boolean
     name: enable
     label: enable
-pages:
-- data/marketing.yml

@@ -12,6 +12,12 @@ sections:
 - type: document
   path: content/cursus/_index.md
   label: Cursus
+- type: directory
+  path: content/cursus
+  label: Filières
+  create: documents
+  match: "*"
+  exclude: _index.md
 - type: document
   path: content/entreprises/_index.md
   label: Entreprises
@@ -21,7 +27,6 @@ sections:
 - type: document
   path: content/contact/_index.md
   label: Contact
-  match: "**/*"
 - type: document
   path: content/faq/_index.md
   label: FAQ
