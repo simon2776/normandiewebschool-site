@@ -1,0 +1,12 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+   {{range .Data.Pages }}
+        {{if .Name}}
+        {{if and (ne .Name "Teams") (ne .Name "Testimonials") }}
+            <url>
+                <loc>{{ .Permalink }}</loc>
+            </url>
+        {{end}}
+        {{end}}
+   {{end}}
+</urlset>

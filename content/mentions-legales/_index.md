@@ -6,18 +6,18 @@ content: |-
 
   ## Informations légales
 
-  Propriétaire** : SAS Normandie Web School
-  Adresse** : 72 rue de la République 76140 Le Petit-Quevilly
-  Téléphone** : 02 52 60 02 38
-  SAS au capital de** : 42 500 €
-  SIRET** : 82392759500012
+  - **Propriétaire** : SAS Normandie Web School
+  - **Adresse** : 72 rue de la République 76140 Le Petit-Quevilly
+  - **Téléphone** : 02 52 60 02 38
+  - **SAS au capital de** : 42 500 €
+  - **SIRET** : 82392759500012
   Société Immatriculée au RCS de Rouen
-  Numéro de TVA intracommunautaire** : FR85823927595
-  Adresse de contact** : contact@normandiewebschool.fr
-  Développement** : NWS – 72 rue de la République 76140 Le Petit-Quevilly
-  Responsable de la publication** : Sitapha Dia
-  Webmaster** : Jean-Claude Torrel
-  Hébergement** : OVH – 2 rue Kellermann – 59100 Roubaix – France
+  - **Numéro de TVA intracommunautaire** : FR85823927595
+  - **Adresse de contact** : contact@normandiewebschool.fr
+  - **Développement** : NWS – 72 rue de la République 76140 Le Petit-Quevilly
+  - **Responsable de la publication** : Sitapha Dia
+  - **Webmaster** : Jean-Claude Torrel
+  - **Hébergement** : OVH – 2 rue Kellermann – 59100 Roubaix – France
 
   ## Description des services fournis
 
