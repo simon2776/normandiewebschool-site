@@ -15,13 +15,15 @@ sections:
 - type: document
   path: content/agenda/_index.md
   label: Agenda
-  match: "**/*"
 - type: document
   path: content/documentation/_index.md
   label: Documentation
 - type: document
-  path: content/confidentialite/_index.md
+  path: content/politique-de-confidentialite/_index.md
   label: Politique de confidentialité
+- type: document
+  path: content/mentions-legales/_index.md
+  label: Mentions légales
 - type: heading
   label: Données
 - type: directory
