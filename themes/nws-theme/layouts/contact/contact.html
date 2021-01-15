@@ -5,28 +5,28 @@
 <section
   class="hero-area overflow-hidden d-flex align-items-center"
   id="parallax"
-  style="background-image: url('{{ .Site.Data.contact.banner.image | absURL }}')"
+  style="background-image: url('{{ .Params.banner.image | absURL }}')"
 >
   <div class="container d-block d-lg-none">
     <div class="row">
       <div class="col-lg-11 d-none d-lg-block">
-        <h1>{{ .Site.Data.contact.banner.title | safeHTML }}</h1>
-        <h2>{{ .Site.Data.contact.banner.subtitle | safeHTML }}</h2>
+        <h1>{{ .Params.banner.title | safeHTML }}</h1>
+        <h2>{{ .Params.banner.subtitle | safeHTML }}</h2>
       </div>
     </div>
   </div>
 </section>
 <!-- /hero area -->
 
-{{ partial "components/page-title" (dict "context" . "title" .Site.Data.contact.banner.title "subtitle" .Site.Data.contact.banner.subtitle ) }}
+{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
-{{ if .Site.Data.contact.form.enable }}
+{{ if .Params.form.enable }}
 <!-- about -->
 <section class="bg-lightgrey pb-4">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8">
-        {{ with .Site.Data.contact.form }}
+        {{ with .Params.form }}
         <div class="card second-push-top">
           <div class="card-header color-blue with-separator">
             <h3 class="mb-0">{{.title}}</h3>
@@ -58,7 +58,7 @@
                       name="{{.name}}"
                     ></textarea>
                   </div>
-                  {{end}} {{end}} 
+                  {{end}} {{end}}
                   <div class="row mb-lg-4">
                     <div class="col-lg-8">
                       {{range $index, $el := .checkbox}}

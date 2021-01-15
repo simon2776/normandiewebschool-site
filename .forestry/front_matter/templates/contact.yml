@@ -23,5 +23,3 @@ fields:
   config: {}
   template: form
   label: Form
-pages:
-- data/contact.yml

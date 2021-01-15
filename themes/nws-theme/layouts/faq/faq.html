@@ -4,13 +4,13 @@
 <section
   class="hero-area overflow-hidden d-flex align-items-center"
   id="parallax"
-  style="background-image: url('{{ .Site.Data.faq.banner.image | absURL }}')"
+  style="background-image: url('{{ .Params.banner.image | absURL }}')"
 >
 </section>
 <!-- /hero area -->
-{{ partial "components/page-title" (dict "context" . "title" .Site.Data.faq.banner.title "subtitle" .Site.Data.faq.banner.subtitle ) }}
+{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
-{{ if .Site.Data.faq.subjects.enable }} {{ with .Site.Data.faq.subjects }}
+{{ if .Params.subjects.enable }} {{ with .Params.subjects }}
 <section
   id="faq"
   class="accordion-section bg-lightgrey clip-bottom-white"

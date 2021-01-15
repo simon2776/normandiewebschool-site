@@ -63,5 +63,3 @@ fields:
     max: 
     labelField: 
   label: Subjects
-pages:
-- data/faq.yml
