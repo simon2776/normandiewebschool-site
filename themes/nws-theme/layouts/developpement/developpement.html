@@ -1,9 +1,0 @@
-{{ define "main" }}
-
-{{ partial "filiere.html" .Site.Data.dev }}
-
-{{ if .Site.Data.dev.testimonials.enable }}
-    {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "dev") ) }}
-{{ end }}
-
-{{end}}
