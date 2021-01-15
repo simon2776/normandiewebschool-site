@@ -143,5 +143,3 @@ fields:
   - type: boolean
     name: enable
     label: enable
-pages:
-- data/cursus.yml
