@@ -196,7 +196,6 @@ testimonials:
   - marketing
 menu:
   main:
-    URL: marketing
     name: Bachelor marketing
     parent: Les cursus
     weight: 2

@@ -158,8 +158,9 @@ subjects:
         à vous de faire les premières démarches afin de trouver votre entreprise d’accueil.
 menu:
   main:
-    URL: faq
     name: FAQ
     weight: 4
-
+  top:
+    name: FAQ
+    weight: 4
 ---
