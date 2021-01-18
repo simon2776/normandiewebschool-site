@@ -195,6 +195,10 @@ testimonials:
   filter:
   - design
 menu:
+  main:
+    name: Bachelor design
+    parent: Les cursus
+    weight: 4
   desktop:
     name: Bachelor design
     parent: Les cursus

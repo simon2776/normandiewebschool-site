@@ -5,79 +5,12 @@ theme = "nws-theme"
 title = "L'école des métiers du numérique"
 weight = 1
 [[menu.desktop]]
-URL = "marketing"
-name = "Bachelor marketing"
-parent = "Les cursus"
-url = "/cursus/bachelor-marketing-digital"
-weight = 2
-[[menu.desktop]]
-URL = "cursus"
-name = "Étudier à la NWS"
-parent = "Les cursus"
-weight = 1
-[[menu.desktop]]
-URL = "entreprises"
-name = "Les entreprises"
-weight = 2
-[[menu.desktop]]
 URL = "cursus"
 name = "Les cursus"
 weight = 1
 [[menu.main]]
-name = "Master Expert digital"
-parent = "Les cursus"
-weight = 5
-[[menu.main]]
-name = "Bachelor design"
-parent = "Les cursus"
-weight = 4
-[[menu.main]]
-name = "Bachelor développement"
-parent = "Les cursus"
-weight = 3
-[[menu.main]]
-URL = "marketing"
-name = "Bachelor marketing"
-parent = "Les cursus"
-weight = 2
-[[menu.main]]
-name = "Cursus intital"
-parent = "Les cursus"
-weight = 1
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-weight = 4
-[[menu.main]]
-URL = "agenda"
-name = "Agenda"
-weight = 3
-[[menu.main]]
-URL = "entreprises"
-name = "Les entreprises"
-weight = 2
-[[menu.main]]
 URL = "cursus"
 name = "Les cursus"
-weight = 1
-[[menu.main]]
-name = "Demande d'inscription"
-weight = 6
-[[menu.top]]
-URL = "faq"
-name = "FAQ"
-weight = 3
-[[menu.top]]
-URL = "documentation"
-name = "Documentation"
-weight = 2
-[[menu.top]]
-URL = "agenda"
-name = "Agenda"
 weight = 1
 [params]
 abstract = "Grâce à une vision transverse des différents métiers du numérique dans un monde en perpétuel mutation, la Normandie Web School."
