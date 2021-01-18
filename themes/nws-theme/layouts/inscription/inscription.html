@@ -105,29 +105,19 @@
             <div>
               <div class="card-body">
                 <p>{{.subtitle}}</p>
-                <div class="container py-4">
-                <div id="docs">
-                  <div class="row docs mb-2">
-                    <div class="desc col-10 d-flex flex-column justify-content-center">
-                      <p class="font-weight-bold">{{.name}}</p>
-                      <p>{{.format}}</p>
-                    </div>
-                    <div class="icon col-2 d-flex flex-column justify-content-center">
-                      <img src="{{.icon}}" style="object-fit: contain";/>
+                <div class="container mt-4">
+                  <div id="docs">
+                    <div class="row docs">
+                      <div class="desc col-10 d-flex flex-column justify-content-center">
+                        <p class="font-weight-bold">{{.name}}</p>
+                        <p>{{.format}}</p>
+                      </div>
+                      <div class="icon col-2 d-flex flex-column justify-content-center">
+                        <img src="{{.icon}}" style="object-fit: contain";/>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="row mt-4">
-                  <div class="col-12 d-flex justify-content-center">
-                    <button
-                      id="more"
-                      class="btn btn-outline font-weight-medium color-blue py-3"
-                    >
-                      Afficher plus de documentation
-                    </button>
-                  </div>
-                </div>
-              </div>
               </div>
             </div>
           </div>
