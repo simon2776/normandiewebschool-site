@@ -19,29 +19,6 @@ URL = "entreprises"
 name = "Les entreprises"
 weight = 2
 [[menu.desktop]]
-name = "Demande d'inscription"
-weight = 4
-[[menu.desktop]]
-URL = "cursus"
-name = "Les cursus"
-weight = 1
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-weight = 4
-[[menu.main]]
-URL = "agenda"
-name = "Agenda"
-weight = 3
-[[menu.main]]
-URL = "entreprises"
-name = "Les entreprises"
-weight = 2
-[[menu.main]]
 URL = "cursus"
 name = "Les cursus"
 weight = 1
@@ -65,6 +42,26 @@ weight = 2
 [[menu.main]]
 name = "Cursus intital"
 parent = "Les cursus"
+weight = 1
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
+[[menu.main]]
+URL = "faq"
+name = "FAQ"
+weight = 4
+[[menu.main]]
+URL = "agenda"
+name = "Agenda"
+weight = 3
+[[menu.main]]
+URL = "entreprises"
+name = "Les entreprises"
+weight = 2
+[[menu.main]]
+URL = "cursus"
+name = "Les cursus"
 weight = 1
 [[menu.main]]
 name = "Demande d'inscription"
