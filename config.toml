@@ -19,10 +19,6 @@ URL = "entreprises"
 name = "Les entreprises"
 weight = 2
 [[menu.desktop]]
-URL = "contact"
-name = "Contact"
-weight = 3
-[[menu.desktop]]
 name = "Demande d'inscription"
 weight = 4
 [[menu.desktop]]
