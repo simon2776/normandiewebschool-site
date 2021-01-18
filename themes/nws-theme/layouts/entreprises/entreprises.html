@@ -34,7 +34,7 @@
 
               <div>
                 <div class="card-body">
-                  <p>
+                  <p class="shortenedText">
                     {{.content | safeHTML }}
                   </p>
                   <div class="row">
@@ -59,10 +59,10 @@
   {{ with .Params.colorBlock }}
   <section class="bg-white clip-bottom-lightgrey pt-5 overflow-hidden colorBlocks">
     <div class="container pb-5">
-      <div class="row row-eq-height">
+      <div class="row mb-5 pb-lg-5">
         {{ range .item }}
-           <div class="col-md-12 col-lg-6 mb-5 h-100">
-            <div class="mb-5 card center-card colorBlock {{ .color }}">
+           <div class="col-md-12 col-lg-6 mb-5 mb-lg-0">
+            <div class="card center-card colorBlock {{ .color }} h-100">
               <div class="card-header">
                 <h3>{{.title}}</h3>
               </div>
@@ -125,5 +125,30 @@
 </section>
 {{ end }}
 {{ end }}
+
+<script>
+  const textWrappers = document.querySelectorAll(".shortenedText")
+  console.log(textWrappers)
+
+  textWrappers.forEach(wrapper => {
+    let text = wrapper.innerHTML
+    console.log(text.length)
+    if(text.length > 300) {
+      text = text.substring(0, 300);
+      text = text.replace(/\w+$/, '...');
+      console.log(text)
+      console.log(text.length)
+
+      text += '<a href="#" ' +
+              'onclick="this.parentNode.innerHTML=' +
+              'unescape(\''+escape(wrapper.innerHTML)+'\');return false;">' +
+              ' Lire tout<\/a>';
+      wrapper.innerHTML = text;
+    }
+  })
+
+
+
+</script>
 
 {{ end }}
