@@ -1,60 +1,93 @@
 ---
-title: 'Les entreprises'
-type: 'page'
-description: 'Les entreprises sont l’un des piliers de l’école que ce soit pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.
-Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes au plus proche de la réalité des besoins en compétences .'
+title: Les entreprises
+type: page
+description: Les entreprises sont l’un des piliers de l’école que ce soit pour l’insertion
+  professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.
+  Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes
+  au plus proche de la réalité des besoins en compétences .
 banner:
-  title: 'Les Entreprises'
+  title: Les Entreprises
   title-line-twho: ''
-  subtitle: "La Normandie Web School proche de ses collaborateurs et des intervenants."
-  image: '/images/cursus_bg.png'
+  subtitle: La Normandie Web School proche de ses collaborateurs et des intervenants.
+  image: "/images/cursus_bg.png"
 about:
   enable: true
-  title: 'Introduction'
-  image: '/images/sitapha-cours.png'
-  content: "Les entreprises sont l’un des piliers de l’école que ce soit pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.
-  Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes au plus proche de la réalité des besoins en compétences .
-  Nous travaillons en étroite collaboration avec les entreprises, tout secteur confondu, de la TPE à celle du CAC 40 mais aussi avec des associations, des collectivités locales, des administrations publiques, des syndicats professionnels… Le numérique touche tous les secteurs et tous les services et est encore en devenir pour certaines organisations dont la transition digitale est en cours. L’école est un partenaire, voire un accélérateur de cette transition pour beaucoup de nos partenaires.
-  Alors pourquoi pas travailler vous ?"
+  title: Introduction
+  image: "/images/sitapha-cours.png"
+  content: Les entreprises sont l’un des piliers de l’école que ce soit pour l’insertion
+    professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction
+    d’événements. Un comité de perfectionnement a pour objectif chaque année d’adapter
+    les programmes au plus proche de la réalité des besoins en compétences . Nous
+    travaillons en étroite collaboration avec les entreprises, tout secteur confondu,
+    de la TPE à celle du CAC 40 mais aussi avec des associations, des collectivités
+    locales, des administrations publiques, des syndicats professionnels… Le numérique
+    touche tous les secteurs et tous les services et est encore en devenir pour certaines
+    organisations dont la transition digitale est en cours. L’école est un partenaire,
+    voire un accélérateur de cette transition pour beaucoup de nos partenaires. Alors
+    pourquoi pas travailler vous ?
 recrutement:
   enable: true
   item:
-  - image: '/images/entreprise_1.png'
-    title: 'Les stages'
-    button: 'Trouvez votre stagiaire'
-    content: "Vous pouvez intégrer nos stagiaires sur différentes périodes de l’année <br/> Année 1: stage de 2 mois à partir du mois de mai <br/> Année 2: stage de 4 mois à partir du mois de mars <br/> Année 3: stage de 6 mois équivalent temps plein à partir de janvier"
-    color: 'color-blue'
-  - image: /images/entreprises_2.png
-    title: "L'alternance"
-    button: 'Trouvez votre alternant'
-    content: "Le système de l’alternance, en contrat de professionnalisation ou contrat d’apprentissage, est utilisé aux meilleurs moments du parcours académique : en 2ème ou 3ème année de bachelor et en master. C’est le parcours clé après les premières expériences de stages et avant la recherche du premier emploi. <br/><br/>
-    En contrat d’apprentissage ou de professionnalisation, l’étudiant poursuit son cursus scolaire sur un rythme d’une semaine à l’école et de 3 semaines en entreprise. Dans ce contexte, l’entreprise prend en charge les coûts de formation et rémunère l’étudiant jusqu’à 80% du montant du SMIC en fonction de l’âge de l’étudiant et du type d’alternance.
-    "
-    color: 'color-orange'
+  - image: "/images/entreprise_1.png"
+    title: Les stages
+    button: Trouvez votre stagiaire
+    content: 'Vous pouvez intégrer nos stagiaires sur différentes périodes de l’année
+      <br/> Année 1: stage de 2 mois à partir du mois de mai <br/> Année 2: stage
+      de 4 mois à partir du mois de mars <br/> Année 3: stage de 6 mois équivalent
+      temps plein à partir de janvier'
+    color: color-blue
+  - image: "/images/entreprises_2.png"
+    title: L'alternance
+    button: Trouvez votre alternant
+    content: 'Le système de l’alternance, en contrat de professionnalisation ou contrat
+      d’apprentissage, est utilisé aux meilleurs moments du parcours académique :
+      en 2ème ou 3ème année de bachelor et en master. C’est le parcours clé après
+      les premières expériences de stages et avant la recherche du premier emploi.
+      <br/><br/> En contrat d’apprentissage ou de professionnalisation, l’étudiant
+      poursuit son cursus scolaire sur un rythme d’une semaine à l’école et de 3 semaines
+      en entreprise. Dans ce contexte, l’entreprise prend en charge les coûts de formation
+      et rémunère l’étudiant jusqu’à 80% du montant du SMIC en fonction de l’âge de
+      l’étudiant et du type d’alternance. '
+    color: color-orange
 colorBlock:
   enable: true
   item:
-  - title: 'Intervenir à la School'
-    content: "L’école recherche en permanence des intervenants professionnels. <br/>
-    Si vous aimez transmettre, échanger, partager des connaissances, du savoir-faire et du savoir être, alors nous avons besoin de vous ! <br/>
-    Vous pouvez intervenir sur plusieurs Unités d’Enseignement, sur un module précis, pour une conférence ou encore mentorer des projets.
-    "
-    button: 'Proposer une intervention'
-    color: 'color-blue'
-  - title: 'Soumettre un projet'
-    content:  "L’école intègre des projets de réalisation de sites, d’applications, de supports de communication pour de petites entreprises, des associations ou encore des prototypages. <br/>
-    La philosophie de sélection de projet est de donner un coup de pouce à une jeune entreprise qui se lance, à une association à but non lucratif. Elle est aussi de permettre d’innover à une entreprise en produisant un POC (preuve de concept) ou un prototype. L’école ne se substitue pas une agence de communication ou une ESN."
-    button: "Proposer un projet"
-    color: 'color-yellow'
+  - title: Intervenir à la School
+    content: 'L’école recherche en permanence des intervenants professionnels. <br/>
+      Si vous aimez transmettre, échanger, partager des connaissances, du savoir-faire
+      et du savoir être, alors nous avons besoin de vous ! <br/> Vous pouvez intervenir
+      sur plusieurs Unités d’Enseignement, sur un module précis, pour une conférence
+      ou encore mentorer des projets. '
+    button: Proposer une intervention
+    color: color-blue
+  - title: Soumettre un projet
+    content: L’école intègre des projets de réalisation de sites, d’applications,
+      de supports de communication pour de petites entreprises, des associations ou
+      encore des prototypages. <br/> La philosophie de sélection de projet est de
+      donner un coup de pouce à une jeune entreprise qui se lance, à une association
+      à but non lucratif. Elle est aussi de permettre d’innover à une entreprise en
+      produisant un POC (preuve de concept) ou un prototype. L’école ne se substitue
+      pas une agence de communication ou une ESN.
+    button: Proposer un projet
+    color: color-yellow
 partners:
   enable: true
-  title: 'Les entreprises qui nous font confiance'
-  subtitle: "Découvrez l'équipe de la Normandie Web School au service de la pédagogie et du développement de chacun des étudiants."
+  title: Les entreprises qui nous font confiance
+  subtitle: Découvrez l'équipe de la Normandie Web School au service de la pédagogie
+    et du développement de chacun des étudiants.
   partner:
-    - logo: '/'
-    - logo: '/'
-    - logo: '/'
-    - logo: '/'
+  - logo: "/"
+  - logo: "/"
+  - logo: "/"
+  - logo: "/"
 testimonials:
   enable: true
+menu:
+  main:
+    URL: entreprises
+    weight: 2
+  desktop:
+    URL: entreprises
+    weight: 2
+
 ---

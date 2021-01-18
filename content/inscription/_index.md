@@ -78,6 +78,9 @@ form:
     required: false
     name: newsletter
 menu:
+  main:
+    name: Demande d'inscription
+    weight: 6
   desktop:
     name: Demande d'inscription
     weight: 4

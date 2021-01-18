@@ -71,4 +71,10 @@ form:
       des publications à portée commerciales.
     required: false
     name: newsletter
+menu:
+  top:
+    URL: documentation
+    name: Documentation
+    weight: 2
+
 ---

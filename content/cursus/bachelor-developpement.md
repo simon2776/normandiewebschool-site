@@ -195,6 +195,10 @@ testimonials:
   filter:
   - dev
 menu:
+  main:
+    name: Bachelor développement
+    parent: Les cursus
+    weight: 3
   desktop:
     name: Bachelor développement
     parent: Les cursus
