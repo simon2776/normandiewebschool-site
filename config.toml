@@ -67,10 +67,6 @@ weight = 1
 name = "Demande d'inscription"
 weight = 6
 [[menu.top]]
-URL = "blog"
-name = "Blog"
-weight = 4
-[[menu.top]]
 URL = "faq"
 name = "FAQ"
 weight = 3
