@@ -194,11 +194,5 @@ testimonials:
   enable: true
   filter:
   - marketing
-menu:
-  desktop:
-    URL: marketing
-    name: Bachelor marketing
-    parent: Les cursus
-    weight: 2
 
 ---

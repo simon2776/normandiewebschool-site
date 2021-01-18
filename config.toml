@@ -5,6 +5,12 @@ theme = "nws-theme"
 title = "L'école des métiers du numérique"
 weight = 1
 [[menu.desktop]]
+URL = "marketing"
+name = "Bachelor marketing"
+parent = "Les cursus"
+url = "/cursus/bachelor-marketing-digital"
+weight = 2
+[[menu.desktop]]
 URL = "cursus"
 name = "Étudier à la NWS"
 parent = "Les cursus"
