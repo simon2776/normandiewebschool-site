@@ -807,3 +807,9 @@ blockquote {
 .filter-controls li.active {
   font-weight: 700;
 }
+
+@media (min-width: 992px) {
+  .h-lg-80 {
+    height: 80% !important;
+  }
+}
