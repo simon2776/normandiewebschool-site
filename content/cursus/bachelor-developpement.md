@@ -23,12 +23,12 @@ banner:
     label: Design
     color: color-blue
     justify: text-right
-    href: "/design"
+    href: "/cursus/bachelor-design"
   - arrow: right
-    label: Développement
-    color: color-yellow
+    label: Marketing
+    color: color-orange
     justify: text-left
-    href: "/developpement"
+    href: "/cursus/bachelor-marketing-digital"
 about:
   enable: true
   image: "/images/filieres_img1.png"

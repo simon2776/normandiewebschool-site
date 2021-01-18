@@ -20,15 +20,15 @@ banner:
   color: color-orange
   buttons:
   - arrow: left
-    label: Design
-    color: color-blue
+    label: Marketing
+    color: color-orange
     justify: text-right
-    href: "/design"
+    href: "/cursus/bachelor-marketing-digital"
   - arrow: right
     label: Développement
     color: color-yellow
     justify: text-left
-    href: "/developpement"
+    href: "/cursus/bachelor-developpement"
 about:
   enable: true
   image: "/images/filieres_img1.png"
