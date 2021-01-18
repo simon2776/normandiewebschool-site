@@ -33,7 +33,6 @@ sections:
 - type: document
   path: content/inscription/_index.md
   label: Inscription
-  match: "**/*"
 - type: document
   path: content/documentation/_index.md
   label: Documentation
