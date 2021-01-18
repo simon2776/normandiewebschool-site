@@ -27,15 +27,17 @@
     </div>
     <div class="row justify-content-between justify-content-lg-center p-3 btn-filieres">
         {{ range  $index, $value := .buttons }}
-            <div class="col-5 col-lg-2 card pt-4 pb-4">
-                <div class="arrow {{.arrow}} {{.color}}"></div>
-                <a class="font-weight-bold {{.justify}} {{.color}}" href="{{.href}}">
-                    {{.label}}
+                <a href="{{.href}}" class="col-5 col-lg-2 card pt-4 pb-4">
+                    <div>
+                        <div class="arrow {{.arrow}} {{.color}}"></div>
+                        <p class="font-weight-bold {{.justify}} {{.color}} m-0">
+                            {{.label}}
+                        </p>
+                    </div>
                 </a>
-            </div>
-            {{ if $index | eq 0 }}
-            <div style="width: 30px"></div>
-            {{ end }}
+                {{ if $index | eq 0 }}
+                <div style="width: 30px"></div>
+                {{ end }}
         {{ end }}
     </div>
 </section>

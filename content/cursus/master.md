@@ -5,7 +5,7 @@ title: Master
 date: 2019-05-12T12:14:34.000+06:00
 description: 'Vous souhaitez faire du numérique votre métier, devenir un expert dans ce milieu et en apprendre plus sur le leadership, alors le master "Expert Digital" vous ouvre grand ses bras. '
 banner:
-  logo: '/images/logo-design.png'
+  logo: ''
   title: Master "Expert digital"
   image: images/design.jpg
   description: 'Vous souhaitez faire du numérique votre métier, devenir un expert dans ce milieu et en apprendre plus sur le leadership, alors le master "Expert Digital" vous ouvre grand ses bras. 
@@ -15,8 +15,7 @@ about:
   enable: true
   image: '/images/filieres_img1.png'
   description:
-    BAC+1 dans le domaine communication / multimédia / Développement informatique
-    / Infographie <br/> BAC+ Expérience professionnelle
+    Le Master se fait obligatoirement en alternance. Le prix est prit en charge par l'entreprise employeur. 
 skills:
   enable: true
   title: Profils attendus
@@ -43,78 +42,58 @@ years:
   enable: true
   item:
     - button: 1er année
-      title: Le programme en cursus initial
+      title: Le programme en Master
       active: active
       subtitle:
-        'De nombreux cours riches et variés y sont enseignés. Développez vos
-        compétences en graphisme, design, marketing et développement. '
+        'Concevez et augmenter vos compétences et connaissances dans le monde du numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un expert du digital.'
       etape:
-        - title: Création graphique
+        - title: Entrepreneuriat et innovation
           content:
-            '- Eco-conception graphique <br/> - Tendances graphiques & veille <br/>
-            - Formes, couleurs et polices <br/>- Identité visuelle & charte graphique
-            <br/>- Illustrations vectorielles et bitmap <br/> - Prise de vue et retouches
-            photo <br/>- Réalisation Print <br/> - Infographies <br/> - Outils graphiques
-            professionnels: Illustrator, inDesign, Lightroom, Photoshop, XD'
-        - title: Vidéo et animation
-          content: ''
-        - title: Création de sites web
+            '- Business Modeling et Entrepreneurship Marketing et Innovation
+            - Enjeux et pratiques de la transformation digitale'
+        - title: Management et stratégie
+          content: 
+            '- Diagnostic stratégique Management d’équipe 
+            - Gestion de projet digital
+            - Méthodes de planification de projet / Méthode agile / Scrum master 
+            - Droit de propriété intellectuelle et des nouvelles technologies 
+            - Techniques rédactionnelles
+            - Gestion budgétaire et trésorerie'
+        - title: Fidélisation et animation de communauté
           content:
-            '- Eco-conception web <br/> - Sites mobiles et desktop <br/> - Conception
-            d’interfaces <br/> - Grilles de mise en page <br/> - Systèmes de design et
-            composants web <br/> - Langages du web  HTML / CSS / JavaScript <br/> - Accessibilité
-            et ergonomie <br/> - Rédaction de contenus <br/> - Référencement naturel (SEO)
-            <br/> - Publication '
-        - title: Communication et e-commerce
-          content:
-            "- Fondamentaux du marketing digital <br/> - Réseaux sociaux professionnels
-            <br/> - Réseaux sociaux graphiques et vidéo <br/> - Rédaction et envoi e-mailing
-            & newsletter <br/> - Intégration de contenus (CMS) <br/> - Sites e-commerce
-            <br/> - Audit lexical, search console et analytics <br/> - Analyse d'éco performance
-            <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
-            <br/>"
+            '- Réseaux sociaux et Community Management 
+            - Veille et e-reputation
+            - Gestion de crise
+            - Stratégie de profils 
+            - Social media Blogging
+            - Stratégie Social media et stratégie d’influence 
+            - Référencement SEO/SEM'
     - button: 2e année
-      title: Programme de la deuxième année marketing
+      title: 'Concevez et augmenter vos compétences et connaissances dans le monde du numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un expert du digital.'
       subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
       etape:
-        - title: Stratégie Marketing
+        - title: Digital marketing et e-commerce
           content:
-            '- Les étapes de la démarche marketing (analyser planification, suivi),
-            <br/> - Une analyse concurrentielle comparative, <br/> - La rédaction du plan
-            marketing opérationnel, <br/> - La conception de calendriers éditorials <br/>
-            - La production de contenu original conforme au plan marketing.'
-        - title: Référencement naturel et performance web
+            '- CRM / Stratégie Marketing 
+            - Marketing Digital 
+            - Etude de marché
+            - Marketing Mobile 
+            - Emailing Newsletter 
+            - Google Analytics Affiliation
+            - Data
+            - Diffusion multicanal online et offline Inbound Marketing
+            - Brand content et stratégie de marque Contenu multimédia et transmédia Storytelling
+            - Performance e-commerce et web analytics'
+        - title: Conception digitale
           content:
-            "- La typologie de contenus et audit lexical, - La réalisation d'un
-            prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
-            d'un site éco-performants et de  CMS, <br/> - La validation de l'accessibilité
-            et des performances techniques et environnementales, <br/> - La réalisation
-            d'une présentation client. "
-        - title: Analytics, segmentation et reporting
+            "- Création de site et application web Ergonomie et comportements utilisateurs CMS, vitrine et e-commerce
+            - Hébergement, serveurs Web et cloud Computing"
+        - title: Projet certifiant et posture professionnelle
           content:
-            '- La définition d''''une stratégie réseaux sociaux et advertising,
-            <br/> - L''''écriture et la publication de contenus originaux, <br/> - La
-            diffusion de contenu original sur les réseaux sociaux, <br/> - L''optimisation
-            d''une campagne publicitaires  "réseaux sociaux" <br/> - La certification
-            Google Ads.'
-        - title: Tunnel d'acquisiton
-          content:
-            "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
-            et la visualisation de données, <br/> - La réalisation d'un scoring pour la
-            segmentation <br/> - La mise en place d'un Dashboard dynamique"
-        - title: Marketing social et vidéo
-          content:
-            "- Création d’un tunnel d’acquisition conforme à un plan marketing,
-            <br/> - Déploiement d’une stratégie de content marketing web et réseaux sociaux,
-            <br/> - Création et diffusion d’un email et d’une newsletter, <br/> - Automatisation
-            \ des actions de Lead Nurturing / Growth Hacking."
-        - title: Posture professionnelle
-          content: ''
-        - title: E-learning et certifications
-          content:
-            Culture et outils numériques <br/> Renforcement orthographique et grammatical
-            <br/> Anglais technique <br/>  Certifications  compétences numériques, outils
-            Adobe
+            '- Cahier des charges et dossier de production
+            - Gestion de projet : allocation de ressources,  planning et budget
+            - Réalisation et gestion d’un projet en mode agence
+            - Reporting et communication à l’oral et à l’écrit'
 profession:
   enable: true
   title: Les débouchés métiers
@@ -124,36 +103,25 @@ profession:
     d'un plan marketing, des études de marchés, de la veille et des réunions et des
     rencontres.
   item:
-    - title: Community Manager
+    - title: Responsable marketing digital
       description:
-        Participez à l'élaboration d'une stratégie social media pour produire
-        du contenu sur les réseaux sociaux, entretenir une vraie relation avec une communauté
-        et maintenir la bonne image d'une entreprise.
-    - title: Chef de projet marketing
+        Soyez en charge du suivi des budgets marketing et aussi du suivi des retombées des actions marketing en mesurant, par exemple, l'efficacité des campagnes. En collaboration avec les chefs de produit, concevez les actions correctrices.
+    - title: Chef de projet de transformation digitale
       description:
-        Proposez des projets, organisez les dans leur globalité et accompagnez
-        les équipes chargées de la production à travers un suivi complet, la création
-        d'un plan marketing, des études de marchés, de la veille et des réunions et
-        des rencontres.
-    - title: Gestionnaire de contenu site web
+       "Accompagnez le client pour développer la capacité à utiliser les technologies digitales comme levier de création de valeur : nouveaux business model, renforcement de la relation client, innovation, mobilité, agilité..."
+    - title: Consultant(e) Web DATA
       description:
-        Rédigez le contenu rédactionnel du site web en prenant en compte
-        le référencement et les algorithmes des navigateurs de recherches, sélectionnez
-        des images et des vidéos adaptés au produit / service et analysez les retombées
-        du site Internet.
-    - title: Rédacteur web
+        Décryptez les comportements des internautes sur le web. Grâce aux données statistiques collectées, analysez les données de fréquentation d'un site internet pour comprendre ce qui a amené un internaute à visiter un site web et comment il a visité ce site.
+    - title: Consultant(e) sémentique
       description:
-        "Rédigez le contenu d'un site web en prenant en compte la demande
-        et les besoins de l'entreprise, le référencement SEO et SEA et les algorithmes
-        des navigateurs de recherches. "
-    - title: Web marketer
+        Travaillez le contenu d'une site et adaptez les textes et le référencement SEO/SEA en fonction des besoins, des problématiques et des requêtes de la cible. 
+    - title: Marketing Business Analyst
       description:
-        Installez une stratégie de communication internet répondants aux
-        attentes et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
+        Définissez différents outils d'analyse et concevez des tableaux de bord qui aident à la prise de décision et au suivi de la performance commerciale.
 testimonials:
   enable: true
   filter:
-    - master
+    - design
 menu:
   main:
     name: Master Expert digital
