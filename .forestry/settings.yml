@@ -31,6 +31,10 @@ sections:
   path: content/faq/_index.md
   label: FAQ
 - type: document
+  path: content/inscription/_index.md
+  label: Inscription
+  match: "**/*"
+- type: document
   path: content/documentation/_index.md
   label: Documentation
 - type: document
