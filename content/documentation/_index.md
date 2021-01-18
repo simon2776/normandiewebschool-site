@@ -73,8 +73,8 @@ form:
     name: newsletter
 menu:
   top:
-    URL: documentation
     name: Documentation
+    URL: documentation
     weight: 2
 
 ---

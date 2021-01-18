@@ -61,13 +61,13 @@ event:
       end: 18h45
       href: https://google.com
 menu:
-  main:
-    URL: agenda
-    name: Agenda
-    weight: 3
   top:
-    URL: agenda
     name: Agenda
+    URL: agenda
     weight: 1
+  main:
+    name: Agenda
+    URL: agenda
+    weight: 3
 
 ---

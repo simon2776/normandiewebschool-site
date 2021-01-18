@@ -96,13 +96,13 @@ filieres:
 testimonials:
   enable: true
 menu:
-  main:
-    name: Cursus intital
+  desktop:
+    name: Étudier à la NWS
+    URL: cursus
     parent: Les cursus
     weight: 1
-  desktop:
-    URL: cursus
-    name: Étudier à la NWS
+  main:
+    name: Cursus intital
     parent: Les cursus
     weight: 1
 

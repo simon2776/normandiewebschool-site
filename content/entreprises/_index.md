@@ -83,10 +83,10 @@ partners:
 testimonials:
   enable: true
 menu:
-  main:
+  desktop:
     URL: entreprises
     weight: 2
-  desktop:
+  main:
     URL: entreprises
     weight: 2
 
