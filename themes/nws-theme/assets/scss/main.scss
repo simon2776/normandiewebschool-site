@@ -475,6 +475,13 @@ footer {
 
   .subfooter {
     ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @media(min-width:450px) {
+        flex-direction: row
+      }
       li {
         a {
           color: #fff;
