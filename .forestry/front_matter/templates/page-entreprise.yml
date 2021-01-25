@@ -8,12 +8,13 @@ fields:
 - type: text
   name: type
   label: type
+  hidden: true
 - type: textarea
   name: description
   label: description
 - type: field_group
   name: banner
-  label: banner
+  label: Bannière
   fields:
   - type: text
     name: title
