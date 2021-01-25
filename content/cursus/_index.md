@@ -93,8 +93,10 @@ filieres:
       du numérique. '
     arrow: false
     link: "#"
+    arrowImage: ''
 testimonials:
   enable: true
+  testimonails: []
 menu:
   desktop:
     name: Étudier à la NWS
