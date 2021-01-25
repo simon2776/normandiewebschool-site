@@ -47,6 +47,11 @@ event:
   - label: Avril 2021
     item:
     - date: 01/05/21
+      name: ''
+      localisation: ''
+      start: ''
+      end: ''
+      href: ''
     name: Salon des jeunes entrepreneur de Rouen et ...
     localisation: Parc des expositions de Rouen (76)
     start: 9h
