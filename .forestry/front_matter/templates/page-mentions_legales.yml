@@ -5,3 +5,5 @@ fields:
 - type: textarea
   name: content
   label: content
+pages:
+- content/mentions-legales/_index.md
