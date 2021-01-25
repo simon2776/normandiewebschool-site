@@ -1,0 +1,7 @@
+---
+label: page-politique_de_confidentialite
+hide_body: true
+fields:
+- type: textarea
+  name: content
+  label: content
