@@ -11,39 +11,39 @@ fields:
   hidden: true
 - type: textarea
   name: description
-  label: description
+  label: Description
 - type: field_group
   name: banner
   label: Bannière
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
   - type: text
     name: title-line-twho
     label: title-line-twho
   - type: text
     name: subtitle
-    label: subtitle
+    label: Sous-titre
   - type: file
     name: image
     label: Image
 - type: field_group
   name: about
-  label: about
+  label: A propos
   fields:
   - type: boolean
     name: enable
     label: enable
   - type: text
     name: title
-    label: title
+    label: Titre
   - type: file
     name: image
-    label: image
+    label: Image
   - type: textarea
     name: content
-    label: content
+    label: Contenu
 - type: field_group
   name: filieres
   label: filieres
