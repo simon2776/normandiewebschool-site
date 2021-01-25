@@ -58,3 +58,5 @@ fields:
       - type: textarea
         name: answer
         label: answer
+pages:
+- content/faq/_index.md
