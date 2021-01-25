@@ -121,6 +121,7 @@ years:
       content: Culture et outils numériques <br/> Renforcement orthographique et grammatical
         <br/> Anglais technique <br/>  Certifications  compétences numériques, outils
         Adobe
+    active: ''
   - button: 3e année
     title: Spécialité marketing digital, 3e année
     subtitle: Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
@@ -161,6 +162,7 @@ years:
         d’un projet en mode agence <br/> - Reporting et communication à l’oral et
         à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collectiveTravail
         en équipe, esprit collaboratif <br/> - Responsabilité sociétale"
+    active: ''
 profession:
   enable: true
   title: Les débouchés métiers

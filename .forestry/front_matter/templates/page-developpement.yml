@@ -163,3 +163,5 @@ fields:
   - type: list
     name: filter
     label: filter
+pages:
+- content/cursus/bachelor-developpement.md
