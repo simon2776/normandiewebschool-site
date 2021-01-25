@@ -14,7 +14,7 @@ fields:
   label: description
 - type: field_group
   name: banner
-  label: banner
+  label: Bannière
   fields:
   - type: text
     name: title
