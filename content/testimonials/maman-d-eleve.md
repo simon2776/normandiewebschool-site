@@ -1,5 +1,5 @@
 +++
-content = "Une classe qui s'est tout de suite mis d'accord et s'est bien entendu grâce à la mixité et aux intervenants. Un programme vraiment très sympa qui nous permet d'interagir avec toutes les classes. Chaque étudiants et intervenant apporte sa pièce à l'édifice grâce à leurs compétences et à leurs connaissances."
+content = "Une classe qui s'est tout de suite mis d'accord et s'est bien entendu grâce à la mixité et aux intervenants. Un programme vraiment très sympa qui nous permet d'interagir avec toutes les classes. Chaque étudiant et intervenant apporte sa pièce à l'édifice grâce à leurs compétences et à leurs connaissances."
 image = "/images/masse-thibault.JPG"
 name = "Thibault Masse"
 tag = ["cursus", "initial"]
