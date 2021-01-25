@@ -144,3 +144,5 @@ fields:
   - type: list
     name: filter
     label: filter
+pages:
+- content/cursus/master.md

@@ -81,6 +81,7 @@ years:
       content: "- Cahier des charges et dossier de production - Gestion de projet
         : allocation de ressources,  planning et budget - Réalisation et gestion d’un
         projet en mode agence - Reporting et communication à l’oral et à l’écrit"
+    active: ''
 profession:
   enable: true
   title: Les débouchés métiers
