@@ -46,49 +46,49 @@ fields:
     label: Contenu
 - type: field_group
   name: filieres
-  label: filieres
+  label: Filières
   fields:
   - type: boolean
     name: enable
     label: enable
   - type: field_group_list
     name: item
-    label: item
+    label: Filière
     fields:
     - type: text
       name: title
-      label: title
+      label: Titre
     - type: textarea
       name: content
-      label: content
+      label: Contenu
     - type: text
       name: from
-      label: from
+      label: De
     - type: text
       name: to
-      label: to
+      label: à
     - type: text
       name: color
-      label: color
+      label: Couleur
     - type: file
       name: logo
-      label: logo
+      label: Logo
     - type: text
       name: href
-      label: href
+      label: Lien
 - type: field_group
   name: cursus
-  label: cursus
+  label: Cursus
   fields:
   - type: boolean
     name: enable
     label: enable
   - type: text
     name: title
-    label: title
+    label: Titre
   - type: text
     name: subtitle
-    label: subtitle
+    label: Sous-titre
 - type: field_group
   name: reasons
   label: reasons
