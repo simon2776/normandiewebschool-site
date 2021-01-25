@@ -1,0 +1,7 @@
+---
+label: page-mentions_legales
+hide_body: true
+fields:
+- type: textarea
+  name: content
+  label: content
