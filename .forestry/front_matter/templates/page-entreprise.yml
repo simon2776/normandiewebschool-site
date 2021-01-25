@@ -120,3 +120,5 @@ fields:
   - type: boolean
     name: enable
     label: enable
+pages:
+- content/entreprises/_index.md
