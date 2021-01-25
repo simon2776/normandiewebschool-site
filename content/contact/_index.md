@@ -54,6 +54,7 @@ form:
     required: true
     name: message
     width: "100"
+    type: ''
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
       exploitées dans le cadre d'apport d'information concernant les formations proposées
