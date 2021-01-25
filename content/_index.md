@@ -34,7 +34,7 @@ filieres:
     to: Jusqu'au bac +3
     color: color-orange
     logo: images/logo-marketing.png
-    href: "/marketing"
+    href: "/cursus/bachelor-marketing-digital/"
   - title: Filière Design
     content: Le design graphique, un monde au programme riche et varié afin de devenir
       un pro de la création de sites, de visuels, de supports... Exprimez votre créativité
@@ -44,7 +44,7 @@ filieres:
     to: Jusqu'au bac +3
     color: color-blue
     logo: images/logo-design.png
-    href: "/design"
+    href: "/cursus/bachelor-design/"
   - title: Filière Développement
     content: "Développez des supports numérique à l'aide de logiciels techniques et
       accompagnez de professionnels. \nDevenez des experts du développement en exprimant
@@ -53,7 +53,7 @@ filieres:
     to: Jusqu'au bac +3
     color: color-yellow
     logo: images/logo-dev.png
-    href: "/developpement"
+    href: "/cursus/bachelor-developpement/"
 cursus:
   enable: true
   title: Les cursus à la NWS
