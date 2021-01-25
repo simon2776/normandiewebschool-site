@@ -8,12 +8,14 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: description
   label: description
 - type: text
   name: global
   label: global
+  hidden: true
 - type: field_group
   name: banner
   label: banner
