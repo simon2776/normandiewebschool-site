@@ -5,15 +5,18 @@ fields:
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
   label: title
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: textarea
   name: description
   label: description
