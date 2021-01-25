@@ -1,0 +1,65 @@
+---
+label: page-agenda
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: description
+  label: description
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: title-line-twho
+    label: title-line-twho
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: file
+    name: image
+    label: image
+- type: field_group
+  name: event
+  label: event
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: month
+    label: month
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: field_group_list
+      name: item
+      label: item
+      fields:
+      - type: datetime
+        name: date
+        label: date
+      - type: text
+        name: name
+        label: name
+      - type: text
+        name: localisation
+        label: localisation
+      - type: text
+        name: start
+        label: start
+      - type: text
+        name: end
+        label: end
+      - type: text
+        name: href
+        label: href
