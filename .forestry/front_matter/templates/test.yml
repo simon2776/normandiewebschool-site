@@ -1,7 +1,0 @@
----
-label: test
-hide_body: true
-fields:
-- type: textarea
-  name: content
-  label: content
