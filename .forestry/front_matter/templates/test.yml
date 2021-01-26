@@ -183,3 +183,5 @@ fields:
   - type: boolean
     name: enable
     label: enable
+pages:
+- content/_index.md
