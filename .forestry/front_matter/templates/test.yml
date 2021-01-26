@@ -4,16 +4,17 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: textarea
   name: description
   label: description
 - type: field_group
   name: banner
-  label: banner
+  label: Bannière
   fields:
   - type: text
     name: title
@@ -29,7 +30,7 @@ fields:
     label: image
 - type: field_group
   name: about
-  label: about
+  label: A propos
   fields:
   - type: boolean
     name: enable
@@ -45,7 +46,7 @@ fields:
     label: content
 - type: field_group
   name: filieres
-  label: filieres
+  label: Filières
   fields:
   - type: boolean
     name: enable
@@ -77,7 +78,7 @@ fields:
       label: href
 - type: field_group
   name: video
-  label: video
+  label: Vidéo de présentation
   fields:
   - type: boolean
     name: enable
@@ -99,7 +100,7 @@ fields:
     label: href
 - type: field_group
   name: cursus
-  label: cursus
+  label: Cursus
   fields:
   - type: boolean
     name: enable
