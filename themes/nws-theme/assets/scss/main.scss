@@ -1296,3 +1296,25 @@ HERO HEADER
     margin-top: 150px !important;
   }
 }
+
+
+.dropdown-menu {
+  border-radius: 7px !important;
+  height: max-content !important;
+  font-size: 0.9em !important;
+  font-weight: 500 !important;
+  border: 2px solid white !important;
+  box-shadow: 0px 2px 6px #00000029 !important;
+
+
+  .dropdown-item {
+    &:hover {
+      color: var(--orange) !important;
+    }
+  }
+
+  &:active {
+    color: black !important;
+    background-color: transparent !important;
+  }
+}
