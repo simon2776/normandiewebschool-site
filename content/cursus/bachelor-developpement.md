@@ -31,7 +31,7 @@ banner:
     href: "/cursus/bachelor-marketing-digital"
 about:
   enable: true
-  image: "/images/filieres_img1.png"
+  url: "https://www.youtube.com/embed/RGglN9NvNs4"
   description: BAC+1 dans le domaine communication / multimédia / Développement informatique
     / Infographie <br/> BAC+ Expérience professionnelle
 skills:

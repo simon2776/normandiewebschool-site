@@ -1318,3 +1318,75 @@ HERO HEADER
     background-color: transparent !important;
   }
 }
+
+
+#video {
+  .d-custom-block {
+    display: inline-block;
+  }
+
+  @media(min-width: 1200px) {
+    .d-custom-block {
+      display: none;
+    }
+  }
+
+  .video-container {
+    flex-direction: column-reverse;
+    align-items: center; 
+  
+    .col-custom-6 {
+      margin-top: 2rem;
+    }
+
+  
+    .d-custom-none {
+      display: none;
+    }
+
+    @media(min-width: 1200px) {
+      flex-direction: row;
+      justify-content: space-between; 
+      align-items: flex-start;
+
+      .col-custom-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+      }
+
+
+      .d-custom-none {
+        display: block;
+      }
+
+      .col-custom-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+      }
+
+      .text-custom-left {
+        text-align: left!important;
+      }
+
+      .with-separator-custom-left {
+        &:after {
+          left: 0 !important;
+          margin-left: 0 !important;
+        }
+      }
+    }
+
+  }
+}
+
+.ytb-video {
+  border-radius: 20px;
+}
+
+.filieres-video {
+  @media(min-width: 768px) {
+    width: 560px !important;
+  }
+}
