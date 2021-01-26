@@ -1,5 +1,5 @@
 ---
-label: test
+label: page-accueil
 hide_body: true
 fields:
 - type: text
