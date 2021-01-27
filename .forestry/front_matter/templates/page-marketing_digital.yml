@@ -65,9 +65,11 @@ fields:
   - type: boolean
     name: enable
     label: enable
-  - type: file
-    name: image
-    label: image
+  - name: url
+    type: text
+    config:
+      required: false
+    label: url
   - type: textarea
     name: description
     label: description

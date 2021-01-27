@@ -11,23 +11,23 @@ fields:
   hidden: true
 - type: textarea
   name: description
-  label: Description
+  label: description
 - type: field_group
   name: banner
   label: Bannière
   fields:
   - type: text
     name: title
-    label: Titre
+    label: title
   - type: text
     name: title-line-twho
     label: title-line-twho
   - type: text
     name: subtitle
-    label: Sous-titre
+    label: subtitle
   - type: file
     name: image
-    label: Image
+    label: image
 - type: field_group
   name: about
   label: A propos
@@ -37,13 +37,13 @@ fields:
     label: enable
   - type: text
     name: title
-    label: Titre
+    label: title
   - type: file
     name: image
-    label: Image
+    label: image
   - type: textarea
     name: content
-    label: Contenu
+    label: content
 - type: field_group
   name: filieres
   label: Filières
@@ -53,29 +53,51 @@ fields:
     label: enable
   - type: field_group_list
     name: item
-    label: Filière
+    label: item
     fields:
     - type: text
       name: title
-      label: Titre
+      label: title
     - type: textarea
       name: content
-      label: Contenu
+      label: content
     - type: text
       name: from
-      label: De
+      label: from
     - type: text
       name: to
-      label: à
+      label: to
     - type: text
       name: color
-      label: Couleur
+      label: color
     - type: file
       name: logo
-      label: Logo
+      label: logo
     - type: text
       name: href
-      label: Lien
+      label: href
+- type: field_group
+  name: video
+  label: Vidéo de présentation
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: button
+    label: button
+  - type: text
+    name: href
+    label: href
 - type: field_group
   name: cursus
   label: Cursus
@@ -85,10 +107,10 @@ fields:
     label: enable
   - type: text
     name: title
-    label: Titre
+    label: title
   - type: text
     name: subtitle
-    label: Sous-titre
+    label: subtitle
 - type: field_group
   name: reasons
   label: reasons

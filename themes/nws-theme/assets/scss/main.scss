@@ -1303,3 +1303,98 @@ HERO HEADER
     margin-top: 150px !important;
   }
 }
+
+
+.dropdown-menu {
+  border-radius: 7px !important;
+  height: max-content !important;
+  font-size: 0.9em !important;
+  font-weight: 500 !important;
+  border: 2px solid white !important;
+  box-shadow: 0px 2px 6px #00000029 !important;
+
+
+  .dropdown-item {
+    &:hover {
+      color: var(--orange) !important;
+    }
+
+    &:active {
+      color: var(--orange) !important;
+      background-color: transparent !important;
+    }
+  }
+
+}
+
+
+#video {
+  .d-custom-block {
+    display: inline-block;
+  }
+
+  @media(min-width: 1200px) {
+    .d-custom-block {
+      display: none;
+    }
+  }
+
+  .video-container {
+    flex-direction: column-reverse;
+    align-items: center; 
+  
+    .col-custom-6 {
+      margin-top: 2rem;
+    }
+
+  
+    .d-custom-none {
+      display: none;
+    }
+
+    @media(min-width: 1200px) {
+      flex-direction: row;
+      justify-content: space-between; 
+      align-items: flex-start;
+
+      .col-custom-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 0;
+      }
+
+
+      .d-custom-none {
+        display: block;
+      }
+
+      .col-custom-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+      }
+
+      .text-custom-left {
+        text-align: left!important;
+      }
+
+      .with-separator-custom-left {
+        &:after {
+          left: 0 !important;
+          margin-left: 0 !important;
+        }
+      }
+    }
+
+  }
+}
+
+.ytb-video {
+  border-radius: 20px;
+}
+
+.filieres-video {
+  @media(min-width: 768px) {
+    width: 560px !important;
+  }
+}

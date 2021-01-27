@@ -47,8 +47,8 @@
 <section class="pb-4 bg-lightgrey position-relative overflow-hidden" id="filiere-doc">
     <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <img src="{{.image}}" class="d-block mx-auto my-4 rounded-circle border-white" style="width: 200px;" alt="">
+          <div class="col-md-12 text-center">
+            <iframe width="560" height="315" src="{{ .url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="ytb-video my-4 w-100 filieres-video"></iframe>
             <p class="font-weight-medium text-center px-3">
                 {{ .description | safeHTML }}
               </p>

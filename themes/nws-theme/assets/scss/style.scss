@@ -814,3 +814,63 @@ blockquote {
     height: 80% !important;
   }
 }
+
+#tarteaucitronRoot {
+  &:before {
+    display: none;
+  }
+  #tarteaucitronAlertBig {
+    width: 350px !important;
+    left: 100% !important;
+    top: 100% !important;
+    transform: translate(calc(-100% - 30px), calc(-100% - 40px)) !important;
+    box-shadow: 0px 0px 12px #00000029 !important;
+    border-radius: 20px !important;
+    padding: 25px 0 !important;
+    background: #fff !important;
+
+    &:before {
+      content: '🍪';
+      font-size: 90px;
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #tarteaucitronDisclaimerAlert {
+      color: #717171;
+      font-size: 1rem;
+      margin: 25px 0 20px 0;
+    }
+
+    #tarteaucitronPersonalize {
+      width: 60%;
+      padding: 10px;
+      border-radius: 5px;
+      background: #00a5a5;
+      margin-bottom: 10px;
+    }
+
+    .tarteaucitronDeny {
+      width: 60%;
+      padding: 10px;
+      border-radius: 5px;
+      background: #ca4b38;
+      margin-bottom: 10px;
+    }
+
+    br {
+      display: none;
+    }
+
+    #tarteaucitronCloseAlert {
+      width: 60%;
+      padding: 10px;
+      border-radius: 5px;
+      background: #b2b2b2;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+  }
+}

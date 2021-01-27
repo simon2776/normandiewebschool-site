@@ -94,6 +94,32 @@
   {{ end }}
   <!-- /filières -->
 
+
+  <!-- Video -->
+  {{ if .Params.video.enable }}
+  {{ with .Params.video }}
+  <section class="section" id="video">
+    <div class="container d-block position-relative text-center">
+      <div class="row video-container">
+        <div class="col-12 col-custom-6 d-flex justify-content-center">
+          <iframe width="560" height="315" src="{{ .url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="ytb-video"></iframe>
+        </div>
+        <div class="col-12 col-custom-5 text-center text-custom-left">
+          <h3 class="title-medium color-orange  with-separator-custom-left">{{ .title }}</h3>
+          <p>{{ .content }}</p>
+          <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-none" href="{{ .href }}">
+            {{ .button }}
+          </a>
+        </div>
+      </div>
+      <a class="btn color-orange mt-5 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-block" href="{{ .href }}">
+        {{ .button }}
+      </a>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+
   {{ if .Params.cursus.enable }}
   {{ with .Params.cursus }}
   <section class='overflow-hidden'>
@@ -237,7 +263,7 @@
 
           {{ $testimonials := where .Site.RegularPages "Type" "in" "testimonial" }}
 
-          <div id="testimonialsCarousel" class="carousel slide pb-5" data-ride="carousel">
+          <div id="testimonialsCarousel" class="carousel slide pb-5" data-ride="carousel" data-interval="20000">
             <ol class="carousel-indicators">
               {{ range $index, $value := $testimonials }}
               <li data-target="#testimonalsCarouselIndicator" data-slide-to="{{$index}}" class="{{ if (eq $index 0 )}}active{{end}}"></li>
