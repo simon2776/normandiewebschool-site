@@ -18,14 +18,14 @@
       <div class="row">
         <div class="col-md-12">
             <div class="card">
-              <div class="card-header color-orange with-separator">
-                <h3 class="fugaz">
+              <div class="card-header">
+                <h3 class="mb-0 title-medium color-orange separator-left">
                   {{ .Params.banner.title | safeHTML }}
                 </h3>
               </div>
 
               <div class="card-body">
-                <p class="font-weight-medium">
+                <p class="font-weight-medium mb-0">
                   {{ .Params.banner.subtitle | safeHTML }}
                 </p>
               </div>
@@ -83,9 +83,9 @@
         {{ end }}
       </div>
 
-      <div class="row pb-5 d-block d-lg-none">
-        <div class="col-12 d-flex justify-content-center mt-4">
-          <a href="" class="btn font-weight-medium color-blue mt-5 mb-3 pt-3 pb-3 pl-4 pr-4">Demande d'inscription</a>
+      <div class="row py-4 mt-5 d-block d-lg-none">
+        <div class="col-12 d-flex justify-content-center">
+          <a href="" class="btn font-weight-medium color-blue pt-3 pb-3 pl-4 pr-4">Demande d'inscription</a>
         </div>
       </div>
     </div>
@@ -98,7 +98,7 @@
   <!-- Video -->
   {{ if .Params.video.enable }}
   {{ with .Params.video }}
-  <section class="section" id="video">
+  <section class="my-3 my-lg-5" id="video">
     <div class="container d-block position-relative text-center">
       <div class="row video-container">
         <div class="col-12 col-custom-6 d-flex justify-content-center">
@@ -195,7 +195,7 @@
         <div class="col-md-12 col-lg-3 text-center">
             <div class="mt-5">
               <span class="big-number color-orange">{{.number}}</span>
-              <p class=" font-weight-bold">- {{.title}} -</p>
+              <p class="number-desc font-weight-bold">- {{.title}} -</p>
             </div>
         </div>
             {{ end }}
@@ -220,7 +220,7 @@
             </div>
 
             <div>
-              <div class="card-body row">
+              <div class="card-body">
                 <p class="d-block d-lg-none"> {{ .Params.team.content }}</p>
                 {{partial "getTeams.html" . }}
               </div>

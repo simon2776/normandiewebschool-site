@@ -17,9 +17,17 @@ body {
 p {
   font-weight: 400;
   color: var(--grey);
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.4;
   font-family: 'Fira Sans', sans-serif;
+
+  @media(min-width: 768px) {
+    font-size: 1.3rem;
+  }
+
+  @media(min-width: 992px) {
+    font-size: 1.1rem;
+  }
 }
 
 h1,
@@ -409,10 +417,21 @@ textarea.form-control {
 
 .card {
   border: 0;
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
+
 }
 
 .card-header {
   border: 0;
+  padding: 0 !important;
+}
+
+.card-body {
+  border: 0;
+  padding: 1.25rem 0 0 0 !important;
 }
 
 .card-footer {
@@ -812,6 +831,12 @@ blockquote {
 @media (min-width: 992px) {
   .h-lg-80 {
     height: 80% !important;
+  }
+}
+
+h3 {
+  .font-weight-medium {
+    font-family: 'Fugaz One', sans-serif;
   }
 }
 

@@ -299,7 +299,7 @@ CARD COMPONENT
         left: 1.25em;
         content: '';
         height: 3px;
-        width: 20%;
+        width: 2em;
 
         &.color-orange {
           background-color: var(--orange);
@@ -314,7 +314,6 @@ CARD COMPONENT
 
   .card-body {
     p {
-      font-size: 1.1em;
       line-height: 1.5em;
     }
   }
@@ -473,7 +472,7 @@ SPECIFIC
 footer {
   p {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .subfooter {
@@ -514,6 +513,10 @@ footer {
 
 .big-number {
   font-size: 6em;
+  font-family: 'Fugaz One', sans-serif;
+}
+.number-desc {
+  font-size: 1rem;
 }
 
 img.border-blue {
@@ -761,7 +764,7 @@ HERO HEADER
 .cursus-title {
   font-weight: bold;
   color: #bebebe;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .cursus_filieres {
@@ -1396,5 +1399,27 @@ HERO HEADER
 .filieres-video {
   @media(min-width: 768px) {
     width: 560px !important;
+  }
+}
+
+.separator-left {
+  &:after {
+    margin-left: 0 !important;
+    margin-bottom: 0 !important
+  }
+}
+
+.wavy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media(min-width: 576px) {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  @media(min-width: 992px) {
+    justify-content: center;
   }
 }
