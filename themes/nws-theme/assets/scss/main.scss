@@ -119,6 +119,9 @@ END GDISPLAY
 }
 
 .card-header {
+  .fugaz.font-weight-medium { // TODO: CLEAN
+    font-family: 'Fugaz One', sans-serif;
+  }
   .fa-angle-down {
     transform: rotate(180deg);
     transition: 0.3s;
@@ -622,8 +625,12 @@ HERO HEADER
     color: var(--grey);
     display: inline-flex;
     line-height: 2em;
-    margin-top: 8px;
+    margin-top: 7px;
     padding-left: calc(var(--padding) * 2);
+  }
+
+  .font-weight-medium {
+    font-family: 'Fugaz One', sans-serif;
   }
 }
 
@@ -650,7 +657,7 @@ HERO HEADER
 #side-menu {
   position: absolute;
   right: -100%;
-  top: 64px;
+  top: 80px; // TODO: ZINDEX
   width: 65vw;
   height: calc(100vh - 56px);
   background: #ca4b38;
@@ -669,7 +676,7 @@ HERO HEADER
     filter: none;
   }
 
-  .navbar {
+  .navbar, .nav-bar.container {
     height: 100%;
     align-items: flex-start;
 
