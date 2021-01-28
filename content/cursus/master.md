@@ -84,7 +84,7 @@ years:
         analytics"
     - title: Conception digitale
       content: "- Création de site et application web Ergonomie et comportements utilisateurs
-        CMS, vitrine et e-commerce - Hébergement, serveurs Web et cloud Computing"
+        CMS, vitrine et e-commerce <br/> - Hébergement, serveurs Web et cloud Computing"
     - title: Projet certifiant et posture professionnelle
       content: "- Cahier des charges et dossier de production - Gestion de projet
         : allocation de ressources,  planning et budget - Réalisation et gestion d’un
