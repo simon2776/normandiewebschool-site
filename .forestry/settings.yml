@@ -45,13 +45,6 @@ sections:
 - type: heading
   label: Données
 - type: directory
-  path: content/faq
-  label: FAQ
-  create: documents
-  match: "**/*"
-  templates:
-  - faq
-- type: directory
   path: content/testimonials
   label: Testimonials
   create: documents
@@ -60,7 +53,7 @@ sections:
   - testimonial
 - type: directory
   path: content/partners
-  label: Partners
+  label: Partenaires
   create: documents
   match: "*"
   templates:
@@ -73,33 +66,11 @@ sections:
   templates:
   - team
 - type: directory
-  path: content/portfolio
-  label: Portfolio
-  create: none
-  match: "*"
-- type: directory
-  path: content/blog
-  label: Post
-  create: documents
-  match: "*"
-  templates:
-  - post
-- type: directory
-  path: content/about
-  label: About
-  create: none
-  match: "*"
-- type: directory
   path: data
   label: Data
   create: documents
   match: "*"
   new_doc_ext: yml
-- type: directory
-  path: content/contact
-  label: Contact
-  create: none
-  match: "*"
 - type: document
   path: config.toml
   label: Configuration
