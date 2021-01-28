@@ -80,7 +80,9 @@ years:
         photo <br/>- Réalisation Print <br/> - Infographies <br/> - Outils graphiques
         professionnels: Illustrator, inDesign, Lightroom, Photoshop, XD"
     - title: Vidéo et animation
-      content: ''
+      content: "- Ecoconception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
+        en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
+        - Outils vidéo professionnels : Adobe Premiere, After Effects"
     - title: Création de sites web
       content: "- Eco-conception web <br/> - Sites mobiles et desktop <br/> - Conception
         d’interfaces <br/> - Grilles de mise en page <br/> - Systèmes de design et
@@ -96,13 +98,17 @@ years:
         <br/>"
   - button: 2e année
     title: Programme de la deuxième année marketing
-    subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
+    subtitle: 'Suivez ce programme intensif pour devenir un spécialiste du développement
+      web et mobile. '
     etape:
-    - title: Stratégie Marketing
-      content: "- Les étapes de la démarche marketing (analyser planification, suivi),
-        <br/> - Une analyse concurrentielle comparative, <br/> - La rédaction du plan
-        marketing opérationnel, <br/> - La conception de calendriers éditorials <br/>
-        - La production de contenu original conforme au plan marketing."
+    - title: Algorithmique et applications
+      content: "- Architecture des ordinateurs \n- Logique informatique : variables,
+        boucles, conditions, gestion des erreurs\n- Structures de données “bas niveau”,
+        gestion de la mémoire \n- application en C\n- Programmation Orientée Objet
+        : attributs, méthodes, abstractions\n- Résolution de problèmes et complexité
+        des algorithmes : structures de données avancées, manipulation de chaînes,
+        tri, recherche, récursion - application en Python\n- Documentation notebooks
+        Python"
     - title: Référencement naturel et performance web
       content: "- La typologie de contenus et audit lexical, - La réalisation d'un
         prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
