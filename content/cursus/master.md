@@ -39,7 +39,8 @@ skills:
       attentes. '
   - icon: "/images/search.svg"
     title: Ambitieux
-    description: ''
+    description: Ayez des objectifs et gardez toujours en mémoire qu'on peut faire
+      toujours plus et évoluer. Positivité !
   - icon: "/images/search.svg"
     title: Créatif
     description: ''
