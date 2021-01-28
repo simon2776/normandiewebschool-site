@@ -1,4 +1,4 @@
-image: jojomi/hugo
+image: bpack/hugo-npm
 
 stages:
   - build
@@ -7,10 +7,7 @@ stages:
 build:
   stage: build
   script:
-  - curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-  - sudo apt install -y nodejs
   - hugo version
-  - git submodule update --init --recursive
   - npm install
   - hugo -d public_html
   artifacts:
