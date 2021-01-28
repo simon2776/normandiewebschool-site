@@ -9,7 +9,7 @@ description: |2-
   <br/> Nombre d'heures de formation: 455H en face-à-face et 180H d'apprentissage individualisé en FOAD
 banner:
   logo: "/images/logo-dev.png"
-  title: Filière développement
+  title: Filière <span="font-weight-medium">développement</span>
   image: "/images/cursus_bg.png"
   description: 'Le codage, l''intégration et la création de plateforme est votre passion
     ? Alors la spécialité développement est fait pour vous ! À la clé en fin d''année

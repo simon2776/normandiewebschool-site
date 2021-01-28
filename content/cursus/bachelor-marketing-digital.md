@@ -99,7 +99,7 @@ years:
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
   - button: 2e année
-    title: Programme de la deuxième année marketing
+    title: Programme de la deuxième année marketing digital
     subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
     etape:
     - title: Stratégie Marketing
