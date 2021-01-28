@@ -31,7 +31,7 @@ banner:
     href: "/cursus/bachelor-developpement"
 about:
   enable: true
-  url: "https://www.youtube.com/embed/RGglN9NvNs4"
+  url: https://www.youtube.com/embed/RGglN9NvNs4
   description: BAC+1 dans le domaine communication / multimédia / Développement informatique
     / Infographie <br/> BAC+ Expérience professionnelle
 skills:
@@ -197,11 +197,11 @@ testimonials:
   filter:
   - design
 menu:
-  main:
+  desktop:
     name: Bachelor design
     parent: Les cursus
     weight: 4
-  desktop:
+  main:
     name: Bachelor design
     parent: Les cursus
     weight: 4

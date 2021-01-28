@@ -7,7 +7,7 @@ banner:
   title: Candidatez à la NWS
   title-line-twho: ''
   subtitle: Vous avez deux possibilités pour candidater
-  image: "/images/doc_bg.png"
+  image: "/images/banner_entretien.jpg"
 documents:
   enable: true
   title: Télécharger le PDF
@@ -80,10 +80,10 @@ form:
     name: newsletter
 menu:
   main:
-    name: Demande d'inscription
-    weight: 6
+    name: Entretien pédagogique
+    weight: 7
   desktop:
-    name: Demande d'inscription
+    name: Entretien pédagogique
     weight: 4
 
 ---

@@ -55,6 +55,11 @@ fields:
       name: format
       label: Format du document
       default: PDF
+    - name: document
+      type: file
+      config:
+        maxSize: 64
+      label: Document
 - type: field_group
   name: form
   label: form
