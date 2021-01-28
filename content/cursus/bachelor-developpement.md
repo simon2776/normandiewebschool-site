@@ -57,7 +57,9 @@ skills:
       en exploitant votre imaginaire et vos envies.
   - icon: "/images/search.svg"
     title: Ouvert d'esprit
-    description: ''
+    description: 'Être à l''écoute, prendre en compte les avis de chacun, accepter
+      positivement les remarques et critiques pour développer ses compétences et son
+      sens du relationnel. '
   - icon: "/images/search.svg"
     title: Communicant
     description: ''
