@@ -1466,6 +1466,13 @@ HERO HEADER
   left: 0;
 }
 
+.cursus-info  {
+  position: absolute;
+  width: 100%;
+  bottom: 2rem;
+  left: 0;
+}
+
 .home-filieres {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
@@ -1475,4 +1482,18 @@ HERO HEADER
       margin-bottom: 170px;
     }
   }
+}
+
+#cursus {
+  &.clip-bottom-white {
+    &:after {
+      height: 100%;
+      clip-path: polygon(0 60%, 100% 40%, 100% 100%, 0% 100%);
+    }
+  }
+}
+
+#cursus-filieres {
+  background-image: url('/images/assets/background-shapes.svg');
+  background-size: contain;
 }
