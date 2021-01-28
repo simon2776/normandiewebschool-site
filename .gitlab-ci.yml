@@ -1,0 +1,23 @@
+stages:
+  - build
+  - deploy
+build:
+  stage: build
+  image: jojomi/hugo
+  script:
+  - hugo version
+  - git submodule update --init --recursive
+  - hugo -d public_html
+  artifacts:
+    paths:
+    - public_html
+  only:
+  - master
+deploy:
+  stage: deploy
+  script:
+    - apt-get update -qq && apt-get install -y -qq lftp
+    - lftp -u $FTP_LOGIN,$FTP_PASSWORD $FTP_HOST -e "mirror -v --parallel=2 -e -R --ignore-time -p ./public_html/ public_hugo/ ; quit"
+    - echo "deployment complete"
+  dependencies:
+    - build
