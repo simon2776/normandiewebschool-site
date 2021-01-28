@@ -12,7 +12,7 @@ banner:
   image: images/design.jpg
   description: 'Vous souhaitez faire du numérique votre métier, devenir un expert
     dans ce milieu et en apprendre plus sur le leadership, alors le master "Expert
-    Digital" vous ouvre grand ses bras. color: color-orange'
+    Digital" vous ouvre grand ses bras. '
   color: color-orange
 about:
   enable: true
