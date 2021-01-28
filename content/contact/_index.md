@@ -12,9 +12,9 @@ form:
   title: Formulaire de contact
   input:
   - icon: "/images/icn-user.png"
-    placeholder: Votre nom de famille
+    placeholder: Votre nom de famille*
     type: text
-    required: false
+    required: true
     name: last_name
     width: "50"
   - icon: "/images/icn-user.png"
