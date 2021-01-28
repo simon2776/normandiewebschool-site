@@ -3,7 +3,7 @@ content = "Une école jeune et dynamique avec énormément de potentiel, des int
 image = "/images/alexandre-feret.jpeg"
 name = "Alexandre Féret"
 tag = ["cursus", "marketing", "a3"]
-title = "3e année en marketing digital"
+title = "3e année spécialité marketing digital, 2020"
 type = "testimonial"
 
 +++
