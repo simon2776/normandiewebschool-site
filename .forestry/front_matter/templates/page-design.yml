@@ -175,4 +175,6 @@ fields:
     label: filter
 pages:
 - content/cursus/bachelor-design.md
+- content/cursus/bachelor-developpement.md
+- content/cursus/bachelor-marketing-digital.md
 - content/cursus/master.md
