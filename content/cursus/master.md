@@ -12,12 +12,9 @@ banner:
   image: images/design.jpg
   description: "Vous souhaitez faire du numérique votre métier, devenir un expert
     dans ce milieu et en apprendre plus sur le leadership, alors le master \"Expert
-    Digital\" vous ouvre grand ses bras. \n<br/> Pré-requis : \n<br/> Niveau Bac+3/4
-    dans le domaine communication/multimédia/développement informatique/Infographie
-    ou un Bac + expérience professionnelle dans ces domaines.\n<br/> Le BAC+5 Expert
-    marketing Digital est une formation qui se déroule obligatoirement en alternance.
-    Les 18 mois en apprentissage ont un rythme de 1 semaine à l'école et 3 semaines
-    en entreprise. "
+    Digital\" vous ouvre grand ses bras. \n<br/> Le BAC+5 Expert marketing Digital
+    est une formation qui se déroule obligatoirement en alternance. Les 18 mois en
+    apprentissage ont un rythme de 1 semaine à l'école et 3 semaines en entreprise. "
   color: color-orange
 about:
   enable: true

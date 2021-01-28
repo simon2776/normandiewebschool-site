@@ -13,11 +13,13 @@ banner:
   logo: "/images/logo-marketing.png"
   title: Spécialité Marketing digital
   image: images/marketing.jpg
-  description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et   persévérez
-    dans tous les détails du marketing et obtenez en   fin d''année votre titre RNCP
-    de niveau 5 équivalant au BAC  +2. Rythme en alternance: 1 semaines en formation
-    et 3  semaines en alternance en entreprise. <br/> Nombre d''heures  de formations:
-    455H de formations en face-à-face et 180H d''apprentissage individualisé en FOAD.'
+  description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
+    dans tous les détails du marketing, c''est la clé pour obtenir en fin d''année
+    votre titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre
+    au nom d''un d''un chef de projet digital. <br/> Rythme en alternance: 1 semaines
+    en formation et 3  semaines en alternance en entreprise. <br/> Nombre d''heures  de
+    formations: 455H de formations en face-à-face et 180H d''apprentissage individualisé
+    en FOAD.'
   color: color-orange
   buttons:
   - arrow: left
@@ -127,7 +129,9 @@ years:
         <br/> - Création et diffusion d’un email et d’une newsletter, <br/> - Automatisation
         \ des actions de Lead Nurturing / Growth Hacking."
     - title: Posture professionnelle
-      content: ''
+      content: "- Écoute, curiosité, culture & Intelligence collective\L travail en
+        équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
+        - Positionnement professionnel\n<br/> - Responsabilité sociétales"
     - title: E-learning et certifications
       content: Culture et outils numériques <br/> Renforcement orthographique et grammatical
         <br/> Anglais technique <br/>  Certifications  compétences numériques, outils

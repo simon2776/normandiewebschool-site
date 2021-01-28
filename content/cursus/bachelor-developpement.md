@@ -97,55 +97,67 @@ years:
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
   - button: 2e année
-    title: Programme de la deuxième année marketing
+    title: Programme de la deuxième année développement web et mobile.
     subtitle: 'Suivez ce programme intensif pour devenir un spécialiste du développement
       web et mobile. '
     etape:
     - title: Algorithmique et applications
-      content: "- Architecture des ordinateurs \n- Logique informatique : variables,
-        boucles, conditions, gestion des erreurs\n- Structures de données “bas niveau”,
-        gestion de la mémoire \n- application en C\n- Programmation Orientée Objet
-        : attributs, méthodes, abstractions\n- Résolution de problèmes et complexité
-        des algorithmes : structures de données avancées, manipulation de chaînes,
-        tri, recherche, récursion - application en Python\n- Documentation notebooks
-        Python"
-    - title: Référencement naturel et performance web
-      content: "- La typologie de contenus et audit lexical, - La réalisation d'un
-        prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
-        d'un site éco-performants et de  CMS, <br/> - La validation de l'accessibilité
-        et des performances techniques et environnementales, <br/> - La réalisation
-        d'une présentation client. "
-    - title: Analytics, segmentation et reporting
-      content: '- La définition d''''une stratégie réseaux sociaux et advertising,
-        <br/> - L''''écriture et la publication de contenus originaux, <br/> - La
-        diffusion de contenu original sur les réseaux sociaux, <br/> - L''optimisation
-        d''une campagne publicitaires  "réseaux sociaux" <br/> - La certification
-        Google Ads.'
-    - title: Tunnel d'acquisiton
-      content: "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
-        et la visualisation de données, <br/> - La réalisation d'un scoring pour la
-        segmentation <br/> - La mise en place d'un Dashboard dynamique"
-    - title: Marketing social et vidéo
-      content: "- Création d’un tunnel d’acquisition conforme à un plan marketing,
-        <br/> - Déploiement d’une stratégie de content marketing web et réseaux sociaux,
-        <br/> - Création et diffusion d’un email et d’une newsletter, <br/> - Automatisation
-        \ des actions de Lead Nurturing / Growth Hacking."
+      content: "- Architecture des ordinateurs \n<br/> - Logique informatique : variables,
+        boucles, conditions, gestion des erreurs\n<br/> - Structures de données “bas
+        niveau”, gestion de la mémoire \n<br/> - application en C\n<br/> - Programmation
+        Orientée Objet : attributs, méthodes, abstractions\n<br/> - Résolution de
+        problèmes et complexité des algorithmes : structures de données avancées,
+        manipulation de chaînes, tri, recherche, récursion - application en Python\n<br/>
+        - Documentation notebooks Python"
+    - title: Développement FrontEnd
+      content: |-
+        - Protocole HTTP et devtools
+        <br/> - APIs web : DOM, AJAX, Service Worker, Web Storage, IndexedDB
+        <br/> - JavaScript : modèle d’exécution, Clean Code, Git, Tests Unitaires
+        <br/> - Echange et manipulation de données avec REST, JSON et OpenId Connect
+        <br/> - JamStack et CMS headless (Wordpress)
+        <br/> - Progressive Web App : workflow de développement et de déploiement
+    - title: Développement BackEnd
+      content: "- Systèmes et Réseaux : Installation, ligne de commande, SSH, TCP/IP
+        \n<br/> - PHP : modèle  impératif et objet, SPL, Clean Code, Tests Unitaires\n<br/>
+        - Environnement et Intégration Continue : VSCode, docker, Git, Travis-CI  \n<br/>
+        - Bases de données relationnelles : normalisation, sécurité, requêtes SQL,
+        transactions, requêtes préparées, procédures stockées\n<br/> - NoSQL : Key-value
+        (memcached), Document (mongodb), graph (Neo4j)\n<br/> - Traitement sécurisé
+        de formulaires et web services avec PHP et Node.js"
+    - title: Développement Cloud
+      content: |-
+        - Modèles Cloud : IaaS, PaaS, SaaS, CaaS, FaaS
+        <br/> - Identité et Accès Cloud (AIM)
+        <br/> - Développement Serverless Amazon AWS : Lambda, API Gateway, S3, DynamoDB, Serverless Application Model  (test, debugging, déploiement, monitoring)
+        <br/> - Réversibilité et Maîtrise avec OpenShif
+    - title: Frameworks FrontEnd
+      content: |-
+        - Test Driven Development en JavaScript et TypeScript, Jest, Selenium
+        <br/> - Single Page Applications : React.js,  Angular, Vue.js
+        <br/> - Peer programming et Code review
+        <br/> - Développement mobile avec React Native
+        <br/> - Support des navigateurs : Polyfills, Shivs, Shims, transpilation
+    - title: Frameworks BackEnd
+      content: "- Modèle MVC, principes SOLID, Design Patterns\n<br/> - Domain Driven
+        Design, Clean Architecture, Sécurité par Design\n<br/> - Test Driven Development
+        en PHP, Agilité, Refactoring\n<br/> - Frameworks PHP : Symfony, Laravel \n<br/>
+        - Containerisation et déploiement avec docker et Kubernetes"
     - title: Posture professionnelle
-      content: ''
+      content: "- Ecoute, curiosité, culture & Intelligence collective\LTravail en
+        équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
+        - Positionnement professionnel et responsabilité sociétale"
     - title: E-learning et certifications
-      content: Culture et outils numériques <br/> Renforcement orthographique et grammatical
-        <br/> Anglais technique <br/>  Certifications  compétences numériques, outils
-        Adobe
+      content: |-
+        - Culture et outils numériques
+        <br/> - Anglais technique
+        <br/> - Certification Digital et Code
     active: ''
   - button: 3e année
-    title: Spécialité marketing digital, 3e année
-    subtitle: Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
-      dans tous les détails du marketing, c'est la clé pour obtenir en fin d'année
-      votre titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre
-      au nom d'un d'un chef de projet digital.<br/><br/>Apprenez et pratiquez toutes
-      les techniques du marketing pour devenir un pro du numérique. Voici les compétences
-      et connaissances qui vous seront enseignées afin d'obtenir le statut de chef
-      de projet digital.
+    title: Programme troisième année marketing digital
+    subtitle: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
+      un pro du numérique. Voici les compétences et connaissances qui vous seront
+      enseignées afin d''obtenir le statut de chef de projet digital. '
     etape:
     - title: Entrepreneuriat et innovation
       content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
@@ -180,33 +192,32 @@ years:
     active: ''
 profession:
   enable: true
-  title: Les débouchés métiers
+  title: Les débouchés potentiels
   subtitle: Proposez des projets, organisez les dans leur globalité et accompagnez
     les équipes chargées de la production à travers un suivi complet, la création
     d'un plan marketing, des études de marchés, de la veille et des réunions et des
     rencontres.
   item:
-  - title: Community Manager
-    description: Participez à l'élaboration d'une stratégie social media pour produire
-      du contenu sur les réseaux sociaux, entretenir une vraie relation avec une communauté
-      et maintenir la bonne image d'une entreprise.
-  - title: Chef de projet marketing
-    description: Proposez des projets, organisez les dans leur globalité et accompagnez
-      les équipes chargées de la production à travers un suivi complet, la création
-      d'un plan marketing, des études de marchés, de la veille et des réunions et
-      des rencontres.
-  - title: Gestionnaire de contenu site web
-    description: Rédigez le contenu rédactionnel du site web en prenant en compte
-      le référencement et les algorithmes des navigateurs de recherches, sélectionnez
-      des images et des vidéos adaptés au produit / service et analysez les retombées
-      du site Internet.
-  - title: Rédacteur web
-    description: 'Rédigez le contenu d''un site web en prenant en compte la demande
-      et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
-      des navigateurs de recherches. '
-  - title: Web marketer
-    description: Installez une stratégie de communication internet répondants aux
-      attentes et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
+  - title: Développeur informatique
+    description: Appuyez vous sur des langages de programmation pour concevoir un
+      logiciel et ayez pour charge de concevoir ou d'améliorer un programme informatique.
+  - title: 'Développeur '
+    description: 'Réalisez des logiciels, des sites Internet ou des applications à
+      l''aide du langage de programmation. '
+  - title: Intégrateur web
+    description: 'Intégrez des maquettes et des textes sur un site Internet, des logiciels
+      ou des applications en utilisant le langage de programmation.  '
+  - title: Concepteur web
+    description: Conseillez et aidez le client à établir une demande détaillée selon
+      ses envies et ses attentes en communication sur le web.
+  - title: Game designer
+    description: Déterminez le concept, produisez la mécanique du jeu et sa prise
+      en main et rendez le jeu le plus attractif possible.
+  - title: Programmeur technique de jeu vidéo
+    description: 'Développez et adaptez le moteur de jeu vidéo dans son ensemble.
+      Faites en sorte que le jeu puisse fonctionner en synthétisant les comportements,
+      les images et les sons en temps réel, tout en respectant les contraintes du
+      support technique puis veillez à optimiser les performances du jeu. '
 testimonials:
   enable: true
   filter:
