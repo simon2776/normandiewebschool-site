@@ -150,11 +150,12 @@ years:
         digitale  <br/> - Veille systématique et curation de contenu <br/> - Écoresponsabilité
         et modèle économique web <br/> - Pitch projet devant des parties prenantes"
     - title: Etude du besoin
-      content: "- Rédaction d’un brief client <br/> - Identification des acteurs du
-        projet sous forme de Personas <br/> - Définition d’une solution technique
-        (site et médias) répondant aux besoins <br/> - Estimation des coûts de conception,
-        de mise en place et de suivi <br/> - Rédaction d’une proposition technique
-        et commerciale"
+      content: |-
+        - Entretien et rédaction de brief client
+        <br/> - Identification des acteurs du projet sous forme de Personas
+        <br/> - Définition d’une solution technique (UX / UI)
+        <br/> - Estimation des coûts de conception, de mise en place et de suivi
+        <br/> - Rédaction et pitch client d’une proposition technique et commerciale
     - title: Design et Intégration agile
       content: |-
         - Mise en oeuvre d’un processus agile associant le client
