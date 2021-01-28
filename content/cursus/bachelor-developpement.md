@@ -175,10 +175,11 @@ years:
         - Agilité : SCRUM et Extreme Programming
         <br/> - De PHP/Symfony à C#/ASP.NET
         <br/> - Behaviour-Driven Development : spécifications exécutables, tests unitaires et d'acceptation, recettage et validation client
-    - title: Gestion des Risques et Amélioration Continue
-      content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
-        : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
-        - Refonte et optimisation sous contrainte de la Direction Marketing"
+    - title: 'Gestion des Risques : Anticipation, Détection, Remédiation '
+      content: "- Facteurs-risques et cadre juridique \n<br/> - Détection, correction
+        et Post-Mortem d’incidents de sécurité\n<br/> - Modèles d’architecture : VM,
+        conteneurs, cloud, Microservices\n<br/> - Défense en profondeur : infrastructure,
+        code, humain\n<br/> - Refactoring et tests :  applicatifs et de l'infrastructure"
     - title: Événementiel
       content: "- Mise en place et déploiement de la stratégie digitale d’un évènement
         <br/> - Workflow de Lead Nurturing (scoring, marketing automation, data analysis)
