@@ -12,6 +12,10 @@ fields:
 - type: textarea
   name: description
   label: description
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: field_group
   name: banner
   label: Bannière
@@ -121,7 +125,7 @@ fields:
     label: subtitle
 - type: field_group
   name: reasons
-  label: reasons
+  label: Raisons
   fields:
   - type: boolean
     name: enable
