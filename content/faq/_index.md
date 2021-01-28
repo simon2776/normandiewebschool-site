@@ -81,12 +81,12 @@ subjects:
         pour cela que la Normandie Web School tisse des liens très étroits avec les
         entreprises de tous secteurs afin de permettre aux étudiants, dès la première
         année, de travailler sur des projets clients concrets.</p>"
-    - question: Quels sont les principaux métiers du marché du web marketing ?
-      answer: 'Développement : développeur front, développeur back, webmaster, développeur
-        full stack, intégrateur web, … Design graphique : web designer, infographiste,
-        réalisateur vidéo, motion designer, UI designer, intégrateur web, … Marketing
-        digital : community manager, Ux designer, category manager, web marketer,
-        chargé de référencement, content manager, … '
+    - question: Quels sont les principaux métiers du marché du numérique ?
+      answer: "<p>Développement : développeur front, développeur back, webmaster,
+        développeur full stack, intégrateur web, … </p><p>Design graphique : web designer,
+        infographiste, réalisateur vidéo, motion designer, UI designer, intégrateur
+        web, … </p><p>Marketing digital : community manager, Ux designer, category
+        manager, web marketer, chargé de référencement, content manager, …</p>"
   - image: "/images/faq.png"
     subject: Les admissions
     subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
