@@ -11,7 +11,7 @@ description: "Si vous aimez la création, l'image, la video et le web, venez app
   formation: 455H en face-à-face et 180H d'apprentissage individualisé en FOAD"
 banner:
   logo: "/images/logo-design.png"
-  title: Filière design
+  title: Filière <span="font-weight-medium"> Design </span>
   image: images/design.jpg
   description: 'Vous êtes créatif, passionné par le design et vous souhaitez en faire
     votre métier ? Alors la spécialité design graphisme est surement faites pour vous
