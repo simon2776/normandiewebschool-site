@@ -7,7 +7,7 @@ banner:
   title-line-twho: ''
   subtitle: 'Remplissez les champs ci-dessous pour avoir accès à toutes les brochures
     informatives de l''école. '
-  image: "/images/documentation.jpg"
+  image: "/images/banner_documentation.jpg"
 documents:
   enable: true
   title: Téléchargez les documents
