@@ -148,13 +148,13 @@ subjects:
         vous intéresse, vous pouvez contacter le service des Admissions de la Normandie
         Web School.
     - question: Comment financer mes études ?
-      answer: Vous pouvez payer votre formation de manière échelonnée la première
+      answer: "<p>Vous pouvez payer votre formation de manière échelonnée la première
         année de bachelor. Pour ceux qui le souhaitent, les formations de la Normandie
         Web School peuvent être suivies en alternance dans le cadre d’un contrat de
         professionnalisation ou d’apprentissage à partir de la 2ème année. La 3ème
-        année et les mastères sont quant à elles obligatoirement en alternance. Si
+        année et les mastères sont quant à elles obligatoirement en alternance. </p><p>Si
         l’école a beaucoup d’entreprises partenaires et vous aide, c’est quand même
-        à vous de faire les premières démarches afin de trouver votre entreprise d’accueil.
+        à vous de faire les premières démarches afin de trouver votre entreprise d’accueil.</p>"
 menu:
   top:
     name: FAQ
