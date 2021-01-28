@@ -17,8 +17,8 @@ subjects:
     - question: Quelles sont les formations préparant aux métiers du numérique dispensées
         à la Normandie Web School ?
       answer: 'Le Bachelor « Chef de projet digital » est accessible après le bac
-        ou en admissions parallèles après un bac+1 ou bac+2 validé. La 1ère année,
-        les étudiants suivent un tronc commun et abordent 3 domaines : développement
+        ou en admissions parallèles après un bac+1 ou bac+2 validé. <br/> La 1ère
+        année, les étudiants suivent un tronc commun et abordent 3 domaines : développement
         web, design graphique, communication digitale. La 2ème année, ils se spécialisent
         vers différents métiers : Développement : développeur front, développeur back,
         webmaster, développeur full stack, intégrateur web, … Design graphique : web
