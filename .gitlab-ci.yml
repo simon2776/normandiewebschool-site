@@ -21,7 +21,7 @@ deploy:
   stage: deploy
   script:
     - apt-get update -qq && apt-get install -y -qq lftp
-    - lftp -u $FTP_LOGIN,$FTP_PASSWORD $FTP_HOST -e "mirror -v --parallel=2 -e -R --ignore-time -p ./public_html/ public_hugo/ ; quit"
+    - lftp -u $FTP_LOGIN,$FTP_PASSWORD $FTP_HOST -e "mirror -v --parallel=2 -e -R --ignore-time -p ./public_html/ / ; quit"
     - echo "deployment complete"
   dependencies:
     - build
