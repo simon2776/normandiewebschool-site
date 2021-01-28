@@ -94,16 +94,16 @@ subjects:
     questions:
     - question: Puis-je entrer à la Normandie Web School sans bac et quel profil dois-je
         avoir ?
-      answer: 'L’obtention du baccalauréat est requise pour intégrer nos formations.
+      answer: "<p>L’obtention du baccalauréat est requise pour intégrer nos formations.
         Par contre, nous n’appliquons pas de sélection par filière, vous pouvez donc
-        candidater que vous ayez obtenu un bac général, professionnel ou technologique.  Ce
-        qui compte pour nous c’est votre motivation, votre curiosité et votre culture
-        générale. Pour préparer votre entretien d’admission, réfléchissez donc bien
-        à ce qui vous intéresse dans la spécialité que vous avez choisie ! Pourquoi
-        vous souhaitez faire cette formation ? Qu’aimez-vous faire dans la vie ? Quels
-        types de métiers vous tentent ? Autant de questions qui vous permettront de
-        vérifier au cours de l’entretien que la formation à laquelle vous candidatez
-        est bien faite pour vous ! '
+        candidater que vous ayez obtenu un bac général, professionnel ou technologique.
+        </p><p>Ce qui compte pour nous c’est votre motivation, votre curiosité et
+        votre culture générale. Pour préparer votre entretien d’admission, réfléchissez
+        donc bien à ce qui vous intéresse dans la spécialité que vous avez choisie
+        ! </p><p>Pourquoi vous souhaitez faire cette formation ? Qu’aimez-vous faire
+        dans la vie ? Quels types de métiers vous tentent ? Autant de questions qui
+        vous permettront de vérifier au cours de l’entretien que la formation à laquelle
+        vous candidatez est bien faite pour vous !</p>"
     - question: Dois-je passer par le portail Parcoursup pour m'inscrire à la Normandie
         Web School ?
       answer: La Normandie Web School, comme beaucoup d’écoles privées qui forment
