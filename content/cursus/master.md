@@ -16,11 +16,13 @@ banner:
     est une formation qui se déroule obligatoirement en alternance. Les 18 mois en
     apprentissage ont un rythme de 1 semaine à l'école et 3 semaines en entreprise. "
   color: color-orange
+  buttons: []
 about:
   enable: true
   image: "/images/filieres_img1.png"
   description: Le Master se fait obligatoirement en alternance. Le prix est prit en
     charge par l'entreprise employeur.
+  url: ''
 skills:
   enable: true
   title: Profils attendus
