@@ -202,6 +202,9 @@ profession:
     d'un plan marketing, des études de marchés, de la veille et des réunions et des
     rencontres.
   item:
+  - title: Développeur informatique
+    description: Appuyez vous sur des langages de programmation pour concevoir un
+      logiciel et ayez pour charge de concevoir ou d'améliorer un programme informatique.
   - title: 'Développeur '
     description: 'Réalisez des logiciels, des sites Internet ou des applications à
       l''aide du langage de programmation. '
