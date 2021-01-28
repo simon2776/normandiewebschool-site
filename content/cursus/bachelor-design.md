@@ -188,10 +188,11 @@ profession:
     d'un plan marketing, des études de marchés, de la veille et des réunions et des
     rencontres.
   item:
-  - title: Community Manager
-    description: Participez à l'élaboration d'une stratégie social media pour produire
-      du contenu sur les réseaux sociaux, entretenir une vraie relation avec une communauté
-      et maintenir la bonne image d'une entreprise.
+  - title: Chef de projet digital
+    description: 'Proposez des projets, organisez les dans leur globalité et accompagnez
+      les équipes chargées de la production à travers un suivi complet, la création
+      d''un plan marketing, des études de marchés, de la veille et des réunions et
+      des rencontres.  '
   - title: Chef de projet marketing
     description: Proposez des projets, organisez les dans leur globalité et accompagnez
       les équipes chargées de la production à travers un suivi complet, la création
