@@ -139,7 +139,9 @@ years:
         <br/> - Développement mobile avec React Native
         <br/> - Support des navigateurs : Polyfills, Shivs, Shims, transpilation
     - title: Posture professionnelle
-      content: ''
+      content: "- Ecoute, curiosité, culture & Intelligence collective\LTravail en
+        équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
+        - Positionnement professionnel et responsabilité sociétale"
     - title: E-learning et certifications
       content: Culture et outils numériques <br/> Renforcement orthographique et grammatical
         <br/> Anglais technique <br/>  Certifications  compétences numériques, outils
