@@ -97,7 +97,7 @@ years:
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
   - button: 2e année
-    title: Programme de la deuxième année développement web et mobile.
+    title: Programme de la deuxième année développement web et mobile
     subtitle: 'Suivez ce programme intensif pour devenir un spécialiste du développement
       web et mobile. '
     etape:
@@ -154,7 +154,7 @@ years:
         <br/> - Certification Digital et Code
     active: ''
   - button: 3e année
-    title: Programme troisième année marketing digital
+    title: Programme troisième année développement web et mobile
     subtitle: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
       un pro du numérique. Voici les compétences et connaissances qui vous seront
       enseignées afin d''obtenir le statut de chef de projet digital. '

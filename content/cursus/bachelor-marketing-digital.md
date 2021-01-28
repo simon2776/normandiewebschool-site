@@ -138,7 +138,7 @@ years:
         Adobe
     active: ''
   - button: 3e année
-    title: Spécialité marketing digital, 3e année
+    title: Programme troisième année marketing digital
     subtitle: Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
       dans tous les détails du marketing, c'est la clé pour obtenir en fin d'année
       votre titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre
@@ -177,7 +177,9 @@ years:
         d’un projet en mode agence <br/> - Reporting et communication à l’oral et
         à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collectiveTravail
         en équipe, esprit collaboratif <br/> - Responsabilité sociétale"
-    active: ''
+    active: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
+      un pro du numérique. Voici les compétences et connaissances qui vous seront
+      enseignées afin d''obtenir le statut de chef de projet digital. '
 profession:
   enable: true
   title: Les débouchés métiers
