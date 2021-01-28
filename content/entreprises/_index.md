@@ -31,8 +31,8 @@ recrutement:
     title: Les stages
     button: Trouvez votre stagiaire
     content: 'Vous pouvez intégrer nos stagiaires sur différentes périodes de l’année
-      <br/> Année 1: stage de 2 mois à partir du mois de mai <br/> Année 2: stage
-      de 4 mois à partir du mois de mars <br/> Année 3: stage de 6 mois équivalent
+      <br/> Année 1 : stage de 2 mois à partir du mois de mai <br/> Année 2 : stage
+      de 4 mois à partir du mois de mars <br/> Année 3 : stage de 6 mois équivalent
       temps plein à partir de janvier'
     color: color-blue
   - image: "/images/entreprises_2.png"
