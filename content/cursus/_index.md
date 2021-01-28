@@ -60,7 +60,7 @@ cursus:
       de pouvoir poursuivre des cours regroupant du marketing et du digital toujours
       enseigné par des professionnels. Ayez également l'avantage de poursuivre votre
       cursus en alternance pour développer encore plus vos connaissances et vos compétences.
-    from: Master
+    from: Bac +4/5
     color: color-orange
     images:
     - url: "/images/logo-isd.png"
