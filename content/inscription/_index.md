@@ -11,8 +11,7 @@ banner:
 documents:
   enable: true
   title: Télécharger le PDF
-  subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-    erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+  subtitle: Pour vous informer avant de demander un entretien
   icon: "/images/icn-cloud.png"
   name: Présentation générale de la NWS
   format: PDF
