@@ -126,11 +126,11 @@ years:
         <br/> - Captation, montage et intégration sonore
         <br/> - Motion design et animations 2D
         <br/> - Réseaux sociaux vidéo
-    - title: Marketing social et vidéo
-      content: "- Création d’un tunnel d’acquisition conforme à un plan marketing,
-        <br/> - Déploiement d’une stratégie de content marketing web et réseaux sociaux,
-        <br/> - Création et diffusion d’un email et d’une newsletter, <br/> - Automatisation
-        \ des actions de Lead Nurturing / Growth Hacking."
+    - title: Intégration web
+      content: "- Rédaction de contenu & référencement\n<br/> - Découpage de maquette
+        & prototypage\n<br/> - Intégration HTML/CSS/JavaScript  \n<br/> - Optimisation
+        des images\n<br/> - Réalisation de sites éco-performants et de CMS (Wordpress)\n<br/>
+        - Validation de l’accessibilité et des performances techniques et environnementales"
     - title: Posture professionnelle
       content: ''
     - title: E-learning et certifications
