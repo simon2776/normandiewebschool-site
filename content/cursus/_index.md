@@ -5,7 +5,7 @@ description: La Normandie Web School propose un cursus riche et varié pour qui 
   développer ses compétences et ses connaissances en numérique et en digital. Le cursus
   global se divise en quatre branche.
 banner:
-  title: Nos <span class=\"font-weight-medium\">Cursus</span>
+  title: Nos <span class="font-weight-medium">Cursus</span>
   title-line-twho: ''
   subtitle: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
   image: images/cursus-initial.jpg
