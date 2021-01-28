@@ -129,7 +129,9 @@ years:
         <br/> - Création et diffusion d’un email et d’une newsletter, <br/> - Automatisation
         \ des actions de Lead Nurturing / Growth Hacking."
     - title: Posture professionnelle
-      content: ''
+      content: "- Écoute, curiosité, culture & Intelligence collective\L travail en
+        équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
+        - Positionnement professionnel\n<br/> - Responsabilité sociétales"
     - title: E-learning et certifications
       content: Culture et outils numériques <br/> Renforcement orthographique et grammatical
         <br/> Anglais technique <br/>  Certifications  compétences numériques, outils
