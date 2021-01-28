@@ -80,7 +80,9 @@ years:
         photo <br/>- Réalisation Print <br/> - Infographies <br/> - Outils graphiques
         professionnels: Illustrator, inDesign, Lightroom, Photoshop, XD"
     - title: Vidéo et animation
-      content: ''
+      content: "- Ecoconception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
+        en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
+        - Outils vidéo professionnels : Adobe Premiere, After Effects"
     - title: Création de sites web
       content: "- Eco-conception web <br/> - Sites mobiles et desktop <br/> - Conception
         d’interfaces <br/> - Grilles de mise en page <br/> - Systèmes de design et
