@@ -1,18 +1,18 @@
 ---
 type: filiere
 layout: filiere
-title: Master
+title: Mastère
 date: 2019-05-12T12:14:34.000+06:00
-description: 'Vous souhaitez faire du numérique votre métier, devenir un expert dans
-  ce milieu et en apprendre plus sur le leadership, alors le master "Expert Digital"
-  vous ouvre grand ses bras. '
+description: 'Vous souhaitez devenir un expert du numérique et en acquérir les clés
+  management et de la stratégie, alors le mastère  "Expert Digital" est fait pour
+  vous ! '
 banner:
   logo: ''
   title: Master "Expert digital"
   image: images/design.jpg
   description: 'Vous souhaitez faire du numérique votre métier, devenir un expert
     dans ce milieu et en apprendre plus sur le leadership, alors le master "Expert
-    Digital" vous ouvre grand ses bras. color: color-orange'
+    Digital" vous ouvre grand ses bras. '
   color: color-orange
 about:
   enable: true
@@ -22,24 +22,30 @@ about:
 skills:
   enable: true
   title: Profils attendus
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat,
-    sodales ut tempor consequat, fringilla vel libero.
+  subtitle: Quelques compétences humaines et non techniques sont requises.
   item:
   - icon: "/images/creativity.svg"
     title: Innovant
-    description: ''
+    description: Sachez vous démarquer grâce à des idées, des solutions nouvelles
+      et exploitez les pour aller au delà de l'existant.
   - icon: "/images/search.svg"
     title: Ouvert d'esprit
-    description: ''
+    description: Être à l'écoute, prendre en compte les avis de chacun, accepter positivement
+      les remarques et critiques pour développer ses compétences et son sens de relationnel.
   - icon: "/images/search.svg"
     title: Communicant
-    description: ''
+    description: 'Pour mener à bien un projet, il faut communiquer. C''est à dire
+      échanger avec les autres personnes et exprimer ses envies, ses besoins et ses
+      attentes. '
   - icon: "/images/search.svg"
     title: Ambitieux
-    description: ''
+    description: Ayez des objectifs et gardez toujours en mémoire qu'on peut faire
+      toujours plus et évoluer. Positivité !
   - icon: "/images/search.svg"
     title: Créatif
-    description: ''
+    description: Amené à souvent créer du contenu ou des supports de communication,
+      la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes
+      du client.
 years:
   enable: true
   item:
@@ -51,36 +57,39 @@ years:
       expert du digital.
     etape:
     - title: Entrepreneuriat et innovation
-      content: "- Business Modeling et Entrepreneurship Marketing et Innovation -
-        Enjeux et pratiques de la transformation digitale"
+      content: "- Business Modeling et Entrepreneurship Marketing et Innovation <br/>
+        - Enjeux et pratiques de la transformation digitale"
     - title: Management et stratégie
-      content: "- Diagnostic stratégique Management d’équipe - Gestion de projet digital
-        - Méthodes de planification de projet / Méthode agile / Scrum master - Droit
-        de propriété intellectuelle et des nouvelles technologies - Techniques rédactionnelles
-        - Gestion budgétaire et trésorerie"
+      content: "- Diagnostic stratégique Management d’équipe <br/> - Gestion de projet
+        digital <br/> - Méthodes de planification de projet / Méthode agile / Scrum
+        master <br/> - Droit de propriété intellectuelle et des nouvelles technologies
+        <br/> - Techniques rédactionnelles <br/> - Gestion budgétaire et trésorerie"
     - title: Fidélisation et animation de communauté
-      content: "- Réseaux sociaux et Community Management - Veille et e-reputation
-        - Gestion de crise - Stratégie de profils - Social media Blogging - Stratégie
-        Social media et stratégie d’influence - Référencement SEO/SEM"
+      content: "- Réseaux sociaux et Community Management <br/> - Veille et e-reputation
+        <br/> - Gestion de crise <br/> - Stratégie de profils <br/>- Social media
+        Blogging <br/> - Stratégie Social media et stratégie d’influence <br/>- Référencement
+        SEO/SEM"
   - button: 2e année
-    title: Concevez et augmenter vos compétences et connaissances dans le monde du
-      numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un expert
-      du digital.
-    subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
+    title: Le programme en Master
+    subtitle: Concevez et augmenter vos compétences et connaissances dans le monde
+      du numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un
+      expert du digital.
     etape:
     - title: Digital marketing et e-commerce
-      content: "- CRM / Stratégie Marketing - Marketing Digital - Etude de marché
-        - Marketing Mobile - Emailing Newsletter - Google Analytics Affiliation -
-        Data - Diffusion multicanal online et offline Inbound Marketing - Brand content
-        et stratégie de marque Contenu multimédia et transmédia Storytelling - Performance
-        e-commerce et web analytics"
+      content: "- CRM / Stratégie Marketing <br/> - Marketing Digital <br/> - Etude
+        de marché <br/> - Marketing Mobile <br/> - Emailing Newsletter <br/> - Google
+        Analytics Affiliation <br/> - Data <br/> - Diffusion multicanal online et
+        offline Inbound Marketing <br/> - Brand content et stratégie de marque Contenu
+        multimédia et transmédia Storytelling <br/> - Performance e-commerce et web
+        analytics"
     - title: Conception digitale
       content: "- Création de site et application web Ergonomie et comportements utilisateurs
-        CMS, vitrine et e-commerce - Hébergement, serveurs Web et cloud Computing"
+        CMS, vitrine et e-commerce <br/> - Hébergement, serveurs Web et cloud Computing"
     - title: Projet certifiant et posture professionnelle
-      content: "- Cahier des charges et dossier de production - Gestion de projet
-        : allocation de ressources,  planning et budget - Réalisation et gestion d’un
-        projet en mode agence - Reporting et communication à l’oral et à l’écrit"
+      content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
+        : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
+        d’un projet en mode agence <br/> - Reporting et communication à l’oral et
+        à l’écrit"
     active: ''
 profession:
   enable: true
@@ -115,11 +124,11 @@ testimonials:
   filter:
   - design
 menu:
-  main:
+  desktop:
     name: Master Expert digital
     parent: Les cursus
     weight: 5
-  desktop:
+  main:
     name: Master Expert digital
     parent: Les cursus
     weight: 5

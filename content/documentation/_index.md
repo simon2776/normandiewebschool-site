@@ -5,8 +5,8 @@ description: Renseignez vos coordonnées et accédez à toute la documentation s
 banner:
   title: Accédez à la documentation
   title-line-twho: ''
-  subtitle: 'Remplissez les champs ci-dessous pour avoir accès à toutes les brochures
-    informatives de l''école. '
+  subtitle: 'Remplissez les champs ci-dessous pour avoir accès à notre plaquette et
+    les fiches programmes de l''école. '
   image: "/images/banner_documentation.jpg"
 documents:
   enable: true
@@ -17,27 +17,35 @@ documents:
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
+    document: ''
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
+    document: ''
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
+    document: ''
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
+    document: ''
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
+    document: ''
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
+    document: ''
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
+    document: ''
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
+    document: ''
 form:
   title: Vos coordonnées
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat,

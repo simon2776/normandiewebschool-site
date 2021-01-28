@@ -1,8 +1,7 @@
 ---
-title: L'Agenda de l'école
+title: L'agenda de l'école
 type: page
-description: Retrouvez tous nos événements, nos journées portes ouvertes et bien plus
-  encore.
+description: Retrouvez tous nos événements et nos Journées Portes Ouvertes
 banner:
   title: L'Agenda de la NWS
   title-line-twho: ''
@@ -12,14 +11,6 @@ banner:
 event:
   enable: true
   month:
-  - label: Décembre 2020
-    item:
-    - date: 01/05/21
-      name: Salon des jeunes entrepreneur de Rouen et ...
-      localisation: Parc des expositions de Rouen (76)
-      start: 9h
-      end: 18h45
-      href: https://google.com
   - label: Janvier 2021
     item:
     - date: 01/05/21
@@ -65,6 +56,8 @@ event:
       start: 9h
       end: 18h45
       href: https://google.com
+  - label: Juin 2021
+    item: []
 menu:
   top:
     name: Agenda

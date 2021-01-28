@@ -58,5 +58,9 @@ fields:
       - type: textarea
         name: answer
         label: answer
+        config:
+          wysiwyg: true
+          schema:
+            format: html-blocks
 pages:
 - content/faq/_index.md

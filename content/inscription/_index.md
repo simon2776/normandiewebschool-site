@@ -1,28 +1,29 @@
 ---
 title: Candidatez à la NWS
 date: 2019-05-12T12:14:34.000+06:00
-description: Vous avez deux possibilités pour candidater
+description: 'Pour candidater : demander un entretien pédagogique. Vous serez invité
+  à l''une de nos sessions d''information.'
 global: ''
 banner:
   title: Candidatez à la NWS
   title-line-twho: ''
-  subtitle: Vous avez deux possibilités pour candidater
+  subtitle: Vous aurez un entretien avec un membre de l'équipe pédagogique. Venez
+    avec votre CV.
   image: "/images/banner_entretien.jpg"
 documents:
   enable: true
   title: Télécharger le PDF
-  subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-    erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+  subtitle: Pour vous informer avant de demander un entretien
   icon: "/images/icn-cloud.png"
   name: Présentation générale de la NWS
   format: PDF
 form:
   title: Candidatez sur le site
-  subtitle: Après avoir reçu votre dossier de candidature, un membre de l’administration
-    de l’école va vous contacter pour fixer un jour et une heure pour un entretien
-    sur place. Un test rapide sur le numérique vous sera proposé puis une rencontre
-    avec un membre de l’équipe pédagogique et notre directeur vous ferons passer un
-    entretien. Une réponse vous sera ensuite donnée très rapidement.
+  subtitle: "Après avoir rempli et envoyé votre dossier de candidature, un membre
+    de l’administration de l’école vous contactera pour fixer une date d'entretien.
+    \nLors de votre rendez-vous, vous réaliserez un test de culture numérique et un
+    entretien avec un membre de l'équipe pédagogique. \nUne réponse vous sera ensuite
+    donnée dans les plus brefs délais."
   input:
   - icon: "/images/icn-user.png"
     placeholder: Votre nom de famille

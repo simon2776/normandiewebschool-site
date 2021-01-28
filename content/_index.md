@@ -36,7 +36,7 @@ filieres:
     color: color-orange
     logo: images/logo-marketing.png
     href: "/cursus/bachelor-marketing-digital/"
-  - title: Filière Design
+  - title: Filière Web Design & Communication visuelle
     content: Le design graphique, un monde au programme riche et varié afin de devenir
       un pro de la création de sites, de visuels, de supports... Exprimez votre créativité
       et augmentez vos compétences grâce aux professionnels de cet univers et au logiciels
@@ -47,9 +47,9 @@ filieres:
     logo: images/logo-design.png
     href: "/cursus/bachelor-design/"
   - title: Filière Développement
-    content: "Développez des supports numérique à l'aide de logiciels techniques et
-      accompagnez de professionnels. \nDevenez des experts du développement en exprimant
-      votre savoir faire et vos compétences techniques."
+    content: |-
+      Passioné par le monde technique vous allez développer des logiciels , des sites web et des applications.
+      Devenez des experts du code en développant votre savoir-faire et vos compétences techniques.
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-yellow
@@ -82,13 +82,13 @@ reasons:
     content: Bénéficier d’un apprentissage pratique sur des  projets qui ont du sens
       en partenariat avec des entreprises.
     alt: Projet
-  - logo: images/reasons/student.svg
-    content: Être et évoluer au cœur de l’écosystème numérique normand.
-    alt: écosystème numérique
   - logo: images/reasons/connect.svg
     content: Développer ses compétences grâce à un cursus complet et une mise en pratique
       en alternance et en stage.
     alt: Alternance et stage
+  - logo: images/reasons/student.svg
+    content: Être et évoluer au cœur de l’écosystème numérique normand.
+    alt: écosystème numérique
   - logo: images/reasons/diploma.svg
     content: 'Un diplôme titre RNCP reconnu par l''État. '
     alt: titre RNCP
