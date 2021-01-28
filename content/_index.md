@@ -1,9 +1,10 @@
 ---
 title: L'école des métiers du numérique
 date: 2019-05-12T12:14:34.000+06:00
-description: La NWS est une École d’Enseignement Supérieur Technique Privée qui forme
-  en 3 ou 5 ans aux métiers du numérique (développement web, du web design et du marketing
-  digital...) et amène vers un titre d’état (RNCP).
+description: La Normandie Web School est une École d’Enseignement Supérieur Technique
+  Privée qui forme en 3 ou 5 ans aux métiers du numérique (développement web, web
+  design/communication visuelle et marketing digital) et amène vers un titre reconnu
+  par l'état (RNCP).
 banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: Bienvenue à la <br/> NORMANDIE WEB SCHOOL
