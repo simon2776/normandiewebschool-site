@@ -60,10 +60,10 @@ years:
       content: "- Business Modeling et Entrepreneurship Marketing et Innovation <br/>
         - Enjeux et pratiques de la transformation digitale"
     - title: Management et stratégie
-      content: "- Diagnostic stratégique Management d’équipe - Gestion de projet digital
-        - Méthodes de planification de projet / Méthode agile / Scrum master - Droit
-        de propriété intellectuelle et des nouvelles technologies - Techniques rédactionnelles
-        - Gestion budgétaire et trésorerie"
+      content: "- Diagnostic stratégique Management d’équipe <br/> - Gestion de projet
+        digital <br/> - Méthodes de planification de projet / Méthode agile / Scrum
+        master <br/> - Droit de propriété intellectuelle et des nouvelles technologies
+        <br/> - Techniques rédactionnelles <br/> - Gestion budgétaire et trésorerie"
     - title: Fidélisation et animation de communauté
       content: "- Réseaux sociaux et Community Management - Veille et e-reputation
         - Gestion de crise - Stratégie de profils - Social media Blogging - Stratégie
