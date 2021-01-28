@@ -17,13 +17,13 @@ about:
     pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
     co-construction d’événements. Un comité de perfectionnement a pour objectif chaque
     année d’adapter les programmes au plus proche de la réalité des besoins en compétences.
-    Nous travaillons en étroite collaboration avec les entreprises, tout secteur confondu,
-    de la TPE à la l'entreprise internationale mais aussi avec des associations, des
-    collectivités locales, des administrations publiques, des syndicats professionnels…
-    Le numérique touche tous les secteurs et tous les services et est encore en devenir
-    pour certaines organisations dont la transition digitale est en cours. L’école
-    est un partenaire, voire un accélérateur de cette transition pour beaucoup de
-    nos partenaires. Alors pourquoi pas travailler avec nous ?
+    <br/> Nous travaillons en étroite collaboration avec les entreprises, tout secteur
+    confondu, de la TPE à la l'entreprise internationale mais aussi avec des associations,
+    des collectivités locales, des administrations publiques, des syndicats professionnels…
+    <br/>Le numérique touche tous les secteurs et tous les services et est encore
+    en devenir pour certaines organisations dont la transition digitale est en cours.
+    L’école est un partenaire, voire un accélérateur de cette transition pour beaucoup
+    de nos partenaires. Alors pourquoi pas travailler avec nous ?
 recrutement:
   enable: true
   item:
