@@ -82,13 +82,13 @@ reasons:
     content: Bénéficier d’un apprentissage pratique sur des  projets qui ont du sens
       en partenariat avec des entreprises.
     alt: Projet
-  - logo: images/reasons/student.svg
-    content: Être et évoluer au cœur de l’écosystème numérique normand.
-    alt: écosystème numérique
   - logo: images/reasons/connect.svg
     content: Développer ses compétences grâce à un cursus complet et une mise en pratique
       en alternance et en stage.
     alt: Alternance et stage
+  - logo: images/reasons/student.svg
+    content: Être et évoluer au cœur de l’écosystème numérique normand.
+    alt: écosystème numérique
   - logo: images/reasons/diploma.svg
     content: 'Un diplôme titre RNCP reconnu par l''État. '
     alt: titre RNCP
