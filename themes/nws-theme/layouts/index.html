@@ -285,7 +285,7 @@
           <div id="testimonialsCarousel" class="carousel slide pb-5 mt-5" data-ride="carousel" data-interval="20000">
             <ol class="carousel-indicators">
               {{ range $index, $value := $testimonials }}
-              <li data-target="#testimonalsCarouselIndicator" data-slide-to="{{$index}}" class="{{ if (eq $index 0 )}}active{{end}}"></li>
+              <li data-target="#testimonialsCarousel" data-slide-to="{{$index}}" class="{{ if (eq $index 0 )}}active{{end}}"></li>
               {{end}}
             </ol>
 
