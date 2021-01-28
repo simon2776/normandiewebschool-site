@@ -120,10 +120,12 @@ years:
         - Identité visuelle, charte graphique
         <br/> - Ergonomie et UX : Arborescence, accessibilité, style guide, zoning, wireframe
         <br/> - Design : application responsive de la charte graphique et du style guide, UI, maquettage, typographie / pictos et boutons
-    - title: Tunnel d'acquisiton
-      content: "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
-        et la visualisation de données, <br/> - La réalisation d'un scoring pour la
-        segmentation <br/> - La mise en place d'un Dashboard dynamique"
+    - title: Production vidéo & community management
+      content: |-
+        - Storyboards
+        <br/> - Captation, montage et intégration sonore
+        <br/> - Motion design et animations 2D
+        <br/> - Réseaux sociaux vidéo
     - title: Marketing social et vidéo
       content: "- Création d’un tunnel d’acquisition conforme à un plan marketing,
         <br/> - Déploiement d’une stratégie de content marketing web et réseaux sociaux,
