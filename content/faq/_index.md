@@ -32,14 +32,14 @@ subjects:
         7) : Expert design et digital marketing, Intégrateur-DevSecOps.</p>"
     - question: La Normandie Web School délivre-t-il des diplômes reconnus par l’Etat
         ?
-      answer: 'Tous les titres délivrés par la Normandie Web School sont inscrits
+      answer: "<p>Tous les titres délivrés par la Normandie Web School sont inscrits
         au Répertoire national de la certification professionnelle (RNCP), leurs niveaux
-        sont certifiés par l’État. Pour les étudiants, comme pour les professionnels
-        qui seront amenés à les embaucher, c’est un gage de qualité. Cette certification
-        par l’État repose en effet sur deux principes fondamentaux : la cohérence
-        des compétences acquises par l’étudiant avec les réalités du secteur professionnel
-        (référentiel de compétences) et la réalité de la capacité de l’école à former
-        des étudiants qui trouvent du travail après leur formation.'
+        sont certifiés par l’État. </p><p>Pour les étudiants, comme pour les professionnels
+        qui seront amenés à les embaucher, c’est un gage de qualité. </p><p>Cette
+        certification par l’État repose en effet sur deux principes fondamentaux :
+        la cohérence des compétences acquises par l’étudiant avec les réalités du
+        secteur professionnel (référentiel de compétences) et une obligation de résultats,
+        c'est à dire le placement de nos apprenants.</p>"
     - question: Organisez-vous des Journées Portes Ouvertes ?
       answer: La Normandie Web School, comme beaucoup d’écoles privées qui forment
         aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.  Nous
