@@ -80,10 +80,10 @@ form:
     name: newsletter
 menu:
   main:
-    name: Demande d'inscription
-    weight: 6
+    name: Entretien pédagogique
+    weight: 7
   desktop:
-    name: Demande d'inscription
+    name: Entretien pédagogique
     weight: 4
 
 ---

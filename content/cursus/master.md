@@ -115,11 +115,11 @@ testimonials:
   filter:
   - design
 menu:
-  desktop:
+  main:
     name: Master Expert digital
     parent: Les cursus
     weight: 5
-  main:
+  desktop:
     name: Master Expert digital
     parent: Les cursus
     weight: 5

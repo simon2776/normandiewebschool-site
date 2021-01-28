@@ -73,6 +73,9 @@ form:
     required: false
     name: newsletter
 menu:
+  main:
+    name: Documentation
+    weight: 6
   top:
     name: Documentation
     URL: documentation
