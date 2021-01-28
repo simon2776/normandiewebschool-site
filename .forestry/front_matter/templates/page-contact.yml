@@ -29,8 +29,18 @@ fields:
     label: image
 - type: field_group
   name: form
-  label: form
+  label: Formulaire & Informations
   fields:
+  - name: button_text
+    type: text
+    config:
+      required: false
+    label: Texte du bouton (formulaire)
+  - name: inscription_button_text
+    type: text
+    config:
+      required: false
+    label: Texte du bouton (inscription)
   - type: boolean
     name: enable
     label: enable
@@ -72,11 +82,6 @@ fields:
     - type: text
       name: name
       label: name
-  - name: button_text
-    type: text
-    config:
-      required: false
-    label: Texte du bouton
   - type: field_group_list
     name: item
     label: Informations d'ouverture
