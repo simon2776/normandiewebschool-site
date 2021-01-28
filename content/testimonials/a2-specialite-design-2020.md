@@ -3,7 +3,7 @@ content = "Cette deuxième année en design est pour moi assez compliqué à cau
 image = "/images/maxime-le-corre.jpg"
 name = "Maxime Le Corre"
 tag = ["cursus", "design", "a2"]
-title = "A2 spécialité design, 2020"
+title = "2ème année spécialité design, 2020"
 type = "testimonial"
 
 +++
