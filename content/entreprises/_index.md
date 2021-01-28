@@ -8,7 +8,7 @@ banner:
   title: Les entreprises
   title-line-twho: ''
   subtitle: La Normandie Web School proche de ses collaborateurs et des intervenants.
-  image: "/images/cursus_bg.png"
+  image: "/images/banner_entreprise.jpg"
 about:
   enable: true
   title: Introduction
