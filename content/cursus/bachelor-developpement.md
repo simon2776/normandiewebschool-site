@@ -131,11 +131,13 @@ years:
         <br/> - Identité et Accès Cloud (AIM)
         <br/> - Développement Serverless Amazon AWS : Lambda, API Gateway, S3, DynamoDB, Serverless Application Model  (test, debugging, déploiement, monitoring)
         <br/> - Réversibilité et Maîtrise avec OpenShif
-    - title: Marketing social et vidéo
-      content: "- Création d’un tunnel d’acquisition conforme à un plan marketing,
-        <br/> - Déploiement d’une stratégie de content marketing web et réseaux sociaux,
-        <br/> - Création et diffusion d’un email et d’une newsletter, <br/> - Automatisation
-        \ des actions de Lead Nurturing / Growth Hacking."
+    - title: Frameworks FrontEnd
+      content: |-
+        - Test Driven Development en JavaScript et TypeScript, Jest, Selenium
+        <br/> - Single Page Applications : React.js,  Angular, Vue.js
+        <br/> - Peer programming et Code review
+        <br/> - Développement mobile avec React Native
+        <br/> - Support des navigateurs : Polyfills, Shivs, Shims, transpilation
     - title: Posture professionnelle
       content: ''
     - title: E-learning et certifications
