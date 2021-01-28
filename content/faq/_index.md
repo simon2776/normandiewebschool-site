@@ -16,20 +16,20 @@ subjects:
     questions:
     - question: Quelles sont les formations préparant aux métiers du numérique dispensées
         à la Normandie Web School ?
-      answer: 'Le Bachelor « Chef de projet digital » est accessible après le bac
-        ou en admissions parallèles après un bac+1 ou bac+2 validé. <br/> La 1ère
-        année, les étudiants suivent un tronc commun et abordent 3 domaines : développement
-        web, design graphique, communication digitale.  <br/>La 2ème année, ils se
-        spécialisent vers différents métiers : Développement : développeur front,
-        développeur back, webmaster, développeur full stack, intégrateur web, … Design
-        graphique : web designer, infographiste, réalisateur vidéo, motion designer,
-        UI designer, intégrateur web, … Marketing digital : community manager, Ux
-        designer, category manager, web marketer, chargé de référencement, content
-        manager, …  <br/>La 3ème année, ils sont toujours en spécialisation mais les
-        projets d’année sont montés en commun et en incluant les compétences du Chef
-        de projet, Product Owner ou Scrum Master.  <br/>La 4ème année, ils peuvent
-        choisir de poursuivre en mastère (24 mois) (titre RNCP niveau 7) : Expert
-        design et digital marketing, Intégrateur-DevSecOps.'
+      answer: "<p>Le Bachelor « Chef de projet digital » est accessible après le bac
+        ou en admissions parallèles après un bac+1 ou bac+2 validé. </p><p><br> La
+        1ère année, les étudiants suivent un tronc commun et abordent 3 domaines :
+        développement web, design graphique, communication digitale. <br></p><p>La
+        2ème année, ils se spécialisent vers différents métiers : Développement :
+        développeur front, développeur back, webmaster, développeur full stack, intégrateur
+        web, … Design graphique : web designer, infographiste, réalisateur vidéo,
+        motion designer, UI designer, intégrateur web, … Marketing digital : community
+        manager, Ux designer, category manager, web marketer, chargé de référencement,
+        content manager, … <br></p><p>La 3ème année, ils sont toujours en spécialisation
+        mais les projets d’année sont montés en commun et en incluant les compétences
+        du Chef de projet, Product Owner ou Scrum Master. <br></p><p>La 4ème année,
+        ils peuvent choisir de poursuivre en mastère (24 mois) (titre RNCP niveau
+        7) : Expert design et digital marketing, Intégrateur-DevSecOps.</p>"
     - question: La Normandie Web School délivre-t-il des diplômes reconnus par l’Etat
         ?
       answer: 'Tous les titres délivrés par la Normandie Web School sont inscrits
