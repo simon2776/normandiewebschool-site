@@ -9,6 +9,7 @@ build:
   script:
   - hugo version
   - git submodule update --init --recursive
+  - npm install
   - hugo -d public_html
   artifacts:
     paths:
