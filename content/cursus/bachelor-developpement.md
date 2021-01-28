@@ -17,7 +17,7 @@ banner:
     de niveau 5 équivalant au BAC  +2. Rythme en alternance: 1 semaines en formation
     et 3  semaines en alternance en entreprise. <br/> Nombre d''heures  de formations:
     455H de formations en face-à-face et 180H d''apprentissage individualisé en FOAD.'
-  color: color-orange
+  color: color-yellow
   buttons:
   - arrow: left
     label: Design
@@ -85,7 +85,7 @@ years:
         <br/> - Audit lexical, search console et analytics <br/> - Analyse d'éco performance
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
-  - button: 2e année marketing
+  - button: 2e année
     title: Programme de la deuxième année marketing
     subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
     etape:

@@ -13,8 +13,8 @@
                 <div class="card filiere-intro">
                     <img src="{{.logo}}" alt="" class="logo w-20 w-lg-50 m-auto"/>
 
-                    <div class="card-header {{.color}} title" >
-                        <h3 class="m-auto m-lg-0">{{ .title | safeHTML }}</h3>
+                    <div class="card-header title" >
+                        <h3 class="mb-0 title-medium {{.color}} separator-left">{{ .title | safeHTML }}</h3>
                     </div>
 
                     <div class="card-body description">
@@ -27,16 +27,16 @@
     </div>
     <div class="row justify-content-between justify-content-lg-center p-3 btn-filieres">
         {{ range  $index, $value := .buttons }}
-                <a href="{{.href}}" class="col-5 col-lg-2 card pt-4 pb-4">
+                <a href="{{.href}}" class="col-5 col-lg-3 card py-4 px-1 switch-btn">
                     <div>
                         <div class="arrow {{.arrow}} {{.color}}"></div>
-                        <p class="font-weight-bold {{.justify}} {{.color}} m-0">
+                        <p class="font-weight-bold {{.justify}} {{.color}} m-0 text-lg-center">
                             {{.label}}
                         </p>
                     </div>
                 </a>
                 {{ if $index | eq 0 }}
-                <div style="width: 30px"></div>
+                <div style="width: 30px" class="d-none d-md-block"></div>
                 {{ end }}
         {{ end }}
     </div>
@@ -49,15 +49,14 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <iframe width="560" height="315" src="{{ .url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="ytb-video my-4 w-100 filieres-video"></iframe>
-            <p class="font-weight-medium text-center px-3">
+            <p class="font-weight-medium text-center px-3 my-3">
                 {{ .description | safeHTML }}
               </p>
           </div>
         </div>
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
-              <a href="/documentation" class="btn font-weight-medium color-blue mt-4 mb-3 pt-3 pb-3 pl-4 pr-4">Télécharger de la <br/>
-                documentation</a>
+              <a href="/documentation" class="btn font-weight-medium color-blue mt-4 mb-3 pt-3 pb-3 pl-4 pr-4">Télécharger de la documentation</a>
             </div>
         </div>
     </div>
@@ -68,15 +67,15 @@
 
 {{ if .Params.skills.enable }}
 {{ with .Params.skills }}
-<section class="bg-lightgrey pt-4 clip-bottom-white skills">
+<section class="bg-lightgrey pt-4 clip-bottom-white skills" id="skills">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div
-                        class="card-header color-blue with-separator"
+                        class="card-header"
                     >
-                        <h3 class="mb-0">
+                        <h3 class="mb-0 color-blue title-medium separator-left">
                             {{.title}}
                         </h3>
                     </div>
@@ -140,12 +139,12 @@
                     <div class="carousel-inner mt-5">
                         {{ range $index, $value := .item }}
                         <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">
-                            <div class="color-blue with-separator with-separator-lg-center">
-                                <h3 class="mb-0 text-lg-center">
+                            <div>
+                                <h3 class="mb-0 title-medium color-blue text-lg-center">
                                     {{.title}}
                                 </h3>
                             </div>
-                            <p class="mt-4 text-lg-center">{{.subtitle | safeHTML }}</p>
+                            <p class="my-4 text-lg-center">{{.subtitle | safeHTML }}</p>
 
                             <div class="row">
                                 {{ range $index, $value := .etape }}
@@ -170,7 +169,7 @@
                         {{ end }}
                         <div class="row mt-5 mb-4 d-block d-lg-none">
                             <div class="col-12 d-flex justify-content-center">
-                                <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher toutes les unités d'enseignement</a>
+                                <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4 btn-ue">Afficher toutes les unités d'enseignement</a>
                             </div>
                         </div>
                     </div>
@@ -184,13 +183,13 @@
 
 {{ if .Params.profession.enable }}
 {{ with .Params.profession }}
-<section class="clip-bottom-lightgrey skills">
+<section class="clip-bottom-lightgrey" id="profession">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header color-blue with-separator">
-                        <h3 class="mb-0">
+                    <div class="card-header">
+                        <h3 class="mb-0 color-blue title-medium separator-left">
                             {{.title}}
                         </h3>
                     </div>
@@ -203,7 +202,7 @@
                             <div class="row">
                                 {{ range .item }}
                                     <div class="col-12 col-lg-4 flex-column align-items-center profession mt-5 px-lg-5">
-                                        <h3 class="text-center">{{.title}}</h3>
+                                        <h3 class="text-center mb-3 color-blue">{{.title}}</h3>
                                         <p class="text-center m-auto">{{.description}}</p>
                                     </div>
                                 {{ end }}
