@@ -1459,6 +1459,18 @@ HERO HEADER
     margin-left: 0 !important;
     margin-bottom: 0 !important
   }
+
+  &.separator-lg-block {
+    &:after {
+      display: none;
+    }
+
+    @media(min-width: 992px) {
+      &:after {
+        display: block;
+      }
+    }
+  }
 }
 
 .wavy-container {
@@ -1518,6 +1530,28 @@ HERO HEADER
       &:after {
         height: 15%;
         clip-path: polygon(0 100%, 100% 0%, 100% 100%, 0% 100%);
+    }
+  }
+
+  .carousel {
+    .carousel-control-prev {
+      @media(min-width: 992px) {
+        span {
+          position: absolute;
+          top: calc(50% + 55px);
+          left: -100%;
+        }
+      }
+    }
+
+    .carousel-control-next {
+      @media(min-width: 992px) {
+        span {
+          position: absolute;
+          top: calc(50% + 55px);
+          right: -100%;
+        }
+      }
     }
   }
 }

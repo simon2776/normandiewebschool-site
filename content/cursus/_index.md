@@ -80,13 +80,27 @@ filieres:
     arrowImage: "/images/arrow-down.svg"
     link: "#"
   - image: true
-    bulle: "/images/marketing.svg"
-    title: Spécialisation
-    content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
-      Vous avez le choix entre développement web, design graphique ou marketing digital.
+    specilisation: 
+      - bulle: "/images/marketing.svg"
+        title: Spécialisation Marketing
+        color: color-orange
+        content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
+          Vous avez le choix entre développement web, design graphique ou marketing digital.
+        link: "#"
+      - bulle: "/images/logo-dev.png"
+        title: Spécialisation Développement
+        color: color-yellow
+        content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
+          Vous avez le choix entre développement web, design graphique ou marketing digital.
+        link: "#"
+      - bulle: "/images/logo-design.png"
+        title: Spécialisation Design
+        color: color-blue
+        content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
+          Vous avez le choix entre développement web, design graphique ou marketing digital.
+        link: "#"
     arrow: true
     arrowImage: "/images/arrow-down.svg"
-    link: "#"
   - image: false
     bulle: 4e & 5e année
     title: Master "Expert Digital"
