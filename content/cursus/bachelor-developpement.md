@@ -211,10 +211,9 @@ profession:
   - title: Concepteur web
     description: Conseillez et aidez le client à établir une demande détaillée selon
       ses envies et ses attentes en communication sur le web.
-  - title: Rédacteur web
-    description: 'Rédigez le contenu d''un site web en prenant en compte la demande
-      et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
-      des navigateurs de recherches. '
+  - title: Game designer
+    description: Déterminez le concept, produisez la mécanique du jeu et sa prise
+      en main et rendez le jeu le plus attractif possible.
   - title: Web marketer
     description: Installez une stratégie de communication internet répondants aux
       attentes et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
