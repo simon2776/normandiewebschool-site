@@ -115,12 +115,11 @@ years:
         - Création de StoryMaps
         <br/> - Éléments de symbologie SVG avec Illustrator
         <br/> - Cartes dynamiques en JavaScript
-    - title: Analytics, segmentation et reporting
-      content: '- La définition d''''une stratégie réseaux sociaux et advertising,
-        <br/> - L''''écriture et la publication de contenus originaux, <br/> - La
-        diffusion de contenu original sur les réseaux sociaux, <br/> - L''optimisation
-        d''une campagne publicitaires  "réseaux sociaux" <br/> - La certification
-        Google Ads.'
+    - title: Book numérique
+      content: |
+        - Identité visuelle, charte graphique
+        <br/> - Ergonomie et UX : Arborescence, accessibilité, style guide, zoning, wireframe
+        <br/> - Design : application responsive de la charte graphique et du style guide, UI, maquettage, typographie / pictos et boutons
     - title: Tunnel d'acquisiton
       content: "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
         et la visualisation de données, <br/> - La réalisation d'un scoring pour la
