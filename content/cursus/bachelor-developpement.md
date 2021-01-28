@@ -196,7 +196,7 @@ years:
     active: ''
 profession:
   enable: true
-  title: Les débouchés métiers
+  title: Les débouchés potentiels
   subtitle: Proposez des projets, organisez les dans leur globalité et accompagnez
     les équipes chargées de la production à travers un suivi complet, la création
     d'un plan marketing, des études de marchés, de la veille et des réunions et des
@@ -205,11 +205,9 @@ profession:
   - title: 'Développeur '
     description: 'Réalisez des logiciels, des sites Internet ou des applications à
       l''aide du langage de programmation. '
-  - title: Chef de projet marketing
-    description: Proposez des projets, organisez les dans leur globalité et accompagnez
-      les équipes chargées de la production à travers un suivi complet, la création
-      d'un plan marketing, des études de marchés, de la veille et des réunions et
-      des rencontres.
+  - title: Intégrateur web
+    description: 'Intégrez des maquettes et des textes sur un site Internet, des logiciels
+      ou des applications en utilisant le langage de programmation.  '
   - title: Gestionnaire de contenu site web
     description: Rédigez le contenu rédactionnel du site web en prenant en compte
       le référencement et les algorithmes des navigateurs de recherches, sélectionnez
