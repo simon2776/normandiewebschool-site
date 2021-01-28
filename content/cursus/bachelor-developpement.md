@@ -53,7 +53,8 @@ skills:
       qui ne pourront que vous être bénéfique. '
   - icon: "/images/search.svg"
     title: Imaginatif
-    description: ''
+    description: Trouver des idées innovantes, encore jamais vues ou toutes récentes
+      en exploitant votre imaginaire et vos envies.
   - icon: "/images/search.svg"
     title: Ouvert d'esprit
     description: ''
