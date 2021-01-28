@@ -18,9 +18,9 @@ form:
     name: last_name
     width: "50"
   - icon: "/images/icn-user.png"
-    placeholder: Votre prénom
+    placeholder: Votre prénom*
     type: text
-    required: false
+    required: true
     name: first_name
     width: "50"
   - icon: "/images/icn-mail.png"
