@@ -165,16 +165,19 @@ years:
       content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
         : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
         - Mise-à-jour qualitative de contenus sous contrainte de la Direction Artistique"
-    - title: Événementiel
-      content: "- Mise en place et déploiement de la stratégie digitale d’un évènement
-        <br/> - Workflow de Lead Nurturing (scoring, marketing automation, data analysis)
-        \ <br/> - Web TV : création et diffusion de contenu et live vidéo"
-    - title: Projet certifiant
-      content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
-        : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
-        d’un projet en mode agence <br/> - Reporting et communication à l’oral et
-        à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collectiveTravail
-        en équipe, esprit collaboratif <br/> - Responsabilité sociétale"
+    - title: Événementiel et vidéo
+      content: |-
+        - Planification et organisation
+        <br/> - Communication visuelle et vidéo
+        <br/> - Motion design et animation
+        <br/> - Réalité Virtuelle : ambiance visuelle et sonore, intégration avec Unity
+        <br/> - Web TV : création et diffusion de contenu et live vidéo
+    - title: Projet certifiant et posture professionnelle
+      content: |-
+        - Cahier des charges et dossier de production
+        <br/> - Gestion de projet : allocation de ressources,  planning et budget
+        <br/> - Réalisation et gestion d’un projet en mode agence
+        <br/> - Reporting et communication à l’oral et à l’écrit
     active: ''
 profession:
   enable: true
