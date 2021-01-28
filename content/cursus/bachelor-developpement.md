@@ -214,9 +214,11 @@ profession:
   - title: Game designer
     description: Déterminez le concept, produisez la mécanique du jeu et sa prise
       en main et rendez le jeu le plus attractif possible.
-  - title: Web marketer
-    description: Installez une stratégie de communication internet répondants aux
-      attentes et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
+  - title: Programmeur technique de jeu vidéo
+    description: 'Développez et adaptez le moteur de jeu vidéo dans son ensemble.
+      Faites en sorte que le jeu puisse fonctionner en synthétisant les comportements,
+      les images et les sons en temps réel, tout en respectant les contraintes du
+      support technique puis veillez à optimiser les performances du jeu. '
 testimonials:
   enable: true
   filter:
