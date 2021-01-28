@@ -159,6 +159,12 @@ years:
       un pro du numérique. Voici les compétences et connaissances qui vous seront
       enseignées afin d''obtenir le statut de chef de projet digital. '
     etape:
+    - title: E-learning et certifications
+      content: |-
+        - Culture et outils numériques
+        <br/> - Certifications : compétences numériques et code
+        <br/> - Renforcement orthographique et grammatical
+        <br/> - Anglais technique
     - title: Entrepreneuriat et innovation
       content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
         objectifs, de la cible et du positionnement  <br/> - Définition d’une stratégie
