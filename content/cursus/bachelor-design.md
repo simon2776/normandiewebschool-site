@@ -38,12 +38,13 @@ about:
 skills:
   enable: true
   title: Les Compétences
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat,
-    sodales ut tempor consequat, fringilla vel libero.
+  subtitle: 'Quelques compétences humaines et non techniques sont requises. '
   item:
   - icon: "/images/creativity.svg"
     title: Créatif
-    description: ''
+    description: 'Amené à souvent créer du contenu ou des supports de communication,
+      la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes
+      du client. '
   - icon: "/images/search.svg"
     title: Curieux
     description: ''
