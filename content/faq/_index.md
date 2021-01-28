@@ -132,16 +132,16 @@ subjects:
         pourront faire le point avec vous et vous conseiller pour mettre toutes les
         chances de réussite de votre côté.</p>"
     - question: Comment se déroule l'entretien d’admission ?
-      answer: L’entretien d’admission est un entretien individuel. Il permet à l’école
-        de mieux comprendre vos attentes, vos projets et les motivations qui vous
-        ont poussées à candidater à la formation que vous avez choisie. Il nous permet
-        également de vérifier votre niveau et de vous poser des questions sur vos
-        centres d’intérêt en rapport avec la formation visée. Pour vous, comme pour
-        l’école, c’est une étape importante qui permet de vérifier que le cursus que
-        vous avez choisi correspond bien à vos souhaits et à vos besoins. Vous pouvez
-        d’ailleurs hésiter entre deux formations ou spécialités, c’est tout à fait
-        normal, et l’entretien d’admission permettra de faire le point et de vous
-        aider à choisir celle qui vous conviendra le mieux.
+      answer: "<p>L’entretien d’admission est un entretien individuel. Il permet à
+        l’école de mieux comprendre vos attentes, vos projets et les motivations qui
+        vous ont poussées à candidater à la formation que vous avez choisie. Il nous
+        permet également de vérifier votre niveau et de vous poser des questions sur
+        vos centres d’intérêt en rapport avec la formation visée. </p><p>Pour vous,
+        comme pour l’école, c’est une étape importante qui permet de vérifier que
+        le cursus que vous avez choisi correspond bien à vos souhaits et à vos besoins.
+        Vous pouvez d’ailleurs hésiter entre deux formations ou spécialités, c’est
+        tout à fait normal, et l’entretien d’admission permettra de faire le point
+        et de vous aider à choisir celle qui vous conviendra le mieux.</p>"
     - question: Quels sont les délais pour une candidature ?
       answer: Le délai de la candidature est fixé par la limite des places disponibles
         (24 à 25 par promotion). Pour savoir s’il reste des places sur le cursus qui
