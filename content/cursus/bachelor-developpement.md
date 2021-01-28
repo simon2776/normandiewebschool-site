@@ -142,10 +142,11 @@ years:
       content: "- Ecoute, curiosité, culture & Intelligence collective\LTravail en
         équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
         - Positionnement professionnel et responsabilité sociétale"
-    - title: E-learning et certifications
-      content: Culture et outils numériques <br/> Renforcement orthographique et grammatical
-        <br/> Anglais technique <br/>  Certifications  compétences numériques, outils
-        Adobe
+    - title: Frameworks BackEnd
+      content: "- Modèle MVC, principes SOLID, Design Patterns\n<br/> - Domain Driven
+        Design, Clean Architecture, Sécurité par Design\n<br/> - Test Driven Development
+        en PHP, Agilité, Refactoring\n<br/> - Frameworks PHP : Symfony, Laravel \n<br/>
+        - Containerisation et déploiement avec docker et Kubernetes"
     active: ''
   - button: 3e année
     title: Spécialité marketing digital, 3e année
