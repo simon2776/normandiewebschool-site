@@ -30,28 +30,28 @@ subjects:
         du Chef de projet, Product Owner ou Scrum Master. <br></p><p>La 4ème année,
         ils peuvent choisir de poursuivre en mastère (24 mois) (titre RNCP niveau
         7) : Expert design et digital marketing, Intégrateur-DevSecOps.</p>"
-    - question: La Normandie Web School délivre-t-il des diplômes reconnus par l’Etat
+    - question: La Normandie Web School délivre-t-elle des diplômes reconnus par l’Etat
         ?
       answer: "<p>Tous les titres délivrés par la Normandie Web School sont inscrits
         au Répertoire national de la certification professionnelle (RNCP), leurs niveaux
-        sont certifiés par l’État. </p><p>Pour les étudiants, comme pour les professionnels
-        qui seront amenés à les embaucher, c’est un gage de qualité. </p><p>Cette
-        certification par l’État repose en effet sur deux principes fondamentaux :
-        la cohérence des compétences acquises par l’étudiant avec les réalités du
-        secteur professionnel (référentiel de compétences) et une obligation de résultats,
-        c'est à dire le placement de nos apprenants.</p>"
+        sont certifiés par l’État. Pour les étudiants, comme pour les professionnels
+        qui seront amenés à les embaucher, c’est un gage de qualité. Cette certification
+        par l’État repose en effet sur deux principes fondamentaux : la cohérence
+        des compétences acquises par l’étudiant avec les réalités du secteur professionnel
+        (référentiel de compétences) et une obligation de résultats, c'est à dire
+        un placement performant de nos apprenants sur le marché de l'emploi. </p>"
     - question: Organisez-vous des Journées Portes Ouvertes ?
-      answer: "<p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
-        aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.
-        Nous souhaitons en effet rencontrer nos futurs étudiants et évaluer leur choix
+      answer: La Normandie Web School, comme beaucoup d’écoles privées qui forment
+        aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.  Nous
+        souhaitons en effet rencontrer nos futurs étudiants et évaluer leur choix
         dans une discussion personnelle qui nous permet de vérifier avec eux qu’ils
         seront bien à leur place dans la formation pour laquelle ils candidatent !
-        </p><p>Votre dossier scolaire est important pour nous mais il n’est pas l’essentiel.
+        Votre dossier scolaire est important pour nous mais il n’est pas l’essentiel.
         Votre personnalité et votre engagement dans votre choix d’étude est tout aussi
         important. Ce rapport personnel à l’étudiant est donc pour nous primordial
-        et il ne peut pas se faire par la simple lecture de dossiers en ligne. </p><p>De
+        et il ne peut pas se faire par la simple lecture de dossiers en ligne. De
         ce fait, vous pouvez candidater et venir nous rencontrer quand vous le souhaitez.
-        Consulter la page admission</p>"
+        Consulter la page admission
     - question: Quel est le rythme de formation ?
       answer: Toutes les formations de la Normandie Web School sont construites sur
         un double parcours, académique et professionnalisant. Pour les bachelors et
