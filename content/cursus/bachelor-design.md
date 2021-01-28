@@ -193,16 +193,14 @@ profession:
       les équipes chargées de la production à travers un suivi complet, la création
       d''un plan marketing, des études de marchés, de la veille et des réunions et
       des rencontres.  '
-  - title: Chef de projet marketing
-    description: Proposez des projets, organisez les dans leur globalité et accompagnez
-      les équipes chargées de la production à travers un suivi complet, la création
-      d'un plan marketing, des études de marchés, de la veille et des réunions et
-      des rencontres.
-  - title: Gestionnaire de contenu site web
-    description: Rédigez le contenu rédactionnel du site web en prenant en compte
-      le référencement et les algorithmes des navigateurs de recherches, sélectionnez
-      des images et des vidéos adaptés au produit / service et analysez les retombées
-      du site Internet.
+  - title: Web Designer
+    description: 'Créez des pages web et occupez-vous de tous l''aspects graphiques
+      de celles-ci en créant si besoin la charte graphique et l''identité visuelle
+      du site Internet. '
+  - title: UX/UI designer
+    description: Imaginez et de concevez des parcours utilisateurs qui créent de l'émotion
+      afin de rendre la navigation sur le web (ou ailleurs) plus simple, désirable,
+      intuitive et rapide.
   - title: Rédacteur web
     description: 'Rédigez le contenu d''un site web en prenant en compte la demande
       et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
