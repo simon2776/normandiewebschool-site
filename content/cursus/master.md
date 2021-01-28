@@ -51,8 +51,8 @@ years:
       expert du digital.
     etape:
     - title: Entrepreneuriat et innovation
-      content: "- Business Modeling et Entrepreneurship Marketing et Innovation -
-        Enjeux et pratiques de la transformation digitale"
+      content: "- Business Modeling et Entrepreneurship Marketing et Innovation <br/>
+        - Enjeux et pratiques de la transformation digitale"
     - title: Management et stratégie
       content: "- Diagnostic stratégique Management d’équipe - Gestion de projet digital
         - Méthodes de planification de projet / Méthode agile / Scrum master - Droit
