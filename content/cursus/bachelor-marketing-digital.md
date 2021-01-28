@@ -4,10 +4,11 @@ layout: filiere
 title: Spécialité Marketing digital
 date: 2019-05-12T12:14:34.000+06:00
 description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
-  dans tous les détails du marketing et obtenez en fin d''année votre titre RNCP de
-  niveau 5 équivalant au BAC+2. Rythme en alternance: 1 semaines en formation et 3
-  semaines en alternance en entreprise. <br/> Nombre d''heures de formations: 455H
-  de formations en face-à-face et 180H d''apprentissage individualisé en FOAD'
+  dans tous les détails du marketing, c''est la clé pour obtenir en fin d''année votre
+  titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre au nom de
+  chef de projet digital. Rythme en alternance: 1 semaines en formation et 3 semaines
+  en alternance en entreprise. <br/> Nombre d''heures de formations: 455H de formations
+  en face-à-face et 180H d''apprentissage individualisé en FOAD'
 banner:
   logo: "/images/logo-marketing.png"
   title: Spécialité Marketing digital
@@ -42,19 +43,28 @@ skills:
   item:
   - icon: "/images/creativity.svg"
     title: Créatif
-    description: ''
+    description: 'Amené à souvent créer du contenu ou des supports de communication,
+      la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes
+      du client. '
   - icon: "/images/search.svg"
     title: Curieux
-    description: ''
+    description: 'Le monde extérieur est toujours en pleine évolution. Il faut donc
+      se mettre régulièrement à jour quant à l''actualité générale ou numérique. Une
+      force pour évoluer. Mais il faut également être ouvert à tous les cours proposés
+      qui ne pourront que vous être bénéfique. '
   - icon: "/images/search.svg"
     title: Imaginatif
-    description: ''
+    description: Trouver des idées innovantes, encore jamais vues ou toutes récentes
+      en exploitant votre imagination et vos envies.
   - icon: "/images/search.svg"
     title: Ouvert d'esprit
-    description: ''
+    description: 'Être à l''écoute, prendre en compte les avis de chacun, accepter
+      positivement les remarques et critiques pour développer ses compétences et son
+      sens du relationnel. '
   - icon: "/images/search.svg"
     title: Communicant
-    description: ''
+    description: 'Pour mener à bien un projet il faut communiquer. C''est à dire échanger
+      avec les autres personnes et exprimer ses envies, ses besoins et ses attentes. '
 years:
   enable: true
   item:
@@ -71,7 +81,9 @@ years:
         photo <br/>- Réalisation Print <br/> - Infographies <br/> - Outils graphiques
         professionnels: Illustrator, inDesign, Lightroom, Photoshop, XD"
     - title: Vidéo et animation
-      content: ''
+      content: "- Ecoconception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
+        en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
+        - Outils vidéo professionnels : Adobe Premiere, After Effects"
     - title: Création de sites web
       content: "- Eco-conception web <br/> - Sites mobiles et desktop <br/> - Conception
         d’interfaces <br/> - Grilles de mise en page <br/> - Systèmes de design et
