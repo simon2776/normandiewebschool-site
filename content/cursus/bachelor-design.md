@@ -131,12 +131,12 @@ years:
         & prototypage\n<br/> - Intégration HTML/CSS/JavaScript  \n<br/> - Optimisation
         des images\n<br/> - Réalisation de sites éco-performants et de CMS (Wordpress)\n<br/>
         - Validation de l’accessibilité et des performances techniques et environnementales"
-    - title: Posture professionnelle
-      content: ''
-    - title: E-learning et certifications
-      content: Culture et outils numériques <br/> Renforcement orthographique et grammatical
-        <br/> Anglais technique <br/>  Certifications  compétences numériques, outils
-        Adobe
+    - title: Gamification et environnements virtuels
+      content: |
+        - UX : gamification d’expériences
+        <br/> - 3D : concepts, modélisation, texturing, animations
+        <br/> - Réalité Virtuelle
+        <br/> - Monétisation
     active: ''
   - button: 3e année
     title: Spécialité marketing digital, 3e année
