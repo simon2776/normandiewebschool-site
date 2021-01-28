@@ -201,10 +201,9 @@ profession:
     description: Imaginez et de concevez des parcours utilisateurs qui créent de l'émotion
       afin de rendre la navigation sur le web (ou ailleurs) plus simple, désirable,
       intuitive et rapide.
-  - title: Rédacteur web
-    description: 'Rédigez le contenu d''un site web en prenant en compte la demande
-      et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
-      des navigateurs de recherches. '
+  - title: Motion Designer
+    description: "Créez et animez des vidéos explicatives ou animez des visuels propres
+      à une entreprise. \n"
   - title: Web marketer
     description: Installez une stratégie de communication internet répondants aux
       attentes et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
