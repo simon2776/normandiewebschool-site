@@ -1,11 +1,11 @@
 ---
 type: filiere
 layout: filiere
-title: Master
+title: Mastère
 date: 2019-05-12T12:14:34.000+06:00
-description: 'Vous souhaitez faire du numérique votre métier, devenir un expert dans
-  ce milieu et en apprendre plus sur le leadership, alors le master "Expert Digital"
-  vous ouvre grand ses bras. '
+description: 'Vous souhaitez devenir un expert du numérique et en acquérir les clés
+  management et de la stratégie, alors le mastère  "Expert Digital" est fait pour
+  vous ! '
 banner:
   logo: ''
   title: Master "Expert digital"
@@ -115,11 +115,11 @@ testimonials:
   filter:
   - design
 menu:
-  main:
+  desktop:
     name: Master Expert digital
     parent: Les cursus
     weight: 5
-  desktop:
+  main:
     name: Master Expert digital
     parent: Les cursus
     weight: 5
