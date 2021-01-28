@@ -57,7 +57,7 @@ filieres:
     href: "/cursus/bachelor-developpement/"
 video:
   enable: true
-  url: https://www.youtube.com/embed/RGglN9NvNs4
+  url: https://www.youtube-nocookie.com/embed/RGglN9NvNs4
   title: La NWS en vidéo
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
     porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,

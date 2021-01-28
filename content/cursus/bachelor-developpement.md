@@ -109,12 +109,14 @@ years:
         problèmes et complexité des algorithmes : structures de données avancées,
         manipulation de chaînes, tri, recherche, récursion - application en Python\n<br/>
         - Documentation notebooks Python"
-    - title: Référencement naturel et performance web
-      content: "- La typologie de contenus et audit lexical, - La réalisation d'un
-        prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
-        d'un site éco-performants et de  CMS, <br/> - La validation de l'accessibilité
-        et des performances techniques et environnementales, <br/> - La réalisation
-        d'une présentation client. "
+    - title: Développement FrontEnd
+      content: |-
+        - Protocole HTTP et devtools
+        <br/> - APIs web : DOM, AJAX, Service Worker, Web Storage, IndexedDB
+        <br/> - JavaScript : modèle d’exécution, Clean Code, Git, Tests Unitaires
+        <br/> - Echange et manipulation de données avec REST, JSON et OpenId Connect
+        <br/> - JamStack et CMS headless (Wordpress)
+        <br/> - Progressive Web App : workflow de développement et de déploiement
     - title: Analytics, segmentation et reporting
       content: '- La définition d''''une stratégie réseaux sociaux et advertising,
         <br/> - L''''écriture et la publication de contenus originaux, <br/> - La
