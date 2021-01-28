@@ -154,14 +154,10 @@ years:
         <br/> - Certification Digital et Code
     active: ''
   - button: 3e année
-    title: Spécialité marketing digital, 3e année
-    subtitle: Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
-      dans tous les détails du marketing, c'est la clé pour obtenir en fin d'année
-      votre titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre
-      au nom d'un d'un chef de projet digital.<br/><br/>Apprenez et pratiquez toutes
-      les techniques du marketing pour devenir un pro du numérique. Voici les compétences
-      et connaissances qui vous seront enseignées afin d'obtenir le statut de chef
-      de projet digital.
+    title: Programme troisième année marketing digital
+    subtitle: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
+      un pro du numérique. Voici les compétences et connaissances qui vous seront
+      enseignées afin d''obtenir le statut de chef de projet digital. '
     etape:
     - title: Entrepreneuriat et innovation
       content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
