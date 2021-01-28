@@ -1,12 +1,11 @@
 ---
 title: Les entreprises
 type: page
-description: Les entreprises sont l’un des piliers de l’école que ce soit pour l’insertion
-  professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.
-  Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes
-  au plus proche de la réalité des besoins en compétences .
+description: |-
+  Les entreprises sont l’un des piliers essentiel de l’école que ce soit pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.
+  Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes au plus proche de la réalité des besoins en compétences sur le marché de l'emploi.
 banner:
-  title: Les Entreprises
+  title: Les entreprises
   title-line-twho: ''
   subtitle: La Normandie Web School proche de ses collaborateurs et des intervenants.
   image: "/images/cursus_bg.png"
@@ -14,17 +13,17 @@ about:
   enable: true
   title: Introduction
   image: "/images/sitapha-cours.png"
-  content: Les entreprises sont l’un des piliers de l’école que ce soit pour l’insertion
-    professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction
-    d’événements. Un comité de perfectionnement a pour objectif chaque année d’adapter
-    les programmes au plus proche de la réalité des besoins en compétences . Nous
-    travaillons en étroite collaboration avec les entreprises, tout secteur confondu,
-    de la TPE à celle du CAC 40 mais aussi avec des associations, des collectivités
-    locales, des administrations publiques, des syndicats professionnels… Le numérique
-    touche tous les secteurs et tous les services et est encore en devenir pour certaines
-    organisations dont la transition digitale est en cours. L’école est un partenaire,
-    voire un accélérateur de cette transition pour beaucoup de nos partenaires. Alors
-    pourquoi pas travailler vous ?
+  content: Les entreprises sont l’un des piliers essentiel de l’école que ce soit
+    pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
+    co-construction d’événements. Un comité de perfectionnement a pour objectif chaque
+    année d’adapter les programmes au plus proche de la réalité des besoins en compétences.
+    Nous travaillons en étroite collaboration avec les entreprises, tout secteur confondu,
+    de la TPE à la l'entreprise internationale mais aussi avec des associations, des
+    collectivités locales, des administrations publiques, des syndicats professionnels…
+    Le numérique touche tous les secteurs et tous les services et est encore en devenir
+    pour certaines organisations dont la transition digitale est en cours. L’école
+    est un partenaire, voire un accélérateur de cette transition pour beaucoup de
+    nos partenaires. Alors pourquoi pas travailler avec nous ?
 recrutement:
   enable: true
   item:
@@ -39,15 +38,15 @@ recrutement:
   - image: "/images/entreprises_2.png"
     title: L'alternance
     button: Trouvez votre alternant
-    content: 'Le système de l’alternance, en contrat de professionnalisation ou contrat
-      d’apprentissage, est utilisé aux meilleurs moments du parcours académique :
-      en 2ème ou 3ème année de bachelor et en master. C’est le parcours clé après
-      les premières expériences de stages et avant la recherche du premier emploi.
-      <br/><br/> En contrat d’apprentissage ou de professionnalisation, l’étudiant
-      poursuit son cursus scolaire sur un rythme d’une semaine à l’école et de 3 semaines
-      en entreprise. Dans ce contexte, l’entreprise prend en charge les coûts de formation
-      et rémunère l’étudiant jusqu’à 80% du montant du SMIC en fonction de l’âge de
-      l’étudiant et du type d’alternance. '
+    content: Le système de l’alternance, en contrat de professionnalisation ou contrat
+      d’apprentissage, est accessible "au fil de l'eau" en 2ème ou 3ème année de bachelor.
+      C’est le parcours clé après les premières expériences de stages et avant la
+      recherche du premier emploi. <br/><br/> En contrat d’apprentissage ou de professionnalisation,
+      l’étudiant poursuit son cursus d'enseignement sur un rythme d’une semaine à
+      l’école et de 3 semaines en entreprise. Dans ce contexte, l’OPCO de l'entreprise
+      prend en charge les coûts de formation et l'entreprise rémunère l’étudiant (entre
+      43% et 100% du Smic) en fonction de son âge et du type de contrat. L'entreprise
+      bénéficie d'aides et d'allègements de charges sociales sur ces contrats.
     color: color-orange
 colorBlock:
   enable: true
