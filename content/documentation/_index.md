@@ -3,9 +3,10 @@ title: La Documentation sur l'école
 date: 2019-05-12T12:14:34.000+06:00
 description: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
 banner:
-  title: La Documentation sur l'école
+  title: Accédez à la documentation
   title-line-twho: ''
-  subtitle: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
+  subtitle: 'Remplissez les champs ci-dessous pour avoir accès à toutes les brochures
+    informatives de l''école. '
   image: "/images/innopolis-background.png"
 documents:
   enable: true
