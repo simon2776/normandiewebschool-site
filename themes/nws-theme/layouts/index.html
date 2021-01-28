@@ -70,8 +70,8 @@
 
                 <div class="filieres-info">
                   <ul class="from-to-inline mt-3 {{ .color }}">
-                    <li>{{.from}}</li>
-                    <li>{{.to}}</li>
+                    <li class="w-50 pr-2">{{.from}}</li>
+                    <li class="w-50 pl-2">{{.to}}</li>
                   </ul>
   
                   <a class="btn {{ .color }} mt-5 pt-2 pb-2 pl-5 pr-5 mb-10" href="{{.href}}">
@@ -106,7 +106,7 @@
         <div class="col-12 col-custom-6 d-flex justify-content-center">
           <iframe width="560" height="315" src="{{ .url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="ytb-video"></iframe>
         </div>
-        <div class="col-12 col-custom-5 text-center text-custom-left">
+        <div class="col-12 col-custom-6 text-center text-custom-left">
           <h3 class="title-medium color-orange  with-separator-custom-left">{{ .title }}</h3>
           <p>{{ .content }}</p>
           <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-none" href="{{ .href }}">
@@ -167,11 +167,11 @@
 
         <div class="col-lg-12 text-center">
           <div class="card center-card with-border {{ .color }}">
-            <h3 class="title-medium color-blue mt-5 mb-0 px-5">{{ .title | markdownify }}</h3>
+            <h3 class="title-medium color-blue mb-0">{{ .title | markdownify }}</h3>
             <div class="card-body d-lg-flex">
               {{ range .item }}
-              <div class="mt-4 mt-lg-0 w-lg-20">
-                <img src="{{ .logo }}" alt="" class="mt-4" width="130px">
+              <div class="mt-4 mt-lg-0 w-lg-20 px-2">
+                <img src="{{ .logo }}" alt="" class="mt-4">
 
                 <p class="mt-4 mr-md-5 ml-md-5 mr-lg-1 ml-lg-1 mt-lg-3">{{.content}}</p>
               </div>
@@ -189,13 +189,13 @@
   {{ if .Params.data.enable }}
   {{ with .Params.data }}
   <!-- reasons -->
-  <section class="mb-lg-0 mb-5 pb-5 bg-lightgrey">
+  <section class="mb-lg-0 pb-5 bg-lightgrey">
     <div class="container">
         {{ partial "components/wavy-title" (dict "context" . "title" .title) }}
       <div class="row">
             {{ range .item }}
         <div class="col-md-12 col-lg-3 text-center">
-            <div class="mt-5">
+            <div class="">
               <span class="big-number color-orange">{{.number}}</span>
               <p class="number-desc font-weight-bold">- {{.title}} -</p>
             </div>
@@ -210,13 +210,13 @@
 
 {{ if .Params.team.enable }}
   <!-- Team -->
-  <section class="bg-lg-lightgrey clip-lg-bottom-white" id="home-team">
+  <section class="bg-lightgrey clip-bottom-white" id="home-team">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="card">
-            <div class="card-header color-blue with-separator with-separator-lg-center justify-content-lg-center ">
-              <h3 class="mb-0 text-lg-center text-left">
+            <div class="card-header d-flex justify-content-center">
+              <h3 class="mb-0 text-center color-blue title-medium">
                 {{.Params.team.title}}
               </h3>
             </div>
@@ -236,11 +236,11 @@
 
 {{ if .Params.partners.enable }}
   <!-- Team -->
-  <section class="clip-bottom-lightgrey pb-5 mt-0 mt-lg-4">
+  <section>
     <div class="container mb-5">
       <div class="row">
         <div class="col-md-12">
-              <h3 class="mb-0 text-center with-separator-lg-left text-lg-left title-medium color-orange mt-5 mb-0">
+              <h3 class="text-center with-separator-lg-left text-lg-left title-medium color-orange my-5">
                 {{.Params.partners.title}}
               </h3>
 
@@ -258,14 +258,14 @@
 
 {{ if .Params.testimonials.enable }}
   <!-- Team -->
-  <section class="bg-lightgrey">
-    <div class="container pb-5 pt-0 pt-lg-5 pb-0 pb-lg-5">
+  <section class="bg-lightgrey clip-top-white section">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
 
           {{ $testimonials := where .Site.RegularPages "Type" "in" "testimonial" }}
 
-          <div id="testimonialsCarousel" class="carousel slide pb-5" data-ride="carousel" data-interval="20000">
+          <div id="testimonialsCarousel" class="carousel slide pb-5 mt-5" data-ride="carousel" data-interval="20000">
             <ol class="carousel-indicators">
               {{ range $index, $value := $testimonials }}
               <li data-target="#testimonalsCarouselIndicator" data-slide-to="{{$index}}" class="{{ if (eq $index 0 )}}active{{end}}"></li>
