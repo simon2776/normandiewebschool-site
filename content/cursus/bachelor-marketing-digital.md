@@ -62,7 +62,8 @@ skills:
       sens du relationnel. '
   - icon: "/images/search.svg"
     title: Communicant
-    description: ''
+    description: 'Pour mener à bien un projet il faut communiquer. C''est à dire échanger
+      avec les autres personnes et exprimer ses envies, ses besoins et ses attentes. '
 years:
   enable: true
   item:
