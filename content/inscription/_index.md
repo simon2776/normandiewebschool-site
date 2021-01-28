@@ -7,7 +7,7 @@ banner:
   title: Candidatez à la NWS
   title-line-twho: ''
   subtitle: Vous avez deux possibilités pour candidater
-  image: "/images/doc_bg.png"
+  image: "/images/banner_entretien.jpg"
 documents:
   enable: true
   title: Télécharger le PDF
