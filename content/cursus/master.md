@@ -70,10 +70,10 @@ years:
         Blogging <br/> - Stratégie Social media et stratégie d’influence <br/>- Référencement
         SEO/SEM"
   - button: 2e année
-    title: Concevez et augmenter vos compétences et connaissances dans le monde du
-      numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un expert
-      du digital.
-    subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
+    title: Le programme en master
+    subtitle: Concevez et augmenter vos compétences et connaissances dans le monde
+      du numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un
+      expert du digital.
     etape:
     - title: Digital marketing et e-commerce
       content: "- CRM / Stratégie Marketing <br/> - Marketing Digital <br/> - Etude
