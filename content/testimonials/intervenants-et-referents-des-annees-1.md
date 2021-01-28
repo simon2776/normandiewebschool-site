@@ -3,7 +3,7 @@ content = "Comme disait Richard Bach, Apprendre à des étudiants, c’est déco
 image = "/images/raphael-sanchez.jpeg"
 name = "Raphaël Sanchez"
 tag = ["entreprises"]
-title = "Intervenants et référents des années 1"
+title = "Intervenant et référent des 1ères années"
 type = "testimonial"
 
 +++
