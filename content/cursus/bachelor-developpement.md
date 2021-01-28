@@ -185,12 +185,12 @@ years:
         - Rétro-plannings et organisation
         <br/> - Collaboration entre agences (marketing, design, code)
         <br/> - Développement AR/VR avec Unity
-    - title: Projet certifiant
-      content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
-        : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
-        d’un projet en mode agence <br/> - Reporting et communication à l’oral et
-        à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collectiveTravail
-        en équipe, esprit collaboratif <br/> - Responsabilité sociétale"
+    - title: Projet certifiant et posture professionnelle
+      content: "- Cahier des charges et dossier de production\n<br/> - Gestion de
+        projet : allocation de ressources,  planning et budget\n<br/> - Réalisation
+        et gestion d’un projet en mode agence\n<br/> - Reporting et communication
+        à l’oral et à l’écrit\n<br/> - Ecoute, curiosité, culture & Intelligence collective
+        \n<br/> - Travail en équipe, esprit collaboratif et responsabilité sociétale"
     active: ''
 profession:
   enable: true
