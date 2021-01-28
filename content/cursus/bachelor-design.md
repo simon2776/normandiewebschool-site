@@ -110,12 +110,11 @@ years:
         <br/> - Composition graphique avec InDesign
         <br/> - Techniques d’impression
         <br/> - Réseaux sociaux photos et images
-    - title: Référencement naturel et performance web
-      content: "- La typologie de contenus et audit lexical, - La réalisation d'un
-        prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
-        d'un site éco-performants et de  CMS, <br/> - La validation de l'accessibilité
-        et des performances techniques et environnementales, <br/> - La réalisation
-        d'une présentation client. "
+    - title: Story maps et création vectorielle
+      content: |
+        - Création de StoryMaps
+        <br/> - Éléments de symbologie SVG avec Illustrator
+        <br/> - Cartes dynamiques en JavaScript
     - title: Analytics, segmentation et reporting
       content: '- La définition d''''une stratégie réseaux sociaux et advertising,
         <br/> - L''''écriture et la publication de contenus originaux, <br/> - La
