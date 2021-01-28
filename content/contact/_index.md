@@ -76,6 +76,7 @@ form:
     info: Seine Innopolis <br/> 72 rue de la République <br/> 76140 Le Petit-Quevilly
     subInfo: ''
   button_text: Envoyer le message
+  inscription_button_text: S'inscrire
 menu:
   main:
     name: Contact

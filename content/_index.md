@@ -105,7 +105,7 @@ data:
   - number: "7"
     title: Nombre de collaborateurs
 team:
-  enable: trueks
+  enable: 'true'
   title: L'équipe NWS
   content: Découvrez l'équipe de la Normandie Web School au service de la pédagogie
     et du développement de chacun des étudiants.

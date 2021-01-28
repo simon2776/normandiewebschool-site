@@ -3,7 +3,7 @@ title: Foire aux questions
 type: page
 description: Ayez les réponses à toutes vos questions
 banner:
-  title: FAQ
+  title: <span class="font-weight-medium">FAQ</span>
   title-line-twho: ''
   subtitle: Ayez les réponses à toutes vos questions
   image: "/images/backgrounds/background-faq.png"

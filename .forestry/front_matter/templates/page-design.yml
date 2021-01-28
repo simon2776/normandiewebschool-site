@@ -1,6 +1,7 @@
 ---
-label: page-design
+label: page-filiere-unique
 hide_body: true
+display_field: title
 fields:
 - type: text
   name: type
@@ -20,6 +21,10 @@ fields:
 - type: textarea
   name: description
   label: description
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: field_group
   name: banner
   label: banner
@@ -36,6 +41,10 @@ fields:
   - type: textarea
     name: description
     label: description
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
   - type: text
     name: color
     label: color
@@ -167,3 +176,6 @@ fields:
     label: filter
 pages:
 - content/cursus/bachelor-design.md
+- content/cursus/bachelor-developpement.md
+- content/cursus/bachelor-marketing-digital.md
+- content/cursus/master.md

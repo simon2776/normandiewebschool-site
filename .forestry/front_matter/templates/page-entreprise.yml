@@ -12,6 +12,10 @@ fields:
 - type: textarea
   name: description
   label: description
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: field_group
   name: banner
   label: Bannière
