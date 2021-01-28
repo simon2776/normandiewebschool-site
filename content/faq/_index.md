@@ -74,13 +74,13 @@ subjects:
         est mise à disposition des étudiants
     - question: Vais-je acquérir une expérience professionnelle durant la formation
         ?
-      answer: Si le parcours académique est très important dans les formations de
-        la Normandie Web School, le parcours de professionnalisation l’est tout autant.
-        Le but de nos formations est en effet de permettre aux étudiants d’utiliser
-        leurs savoirs dans le monde professionnel dès leur sortie de formation. C’est
+      answer: "<p>Si le parcours académique est très important dans les formations
+        de la Normandie Web School, le parcours de professionnalisation l’est tout
+        autant. Le but de nos formations est en effet de permettre aux étudiants d’utiliser
+        leurs savoirs dans le monde professionnel dès leur sortie de formation. </p><p>C’est
         pour cela que la Normandie Web School tisse des liens très étroits avec les
         entreprises de tous secteurs afin de permettre aux étudiants, dès la première
-        année, de travailler sur des projets clients concrets.
+        année, de travailler sur des projets clients concrets.</p>"
     - question: Quels sont les principaux métiers du marché du web marketing ?
       answer: 'Développement : développeur front, développeur back, webmaster, développeur
         full stack, intégrateur web, … Design graphique : web designer, infographiste,
