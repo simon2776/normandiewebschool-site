@@ -3,13 +3,10 @@ type: filiere
 layout: filiere
 title: Filière développement web et mobile
 date: 2019-05-12T12:14:34.000+06:00
-description: "Si vous rêvez de coder les prochaines fonctionnalités d'un service ou
-  d'une application, venez acquérir la méthodologie et les techniques qui révéleront
-  votre talent. \nObjectif :  titre Web designer RNCP de niveau 5 équivalant au BAC+2.
-  \nRythme alterné: 1 semaine en formation et 3 semaines en professionnalisation (en
-  entreprise (pour les alternants) ou en projet pour les étudiants en formation initiale.\n<br/>
-  Nombre d'heures de formation: 455H en face-à-face et 180H d'apprentissage individualisé
-  en FOAD"
+description: |2-
+   Le codage, l'intégration et la création de plateforme est votre passion ? Alors la spécialité développement est fait pour vous ! À la clé en fin d'année ? Votre titre RNCP de niveau 6 équivalant au BAC+3 et un statut de chef de projet digital.
+  Rythme alterné: 1 semaine en formation et 3 semaines en professionnalisation (en entreprise (pour les alternants) ou en projet pour les étudiants en formation initiale.
+  <br/> Nombre d'heures de formation: 455H en face-à-face et 180H d'apprentissage individualisé en FOAD
 banner:
   logo: "/images/logo-dev.png"
   title: Filière développement
