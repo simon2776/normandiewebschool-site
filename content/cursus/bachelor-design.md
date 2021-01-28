@@ -204,9 +204,13 @@ profession:
   - title: Motion Designer
     description: "Créez et animez des vidéos explicatives ou animez des visuels propres
       à une entreprise. \n"
-  - title: Web marketer
-    description: Installez une stratégie de communication internet répondants aux
-      attentes et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
+  - title: Graphiste multimedia
+    description: 'Dessinez, créez et concevez des maquettes pour des supports numérique
+      (pages Internet, applications, habillage TV ou radio etc. '
+  - title: Infographiste
+    description: 'Créez ou restaurez des identités visuelles pour des entreprises
+      ou produisez des visuels innovants, percutants et diffusants ou promouvants
+      un produit, un service ou encore un évènement. '
 testimonials:
   enable: true
   filter:
