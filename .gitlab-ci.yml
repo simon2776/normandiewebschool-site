@@ -13,6 +13,7 @@ build:
     - public_html
   only:
   - master
+  when: manual
 deploy:
   stage: deploy
   script:
@@ -21,3 +22,4 @@ deploy:
     - echo "deployment complete"
   dependencies:
     - build
+
