@@ -102,11 +102,14 @@ years:
       pour devenir un pro du numérique. Voici les compétences et connaissances qui
       vous seront enseignées
     etape:
-    - title: Stratégie Marketing
-      content: "- Les étapes de la démarche marketing (analyser planification, suivi),
-        <br/> - Une analyse concurrentielle comparative, <br/> - La rédaction du plan
-        marketing opérationnel, <br/> - La conception de calendriers éditorials <br/>
-        - La production de contenu original conforme au plan marketing."
+    - title: Veille et création artistique
+      content: |-
+        - Veille et création
+        <br/> - Dessin vectoriel avec Illustrator
+        <br/> - Photographie, détourage, retouches Photoshop
+        <br/> - Composition graphique avec InDesign
+        <br/> - Techniques d’impression
+        <br/> - Réseaux sociaux photos et images
     - title: Référencement naturel et performance web
       content: "- La typologie de contenus et audit lexical, - La réalisation d'un
         prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
