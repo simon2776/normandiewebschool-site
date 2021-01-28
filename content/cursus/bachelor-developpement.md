@@ -164,7 +164,7 @@ years:
         objectifs, de la cible et du positionnement  <br/> - Définition d’une stratégie
         digitale  <br/> - Veille systématique et curation de contenu <br/> - Écoresponsabilité
         et modèle économique web <br/> - Pitch projet devant des parties prenantes"
-    - title: Etude du besoin
+    - title: Domain Driven Design
       content: "- Rédaction d’un brief client <br/> - Identification des acteurs du
         projet sous forme de Personas <br/> - Définition d’une solution technique
         (site et médias) répondant aux besoins <br/> - Estimation des coûts de conception,
