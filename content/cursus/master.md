@@ -43,7 +43,9 @@ skills:
       toujours plus et évoluer. Positivité !
   - icon: "/images/search.svg"
     title: Créatif
-    description: ''
+    description: Amené à souvent créer du contenu ou des supports de communication,
+      la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes
+      du client.
 years:
   enable: true
   item:
