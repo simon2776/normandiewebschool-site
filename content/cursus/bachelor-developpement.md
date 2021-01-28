@@ -155,7 +155,7 @@ years:
     active: ''
   - button: 3e année
     title: Programme troisième année développement web et mobile
-    subtitle: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
+    subtitle: 'Apprenez et pratiquez toutes les techniques du developpement pour devenir
       un pro du numérique. Voici les compétences et connaissances qui vous seront
       enseignées afin d''obtenir le statut de chef de projet digital. '
     etape:
