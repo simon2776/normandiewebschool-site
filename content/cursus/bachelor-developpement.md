@@ -101,11 +101,6 @@ years:
     subtitle: 'Suivez ce programme intensif pour devenir un spécialiste du développement
       web et mobile. '
     etape:
-    - title: E-learning et certifications
-      content: |-
-        - Culture et outils numériques
-        <br/> - Anglais technique
-        <br/> - Certification Digital et Code
     - title: Algorithmique et applications
       content: "- Architecture des ordinateurs \n<br/> - Logique informatique : variables,
         boucles, conditions, gestion des erreurs\n<br/> - Structures de données “bas
@@ -152,6 +147,11 @@ years:
       content: "- Ecoute, curiosité, culture & Intelligence collective\LTravail en
         équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
         - Positionnement professionnel et responsabilité sociétale"
+    - title: E-learning et certifications
+      content: |-
+        - Culture et outils numériques
+        <br/> - Anglais technique
+        <br/> - Certification Digital et Code
     active: ''
   - button: 3e année
     title: Spécialité marketing digital, 3e année
