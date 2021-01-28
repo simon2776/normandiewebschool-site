@@ -70,7 +70,7 @@ years:
         Blogging <br/> - Stratégie Social media et stratégie d’influence <br/>- Référencement
         SEO/SEM"
   - button: 2e année
-    title: Le programme en master
+    title: Le programme en Master
     subtitle: Concevez et augmenter vos compétences et connaissances dans le monde
       du numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un
       expert du digital.
