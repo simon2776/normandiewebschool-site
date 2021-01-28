@@ -22,12 +22,12 @@ about:
 skills:
   enable: true
   title: Profils attendus
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat,
-    sodales ut tempor consequat, fringilla vel libero.
+  subtitle: Quelques compétences humaines et non techniques sont requises.
   item:
   - icon: "/images/creativity.svg"
     title: Innovant
-    description: ''
+    description: Sachez vous démarquer grâce à des idées, des solutions nouvelles
+      et exploitez les pour aller au delà de l'existant.
   - icon: "/images/search.svg"
     title: Ouvert d'esprit
     description: ''

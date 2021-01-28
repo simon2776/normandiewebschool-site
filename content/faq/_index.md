@@ -30,44 +30,43 @@ subjects:
         du Chef de projet, Product Owner ou Scrum Master. <br></p><p>La 4ème année,
         ils peuvent choisir de poursuivre en mastère (24 mois) (titre RNCP niveau
         7) : Expert design et digital marketing, Intégrateur-DevSecOps.</p>"
-    - question: La Normandie Web School délivre-t-elle des diplômes reconnus par l’Etat
+    - question: La Normandie Web School délivre-t-il des diplômes reconnus par l’Etat
         ?
       answer: "<p>Tous les titres délivrés par la Normandie Web School sont inscrits
         au Répertoire national de la certification professionnelle (RNCP), leurs niveaux
-        sont certifiés par l’État. Pour les étudiants, comme pour les professionnels
-        qui seront amenés à les embaucher, c’est un gage de qualité. Cette certification
-        par l’État repose en effet sur deux principes fondamentaux : la cohérence
-        des compétences acquises par l’étudiant avec les réalités du secteur professionnel
-        (référentiel de compétences) et une obligation de résultats, c'est à dire
-        un placement performant de nos apprenants sur le marché de l'emploi. </p>"
+        sont certifiés par l’État. </p><p>Pour les étudiants, comme pour les professionnels
+        qui seront amenés à les embaucher, c’est un gage de qualité. </p><p>Cette
+        certification par l’État repose en effet sur deux principes fondamentaux :
+        la cohérence des compétences acquises par l’étudiant avec les réalités du
+        secteur professionnel (référentiel de compétences) et une obligation de résultats,
+        c'est à dire le placement de nos apprenants.</p>"
     - question: Organisez-vous des Journées Portes Ouvertes ?
-      answer: La Normandie Web School, comme beaucoup d’écoles privées qui forment
-        aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.  Nous
-        souhaitons en effet rencontrer nos futurs étudiants et évaluer leur choix
+      answer: "<p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
+        aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.
+        Nous souhaitons en effet rencontrer nos futurs étudiants et évaluer leur choix
         dans une discussion personnelle qui nous permet de vérifier avec eux qu’ils
         seront bien à leur place dans la formation pour laquelle ils candidatent !
-        Votre dossier scolaire est important pour nous mais il n’est pas l’essentiel.
+        </p><p>Votre dossier scolaire est important pour nous mais il n’est pas l’essentiel.
         Votre personnalité et votre engagement dans votre choix d’étude est tout aussi
         important. Ce rapport personnel à l’étudiant est donc pour nous primordial
-        et il ne peut pas se faire par la simple lecture de dossiers en ligne. De
+        et il ne peut pas se faire par la simple lecture de dossiers en ligne. </p><p>De
         ce fait, vous pouvez candidater et venir nous rencontrer quand vous le souhaitez.
-        Consulter la page admission
+        Consulter la page admission</p>"
     - question: Quel est le rythme de formation ?
-      answer: Toutes les formations de la Normandie Web School sont construites sur
-        un double parcours, académique et professionnalisant. Pour les bachelors et
-        les mastères, le rythme de la formation est alterné, Trois semaines projets
-        (ou entreprise pour les alternants) une semaine de cours. Il permet aux étudiants
-        de suivre leur formation tout en capitalisant des expériences professionnelles.
-        Les stages sont obligatoires (2 mois minimum pour la 1ère année, 4 mois la
-        2ème année) , ils font pleinement partie du parcours de formation et sont
-        sanctionnés par des rapports et des soutenances. Avec la réalisation de projets
-        clients et la rencontre de professionnels venant partager leur expérience,
-        ils participent au parcours professionnalisant de l’étudiant, lui permettant
-        de se constituer un CV et un réseau.
+      answer: "<p>Toutes les formations de la Normandie Web School sont construites
+        sur un double parcours, académique et professionnalisant. Pour les bachelors
+        et les mastères, le rythme de la formation est alterné, trois semaines projets
+        (ou entreprise pour les alternants) une semaine de cours. </p><p>Il permet
+        aux étudiants de suivre leur formation tout en capitalisant des expériences
+        professionnelles. Les stages sont obligatoires (2 mois minimum pour la 1ère
+        année, 4 mois la 2ème année) , ils font pleinement partie du parcours de formation
+        et sont sanctionnés par des rapports et des soutenances. Avec la réalisation
+        de projets clients et la rencontre de professionnels venant partager leur
+        expérience, ils participent au parcours professionnalisant de l’étudiant,
+        lui permettant de se constituer un CV et un réseau.</p>"
   - image: "/images/faq.png"
     subject: Le programme
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-      erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+    subtitle: 'Des questions sur les programmes ? Voici les réponses. '
     questions:
     - question: Existe-t-il des formations entièrement dispensées en anglais à la
         Normandie Web School ?
