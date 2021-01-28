@@ -47,9 +47,9 @@ filieres:
     logo: images/logo-design.png
     href: "/cursus/bachelor-design/"
   - title: Filière Développement
-    content: "Développez des supports numérique à l'aide de logiciels techniques et
-      accompagnez de professionnels. \nDevenez des experts du développement en exprimant
-      votre savoir faire et vos compétences techniques."
+    content: |-
+      Passioné par le monde technique vous allez développer des logiciels , des sites web et des applications.
+      Devenez des experts du code en développant votre savoir-faire et vos compétences techniques.
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-yellow
