@@ -7,6 +7,8 @@ stages:
 build:
   stage: build
   script:
+  - curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+  - sudo apt install -y nodejs
   - hugo version
   - git submodule update --init --recursive
   - npm install
