@@ -86,9 +86,10 @@ years:
       content: "- Création de site et application web Ergonomie et comportements utilisateurs
         CMS, vitrine et e-commerce <br/> - Hébergement, serveurs Web et cloud Computing"
     - title: Projet certifiant et posture professionnelle
-      content: "- Cahier des charges et dossier de production - Gestion de projet
-        : allocation de ressources,  planning et budget - Réalisation et gestion d’un
-        projet en mode agence - Reporting et communication à l’oral et à l’écrit"
+      content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
+        : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
+        d’un projet en mode agence <br/> - Reporting et communication à l’oral et
+        à l’écrit"
     active: ''
 profession:
   enable: true
