@@ -26,4 +26,5 @@ deploy:
     - echo "deployment complete"
   dependencies:
     - build
+  when: manual
 
