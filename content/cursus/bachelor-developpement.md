@@ -11,11 +11,12 @@ banner:
   logo: "/images/logo-dev.png"
   title: Filière développement
   image: "/images/cursus_bg.png"
-  description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et   persévérez
-    dans tous les détails du marketing et obtenez en   fin d''année votre titre RNCP
-    de niveau 5 équivalant au BAC  +2. Rythme en alternance: 1 semaines en formation
-    et 3  semaines en alternance en entreprise. <br/> Nombre d''heures  de formations:
-    455H de formations en face-à-face et 180H d''apprentissage individualisé en FOAD.'
+  description: 'Le codage, l''intégration et la création de plateforme est votre passion
+    ? Alors la spécialité développement est fait pour vous ! À la clé en fin d''année
+    ? Votre titre RNCP de niveau 6 équivalant au BAC+3 et un statut de chef de projet
+    digital. Rythme en alternance: 1 semaines en formation et 3  semaines en alternance
+    en entreprise. <br/> Nombre d''heures  de formations: 455H de formations en face-à-face
+    et 180H d''apprentissage individualisé en FOAD.'
   color: color-yellow
   buttons:
   - arrow: left
@@ -41,10 +42,15 @@ skills:
   item:
   - icon: "/images/creativity.svg"
     title: Créatif
-    description: ''
+    description: 'Amené à souvent créer du contenu ou des supports de communication,
+      la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes
+      du client. '
   - icon: "/images/search.svg"
     title: Curieux
-    description: ''
+    description: 'Le monde extérieur est toujours en pleine évolution. Il faut donc
+      se mettre régulièrement à jour quant à l''actualité générale ou numérique. Une
+      force pour évoluer. Mais il faut également être ouvert à tous les cours proposés
+      qui ne pourront que vous être bénéfique. '
   - icon: "/images/search.svg"
     title: Imaginatif
     description: ''
