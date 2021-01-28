@@ -89,8 +89,8 @@ subjects:
         manager, web marketer, chargé de référencement, content manager, …</p>"
   - image: "/images/faq.png"
     subject: Les admissions
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-      erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+    subtitle: 'Comment se déroulent les admissions ? Quelles en sont les conditions
+      ? Retrouvez toutes nos réponses ici. '
     questions:
     - question: Puis-je entrer à la Normandie Web School sans bac et quel profil dois-je
         avoir ?
