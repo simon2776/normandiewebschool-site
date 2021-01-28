@@ -89,7 +89,7 @@ reasons:
   - logo: images/reasons/student.svg
     content: Être et évoluer au cœur de l’écosystème numérique normand.
     alt: écosystème numérique
-  - logo: images/reasons/diploma.svg
+  - logo: "/images/diploma.svg"
     content: 'Un diplôme titre RNCP reconnu par l''État. '
     alt: titre RNCP
 data:
