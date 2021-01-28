@@ -13,16 +13,16 @@ about:
   enable: true
   title: Quelques mots sur l'école
   image: images/sitapha-cours.png
-  content: La NWS est une École d’Enseignement Supérieur Technique Privée qui forme
+  content: "La NWS est une École d’Enseignement Supérieur Technique Privée qui forme
     en 3 ou 5 ans aux métiers du numérique (développement web, du web design et du
-    marketing digital...) et amène vers un titre d’état (RNCP). Notre pédagogie est
-    active et répond aux besoins des étudiants d’aujourd’hui. Sortir du modèle classique
-    de l’enseignement, casser les codes, éviter l’enseignement descendant et pousser
-    les apprenants à réfléchir, à remettre en question leurs acquis et chercher de
-    nouvelles manières d’agir. À la Normandie Web School l’étudiant est acteur de
-    son propre apprentissage et construit ses compétences dans des situations réelles
-    ou proches de la réalité et au plus près des besoins des entreprises. Tel est
-    l’ADN de nos formations.
+    marketing digital...) et amène vers un titre d’état (RNCP). \nNotre pédagogie
+    est active et répond aux besoins des étudiants d’aujourd’hui. Sortir du modèle
+    classique de l’enseignement, casser les codes, éviter l’enseignement descendant
+    et pousser les apprenants à réfléchir, à remettre en question leurs acquis et
+    chercher de nouvelles manières d’agir. \nÀ la Normandie Web School l’étudiant
+    est acteur de son propre apprentissage et construit ses compétences dans des situations
+    réelles ou proches de la réalité et au plus près des besoins des entreprises.
+    Tel est l’ADN de nos formations."
 filieres:
   enable: true
   item:
@@ -70,7 +70,8 @@ cursus:
   subtitle: Le parcours de la Normandie Web School résumé en un schéma.
 reasons:
   enable: true
-  title: 5 bonnes raisons d'intégrer la NWS
+  title: Monter en compétences avec des experts métiers et des professionnels reconnus
+    dans le domaine du numérique.
   item:
   - logo: images/reasons/star.svg
     content: 'Monter en compétences avec des experts métiers et des professionnels
