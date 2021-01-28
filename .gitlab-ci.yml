@@ -9,7 +9,7 @@ build:
   script:
   - hugo version
   - npm install
-  - hugo -d public_html --baseURL=https://v2.normandiewebschool.fr --appendPort=false
+  - hugo -d public_html --baseURL=https://v2.normandiewebschool.fr
   artifacts:
     paths:
     - public_html
