@@ -73,7 +73,7 @@
                     <li class="w-50 pr-2">{{.from}}</li>
                     <li class="w-50 pl-2">{{.to}}</li>
                   </ul>
-  
+
                   <a class="btn {{ .color }} mt-5 pt-2 pb-2 pl-5 pr-5 mb-10" href="{{.href}}">
                       Découvrir
                   </a>
@@ -108,13 +108,13 @@
         </div>
         <div class="col-12 col-custom-6 text-center text-custom-left">
           <h3 class="title-medium color-orange  with-separator-custom-left">{{ .title }}</h3>
-          <p>{{ .content }}</p>
+          <p>{{ .content | safeHTML }}</p>
           <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-none" href="{{ .href }}">
             {{ .button }}
           </a>
         </div>
       </div>
-      <a class="btn color-orange mt-5 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-block" href="{{ .href }}">
+      <a class="btn color-orange mt-5 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-block" href="{{ .href }}" target="_blank">
         {{ .button }}
       </a>
     </div>
@@ -136,28 +136,28 @@
 
         </div>
 
-        <img 
-          src="/images/assets/infographie-cursus-desktop.svg" 
-          class="d-none d-lg-block mt-lg-5" 
-          style="margin: 0 auto; margin-left: -10%" 
+        <img
+          src="/images/assets/infographie-cursus-desktop.svg"
+          class="d-none d-lg-block mt-lg-5"
+          style="margin: 0 auto; margin-left: -10%"
           width="120%"
           alt="Cursus à la Normandie Web School"
         >
 
         <div class="col-12 mt-4 d-flex">
-          <img 
-            src="/images/assets/infographie-cursus-tab.svg" 
-            class="d-none d-md-block d-lg-none mt-lg-5" 
+          <img
+            src="/images/assets/infographie-cursus-tab.svg"
+            class="d-none d-md-block d-lg-none mt-lg-5"
             width="120%"
             alt="Cursus à la Normandie Web School"
           >
         </div>
 
         <div class="col-12 mt-4 d-flex">
-          <img 
-            src="/images/assets/infographie-cursus-mobile.svg" 
-            class="d-block d-md-none" 
-            style="margin: 0 auto" 
+          <img
+            src="/images/assets/infographie-cursus-mobile.svg"
+            class="d-block d-md-none"
+            style="margin: 0 auto"
             width="90%"
             alt="Cursus à la Normandie Web School">
         </div>

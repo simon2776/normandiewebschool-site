@@ -59,8 +59,7 @@
                     <input
                       type="{{.type}}"
                       placeholder="{{.placeholder}}"
-                      required="{{.required}}"
-                      class="form-control"
+                      {{ if .required | eq true }} required="true" {{ end }}                      class="form-control"
                     />
                   </div>
                   {{end}} {{if .textarea}}
@@ -70,8 +69,7 @@
                       cols="30"
                       rows="10"
                       placeholder="{{.placeholder}}"
-                      required="{{.required}}"
-                    ></textarea>
+                      {{ if .required | eq true }} required="true" {{ end }}                    ></textarea>
                   </div>
                   {{end}} {{end}} {{range $index, $el := .checkbox}}
                   <div class="form-check py-3">

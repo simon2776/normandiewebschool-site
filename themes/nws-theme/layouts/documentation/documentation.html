@@ -34,8 +34,7 @@
                     <input
                       type="{{.type}}"
                       placeholder="{{.placeholder}}"
-                      required="{{.required}}"
-                      class="form-control {{.className}}"
+                      {{ if .required | eq true }} required="true" {{ end }}  class="form-control {{.className}}"
                       name={{.name}}
                     />
                   </div>
@@ -50,9 +49,7 @@
                           id="checkbox-{{$index}}"
                           name="{{.name}}"
                         />
-                        <label class="form-check-label" for="checkbox-{{$index}}"
-                          >{{.content}}</label
-                        >
+                        <label class="form-check-label" for="checkbox-{{$index}}">{{.content}}</label>
                       </div>
                       {{end}}
                     </div>
@@ -88,7 +85,7 @@
                 {{ partial "getDocuments.html" . }}
               </div>
             </div>
-          </div>
+        </a>
         {{ end }}
       </div>
     </div>
