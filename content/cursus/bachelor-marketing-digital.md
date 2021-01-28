@@ -54,7 +54,7 @@ skills:
   - icon: "/images/search.svg"
     title: Imaginatif
     description: Trouver des idées innovantes, encore jamais vues ou toutes récentes
-      en exploitant votre imagination et vos envies.
+      en exploitant votre imaginaire et vos envies.
   - icon: "/images/search.svg"
     title: Ouvert d'esprit
     description: 'Être à l''écoute, prendre en compte les avis de chacun, accepter
