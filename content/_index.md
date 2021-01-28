@@ -70,8 +70,7 @@ cursus:
   subtitle: Le parcours de la Normandie Web School résumé en un schéma.
 reasons:
   enable: true
-  title: Monter en compétences avec des experts métiers et des professionnels reconnus
-    dans le domaine du numérique.
+  title: 5 bonnes raisons d'intégrer la NWS
   item:
   - logo: images/reasons/star.svg
     content: 'Monter en compétences avec des experts métiers et des professionnels
