@@ -37,8 +37,7 @@ about:
 skills:
   enable: true
   title: Les Compétences
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat,
-    sodales ut tempor consequat, fringilla vel libero.
+  subtitle: 'Quelques compétences humaines et non techniques sont requises. '
   item:
   - icon: "/images/creativity.svg"
     title: Créatif
@@ -61,8 +60,10 @@ skills:
       positivement les remarques et critiques pour développer ses compétences et son
       sens du relationnel. '
   - icon: "/images/search.svg"
-    title: Communicant
-    description: ''
+    title: Sachant travailler en équipe
+    description: 'Lors de votre cursus et dans le monde du travail, le travail d''équipe
+      est essentiel. Celui-ci sert à s''organiser, échanger, s''écouter et exploiter
+      les forces de chacun. C''est une qualité indispensable. '
 years:
   enable: true
   item:
