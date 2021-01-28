@@ -180,10 +180,11 @@ years:
         et Post-Mortem d’incidents de sécurité\n<br/> - Modèles d’architecture : VM,
         conteneurs, cloud, Microservices\n<br/> - Défense en profondeur : infrastructure,
         code, humain\n<br/> - Refactoring et tests :  applicatifs et de l'infrastructure"
-    - title: Événementiel
-      content: "- Mise en place et déploiement de la stratégie digitale d’un évènement
-        <br/> - Workflow de Lead Nurturing (scoring, marketing automation, data analysis)
-        \ <br/> - Web TV : création et diffusion de contenu et live vidéo"
+    - title: Événementiel et VR/AR
+      content: |-
+        - Rétro-plannings et organisation
+        <br/> - Collaboration entre agences (marketing, design, code)
+        <br/> - Développement AR/VR avec Unity
     - title: Projet certifiant
       content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
         : allocation de ressources,  planning et budget <br/> - Réalisation et gestion

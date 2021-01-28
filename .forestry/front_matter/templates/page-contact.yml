@@ -74,7 +74,7 @@ fields:
       label: name
   - type: field_group_list
     name: item
-    label: item
+    label: Informations d'ouverture
     fields:
     - type: file
       name: image
@@ -82,5 +82,10 @@ fields:
     - type: text
       name: info
       label: info
+    - name: subInfo
+      type: text
+      config:
+        required: false
+      label: Information complémentaire
 pages:
 - content/contact/_index.md
