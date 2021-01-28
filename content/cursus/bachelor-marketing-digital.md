@@ -11,7 +11,7 @@ description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et per
   en face-à-face et 180H d''apprentissage individualisé en FOAD'
 banner:
   logo: "/images/logo-marketing.png"
-  title: Filière <span="font-weight-medium"> Marketing digital </span>
+  title: Filière <span class="font-weight-medium"> Marketing digital </span>
   image: images/marketing.jpg
   description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
     dans tous les détails du marketing, c''est la clé pour obtenir en fin d''année
