@@ -125,10 +125,12 @@ years:
         transactions, requêtes préparées, procédures stockées\n<br/> - NoSQL : Key-value
         (memcached), Document (mongodb), graph (Neo4j)\n<br/> - Traitement sécurisé
         de formulaires et web services avec PHP et Node.js"
-    - title: Tunnel d'acquisiton
-      content: "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
-        et la visualisation de données, <br/> - La réalisation d'un scoring pour la
-        segmentation <br/> - La mise en place d'un Dashboard dynamique"
+    - title: Développement Cloud
+      content: |-
+        - Modèles Cloud : IaaS, PaaS, SaaS, CaaS, FaaS
+        <br/> - Identité et Accès Cloud (AIM)
+        <br/> - Développement Serverless Amazon AWS : Lambda, API Gateway, S3, DynamoDB, Serverless Application Model  (test, debugging, déploiement, monitoring)
+        <br/> - Réversibilité et Maîtrise avec OpenShif
     - title: Marketing social et vidéo
       content: "- Création d’un tunnel d’acquisition conforme à un plan marketing,
         <br/> - Déploiement d’une stratégie de content marketing web et réseaux sociaux,
