@@ -3,7 +3,7 @@ content = "Aristote disait : “Ce que nous devons apprendre à faire, nous l’
 image = "/images/enzo-do-rozario.jpeg"
 name = "Enzo De Rosario"
 tag = ["cursus", "dev", "a3"]
-title = "A3 spécialité développement, 2020"
+title = "3ème année spécialité développement, 2020"
 type = "testimonial"
 
 +++
