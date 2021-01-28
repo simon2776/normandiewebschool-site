@@ -12,8 +12,7 @@ subjects:
   item:
   - image: "/images/faq.png"
     subject: L'école
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-      erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+    subtitle: 'Organisation, rythme, formations, retrouvez toutes les réponses ici. '
     questions:
     - question: Quelles sont les formations préparant aux métiers du numérique dispensées
         à la Normandie Web School ?
