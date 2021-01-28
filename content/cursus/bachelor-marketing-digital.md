@@ -85,7 +85,7 @@ years:
         <br/> - Audit lexical, search console et analytics <br/> - Analyse d'éco performance
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
-  - button: 2e année marketing
+  - button: 2e année
     title: Programme de la deuxième année marketing
     subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
     etape:
@@ -197,11 +197,11 @@ testimonials:
   filter:
   - marketing
 menu:
-  desktop:
+  main:
     name: Bachelor marketing
     parent: Les cursus
     weight: 2
-  main:
+  desktop:
     name: Bachelor marketing
     parent: Les cursus
     weight: 2
