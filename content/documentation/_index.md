@@ -17,35 +17,7 @@ documents:
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
-    document: "/images/pdf-test.pdf"
-  - icon: "/images/icn-cloud.png"
-    name: Présentation générale de la NWS
-    format: PDF
-    document: ''
-  - icon: "/images/icn-cloud.png"
-    name: Présentation générale de la NWS
-    format: PDF
-    document: ''
-  - icon: "/images/icn-cloud.png"
-    name: Présentation générale de la NWS
-    format: PDF
-    document: ''
-  - icon: "/images/icn-cloud.png"
-    name: Présentation générale de la NWS
-    format: PDF
-    document: ''
-  - icon: "/images/icn-cloud.png"
-    name: Présentation générale de la NWS
-    format: PDF
-    document: ''
-  - icon: "/images/icn-cloud.png"
-    name: Présentation générale de la NWS
-    format: PDF
-    document: ''
-  - icon: "/images/icn-cloud.png"
-    name: Présentation générale de la NWS
-    format: PDF
-    document: ''
+    document: "/images/plaquette-nws-generale.pdf"
 form:
   title: Vos coordonnées
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat,

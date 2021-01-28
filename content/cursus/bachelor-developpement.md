@@ -102,13 +102,13 @@ years:
       web et mobile. '
     etape:
     - title: Algorithmique et applications
-      content: "- Architecture des ordinateurs \n- Logique informatique : variables,
-        boucles, conditions, gestion des erreurs\n- Structures de données “bas niveau”,
-        gestion de la mémoire \n- application en C\n- Programmation Orientée Objet
-        : attributs, méthodes, abstractions\n- Résolution de problèmes et complexité
-        des algorithmes : structures de données avancées, manipulation de chaînes,
-        tri, recherche, récursion - application en Python\n- Documentation notebooks
-        Python"
+      content: "- Architecture des ordinateurs \n<br/> - Logique informatique : variables,
+        boucles, conditions, gestion des erreurs\n<br/> - Structures de données “bas
+        niveau”, gestion de la mémoire \n<br/> - application en C\n<br/> - Programmation
+        Orientée Objet : attributs, méthodes, abstractions\n<br/> - Résolution de
+        problèmes et complexité des algorithmes : structures de données avancées,
+        manipulation de chaînes, tri, recherche, récursion - application en Python\n<br/>
+        - Documentation notebooks Python"
     - title: Référencement naturel et performance web
       content: "- La typologie de contenus et audit lexical, - La réalisation d'un
         prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
