@@ -97,11 +97,10 @@ years:
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
   - button: 2e année
-    title: Programme de la deuxième année de design graphisme
-    subtitle: Si vous aimez la création graphique et produire un contenu très design,
-      alors la spécialité "design graphisme" est faite pour vous. Au programme, un
-      contenu riche et varié à acquérir pour en fin d'année obtenir un titre RNCP
-      de niveau 5 (équivalent au BAC+2) reconnu par l'État.
+    title: Programme de la deuxième année design graphisme
+    subtitle: Apprenez et pratiquez toutes les techniques du design et du graphisme
+      pour devenir un pro du numérique. Voici les compétences et connaissances qui
+      vous seront enseignées
     etape:
     - title: Stratégie Marketing
       content: "- Les étapes de la démarche marketing (analyser planification, suivi),
