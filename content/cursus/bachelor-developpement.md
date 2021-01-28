@@ -97,7 +97,7 @@ years:
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
   - button: 2e année
-    title: Programme de la deuxième année marketing
+    title: Programme de la deuxième année développement web et mobile.
     subtitle: 'Suivez ce programme intensif pour devenir un spécialiste du développement
       web et mobile. '
     etape:
