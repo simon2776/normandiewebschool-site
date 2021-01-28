@@ -170,11 +170,11 @@ years:
         (site et médias) répondant aux besoins <br/> - Estimation des coûts de conception,
         de mise en place et de suivi <br/> - Rédaction d’une proposition technique
         et commerciale"
-    - title: Marketing agile
-      content: "- Mise en oeuvre d’un processus agile associant le client <br/> -
-        Sélection des médias Paid/Owned/Earned <br/> - Création de tunnels optimisés
-        UX/UI <br/> - Réalisation d’un site e-commerce <br/> - Tests, Recettage et
-        validation"
+    - title: Behaviour Driven Development en ASP.NET
+      content: |
+        - Agilité : SCRUM et Extreme Programming
+        <br/> - De PHP/Symfony à C#/ASP.NET
+        <br/> - Behaviour-Driven Development : spécifications exécutables, tests unitaires et d'acceptation, recettage et validation client
     - title: Gestion des Risques et Amélioration Continue
       content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
         : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
