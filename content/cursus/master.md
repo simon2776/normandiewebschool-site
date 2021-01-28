@@ -65,9 +65,10 @@ years:
         master <br/> - Droit de propriété intellectuelle et des nouvelles technologies
         <br/> - Techniques rédactionnelles <br/> - Gestion budgétaire et trésorerie"
     - title: Fidélisation et animation de communauté
-      content: "- Réseaux sociaux et Community Management - Veille et e-reputation
-        - Gestion de crise - Stratégie de profils - Social media Blogging - Stratégie
-        Social media et stratégie d’influence - Référencement SEO/SEM"
+      content: "- Réseaux sociaux et Community Management <br/> - Veille et e-reputation
+        <br/> - Gestion de crise <br/> - Stratégie de profils <br/>- Social media
+        Blogging <br/> - Stratégie Social media et stratégie d’influence <br/>- Référencement
+        SEO/SEM"
   - button: 2e année
     title: Concevez et augmenter vos compétences et connaissances dans le monde du
       numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un expert
