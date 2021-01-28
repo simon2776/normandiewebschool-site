@@ -1,9 +1,11 @@
+image: jojomi/hugo
+
 stages:
   - build
   - deploy
+
 build:
   stage: build
-  image: jojomi/hugo
   script:
   - hugo version
   - git submodule update --init --recursive
@@ -14,6 +16,7 @@ build:
   only:
   - master
   when: manual
+  
 deploy:
   stage: deploy
   script:
@@ -22,5 +25,4 @@ deploy:
     - echo "deployment complete"
   dependencies:
     - build
-  when: manual
 
