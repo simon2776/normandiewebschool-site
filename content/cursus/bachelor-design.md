@@ -140,13 +140,9 @@ years:
     active: ''
   - button: 3e année
     title: Spécialité marketing digital, 3e année
-    subtitle: Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
-      dans tous les détails du marketing, c'est la clé pour obtenir en fin d'année
-      votre titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre
-      au nom d'un d'un chef de projet digital.<br/><br/>Apprenez et pratiquez toutes
-      les techniques du marketing pour devenir un pro du numérique. Voici les compétences
-      et connaissances qui vous seront enseignées afin d'obtenir le statut de chef
-      de projet digital.
+    subtitle: 'Apprenez et pratiquez toutes les techniques du design et du graphisme
+      pour devenir un pro du numérique. Voici les compétences et connaissances qui
+      vous seront enseignées afin d''obtenir le statut de chef de projet digital. '
     etape:
     - title: Entrepreneuriat et innovation
       content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
@@ -159,15 +155,16 @@ years:
         (site et médias) répondant aux besoins <br/> - Estimation des coûts de conception,
         de mise en place et de suivi <br/> - Rédaction d’une proposition technique
         et commerciale"
-    - title: Marketing agile
-      content: "- Mise en oeuvre d’un processus agile associant le client <br/> -
-        Sélection des médias Paid/Owned/Earned <br/> - Création de tunnels optimisés
-        UX/UI <br/> - Réalisation d’un site e-commerce <br/> - Tests, Recettage et
-        validation"
+    - title: Design et Intégration agile
+      content: |-
+        - Mise en oeuvre d’un processus agile associant le client
+        <br/> - Réalisation d’une maquette en fonction de contraintes UX/UI
+        <br/> - Intégration HTML/CSS/ JavaScript éco-performante, accessible et adaptative
+        <br/> - Tests, Recettage et validation
     - title: Gestion des Risques et Amélioration Continue
       content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
         : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
-        - Refonte et optimisation sous contrainte de la Direction Marketing"
+        - Mise-à-jour qualitative de contenus sous contrainte de la Direction Artistique"
     - title: Événementiel
       content: "- Mise en place et déploiement de la stratégie digitale d’un évènement
         <br/> - Workflow de Lead Nurturing (scoring, marketing automation, data analysis)
