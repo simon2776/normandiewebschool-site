@@ -59,10 +59,10 @@ video:
   enable: true
   url: https://www.youtube-nocookie.com/embed/RGglN9NvNs4
   title: La NWS en vidéo
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed arcu
-    porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
-    in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. Nam quis ornare
-    libero. Maecenas maximus placerat est, eu varius est.
+  content: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed
+    arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
+    in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. </p><p><em>Nam
+    quis ornare libero. Maecenas maximus placerat est, eu varius est.</em></p>"
   button: Voir toutes nos vidéos
   href: https://www.youtube.com
 cursus:
