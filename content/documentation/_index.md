@@ -1,5 +1,5 @@
 ---
-title: La Documentation sur l'école
+title: La documentation sur l'école
 date: 2019-05-12T12:14:34.000+06:00
 description: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
 banner:
@@ -17,7 +17,7 @@ documents:
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
-    document: ''
+    document: "/images/pdf-test.pdf"
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF

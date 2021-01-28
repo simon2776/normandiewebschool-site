@@ -17,7 +17,7 @@ banner:
     votre métier ? Alors la spécialité design graphisme est surement faites pour vous
     ! Tout en exerçant votre passion à l''école et en alternance, obtenez en fin d''année
     votre titre RNCP de niveau 6 (équivalent à un Bac+3) en tant que chef de projet
-    digital. Rythme en alternance: 1 semaines en formation et 3  semaines en alternance
+    digital. Rythme en alternance : 1 semaines en formation et 3  semaines en alternance
     en entreprise. <br/> Nombre d''heures  de formations: 455H de formations en face-à-face
     et 180H d''apprentissage individualisé en FOAD.'
   color: color-blue
