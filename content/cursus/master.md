@@ -76,11 +76,12 @@ years:
     subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
     etape:
     - title: Digital marketing et e-commerce
-      content: "- CRM / Stratégie Marketing <br/> - Marketing Digital - Etude de marché
-        - Marketing Mobile - Emailing Newsletter - Google Analytics Affiliation -
-        Data - Diffusion multicanal online et offline Inbound Marketing - Brand content
-        et stratégie de marque Contenu multimédia et transmédia Storytelling - Performance
-        e-commerce et web analytics"
+      content: "- CRM / Stratégie Marketing <br/> - Marketing Digital <br/> - Etude
+        de marché <br/> - Marketing Mobile <br/> - Emailing Newsletter <br/> - Google
+        Analytics Affiliation <br/> - Data <br/> - Diffusion multicanal online et
+        offline Inbound Marketing <br/> - Brand content et stratégie de marque Contenu
+        multimédia et transmédia Storytelling <br/> - Performance e-commerce et web
+        analytics"
     - title: Conception digitale
       content: "- Création de site et application web Ergonomie et comportements utilisateurs
         CMS, vitrine et e-commerce - Hébergement, serveurs Web et cloud Computing"
