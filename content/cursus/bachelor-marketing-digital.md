@@ -1,7 +1,7 @@
 ---
 type: filiere
 layout: filiere
-title: Spécialité Marketing digital
+title: Filière Marketing digital
 date: 2019-05-12T12:14:34.000+06:00
 description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
   dans tous les détails du marketing, c''est la clé pour obtenir en fin d''année votre
@@ -11,7 +11,7 @@ description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et per
   en face-à-face et 180H d''apprentissage individualisé en FOAD'
 banner:
   logo: "/images/logo-marketing.png"
-  title: Spécialité Marketing digital
+  title: Filière <span="font-weight-medium"> Marketing digital </span>
   image: images/marketing.jpg
   description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
     dans tous les détails du marketing, c''est la clé pour obtenir en fin d''année
