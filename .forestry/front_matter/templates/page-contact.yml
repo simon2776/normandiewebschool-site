@@ -72,6 +72,11 @@ fields:
     - type: text
       name: name
       label: name
+  - name: button_text
+    type: text
+    config:
+      required: false
+    label: Texte du bouton
   - type: field_group_list
     name: item
     label: Informations d'ouverture
