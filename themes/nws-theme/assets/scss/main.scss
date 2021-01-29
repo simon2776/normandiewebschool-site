@@ -1651,3 +1651,10 @@ HERO HEADER
     font-size: 0.9rem;
   }
 }
+
+
+#main-404 {
+  min-height: 100vh;
+  background-image: url('/images/assets/404.svg');
+  background-size: cover;
+}
