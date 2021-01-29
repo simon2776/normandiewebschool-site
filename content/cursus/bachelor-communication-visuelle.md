@@ -31,7 +31,7 @@ banner:
     label: Développement
     color: color-yellow
     justify: text-left
-    href: "/cursus/bachelor-developpement"
+    href: "/cursus/bachelor-developpement-web"
 about:
   enable: true
   url: https://www.youtube-noccokie.com/embed/2_sVoCrjQfw

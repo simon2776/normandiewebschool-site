@@ -5,16 +5,18 @@ RewriteRule (.*) %{REQUEST_URI}/ [R=301,L]
 
 RewriteBase /
 
+ErrorDocument 404 /404.html 
+
 Redirect permanent /events/ https://normandiewebschool.fr/agenda/
 Redirect permanent /parcours-achat-emarketing/ https://normandiewebschool.fr/cursus/bachelor-marketing-digital/
 Redirect permanent /recrutement-un-developpeur-web-alternance/ https://normandiewebschool.fr/entreprises/
 Redirect permanent /alternance-solution-poursuivre-etudes/ https://normandiewebschool.fr/entreprises/
-Redirect permanent /metiers-webdesign-web-designer/ https://normandiewebschool.fr/cursus/bachelor-design/
+Redirect permanent /metiers-webdesign-web-designer/ https://normandiewebschool.fr/cursus/bachelor-communication-visuelle/
 Redirect permanent /recrutement-community-manager-alternance/ https://normandiewebschool.fr/cursus/bachelor-marketing-digital/
 Redirect permanent /recrutement-developpeur-web-alternance/ https://normandiewebschool.fr/cursus/bachelor-developpement-web/
 Redirect permanent /metier-administrateur-systeme-reseau/ https://normandiewebschool.fr/cursus/bachelor-developpement-web/
 Redirect permanent /metiers-marketing-digital/ https://normandiewebschool.fr/cursus/bachelor-marketing-digital/
-Redirect permanent /metiers-cybersecurite/ https://normandiewebschool.fr/cursus/bachelor-developpement/
+Redirect permanent /metiers-cybersecurite/ https://normandiewebschool.fr/cursus/bachelor-developpement-web/
 Redirect permanent /alternance-choisir-un-contrat-de-professionnalisation-un-contrat-dapprentissage-ou-un-stage-alterne/ https://normandiewebschool.fr/entreprises/
 Redirect permanent /nous-contacter/ https://normandiewebschool.fr/contact
 Redirect permanent /bachelor-developpeur-web/ https://normandiewebschool.fr/cursus/bachelor-developpement-web/

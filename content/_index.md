@@ -45,7 +45,7 @@ filieres:
     to: Jusqu'au bac +3
     color: color-blue
     logo: images/logo-design.png
-    href: "/cursus/bachelor-design/"
+    href: "/cursus/bachelor-communication-visuelle/"
   - title: Filière Développement
     content: |-
       Passioné par le monde technique vous allez développer des logiciels , des sites web et des applications.
@@ -54,7 +54,7 @@ filieres:
     to: Jusqu'au bac +3
     color: color-yellow
     logo: images/logo-dev.png
-    href: "/cursus/bachelor-developpement/"
+    href: "/cursus/bachelor-developpement-web/"
 video:
   enable: true
   url: https://www.youtube-nocookie.com/embed/ccknowo-xF0
