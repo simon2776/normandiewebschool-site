@@ -41,6 +41,7 @@ cursus:
     color: color-yellow
     images:
     - url: "/images/logo_nws.png"
+      alt: 1ère année Normandie Web School
   - title: Spécialisations
     content: 'Après une première année riche en partage de connaissances et de compétences,
       une possibilité s''offre à tous les étudiants : choisir sa spécialisation. Chacun
@@ -52,8 +53,11 @@ cursus:
     color: color-blue
     images:
     - url: "/images/logo-marketing.png"
+      alt: ''
     - url: "/images/logo-design.png"
+      alt: ''
     - url: "/images/logo-dev.png"
+      alt: ''
   - title: Master
     content: Après avoir reçu votre diplôme en tant que chef de projet digital ou
       ayant déjà un Bac+3 dans le domaine de la communication ou du numérique, la
@@ -65,6 +69,7 @@ cursus:
     color: color-orange
     images:
     - url: "/images/logo-isd.png"
+      alt: ''
 filieres:
   enable: true
   title: Le cursus en infographie
