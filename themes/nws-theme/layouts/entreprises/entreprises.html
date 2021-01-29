@@ -89,6 +89,28 @@
 {{ end }}
 
 {{ if .Params.partners.enable }}
+{{ $collab := where .Site.RegularPages "Type" "in" "collaborateurs" }}
+
+<section class="bg-lightgrey section pt-0 d-none d-lg-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {{ with .Params.partners }}
+            <h3 class="text-center with-separator-lg-left text-lg-left title-medium color-orange my-5">
+                {{.title}}
+            </h3>
+          {{ end }}
+
+          <div class="row">
+            {{ range $collab }}
+              {{ partial "partner.html" . }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
 {{ with .Params.partners }}
 <section class="section pt-0 bg-lightgrey d-block d-lg-none">
     <div class="container">
@@ -108,14 +130,21 @@
                             <p class="mb-4">
                                 {{.subtitle}}
                             </p>
-                            {{ range .item }}
-                                <img src="{{.logo}}" alt="">
-                            {{ end }}
+{{ end }}
+                       <!-- <div class="row">
+                              {{ range $collab }}
+                              <div class="col-6 my-5 d-flex justify-content-center align-items-center">
+                                <img src="{{ .Params.Image | relURL }}" alt="{{ .Params.Name }}" class="w-75 mx-auto">
+                              </div>
+                              {{ end }}
+                            </div>
                             <div class="row mt-5">
                                 <div class="col-12 d-flex justify-content-center">
                                 <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher toutes les entreprises</a>
                                 </div>
-                            </div>
+                            </div> -->
+                            {{ partial "getCollaborateurs.html" . }}
+
                         </div>
                     </div>
                 </div>
@@ -124,7 +153,6 @@
     </div>
 </section>
 {{ end }}
-{{ end }}
 
 <script>
   const textWrappers = document.querySelectorAll(".shortenedText")
@@ -132,12 +160,9 @@
 
   textWrappers.forEach(wrapper => {
     let text = wrapper.innerHTML
-    console.log(text.length)
     if(text.length > 300) {
       text = text.substring(0, 300);
       text = text.replace(/\w+$/, '...');
-      console.log(text)
-      console.log(text.length)
 
       text += '<a href="#" ' +
               'onclick="this.parentNode.innerHTML=' +
