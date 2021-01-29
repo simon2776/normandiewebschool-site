@@ -77,8 +77,8 @@ form:
     info: 02.79.02.73.78
     subInfo: 'Lun - Ven : 8h30-18h'
   - image: "/images/icn-marker-blue.png"
-    info: Seine Innopolis <br/> 72 rue de la République <br/> 76140 Le Petit-Quevilly
-    subInfo: ''
+    info: Seine Innopolis
+    subInfo: 72 rue de la République <br/> 76140 Le Petit-Quevilly
   button_text: Envoyer le message
   inscription_button_text: S'inscrire
 menu:
