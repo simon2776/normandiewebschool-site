@@ -37,11 +37,12 @@
         clip-path: polygon(0 40vh, 100% 20vh, 100% 100%, 0% 100%) !important;
       }
   }
-  .colorBlocks.clip-bottom-lightgrey {
+ 
+  .clip-bottom-lightgrey {
     &:after {
-      height: 10vh !important;
+      height: 180px;
+      clip-path: polygon(0 100%, 100% 0%, 100% 100%, 0% 100%);
     }
-
   }
 }
 // Large devices (desktops, 992px and up)
