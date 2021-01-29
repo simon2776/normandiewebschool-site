@@ -29,7 +29,7 @@
 @media (max-width: 992px) {
   .clip-top-white {
     &:after {
-      clip-path: polygon(0 40%, 100% 0%, 100% 0, 0 0) !important;
+      clip-path: polygon(0 40%, 100% 20%, 100% 0, 0 0) !important;
     }
   }
   #profession.clip-bottom-lightgrey{
