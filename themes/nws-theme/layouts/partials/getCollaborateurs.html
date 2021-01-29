@@ -10,7 +10,7 @@
             })
       {{end}}
 
-      let max = 6
+      let max = 5
 
       const displayEvents = (max) => {
         let html = ''
@@ -26,9 +26,9 @@
 
         document.querySelector('#collab').innerHTML = html
 
-        if(lastIndex == obj.length - 1) {
+        if(lastIndex == data.length - 1) {
             document.querySelector('#more').style.display = 'none'
-            max = obj.length - 1
+            max = data.length - 1
         }
       }
       displayEvents(max)
@@ -38,7 +38,7 @@
     })
 
     const moreEvents = () => {
-        max = obj.length
+        max = data.length
         displayEvents(max)
     }
   }
