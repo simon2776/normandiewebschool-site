@@ -34,9 +34,9 @@ banner:
     href: "/cursus/bachelor-developpement"
 about:
   enable: true
-  url: https://www.youtube.com/embed/RGglN9NvNs4
-  description: BAC+1 dans le domaine communication / multimédia / Développement informatique
-    / Infographie <br/> BAC+ Expérience professionnelle
+  url: https://www.youtube-noccokie.com/embed/2_sVoCrjQfw
+  description: Sarah Kugel et Simon Lecoeur, tous deux intervenants à la Normandie
+    Web School, vous explique en quoi consiste la filière Web Design.
 skills:
   enable: true
   title: Les Compétences
