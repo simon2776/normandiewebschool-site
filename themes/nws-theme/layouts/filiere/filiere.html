@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-md-12 second-push-top">
                 <div class="card filiere-intro">
-                    <img src="{{.logo}}" alt="" class="logo w-20 w-lg-50 m-auto"/>
+                    <img src="{{.logo}}" alt="{{.title}}" class="logo w-20 w-lg-50 m-auto"/>
 
                     <div class="card-header">
                         <h1 class="my-3 my-lg-0 title-medium {{.color}} separator-left separator-lg-block w-100 text-center text-lg-left">{{ .title | safeHTML }}</h1>
@@ -100,7 +100,7 @@
                                 {{ range .item }}
                                     <div class="col-12 col-lg-4 d-flex flex-column align-items-center skill mt-5">
                                     <div class="icon mb-3">
-                                        <img src="{{.icon}}" alt="">
+                                        <img src="{{.icon}}" alt="{{.title}}">
                                     </div>
                                     <h3 class="text-center mb-3">{{.title}}</h3>
                                     <p>{{.description | markdownify }}</p>
