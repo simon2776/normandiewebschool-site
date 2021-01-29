@@ -127,6 +127,7 @@ testimonials:
   enable: true
   filter:
   - design
+seo_image: ''
 menu:
   desktop:
     name: Master Expert digital
