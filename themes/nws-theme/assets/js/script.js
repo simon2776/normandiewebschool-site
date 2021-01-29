@@ -136,5 +136,47 @@
     });
   }
 
+  /*
+  Formulaire de contact
+   */
+  $("#ajaxForm").submit(function(e){
+    e.preventDefault();
+    var action = $(this).attr("action");
 
+    let button_text = $("#ajaxForm button").text();
+    $("#ajaxForm button").attr('disabled', true);
+    $("#ajaxForm button").text('Chargement...', true);
+
+    $.ajax({
+      type: "POST",
+      url: action,
+      crossDomain: true,
+      data: new FormData(this),
+      dataType: "json",
+      contentType: "multipart/form-data",
+      processData: false,
+      headers: {
+        "Accept": "application/json"
+      }
+    }).done(function() {
+      $('.success').addClass('is-active');
+
+      $("#ajaxForm")[0].reset();
+
+      $("#ajaxForm").prepend(
+          $("<div class=\"alert alert-success\" role=\"alert\">\n" +
+              "  Merci, votre message a bien été envoyé \n" +
+              "</div>")
+      )
+    }).fail(function() {
+      $("#ajaxForm").prepend(
+          $("<div class=\"alert alert-error\" role=\"alert\">\n" +
+              " Oups, une erreur est survenue.. \n" +
+              "</div>")
+      )
+    })/*.always(function(){
+      $("#ajaxForm button").attr('disabled', false);
+      $("#ajaxForm button").text(button_text);
+    });*/
+  });
 })(jQuery);
