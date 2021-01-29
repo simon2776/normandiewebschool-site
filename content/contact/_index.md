@@ -80,7 +80,7 @@ form:
     info: Seine Innopolis
     subInfo: 72 rue de la République <br/> 76140 Le Petit-Quevilly
   button_text: Envoyer le message
-  inscription_button_text: S'inscrire
+  inscription_button_text: Entretien pédagogique
 menu:
   main:
     name: Contact
