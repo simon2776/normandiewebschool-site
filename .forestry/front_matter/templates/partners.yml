@@ -20,7 +20,6 @@ fields:
     maxSize: 64
   label: Image
 pages:
-- content/partners/CatchArts.md
 - content/partners/cci-normandie.md
 - content/partners/cfa-academique.md
 - content/partners/isd-flaubert.md
