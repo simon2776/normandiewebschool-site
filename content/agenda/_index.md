@@ -10,8 +10,8 @@ banner:
   image: "/images/agenda_bg.jpg"
 event:
   enable: true
-  title_first: Nos prochains événements
-  title_second: Le calendrier des événements
+  title_first: Le calendrier des événements
+  title_second: Nos prochains événements
   month:
   - label: Janvier 2021
     item:
