@@ -70,7 +70,8 @@ cursus:
   subtitle: Le parcours de la Normandie Web School résumé en un schéma.
 reasons:
   enable: true
-  title: Monter en compétences avec des experts métiers et des professionnels reconnus
+  title: Cinq bonnes raisons d'intégrer la School 
+  subtitle: Monter en compétences avec des experts métiers et des professionnels reconnus
     dans le domaine du numérique.
   item:
   - logo: images/reasons/star.svg

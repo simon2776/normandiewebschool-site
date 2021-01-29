@@ -17,11 +17,11 @@
             if(i > max ) return
             html = html + `<a href="${event.href}">
                             <div class="row event mb-2">
-                              <div class="date col-4 d-flex flex-column justify-content-center">
-                                  <p class="font-weight-bold">${event.date}</p>
-                                  <p>${event.start} - ${event.end}</p>
+                              <div class="date col-4 d-flex flex-column justify-content-center pl-0">
+                                  <p class="font-weight-bold text-center">${event.date}</p>
+                                  <p class="text-center">${event.start} - ${event.end}</p>
                               </div>
-                              <div class="desc col-8 d-flex flex-column justify-content-center">
+                              <div class="desc col-8 d-flex flex-column justify-content-center pr-0">
                                   <p class="font-weight-bold">${event.name}</p>
                                   <p>${event.localisation}</p>
                               </div>
