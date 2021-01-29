@@ -57,7 +57,7 @@ filieres:
     href: "/cursus/bachelor-developpement/"
 video:
   enable: true
-  url: https://www.youtube.com/watch?v=ccknowo-xF0&ab_channel=NormandieWebSchool
+  url: https://youtu.be/ccknowo-xF0
   title: La NWS en vidéo
   content: "<p>Qu'est ce que la Normandie Web School ? Que propose cette école à 100%
     orientée vers le numérique ? Le directeur, l'équipe pédagogique et les intervenants
