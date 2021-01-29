@@ -8,5 +8,3 @@ fields:
 - type: file
   name: image
   label: image
-pages:
-- content/collaborateurs/themecloud.md
