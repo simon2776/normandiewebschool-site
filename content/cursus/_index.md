@@ -53,11 +53,11 @@ cursus:
     color: color-blue
     images:
     - url: "/images/logo-marketing.png"
-      alt: ''
+      alt: Marketing Normandie Web School
     - url: "/images/logo-design.png"
-      alt: ''
+      alt: Design Normandie Web School
     - url: "/images/logo-dev.png"
-      alt: ''
+      alt: Développement Web Normandie Web School
   - title: Master
     content: Après avoir reçu votre diplôme en tant que chef de projet digital ou
       ayant déjà un Bac+3 dans le domaine de la communication ou du numérique, la
