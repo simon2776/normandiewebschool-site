@@ -45,5 +45,6 @@ content: |-
   ## Transmission de vos données personnelles
 
   Les commentaires des visiteurs peuvent être vérifiés à l’aide d’un service automatisé de détection des commentaires indésirables.
+noindex: true
 
 ---
