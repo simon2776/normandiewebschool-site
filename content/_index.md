@@ -13,7 +13,7 @@ banner:
 about:
   enable: true
   title: Quelques mots sur l'école
-  image: images/sitapha-cours.png
+  image: "/images/home_round.jpg"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
     Privée qui forme en 3 ou 5 ans aux métiers du numérique (développement web, du
     web design et du marketing digital...) et amène vers un titre d’état (RNCP). </p><p>Notre
