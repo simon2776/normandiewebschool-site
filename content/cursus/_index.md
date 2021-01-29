@@ -1,10 +1,10 @@
 ---
 title: L'enseignement à la NWS
 type: page
-description: "La Normandie Web School propose un cursus riche et varié privilégiant
+description: 'La Normandie Web School propose un cursus riche et varié privilégiant
   la mise en pratique des compétences tout en garantissant un solide apport théorique.
-  \nLe cursus se divise en 3 spécialisations métiers : développement, web design et
-  communication visuelle et marketing digital."
+  Le cursus se divise en 3 spécialisations métiers : développement, web design et
+  communication visuelle et marketing digital.'
 banner:
   title: Nos <span class="font-weight-medium">Cursus</span>
   title-line-twho: ''
@@ -119,6 +119,7 @@ filieres:
 testimonials:
   enable: true
   testimonails: []
+seo_image: "/images/meta-generale.jpg"
 menu:
   main:
     name: Cursus intital
