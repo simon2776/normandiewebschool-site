@@ -10,7 +10,7 @@ banner:
 subjects:
   enable: true
   item:
-  - image: "/images/faq.png"
+  - image: "/images/faq-ecole-round.png"
     subject: L'école
     subtitle: 'Organisation, rythme, formations, retrouvez toutes les réponses ici. '
     questions:
@@ -64,7 +64,7 @@ subjects:
         de projets clients et la rencontre de professionnels venant partager leur
         expérience, ils participent au parcours professionnalisant de l’étudiant,
         lui permettant de se constituer un CV et un réseau.</p>"
-  - image: "/images/faq.png"
+  - image: "/images/faq-programme-round.png"
     subject: Le programme
     subtitle: 'Des questions sur les programmes ? Voici les réponses. '
     questions:
@@ -87,7 +87,7 @@ subjects:
         infographiste, réalisateur vidéo, motion designer, UI designer, intégrateur
         web, … </p><p>Marketing digital : community manager, Ux designer, category
         manager, web marketer, chargé de référencement, content manager, …</p>"
-  - image: "/images/faq.png"
+  - image: "/images/faq-admission-round.png"
     subject: Les admissions
     subtitle: 'Comment se déroulent les admissions ? Quelles en sont les conditions
       ? Retrouvez toutes nos réponses ici. '

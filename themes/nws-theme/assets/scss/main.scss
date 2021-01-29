@@ -473,13 +473,13 @@ SPECIFIC
     padding-top: 0;
 
     p {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
     }
 
     @media (max-width: 992px) {
 
       p {
-        font-size: 1rem;
+        font-size: 1.3srem;
       }
 
       div:first-child {
@@ -1253,14 +1253,18 @@ HERO HEADER
     p {
       color: #fff;
       margin: 0;
-      font-size: 0.5rem;
-
-      @media (min-width: 380px) {
-        font-size: 0.6rem;
-      }
+      font-size: 0.7rem;
 
       @media (min-width: 400px) {
         font-size: 0.7rem;
+      }
+
+      @media (min-width: 500px) {
+        font-size: 0.8rem;
+      }
+
+      @media (min-width: 768px) {
+        font-size: 0.9rem;
       }
     }
   }
@@ -1287,6 +1291,8 @@ HERO HEADER
     padding: 10px;
 
     .desc {
+      width: calc(100% - 45px);
+      padding-right: 10px;
       p {
         color: #fff;
         margin: 0;
@@ -1309,6 +1315,13 @@ HERO HEADER
     }
 
     .icon {
+      width: 35px;
+      margin-left: 10px;
+      img {
+        width: 80%;
+        margin: auto;
+      }
+
       p {
         color: #fff;
         margin: 0;
@@ -1630,4 +1643,10 @@ HERO HEADER
 
 .icon-faq {
   display: block !important;
+}
+
+#more {
+  @media(max-width: 1199px) {
+    font-size: 0.9rem;
+  }
 }
