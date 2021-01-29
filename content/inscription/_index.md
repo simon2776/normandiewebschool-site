@@ -1,11 +1,11 @@
 ---
-title: Candidatez à la <span class="font-weight-medium">NWS</span>
+title: Candidatez à la NWS
 date: 2019-05-12T12:14:34.000+06:00
 description: 'Pour candidater : demander un entretien pédagogique. Vous serez invité
   à l''une de nos sessions d''information.'
 global: ''
 banner:
-  title: Candidatez à la NWS
+  title: Candidatez à la <span class="font-weight-medium">NWS</span>
   title-line-twho: ''
   subtitle: Vous aurez un entretien avec un membre de l'équipe pédagogique. Venez
     avec votre CV.
