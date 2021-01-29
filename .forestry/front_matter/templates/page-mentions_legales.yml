@@ -13,6 +13,6 @@ fields:
   type: boolean
   label: noindex
   default: true
-  hidden: true
+  hidden: false
 pages:
 - content/mentions-legales/_index.md
