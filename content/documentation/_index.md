@@ -3,7 +3,7 @@ title: La documentation sur l'école
 date: 2019-05-12T12:14:34.000+06:00
 description: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
 banner:
-  title: Accédez à la documentation
+  title: Accédez à la <span class="font-weight-medium">documentation</span>
   title-line-twho: ''
   subtitle: 'Remplissez les champs ci-dessous pour avoir accès à notre plaquette et
     les fiches programmes de l''école. '
