@@ -4,28 +4,53 @@
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
-  <link rel="dns-prefetch" href="{{ .Site.BaseURL }}">
-  <link rel="preconnect" href="{{ .Site.BaseURL }}">
-  <link rel="canonical" href="{{ .Site.BaseURL }}"/>
+  <link rel="dns-prefetch" href="{{ .Site.BaseURL }}"/>
+  <link rel="preconnect" href="{{ .Site.BaseURL }}"/>
+  <link rel="canonical" href="https://normandiewebschool.fr{{ .RelPermalink }}"/>
+
+  <meta name="google" content="nositelinkssearchbox">
+  <link rel="canonical" href="URL" />
   <!-- open graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ .Site.Title }}"/>
   <meta property="og:description" content="{{ .Site.Params.description }}"/>
   <meta property="og:site_name" content="{{ .Site.Title }}"/>
-  <meta property="og:url" content="{{ .Site.BaseURL }}"/>
+
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://normandiewebschool.fr{{ .RelPermalink }}">
+  <meta property="twitter:title" content="{{ .Site.Title }}">
+  <meta property="twitter:description" content="{{ .Site.Params.description }}">
+
+  <link rel="canonical" href="https://normandiewebschool.fr{{ .RelPermalink }}"/>
   <meta property="og:locale" content="fr">
   {{ if .Params.noindex }}
   <meta name="robots" content="noindex" /> 
   {{ end }}
-  {{ if .Params.og_image }} {{ else }} {{ end }}
+
+  {{ if .Params.seo_image }} 
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.seo_image }}">
+  <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.seo_image }}">
+  {{ else }}
+  <meta property="og:image" content="https://normandiewebschool.fr/images/meta-generale.jpg">
+  <meta property="twitter:image" content="https://normandiewebschool.fr/images/meta-generale.jpg">
+  {{ end }}
+
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}/images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="{{ .Site.BaseURL }}/images/favicon/favicon.png" type="image/png">
+  <link rel="icon" sizes="16x16" href="{{ .Site.BaseURL }}/images/favicon/favicon-16x16.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="{{ .Site.BaseURL }}/images/favicon/favicon-32x32.png" type="image/png">
+  <link rel="icon" sizes="96x96" href="{{ .Site.BaseURL }}/images/favicon/favicon-96x.png" type="image/png">
+  <link rel="icon" sizes="310x310" href="{{ .Site.BaseURL }}/images/favicon/favicon-310x310.png" type="image/png">
 
   {{ hugo.Generator }}
 
+  {{ print .Site }}
   <style>
     :root{
       --primary-color:{{ .Site.Params.theme_color }};

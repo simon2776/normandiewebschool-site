@@ -115,7 +115,6 @@ partners:
 testimonials:
   enable: true
 image: "/images/meta-generale.jpg"
-seo-image: "/images/meta-generale.jpg"
 seo_image: "/images/meta-generale.jpg"
 
 ---
