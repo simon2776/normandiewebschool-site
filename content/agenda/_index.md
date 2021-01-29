@@ -10,8 +10,8 @@ banner:
   image: "/images/agenda_bg.jpg"
 event:
   enable: true
-  title_first: '....'
-  title_second: '....'
+  title_first: "...."
+  title_second: "...."
   month:
   - label: Janvier 2021
     item:
