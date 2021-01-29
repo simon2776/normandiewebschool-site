@@ -27,7 +27,7 @@ about:
     l'obtention du diplôme \"Chef de projet digital\". \n\nAprès ces trois années,
     s'il le désire l'étudiant peut intégrer le Master \"Expert Digital\" et développer
     encore plus ses compétences et ses connaissances en matière de numérique."
-  image: "/images/sitapha-cours.png"
+  image: "/images/cursus-round.png"
 cursus:
   enable: true
   item:
@@ -80,27 +80,34 @@ filieres:
     arrowImage: "/images/arrow-down.svg"
     link: "#"
   - image: true
-    specilisation: 
-      - bulle: "/images/marketing.svg"
-        title: Spécialisation Marketing
-        color: color-orange
-        content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
-          Vous avez le choix entre développement web, design graphique ou marketing digital.
-        link: "#"
-      - bulle: "/images/logo-dev.png"
-        title: Spécialisation Développement
-        color: color-yellow
-        content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
-          Vous avez le choix entre développement web, design graphique ou marketing digital.
-        link: "#"
-      - bulle: "/images/logo-design.png"
-        title: Spécialisation Design
-        color: color-blue
-        content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
-          Vous avez le choix entre développement web, design graphique ou marketing digital.
-        link: "#"
+    specilisation:
+    - bulle: "/images/marketing.svg"
+      title: Spécialisation Marketing
+      color: color-orange
+      content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
+        Vous avez le choix entre développement web, design graphique ou marketing
+        digital.
+      link: "#"
+    - bulle: "/images/logo-dev.png"
+      title: Spécialisation Développement
+      color: color-yellow
+      content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
+        Vous avez le choix entre développement web, design graphique ou marketing
+        digital.
+      link: "#"
+    - bulle: "/images/logo-design.png"
+      title: Spécialisation Design
+      color: color-blue
+      content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
+        Vous avez le choix entre développement web, design graphique ou marketing
+        digital.
+      link: "#"
     arrow: true
     arrowImage: "/images/arrow-down.svg"
+    bulle: ''
+    title: ''
+    content: ''
+    link: ''
   - image: false
     bulle: 4e & 5e année
     title: Master "Expert Digital"
@@ -113,13 +120,13 @@ testimonials:
   enable: true
   testimonails: []
 menu:
+  main:
+    name: Cursus intital
+    parent: Les cursus
+    weight: 1
   desktop:
     name: Étudier à la NWS
     URL: cursus
-    parent: Les cursus
-    weight: 1
-  main:
-    name: Cursus intital
     parent: Les cursus
     weight: 1
 
