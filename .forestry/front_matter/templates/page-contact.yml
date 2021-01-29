@@ -2,15 +2,14 @@
 label: page-contact
 hide_body: true
 fields:
-- type: text
-  name: title
-  label: title
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 - type: datetime
   name: date
   label: date
-- type: text
-  name: description
-  label: description
 - type: field_group
   name: banner
   label: banner
