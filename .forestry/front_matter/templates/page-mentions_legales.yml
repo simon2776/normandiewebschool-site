@@ -5,5 +5,14 @@ fields:
 - type: textarea
   name: content
   label: content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- name: noindex
+  type: boolean
+  label: noindex
+  default: true
+  hidden: true
 pages:
 - content/mentions-legales/_index.md

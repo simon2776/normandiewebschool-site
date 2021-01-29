@@ -4,6 +4,15 @@ hide_body: true
 fields:
 - type: textarea
   name: content
-  label: content
+  label: Contenu
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- name: noindex
+  type: boolean
+  label: noindex
+  default: true
+  hidden: true
 pages:
 - content/politique-de-confidentialite/_index.md
