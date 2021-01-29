@@ -2,15 +2,15 @@
 label: page-agenda
 hide_body: true
 fields:
-- name: seo
-  type: include
-  config: {}
-  template: seo
-  label: SEO
+- type: text
+  name: title
+  label: title
 - type: text
   name: type
   label: type
-  hidden: true
+- type: text
+  name: description
+  label: description
 - type: field_group
   name: banner
   label: banner
@@ -34,6 +34,12 @@ fields:
   - type: boolean
     name: enable
     label: enable
+  - type: text
+    name: title_first
+    label: title_first
+  - type: text
+    name: title_second
+    label: title_second
   - type: field_group_list
     name: month
     label: month

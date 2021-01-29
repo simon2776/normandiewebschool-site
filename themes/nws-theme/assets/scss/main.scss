@@ -77,8 +77,7 @@ END GDISPLAY
     right: 0;
     width: 100%;
     background: var(--lightgrey);
-    clip-path: polygon(0 30%, 100% 50%, 100% 100%, 0% 100%);
-
+    clip-path: polygon(0 100%, 100% 20%, 100% 100%, 0% 100%);
   }
 }
 
@@ -274,6 +273,7 @@ CARD COMPONENT
       h#{$i} {
         font-size: 2em;
         line-height: 1.5em;
+        font-weight: 500;
       }
 
       button,
@@ -1563,9 +1563,16 @@ HERO HEADER
   }
 
   &.clip-bottom-lightgrey {
+    &:after {
+      height: 150px;
+      clip-path: polygon(0 100%, 100% 20%, 100% 100%, 0% 100%);
+    }
+
+    @media(min-width:992px) {
       &:after {
-        height: 15%;
+        height: 200px;
         clip-path: polygon(0 100%, 100% 0%, 100% 100%, 0% 100%);
+      }
     }
   }
 
@@ -1624,13 +1631,6 @@ HERO HEADER
     background-image: url('/images/assets/background-shapes.svg');
     background-size: cover;
     background-position: center;
-  }
-
-  &.clip-bottom-lightgrey {
-    &:after {
-      height: 15%;
-      clip-path: polygon(0 100%, 100% 0%, 100% 100%, 0% 100%);
-    }
   }
 }
 
