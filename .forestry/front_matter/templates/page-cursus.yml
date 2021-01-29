@@ -2,20 +2,15 @@
 label: page-cursus
 hide_body: true
 fields:
-- type: text
-  name: title
-  label: title
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 - type: text
   name: type
   label: type
   hidden: true
-- type: textarea
-  name: description
-  label: description
-  config:
-    wysiwyg: true
-    schema:
-      format: html-blocks
 - type: field_group
   name: banner
   label: Bannière
