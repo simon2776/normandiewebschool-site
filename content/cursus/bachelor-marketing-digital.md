@@ -35,9 +35,8 @@ banner:
 about:
   enable: true
   url: https://www.youtube-nocookie.com/embed/xtPX3Qgsg48
-  description: |-
-    BAC+1 dans le domaine communication / multimédia / Développement informatique / Infographie
-    BAC+ Expérience professionnelle
+  description: Romain Comoretto, intervenant auprès de la filière marketing digital,
+    vous explique en quoi elle consiste.
 skills:
   enable: true
   title: Les Compétences
