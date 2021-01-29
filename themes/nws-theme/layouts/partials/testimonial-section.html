@@ -10,19 +10,25 @@
                     <ol class="carousel-indicators">
                         {{ $firstIndex := 0 }}
                         {{ $.context.Scratch.Add "x" 0 }}
+                        
+                        {{ $.context.Scratch.Add "slideNb" 0}}
 
                         {{ range $index, $value := $testimonials }}
-                        {{ $testimonial := . }}
+                            {{ $testimonial := . }}
 
-                        {{ range .Params.Tag }}
-                        {{ $name := . }}
-                        {{ if (in $.filter $name) }}
-                        {{ $x := $.context.Scratch.Get "x" }}
-                        {{ if (eq $x 0) }} {{ $.context.Scratch.Add "x" $index }} {{ end }}
-                        {{ $x := $.context.Scratch.Get "x" }}
-                        <li data-target="#testimonalsCarouselIndicator" data-slide-to="{{$index}}" class="{{ if (eq $index $x )}}active{{end}}"></li>
+                            {{ range .Params.Tag }}
+                            {{ $name := . }}
+                            {{ if (in $.filter $name) }}
+                                {{ $x := $.context.Scratch.Get "x" }}
+                                {{ $slideNb := $.context.Scratch.Get "slideNb" }}
+                                {{ if (eq $x 0) }} {{ $.context.Scratch.Add "x" $index }} {{ end }}
+                                {{ $x := $.context.Scratch.Get "x" }}
+                                <li data-target="#testimonialsCarousel" data-slide-to="{{$slideNb}}" class="{{ if (eq $index $x )}}active{{end}}"></li>
+                            
+                                {{ $.context.Scratch.Add "slideNb" 1}}
+                                {{ end }}
                         {{ end }}
-                        {{ end }}
+
                         {{ end }}
                     </ol>
 
