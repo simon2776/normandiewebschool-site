@@ -74,7 +74,7 @@
                     <li class="w-50 pl-2">{{.to}}</li>
                   </ul>
 
-                  <a class="btn {{ .color }} mt-5 pt-2 pb-2 pl-5 pr-5 mb-10" href="{{.href}}">
+                  <a class="btn {{ .color }} mt-5 pt-2 pb-2 pl-5 pr-5 mb-10" href="{{.href}}" title="Découvrir">
                       Découvrir
                   </a>
                 </div>
@@ -87,7 +87,7 @@
 
       <div class="row py-4 mt-5 d-block d-lg-none">
         <div class="col-12 d-flex justify-content-center">
-          <a href="{{ .Site.BaseURL }}/inscription/" class="btn font-weight-medium color-blue pt-3 pb-3 pl-4 pr-4">Entretien pédagogique</a>
+          <a href="{{ .Site.BaseURL }}/inscription/" class="btn font-weight-medium color-blue pt-3 pb-3 pl-4 pr-4" title="Demander un entretien pédagogique">Entretien pédagogique</a>
         </div>
       </div>
     </div>
@@ -109,12 +109,12 @@
         <div class="col-12 col-custom-6 text-center text-custom-left">
           <h3 class="title-medium color-orange  with-separator-custom-left">{{ .title }}</h3>
           <p>{{ .content | safeHTML }}</p>
-          <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-none" href="{{ .href }}">
+          <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-none" href="{{ .href }}" title="{{.button}}">
             {{ .button }}
           </a>
         </div>
       </div>
-      <a class="btn color-orange mt-5 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-block" href="{{ .href }}" target="_blank">
+      <a class="btn color-orange mt-5 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-block" href="{{ .href }}" target="_blank" title="{{.button}}">
         {{ .button }}
       </a>
     </div>
@@ -130,7 +130,7 @@
         <div class="col-12 text-center text-lg-left mt-5 lg-absolute">
           <h3 class="title-medium color-orange  with-separator-lg-left">{{ .title }}</h3>
           <p>{{ .subtitle }}</p>
-          <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 d-none fit d-lg-block" href="/cursus">
+          <a title="En savoir plus" class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 d-none fit d-lg-block" href="/cursus">
             En savoir plus
           </a>
 
@@ -165,7 +165,7 @@
 
       <div class="row d-block d-lg-none">
         <div class="col-12 d-flex justify-content-center mt-4">
-          <a href="{{ .Site.BaseURL }}/cursus/" class="btn font-weight-medium color-orange mt-5 mb-3 pt-3 pb-3 pl-4 pr-4">Découvrir tous nos cursus</a>
+          <a title="Découvrir les cursus à la NWS" href="{{ .Site.BaseURL }}/cursus/" class="btn font-weight-medium color-orange mt-5 mb-3 pt-3 pb-3 pl-4 pr-4">Découvrir tous nos cursus</a>
         </div>
       </div>
     </div>
