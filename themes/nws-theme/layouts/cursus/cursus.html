@@ -17,7 +17,7 @@
   <!-- Nos cursus -->
   {{ if .Params.cursus.enable }}
   {{ with .Params.cursus }}
-  <section class="py-5 bg-lightgrey clip-bottom-white overflow-hidden " id="cursus">
+  <section class="pt-5 bg-lightgrey clip-bottom-white overflow-hidden " id="cursus">
     <div class="container">
       {{ partial "components/wavy-title" (dict "context" . "title" "Nos cursus") }}
 
@@ -30,8 +30,8 @@
               </div>
 
               <div>
-                <div class="card-body">
-                  <p class=mb-130>
+                <div class="card-body mb-200">
+                  <p>
                     {{.content | markdownify}}
                   </p>
 
@@ -50,7 +50,7 @@
                 
               </div>
             </div>
-            <div class="col-12 justify-content-center mb-4 d-none d-lg-flex">
+            <div class="col-12 justify-content-center d-none d-lg-flex">
               <a href="" class="btn font-weight-medium color-blue mt-5 py-3 px-4">Demande d'inscription</a>
             </div>
           </div>
@@ -73,7 +73,7 @@
   {{ if .Params.filieres.enable }}
   {{ with .Params.filieres }}
   <section class="bg-white section clip-bottom-lightgrey" id="cursus-filieres">
-    <div class="container pb-5">
+    <div class="container pb-5 mb-5">
       <div class="row">
         <div class="col-12 text-center text-lg-left">
           <h3 class="title-medium with-separator-lg-left color-orange">{{ .title }}</h3>
@@ -88,7 +88,7 @@
           {{ range .item }}
             <div class="row flex-column align-items-center mb-5">
               {{if .image}}
-              <div id="carouselExample" class="carousel slide" data-ride="carousel">
+              <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="10000">
                 <div class="carousel-inner">
                   {{ range $index, $value := .specilisation }}
                     <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">

@@ -57,14 +57,13 @@ filieres:
     href: "/cursus/bachelor-developpement/"
 video:
   enable: true
-  url: https://www.youtube-nocookie.com/embed/RGglN9NvNs4
+  url: https://www.youtube-nocookie.com/embed/ccknowo-xF0
   title: La NWS en vidéo
-  content: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed
-    arcu porta, euismod est ut, sagittis arcu. In viverra mauris tempus ipsum aliquam,
-    in mollis leo consequat. Aenean id quam vel nunc interdum faucibus. </p><p><em>Nam
-    quis ornare libero. Maecenas maximus placerat est, eu varius est.</em></p>"
+  content: "<p>Qu'est ce que la Normandie Web School ? Que propose cette école à 100%
+    orientée vers le numérique ? Le directeur, l'équipe pédagogique et les intervenants
+    vous répondent.</p>"
   button: Voir toutes nos vidéos
-  href: https://www.youtube.com
+  href: https://www.youtube.com/channel/UCxmD0A_TGigvE0F4PLCikjA
 cursus:
   enable: true
   title: Les cursus à la NWS

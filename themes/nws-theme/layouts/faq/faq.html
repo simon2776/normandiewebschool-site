@@ -13,7 +13,7 @@
 {{ if .Params.subjects.enable }} {{ with .Params.subjects }}
 <section
   id="faq"
-  class="accordion-section bg-lightgrey clip-bottom-white"
+  class="accordion-section bg-lightgrey"
   aria-label="Question Accordions"
 >
   <div class="container">
@@ -24,7 +24,7 @@
         <div class="col-md-12 mb-4">
           <div class="card {{ if eq $i 0 }} second-push-top {{end}}">
             <div class="card-header color-blue flex-column">
-              <div class="row pb-lg-4">
+              <div class="row pb-lg-4 w-100">
                 <div class="col-12 text-center col-lg-2">
                   <img
                     class="card-img-top rounded-circle card-img-top team-image w-100 fit-contain"
@@ -92,7 +92,7 @@
 </section>
 {{ end }} {{ end }}
 
-<section class="my-5 overflow-hidden">
+<section class="py-5 overflow-hidden bg-lightgrey">
   <div class="row">
     <div class="col-12 d-flex justify-content-center">
       <a href="/contact" class="btn font-weight-medium color-blue py-3 px-5"

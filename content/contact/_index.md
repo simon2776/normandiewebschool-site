@@ -3,7 +3,7 @@ title: Nous contacter
 date: 2019-05-12T12:14:34.000+06:00
 description: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
 banner:
-  title: Nous contacter
+  title: Nous  <span class="font-weight-medium">contacter</span>
   title-line-twho: ''
   subtitle: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
   image: "/images/contact_bg.png"
@@ -17,24 +17,28 @@ form:
     required: true
     name: last_name
     width: "50"
+    padding: pr-lg-1
   - icon: "/images/icn-user.png"
     placeholder: Votre prénom*
     type: text
     required: true
     name: first_name
     width: "50"
+    padding: pl-lg-1
   - icon: "/images/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
     required: true
     name: email
     width: "50"
+    padding: pr-lg-1
   - icon: "/images/icn-mail.png"
     placeholder: Confirmer votre adresse e-mail*
     type: email
     required: true
     name: email_confirmation
     width: "50"
+    padding: pl-lg-1
   - icon: "/images/icn-phone.png"
     placeholder: Votre numéro de téléphone
     type: phone

@@ -5,7 +5,7 @@ description: 'Pour candidater : demander un entretien pédagogique. Vous serez i
   à l''une de nos sessions d''information.'
 global: ''
 banner:
-  title: Candidatez à la NWS
+  title: Candidatez à la <span class="font-weight-medium">NWS</span>
   title-line-twho: ''
   subtitle: Vous aurez un entretien avec un membre de l'équipe pédagogique. Venez
     avec votre CV.
@@ -31,24 +31,28 @@ form:
     required: false
     name: last_name
     width: "50"
+    padding: pr-lg-1
   - icon: "/images/icn-user.png"
     placeholder: Votre prénom
     type: text
     required: false
     name: first_name
     width: "50"
+    padding: pl-lg-1
   - icon: "/images/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
     required: true
     name: email
     width: "50"
+    padding: pr-lg-1
   - icon: "/images/icn-mail.png"
     placeholder: Confirmer votre adresse e-mail*
     type: email
     required: true
     name: email_confirmation
     width: "50"
+    padding: pl-lg-1
   - icon: "/images/icn-phone.png"
     placeholder: Votre numéro de téléphone
     type: phone

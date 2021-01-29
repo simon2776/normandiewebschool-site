@@ -317,8 +317,8 @@ a:hover {
   margin-bottom: 100px !important;
 }
 
-.mb-130 {
-  margin-bottom: 130px !important;
+.mb-200 {
+  margin-bottom: 200px !important;
 }
 
 .overflow-visible {
@@ -436,6 +436,15 @@ textarea.form-control {
     }
   }
 
+  &.big-bottom {
+    padding-bottom: 2rem !important;
+  }
+
+  &.big-bottom-lg {
+    @media(min-width: 992px) {
+      padding-bottom: 2rem !important;
+    }
+  }
 }
 
 .card-header {
