@@ -2,6 +2,16 @@
 label: page-politique_de_confidentialite
 hide_body: true
 fields:
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+- name: noindex
+  type: boolean
+  label: noindex
+  default: true
+  hidden: false
 - type: textarea
   name: content
   label: Contenu
@@ -9,10 +19,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- name: noindex
-  type: boolean
-  label: noindex
-  default: true
-  hidden: false
 pages:
 - content/politique-de-confidentialite/_index.md
