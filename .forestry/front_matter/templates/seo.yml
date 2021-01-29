@@ -12,7 +12,7 @@ fields:
   config:
     required: false
   label: SEO Description
-- name: seo-image
+- name: seo_image
   type: file
   config:
     maxSize: 64

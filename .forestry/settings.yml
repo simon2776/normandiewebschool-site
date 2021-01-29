@@ -59,10 +59,10 @@ sections:
   templates:
   - partners
 - type: directory
-  path: content/entreprise
-  label: Entreprises
+  path: content/collaborateurs
+  label: Collaborateurs
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - entreprise
 - type: directory
