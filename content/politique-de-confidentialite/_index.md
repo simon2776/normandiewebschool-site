@@ -46,5 +46,8 @@ content: |-
 
   Les commentaires des visiteurs peuvent être vérifiés à l’aide d’un service automatisé de détection des commentaires indésirables.
 noindex: true
+title: Politique de confidentialité
+description: ''
+seo_image: ''
 
 ---
