@@ -2,16 +2,6 @@
 label: page-accueil
 hide_body: true
 fields:
-- type: text
-  name: title
-  label: Titre
-- type: textarea
-  name: description
-  label: description
-  config:
-    wysiwyg: true
-    schema:
-      format: html-blocks
 - type: datetime
   name: date
   label: date
