@@ -18,6 +18,8 @@ sections:
   create: documents
   match: "*"
   exclude: _index.md
+  templates:
+  - page-design
 - type: document
   path: content/entreprises/_index.md
   label: Entreprises
