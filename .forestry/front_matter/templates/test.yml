@@ -5,10 +5,6 @@ fields:
 - type: text
   name: title
   label: Titre
-- type: datetime
-  name: date
-  label: date
-  hidden: true
 - type: textarea
   name: description
   label: description
@@ -16,6 +12,15 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 - type: field_group
   name: banner
   label: Bannière
