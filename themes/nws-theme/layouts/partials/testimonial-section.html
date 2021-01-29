@@ -11,7 +11,7 @@
                         {{ $firstIndex := 0 }}
                         {{ $.context.Scratch.Add "x" 0 }}
                         
-                        {{ $.context.Scratch.Add "slideNb" 0}}
+                        {{ $.context.Scratch.Set "slideNb" 0}}
 
                         {{ range $index, $value := $testimonials }}
                             {{ $testimonial := . }}
@@ -20,7 +20,7 @@
                             {{ $name := . }}
                             {{ if (in $.filter $name) }}
                                 {{ $x := $.context.Scratch.Get "x" }}
-                                {{ $slideNb := $.context.Scratch.Get "slideNb" }}
+                                {{ $slideNb := $.context.Scratch.Get "slideNb" }}                       
                                 {{ if (eq $x 0) }} {{ $.context.Scratch.Add "x" $index }} {{ end }}
                                 {{ $x := $.context.Scratch.Get "x" }}
                                 <li data-target="#testimonialsCarousel" data-slide-to="{{$slideNb}}" class="{{ if (eq $index $x )}}active{{end}}"></li>
