@@ -31,9 +31,9 @@ banner:
     href: "/cursus/bachelor-marketing-digital"
 about:
   enable: true
-  url: https://www.youtube.com/embed/RGglN9NvNs4
-  description: BAC+1 dans le domaine communication / multimédia / Développement informatique
-    / Infographie <br/> BAC+ Expérience professionnelle
+  url: https://www.youtube-nocookie.com/embed/WxTmSrRn2RI
+  description: Maxence Machu, intervenant à la Normandie Web School, vous explique
+    la filière Développement Web et Mobile.
 skills:
   enable: true
   title: Les Compétences
