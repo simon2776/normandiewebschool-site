@@ -10,7 +10,7 @@ banner:
 subjects:
   enable: true
   item:
-  - image: "/images/faq.png"
+  - image: "/images/faq-ecole-round.png"
     subject: L'école
     subtitle: 'Organisation, rythme, formations, retrouvez toutes les réponses ici. '
     questions:
@@ -64,7 +64,7 @@ subjects:
         de projets clients et la rencontre de professionnels venant partager leur
         expérience, ils participent au parcours professionnalisant de l’étudiant,
         lui permettant de se constituer un CV et un réseau.</p>"
-  - image: "/images/faq.png"
+  - image: "/images/faq-programme-round.png"
     subject: Le programme
     subtitle: 'Des questions sur les programmes ? Voici les réponses. '
     questions:
