@@ -81,6 +81,11 @@ fields:
       - type: file
         name: url
         label: url
+      - name: alt
+        type: text
+        config:
+          required: false
+        label: alt
 - type: field_group
   name: filieres
   label: filieres
