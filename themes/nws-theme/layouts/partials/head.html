@@ -19,6 +19,9 @@
   <meta property="og:site_name" content="{{ .Site.Title }}"/>
   <meta property="og:url" content="{{ .Site.BaseURL }}"/>
   <meta property="og:locale" content="fr">
+  {{ if .Params.noindex }}
+  <meta name="robots" content="noindex" /> 
+  {{ end }}
   {{ if .Params.og_image }} {{ else }} {{ end }}
 
   {{ hugo.Generator }}
