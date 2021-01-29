@@ -3,9 +3,6 @@ label: Entreprise
 hide_body: true
 fields:
 - type: text
-  name: type
-  label: type
-- type: text
   name: name
   label: name
 - type: file
