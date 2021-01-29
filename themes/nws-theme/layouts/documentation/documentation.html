@@ -20,16 +20,16 @@
       <div class="col-12 col-lg-8 form-section">
         {{ with .Params.form }}
         <div class="card second-push-top">
-            <div class="card-header color-blue with-separator">
-              <h3 class="mb-0">{{.title}}</h3>
+            <div class="card-header">
+              <h3 class="mb-0 title-medium color-blue separator-left">{{.title}}</h3>
             </div>
-            <p class="pt-3 px-3 m-0">{{.subtitle}}</p>
+            <p class="pt-3 m-0">{{.subtitle}}</p>
           <div>
             <div class="card-body">
               <form name="documentation" class="mt-3" data-netlify="true" id="doc-form">
-                <div class="form-group">
+                <div class="form-group mb-0">
                   {{range .input}}
-                  <div class="input-icon mb-3 position-relative w-lg-{{ .width }} d-lg-inline-block">
+                  <div class="input-icon mb-3 position-relative w-lg-{{ .width }} {{ .padding }} d-lg-inline-block">
                     <img src="{{.icon}}" alt="" class="icn-contact" />
                     <input
                       type="{{.type}}"
@@ -39,7 +39,7 @@
                     />
                   </div>
                   {{end}}
-                  <div class="row mb-lg-4 align-items-center">
+                  <div class="row align-items-center">
                     <div class="col-lg-8">
                       {{range $index, $el := .checkbox}}
                       <div class="form-check py-2">
@@ -75,8 +75,8 @@
       <div class="col-lg-4 mt-5 mt-lg-0 d-none d-lg-block doc-section">
         {{ with .Params.documents }}
           <div class="card second-push-top">
-            <div class="card-header color-blue with-separator">
-              <h3 class="mb-0">{{.title}}</h3>
+            <div class="card-header">
+              <h3 class="mb-0 title-medium color-blue separator-left">{{.title}}</h3>
             </div>
 
             <div>

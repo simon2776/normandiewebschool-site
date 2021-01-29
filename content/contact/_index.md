@@ -17,24 +17,28 @@ form:
     required: true
     name: last_name
     width: "50"
+    padding: pr-lg-1
   - icon: "/images/icn-user.png"
     placeholder: Votre prénom*
     type: text
     required: true
     name: first_name
     width: "50"
+    padding: pl-lg-1
   - icon: "/images/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
     required: true
     name: email
     width: "50"
+    padding: pr-lg-1
   - icon: "/images/icn-mail.png"
     placeholder: Confirmer votre adresse e-mail*
     type: email
     required: true
     name: email_confirmation
     width: "50"
+    padding: pl-lg-1
   - icon: "/images/icn-phone.png"
     placeholder: Votre numéro de téléphone
     type: phone

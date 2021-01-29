@@ -436,6 +436,15 @@ textarea.form-control {
     }
   }
 
+  &.big-bottom {
+    padding-bottom: 2rem !important;
+  }
+
+  &.big-bottom-lg {
+    @media(min-width: 992px) {
+      padding-bottom: 2rem !important;
+    }
+  }
 }
 
 .card-header {

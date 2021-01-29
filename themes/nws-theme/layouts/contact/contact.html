@@ -28,8 +28,8 @@
       <div class="col-12 col-lg-8">
         {{ with .Params.form }}
         <div class="card second-push-top">
-          <div class="card-header color-blue with-separator">
-            <h3 class="mb-0">{{.title}}</h3>
+          <div class="card-header">
+            <h3 class="mb-0 title-medium color-blue separator-left">{{.title}}</h3>
           </div>
 
           <div>
@@ -37,7 +37,7 @@
               <form class="mt-3" method="POST" data-netlify="true">
                 <div class="form-group">
                   {{range .input}} {{if (not .textarea)}}
-                  <div class="input-icon mb-3 position-relative w-lg-{{ .width }} d-lg-inline-block">
+                  <div class="input-icon mb-3 position-relative w-lg-{{ .width }} {{ .padding }} d-lg-inline-block">
                     <img src="{{.icon}}" alt="" class="icn-contact" />
                     <input
                       type="{{.type}}"
@@ -104,13 +104,13 @@
       <div class="col-lg-4 mt-5 mt-lg-0">
         <div class="card second-push-top subForm">
           {{range .item}}
-          <div class="row mt-5 d-flex flex-column align-items-center">
+          <div class="row my-4 d-flex flex-column align-items-center">
             <img src="{{.image}}" alt="" class="mb-4">
             <h3 class="color-blue w-100 px-4 text-center">  {{ .info | safeHTML }}</h3>
             <p class="">{{.subInfo}}</p>
           </div>
           {{end}}
-          <div class="col-12 justify-content-center my-4 d-none d-lg-flex">
+          <div class="col-12 justify-content-center my-4 d-flex">
               <a href="" class="btn font-weight-medium color-blue py-3 px-4">Demande d'inscription</a>
           </div>
         </div>
