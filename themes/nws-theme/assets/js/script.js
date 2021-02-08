@@ -142,12 +142,11 @@
   $("#ajaxForm").submit(function(e){
     e.preventDefault();
 
-    console.log(new FormData(this))
     var action = $(this).attr("action");
 
     let button_text = $("#ajaxForm button").text();
     $("#ajaxForm button").attr('disabled', true);
-    $("#ajaxForm button").text('Chargement...', true);
+    $("#ajaxForm button").text('Chargement...');
 
     $.ajax({
       type: "POST",
@@ -157,6 +156,7 @@
       dataType: "json",
       contentType: "multipart/form-data",
       processData: false,
+      contentType: false,
       headers: {
         "Accept": "application/json"
       }
@@ -170,15 +170,17 @@
               "  Merci, votre message a bien été envoyé \n" +
               "</div>")
       )
+
     }).fail(function() {
+
       $("#ajaxForm").prepend(
           $("<div class=\"alert alert-danger\" role=\"alert\">\n" +
               " Oups, une erreur est survenue.. \n" +
               "</div>")
       )
-    })/*.always(function(){
+    }).always(function(){
       $("#ajaxForm button").attr('disabled', false);
       $("#ajaxForm button").text(button_text);
-    });*/
+    });
   });
 })(jQuery);
