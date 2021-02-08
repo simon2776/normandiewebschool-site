@@ -1,5 +1,4 @@
 {{ define "main" }}
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 <!-- hero area -->
@@ -26,7 +25,7 @@
             <p class="pt-3 m-0">{{.subtitle}}</p>
           <div>
             <div class="card-body">
-              <form name="documentation" class="mt-3" data-netlify="true" id="doc-form">
+              <form action="https://getform.io/f/06dd0e5d-3ba0-4dd8-9ac6-c7d1fb385ab1" name="documentation" id="ajaxForm" class="mt-3">
                 <div class="form-group mb-0">
                   {{range .input}}
                   <div class="input-icon mb-3 position-relative w-lg-{{ .width }} {{ .padding }} d-lg-inline-block">
@@ -48,6 +47,7 @@
                           class="form-check-input"
                           id="checkbox-{{$index}}"
                           name="{{.name}}"
+                          {{ if .required | eq true }} required="true" {{ end }}
                         />
                         <label class="form-check-label" for="checkbox-{{$index}}">{{.content}}</label>
                       </div>
@@ -65,6 +65,8 @@
                     </div>
                   </div>
                 </div>
+                <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
+
               </form>
             </div>
           </div>
@@ -92,6 +94,17 @@
   </div>
 </section>
 
+<script src="https://www.google.com/recaptcha/api.js?render=6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs"></script>
+
+<script>
+  grecaptcha.ready(function() {
+    grecaptcha.execute('6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs', {action: 'homepage'})
+            .then(function(token) {
+              document.getElementById('captchaResponse').value = token;
+            });
+  });
+</script>
+
 <script>
   const formSection = document.querySelector('.form-section')
   const docSection = document.querySelector('.doc-section')
@@ -103,10 +116,10 @@
     requestedDocs()
   }
 
-  console.log(document.querySelector('#doc-form'))
-  document.querySelector('#doc-form').addEventListener('submit', (e) => {
+  console.log(document.querySelector('#ajaxForm'))
+  document.querySelector('#ajaxForm').addEventListener('submit', (e) => {
     e.preventDefault()
-    let myForm = document.getElementById('doc-form');
+    let myForm = document.getElementById('ajaxForm');
     let formData = new FormData(myForm)
     fetch('/', {
       method: 'POST',

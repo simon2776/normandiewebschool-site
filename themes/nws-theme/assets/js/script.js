@@ -141,6 +141,8 @@
    */
   $("#ajaxForm").submit(function(e){
     e.preventDefault();
+
+    console.log(new FormData(this))
     var action = $(this).attr("action");
 
     let button_text = $("#ajaxForm button").text();
@@ -170,7 +172,7 @@
       )
     }).fail(function() {
       $("#ajaxForm").prepend(
-          $("<div class=\"alert alert-error\" role=\"alert\">\n" +
+          $("<div class=\"alert alert-danger\" role=\"alert\">\n" +
               " Oups, une erreur est survenue.. \n" +
               "</div>")
       )

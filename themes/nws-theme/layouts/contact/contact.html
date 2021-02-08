@@ -1,5 +1,4 @@
 {{ define "main" }}
-<script src="https://www.google.com/recaptcha/api.js?render=6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs"></script>
 
 <!-- hero area -->
 <section
@@ -34,7 +33,7 @@
 
           <div>
             <div class="card-body">
-              <form id="ajaxForm" class="mt-3" method="POST" action="https://getform.io/f/2fb45d7d-b090-4b29-8f70-b319953cd7ae">
+              <form id="ajaxForm" class="mt-3" method="POST" action="https://getform.io/f/37b4129b-b178-4152-b7df-979b506126aa">
                 <div class="form-group">
                   {{range .input}} {{if (not .textarea)}}
                   <div class="input-icon mb-3 position-relative w-lg-{{ .width }} {{ .padding }} d-lg-inline-block">
@@ -116,6 +115,7 @@
     </div>
   </div>
 </section>
+<script src="https://www.google.com/recaptcha/api.js?render=6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs"></script>
 
 <script>
   grecaptcha.ready(function() {
