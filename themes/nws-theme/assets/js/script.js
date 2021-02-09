@@ -183,4 +183,7 @@
       $("#ajaxForm button").text(button_text);
     });
   });
+
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
 })(jQuery);
