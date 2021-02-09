@@ -706,7 +706,7 @@ HERO HEADER
 
   //
   height: calc(100vh - 80px); /* Fallback for browsers that do not support Custom Properties */
-  height: calc(var(--vh) - 80px);
+  height: calc((var(--vh, 1vh) * 100) - 80px);
   background: #ca4b38;
   transition: 0.3s ease-in-out;
   z-index: 3;
@@ -739,8 +739,12 @@ HERO HEADER
       }
 
       .childrens {
+        background: transparent;
+        border: none !important;
+        box-shadow: none !important;
         .nav-link {
-          color: #fff;
+          background: transparent;
+          color: #fff !important;
           border-bottom: none;
           font-weight: 300;
           margin-left: 1rem;
@@ -781,6 +785,42 @@ HERO HEADER
           @media(min-width: 430px) {
             margin: 0.5rem 0;
           }
+        }
+      }
+    }
+  }
+}
+
+#side-menu {
+  .navbar {
+    .navbar-nav {
+      .dropdown {
+        .dropdown-toggle {
+          position: relative;
+
+          &:after {
+            position: absolute;
+            border-top: none;
+            border-right: none;
+            border-bottom: none;
+            border-left: none;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%) rotate(45deg);
+            transition: .5s;
+          }
+        }
+
+        &.show {
+          .dropdown-toggle {
+          &:after {
+            transform: translateY(-50%) rotate(225deg);
+          }
+        }
         }
       }
     }

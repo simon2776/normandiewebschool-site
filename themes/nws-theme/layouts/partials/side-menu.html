@@ -16,11 +16,26 @@
                     {{ end }}
                   </div>
                 </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
-                    <div class="childrens" >
+
+
+                <!-- <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </div> -->
+
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{ .URL | absURL }}" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+                    <div class="childrens dropdown-menu" aria-labelledby="dropdownMenuButton">
                         {{ range .Children }}
-                        <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                        <a class="nav-link dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
                         {{ end }}
                     </div>
                 </li>
