@@ -189,11 +189,14 @@
       });
   });
 
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
+  // let vh = window.innerHeight * 0.01;
+  // document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-  document.querySelector('#burger').addEventListener('click', () => {
-    console.log('clique');
-    window.scrollTo(0, 1000);
-  });
+  const appHeight = () => {
+    const doc = document.documentElement;
+    doc.style.setProperty('--vh', `${window.innerHeight}px`);
+  };
+  window.addEventListener('resize', appHeight);
+  appHeight();
+  
 })(jQuery);

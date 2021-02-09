@@ -706,7 +706,7 @@ HERO HEADER
 
   //
   height: calc(100vh - 80px); /* Fallback for browsers that do not support Custom Properties */
-  height: calc((var(--vh, 1vh) * 100) - 80px);
+  height: calc(var(--vh) - 80px);
   background: #ca4b38;
   transition: 0.3s ease-in-out;
   z-index: 3;
