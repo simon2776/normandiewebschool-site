@@ -31,7 +31,7 @@ about:
 cursus:
   enable: true
   item:
-  - title: Cursus intial
+  - title: Cursus initial
     content: Débutez le Bachelor chef de projet digital par le biais de cette première
       année en tant que concepteur numérique. Apprenez et développez de nombreuses
       compétences en design graphique, en marketing digital et en développement web.
