@@ -117,7 +117,7 @@ profession:
       données statistiques collectées, analysez les données de fréquentation d'un
       site internet pour comprendre ce qui a amené un internaute à visiter un site
       web et comment il a visité ce site.
-  - title: Consultant(e) sémentique
+  - title: Consultant(e) sémantique
     description: Travaillez le contenu d'une site et adaptez les textes et le référencement
       SEO/SEA en fonction des besoins, des problématiques et des requêtes de la cible.
   - title: Marketing Business Analyst
