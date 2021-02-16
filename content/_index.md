@@ -75,8 +75,8 @@ reasons:
     dans le domaine du numérique.
   item:
   - logo: images/reasons/star.svg
-    content: 'Monter en compétences avec des experts métiers et des professionnels
-      reconnus dans le domaine du numérique. '
+    content: 'Monter en compétences avec des expert(es) métiers et des professionnel(les)
+      reconnu(es) dans le domaine du numérique. '
     alt: Monter en compétences
   - logo: images/reasons/window.svg
     content: Bénéficier d’un apprentissage pratique sur des  projets qui ont du sens
