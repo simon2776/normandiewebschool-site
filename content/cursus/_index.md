@@ -13,20 +13,32 @@ banner:
 about:
   enable: true
   title: L'enseignement à la NWS
-  content: "La Normandie Web School propose un cursus riche et varié pour qui veut
-    développer ses compétences et ses connaissances en numérique et en digital. Le
-    cursus global se divise en quatre branche. Tout d'abord, l'étudiant doit suivre
-    le cursus initial pour obtenir toutes les compétences requise en design, en développement
-    et marketing pour pouvoir entamer sa deuxième année (la première année n'est pas
-    un passage obligatoire pour toutes personnes ayant un Bac+1 ou un Bac+2 dans le
-    domaine de la communication ou du numérique ou du développement web). \n\nAprès
-    avoir passer le cap de la deuxième année, l'étudiant a un choix à faire : Celui
-    de choisir sa spécialité. Ici, ses goûts, ses talents et ses compétences vont
-    jouer. L'étudiant aura le choix entre trois filières : Design graphique, Marketing
-    digital ou développement web. Ce choix sera suivi pendant trois années et ce jusqu'à
-    l'obtention du diplôme \"Chef de projet digital\". \n\nAprès ces trois années,
-    s'il le désire l'étudiant peut intégrer le Master \"Expert Digital\" et développer
-    encore plus ses compétences et ses connaissances en matière de numérique."
+  content: <p>Tu es lycéen(ne) en Terminale et tu te demandes vers quels secteurs
+    t’orienter après le BAC ? Tu as débuté un BAC+1 mais tu hésites encore sur la
+    suite à donner à tes études ? Tu es intéressé par les métiers du web et du numérique?
+    La Normandie Web School est fait pour toi.</p><p>La NWS propose un cursus riche
+    et varié pour toute personne attirée par les nouveaux métiers émergents.  Le cursus
+    global se divise en quatre branches. </p><p>La première année est une année préparatoire
+    avec un programme de formation générale de base qui permet de découvrir, pratiquer
+    et acquérir de solides compétences techniques et transverses dans le domaine du
+    numérique (marketing, développement web et mobile et web design) à travers de
+    projets collaboratifs et de la pédagogie active et co-active. Elle permet aussi
+    de développer les connaissances et habiletés requises pour la poursuite d’études
+    vers les métiers du numériques.</p><p>L’Année préparatoire s’adresse aux titulaires
+    du Baccalauréat, quelle que soit la série mais aussi aux étudiants souhaitant
+    se réorienter.</p><p>L’année 2 est l’année de spécialisation technique. Les étudiants
+    sont en <strong>filières “Développement Web et Mobile ou marketing Digital ou
+    Web Design”</strong> en fonction de leurs appétences et 100% des activités pédagogiques
+    sont dirigées vers l’appréhension des compétences et connaissances nécessaires
+    à leurs futurs métiers.</p><p>Outre l’approfondissement de leurs compétences techniques
+    les étudiants d’année 3 acquièrent le <strong>savoir-faire de la gestion d’équipe
+    et la conduite de projet</strong>. L’année 3 se déroule en alternance sur un rythme
+    de 1 semaine en cours et 3 semaines en entreprise. À l'issue de la 3ème année
+    les étudiant(es) passeront leur examen pour l'obtention du Titre "Chef de projet
+    digital".</p><p>Après ces trois années, s'il le désire l'étudiant peut intégrer
+    le Master "Expert Digital" afin de développer encore plus ses compétences. À l’issue
+    du Mastère, les étudiant(es) auront les connaissances et les compétences techniques
+    pour mettre en oeuvre une stratégie de marketing digital dans sa globalité.</p>
   image: "/images/cursus-round.png"
 cursus:
   enable: true
