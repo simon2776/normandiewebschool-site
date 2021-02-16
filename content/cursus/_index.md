@@ -17,8 +17,8 @@ about:
     t’orienter après le BAC ? Tu as débuté un BAC+1 mais tu hésites encore sur la
     suite à donner à tes études ? Tu es intéressé par les métiers du web et du numérique?
     La Normandie Web School est fait pour toi.</p><p>La NWS propose un cursus riche
-    et varié pour toute personne attirée par les nouveaux métiers émergents.  Le cursus
-    global se divise en quatre branches. </p><p>La première année est une année préparatoire
+    et varié pour toute personne attirée par les nouveaux métiers émergents. Le cursus
+    global se divise en quatre branches.</p><p>La première année est une année préparatoire
     avec un programme de formation générale de base qui permet de découvrir, pratiquer
     et acquérir de solides compétences techniques et transverses dans le domaine du
     numérique (marketing, développement web et mobile et web design) à travers de
