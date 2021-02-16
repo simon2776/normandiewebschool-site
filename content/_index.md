@@ -79,8 +79,8 @@ reasons:
       reconnu(es) dans le domaine du numérique. '
     alt: Monter en compétences
   - logo: images/reasons/window.svg
-    content: Bénéficier d’un apprentissage pratique sur des  projets qui ont du sens
-      en partenariat avec des entreprises.
+    content: Bénéficier d’un apprentissage pratique sur des  projets concrets et qui
+      ont du sens en partenariat avec des entreprises.
     alt: Projet
   - logo: images/reasons/connect.svg
     content: Développer ses compétences grâce à un cursus complet et une mise en pratique
