@@ -20,8 +20,8 @@ banner:
 about:
   enable: true
   image: "/images/filieres_img1.png"
-  description: Le Master se fait obligatoirement en alternance. Le prix est prit en
-    charge par l'entreprise employeur.
+  description: Le Master se fait obligatoirement en alternance. Le coût de la formation
+    est pris en charge par l'entreprise employeur par le biais des OPCO.
   url: ''
 skills:
   enable: true
