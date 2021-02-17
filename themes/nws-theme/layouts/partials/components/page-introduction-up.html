@@ -10,7 +10,7 @@
               </div>
 
               <div>
-                <div class="card-body">{{.content | markdownify}}</div>
+                <div class="card-body">{{.content | safeHTML}}</div>
               </div>
             </div>
 

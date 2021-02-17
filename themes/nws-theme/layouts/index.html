@@ -65,7 +65,7 @@
             <div id="collapse-{{$index}}" class="collapse show" aria-labelledby="heading-{{$index}}" data-parent="#accordion">
               <div class="card-body">
                 <p>
-                  {{.content | markdownify}}
+                  {{.content | safeHTML}}
                 </p>
 
                 <div class="filieres-info">
@@ -184,7 +184,7 @@
 
         <div class="col-lg-12 text-center">
           <div class="card center-card with-border {{ .color }}">
-            <h3 class="title-medium color-blue mb-0">{{ .title | markdownify }}</h3>
+            <h3 class="title-medium color-blue mb-0">{{ .title | safeHTML }}</h3>
             <p>{{ .subtitle | markdownify }}</p>
             <div class="card-body d-lg-flex">
               {{ range .item }}

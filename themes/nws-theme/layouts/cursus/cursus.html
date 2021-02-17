@@ -32,7 +32,7 @@
               <div>
                 <div class="card-body mb-200">
                   <p>
-                    {{.content | markdownify}}
+                    {{.content | safeHTML}}
                   </p>
 
                   <div class="cursus-info">
@@ -97,7 +97,7 @@
                       </div>
                       <div class="text-center">
                         <p class="w-lg-100 {{.color}}">{{.title}}</p>
-                        <p class="w-lg-100 my-3">{{.content | markdownify}}</p>
+                        <p class="w-lg-100 my-3">{{.content | safeHTML}}</p>
                         <a href="{{.link}}" class="mb-5">En savoir plus</a>
                       </div>
                     </div>
@@ -118,7 +118,7 @@
               <h3>{{.bulle}}</h3>
               <div class="text-center">
                 <p class="w-lg-100">{{.title}}</p>
-                <p class="w-lg-100 my-3">{{.content | markdownify}}</p>
+                <p class="w-lg-100 my-3">{{.content | safeHTML}}</p>
                 <a href="{{.link}}" class="mb-5">En savoir plus</a>
               </div>
               {{end}}
