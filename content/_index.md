@@ -104,7 +104,7 @@ reasons:
     alt: Projet
   - logo: images/reasons/connect.svg
     content: Développer ses compétences grâce à un cursus complet et une mise en pratique
-      en alternance et en stage.
+      en alternance et/ou en stage.
     alt: Alternance et stage
   - logo: images/reasons/student.svg
     content: Être et évoluer au cœur de l’écosystème numérique normand.
