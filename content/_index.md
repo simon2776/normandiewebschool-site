@@ -122,7 +122,7 @@ data:
     title: Nombre d'étudiants sur un an
   - number: "3"
     title: Nombre de spécialisations
-  - number: "7"
+  - number: "8"
     title: Nombre de collaborateurs
 team:
   enable: 'true'
