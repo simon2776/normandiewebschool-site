@@ -40,12 +40,11 @@ cursus:
     - url: "/images/logo_nws.png"
       alt: 1ère année Normandie Web School
   - title: Spécialisations
-    content: 'Après une première année riche en partage de connaissances et de compétences,
-      une possibilité s''offre à tous les étudiants : choisir sa spécialisation. Chacun
-      d''eux à la possibilité de choisir la filière qui le passionne : Développement
-      web, design graphisme ou marketing digital. À la fin de ces deux années d''études
-      accentuées sur un thème, l''étudiant aura la chance de pouvoir recevoir son
-      diplôme et son titre de chef de projet digital.'
+    content: "<p>L’année 2 est l’année de spécialisation technique. Les étudiants
+      sont en <strong>filières “Développement Web et Mobile ou marketing Digital ou
+      Web Design”</strong> en fonction de leurs appétences et 100% des activités pédagogiques
+      sont dirigées vers l’appréhension des compétences et connaissances nécessaires
+      à leurs futurs métiers.</p>"
     from: Bac +2/3
     color: color-blue
     images:
