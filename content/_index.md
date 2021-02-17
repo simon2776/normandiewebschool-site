@@ -114,7 +114,7 @@ reasons:
     alt: titre RNCP
 data:
   enable: true
-  title: Quelques chiffres
+  title: La NWS en chiffres
   item:
   - number: "249"
     title: Nombre de diplômés
