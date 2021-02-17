@@ -40,16 +40,16 @@ cursus:
     - url: "/images/logo_nws.png"
       alt: 1ère année Normandie Web School
   - title: Spécialisations
-    content: <p>L’année 2 est l’année de spécialisation technique. Les étudiants sont
-      en <strong>filières “Développement Web et Mobile ou marketing Digital ou Web
-      Design”</strong> en fonction de leurs appétences et 100% des activités pédagogiques
-      sont dirigées vers l’appréhension des compétences et connaissances nécessaires
-      à leurs futurs métiers.</p><p>Outre l’approfondissement de leurs compétences
-      techniques les étudiants d’année 3 acquièrent le <strong>savoir-faire de la
-      gestion d’équipe et la conduite de projet</strong>. L’année 3 se déroule en
-      alternance sur un rythme de 1 semaine en cours et 3 semaines en entreprise.
-      À l'issue de la 3ème année les étudiant(es) passeront leur examen pour l'obtention
-      du Titre "Chef de projet digital".</p>
+    content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
+      Les étudiants sont en <strong>filières “Développement Web et Mobile ou marketing
+      Digital ou Web Design”</strong> en fonction de leurs appétences et 100% des
+      activités pédagogiques sont dirigées vers l’appréhension des compétences et
+      connaissances nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement
+      de leurs compétences techniques les étudiants d’<strong>année 3</strong> acquièrent
+      le <strong>savoir-faire de la gestion d’équipe et la conduite de projet</strong>.
+      L’année 3 se déroule en alternance sur un rythme de 1 semaine en cours et 3
+      semaines en entreprise. À l'issue de la 3ème année les étudiant(es) passeront
+      leur examen pour l'obtention du Titre <strong>"Chef de projet digital"</strong>.</p>
     from: Bac +2/3
     color: color-blue
     images:
