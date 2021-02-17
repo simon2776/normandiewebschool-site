@@ -55,7 +55,7 @@ filieres:
     logo: images/logo-design.png
     href: "/cursus/bachelor-communication-visuelle/"
   - title: Filière Développement
-    content: Ce diplôme prépare au métier de développeur web capable de créer, coder,
+    content: Ce titre prépare au métier de développeur web capable de créer, coder,
       et tester des sites Internet et des applications web. La transformation digitale
       des économies fait du développement web une des compétences essentielles des
       entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
