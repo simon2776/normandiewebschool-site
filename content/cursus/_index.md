@@ -59,13 +59,12 @@ cursus:
       alt: Design Normandie Web School
     - url: "/images/logo-dev.png"
       alt: Développement Web Normandie Web School
-  - title: Master
-    content: Après avoir reçu votre diplôme en tant que chef de projet digital ou
-      ayant déjà un Bac+3 dans le domaine de la communication ou du numérique, la
-      possibilité d'intégrer le master expert digital s'offre à vous. Ayez la chance
-      de pouvoir poursuivre des cours regroupant du marketing et du digital toujours
-      enseigné par des professionnels. Ayez également l'avantage de poursuivre votre
-      cursus en alternance pour développer encore plus vos connaissances et vos compétences.
+  - title: Mastère
+    content: <p>Après ces trois années, s'il le désire l'étudiant peut intégrer le
+      Master "Expert Digital" afin de développer encore plus ses compétences. À l’issue
+      du Mastère <strong>équivalent Bac +5</strong>, les étudiant(es) auront les connaissances
+      et les compétences techniques pour mettre en oeuvre une stratégie de marketing
+      digital dans sa globalité.</p>
     from: Bac +4/5
     color: color-orange
     images:
