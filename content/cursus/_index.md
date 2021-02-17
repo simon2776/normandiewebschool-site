@@ -26,11 +26,14 @@ cursus:
   enable: true
   item:
   - title: Cursus initial
-    content: Débutez le Bachelor chef de projet digital par le biais de cette première
-      année en tant que concepteur numérique. Apprenez et développez de nombreuses
-      compétences en design graphique, en marketing digital et en développement web.
-      Vous pourrez par la suite choisir votre coup de coeur en deuxième année et sélectionner
-      la filière qui vous attirera le plus.
+    content: "<p>La première année est une année préparatoire avec un programme de
+      formation générale de base qui permet de découvrir, pratiquer et acquérir de
+      solides compétences techniques et transverses dans le domaine du numérique (marketing,
+      développement web et mobile et web design) à travers de projets collaboratifs
+      et de la pédagogie active et co-active. Elle permet aussi de développer les
+      connaissances et habiletés requises pour la poursuite d’études vers les métiers
+      du numériques.</p><p>L’Année préparatoire s’adresse aux titulaires du Baccalauréat,
+      quelle que soit la série mais aussi aux étudiants souhaitant se réorienter.</p>"
     from: Bac +1
     color: color-yellow
     images:
