@@ -55,9 +55,13 @@ filieres:
     logo: images/logo-design.png
     href: "/cursus/bachelor-communication-visuelle/"
   - title: Filière Développement
-    content: |-
-      Passioné par le monde technique vous allez développer des logiciels , des sites web et des applications.
-      Devenez des experts du code en développant votre savoir-faire et vos compétences techniques.
+    content: Ce diplôme prépare au métier de développeur web capable de créer, coder,
+      et tester des sites Internet et des applications web. La transformation digitale
+      des économies fait du développement web une des compétences essentielles des
+      entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
+      web dans les start-ups du numérique, les ESN (entreprises de services numériques), 
+      les collectivités territoriales, les associations,  les agences web, les PME,
+      les grandes sociétés...
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-yellow
