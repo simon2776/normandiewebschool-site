@@ -54,6 +54,20 @@ fields:
   - type: boolean
     name: enable
     label: enable
+  - name: bachelor_titre
+    type: text
+    config:
+      required: false
+    label: Bachelor titre
+  - name: bachelor_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Bachelor description
   - type: field_group_list
     name: item
     label: item
