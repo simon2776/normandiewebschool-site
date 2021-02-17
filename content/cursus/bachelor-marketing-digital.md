@@ -13,13 +13,14 @@ banner:
   logo: "/images/logo-marketing.png"
   title: Filière <span class="font-weight-medium"> Marketing digital </span>
   image: images/marketing.jpg
-  description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
-    dans tous les détails du marketing, c''est la clé pour obtenir en fin d''année
-    votre titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre
-    au nom d''un d''un chef de projet digital. <br/> Rythme en alternance: 1 semaines
-    en formation et 3  semaines en alternance en entreprise. <br/> Nombre d''heures  de
-    formations: 455H de formations en face-à-face et 180H d''apprentissage individualisé
-    en FOAD.'
+  description: "<p>Le chef de projet marketing digital définit, développe et gère
+    les outils numériques destinés au marketing et la communication d’une entreprise
+    ou organisation. Il peut aussi travailler en agence de communication digitale.
+    Véritable interface, il travaille avec les développeurs, les infographistes pour
+    mener à bien les projets (sites, applications, campagne sur les réseaux sociaux,
+    vidéo etc…). Le bachelor “Chef de projet marketing digital” se déroule sur 3 ans
+    au sein de la Normandie Web School soit en alternance (contrat de professionnalisation
+    ou apprentissage) soit en formation initiale.</p>"
   color: color-orange
   buttons:
   - arrow: left
@@ -213,6 +214,7 @@ testimonials:
   enable: true
   filter:
   - marketing
+seo_image: ''
 menu:
   main:
     name: Bachelor marketing
