@@ -77,13 +77,13 @@ filieres:
     entreprise ou d’une agence digitale.</p>"
 video:
   enable: true
-  url: https://www.youtube-nocookie.com/embed/ccknowo-xF0
+  url: https://www.youtube.com/watch?v=qg_8FsSGuBY&t=36s
   title: La NWS en vidéo
   content: "<p>Qu'est ce que la Normandie Web School ? Que propose cette école 100%
     orientée vers le numérique ? Le directeur, l'équipe pédagogique et les intervenants
     vous répondent.</p>"
   button: Voir toutes nos vidéos
-  href: https://www.youtube.com/watch?v=qg_8FsSGuBY&t=36s
+  href: https://www.youtube.com/channel/UCxmD0A_TGigvE0F4PLCikjA
 cursus:
   enable: true
   title: Les cursus à la NWS
