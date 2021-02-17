@@ -45,7 +45,7 @@ filieres:
     content: Ce diplôme prépare à concevoir la forme visuelle de messages dans les
       différents domaines du graphisme, de l’édition et de la publicité, imprimés
       ou numériques. Il est destiné aux étudiants qui veulent se former aux métiers
-      de web et mobile designer, qui ont une forte compétence en UI et UX et capables
+      de web et mobile designer, qui ont une forte appétence en UI et UX et capables
       d’intégrer des maquettes. Le bachelor “Communication visuelle & Webdesign" se
       déroule sur 3 ans au sein de la Normandie Web School soit en alternance (contrat
       de professionnalisation ou apprentissage) soit en formation initiale. 
