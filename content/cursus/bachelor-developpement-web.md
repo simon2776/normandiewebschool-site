@@ -11,12 +11,13 @@ banner:
   logo: "/images/logo-dev.png"
   title: Filière <span class="font-weight-medium">développement</span>
   image: "/images/cursus_bg.png"
-  description: 'Le codage, l''intégration et la création de plateforme est votre passion
-    ? Alors la spécialité développement est fait pour vous ! À la clé en fin d''année
-    ? Votre titre RNCP de niveau 6 équivalant au BAC+3 et un statut de chef de projet
-    digital. Rythme en alternance : 1 semaines en formation et 3  semaines en alternance
-    en entreprise. <br/> Nombre d''heures  de formations : 455H de formations en face-à-face
-    et 180H d''apprentissage individualisé en FOAD.'
+  description: "<p>Ce diplôme prépare au métier de développeur web capable de créer,
+    coder, et tester des sites Internet et des applications web. La transformation
+    digitale des économies fait du développement web une des compétences essentielles
+    des entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
+    web dans les start-ups du numérique, les ESN (entreprises de services numériques),
+    les collectivités territoriales, les associations, les agences web, les PME, les
+    grandes sociétés…</p>"
   color: color-yellow
   buttons:
   - arrow: left
