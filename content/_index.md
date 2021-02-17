@@ -28,9 +28,14 @@ filieres:
   enable: true
   item:
   - title: Filière Marketing
-    content: Le marketing digital, un univers riche en communication numérique. Créez
-      des supports, concevez des textes de qualité, exposez vos idées et des valeurs
-      sur les réseaux sociaux en travaillant avec des professionnels des métiers.
+    content: Le chef de projet marketing digital définit, développe et gère les outils
+      numériques destinés au marketing et la communication d’une entreprise ou organisation.
+      Il peut aussi travailler en agence de communication digitale. Véritable interface,
+      il travaille avec les développeurs, les infographistes pour mener à bien les
+      projets (sites, applications, campagne sur les réseaux sociaux, vidéo etc...).
+      Le bachelor “Chef de projet marketing digital” se déroule sur 3 ans au sein
+      de la Normandie Web School soit en alternance (contrat de professionnalisation
+      ou apprentissage) soit en formation initiale. 
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-orange
