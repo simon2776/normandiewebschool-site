@@ -13,13 +13,13 @@ banner:
   logo: "/images/logo-design.png"
   title: Filière <span class="font-weight-medium"> Design </span>
   image: images/design.jpg
-  description: 'Vous êtes créatif, passionné par le design et vous souhaitez en faire
-    votre métier ? Alors la spécialité design graphisme est surement faites pour vous
-    ! Tout en exerçant votre passion à l''école et en alternance, obtenez en fin d''année
-    votre titre RNCP de niveau 6 (équivalent à un Bac+3) en tant que chef de projet
-    digital. Rythme en alternance : 1 semaines en formation et 3  semaines en alternance
-    en entreprise. <br/> Nombre d''heures  de formations: 455H de formations en face-à-face
-    et 180H d''apprentissage individualisé en FOAD.'
+  description: <p>Ce diplôme prépare à concevoir la forme visuelle de messages dans
+    les différents domaines du graphisme, de l’édition et de la publicité, imprimés
+    ou numériques. Il est destiné aux étudiants qui veulent se former aux métiers
+    de web et mobile designer, qui ont une forte compétence en UI et UX et capables
+    d’intégrer des maquettes. Le bachelor “Communication visuelle &amp; Webdesign"
+    se déroule sur 3 ans au sein de la Normandie Web School soit en alternance (contrat
+    de professionnalisation ou apprentissage) soit en formation initiale.</p>
   color: color-blue
   buttons:
   - arrow: left
