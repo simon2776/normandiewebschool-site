@@ -134,8 +134,9 @@ profession:
       chez les concurrents et truste les places dans les SERP (Search Engine Results
       Page), se sont les pages de résultats suite à une recherche.\n\n"
   - title: Marketing Business Analyst
-    description: Définissez différents outils d'analyse et concevez des tableaux de
-      bord qui aident à la prise de décision et au suivi de la performance commerciale.
+    description: |2-
+
+      Le marketing business analyst travaille généralement dans le service ou le département marketing stratégique et opérationnel d'une entreprise. Il détermine les KPI ou Key Indicator Performance (indicateur clé de performance) indispensable pour mesurer les progrès effectués par rapport à aux objectifs stratégiques. Il est chargé de définir différents outils d'analyse et de concevoir des tableaux de bord qui aident la prise de décision et au suivi de la performance commerciale étudie les bases de données et définit le ROI.
 testimonials:
   enable: true
   filter:
