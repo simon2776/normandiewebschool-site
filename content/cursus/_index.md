@@ -90,7 +90,10 @@ filieres:
     arrow: true
     arrowImage: "/images/arrow-down.svg"
     link: "#"
+    carousel: false
+    specilisation: []
   - image: true
+    carousel: true
     specilisation:
     - bulle: "/images/marketing.svg"
       title: Spécialisation Marketing
@@ -130,6 +133,8 @@ filieres:
     arrow: false
     link: "#"
     arrowImage: ''
+    carousel: false
+    specilisation: []
 testimonials:
   enable: true
   testimonails: []
