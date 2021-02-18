@@ -117,10 +117,10 @@ profession:
 
 
   - title: Consultant(e) Web DATA
-    description: Décryptez les comportements des internautes sur le web. Grâce aux
-      données statistiques collectées, analysez les données de fréquentation d'un
-      site internet pour comprendre ce qui a amené un internaute à visiter un site
-      web et comment il a visité ce site.
+    description: |2
+
+
+      Les consultant(es) Data & Analytics accompagnent les entreprises dans leurs projets de mise sous contrôle et de valorisation de leurs données pour répondre aux enjeux multiples auxquelles elles se retrouvent confrontées (mise en conformité, compétitivité, etc.). La data est partout et il faut savoir la collecter, l’analyser et l’interpréter  afin de mieux orienter les entreprises dans leur prise de décision marketing : optimisation du parcours client, pilotage de leurs investissements média, amélioration de leurs offres de produits/services, RH,...
   - title: Consultant(e) sémantique
     description: Travaillez le contenu d'une site et adaptez les textes et le référencement
       SEO/SEA en fonction des besoins, des problématiques et des requêtes de la cible.
