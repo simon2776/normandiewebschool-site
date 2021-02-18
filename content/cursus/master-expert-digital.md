@@ -122,8 +122,17 @@ profession:
 
       Les consultant(es) Data & Analytics accompagnent les entreprises dans leurs projets de mise sous contrôle et de valorisation de leurs données pour répondre aux enjeux multiples auxquelles elles se retrouvent confrontées (mise en conformité, compétitivité, etc.). La data est partout et il faut savoir la collecter, l’analyser et l’interpréter  afin de mieux orienter les entreprises dans leur prise de décision marketing : optimisation du parcours client, pilotage de leurs investissements média, amélioration de leurs offres de produits/services, RH,...
   - title: Consultant(e) sémantique
-    description: Travaillez le contenu d'une site et adaptez les textes et le référencement
-      SEO/SEA en fonction des besoins, des problématiques et des requêtes de la cible.
+    description: "Avoir  un site web est un bon début mais ne suffit pas pour être
+      trouvé sur internet. Pour cela il faut être bien référencé par les moteurs de
+      recherche comme Google (plus de 90% des requêtes). Le référencement naturel
+      et la stratégie sémantique sont au cœur du référencement d’un site web.  L'audit
+      sémantique consiste à faire la recherche de mots-clés, la catégorisation des
+      contenus… les missions de consulting en SEO sémantique apportent aussi une valeur
+      ajoutée aux sites web e-commerce comme aux sites éditoriaux. Ce travail a pour
+      objectif de positionner les pages du site dans les moteurs de recherche. Le
+      bon positionnement du site dans ces outils développe l’audience, capte du positionnement
+      chez les concurrents et truste les places dans les SERP (Search Engine Results
+      Page), se sont les pages de résultats suite à une recherche.\n\n"
   - title: Marketing Business Analyst
     description: Définissez différents outils d'analyse et concevez des tableaux de
       bord qui aident à la prise de décision et au suivi de la performance commerciale.
