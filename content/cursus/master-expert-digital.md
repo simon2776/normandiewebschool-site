@@ -104,10 +104,13 @@ profession:
     rencontres.
   item:
   - title: Responsable marketing digital
-    description: Soyez en charge du suivi des budgets marketing et aussi du suivi
-      des retombées des actions marketing en mesurant, par exemple, l'efficacité des
-      campagnes. En collaboration avec les chefs de produit, concevez les actions
-      correctrices.
+    description: 'En étroite collaboration avec la direction marketing et communication,
+      le Responsable Marketing Digital (RMD) a un rôle central dans l’entreprise.
+      Il est chargé de mener et d''accompagner les différents projets numériques en
+      lien avec la stratégie d’entreprise. Exemple générer des leads, augmenter le
+      trafic du site et améliorer la notoriété de la marque et générer du revenu.
+      En somme, il exploite tous les outils du web-marketing dans un seul but : acquérir
+      et fidéliser avec un ROI optimal.'
   - title: Chef de projet de transformation digitale
     description: 'Accompagnez le client pour développer la capacité à utiliser les
       technologies digitales comme levier de création de valeur : nouveaux business
