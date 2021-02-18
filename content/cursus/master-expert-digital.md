@@ -112,9 +112,10 @@ profession:
       En somme, il exploite tous les outils du web-marketing dans un seul but : acquérir
       et fidéliser avec un ROI optimal.'
   - title: Chef de projet de transformation digitale
-    description: 'Accompagnez le client pour développer la capacité à utiliser les
-      technologies digitales comme levier de création de valeur : nouveaux business
-      model, renforcement de la relation client, innovation, mobilité, agilité...'
+    description: |+
+      Le Chef de Projet Digital est comme un chef d'orchestre, il est le coordinateur de l’ensemble des étapes relatives à la réalisation d’un projet web ou mobile : création de sites web ou d’applications mobiles etc. Il est un élément clé dans une entreprise ou une agence de communication. En effet, il s’occupe de la réalisation de tous les projets digitaux de sa société. Il doit avoir des compétences en web, en management et doit être sensible à l’innovation.
+
+
   - title: Consultant(e) Web DATA
     description: Décryptez les comportements des internautes sur le web. Grâce aux
       données statistiques collectées, analysez les données de fréquentation d'un
