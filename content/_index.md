@@ -83,7 +83,7 @@ video:
     orientée vers le numérique ? Le directeur, l'équipe pédagogique et les intervenants
     vous répondent.</p>"
   button: Voir toutes nos vidéos
-  href: https://www.youtube-nocookie.com/embed/qg_8FsSGuB
+  href: https://www.youtube.com/channel/UCxmD0A_TGigvE0F4PLCikjA
 cursus:
   enable: true
   title: Les cursus à la NWS
