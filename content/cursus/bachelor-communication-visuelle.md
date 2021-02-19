@@ -34,7 +34,7 @@ banner:
     href: "/cursus/bachelor-developpement-web"
 about:
   enable: true
-  url: https://www.youtube-noccokie.com/embed/2_sVoCrjQfw
+  url: https://youtu.be/9TvFKWtQV2E
   description: Sarah Kugel et Simon Lecoeur, tous deux intervenants à la Normandie
     Web School, vous explique en quoi consiste la filière Web Design.
 skills:
