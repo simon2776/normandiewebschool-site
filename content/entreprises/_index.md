@@ -9,7 +9,12 @@ description: Les entreprises sont l’un des piliers essentiel de l’école que
 banner:
   title: Les <span class="font-weight-medium">entreprises</span>
   title-line-twho: ''
-  subtitle: La Normandie Web School au plus près proche des entreprises.
+  subtitle: La Normandie Web School au plus près des entreprises. Une vraie proximité
+    avec les entreprises. Les relations entreprises sont une composante essentielle
+    de la formation des étudiants et du fonctionnement de l’école.  La Normandie web
+    school a choisi  de placer le monde professionnel au cœur de son dispositif pédagogique
+    en  associant les entreprises à la démarche de préparation des étudiant(es) au
+    marché de l’emploi.
   image: "/images/banner_entreprise.jpg"
 about:
   enable: true
