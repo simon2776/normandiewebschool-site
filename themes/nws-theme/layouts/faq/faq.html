@@ -23,11 +23,11 @@
         {{ $i := $.Scratch.Get "i" }}
         <div class="col-md-12 mb-4">
           <div class="card {{ if eq $i 0 }} second-push-top {{end}}">
-            <div class="card-header color-blue flex-column">
+            <div class="card-header color-blue flex-column align-items-center">
               <div class="row pb-lg-4 w-100">
                 <div class="col-12 text-center col-lg-2">
                   <img
-                    class="card-img-top rounded-circle card-img-top team-image w-100 fit-contain"
+                    class="card-img-top rounded-circle card-img-top team-image fit-cover"
                     src="{{.image}}"
                     alt="Valérie"
                   />
