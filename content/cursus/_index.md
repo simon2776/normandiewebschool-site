@@ -81,12 +81,7 @@ filieres:
     title: Cursus intial
     content: "<p>La première année est une année préparatoire avec un programme de
       formation générale de base qui permet de découvrir, pratiquer et acquérir de
-      solides compétences techniques et transverses dans le domaine du numérique (marketing,
-      développement web et mobile et web design) à travers de projets collaboratifs
-      et de la pédagogie active et co-active. Elle permet aussi de développer les
-      connaissances et habiletés requises pour la poursuite d’études vers les métiers
-      du numériques.</p><p>L’Année préparatoire s’adresse aux titulaires du Baccalauréat,
-      quelle que soit la série mais aussi aux étudiants souhaitant se réorienter.</p>"
+      solides compétences techniques et transverses dans le domaine du numérique.</p>"
     arrow: true
     arrowImage: "/images/arrow-down.svg"
     link: "#"
