@@ -9,7 +9,9 @@
 >
 </section>
 <!-- /hero area -->
-{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
+<div class="header">
+  {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
+</div>
 
 {{ if .Params.documents.enable }}
 
@@ -108,6 +110,7 @@
 <script>
   const formSection = document.querySelector('.form-section')
   const docSection = document.querySelector('.doc-section')
+  const header = document.querySelector('.header')
 
   let cookies = document.cookie.split(';')
   cookies = cookies.filter(cookie => cookie === 'documentation=true')
@@ -135,6 +138,7 @@
 
   function requestedDocs() {
     formSection.style.display = 'none'
+    header.style.display = 'none'
     docSection.classList.remove('d-none')
     docSection.classList.remove('col-lg-4')
     docSection.classList.add('col-12')
