@@ -10,7 +10,7 @@ banner:
 subjects:
   enable: true
   item:
-  - image: "/images/contact_bg.png"
+  - image: "/images/filieres_img1.png"
     subject: L'école
     subtitle: 'Organisation, rythme, formations, retrouvez toutes les réponses ici. '
     questions:
