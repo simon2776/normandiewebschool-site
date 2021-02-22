@@ -79,9 +79,9 @@ filieres:
   - image: false
     bulle: 1ère année
     title: Cursus intial
-    content: "<p>La première année est une année préparatoire avec un programme de
-      formation générale de base qui permet de découvrir, pratiquer et acquérir de
-      solides compétences techniques et transverses dans le domaine du numérique.</p>"
+    content: La première année est une année préparatoire avec un programme de formation
+      générale de base qui permet de découvrir, pratiquer et acquérir de solides compétences
+      techniques et transverses dans le domaine du numérique.
     arrow: true
     arrowImage: "/images/arrow-down.svg"
     link: https://nws-akarah-preprod.netlify.app/documentation/
