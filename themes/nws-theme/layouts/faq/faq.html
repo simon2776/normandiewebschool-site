@@ -33,8 +33,8 @@
                   />
                 </div>
                 <div class="col-12 text-center col-lg-10 text-lg-left">
-                  <h3 class="m-auto py-3 py-lg-0 title-medium title-medium-lg-left color-blue">{{.subject}}</h3>
-                  <p class="mb-4">{{.subtitle}}</p>
+                  <h3 class="m-auto py-3 py-lg-0 title-medium title-medium-lg-left color-blue">{{.subject | safeHTML }}</h3>
+                  <p class="mb-4">{{.subtitle | safeHTML }}</p>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@
                         aria-expanded="true"
                         aria-controls="collapse-{{$subject}}-{{$index}}"
                       >
-                        {{.question}}
+                        {{.question | safeHTML }}
                         <i class="fas fa-angle-down rotate-icon icon-faq"></i>
                       </a>
                     </h3>
@@ -76,7 +76,7 @@
                     aria-labelledby="heading-{{$subject}}-{{$index}}"
                   >
                     <div class="panel-body mb-4">
-                      <p>{{.answer}}</p>
+                      <p>{{.answer | safeHTML }}</p>
                     </div>
                   </div>
                 </div>
