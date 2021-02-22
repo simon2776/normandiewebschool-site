@@ -84,7 +84,7 @@ filieres:
       solides compétences techniques et transverses dans le domaine du numérique.</p>"
     arrow: true
     arrowImage: "/images/arrow-down.svg"
-    link: "#"
+    link: documentation/
     carousel: false
     specilisation: []
   - image: true
@@ -126,7 +126,7 @@ filieres:
       et les compétences techniques pour mettre en oeuvre une stratégie de marketing
       digital dans sa globalité.</p>
     arrow: false
-    link: "#"
+    link: "/cursus/master-expert-digital/"
     arrowImage: ''
     carousel: false
     specilisation: []
