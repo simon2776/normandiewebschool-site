@@ -1,13 +1,15 @@
 ---
 title: Les entreprises
 type: page
-description: |-
-  Les entreprises sont l’un des piliers essentiel de l’école que ce soit pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.
-  Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes au plus proche de la réalité des besoins en compétences sur le marché de l'emploi.
+description: Les entreprises sont l’un des piliers essentiel de l’école que ce soit
+  pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
+  co-construction d’événements.Un comité de perfectionnement a pour objectif chaque
+  année d’adapter les programmes au plus proche de la réalité des besoins en compétences
+  sur le marché de l'emploi.
 banner:
   title: Les <span class="font-weight-medium">entreprises</span>
   title-line-twho: ''
-  subtitle: La Normandie Web School proche de ses collaborateurs et des intervenants.
+  subtitle: La Normandie Web School au plus près proche des entreprises.
   image: "/images/banner_entreprise.jpg"
 about:
   enable: true
@@ -81,6 +83,7 @@ partners:
   - logo: "/"
 testimonials:
   enable: true
+seo_image: ''
 menu:
   desktop:
     URL: entreprises
