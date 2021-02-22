@@ -84,7 +84,7 @@ filieres:
       solides compétences techniques et transverses dans le domaine du numérique.</p>"
     arrow: true
     arrowImage: "/images/arrow-down.svg"
-    link: documentation/
+    link: https://nws-akarah-preprod.netlify.app/documentation/
     carousel: false
     specilisation: []
   - image: true
