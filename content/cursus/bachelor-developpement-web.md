@@ -201,7 +201,7 @@ years:
     active: ''
 profession:
   enable: true
-  title: Les débouchés potentiels
+  title: Les débouchés métiers
   subtitle: Proposez des projets, organisez les dans leur globalité et accompagnez
     les équipes chargées de la production à travers un suivi complet, la création
     d'un plan marketing, des études de marchés, de la veille et des réunions et des
