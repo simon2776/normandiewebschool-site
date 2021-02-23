@@ -5,7 +5,7 @@ description: Les réponses aux questions les plus posées.
 banner:
   title: <span class="font-weight-medium">FAQ</span>
   title-line-twho: ''
-  subtitle: Ayez les réponses à toutes vos questions
+  subtitle: Les réponses aux questions les plus posées.
   image: "/images/backgrounds/background-faq.png"
 subjects:
   enable: true
