@@ -17,7 +17,7 @@ subjects:
     - question: Quelles sont les formations préparant aux métiers du numérique dispensées
         à la Normandie Web School ?
       answer: "<p>Le Bachelor « Chef de projet digital » est accessible après le bac
-        ou en admissions parallèles après un bac+1 ou bac+2 validé. </p><p><br> La
+        ou en admissions parallèles après un bac+1 ou bac+2 validé.</p><p><br> La
         1ère année, les étudiants suivent un tronc commun et abordent 3 domaines :
         développement web, design graphique, communication digitale. <br></p><p>La
         2ème année, ils se spécialisent vers différents métiers : Développement :
@@ -28,7 +28,7 @@ subjects:
         content manager, … <br></p><p>La 3ème année, ils sont toujours en spécialisation
         mais les projets d’année sont montés en commun et en incluant les compétences
         du Chef de projet, Product Owner ou Scrum Master. <br></p><p>La 4ème année,
-        ils peuvent choisir de poursuivre en mastère (24 mois) (titre RNCP niveau
+        ils peuvent choisir de poursuivre en mastère (18 mois) (titre RNCP niveau
         7) : Expert design et digital marketing, Intégrateur-DevSecOps.</p>"
     - question: La Normandie Web School délivre-t-il des diplômes reconnus par l’Etat
         ?
