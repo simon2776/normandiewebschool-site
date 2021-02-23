@@ -77,7 +77,7 @@ filieres:
     entreprise ou d’une agence digitale.</p>"
 video:
   enable: true
-  url: https://youtu.be/qg_8FsSGuBY
+  url: https://www.youtube.com/embed/qg_8FsSGuBY
   title: La NWS en vidéo
   content: "<p>Qu'est ce que la Normandie Web School ? Que propose cette école 100%
     orientée vers le numérique ? Le directeur, l'équipe pédagogique et les intervenants
