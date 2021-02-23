@@ -32,7 +32,7 @@ cursus:
       développement web et mobile et web design) à travers de projets collaboratifs
       et de la pédagogie active et co-active. Elle permet aussi de développer les
       connaissances et habiletés requises pour la poursuite d’études vers les métiers
-      du numériques.</p><p>L’Année préparatoire s’adresse aux titulaires du Baccalauréat,
+      du numérique.</p><p>L’Année préparatoire s’adresse aux titulaires du Baccalauréat,
       quelle que soit la série mais aussi aux étudiants souhaitant se réorienter.</p>"
     from: Bac +1
     color: color-yellow
@@ -79,17 +79,12 @@ filieres:
   - image: false
     bulle: 1ère année
     title: Cursus intial
-    content: "<p>La première année est une année préparatoire avec un programme de
-      formation générale de base qui permet de découvrir, pratiquer et acquérir de
-      solides compétences techniques et transverses dans le domaine du numérique (marketing,
-      développement web et mobile et web design) à travers de projets collaboratifs
-      et de la pédagogie active et co-active. Elle permet aussi de développer les
-      connaissances et habiletés requises pour la poursuite d’études vers les métiers
-      du numériques.</p><p>L’Année préparatoire s’adresse aux titulaires du Baccalauréat,
-      quelle que soit la série mais aussi aux étudiants souhaitant se réorienter.</p>"
+    content: La première année est une année préparatoire avec un programme de formation
+      générale de base qui permet de découvrir, pratiquer et acquérir de solides compétences
+      techniques et transverses dans le domaine du numérique.
     arrow: true
     arrowImage: "/images/arrow-down.svg"
-    link: "#"
+    link: https://nws-akarah-preprod.netlify.app/documentation/
     carousel: false
     specilisation: []
   - image: true
@@ -101,37 +96,37 @@ filieres:
       content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
         Vous avez le choix entre développement web, design graphique ou marketing
         digital.
-      link: "#"
+      link: "/cursus/bachelor-marketing-digital/"
     - bulle: "/images/logo-dev.png"
       title: Spécialisation Développement
       color: color-yellow
       content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
         Vous avez le choix entre développement web, design graphique ou marketing
         digital.
-      link: "#"
+      link: "/cursus/bachelor-developpement-web/"
     - bulle: "/images/logo-design.png"
       title: Spécialisation Design
       color: color-blue
       content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
         Vous avez le choix entre développement web, design graphique ou marketing
         digital.
-      link: "#"
+      link: "/cursus/bachelor-communication-visuelle/"
     arrow: true
     arrowImage: "/images/arrow-down.svg"
     bulle: ''
     title: ''
     content: ''
-    link: ''
+    link: "/cursus/bachelor-marketing-digital/"
   - image: false
     bulle: 4e & 5e année
     title: Master "Expert Digital"
-    content: <p>Après les trois années de bachelor, s'il le désire l'étudiant peut
-      intégrer le Mastère "Expert Digital" équivalent Bac +5 afin de développer encore
-      plus ses compétences. À l’issue du Mastère, les étudiant(es) auront les connaissances
+    content: Après les trois années de bachelor, s'il le désire l'étudiant peut intégrer
+      le Mastère "Expert Digital" équivalent Bac +5 afin de développer encore plus
+      ses compétences. À l’issue du Mastère, les étudiant(es) auront les connaissances
       et les compétences techniques pour mettre en oeuvre une stratégie de marketing
-      digital dans sa globalité.</p>
+      digital dans sa globalité.
     arrow: false
-    link: "#"
+    link: "/cursus/master-expert-digital/"
     arrowImage: ''
     carousel: false
     specilisation: []

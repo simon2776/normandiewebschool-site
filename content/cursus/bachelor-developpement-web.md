@@ -32,7 +32,7 @@ banner:
     href: "/cursus/bachelor-marketing-digital"
 about:
   enable: true
-  url: https://youtu.be/Gs_IBLIYvAs
+  url: https://www.youtube.com/embed/Gs_IBLIYvAs
   description: Maxence Machu, intervenant à la Normandie Web School, vous explique
     la filière Développement Web et Mobile.
 skills:
@@ -201,7 +201,7 @@ years:
     active: ''
 profession:
   enable: true
-  title: Les débouchés potentiels
+  title: Les débouchés métiers
   subtitle: Proposez des projets, organisez les dans leur globalité et accompagnez
     les équipes chargées de la production à travers un suivi complet, la création
     d'un plan marketing, des études de marchés, de la veille et des réunions et des

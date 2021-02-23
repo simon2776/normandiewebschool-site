@@ -23,18 +23,18 @@
         {{ $i := $.Scratch.Get "i" }}
         <div class="col-md-12 mb-4">
           <div class="card {{ if eq $i 0 }} second-push-top {{end}}">
-            <div class="card-header color-blue flex-column">
+            <div class="card-header color-blue flex-column align-items-center">
               <div class="row pb-lg-4 w-100">
                 <div class="col-12 text-center col-lg-2">
                   <img
-                    class="card-img-top rounded-circle card-img-top team-image w-100 fit-contain"
+                    class="card-img-top rounded-circle card-img-top team-image fit-cover"
                     src="{{.image}}"
                     alt="Valérie"
                   />
                 </div>
                 <div class="col-12 text-center col-lg-10 text-lg-left">
-                  <h3 class="m-auto py-3 py-lg-0 title-medium title-medium-lg-left color-blue">{{.subject}}</h3>
-                  <p class="mb-4">{{.subtitle}}</p>
+                  <h3 class="m-auto py-3 py-lg-0 title-medium title-medium-lg-left color-blue">{{.subject | safeHTML }}</h3>
+                  <p class="mb-4">{{.subtitle | safeHTML }}</p>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@
                         aria-expanded="true"
                         aria-controls="collapse-{{$subject}}-{{$index}}"
                       >
-                        {{.question}}
+                        {{.question | safeHTML }}
                         <i class="fas fa-angle-down rotate-icon icon-faq"></i>
                       </a>
                     </h3>
@@ -76,7 +76,7 @@
                     aria-labelledby="heading-{{$subject}}-{{$index}}"
                   >
                     <div class="panel-body mb-4">
-                      <p>{{.answer}}</p>
+                      <p>{{.answer | safeHTML }}</p>
                     </div>
                   </div>
                 </div>

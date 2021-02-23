@@ -10,7 +10,7 @@ banner:
 subjects:
   enable: true
   item:
-  - image: "/images/faq-ecole-round.png"
+  - image: "/images/filieres_img1.png"
     subject: L'école
     subtitle: 'Organisation, rythme, formations, retrouvez toutes les réponses ici. '
     questions:
@@ -155,6 +155,7 @@ subjects:
         année et les mastères sont quant à elles obligatoirement en alternance. </p><p>Si
         l’école a beaucoup d’entreprises partenaires et vous aide, c’est quand même
         à vous de faire les premières démarches afin de trouver votre entreprise d’accueil.</p>"
+seo_image: ''
 menu:
   top:
     name: FAQ

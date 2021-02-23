@@ -1,39 +1,33 @@
 ---
 title: Les entreprises
 type: page
-description: |-
-  Les entreprises sont l’un des piliers essentiel de l’école que ce soit pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.
-  Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes au plus proche de la réalité des besoins en compétences sur le marché de l'emploi.
+description: Les entreprises sont l’un des piliers essentiel de l’école que ce soit
+  pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
+  co-construction d’événements.Un comité de perfectionnement a pour objectif chaque
+  année d’adapter les programmes au plus proche de la réalité des besoins en compétences
+  sur le marché de l'emploi.
 banner:
   title: Les <span class="font-weight-medium">entreprises</span>
   title-line-twho: ''
-  subtitle: La Normandie Web School proche de ses collaborateurs et des intervenants.
+  subtitle: La Normandie Web School au plus près des entreprises.
   image: "/images/banner_entreprise.jpg"
 about:
   enable: true
   title: Introduction
   image: "/images/sitapha-cours.png"
-  content: Les entreprises sont l’un des piliers essentiel de l’école que ce soit
-    pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
-    co-construction d’événements. Un comité de perfectionnement a pour objectif chaque
-    année d’adapter les programmes au plus proche de la réalité des besoins en compétences.
-    <br/> Nous travaillons en étroite collaboration avec les entreprises, tout secteur
-    confondu, de la TPE à la l'entreprise internationale mais aussi avec des associations,
-    des collectivités locales, des administrations publiques, des syndicats professionnels…
-    <br/>Le numérique touche tous les secteurs et tous les services et est encore
-    en devenir pour certaines organisations dont la transition digitale est en cours.
-    L’école est un partenaire, voire un accélérateur de cette transition pour beaucoup
-    de nos partenaires. Alors pourquoi pas travailler avec nous ?
+  content: |-
+    Les entreprises sont l’un des piliers essentiel de l’école que ce soit pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.  Les relations entreprises sont une composante essentielle de la formation des étudiant(es) et du fonctionnement de l’école.  C’est pour cela que la Normandie web school a choisi  de placer le monde professionnel au cœur de son dispositif pédagogique en  associant les entreprises à la démarche de préparation des étudiant(es) au marché de l’emploi.
+    Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes au plus proche de la réalité des besoins en compétences. <br/> Nous travaillons en étroite collaboration avec les entreprises, tout secteur confondu, de la TPE à la l'entreprise internationale mais aussi avec des associations, des collectivités locales, des administrations publiques, des syndicats professionnels… <br/>Le numérique touche tous les secteurs et tous les services et est encore en devenir pour certaines organisations dont la transition digitale est en cours. L’école est un partenaire, voire un accélérateur de cette transition pour beaucoup de nos partenaires. Alors pourquoi pas travailler avec nous ?
 recrutement:
   enable: true
   item:
   - image: "/images/entreprise_1.png"
     title: Les stages
     button: Trouvez votre stagiaire
-    content: 'Vous pouvez intégrer nos stagiaires sur différentes périodes de l’année
-      <br/> Année 1 : stage de 2 mois à partir du mois de mai <br/> Année 2 : stage
-      de 4 mois à partir du mois de mars <br/> Année 3 : stage de 6 mois équivalent
-      temps plein à partir de janvier'
+    content: 'Vous pouvez intégrer nos étudiant(es) en stage sur différentes périodes
+      de l’année <br/> Année 1 : stage de 2 mois à partir du mois de mai <br/> Année
+      2 : stage de 4 mois à partir du mois de mars <br/> Année 3 : stage de 6 mois
+      équivalent temps plein à partir de janvier'
     color: color-blue
   - image: "/images/entreprises_2.png"
     title: L'alternance
@@ -81,6 +75,7 @@ partners:
   - logo: "/"
 testimonials:
   enable: true
+seo_image: ''
 menu:
   desktop:
     URL: entreprises

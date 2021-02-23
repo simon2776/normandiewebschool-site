@@ -35,7 +35,7 @@ banner:
     href: "/cursus/bachelor-developpement-web"
 about:
   enable: true
-  url: https://youtu.be/ZLx18d89pNo
+  url: https://www.youtube.com/embed/ZLx18d89pNo
   description: Romain Comoretto, intervenant auprès de la filière marketing digital,
     vous explique en quoi elle consiste.
 skills:
