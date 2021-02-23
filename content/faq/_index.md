@@ -34,12 +34,12 @@ subjects:
         ?
       answer: "<p>Tous les titres délivrés par la Normandie Web School sont inscrits
         au Répertoire national de la certification professionnelle (RNCP), leurs niveaux
-        sont certifiés par l’État. </p><p>Pour les étudiants, comme pour les professionnels
-        qui seront amenés à les embaucher, c’est un gage de qualité. </p><p>Cette
-        certification par l’État repose en effet sur deux principes fondamentaux :
-        la cohérence des compétences acquises par l’étudiant avec les réalités du
-        secteur professionnel (référentiel de compétences) et une obligation de résultats,
-        c'est à dire le placement de nos apprenants.</p>"
+        sont certifiés par l’État.</p><p>Pour les étudiants, comme pour les professionnels
+        qui seront amenés à les embaucher, c’est un gage de qualité.</p><p>Cette certification
+        par l’État repose en effet sur deux principes fondamentaux : la cohérence
+        des compétences acquises par l’étudiant avec les réalités du secteur professionnel
+        (référentiel de compétences) et une obligation de résultats, c'est à dire
+        le placement en entreprise de nos apprenants.</p>"
     - question: Organisez-vous des Journées Portes Ouvertes ?
       answer: "<p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
         aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.
