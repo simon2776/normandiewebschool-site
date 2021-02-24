@@ -42,8 +42,7 @@ documents:
     document: "/images/mastere.pdf"
 form:
   title: Vos coordonnées
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat,
-    sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim.
+  subtitle: ''
   enable: true
   input:
   - icon: "/images/icn-mail.png"
