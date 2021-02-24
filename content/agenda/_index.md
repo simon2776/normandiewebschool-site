@@ -39,7 +39,7 @@ event:
     item: []
   - label: Avril 2021
     item:
-    - date: 01/05/21
+    - date: 
       name: ''
       localisation: ''
       start: ''
