@@ -1,6 +1,6 @@
 ---
 title: La documentation sur l'école
-date: 2019-05-12T12:14:34.000+06:00
+date: 2019-05-12T06:14:34+00:00
 description: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
 banner:
   title: Accédez à la <span class="font-weight-medium">documentation</span>
@@ -18,6 +18,26 @@ documents:
     name: Présentation générale de la NWS
     format: PDF
     document: "/images/plaquette-nws-generale.pdf"
+  - icon: "/images/icn-cloud.png"
+    name: 'Le cursus initial '
+    format: PDF
+    document: "/images/1ere-annee-cursus-initial.pdf"
+  - icon: "/images/icn-cloud.png"
+    name: Filière Web Design & Communication visuelle
+    format: PDF
+    document: "/images/design-graphique.pdf"
+  - icon: "/images/icn-cloud.png"
+    name: Filière Développement
+    format: PDF
+    document: "/images/developpement.pdf"
+  - icon: "/images/icn-cloud.png"
+    name: Filière Marketing
+    format: PDF
+    document: "/images/marketing.pdf"
+  - icon: "/images/icn-cloud.png"
+    name: Master "Expert digital"
+    format: PDF
+    document: "/images/mastere.pdf"
 form:
   title: Vos coordonnées
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat,
@@ -54,6 +74,7 @@ form:
       des publications à portée commerciales.
     required: false
     name: newsletter
+seo_image: ''
 menu:
   main:
     name: Documentation
