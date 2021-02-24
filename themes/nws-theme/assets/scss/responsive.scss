@@ -141,6 +141,7 @@
   }
 
   [data-toggle='collapse'] {
+    pointer-events: none;
     i {
       display: none;
     }

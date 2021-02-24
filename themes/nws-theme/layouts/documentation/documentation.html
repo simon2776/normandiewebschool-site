@@ -85,7 +85,7 @@
 
             <div>
               <div class="card-body">
-                <p>{{.subtitle}}</p>
+                <p>{{.subtitle | safeHTML }}</p>
                 {{ partial "getDocuments.html" . }}
               </div>
             </div>

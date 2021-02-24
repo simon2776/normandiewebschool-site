@@ -20,6 +20,15 @@
     color: var(--green);
   }
 }
+
+a {
+  color: var(--green);
+
+  &:hover {
+    text-decoration: underline;
+    color: var(--green);
+  }
+}
 /*
 GLOBAL DISPLAY
  */
@@ -1376,10 +1385,12 @@ HERO HEADER
     }
 
     .icon {
-      width: 35px;
+      flex: 1;
+      //width: 35px;
       //margin-left: 10px;
       img {
-        width: 80%;
+        //width: 80%;
+        width: 20px;
         margin: auto;
       }
 

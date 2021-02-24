@@ -268,7 +268,7 @@
               </h3>
 
                 {{ $partners := where .Site.RegularPages "Type" "in" "partner" }}
-            <div class="row">
+            <div class="row d-flex align-items-center justify-content-center">
               {{ range $partners }}
                 {{ partial "partner.html" . }}
               {{ end }}
