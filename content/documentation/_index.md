@@ -11,8 +11,10 @@ banner:
 documents:
   enable: true
   title: Téléchargez les documents
-  subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
-    erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
+  subtitle: "Téléchargez les documents de présentation des différentes filières à
+    la <strong>Normandie Web School</strong>. \n\nN'hésitez pas à demander un entretien
+    pédagogique en <a href=\"https://normandiewebschool.fr/inscription/\">cliquant
+    ici</a> après votre lecture. "
   document:
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
