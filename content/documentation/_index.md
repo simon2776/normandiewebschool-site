@@ -1,6 +1,6 @@
 ---
 title: La documentation sur l'école
-date: 2019-05-12T12:14:34.000+06:00
+date: 2019-05-12T06:14:34+00:00
 description: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
 banner:
   title: Accédez à la <span class="font-weight-medium">documentation</span>
@@ -14,6 +14,10 @@ documents:
   subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui
     erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
   document:
+  - icon: "/images/icn-cloud.png"
+    name: 'Le cursus initial '
+    format: PDF
+    document: ''
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
@@ -54,6 +58,7 @@ form:
       des publications à portée commerciales.
     required: false
     name: newsletter
+seo_image: ''
 menu:
   main:
     name: Documentation
