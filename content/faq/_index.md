@@ -1,11 +1,11 @@
 ---
 title: Foire aux questions
 type: page
-description: Ayez les réponses à toutes vos questions
+description: Les réponses aux questions les plus posées.
 banner:
   title: <span class="font-weight-medium">FAQ</span>
   title-line-twho: ''
-  subtitle: Ayez les réponses à toutes vos questions
+  subtitle: Les réponses aux questions les plus posées.
   image: "/images/backgrounds/background-faq.png"
 subjects:
   enable: true
@@ -17,7 +17,7 @@ subjects:
     - question: Quelles sont les formations préparant aux métiers du numérique dispensées
         à la Normandie Web School ?
       answer: "<p>Le Bachelor « Chef de projet digital » est accessible après le bac
-        ou en admissions parallèles après un bac+1 ou bac+2 validé. </p><p><br> La
+        ou en admissions parallèles après un bac+1 ou bac+2 validé.</p><p><br> La
         1ère année, les étudiants suivent un tronc commun et abordent 3 domaines :
         développement web, design graphique, communication digitale. <br></p><p>La
         2ème année, ils se spécialisent vers différents métiers : Développement :
@@ -28,18 +28,18 @@ subjects:
         content manager, … <br></p><p>La 3ème année, ils sont toujours en spécialisation
         mais les projets d’année sont montés en commun et en incluant les compétences
         du Chef de projet, Product Owner ou Scrum Master. <br></p><p>La 4ème année,
-        ils peuvent choisir de poursuivre en mastère (24 mois) (titre RNCP niveau
+        ils peuvent choisir de poursuivre en mastère (18 mois) (titre RNCP niveau
         7) : Expert design et digital marketing, Intégrateur-DevSecOps.</p>"
     - question: La Normandie Web School délivre-t-il des diplômes reconnus par l’Etat
         ?
       answer: "<p>Tous les titres délivrés par la Normandie Web School sont inscrits
         au Répertoire national de la certification professionnelle (RNCP), leurs niveaux
-        sont certifiés par l’État. </p><p>Pour les étudiants, comme pour les professionnels
-        qui seront amenés à les embaucher, c’est un gage de qualité. </p><p>Cette
-        certification par l’État repose en effet sur deux principes fondamentaux :
-        la cohérence des compétences acquises par l’étudiant avec les réalités du
-        secteur professionnel (référentiel de compétences) et une obligation de résultats,
-        c'est à dire le placement de nos apprenants.</p>"
+        sont certifiés par l’État.</p><p>Pour les étudiants, comme pour les professionnels
+        qui seront amenés à les embaucher, c’est un gage de qualité.</p><p>Cette certification
+        par l’État repose en effet sur deux principes fondamentaux : la cohérence
+        des compétences acquises par l’étudiant avec les réalités du secteur professionnel
+        (référentiel de compétences) et une obligation de résultats, c'est à dire
+        le placement en entreprise de nos apprenants.</p>"
     - question: Organisez-vous des Journées Portes Ouvertes ?
       answer: "<p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
         aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.

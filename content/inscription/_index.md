@@ -19,11 +19,10 @@ documents:
   format: PDF
 form:
   title: Candidatez sur le site
-  subtitle: "Après avoir rempli et envoyé votre dossier de candidature, un membre
-    de l’administration de l’école vous contactera pour fixer une date d'entretien.
-    \nLors de votre rendez-vous, vous réaliserez un test de culture numérique et un
-    entretien avec un membre de l'équipe pédagogique. \nUne réponse vous sera ensuite
-    donnée dans les plus brefs délais."
+  subtitle: |-
+    Après avoir rempli ce formulaire, l’école vous contactera pour fixer un rendez-vous.
+    Au cours de ce rendez-vous, vous réaliserez un test de culture numérique et vous passerez un entretien individuel avec un membre de l'équipe pédagogique.
+    Une réponse vous sera donnée dans les plus brefs délais.
   input:
   - icon: "/images/icn-user.png"
     placeholder: Votre nom de famille
@@ -83,6 +82,7 @@ form:
       des publications à portée commerciales.
     required: false
     name: newsletter
+seo_image: ''
 menu:
   main:
     name: Entretien pédagogique

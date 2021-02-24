@@ -13,7 +13,7 @@ banner:
   logo: "/images/logo-design.png"
   title: Filière <span class="font-weight-medium"> Design </span>
   image: images/design.jpg
-  description: <p>Ce diplôme prépare à concevoir la forme visuelle de messages dans
+  description: <p>Ce titre prépare à concevoir la forme visuelle de messages dans
     les différents domaines du graphisme, de l’édition et de la publicité, imprimés
     ou numériques. Il est destiné aux étudiants qui veulent se former aux métiers
     de web et mobile designer, qui ont une forte compétence en UI et UX et capables
