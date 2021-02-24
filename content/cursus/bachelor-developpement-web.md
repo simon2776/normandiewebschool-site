@@ -10,7 +10,7 @@ description: |2-
 banner:
   logo: "/images/logo-dev.png"
   title: Filière <span class="font-weight-medium">développement</span>
-  image: "/images/cursus_bg.png"
+  image: "/images/marketing.jpg"
   description: "<p>Ce diplôme prépare au métier de développeur web capable de créer,
     coder, et tester des sites Internet et des applications web. La transformation
     digitale des économies fait du développement web une des compétences essentielles
