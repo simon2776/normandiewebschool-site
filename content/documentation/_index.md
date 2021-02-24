@@ -15,13 +15,21 @@ documents:
     erat, sodales ut tempor consequat, fringilla vel libero. Quisque sed neque enim. '
   document:
   - icon: "/images/icn-cloud.png"
-    name: 'Le cursus initial '
+    name: Filière Développement
     format: PDF
-    document: ''
+    document: "/images/developpement.pdf"
+  - icon: "/images/icn-cloud.png"
+    name: Filière Web Design & Communication visuelle
+    format: PDF
+    document: "/images/design-graphique.pdf"
   - icon: "/images/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
     document: "/images/plaquette-nws-generale.pdf"
+  - icon: "/images/icn-cloud.png"
+    name: 'Le cursus initial '
+    format: PDF
+    document: "/images/1ere-annee-cursus-initial.pdf"
 form:
   title: Vos coordonnées
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui erat,
