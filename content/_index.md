@@ -115,8 +115,8 @@ data:
   enable: true
   title: La NWS en chiffres
   item:
-  - number: "249"
-    title: Nombre de diplômés
+  - number: "250"
+    title: Étudiants diplômés
   - number: "168"
     title: Nombre d'étudiants sur un an
   - number: "3"
