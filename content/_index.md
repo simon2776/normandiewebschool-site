@@ -121,8 +121,8 @@ data:
     title: Étudiants par année
   - number: "150"
     title: Entreprises partenaires
-  - number: "8"
-    title: Nombre de collaborateurs
+  - number: 93%
+    title: taux d'embauche de nos jeunes diplômés
 team:
   enable: 'true'
   title: L'équipe NWS
