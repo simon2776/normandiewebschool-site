@@ -15,9 +15,22 @@ about:
   enable: true
   title: Introduction
   image: "/images/sitapha-cours.png"
-  content: |-
-    Les entreprises sont l’un des piliers essentiel de l’école que ce soit pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la co-construction d’événements.  Les relations entreprises sont une composante essentielle de la formation des étudiant(es) et du fonctionnement de l’école.  C’est pour cela que la Normandie web school a choisi  de placer le monde professionnel au cœur de son dispositif pédagogique en  associant les entreprises à la démarche de préparation des étudiant(es) au marché de l’emploi.
-    Un comité de perfectionnement a pour objectif chaque année d’adapter les programmes au plus proche de la réalité des besoins en compétences. <br/> Nous travaillons en étroite collaboration avec les entreprises, tout secteur confondu, de la TPE à la l'entreprise internationale mais aussi avec des associations, des collectivités locales, des administrations publiques, des syndicats professionnels… <br/>Le numérique touche tous les secteurs et tous les services et est encore en devenir pour certaines organisations dont la transition digitale est en cours. L’école est un partenaire, voire un accélérateur de cette transition pour beaucoup de nos partenaires. Alors pourquoi pas travailler avec nous ?
+  content: "Les entreprises sont l’un des piliers essentiel de l’école que ce soit
+    pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
+    co-construction d’événements.  Les relations entreprises sont une composante essentielle
+    de la formation des étudiant(es) et du fonctionnement de l’école.  C’est pour
+    cela que la Normandie web school a choisi  de placer le monde professionnel au
+    cœur de son dispositif pédagogique en  associant les entreprises à la démarche
+    de préparation des étudiant(es) au marché de l’emploi.\nUn comité de perfectionnement
+    a pour objectif chaque année d’adapter les programmes au plus proche de la réalité
+    des besoins en compétences. <br/> Nous travaillons en étroite collaboration avec
+    les entreprises, tout secteur confondu, de la TPE à la l'entreprise internationale
+    mais aussi avec des associations, des collectivités locales, des administrations
+    publiques, des syndicats professionnels… <br/>Le numérique touche tous les secteurs
+    et tous les services et est encore en devenir pour certaines organisations dont
+    la transition digitale est en cours. L’école est un partenaire, voire un accélérateur
+    de cette transition pour beaucoup de nos partenaires. Alors, pourquoi ne pas œuvrer
+    ensemble pour réussir cette transition digitale ? "
 recrutement:
   enable: true
   item:
