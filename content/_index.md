@@ -117,8 +117,8 @@ data:
   item:
   - number: "250"
     title: Étudiants diplômés
-  - number: "168"
-    title: Nombre d'étudiants sur un an
+  - number: "170"
+    title: Étudiants par année
   - number: "3"
     title: Nombre de spécialisations
   - number: "8"
