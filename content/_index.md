@@ -119,8 +119,8 @@ data:
     title: Étudiants diplômés
   - number: "170"
     title: Étudiants par année
-  - number: "3"
-    title: Nombre de spécialisations
+  - number: "150"
+    title: Entreprises partenaires
   - number: "8"
     title: Nombre de collaborateurs
 team:
