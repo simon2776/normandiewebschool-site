@@ -65,8 +65,8 @@ form:
       par l'école.
     required: true
     name: RGPD
-  - content: J'accepte recevoir les actualités de la Normandie Web School  ainsi que
-      des publications à portée commerciales.
+  - content: J'accepte de recevoir les actualités de la Normandie Web School  ainsi
+      que des publications à portée commerciale.
     required: false
     name: newsletter
   item:
@@ -81,6 +81,7 @@ form:
     subInfo: 72 rue de la République <br/> 76140 Le Petit-Quevilly
   button_text: Envoyer le message
   inscription_button_text: Entretien pédagogique
+seo_image: ''
 menu:
   main:
     name: Contact
