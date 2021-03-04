@@ -56,7 +56,7 @@
         {{ range $index, $value := .item }}
           <div class="col-md-12 col-lg-4 pb-4">
           <div class="card h-100 center-card with-border {{ .color }} home-filieres">
-            <div class="card-header" id="heading-{{$index}}" data-toggle="collapse"
+            <div class="card-header hide-collapse-desktop" id="heading-{{$index}}" data-toggle="collapse"
                  data-target="#collapse-{{$index}}" >
 
               <img src="{{ .logo | absURL }}" alt="{{.title}}" width="100px" height="100px">
@@ -68,7 +68,7 @@
 
             </div>
 
-            <div id="collapse-{{$index}}" class="collapse show" aria-labelledby="heading-{{$index}}" data-parent="#accordion">
+            <div id="collapse-{{$index}} hide-collapse-desktop" class="collapse show" aria-labelledby="heading-{{$index}}" data-parent="#accordion">
               <div class="card-body">
                 <p>
                   {{.content | safeHTML}}

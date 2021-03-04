@@ -140,7 +140,8 @@
     margin-bottom: 0;
   }
 
-  [data-toggle='collapse'] {
+  //[data-toggle='collapse']:not(.event) {
+  .hide-collapse-desktop {
     pointer-events: none;
     i {
       display: none;
