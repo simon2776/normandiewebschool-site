@@ -35,16 +35,20 @@ jobs:
         run: |
           npm install
           hugo -d public_html --baseURL=https://normandiewebschool.fr --minify
-
-      - name: LFTP Deploy
-        # You may pin to the exact commit or the version.
-        # uses: MajorVengeance/Ftp-Deploy-Action@27822b6d8e1966e0158671693f32a681a8c7fabf
-        uses: MajorVengeance/Ftp-Deploy-Action@v0.2.3-alpha
+          
+      - name: FTP Deployer
+        uses: sand4rt/ftp-deployer@v1.1
         with:
-          ftp_host: ${{ secrets.FTP_HOST }}
-          ftp_username: ${{ secrets.FTP_LOGIN }}
-          ftp_password: ${{ secrets.FTP_PASSWORD }}
-          # The local folder to copy
-          local_source_dir: ./public_html/
-          # The remote folder
-          dist_target_dir: /
+          # FTP host URL like: ftp.host.com
+          host: ${{ secrets.FTP_HOST }}
+          # FTP port default is: 21
+          port: 21 # optional
+          # Ftp username
+          username: ${{ secrets.FTP_LOGIN }}
+          # Ftp password
+          password: ${{ secrets.FTP_PASSWORD }}
+          #remote_folder: ${{ secrets.FTP_REMOTE_FOLDER }} # optional
+          local_folder: public_html # optional, default is dist
+          cleanup: false # optional
+          pasive: true # optional
+
