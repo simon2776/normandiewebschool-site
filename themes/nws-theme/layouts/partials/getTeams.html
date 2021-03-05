@@ -6,7 +6,7 @@
         {{range $team.ByWeight}}
             data.push({
                 name: {{.Params.Name }},
-                image: {{ partial "snippets/img-srcset.html" (dict "image" .Params.Picture "alt" .Params.Name "width" "140 "resize" "140x q100 jpg" "class" "rounded-circle border-blue card-img-top team-image" ) }},
+                image: {{ partial "snippets/img-srcset.html" (dict "image" .Params.Picture "alt" .Params.Name "width" "140" "resize" "140x q100 jpg" "class" "rounded-circle border-blue card-img-top team-image" ) }},
                 role: {{.Params.Role}},
                 permalink: {{.Permalink}}
             })
