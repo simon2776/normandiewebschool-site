@@ -34,5 +34,5 @@ jobs:
       - name: Deploy
         run: |
           apt-get update -qq && apt-get install -y -qq lftp
-          lftp -u ${{ $FTP_LOGIN }},${{ $FTP_PASSWORD }} ${{ $FTP_HOST }} -e "mirror -v --parallel=2 -e -R --ignore-time -p ./public_html/ / ; quit"
+          lftp -u ${{ secrets.FTP_LOGIN }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }} -e "mirror -v --parallel=2 -e -R --ignore-time -p ./public_html/ / ; quit"
           echo "deployment complete"
