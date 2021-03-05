@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_lemasonn-consulting.png"
+image = "/uploads/logo_lemasonn-consulting.png"
 name = "Lemasonn Consulting"
 
 +++

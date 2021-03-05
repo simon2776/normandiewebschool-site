@@ -1,6 +1,6 @@
 +++
 name = "Sabrina Morisse"
-picture = "/images/sabrina.jpg"
+picture = "/uploads/sabrina.jpg"
 role = "Assistante gestion"
 type = "team"
 weight = 5

@@ -1,7 +1,6 @@
 <article class="col-12 mb-4 text-center testimonial">
 
-    <img class="card-img-top rounded-circle card-img-top border-blue team-image" src="{{.Params.Image | relURL}}"
-         alt="{{.Params.Name }}">
+    {{ partial "snippets/img-srcset.html" (dict "image" .Params.Image "alt" .Params.Name "width" "140px" "resize" "140x q100" "class" "card-img-top rounded-circle card-img-top border-blue team-image" ) }}
 
     <h3 class="color-blue mt-2">{{ .Params.Name }}</h3>
     <h4 class="color-blue">{{ .Params.Title }}</h4>

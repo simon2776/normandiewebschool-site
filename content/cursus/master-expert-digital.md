@@ -19,7 +19,7 @@ banner:
   buttons: []
 about:
   enable: true
-  image: "/images/filieres_img1.png"
+  image: "/uploads/filieres_img1.png"
   description: Le Master se fait obligatoirement en alternance. Le coût de la formation
     est pris en charge par l'entreprise employeur par le biais des OPCO.
   url: ''
@@ -28,24 +28,24 @@ skills:
   title: Profils attendus
   subtitle: Quelques compétences humaines et non techniques sont requises.
   item:
-  - icon: "/images/creativity.svg"
+  - icon: "/uploads/creativity.svg"
     title: Innovant
     description: Sachez vous démarquer grâce à des idées, des solutions nouvelles
       et exploitez les pour aller au delà de l'existant.
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Ouvert d'esprit
     description: Être à l'écoute, prendre en compte les avis de chacun, accepter positivement
       les remarques et critiques pour développer ses compétences et son sens de relationnel.
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Communicant
     description: 'Pour mener à bien un projet, il faut communiquer. C''est à dire
       échanger avec les autres personnes et exprimer ses envies, ses besoins et ses
       attentes. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Ambitieux
     description: Ayez des objectifs et gardez toujours en mémoire qu'on peut faire
       toujours plus et évoluer. Positivité !
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Créatif
     description: Amené à souvent créer du contenu ou des supports de communication,
       la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes

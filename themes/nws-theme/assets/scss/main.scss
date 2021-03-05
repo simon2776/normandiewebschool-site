@@ -1631,7 +1631,7 @@ HERO HEADER
 
 #cursus-filieres {
   @media(min-width: 992px) {
-    background-image: url('/images/assets/background-shapes.svg');
+    background-image: url('/uploads/assets/background-shapes.svg');
     background-size: cover;
     background-position: center;
   }
@@ -1702,7 +1702,7 @@ HERO HEADER
 
 .colorBlocks {
   @media(min-width: 992px) {
-    background-image: url('/images/assets/background-shapes.svg');
+    background-image: url('/uploads/assets/background-shapes.svg');
     background-size: cover;
     background-position: center;
   }
@@ -1729,6 +1729,6 @@ HERO HEADER
 
 #main-404 {
   min-height: 100vh;
-  background-image: url('/images/assets/404.svg');
+  background-image: url('/uploads/assets/404.svg');
   background-size: cover;
 }

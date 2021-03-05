@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_matmut.png"
+image = "/uploads/logo_matmut.png"
 name = "Matmut"
 
 +++

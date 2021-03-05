@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_stade-sottevillais.png"
+image = "/uploads/logo_stade-sottevillais.png"
 name = "Stage Sottevillais"
 
 +++

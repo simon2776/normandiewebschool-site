@@ -35,10 +35,13 @@
     </div>
   </section>
 
+
   {{ if .Params.about.enable }}
     <!-- about -->
     {{ partial "components/page-introduction" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image  ) }}
   {{ end }}
+
+  
 
   <!-- filières -->
   {{ if .Params.filieres.enable }}
@@ -58,8 +61,8 @@
           <div class="card h-100 center-card with-border {{ .color }} home-filieres">
             <div class="card-header hide-collapse-desktop" id="heading-{{$index}}" data-toggle="collapse"
                  data-target="#collapse-{{$index}}" >
-
-              <img src="{{ .logo | absURL }}" alt="{{.title}}" width="100px" height="100px">
+                 
+                 {{ partial "snippets/img-srcset.html" (dict "image" .logo "alt" .title "width" "100px" "resize" "200x q100 png" )}}
 
               <h3>
                 {{.title}}
@@ -143,7 +146,7 @@
         </div>
 
         <img
-          src="/images/assets/infographie-cursus-desktop.svg"
+          src="/uploads/assets/infographie-cursus-desktop.svg"
           class="d-none d-lg-block mt-lg-5"
           style="margin: 0 auto; margin-left: -10%"
           width="120%"
@@ -152,7 +155,7 @@
 
         <div class="col-12 mt-4 d-flex">
           <img
-            src="/images/assets/infographie-cursus-tab.svg"
+            src="/uploads/assets/infographie-cursus-tab.svg"
             class="d-none d-md-block d-lg-none mt-lg-5"
             width="120%"
             alt="Cursus à la Normandie Web School"
@@ -161,7 +164,7 @@
 
         <div class="col-12 mt-4 d-flex">
           <img
-            src="/images/assets/infographie-cursus-mobile.svg"
+            src="/uploads/assets/infographie-cursus-mobile.svg"
             class="d-block d-md-none"
             style="margin: 0 auto"
             width="90%"

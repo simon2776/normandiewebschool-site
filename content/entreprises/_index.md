@@ -10,11 +10,11 @@ banner:
   title: Les <span class="font-weight-medium">entreprises</span>
   title-line-twho: ''
   subtitle: La Normandie Web School au plus près des entreprises.
-  image: "/images/banner_entreprise.jpg"
+  image: "/uploads/banner_entreprise.jpg"
 about:
   enable: true
   title: Introduction
-  image: "/images/sitapha-cours.png"
+  image: "/uploads/sitapha-cours.png"
   content: "Les entreprises sont l’un des piliers essentiel de l’école que ce soit
     pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
     co-construction d’événements.  Les relations entreprises sont une composante essentielle
@@ -34,7 +34,7 @@ about:
 recrutement:
   enable: true
   item:
-  - image: "/images/entreprise_1.png"
+  - image: "/uploads/entreprise_1.png"
     title: Les stages
     button: Trouvez votre stagiaire
     content: 'Vous pouvez intégrer nos étudiant(es) en stage sur différentes périodes
@@ -42,7 +42,7 @@ recrutement:
       2 : stage de 4 mois à partir du mois de mars <br/> Année 3 : stage de 6 mois
       équivalent temps plein à partir de janvier'
     color: color-blue
-  - image: "/images/entreprises_2.png"
+  - image: "/uploads/entreprises_2.png"
     title: L'alternance
     button: Trouvez votre alternant
     content: Le système de l’alternance, en contrat de professionnalisation ou contrat

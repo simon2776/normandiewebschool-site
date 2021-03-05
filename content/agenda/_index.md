@@ -7,7 +7,7 @@ banner:
   title-line-twho: ''
   subtitle: Retrouvez tous nos événements, nos journées portes ouvertes et bien plus
     encore.
-  image: "/images/agenda_bg.jpg"
+  image: "/uploads/agenda_bg.jpg"
 event:
   enable: true
   title_first: Le calendrier des événements

@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_tiss-info.png"
+image = "/uploads/logo_tiss-info.png"
 name = "Tiss Info"
 
 +++

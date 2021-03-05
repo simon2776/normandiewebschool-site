@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_appsy.png"
+image = "/uploads/logo_appsy.png"
 name = "Appsy"
 
 +++

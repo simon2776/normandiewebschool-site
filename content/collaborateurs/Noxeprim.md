@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_norexprim.png"
+image = "/uploads/logo_norexprim.png"
 name = "Noxeprim"
 
 +++

@@ -21,7 +21,7 @@ about:
     actif</strong></p><p><strong>Un cursus personnalisé</strong></p><p><strong>Un
     apprentissage interdisciplinaire</strong></p><p><strong>Un apprentissage centré
     sur l’acquisition de compétences</strong></p><p></p>"
-  image: "/images/cursus-round.png"
+  image: "/uploads/cursus-round.png"
 cursus:
   enable: true
   item:
@@ -37,7 +37,7 @@ cursus:
     from: Bac +1
     color: color-yellow
     images:
-    - url: "/images/logo_nws.png"
+    - url: "/uploads/logo_nws.png"
       alt: 1ère année Normandie Web School
   - title: Spécialisations
     content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
@@ -53,11 +53,11 @@ cursus:
     from: Bac +2/3
     color: color-blue
     images:
-    - url: "/images/logo-marketing.png"
+    - url: "/uploads/logo-marketing.png"
       alt: Marketing Normandie Web School
-    - url: "/images/logo-design.png"
+    - url: "/uploads/logo-design.png"
       alt: Design Normandie Web School
-    - url: "/images/logo-dev.png"
+    - url: "/uploads/logo-dev.png"
       alt: Développement Web Normandie Web School
   - title: Mastère
     content: <p>Après ces trois années, s'il le désire l'étudiant peut intégrer le
@@ -68,7 +68,7 @@ cursus:
     from: Bac +4/5
     color: color-orange
     images:
-    - url: "/images/logo-isd.png"
+    - url: "/uploads/logo-isd.png"
       alt: ''
 filieres:
   enable: true
@@ -83,28 +83,28 @@ filieres:
       générale de base qui permet de découvrir, pratiquer et acquérir de solides compétences
       techniques et transverses dans le domaine du numérique.
     arrow: true
-    arrowImage: "/images/arrow-down.svg"
+    arrowImage: "/uploads/arrow-down.svg"
     link: https://nws-akarah-preprod.netlify.app/documentation/
     carousel: false
     specilisation: []
   - image: true
     carousel: true
     specilisation:
-    - bulle: "/images/marketing.svg"
+    - bulle: "/uploads/marketing.svg"
       title: Spécialisation Marketing
       color: color-orange
       content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
         Vous avez le choix entre développement web, design graphique ou marketing
         digital.
       link: "/cursus/bachelor-marketing-digital/"
-    - bulle: "/images/logo-dev.png"
+    - bulle: "/uploads/logo-dev.png"
       title: Spécialisation Développement
       color: color-yellow
       content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
         Vous avez le choix entre développement web, design graphique ou marketing
         digital.
       link: "/cursus/bachelor-developpement-web/"
-    - bulle: "/images/logo-design.png"
+    - bulle: "/uploads/logo-design.png"
       title: Spécialisation Design
       color: color-blue
       content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
@@ -112,7 +112,7 @@ filieres:
         digital.
       link: "/cursus/bachelor-communication-visuelle/"
     arrow: true
-    arrowImage: "/images/arrow-down.svg"
+    arrowImage: "/uploads/arrow-down.svg"
     bulle: ''
     title: ''
     content: ''
@@ -133,7 +133,7 @@ filieres:
 testimonials:
   enable: true
   testimonails: []
-seo_image: "/images/meta-generale.jpg"
+seo_image: "/uploads/meta-generale.jpg"
 menu:
   main:
     name: Cursus intital

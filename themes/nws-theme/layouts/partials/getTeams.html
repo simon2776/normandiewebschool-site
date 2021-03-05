@@ -6,7 +6,7 @@
         {{range $team.ByWeight}}
             data.push({
                 name: {{.Params.Name }},
-                image: {{.Params.Picture | relURL}},
+                image: {{ partial "snippets/img-srcset.html" (dict "image" .Params.Picture "alt" .Params.Name "width" "140px" "resize" "140x q100 jpg" "class" "rounded-circle border-blue card-img-top team-image" ) }},
                 role: {{.Params.Role}},
                 permalink: {{.Permalink}}
             })
@@ -20,7 +20,7 @@
             data.map((member, i) => {
                 if(i > max ) return
                 html = html + `<article class="col-lg-4 col-sm-6 mb-4 d-flex align-items-center flex-column">
-                                    <img class="rounded-circle border-blue card-img-top team-image" src="${member.image}" alt="${member.name}">
+                                    ${member.image}
                                     <div class="card-body text-center">
                                         <h4 class="card-title mb-0">
                                         <a class="color-grey">${member.name}</a>
@@ -53,6 +53,7 @@
     }
 </script>
 
+
 <div class="container pt-4">
   <div id="teams" class="row"></div>
   <div class="row mt-4">
@@ -61,6 +62,7 @@
         id="more"
         class="btn btn-outline font-weight-medium color-blue py-3 px-5"
       >
+    
         Afficher toute l'équipe
       </button>
     </div>

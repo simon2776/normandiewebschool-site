@@ -10,7 +10,7 @@ description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et per
   en alternance en entreprise. <br/> Nombre d''heures de formations: 455H de formations
   en face-à-face et 180H d''apprentissage individualisé en FOAD'
 banner:
-  logo: "/images/logo-marketing.png"
+  logo: "/uploads/logo-marketing.png"
   title: Filière <span class="font-weight-medium"> Marketing digital </span>
   image: images/marketing.jpg
   description: "<p>Le chef de projet marketing digital définit, développe et gère
@@ -43,27 +43,27 @@ skills:
   title: Les Compétences
   subtitle: 'Quelques compétences humaines et non techniques sont requises. '
   item:
-  - icon: "/images/creativity.svg"
+  - icon: "/uploads/creativity.svg"
     title: Créatif
     description: 'Amené à souvent créer du contenu ou des supports de communication,
       la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes
       du client. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Curieux
     description: 'Le monde extérieur est toujours en pleine évolution. Il faut donc
       se mettre régulièrement à jour quant à l''actualité générale ou numérique. Une
       force pour évoluer. Mais il faut également être ouvert à tous les cours proposés
       qui ne pourront que vous être bénéfique. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Imaginatif
     description: Trouver des idées innovantes, encore jamais vues ou toutes récentes
       en exploitant votre imaginaire et vos envies.
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Ouvert d'esprit
     description: 'Être à l''écoute, prendre en compte les avis de chacun, accepter
       positivement les remarques et critiques pour développer ses compétences et son
       sens du relationnel. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Communicant
     description: 'Pour mener à bien un projet il faut communiquer. C''est à dire échanger
       avec les autres personnes et exprimer ses envies, ses besoins et ses attentes. '

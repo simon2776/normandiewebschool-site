@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_affinisep.png"
+image = "/uploads/logo_affinisep.png"
 name = "Affinisep"
 
 +++

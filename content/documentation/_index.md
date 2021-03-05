@@ -7,7 +7,7 @@ banner:
   title-line-twho: ''
   subtitle: 'Remplissez les champs ci-dessous pour avoir accès à notre plaquette et
     les fiches programmes de l''école. '
-  image: "/images/banner_documentation.jpg"
+  image: "/uploads/banner_documentation.jpg"
 documents:
   enable: true
   title: Téléchargez les documents
@@ -16,50 +16,50 @@ documents:
     un entretien pédagogique en <a href="https://normandiewebschool.fr/inscription/">cliquant
     ici</a> après votre lecture.</p>
   document:
-  - icon: "/images/icn-cloud.png"
+  - icon: "/uploads/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
-    document: "/images/plaquette-nws-generale.pdf"
-  - icon: "/images/icn-cloud.png"
+    document: "/uploads/plaquette-nws-generale.pdf"
+  - icon: "/uploads/icn-cloud.png"
     name: 'Le cursus initial '
     format: PDF
-    document: "/images/1ere-annee-cursus-initial.pdf"
-  - icon: "/images/icn-cloud.png"
+    document: "/uploads/1ere-annee-cursus-initial.pdf"
+  - icon: "/uploads/icn-cloud.png"
     name: Filière Web Design & Communication visuelle
     format: PDF
-    document: "/images/design-graphique.pdf"
-  - icon: "/images/icn-cloud.png"
+    document: "/uploads/design-graphique.pdf"
+  - icon: "/uploads/icn-cloud.png"
     name: Filière Développement
     format: PDF
-    document: "/images/developpement.pdf"
-  - icon: "/images/icn-cloud.png"
+    document: "/uploads/developpement.pdf"
+  - icon: "/uploads/icn-cloud.png"
     name: Filière Marketing
     format: PDF
-    document: "/images/marketing.pdf"
-  - icon: "/images/icn-cloud.png"
+    document: "/uploads/marketing.pdf"
+  - icon: "/uploads/icn-cloud.png"
     name: Master "Expert digital"
     format: PDF
-    document: "/images/mastere.pdf"
+    document: "/uploads/mastere.pdf"
 form:
   title: Vos coordonnées
   subtitle: ''
   enable: true
   input:
-  - icon: "/images/icn-mail.png"
+  - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
     required: true
     name: email
     width: "50"
     padding: pr-lg-1
-  - icon: "/images/icn-mail.png"
+  - icon: "/uploads/icn-mail.png"
     placeholder: Confirmer votre adresse e-mail*
     type: email
     required: true
     name: email_confirmation
     width: "50"
     padding: pl-lg-1
-  - icon: "/images/icn-phone.png"
+  - icon: "/uploads/icn-phone.png"
     placeholder: Votre numéro de téléphone
     type: phone
     required: false

@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_black-panda-strategie.png"
+image = "/uploads/logo_black-panda-strategie.png"
 name = "Black Panda Stratégie"
 
 +++

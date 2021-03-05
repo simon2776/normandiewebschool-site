@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_good-journey.png"
+image = "/uploads/logo_good-journey.png"
 name = "Good Journey"
 
 +++

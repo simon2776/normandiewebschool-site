@@ -11,9 +11,9 @@ description: " Le codage, l'intégration et la création de plateforme est votre
   initiale.<br/> Nombre d'heures de formation: 455H en face-à-face et 180H d'apprentissage
   individualisé en FOAD"
 banner:
-  logo: "/images/logo-dev.png"
+  logo: "/uploads/logo-dev.png"
   title: Filière <span class="font-weight-medium">développement</span>
-  image: "/images/marketing.jpg"
+  image: "/uploads/marketing.jpg"
   description: "<p>Ce cursus prépare au métier de développeur web capable de créer,
     coder, et tester des sites Internet et des applications web. La transformation
     digitale des économies fait du développement web une compétences essentielle des
@@ -43,27 +43,27 @@ skills:
   title: Les Compétences
   subtitle: 'Quelques compétences humaines et non techniques sont requises. '
   item:
-  - icon: "/images/creativity.svg"
+  - icon: "/uploads/creativity.svg"
     title: Créatif
     description: 'Amené à souvent créer du contenu ou des supports de communication,
       la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes
       du client. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Curieux
     description: 'Le monde extérieur est toujours en pleine évolution. Il faut donc
       se mettre régulièrement à jour quant à l''actualité générale ou numérique. Une
       force pour évoluer. Mais il faut également être ouvert à tous les cours proposés
       qui ne pourront que vous être bénéfique. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Imaginatif
     description: Trouver des idées innovantes, encore jamais vues ou toutes récentes
       en exploitant votre imaginaire et vos envies.
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Ouvert d'esprit
     description: 'Être à l''écoute, prendre en compte les avis de chacun, accepter
       positivement les remarques et critiques pour développer ses compétences et son
       sens du relationnel. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Sachant travailler en équipe
     description: 'Lors de votre cursus et dans le monde du travail, le travail d''équipe
       est essentiel. Celui-ci sert à s''organiser, échanger, s''écouter et exploiter

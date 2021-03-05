@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_axedia.png"
+image = "/uploads/logo_axedia.png"
 name = "Axédia"
 
 +++

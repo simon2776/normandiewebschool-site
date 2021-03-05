@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_indelebile-creation.png"
+image = "/uploads/logo_indelebile-creation.png"
 name = "Indélébile Création"
 
 +++

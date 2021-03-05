@@ -1,6 +1,6 @@
 +++
 name = "Chloé Vitry"
-picture = "/images/chloe.jpg"
+picture = "/uploads/chloe.jpg"
 role = "Alternante cheffe de projet digital "
 type = "team"
 +++

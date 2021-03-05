@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_vp-auto.png"
+image = "/uploads/logo_vp-auto.png"
 name = "VP Auto"
 
 +++

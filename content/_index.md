@@ -13,7 +13,7 @@ banner:
 about:
   enable: true
   title: Quelques mots sur l'école
-  image: "/images/home_round.jpg"
+  image: "/uploads/home_round.jpg"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
     Privée qui forme en 2 / 3 ou 5 ans aux métiers du numérique (développement web,
     du web design et du marketing digital...) et amène vers un titre d’état (RNCP).</p><p>Notre
@@ -39,7 +39,7 @@ filieres:
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-orange
-    logo: images/logo-marketing.png
+    logo: /uploads/logo-marketing.png
     href: "/cursus/bachelor-marketing-digital/"
   - title: Filière Web Design & Communication visuelle
     content: Ce diplôme prépare à concevoir la forme visuelle de messages dans les
@@ -52,7 +52,7 @@ filieres:
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-blue
-    logo: images/logo-design.png
+    logo: /uploads/logo-design.png
     href: "/cursus/bachelor-communication-visuelle/"
   - title: Filière Développement
     content: Ce titre prépare au métier de développeur web capable de créer, coder,
@@ -65,7 +65,7 @@ filieres:
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-yellow
-    logo: images/logo-dev.png
+    logo: /uploads/logo-dev.png
     href: "/cursus/bachelor-developpement-web/"
   bachelor_titre: BACHELOR CHEF DE PROJET DIGITAL
   bachelor_description: "<p>Formation de base de la Normandie Web School, le Bachelor
@@ -108,7 +108,7 @@ reasons:
   - logo: images/reasons/student.svg
     content: Être et évoluer au cœur de l’écosystème numérique normand.
     alt: écosystème numérique
-  - logo: "/images/diploma.svg"
+  - logo: "/uploads/diploma.svg"
     content: 'Un titre RNCP reconnu par l''État. '
     alt: titre RNCP
 data:
@@ -133,7 +133,7 @@ partners:
   title: Nos partenaires
 testimonials:
   enable: true
-image: "/images/meta-generale.jpg"
-seo_image: "/images/meta-generale.jpg"
+image: "/uploads/meta-generale.jpg"
+seo_image: "/uploads/meta-generale.jpg"
 
 ---

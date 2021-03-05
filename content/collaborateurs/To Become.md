@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_to-become.png"
+image = "/uploads/logo_to-become.png"
 name = "To Become"
 
 +++

@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_themecloud.png"
+image = "/uploads/logo_themecloud.png"
 name = "Themecloud"
 
 +++

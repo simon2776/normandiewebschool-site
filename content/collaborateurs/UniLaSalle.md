@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_uni-la-salle.png"
+image = "/uploads/logo_uni-la-salle.png"
 name = "UniLaSalle"
 
 +++

@@ -1,5 +1,5 @@
 +++
-image = "/images/logo_royal-donuts.png"
+image = "/uploads/logo_royal-donuts.png"
 name = "Royal Donuts"
 
 +++

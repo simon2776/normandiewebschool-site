@@ -10,7 +10,7 @@ description: "Si vous aimez la création, l'image, la video et le web, venez app
   ou en projet pour les étudiants en formation initiale.\n<br/> Nombre d'heures de
   formation: 455H en face-à-face et 180H d'apprentissage individualisé en FOAD"
 banner:
-  logo: "/images/logo-design.png"
+  logo: "/uploads/logo-design.png"
   title: Filière <span class="font-weight-medium"> Design </span>
   image: images/design.jpg
   description: <p>Ce titre prépare à concevoir la forme visuelle de messages dans
@@ -42,27 +42,27 @@ skills:
   title: Les Compétences
   subtitle: 'Quelques compétences humaines et non techniques sont requises. '
   item:
-  - icon: "/images/creativity.svg"
+  - icon: "/uploads/creativity.svg"
     title: Créatif
     description: 'Amené à souvent créer du contenu ou des supports de communication,
       la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes
       du client. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Curieux
     description: 'Le monde extérieur est toujours en pleine évolution. Il faut donc
       se mettre régulièrement à jour quant à l''actualité générale ou numérique. Une
       force pour évoluer. Mais il faut également être ouvert à tous les cours proposés
       qui ne pourront que vous être bénéfique. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Imaginatif
     description: Trouver des idées innovantes, encore jamais vues ou toutes récentes
       en exploitant votre imaginaire et vos envies.
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Ouvert d'esprit
     description: 'Être à l''écoute, prendre en compte les avis de chacun, accepter
       positivement les remarques et critiques pour développer ses compétences et son
       sens du relationnel. '
-  - icon: "/images/search.svg"
+  - icon: "/uploads/search.svg"
     title: Communicant
     description: 'Pour mener à bien un projet il faut communiquer. C''est à dire échanger
       avec les autres personnes et exprimer ses envies, ses besoins et ses attentes. '

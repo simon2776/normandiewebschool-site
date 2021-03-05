@@ -9,12 +9,12 @@ banner:
   title-line-twho: ''
   subtitle: Vous aurez un entretien avec un membre de l'équipe pédagogique. Venez
     avec votre CV.
-  image: "/images/banner_entretien.jpg"
+  image: "/uploads/banner_entretien.jpg"
 documents:
   enable: true
   title: Télécharger le PDF
   subtitle: Pour vous informer avant de demander un entretien
-  icon: "/images/icn-cloud.png"
+  icon: "/uploads/icn-cloud.png"
   name: Présentation générale de la NWS
   format: PDF
 form:
@@ -24,48 +24,48 @@ form:
     Au cours de ce rendez-vous, vous réaliserez un test de culture numérique et vous passerez un entretien individuel avec un membre de l'équipe pédagogique.
     Une réponse vous sera donnée dans les plus brefs délais.
   input:
-  - icon: "/images/icn-user.png"
+  - icon: "/uploads/icn-user.png"
     placeholder: Votre nom de famille
     type: text
     required: false
     name: last_name
     width: "50"
     padding: pr-lg-1
-  - icon: "/images/icn-user.png"
+  - icon: "/uploads/icn-user.png"
     placeholder: Votre prénom
     type: text
     required: false
     name: first_name
     width: "50"
     padding: pl-lg-1
-  - icon: "/images/icn-mail.png"
+  - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
     required: true
     name: email
     width: "50"
     padding: pr-lg-1
-  - icon: "/images/icn-mail.png"
+  - icon: "/uploads/icn-mail.png"
     placeholder: Confirmer votre adresse e-mail*
     type: email
     required: true
     name: email_confirmation
     width: "50"
     padding: pl-lg-1
-  - icon: "/images/icn-phone.png"
+  - icon: "/uploads/icn-phone.png"
     placeholder: Votre numéro de téléphone
     type: phone
     required: false
     name: phone
     width: "50"
-  - icon: "/images/icn-obj.png"
+  - icon: "/uploads/icn-obj.png"
     placeholder: L'objet de votre message*
     type: text
     required: true
     name: object
     width: "100"
     className: w-lg-50
-  - icon: "/images/icn-msg.png"
+  - icon: "/uploads/icn-msg.png"
     placeholder: Votre message*
     textarea: true
     required: true

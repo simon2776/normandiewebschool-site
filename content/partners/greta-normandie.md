@@ -1,5 +1,5 @@
 +++
-image = "/images/logo-greta.png"
+image = "/uploads/logo-greta.png"
 name = "GRETA Normandie"
 type = "partner"
 
