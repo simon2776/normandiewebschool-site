@@ -57,7 +57,7 @@
             {{ end }}
 
             {{ if .url }}
-            <iframe width="560" height="315" src="{{ .url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="ytb-video my-4 w-100 filieres-video"></iframe>
+            <iframe width="560" height="315" src="{{ .url }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="ytb-video my-4 w-100 filieres-video"></iframe>
             {{ end }}
             <p class="font-weight-medium text-center px-3 my-3">
                 {{ .description | safeHTML }}
