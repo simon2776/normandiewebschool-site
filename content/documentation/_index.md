@@ -12,7 +12,7 @@ documents:
   enable: true
   title: Téléchargez les documents
   subtitle: <p>Téléchargez les documents de présentation des différentes filières
-    à la <strong>Normandie Web School</strong>. </p><p></p><p>N'hésitez pas à demander
+    à la <strong>Normandie Web School</strong>. </p><p>N'hésitez pas à demander
     un entretien pédagogique en <a href="https://normandiewebschool.fr/inscription/">cliquant
     ici</a> après votre lecture.</p>
   document:

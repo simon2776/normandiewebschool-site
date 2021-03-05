@@ -71,7 +71,7 @@
 
             </div>
 
-            <div id="collapse-{{$index}}" class="hide-collapse-desktop collapse show" aria-labelledby="heading-{{$index}}" data-parent="#accordion">
+            <div id="collapse-{{$index}}" class="collapse show" aria-labelledby="heading-{{$index}}" data-parent="#accordion">
               <div class="card-body">
                 <p>
                   {{.content | safeHTML}}
@@ -165,8 +165,7 @@
           <img
             src="/uploads/assets/infographie-cursus-mobile.svg"
             class="d-block d-md-none"
-            style="margin: 0 auto"
-            width="90%"
+            style="margin: 0 auto; width: 90%"
             alt="Cursus à la Normandie Web School">
         </div>
       </div>
@@ -283,7 +282,7 @@
 
 {{ if .Params.testimonials.enable }}
   <!-- Team -->
-  <section class="bg-lightgrey section pt-0">
+  <div class="bg-lightgrey section pt-0">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

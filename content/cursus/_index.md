@@ -20,7 +20,7 @@ about:
     de travailler sur des projets réels d’entreprises.</p><p><strong>Un apprentissage
     actif</strong></p><p><strong>Un cursus personnalisé</strong></p><p><strong>Un
     apprentissage interdisciplinaire</strong></p><p><strong>Un apprentissage centré
-    sur l’acquisition de compétences</strong></p><p></p>"
+    sur l’acquisition de compétences</strong></p>"
   image: "/uploads/cursus-round.png"
 cursus:
   enable: true

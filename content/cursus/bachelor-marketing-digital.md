@@ -27,7 +27,7 @@ banner:
     label: Design
     color: color-blue
     justify: text-right
-    href: "/cursus/bachelor-design"
+    href: "/cursus/bachelor-communication-visuelle/"
   - arrow: right
     label: Développement
     color: color-yellow
