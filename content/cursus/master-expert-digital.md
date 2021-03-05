@@ -9,7 +9,7 @@ description: 'Vous souhaitez devenir un expert du numérique et en acquérir les
 banner:
   logo: ''
   title: Master "Expert digital"
-  image: images/design.jpg
+  image: /uploads/design.jpg
   description: "Vous souhaitez faire du numérique votre métier, devenir un expert
     dans ce milieu et en apprendre plus sur le leadership, alors le master \"Expert
     Digital\" vous ouvre grand ses bras. \n<br/> Le BAC+5 Expert marketing Digital
