@@ -32,7 +32,9 @@ jobs:
           hugo-version: 'latest'
           # extended: true
       - name: Build
-        run: hugo --minify
+        run: |
+          npm install
+          hugo -d public_html --baseURL=https://normandiewebschool.fr --minify
 
       # Runs a set of commands using the runners shell
       - name: Deploy
