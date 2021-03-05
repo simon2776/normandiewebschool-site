@@ -69,7 +69,7 @@
   {{ else }}
     {{$cssOpts := (dict "targetPath" "assets/css/main.css") }}
     {{ $styles := resources.Get "scss/main.scss" | toCSS $cssOpts | minify | fingerprint }}
-    <link rel="preload" as="style" type="text/css" href="{{ $styles.Permalink }}" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ $styles.Permalink }}" media="screen">
   {{ end }}
 
   {{ "<!--Favicon-->" | safeHTML }}
