@@ -12,7 +12,7 @@ description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et per
 banner:
   logo: "/uploads/logo-marketing.png"
   title: Filière <span class="font-weight-medium"> Marketing digital </span>
-  image: images/marketing.jpg
+  image: /uploads/marketing.jpg
   description: "<p>Le chef de projet marketing digital définit, développe et gère
     les outils numériques destinés au marketing et la communication d’une entreprise
     ou organisation. Il peut aussi travailler en agence de communication digitale.
