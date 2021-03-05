@@ -9,7 +9,7 @@ banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: Bienvenue à la <br/> NORMANDIE WEB SCHOOL
   subtitle: L'école des métiers du numérique au cœur des entreprises.
-  image: images/fond-seine-innopolis.jpg
+  image: uploads/fond-seine-innopolis.jpg
 about:
   enable: true
   title: Quelques mots sur l'école
@@ -93,19 +93,19 @@ reasons:
   subtitle: Monter en compétences avec des experts métiers et des professionnels reconnus
     dans le domaine du numérique.
   item:
-  - logo: images/reasons/star.svg
+  - logo: uploads/reasons/star.svg
     content: 'Monter en compétences avec des expert(es) métiers et des professionnel(les)
       reconnu(es) dans le domaine du numérique. '
     alt: Monter en compétences
-  - logo: images/reasons/window.svg
+  - logo: uploads/reasons/window.svg
     content: Bénéficier d’un apprentissage pratique sur des  projets concrets et qui
       ont du sens en partenariat avec des entreprises.
     alt: Projet
-  - logo: images/reasons/connect.svg
+  - logo: uploads/reasons/connect.svg
     content: Développer ses compétences grâce à un cursus complet et une mise en pratique
       en alternance et/ou en stage.
     alt: Alternance et stage
-  - logo: images/reasons/student.svg
+  - logo: uploads/reasons/student.svg
     content: Être et évoluer au cœur de l’écosystème numérique normand.
     alt: écosystème numérique
   - logo: "/uploads/diploma.svg"
