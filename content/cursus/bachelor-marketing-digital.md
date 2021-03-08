@@ -116,10 +116,9 @@ years:
         d'une présentation client. "
     - title: Analytics, segmentation et reporting
       content: '- La définition d''''une stratégie réseaux sociaux et advertising,
-        <br/> - L''''écriture et la publication de contenus originaux, <br/> - La
-        diffusion de contenu original sur les réseaux sociaux, <br/> - L''optimisation
-        d''une campagne publicitaires  "réseaux sociaux" <br/> - La certification
-        Google Ads.'
+        <br/> - L''écriture et la publication de contenus originaux, <br/> - La diffusion
+        de contenus originaux sur les réseaux sociaux, <br/> - L''optimisation d''une
+        campagne publicitaire  "réseaux sociaux" <br/> - La certification Google Ads.'
     - title: Tunnel d'acquisiton
       content: "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
         et la visualisation de données, <br/> - La réalisation d'un scoring pour la
