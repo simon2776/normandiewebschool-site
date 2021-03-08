@@ -19,7 +19,7 @@ event:
     item: []
   - label: Mars 2021
     item:
-    - date: 2021-03-24T00:00:00+01:00
+    - date: 24-03-2021
       name: Après-midi Portes Ouvertes
       localisation: Seine Innopolis
       start: 15h00
