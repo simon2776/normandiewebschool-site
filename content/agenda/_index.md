@@ -14,29 +14,17 @@ event:
   title_second: Nos prochains événements
   month:
   - label: Janvier 2021
-    item:
-    - date: 01/05/21
-      name: Salon des jeunes entrepreneur de Rouen et ...
-      localisation: Parc des expositions de Rouen (76)
-      start: 9h
-      end: 18h45
-      href: https://google.com
-    - date: 13/05/21
-      name: Porte ouverte numérique
-      localisation: En ligne !
-      start: 16h30
-      end: 19h30
-      href: https://google.com
-  - label: Février 2021
-    item:
-    - date: 01/05/21
-      name: Salon des jeunes entrepreneur de Rouen et ...
-      localisation: Parc des expositions de Rouen (76)
-      start: 9h
-      end: 18h45
-      href: https://google.com
-  - label: Mars 2021
     item: []
+  - label: Février 2021
+    item: []
+  - label: Mars 2021
+    item:
+    - date: 2021-03-16T23:00:00+00:00
+      name: Après-midi Portes Ouvertes
+      localisation: Seine Innopolis
+      start: 15h00
+      end: 16h30
+      href: ''
   - label: Avril 2021
     item: []
     name: Salon des jeunes entrepreneur de Rouen et ...
@@ -45,23 +33,17 @@ event:
     end: 18h45
     href: https://google.com
   - label: Mai 2021
-    item:
-    - date: 01/05/21
-      name: Salon des jeunes entrepreneur de Rouen et ...
-      localisation: Parc des expositions de Rouen (76)
-      start: 9h
-      end: 18h45
-      href: https://google.com
+    item: []
   - label: Juin 2021
     item: []
 menu:
-  top:
-    name: Agenda
-    URL: agenda
-    weight: 1
   main:
     name: Agenda
     URL: agenda
     weight: 3
+  top:
+    name: Agenda
+    URL: agenda
+    weight: 1
 
 ---
