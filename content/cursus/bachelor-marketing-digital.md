@@ -53,7 +53,7 @@ skills:
     description: 'Le monde extérieur est toujours en pleine évolution. Il faut donc
       se mettre régulièrement à jour quant à l''actualité générale ou numérique. Une
       force pour évoluer. Mais il faut également être ouvert à tous les cours proposés
-      qui ne pourront que vous être bénéfique. '
+      qui ne pourront que vous être bénéfiques. '
   - icon: "/uploads/search.svg"
     title: Imaginatif
     description: Trouver des idées innovantes, encore jamais vues ou toutes récentes
