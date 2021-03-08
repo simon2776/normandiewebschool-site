@@ -111,7 +111,7 @@ years:
     - title: Référencement naturel et performance web
       content: "- La typologie de contenus et audit lexical, - La réalisation d'un
         prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
-        d'un site éco-performants et de  CMS, <br/> - La validation de l'accessibilité
+        d'un site éco-performant et de CMS, <br/> - La validation de l'accessibilité
         et des performances techniques et environnementales, <br/> - La réalisation
         d'une présentation client. "
     - title: Analytics, segmentation et reporting
