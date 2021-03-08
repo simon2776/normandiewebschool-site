@@ -16,6 +16,26 @@
 hugo serve
 ```
 
+## Déploiment et préproduction 
+
+### Forestry 
+
+Forestry.io est connecté à la branche `develop`. 
+Une modification sur Forestry entraine un commit sur cette branche.
+
+### Netlify 
+
+Netlify est actuellement connecté à la branche `develop` et permet de prévisualiser les modificaitons en suivant le lien 
+https://nws-akarah-preprod.netlify.app/
+
+**Vous pouvez mettre en place votre propore préproduction Netlify grâce à ce dépôt**
+
+### Déploiment
+
+Un merge de `develop` vers `master` entraîne le déclenchement de la pipeline de déploiement. 
+La pipeline est disponible en suivant le lien: https://github.com/Normandie-Web-School/site/actions
+
+
 ## Author
 
 👤 **Akarah**
