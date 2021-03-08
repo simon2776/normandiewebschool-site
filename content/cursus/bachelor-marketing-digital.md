@@ -53,7 +53,7 @@ skills:
     description: 'Le monde extérieur est toujours en pleine évolution. Il faut donc
       se mettre régulièrement à jour quant à l''actualité générale ou numérique. Une
       force pour évoluer. Mais il faut également être ouvert à tous les cours proposés
-      qui ne pourront que vous être bénéfique. '
+      qui ne pourront que vous être bénéfiques. '
   - icon: "/uploads/search.svg"
     title: Imaginatif
     description: Trouver des idées innovantes, encore jamais vues ou toutes récentes
@@ -106,20 +106,19 @@ years:
     - title: Stratégie Marketing
       content: "- Les étapes de la démarche marketing (analyser planification, suivi),
         <br/> - Une analyse concurrentielle comparative, <br/> - La rédaction du plan
-        marketing opérationnel, <br/> - La conception de calendriers éditorials <br/>
+        marketing opérationnel, <br/> - La conception de calendriers éditoriaux <br/>
         - La production de contenu original conforme au plan marketing."
     - title: Référencement naturel et performance web
       content: "- La typologie de contenus et audit lexical, - La réalisation d'un
         prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
-        d'un site éco-performants et de  CMS, <br/> - La validation de l'accessibilité
+        d'un site éco-performant et de CMS, <br/> - La validation de l'accessibilité
         et des performances techniques et environnementales, <br/> - La réalisation
         d'une présentation client. "
     - title: Analytics, segmentation et reporting
       content: '- La définition d''''une stratégie réseaux sociaux et advertising,
-        <br/> - L''''écriture et la publication de contenus originaux, <br/> - La
-        diffusion de contenu original sur les réseaux sociaux, <br/> - L''optimisation
-        d''une campagne publicitaires  "réseaux sociaux" <br/> - La certification
-        Google Ads.'
+        <br/> - L''écriture et la publication de contenus originaux, <br/> - La diffusion
+        de contenus originaux sur les réseaux sociaux, <br/> - L''optimisation d''une
+        campagne publicitaire  "réseaux sociaux" <br/> - La certification Google Ads.'
     - title: Tunnel d'acquisiton
       content: "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
         et la visualisation de données, <br/> - La réalisation d'un scoring pour la
@@ -176,7 +175,7 @@ years:
       content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
         : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
         d’un projet en mode agence <br/> - Reporting et communication à l’oral et
-        à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collectiveTravail
+        à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collective. Travail
         en équipe, esprit collaboratif <br/> - Responsabilité sociétale"
     active: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
       un pro du numérique. Voici les compétences et connaissances qui vous seront
@@ -201,15 +200,15 @@ profession:
   - title: Gestionnaire de contenu site web
     description: Rédigez le contenu rédactionnel du site web en prenant en compte
       le référencement et les algorithmes des navigateurs de recherches, sélectionnez
-      des images et des vidéos adaptés au produit / service et analysez les retombées
+      des images et des vidéos adaptées au produit / service et analysez les retombées
       du site Internet.
   - title: Rédacteur web
     description: 'Rédigez le contenu d''un site web en prenant en compte la demande
       et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
       des navigateurs de recherches. '
   - title: Web marketer
-    description: Installez une stratégie de communication internet répondants aux
-      attentes et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
+    description: Installez une stratégie de communication internet répondant aux attentes
+      et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
 testimonials:
   enable: true
   filter:

@@ -54,6 +54,11 @@ fields:
       - type: datetime
         name: date
         label: date
+        config:
+          date_format: DD/MM/YY
+          display_utc: false
+          time_format: " "
+          export_format: DD/MM/YY
       - type: text
         name: name
         label: name
