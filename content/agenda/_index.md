@@ -19,6 +19,12 @@ event:
     item: []
   - label: Mars 2021
     item:
+    - date: 31/03/21
+      name: Après-midi Portes Ouvertes
+      localisation: Seine Innopolis
+      start: 15h00
+      end: 16h30
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-31-03
     - date: 24-03-2021
       name: Après-midi Portes Ouvertes
       localisation: Seine Innopolis
