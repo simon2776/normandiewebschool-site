@@ -148,7 +148,7 @@ years:
         en PHP, Agilité, Refactoring\n<br/> - Frameworks PHP : Symfony, Laravel \n<br/>
         - Containerisation et déploiement avec docker et Kubernetes"
     - title: Posture professionnelle
-      content: "- Ecoute, curiosité, culture & Intelligence collective\LTravail en
+      content: "- Ecoute, curiosité, culture & Intelligence collective. Travail en
         équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
         - Positionnement professionnel et responsabilité sociétale"
     - title: E-learning et certifications
@@ -226,11 +226,11 @@ testimonials:
   filter:
   - dev
 menu:
-  main:
+  desktop:
     name: Bachelor développement
     parent: Les cursus
     weight: 3
-  desktop:
+  main:
     name: Bachelor développement
     parent: Les cursus
     weight: 3
