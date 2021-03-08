@@ -175,7 +175,7 @@ years:
       content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
         : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
         d’un projet en mode agence <br/> - Reporting et communication à l’oral et
-        à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collectiveTravail
+        à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collective. Travail
         en équipe, esprit collaboratif <br/> - Responsabilité sociétale"
     active: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
       un pro du numérique. Voici les compétences et connaissances qui vous seront
