@@ -24,7 +24,7 @@ about:
     de préparation des étudiant(es) au marché de l’emploi.\nUn comité de perfectionnement
     a pour objectif chaque année d’adapter les programmes au plus proche de la réalité
     des besoins en compétences. <br/> Nous travaillons en étroite collaboration avec
-    les entreprises, tout secteur confondu, de la TPE à la l'entreprise internationale
+    les entreprises, tout secteur confondu, de la TPE à l'entreprise internationale
     mais aussi avec des associations, des collectivités locales, des administrations
     publiques, des syndicats professionnels… <br/>Le numérique touche tous les secteurs
     et tous les services et est encore en devenir pour certaines organisations dont
@@ -90,10 +90,10 @@ testimonials:
   enable: true
 seo_image: ''
 menu:
-  desktop:
+  main:
     URL: entreprises
     weight: 2
-  main:
+  desktop:
     URL: entreprises
     weight: 2
 
