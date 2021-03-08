@@ -19,11 +19,11 @@ event:
     item: []
   - label: Mars 2021
     item:
-    - date: 2021-03-16T23:00:00+00:00
+    - date: 2021-03-17T14:00:00+00:00
       name: Après-midi Portes Ouvertes
       localisation: Seine Innopolis
-      start: '15:00'
-      end: '16:30'
+      start: 15h00
+      end: 16h30
       href: ''
   - label: Avril 2021
     item: []
