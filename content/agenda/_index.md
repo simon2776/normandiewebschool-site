@@ -19,12 +19,12 @@ event:
     item: []
   - label: Mars 2021
     item:
-    - date: 2021-03-17T14:00:00+00:00
+    - date: 2021-03-17T15:00:00+01:00
       name: Après-midi Portes Ouvertes
       localisation: Seine Innopolis
       start: 15h00
       end: 16h30
-      href: ''
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-17-03
   - label: Avril 2021
     item: []
     name: Salon des jeunes entrepreneur de Rouen et ...
