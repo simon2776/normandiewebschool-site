@@ -7,7 +7,7 @@ description: 'Vous souhaitez devenir un expert du numérique et en acquérir les
   management et de la stratégie, alors le mastère  "Expert Digital" est fait pour
   vous ! '
 banner:
-  logo: ''
+  logo: "/uploads/nws_isd.png"
   title: Master "Expert digital"
   image: uploads/design.jpg
   description: "Vous souhaitez faire du numérique votre métier, devenir un expert
