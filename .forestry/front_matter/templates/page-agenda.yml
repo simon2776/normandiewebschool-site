@@ -56,7 +56,8 @@ fields:
         label: date
         config:
           date_format: DD/MM/YYYY
-          display_utc: true
+          display_utc: false
+          time_format: " "
       - type: text
         name: name
         label: name
