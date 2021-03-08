@@ -57,7 +57,13 @@ event:
     end: 18h45
     href: https://google.com
   - label: Mai 2021
-    item: []
+    item:
+    - date: 12/05/21
+      name: Après-midi Portes Ouvertes
+      localisation: Seine Innopolis
+      start: 15h00
+      end: 16h30
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-12-05
   - label: Juin 2021
     item: []
 menu:
