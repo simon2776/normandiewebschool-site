@@ -106,7 +106,7 @@ years:
     - title: Stratégie Marketing
       content: "- Les étapes de la démarche marketing (analyser planification, suivi),
         <br/> - Une analyse concurrentielle comparative, <br/> - La rédaction du plan
-        marketing opérationnel, <br/> - La conception de calendriers éditorials <br/>
+        marketing opérationnel, <br/> - La conception de calendriers éditoriaux <br/>
         - La production de contenu original conforme au plan marketing."
     - title: Référencement naturel et performance web
       content: "- La typologie de contenus et audit lexical, - La réalisation d'un
