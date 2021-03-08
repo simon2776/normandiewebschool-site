@@ -201,7 +201,7 @@ profession:
   - title: Gestionnaire de contenu site web
     description: Rédigez le contenu rédactionnel du site web en prenant en compte
       le référencement et les algorithmes des navigateurs de recherches, sélectionnez
-      des images et des vidéos adaptés au produit / service et analysez les retombées
+      des images et des vidéos adaptées au produit / service et analysez les retombées
       du site Internet.
   - title: Rédacteur web
     description: 'Rédigez le contenu d''un site web en prenant en compte la demande
