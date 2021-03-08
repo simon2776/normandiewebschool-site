@@ -6,7 +6,7 @@ content: |-
 
   ## Informations légales
 
-  * **Propriétaire** : SAS ÉCOLE WEB ET MOBILE
+  * **Propriétaire** :: SAS ÉCOLE WEB ET MOBILE
   * **Adresse** : 72 rue de la République 76140 Le Petit-Quevilly
   * **Téléphone** : 02 52 60 02 38
   * **SAS au capital de** : 42 500 €
