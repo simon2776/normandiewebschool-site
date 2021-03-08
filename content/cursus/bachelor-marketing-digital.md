@@ -208,8 +208,8 @@ profession:
       et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
       des navigateurs de recherches. '
   - title: Web marketer
-    description: Installez une stratégie de communication internet répondants aux
-      attentes et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
+    description: Installez une stratégie de communication internet répondant aux attentes
+      et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
 testimonials:
   enable: true
   filter:
