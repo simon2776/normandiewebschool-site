@@ -22,7 +22,7 @@ email = "contact@normandiewebschool.fr"
 google_analitycs_id = "UA-129624593-1"
 home = "Home"
 logo = "uploads/logo_nws.png"
-phone = "02.79.02.73.78"
+phone = "02 79 02 73 78"
 theme_color = "#41228e"
 [params.contact]
 enable = true
