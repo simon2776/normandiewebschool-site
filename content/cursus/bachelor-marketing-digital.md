@@ -198,10 +198,9 @@ profession:
       d'un plan marketing, des études de marchés, de la veille et des réunions et
       des rencontres.
   - title: Gestionnaire de contenu site web
-    description: Rédigez le contenu rédactionnel du site web en prenant en compte
-      le référencement et les algorithmes des navigateurs de recherches, sélectionnez
-      des images et des vidéos adaptées au produit / service et analysez les retombées
-      du site Internet.
+    description: Rédigez des contenus qui plaisent à la fois aux internautes et aux
+      moteurs de recherche. Supervisez les informations affichées et identifiez de
+      nouvelles opportunités de contenu.
   - title: Rédacteur web
     description: 'Rédigez le contenu d''un site web en prenant en compte la demande
       et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
