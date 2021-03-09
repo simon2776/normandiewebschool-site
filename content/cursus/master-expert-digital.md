@@ -10,11 +10,9 @@ banner:
   logo: "/uploads/nws_isd.png"
   title: Master "Expert digital"
   image: uploads/design.jpg
-  description: "Vous souhaitez faire du numérique votre métier, devenir un expert
-    dans ce milieu et en apprendre plus sur le leadership, alors le master \"Expert
-    Digital\" vous ouvre grand ses bras. \n<br/> Le BAC+5 Expert marketing Digital
-    est une formation qui se déroule obligatoirement en alternance. Les 18 mois en
-    apprentissage ont un rythme de 1 semaine à l'école et 3 semaines en entreprise. "
+  description: |-
+    Vous serez en mesure de mettre en œuvre une stratégie digitale, apporter des solutions techniques et innovantes, manager une équipe et monter des budgets.
+    <br/> Le BAC +5 Expert Marketing Digital se déroule exclusivement en alternance sur 18 mois selon un rythme d'une semaine à l'école et de trois semaines en entreprise.
   color: color-orange
   buttons: []
 about:
