@@ -18,7 +18,7 @@ banner:
 about:
   enable: true
   image: "/uploads/filieres_img1.png"
-  description: Le Master se fait exclusivement en alternance. Le coût de la formation
+  description: Le Mastère se fait exclusivement en alternance. Le coût de la formation
     est pris en charge par l'entreprise employeur par le biais des OPCO.
   url: ''
 skills:
