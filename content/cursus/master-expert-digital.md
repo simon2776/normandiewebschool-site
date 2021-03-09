@@ -8,7 +8,7 @@ description: 'Vous souhaitez devenir un expert du numérique et en acquérir les
   vous ! '
 banner:
   logo: "/uploads/nws_isd.png"
-  title: Master "Expert digital"
+  title: Mastère "Expert digital"
   image: uploads/design.jpg
   description: |-
     Vous serez en mesure de mettre en œuvre une stratégie digitale, apporter des solutions techniques et innovantes, manager une équipe et monter des budgets.
