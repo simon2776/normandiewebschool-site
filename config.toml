@@ -21,7 +21,7 @@ description = "La NWS est une École d’Enseignement Supérieur Technique Priv�
 email = "contact@normandiewebschool.fr"
 google_analitycs_id = "UA-129624593-1"
 home = "Home"
-logo = "uploads/logo_nws.png"
+logo = "uploads/logo_nws.svg"
 phone = "02.79.02.73.78"
 theme_color = "#41228e"
 [params.contact]
