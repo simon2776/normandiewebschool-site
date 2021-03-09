@@ -11,7 +11,7 @@ banner:
     avec votre CV.
   image: "/uploads/banner_entretien.jpg"
 documents:
-  enable: false
+  enable: true
   title: Télécharger le PDF
   subtitle: Pour vous informer avant de demander un entretien
   icon: "/uploads/icn-cloud.png"
