@@ -120,8 +120,7 @@ profession:
       recherche comme Google (plus de 90% des requêtes). Le référencement naturel
       et la stratégie sémantique sont au cœur du référencement d’un site web.  L'audit
       sémantique consiste à faire de la recherche de mots-clés et de la catégorisation
-      des contenus. Être bien référencé par Google est un enjeu majeur pour toute
-      entreprise. Votre expertise technique permet la meilleure indexation possible
+      des contenus. Votre expertise technique permet la meilleure indexation possible
       d'un site web afin de le trouver depuis la SERP (Search Engine Results Page).
   - title: Marketing Business Analyst
     description: |2-
