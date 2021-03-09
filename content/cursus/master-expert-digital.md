@@ -54,9 +54,8 @@ years:
   - button: 1er année
     title: Le programme en Master
     active: active
-    subtitle: Concevez et augmenter vos compétences et connaissances dans le monde
-      du numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un
-      expert du digital.
+    subtitle: Développez vos compétences et connaissances du monde numérique via nos
+      différents programmes. Devenez un expert digital.
     etape:
     - title: Entrepreneuriat et innovation
       content: "- Business Modeling et Entrepreneurship Marketing et Innovation <br/>
