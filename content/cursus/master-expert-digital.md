@@ -72,9 +72,8 @@ years:
         SEO/SEM"
   - button: 2e année
     title: Le programme en Master
-    subtitle: Concevez et augmenter vos compétences et connaissances dans le monde
-      du numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un
-      expert du digital.
+    subtitle: Développez vos compétences et connaissances du monde numérique via nos
+      différents programmes. Devenez un expert digital.
     etape:
     - title: Digital marketing et e-commerce
       content: "- CRM / Stratégie Marketing <br/> - Marketing Digital <br/> - Etude
