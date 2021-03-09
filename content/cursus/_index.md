@@ -84,7 +84,7 @@ filieres:
       techniques et transverses dans le domaine du numérique.
     arrow: true
     arrowImage: "/uploads/arrow-down.svg"
-    link: https://nws-akarah-preprod.netlify.app/documentation/
+    link: https://normandiewebschool.fr/documentation
     carousel: false
     specilisation: []
   - image: true
@@ -135,13 +135,13 @@ testimonials:
   testimonails: []
 seo_image: "/uploads/meta-generale.jpg"
 menu:
-  main:
-    name: Cursus intital
-    parent: Les cursus
-    weight: 1
   desktop:
     name: Étudier à la NWS
     URL: cursus
+    parent: Les cursus
+    weight: 1
+  main:
+    name: Cursus intital
     parent: Les cursus
     weight: 1
 
