@@ -11,7 +11,7 @@ banner:
     avec votre CV.
   image: "/uploads/banner_entretien.jpg"
 documents:
-  enable: true
+  enable: false
   title: Télécharger le PDF
   subtitle: Pour vous informer avant de demander un entretien
   icon: "/uploads/icn-cloud.png"
@@ -84,11 +84,11 @@ form:
     name: newsletter
 seo_image: ''
 menu:
-  main:
-    name: Entretien pédagogique
-    weight: 7
   desktop:
     name: Entretien pédagogique
     weight: 4
+  main:
+    name: Entretien pédagogique
+    weight: 7
 
 ---
