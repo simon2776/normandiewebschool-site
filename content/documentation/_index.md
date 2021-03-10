@@ -45,17 +45,17 @@ form:
   subtitle: ''
   enable: true
   input:
-  - icon: ''
-    placeholder: Votre prénom*
-    type: prenom
-    required: true
-    name: prenom
-    width: "50"
-  - icon: ''
-    placeholder: Votre nom*
-    type: nom
+  - icon: "/uploads/icn-user.png"
+    placeholder: Votre nom de famille*
+    type: last_name
     required: true
     name: nom
+    width: "50"
+  - icon: "/uploads/icn-user.png"
+    placeholder: Votre prénom*
+    type: text
+    required: true
+    name: first_name
     width: "50"
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
@@ -77,14 +77,14 @@ form:
     required: false
     name: phone
     width: "50"
-  - icon: ''
+  - icon: "/uploads/icn-msg.png"
     placeholder: Votre niveau d'étude
-    type: niveau
+    type: text
     required: false
     name: niveau
     width: "50"
-  - icon: ''
-    placeholder: Votre choix de filière, année...
+  - icon: "/uploads/icn-msg.png"
+    placeholder: Votre intérêt (spécialisation et année)
     type: choix
     required: false
     name: choix
