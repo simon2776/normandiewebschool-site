@@ -46,16 +46,16 @@ form:
   enable: true
   input:
   - icon: ''
+    placeholder: Votre nom de famille*
+    type: nom
+    required: true
+    name: nom
+    width: "50"
+  - icon: ''
     placeholder: Votre prénom*
     type: prenom
     required: true
     name: prenom
-    width: "50"
-  - icon: ''
-    placeholder: Votre nom*
-    type: nom
-    required: true
-    name: nom
     width: "50"
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
