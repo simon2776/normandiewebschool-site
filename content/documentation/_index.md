@@ -46,11 +46,11 @@ form:
   enable: true
   input:
   - icon: ''
-    placeholder: Votre niveau d'étude
-    type: niveau
+    placeholder: Votre choix de filière, année...
+    type: choix
     required: false
-    name: niveau
-    width: "50"
+    name: choix
+    width: "100"
   - icon: ''
     placeholder: Votre prénom*
     type: prenom
@@ -82,6 +82,12 @@ form:
     type: phone
     required: false
     name: phone
+    width: "50"
+  - icon: ''
+    placeholder: Votre niveau d'étude
+    type: niveau
+    required: false
+    name: niveau
     width: "50"
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
