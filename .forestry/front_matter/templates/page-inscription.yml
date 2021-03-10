@@ -37,7 +37,7 @@ fields:
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: enable2
   - type: text
     name: title
     label: title
