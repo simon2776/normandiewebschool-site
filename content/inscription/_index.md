@@ -17,6 +17,7 @@ documents:
   icon: "/uploads/icn-cloud.png"
   name: Présentation générale de la NWS
   format: PDF
+  document: "/uploads/plaquette-nws-generale.pdf"
 form:
   title: Candidatez sur le site
   subtitle: |-
