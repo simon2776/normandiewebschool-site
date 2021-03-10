@@ -10,10 +10,10 @@ banner:
   subtitle: Vous aurez un entretien avec un membre de l'équipe pédagogique. Venez
     avec votre CV.
   image: "/uploads/banner_entretien.jpg"
-document:
+documents:
   enable: true
   title: Télécharger le PDF
-  subtitle: Pour vous informer avant de demander un entretien
+  subtitle:
   icon: "/uploads/icn-cloud.png"
   name: Présentation générale de la NWS
   format: PDF
