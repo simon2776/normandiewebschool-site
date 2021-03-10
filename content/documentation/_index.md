@@ -1,6 +1,6 @@
 ---
 title: La documentation sur l'école
-date: 2019-05-12T06:14:34+00:00
+date: 2019-05-12T06:14:34.000+00:00
 description: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
 banner:
   title: Accédez à la <span class="font-weight-medium">documentation</span>
@@ -12,8 +12,8 @@ documents:
   enable: true
   title: Téléchargez les documents
   subtitle: <p>Téléchargez les documents de présentation des différentes filières
-    à la <strong>Normandie Web School</strong>. </p><p>N'hésitez pas à demander
-    un entretien pédagogique en <a href="https://normandiewebschool.fr/inscription/">cliquant
+    à la <strong>Normandie Web School</strong>. </p><p>N'hésitez pas à demander un
+    entretien pédagogique en <a href="https://normandiewebschool.fr/inscription/">cliquant
     ici</a> après votre lecture.</p>
   document:
   - icon: "/uploads/icn-cloud.png"
@@ -45,6 +45,18 @@ form:
   subtitle: ''
   enable: true
   input:
+  - icon: ''
+    placeholder: Votre nom
+    type: nom
+    required: true
+    name: ''
+    width: ''
+  - icon: ''
+    placeholder: Votre prénom
+    type: prenom
+    required: true
+    name: ''
+    width: ''
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
@@ -77,12 +89,12 @@ form:
     name: newsletter
 seo_image: ''
 menu:
-  main:
-    name: Documentation
-    weight: 6
   top:
     name: Documentation
     URL: documentation
     weight: 2
+  main:
+    name: Documentation
+    weight: 6
 
 ---
