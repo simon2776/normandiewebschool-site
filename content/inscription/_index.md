@@ -14,10 +14,10 @@ documents:
   enable: true
   title: Télécharger le PDF
   subtitle: Pour vous informer
-  - icon: "/uploads/icn-cloud.png"
-    name: Présentation générale de la NWS
-    format: PDF
-    document: "/uploads/plaquette-nws-generale.pdf"
+  icon: "/uploads/icn-cloud.png"
+  name: Présentation générale de la NWS
+  format: PDF
+  link: "/uploads/plaquette-nws-generale.pdf"
 form:
   title: Candidatez sur le site
   subtitle: |-
