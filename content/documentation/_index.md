@@ -53,9 +53,9 @@ form:
     width: "50"
   - icon: ''
     placeholder: Votre prénom*
-    type: prenom
+    type: text
     required: true
-    name: prenom
+    name: first_name
     width: "50"
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
