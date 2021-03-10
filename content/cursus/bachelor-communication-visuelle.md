@@ -185,7 +185,7 @@ years:
 profession:
   enable: true
   title: Les débouchés métiers
-  subtitle: ''
+  subtitle: Liste non exhaustive
   item:
   - title: Chef de projet digital
     description: Proposez des projets, organisez les dans leur globalité et accompagnez
