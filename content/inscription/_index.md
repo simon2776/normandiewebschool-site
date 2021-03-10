@@ -13,11 +13,12 @@ banner:
 documents:
   enable: true
   title: Télécharger le PDF
-  subtitle:
-  icon: "/uploads/icn-cloud.png"
-  name: Présentation générale de la NWS
-  format: PDF
-  document: "/uploads/plaquette-nws-generale.pdf"
+  subtitle: Pour vous informer avant de demander un entretien
+  document:
+  - icon: "/uploads/icn-cloud.png"
+    name: Présentation générale de la NWS
+    format: PDF
+    document: "/uploads/plaquette-nws-generale.pdf"
 form:
   title: Candidatez sur le site
   subtitle: |-
