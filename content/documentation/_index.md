@@ -84,7 +84,7 @@ form:
     name: niveau
     width: "50"
   - icon: ''
-    placeholder: Votre choix de filière, année...
+    placeholder: Votre intérêt (spécialisation et année)
     type: choix
     required: false
     name: choix
