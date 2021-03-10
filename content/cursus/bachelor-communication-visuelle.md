@@ -185,16 +185,12 @@ years:
 profession:
   enable: true
   title: Les débouchés métiers
-  subtitle: Proposez des projets, organisez les dans leur globalité et accompagnez
-    les équipes chargées de la production à travers un suivi complet, la création
-    d'un plan marketing, des études de marchés, de la veille et des réunions et des
-    rencontres.
+  subtitle: ''
   item:
   - title: Chef de projet digital
-    description: 'Proposez des projets, organisez les dans leur globalité et accompagnez
+    description: Proposez des projets, organisez les dans leur globalité et accompagnez
       les équipes chargées de la production à travers un suivi complet, la création
-      d''un plan marketing, des études de marchés, de la veille et des réunions et
-      des rencontres.  '
+      d'un plan marketing, des études de marchés et de la veille.
   - title: Web Designer
     description: 'Créez des pages web et occupez-vous de tous l''aspects graphiques
       de celles-ci en créant si besoin la charte graphique et l''identité visuelle
@@ -218,11 +214,11 @@ testimonials:
   filter:
   - design
 menu:
-  desktop:
+  main:
     name: Bachelor design
     parent: Les cursus
     weight: 4
-  main:
+  desktop:
     name: Bachelor design
     parent: Les cursus
     weight: 4
