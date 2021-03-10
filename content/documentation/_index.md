@@ -52,11 +52,11 @@ form:
     name: prenom
     width: "50"
   - icon: ''
-    placeholder: Votre nom
+    placeholder: Votre nom*
     type: nom
     required: true
-    name: ''
-    width: ''
+    name: nom
+    width: "50"
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
