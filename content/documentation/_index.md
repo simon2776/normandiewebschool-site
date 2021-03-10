@@ -45,7 +45,7 @@ form:
   subtitle: ''
   enable: true
   input:
-  - icon: ''
+  - icon: "/uploads/icn-user.png"
     placeholder: Votre nom de famille*
     type: last_name
     required: true
