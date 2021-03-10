@@ -90,8 +90,7 @@ cursus:
 reasons:
   enable: true
   title: Cinq bonnes raisons d'intégrer la School
-  subtitle: Monter en compétences avec des experts métiers et des professionnels reconnus
-    dans le domaine du numérique.
+  subtitle:
   item:
   - logo: uploads/reasons/star.svg
     content: 'Monter en compétences avec des expert(es) métiers et des professionnel(les)
