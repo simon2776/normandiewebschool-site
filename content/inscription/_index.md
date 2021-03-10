@@ -13,8 +13,7 @@ banner:
 documents:
   enable: true
   title: Télécharger le PDF
-  subtitle: Pour vous informer avant de demander un entretien
-  document:
+  subtitle: Pour vous informer
   - icon: "/uploads/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
