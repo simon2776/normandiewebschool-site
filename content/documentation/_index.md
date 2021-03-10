@@ -51,7 +51,7 @@ form:
     required: true
     name: nom
     width: "50"
-  - icon: ''
+  - icon: "/uploads/icn-user.png"
     placeholder: Votre prénom*
     type: text
     required: true
