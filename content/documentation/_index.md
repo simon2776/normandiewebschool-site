@@ -83,7 +83,7 @@ form:
     required: false
     name: niveau
     width: "50"
-  - icon: ''
+  - icon: "/uploads/icn-msg.png"
     placeholder: Votre intérêt (spécialisation et année)
     type: choix
     required: false
