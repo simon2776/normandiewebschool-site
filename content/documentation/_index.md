@@ -46,12 +46,6 @@ form:
   enable: true
   input:
   - icon: ''
-    placeholder: Votre choix de filière, année...
-    type: choix
-    required: false
-    name: choix
-    width: "100"
-  - icon: ''
     placeholder: Votre prénom*
     type: prenom
     required: true
@@ -89,6 +83,12 @@ form:
     required: false
     name: niveau
     width: "50"
+  - icon: ''
+    placeholder: Votre choix de filière, année...
+    type: choix
+    required: false
+    name: choix
+    width: "100"
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
       exploitées dans le cadre d'apport d'information concernant les formations proposées
