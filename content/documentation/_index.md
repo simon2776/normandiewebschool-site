@@ -88,7 +88,7 @@ form:
     type: choix
     required: false
     name: choix
-    width: "98"
+    width: "100"
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
       exploitées dans le cadre d'apport d'information concernant les formations proposées
