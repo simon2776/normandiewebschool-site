@@ -84,7 +84,7 @@ form:
     name: niveau
     width: "50"
   - icon: "/uploads/icn-msg.png"
-    placeholder: Votre intérêt (spécialisation et année)
+    placeholder: Votre intérêt (filière et année)
     type: choix
     required: false
     name: choix
