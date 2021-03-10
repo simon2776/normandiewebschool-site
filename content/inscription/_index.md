@@ -13,7 +13,7 @@ banner:
 documents:
   enable: true
   title: Télécharger le PDF
-  subtitle: Pour vous informer
+  subtitle: En savoir plus
   icon: "/uploads/icn-cloud.png"
   name: Présentation générale de la NWS
   format: PDF
