@@ -10,8 +10,8 @@ banner:
   subtitle: Vous aurez un entretien avec un membre de l'équipe pédagogique. Venez
     avec votre CV.
   image: "/uploads/banner_entretien.jpg"
-documents:
-  enable: false
+document:
+  enable: true
   title: Télécharger le PDF
   subtitle: Pour vous informer avant de demander un entretien
   icon: "/uploads/icn-cloud.png"
