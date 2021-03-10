@@ -125,6 +125,7 @@ profession:
   - title: Marketing Business Analyst
     description: |2-
 
+
       Le marketing business analyst travaille généralement dans le service ou le département marketing stratégique et opérationnel d'une entreprise. Il détermine les KPI (ou Key Performance Indicator, indicateur clé de performance) indispensables pour mesurer les progrès effectués par rapport aux objectifs stratégiques. Il est chargé de définir différents outils d'analyse, de concevoir des tableaux de bord qui aident la prise de décision et au suivi de la performance commerciale, étudie les bases de données et définit le ROI.
 testimonials:
   enable: true
