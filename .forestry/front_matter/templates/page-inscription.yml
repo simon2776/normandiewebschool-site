@@ -54,11 +54,6 @@ fields:
   - type: text
     name: format
     label: format
-  - name: document
-    type: file
-    config:
-      maxSize: 64
-    label: Document
 - type: field_group
   name: form
   label: form
