@@ -47,7 +47,7 @@ form:
   input:
   - icon: ''
     placeholder: Votre nom de famille*
-    type: nom
+    type: last_name
     required: true
     name: nom
     width: "50"
