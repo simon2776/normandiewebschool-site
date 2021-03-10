@@ -93,21 +93,21 @@ filieres:
     - bulle: "/uploads/marketing.svg"
       title: Spécialisation Marketing
       color: color-orange
-      content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
+      content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web, design graphique ou marketing
         digital.
       link: "/cursus/bachelor-marketing-digital/"
     - bulle: "/uploads/logo-dev.png"
       title: Spécialisation Développement
       color: color-yellow
-      content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
+      content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web, design graphique ou marketing
         digital.
       link: "/cursus/bachelor-developpement-web/"
     - bulle: "/uploads/logo-design.png"
       title: Spécialisation Design
       color: color-blue
-      content: Choisissez selon vos talents et vos passions une spécialisation adéquats.
+      content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web, design graphique ou marketing
         digital.
       link: "/cursus/bachelor-communication-visuelle/"
