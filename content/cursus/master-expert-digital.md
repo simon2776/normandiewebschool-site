@@ -8,20 +8,18 @@ description: 'Vous souhaitez devenir un expert du numérique et en acquérir les
   vous ! '
 banner:
   logo: "/uploads/nws_isd.png"
-  title: Master "Expert digital"
+  title: Mastère "Expert digital"
   image: uploads/design.jpg
-  description: "Vous souhaitez faire du numérique votre métier, devenir un expert
-    dans ce milieu et en apprendre plus sur le leadership, alors le master \"Expert
-    Digital\" vous ouvre grand ses bras. \n<br/> Le BAC+5 Expert marketing Digital
-    est une formation qui se déroule obligatoirement en alternance. Les 18 mois en
-    apprentissage ont un rythme de 1 semaine à l'école et 3 semaines en entreprise. "
+  description: |-
+    Vous serez en mesure de mettre en œuvre une stratégie digitale, apporter des solutions techniques et innovantes, manager une équipe et monter des budgets.
+    <br/> Le BAC +5 Expert Marketing Digital se déroule exclusivement en alternance sur 18 mois selon un rythme d'une semaine à l'école et de trois semaines en entreprise.
   color: color-orange
   buttons: []
 about:
   enable: true
   image: "/uploads/filieres_img1.png"
-  description: Le Master se fait obligatoirement en alternance. Le coût de la formation
-    est pris en charge par l'entreprise employeur par le biais des OPCO.
+  description: Le coût de la formation est pris en charge par l'entreprise employeur
+    par le biais des OPCO.
   url: ''
 skills:
   enable: true
@@ -56,9 +54,8 @@ years:
   - button: 1er année
     title: Le programme en Master
     active: active
-    subtitle: Concevez et augmenter vos compétences et connaissances dans le monde
-      du numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un
-      expert du digital.
+    subtitle: Développez vos compétences et connaissances du monde numérique via nos
+      différents programmes. Devenez un expert digital.
     etape:
     - title: Entrepreneuriat et innovation
       content: "- Business Modeling et Entrepreneurship Marketing et Innovation <br/>
@@ -75,9 +72,8 @@ years:
         SEO/SEM"
   - button: 2e année
     title: Le programme en Master
-    subtitle: Concevez et augmenter vos compétences et connaissances dans le monde
-      du numérique en suivant chacun de ces programmes. Ainsi, vous deviendrez un
-      expert du digital.
+    subtitle: Développez vos compétences et connaissances du monde numérique via nos
+      différents programmes. Devenez un expert digital.
     etape:
     - title: Digital marketing et e-commerce
       content: "- CRM / Stratégie Marketing <br/> - Marketing Digital <br/> - Etude
@@ -98,19 +94,16 @@ years:
 profession:
   enable: true
   title: Les débouchés métiers
-  subtitle: Proposez des projets, organisez les dans leur globalité et accompagnez
-    les équipes chargées de la production à travers un suivi complet, la création
-    d'un plan marketing, des études de marchés, de la veille et des réunions et des
-    rencontres.
+  subtitle: Liste non exhaustive.
   item:
   - title: Responsable marketing digital
     description: 'En étroite collaboration avec la direction marketing et communication,
       le Responsable Marketing Digital (RMD) a un rôle central dans l’entreprise.
       Il est chargé de mener et d''accompagner les différents projets numériques en
-      lien avec la stratégie d’entreprise. Exemple générer des leads, augmenter le
-      trafic du site et améliorer la notoriété de la marque et générer du revenu.
-      En somme, il exploite tous les outils du web-marketing dans un seul but : acquérir
-      et fidéliser avec un ROI optimal.'
+      lien avec la stratégie d’entreprise. Générez des leads (prospects), augmentez
+      le trafic web, booster la notoriété afin de développer l''activité. Il exploite
+      tous les outils du webmarketing dans un seul but : acquérir et fidéliser avec
+      un ROI optimal.'
   - title: Chef de projet de transformation digitale
     description: |+
       Le Chef de Projet Digital est comme un chef d'orchestre, il est le coordinateur de l’ensemble des étapes relatives à la réalisation d’un projet web ou mobile : création de sites web ou d’applications mobiles etc. Il est un élément clé dans une entreprise ou une agence de communication. En effet, il s’occupe de la réalisation de tous les projets digitaux de sa société. Il doit avoir des compétences en web, en management et doit être sensible à l’innovation.
@@ -122,21 +115,18 @@ profession:
 
       Les consultant(es) Data & Analytics accompagnent les entreprises dans leurs projets de mise sous contrôle et de valorisation de leurs données pour répondre aux enjeux multiples auxquelles elles se retrouvent confrontées (mise en conformité, compétitivité, etc.). La data est partout et il faut savoir la collecter, l’analyser et l’interpréter  afin de mieux orienter les entreprises dans leur prise de décision marketing : optimisation du parcours client, pilotage de leurs investissements média, amélioration de leurs offres de produits/services, RH,...
   - title: Consultant(e) sémantique
-    description: "Avoir  un site web est un bon début mais ne suffit pas pour être
+    description: Avoir  un site web est un bon début mais ne suffit pas pour être
       trouvé sur internet. Pour cela il faut être bien référencé par les moteurs de
       recherche comme Google (plus de 90% des requêtes). Le référencement naturel
       et la stratégie sémantique sont au cœur du référencement d’un site web.  L'audit
-      sémantique consiste à faire la recherche de mots-clés, la catégorisation des
-      contenus… les missions de consulting en SEO sémantique apportent aussi une valeur
-      ajoutée aux sites web e-commerce comme aux sites éditoriaux. Ce travail a pour
-      objectif de positionner les pages du site dans les moteurs de recherche. Le
-      bon positionnement du site dans ces outils développe l’audience, capte du positionnement
-      chez les concurrents et truste les places dans les SERP (Search Engine Results
-      Page), se sont les pages de résultats suite à une recherche.\n\n"
+      sémantique consiste à faire de la recherche de mots-clés et de la catégorisation
+      des contenus. Votre expertise technique permet la meilleure indexation possible
+      d'un site web afin de le trouver depuis la SERP (Search Engine Results Page).
   - title: Marketing Business Analyst
     description: |2-
 
-      Le marketing business analyst travaille généralement dans le service ou le département marketing stratégique et opérationnel d'une entreprise. Il détermine les KPI ou Key Indicator Performance (indicateur clé de performance) indispensable pour mesurer les progrès effectués par rapport aux objectifs stratégiques. Il est chargé de définir différents outils d'analyse et de concevoir des tableaux de bord qui aident la prise de décision et au suivi de la performance commerciale étudie les bases de données et définit le ROI.
+
+      Le marketing business analyst travaille généralement dans le service ou le département marketing stratégique et opérationnel d'une entreprise. Il détermine les KPI (ou Key Performance Indicator, indicateur clé de performance) indispensables pour mesurer les progrès effectués par rapport aux objectifs stratégiques. Il est chargé de définir différents outils d'analyse, de concevoir des tableaux de bord qui aident la prise de décision et au suivi de la performance commerciale, étudie les bases de données et définit le ROI.
 testimonials:
   enable: true
   filter:

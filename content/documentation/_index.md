@@ -1,6 +1,6 @@
 ---
 title: La documentation sur l'école
-date: 2019-05-12T06:14:34+00:00
+date: 2019-05-12T06:14:34.000+00:00
 description: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
 banner:
   title: Accédez à la <span class="font-weight-medium">documentation</span>
@@ -12,8 +12,8 @@ documents:
   enable: true
   title: Téléchargez les documents
   subtitle: <p>Téléchargez les documents de présentation des différentes filières
-    à la <strong>Normandie Web School</strong>. </p><p>N'hésitez pas à demander
-    un entretien pédagogique en <a href="https://normandiewebschool.fr/inscription/">cliquant
+    à la <strong>Normandie Web School</strong>. </p><p>N'hésitez pas à demander un
+    entretien pédagogique en <a href="https://normandiewebschool.fr/inscription/">cliquant
     ici</a> après votre lecture.</p>
   document:
   - icon: "/uploads/icn-cloud.png"
@@ -45,6 +45,18 @@ form:
   subtitle: ''
   enable: true
   input:
+  - icon: ''
+    placeholder: Votre prénom*
+    type: prenom
+    required: true
+    name: prenom
+    width: "50"
+  - icon: ''
+    placeholder: Votre nom*
+    type: nom
+    required: true
+    name: nom
+    width: "50"
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
@@ -65,24 +77,36 @@ form:
     required: false
     name: phone
     width: "50"
+  - icon: ''
+    placeholder: Votre niveau d'étude
+    type: niveau
+    required: false
+    name: niveau
+    width: "50"
+  - icon: ''
+    placeholder: Votre choix de filière, année...
+    type: choix
+    required: false
+    name: choix
+    width: "100"
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
       exploitées dans le cadre d'apport d'information concernant les formations proposées
       par l'école.
     required: true
     name: RGPD
-  - content: J'accepte recevoir les actualités de la Normandie Web School  ainsi que
-      des publications à portée commerciales.
+  - content: J'accepte de recevoir les actualités de la Normandie Web School  ainsi
+      que des publications à portée commerciale.
     required: false
     name: newsletter
 seo_image: ''
 menu:
-  main:
-    name: Documentation
-    weight: 6
   top:
     name: Documentation
     URL: documentation
     weight: 2
+  main:
+    name: Documentation
+    weight: 6
 
 ---

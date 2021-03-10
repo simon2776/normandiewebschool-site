@@ -74,8 +74,8 @@ form:
     info: contact@normandiewebschool.fr
     subInfo: ''
   - image: "/uploads/icn-phone-blue.png"
-    info: 02.79.02.73.78
-    subInfo: 'Lun - Ven : 8h30-18h'
+    info: 02 79 02 73 78
+    subInfo: 'Lun - Ven : 8h30 - 17h'
   - image: "/uploads/icn-marker-blue.png"
     info: Seine Innopolis
     subInfo: 72 rue de la République <br/> 76140 Le Petit-Quevilly
@@ -83,13 +83,13 @@ form:
   inscription_button_text: Entretien pédagogique
 seo_image: ''
 menu:
-  main:
-    name: Contact
-    URL: contact
-    weight: 5
   desktop:
     name: Contact
     URL: contact
     weight: 3
+  main:
+    name: Contact
+    URL: contact
+    weight: 5
 
 ---

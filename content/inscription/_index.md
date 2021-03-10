@@ -84,11 +84,11 @@ form:
     name: newsletter
 seo_image: ''
 menu:
-  main:
-    name: Entretien pédagogique
-    weight: 7
   desktop:
     name: Entretien pédagogique
     weight: 4
+  main:
+    name: Entretien pédagogique
+    weight: 7
 
 ---
