@@ -46,6 +46,12 @@ form:
   enable: true
   input:
   - icon: ''
+    placeholder: Votre niveau d'étude
+    type: niveau
+    required: false
+    name: niveau
+    width: "50"
+  - icon: ''
     placeholder: Votre prénom*
     type: prenom
     required: true
