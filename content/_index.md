@@ -15,7 +15,7 @@ about:
   title: Quelques mots sur l'école
   image: "/uploads/home_round.jpg"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
-    Privée qui forme en 2 / 3 ou 5 ans aux métiers du numérique (développement web,
+    Privée qui forme en 2, 3 ou 5 ans aux métiers du numérique (développement web,
     du web design et du marketing digital...) et amène vers un titre d’état (RNCP).</p><p>Notre
     pédagogie est active et répond aux besoins des étudiants d’aujourd’hui. Sortir
     du modèle classique de l’enseignement, casser les codes, éviter l’enseignement
@@ -39,7 +39,7 @@ filieres:
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-orange
-    logo: /uploads/logo-marketing.png
+    logo: "/uploads/logo-marketing.png"
     href: "/cursus/bachelor-marketing-digital/"
   - title: Filière Web Design & Communication visuelle
     content: Ce diplôme prépare à concevoir la forme visuelle de messages dans les
@@ -52,7 +52,7 @@ filieres:
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-blue
-    logo: /uploads/logo-design.png
+    logo: "/uploads/logo-design.png"
     href: "/cursus/bachelor-communication-visuelle/"
   - title: Filière Développement
     content: Ce titre prépare au métier de développeur web capable de créer, coder,
@@ -65,7 +65,7 @@ filieres:
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-yellow
-    logo: /uploads/logo-dev.png
+    logo: "/uploads/logo-dev.png"
     href: "/cursus/bachelor-developpement-web/"
   bachelor_titre: BACHELOR CHEF DE PROJET DIGITAL
   bachelor_description: "<p>Formation de base de la Normandie Web School, le Bachelor
@@ -90,8 +90,7 @@ cursus:
 reasons:
   enable: true
   title: Cinq bonnes raisons d'intégrer la School
-  subtitle: Monter en compétences avec des experts métiers et des professionnels reconnus
-    dans le domaine du numérique.
+  subtitle:
   item:
   - logo: uploads/reasons/star.svg
     content: 'Monter en compétences avec des expert(es) métiers et des professionnel(les)
