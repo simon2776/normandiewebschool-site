@@ -77,9 +77,9 @@ form:
     required: false
     name: phone
     width: "50"
-  - icon: ''
+  - icon: "/uploads/icn-msg.png"
     placeholder: Votre niveau d'étude
-    type: niveau
+    type: text
     required: false
     name: niveau
     width: "50"
