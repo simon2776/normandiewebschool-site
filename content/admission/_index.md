@@ -58,6 +58,14 @@ conditions:
     choisie.</p><p><strong>Année 4</strong> : avoir un titre ou un diplôme Bac + 3
     dans le domaine de spécialisation choisie.</p>"
   image: "/uploads/home_round.jpg"
+financement:
+  enable: true
+  title: Financement
+  content: 'Financement : initial ou prise en charge dans le cas d’un contrat en alternance</br>Tarif
+    année 1 = 5300 € (et alternance possible à partir de janvier)</br>Tarif année
+    2 = 5500 € (ou alternance possible toute l’année)</br>Tarif année 3 = 6800 € (ou
+    alternance possible toute l’année)'
+  image: ''
 menu:
   main:
     name: Admission
