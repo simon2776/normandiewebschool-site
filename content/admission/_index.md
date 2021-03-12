@@ -6,9 +6,11 @@ description: 'La Normandie Web School propose un cursus riche et varié privilé
   Le cursus se divise en 3 spécialisations métiers : développement, web design et
   communication visuelle et marketing digital.'
 banner:
-  title: Nos <span class="font-weight-medium">Cursus</span>
+  title: Admission <span class="font-weight-medium">et financement</span>
   title-line-twho: ''
-  subtitle: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
+  subtitle: L’admission se fait en dehors de Parcours Sup. Pas de frais pour le traitement
+    du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
+    le 20 juillet 2021.
   image: uploads/cursus-initial.jpg
 about:
   enable: true
