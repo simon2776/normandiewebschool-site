@@ -40,7 +40,7 @@ cursus:
     - url: "/uploads/logo_nws.png"
       alt: 1ère année Normandie Web School
   - title: Spécialisations
-    content: <p><balise id="bac+2"><strong>L’année 2</strong> est l’année de spécialisation technique.
+    content: <p><balise id="bac2"><strong>L’année 2</strong> est l’année de spécialisation technique.
       Les étudiants sont en <strong>filières “Développement Web et Mobile ou marketing
       Digital ou Web Design”</strong> en fonction de leurs appétences et 100% des
       activités pédagogiques sont dirigées vers l’appréhension des compétences et
