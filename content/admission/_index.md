@@ -20,7 +20,7 @@ about:
     l’entretien, venez avec votre CV, vos derniers bulletins scolaires et vos projets
     (si vous en avez à présenter, si non venez comme vous êtes !).</p><p>Vous passez
     un test  de culture numérique en ligne.</p><p>Vous avez la réponse sous 48h.</p>"
-  image: "/uploads/cursus-round.png"
+  image: "/uploads/faq-admission-round.png"
 testimonials:
   enable: true
   testimonails: []
@@ -56,6 +56,7 @@ conditions:
     choisie.<p>Année 3 : avoir un titre ou diplôme Bac + 2 dans le domaine de spécialisation
     choisie.</p><p>Année 4 : avoir un titre ou un diplôme Bac + 3 dans le domaine
     de spécialisation choisie.</p>"
+  image: ''
 menu:
   main:
     name: Admission
