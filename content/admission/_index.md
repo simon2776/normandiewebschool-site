@@ -61,10 +61,11 @@ conditions:
 financement:
   enable: true
   title: Financement
-  content: "<p>Financement : initial ou prise en charge dans le cas d’un contrat en
-    alternance.</p><p>Tarif année 1 = 5300 € (et alternance possible à partir de janvier).</p><p>Tarif
-    année 2 = 5500 € (ou alternance possible toute l’année).</p><p>Tarif année 3 =
-    6800 € (ou alternance possible toute l’année).</p>"
+  content: '<p>Financement : à votre charge (<a href="https://nws-akarah-preprod.netlify.app/cursus/#initial">formation
+    initiale</a>) ou prise en charge dans le cas d’un contrat en alternance.</p><p>Tarif
+    année 1 = 5300 € (et alternance possible à partir de janvier).</p><p>Tarif année
+    2 = 5500 € (ou alternance possible toute l’année).</p><p>Tarif année 3 = 6800
+    € (ou alternance possible toute l’année).</p>'
   image: "/uploads/logo_nws.svg"
 menu:
   main:
