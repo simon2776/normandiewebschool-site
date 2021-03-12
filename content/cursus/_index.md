@@ -32,15 +32,15 @@ cursus:
       développement web et mobile et web design) à travers de projets collaboratifs
       et de la pédagogie active et co-active. Elle permet aussi de développer les
       connaissances et habiletés requises pour la poursuite d’études vers les métiers
-      du numérique.</p><p>L’année préparatoire s’adresse aux titulaires du Baccalauréat,
-      quelle que soit la série mais aussi aux étudiants souhaitant se réorienter.</div></p>"
+      du numérique.</divx></p><p>L’année préparatoire s’adresse aux titulaires du Baccalauréat,
+      quelle que soit la série mais aussi aux étudiants souhaitant se réorienter.</p>"
     from: Bac +1
     color: color-yellow
     images:
     - url: "/uploads/logo_nws.png"
       alt: 1ère année Normandie Web School
   - title: Spécialisations
-    content: <p><div id="bac2"><strong>L’année 2</strong> est l’année de spécialisation technique.
+    content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
       Les étudiants sont en <strong>filières “Développement Web et Mobile ou marketing
       Digital ou Web Design”</strong> en fonction de leurs appétences et 100% des
       activités pédagogiques sont dirigées vers l’appréhension des compétences et
@@ -49,7 +49,7 @@ cursus:
       le <strong>savoir-faire de la gestion d’équipe et la conduite de projet</strong>.
       L’année 3 se déroule en alternance sur un rythme de 1 semaine en cours et 3
       semaines en entreprise. À l'issue de la 3ème année les étudiant(es) passeront
-        leur examen pour l'obtention du Titre <strong>"Chef de projet digital"</div></strong>.</p>
+        leur examen pour l'obtention du Titre <strong>"Chef de projet digital"</strong>.</p>
     from: Bac +2/3
     color: color-blue
     images:
