@@ -143,5 +143,3 @@ fields:
   - type: boolean
     name: enable
     label: enable
-pages:
-- content/admission/_index.md
