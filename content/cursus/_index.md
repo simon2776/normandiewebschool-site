@@ -32,7 +32,7 @@ cursus:
       développement web et mobile et web design) à travers de projets collaboratifs
       et de la pédagogie active et co-active. Elle permet aussi de développer les
       connaissances et habiletés requises pour la poursuite d’études vers les métiers
-      du numérique.</divx></p><p>L’année préparatoire s’adresse aux titulaires du Baccalauréat,
+      du numérique.</div></p><p>L’année préparatoire s’adresse aux titulaires du Baccalauréat,
       quelle que soit la série mais aussi aux étudiants souhaitant se réorienter.</p>"
     from: Bac +1
     color: color-yellow
