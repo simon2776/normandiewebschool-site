@@ -70,6 +70,8 @@ cursus:
     images:
     - url: "/uploads/logo-isd.png"
       alt: ''
+  title: ''
+  subtitle: ''
 filieres:
   enable: true
   title: Le cursus en infographie
@@ -87,6 +89,9 @@ filieres:
     link: https://normandiewebschool.fr/documentation
     carousel: false
     specilisation: []
+    from: ''
+    to: ''
+    color: ''
   - image: true
     carousel: true
     specilisation:
@@ -117,6 +122,9 @@ filieres:
     title: ''
     content: ''
     link: "/cursus/bachelor-marketing-digital/"
+    from: ''
+    to: ''
+    color: ''
   - image: false
     bulle: 4e & 5e année
     title: Master "Expert Digital"
@@ -130,10 +138,29 @@ filieres:
     arrowImage: ''
     carousel: false
     specilisation: []
+    from: ''
+    to: ''
+    color: ''
 testimonials:
   enable: true
   testimonails: []
 seo_image: "/uploads/meta-generale.jpg"
+global: ''
+reasons:
+  enable: false
+  title: ''
+  item: []
+data:
+  enable: false
+  title: ''
+  item: []
+team:
+  enable: false
+  title: ''
+  content: ''
+partners:
+  enable: false
+  title: ''
 menu:
   desktop:
     name: Étudier à la NWS
