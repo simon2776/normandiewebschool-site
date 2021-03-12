@@ -1,5 +1,5 @@
 ---
-label: Cursus
+label: Admission
 hide_body: true
 fields:
 - type: text
@@ -143,5 +143,3 @@ fields:
   - type: boolean
     name: enable
     label: enable
-pages:
-- content/admission/_index.md
