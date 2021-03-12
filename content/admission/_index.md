@@ -56,7 +56,7 @@ conditions:
     choisie.<p>Année 3 : avoir un titre ou diplôme Bac + 2 dans le domaine de spécialisation
     choisie.</p><p>Année 4 : avoir un titre ou un diplôme Bac + 3 dans le domaine
     de spécialisation choisie.</p>"
-  image: "/uploads/cursus-initial.jpg"
+  image: "/uploads/home_round.jpg"
 menu:
   main:
     name: Admission
