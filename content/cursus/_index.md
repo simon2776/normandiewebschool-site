@@ -6,7 +6,7 @@ description: 'La Normandie Web School propose un cursus riche et varié privilé
   Le cursus se divise en 3 spécialisations métiers : développement, web design et
   communication visuelle et marketing digital.'
 banner:
-  title: Nos <span class="font-weight-medium">Cursus</span>
+  title: Nos <balise id="initial"><span class="font-weight-medium">Cursus</span></div>
   title-line-twho: ''
   subtitle: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
   image: uploads/cursus-initial.jpg
