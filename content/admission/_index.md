@@ -62,9 +62,9 @@ financement:
   enable: true
   title: Financement
   content: "<p>Financement : initial ou prise en charge dans le cas d’un contrat en
-    alternance</p><p>Tarif année 1 = 5300 € (et alternance possible à partir de janvier)</p><p>Tarif
-    année 2 = 5500 € (ou alternance possible toute l’année)</p><p>Tarif année 3 =
-    6800 € (ou alternance possible toute l’année)</p>"
+    alternance.</p><p>Tarif année 1 = 5300 € (et alternance possible à partir de janvier).</p><p>Tarif
+    année 2 = 5500 € (ou alternance possible toute l’année).</p><p>Tarif année 3 =
+    6800 € (ou alternance possible toute l’année).</p>"
   image: ''
 menu:
   main:
