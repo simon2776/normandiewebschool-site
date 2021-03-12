@@ -70,5 +70,32 @@ fields:
       maxSize: 64
     label: image
   label: conditions
+- name: financement
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: enable
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: content
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  label: financement
 pages:
 - content/admission/_index.md
