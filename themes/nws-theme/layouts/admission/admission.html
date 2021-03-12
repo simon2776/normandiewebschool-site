@@ -10,13 +10,14 @@
   {{ if .Params.about.enable }}
     <!-- about -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image) }}
-    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image" .Params.conditions.image) }}
   {{ end }}
 
   {{ if .Params.conditions.enable }}
   <!-- conditions -->
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image" .Params.conditions.image) }}
   {{ end }}
 
     {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "cursus") "padding" "pt-0" ) }}
 </section>
+{{ end }}
 {{ end }}
