@@ -13,61 +13,10 @@
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image  ) }}
   {{ end }}
 
-
-  <!-- Nos cursus -->
-  {{ if .Params.cursus.enable }}
-  {{ with .Params.cursus }}
-  <section class="pt-5 bg-lightgrey clip-bottom-white overflow-hidden " id="cursus">
-    <div class="container">
-      {{ partial "components/wavy-title" (dict "context" . "title" "Nos cursus") }}
-
-      <div class="row">
-        {{ range .item }}
-          <div class="col-md-12 col-lg-4 mb-4">
-            <div class="card center-card {{ .color }} h-lg-80">
-              <div class="card-header">
-                <h3 class="title-medium {{.color}}">{{.title}}</h3>
-              </div>
-
-              <div>
-                <div class="card-body mb-200">
-                  <p>
-                    {{.content | safeHTML}}
-                  </p>
-
-                  <div class="cursus-info">
-                    <ul class="my-3 {{ .color }} pl-0">
-                      <li>[ {{.from}} ]</li>
-                    </ul>
-    
-                    <div class="logo d-flex justify-content-around">
-                      {{ range .images }}
-                        <img src="{{.url}}" alt="{{.alt}}">
-                      {{ end }}
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-            <div class="col-12 justify-content-center d-none d-lg-flex">
-              <a title="Inscription" href="{{ .Site.BaseURL }}/inscription/" class="btn font-weight-medium color-blue mt-5 py-3 px-4">Demande d'inscription</a>
-            </div>
-          </div>
-        {{ end }}
-      </div>
-
-      <div class="row d-block d-lg-none">
-        <div class="col-12 d-flex justify-content-center mb-4">
-          <a title="Inscription" href="{{ .Site.BaseURL }}/inscription/" class="btn font-weight-medium color-blue mt-5 py-3 px-4">Demande d'inscription</a>
-        </div>
-      </div>
-      <img src="/uploads/points.svg" class="points">
-    </div>
-  </section>
-  {{ end }}
-  {{ end }}
-
+  {{ if .Params.conditions.enable }}
+  <!-- Nos conditions -->
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image  ) }}
+{{ end }}
 
 <!-- filieres -->
   {{ if .Params.filieres.enable }}
