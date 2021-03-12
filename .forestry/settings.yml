@@ -29,7 +29,6 @@ sections:
 - type: document
   path: content/admission/_index.md
   label: Admission
-  match: "**/*"
 - type: document
   path: content/contact/_index.md
   label: Contact
