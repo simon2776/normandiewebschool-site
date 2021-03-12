@@ -48,6 +48,14 @@ team:
 partners:
   enable: false
   title: ''
+conditions:
+  enable: true
+  title: Conditions d'admission
+  content: "<p>Année 1 : avoir le Bac ou un niveau Bac + expérience professionnelle.</p><p>Année
+    2 : avoir réalisé une année ou deux années d’études dans le domaine de la spécialisation
+    choisie.<p>Année 3 : avoir un titre ou diplôme Bac + 2 dans le domaine de spécialisation
+    choisie.</p><p>Année 4 : avoir un titre ou un diplôme Bac + 3 dans le domaine
+    de spécialisation choisie.</p>"
 menu:
   main:
     name: Admission
