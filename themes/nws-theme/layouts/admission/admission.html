@@ -17,5 +17,10 @@
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image" .Params.conditions.image) }}
   {{ end }}
 
+  {{ if .Params.financement.enable }}
+    <!-- financement -->
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.financement.title "content" .Params.financement.content "image" .Params.financement.image) }}
+  {{ end }}
+
     {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "cursus") "padding" "pt-0" ) }}
 {{ end }}
