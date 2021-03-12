@@ -15,7 +15,7 @@
 
   {{ if .Params.conditions.enable }}
   <!-- Nos conditions -->
-    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image"   ) }}
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content"  ) }}
 {{ end }}
 
     {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "cursus") "padding" "pt-0" ) }}
