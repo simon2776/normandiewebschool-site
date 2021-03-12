@@ -1,6 +1,7 @@
 {{ define "main" }}
 
   <!-- hero area -->
+  <section
   <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
 
   </section>
@@ -14,7 +15,7 @@
   {{ end }}
 
   {{ if .Params.conditions.enable }}
-  <!-- Nos conditions -->
+  <!-- conditions -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content"  ) }}
 {{ end }}
 
