@@ -22,6 +22,10 @@ about:
     apprentissage interdisciplinaire</strong></p><p><strong>Un apprentissage centré
     sur l’acquisition de compétences</strong></p>"
   image: "/uploads/cursus-round.png"
+testimonials:
+  enable: true
+  testimonails: []
+seo_image: "/uploads/meta-generale.jpg"
 cursus:
   enable: true
   item:
@@ -130,15 +134,13 @@ filieres:
     arrowImage: ''
     carousel: false
     specilisation: []
-testimonials:
-  enable: true
-  testimonails: []
-seo_image: "/uploads/meta-generale.jpg"
 menu:
+  main:
+    name: Admission
+    weight: 6
   top:
     name: Admission
     URL: admission
     weight: 2
-  main:
-    name: Admission
-    weight: 6
+
+---
