@@ -31,6 +31,11 @@ fields:
   - type: textarea
     name: content
     label: content
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
 - type: field_group
   name: testimonials
   label: testimonials
@@ -59,6 +64,11 @@ fields:
       schema:
         format: markdown
     label: content
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
   label: conditions
 pages:
 - content/admission/_index.md
