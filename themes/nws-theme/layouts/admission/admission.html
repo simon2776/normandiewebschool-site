@@ -3,7 +3,6 @@
   <!-- hero area -->
   <section
   <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
-  </section>
   <!-- /hero area -->
   
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
@@ -19,4 +18,5 @@
   {{ end }}
 
     {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "cursus") "padding" "pt-0" ) }}
+</section>
 {{ end }}
