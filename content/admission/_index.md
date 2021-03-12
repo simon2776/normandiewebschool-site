@@ -37,11 +37,12 @@ testimonials:
   enable: true
 seo_image: ''
 menu:
+  top:
+    name: Admission
+    URL: admission
+    weight: 2
   main:
-    URL: entreprises
-    weight: 2
-  desktop:
-    URL: entreprises
-    weight: 2
+    name: Admission
+    weight: 6
 
 ---
