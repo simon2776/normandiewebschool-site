@@ -3,7 +3,6 @@
   <!-- hero area -->
   <section
   <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
-
   </section>
   <!-- /hero area -->
   
@@ -14,17 +13,10 @@
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image  ) }}
   {{ end }}
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-
   {{ if .Params.conditions.enable }}
   <!-- conditions -->
-    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content"  ) }}
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image" .Params.conditions.image ) }}
 {{ end }}
-    </div>
-      </div>
-         </div>
 
     {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "cursus") "padding" "pt-0" ) }}
 {{ end }}
