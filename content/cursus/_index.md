@@ -49,7 +49,7 @@ cursus:
       le <strong>savoir-faire de la gestion d’équipe et la conduite de projet</strong>.
       L’année 3 se déroule en alternance sur un rythme de 1 semaine en cours et 3
       semaines en entreprise. À l'issue de la 3ème année les étudiant(es) passeront
-        leur examen pour l'obtention du Titre <strong>"Chef de projet digital"</strong>.</p>
+      leur examen pour l'obtention du Titre <strong>"Chef de projet digital"</strong>.</p>
     from: Bac +2/3
     color: color-blue
     images:

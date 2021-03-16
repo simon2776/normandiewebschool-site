@@ -133,11 +133,11 @@ testimonials:
   - design
 seo_image: ''
 menu:
-  main:
+  desktop:
     name: Master Expert digital
     parent: Les cursus
     weight: 5
-  desktop:
+  main:
     name: Master Expert digital
     parent: Les cursus
     weight: 5

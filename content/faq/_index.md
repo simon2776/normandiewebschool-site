@@ -157,11 +157,11 @@ subjects:
         à vous de faire les premières démarches afin de trouver votre entreprise d’accueil.</p>"
 seo_image: ''
 menu:
-  top:
-    name: FAQ
-    weight: 3
   main:
     name: FAQ
     weight: 4
+  top:
+    name: FAQ
+    weight: 3
 
 ---
