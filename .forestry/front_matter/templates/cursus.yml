@@ -143,3 +143,5 @@ fields:
   - type: boolean
     name: enable
     label: enable
+pages:
+- content/cursus/_index.md

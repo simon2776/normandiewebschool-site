@@ -6,7 +6,7 @@ description: 'La Normandie Web School propose un cursus riche et varié privilé
   Le cursus se divise en 3 spécialisations métiers : développement, web design et
   communication visuelle et marketing digital.'
 banner:
-  title: Nos <span class="font-weight-medium">Cursus</span>
+  title: Nos <balise id="initial"><span class="font-weight-medium">Cursus</span></div>
   title-line-twho: ''
   subtitle: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
   image: uploads/cursus-initial.jpg
@@ -32,7 +32,7 @@ cursus:
       développement web et mobile et web design) à travers de projets collaboratifs
       et de la pédagogie active et co-active. Elle permet aussi de développer les
       connaissances et habiletés requises pour la poursuite d’études vers les métiers
-      du numérique.</p><p>L’Année préparatoire s’adresse aux titulaires du Baccalauréat,
+      du numérique.</p><p>L’année préparatoire s’adresse aux titulaires du Baccalauréat,
       quelle que soit la série mais aussi aux étudiants souhaitant se réorienter.</p>"
     from: Bac +1
     color: color-yellow
@@ -70,6 +70,8 @@ cursus:
     images:
     - url: "/uploads/logo-isd.png"
       alt: ''
+  title: ''
+  subtitle: ''
 filieres:
   enable: true
   title: Le cursus en infographie
@@ -78,7 +80,7 @@ filieres:
   item:
   - image: false
     bulle: 1ère année
-    title: Cursus intial
+    title: Cursus initial
     content: La première année est une année préparatoire avec un programme de formation
       générale de base qui permet de découvrir, pratiquer et acquérir de solides compétences
       techniques et transverses dans le domaine du numérique.
@@ -87,6 +89,9 @@ filieres:
     link: https://normandiewebschool.fr/documentation
     carousel: false
     specilisation: []
+    from: ''
+    to: ''
+    color: ''
   - image: true
     carousel: true
     specilisation:
@@ -117,6 +122,9 @@ filieres:
     title: ''
     content: ''
     link: "/cursus/bachelor-marketing-digital/"
+    from: ''
+    to: ''
+    color: ''
   - image: false
     bulle: 4e & 5e année
     title: Master "Expert Digital"
@@ -130,10 +138,29 @@ filieres:
     arrowImage: ''
     carousel: false
     specilisation: []
+    from: ''
+    to: ''
+    color: ''
 testimonials:
   enable: true
   testimonails: []
 seo_image: "/uploads/meta-generale.jpg"
+global: ''
+reasons:
+  enable: false
+  title: ''
+  item: []
+data:
+  enable: false
+  title: ''
+  item: []
+team:
+  enable: false
+  title: ''
+  content: ''
+partners:
+  enable: false
+  title: ''
 menu:
   desktop:
     name: Étudier à la NWS

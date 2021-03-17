@@ -27,6 +27,9 @@ sections:
   path: content/agenda/_index.md
   label: Agenda
 - type: document
+  path: content/admission/_index.md
+  label: Admission
+- type: document
   path: content/contact/_index.md
   label: Contact
 - type: document
