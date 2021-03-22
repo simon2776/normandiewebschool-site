@@ -61,7 +61,7 @@ financement:
   enable: true
   title: Financement
   content: '<p>Financement : à votre charge (<a href="https://nws-akarah-preprod.netlify.app/cursus/#initial">formation
-    initiale</a>) ou prise en charge dans le cas d’<a href=https://nws-akarah-preprod.netlify.app/entreprises/#alternance>un
+    initiale</a>) ou prise en charge dans le cas d’<a href="https://nws-akarah-preprod.netlify.app/entreprises/#alternance">un
     contrat en alternance.</a></p><p>Tarif année 1 = 5300 € (et alternance possible
     à partir de janvier).</p><p>Tarif année 2 = 5500 € (ou alternance possible toute
     l’année).</p><p>Tarif année 3 = 6800 € (ou alternance possible toute l’année).</p>'
