@@ -104,9 +104,9 @@ menu:
   top:
     name: Documentation
     URL: documentation
-    weight: 2
+    weight: 3
   main:
     name: Documentation
-    weight: 6
+    weight: 7
 
 ---

@@ -2,7 +2,6 @@
 
   <!-- hero area -->
   <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
-
   </section>
   <!-- /hero area -->
   
@@ -17,7 +16,7 @@
   <!-- Nos cursus -->
   {{ if .Params.cursus.enable }}
   {{ with .Params.cursus }}
-  <section class="pt-5 bg-lightgrey clip-bottom-white overflow-hidden " id="cursus">
+  <section class="pt-5 bg-lightgrey clip-bottom-white overflow-hidden "  id="cursus">
     <div class="container">
       {{ partial "components/wavy-title" (dict "context" . "title" "Nos cursus") }}
 

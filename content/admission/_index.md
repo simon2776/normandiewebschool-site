@@ -1,10 +1,9 @@
 ---
-title: L'enseignement à la NWS
+title: Admission
 type: page
-description: 'La Normandie Web School propose un cursus riche et varié privilégiant
-  la mise en pratique des compétences tout en garantissant un solide apport théorique.
-  Le cursus se divise en 3 spécialisations métiers : développement, web design et
-  communication visuelle et marketing digital.'
+description: L’admission se fait en dehors de Parcours Sup. Pas de frais pour le traitement
+  du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
+  le 20 juillet 2021.
 banner:
   title: Admission
   title-line-twho: ''
@@ -18,8 +17,8 @@ about:
   content: "<p>Vous demandez un entretien pédagogique avec un responsable de l’école.</p><p>On
     vous propose une date et une heure : prévoir entre 1h et 1h30.</p><p>Le jour de
     l’entretien, venez avec votre CV, vos derniers bulletins scolaires et vos projets
-    (si vous en avez à présenter, si non venez comme vous êtes !) ;-)</p><p>Vous faites
-    un exercice de culture numérique en ligne.</p><p>Vous avez la réponse sous 48h.</p>"
+    (si vous en avez à présenter, si non venez comme vous êtes ;-) !)</p><p>Nous échangeons
+    sur votre projet et votre positionnement.</p><p>Vous avez la réponse sous 48h.</p>"
   image: "/uploads/faq-admission-round.png"
 testimonials:
   enable: true
@@ -60,12 +59,16 @@ conditions:
   image: "/uploads/home_round.jpg"
 financement:
   enable: true
-  title: Financement
-  content: '<p>Financement : à votre charge (<a href="https://nws-akarah-preprod.netlify.app/cursus/#initial">formation
-    initiale</a>) ou prise en charge dans le cas d’<a href=https://nws-akarah-preprod.netlify.app/entreprises/#alternance>un
-    contrat en alternance.</a></p><p>Tarif année 1 = 5300 € (et alternance possible
-    à partir de janvier).</p><p>Tarif année 2 = 5500 € (ou alternance possible toute
-    l’année).</p><p>Tarif année 3 = 6800 € (ou alternance possible toute l’année).</p>'
-  image: "/uploads/logo_nws.svg"
+  title: Frais de scolarité
+  content: <p>Tarif année 1 = 5300 €</p><p>Tarif année 2 = 5500 €</p><p>Tarif année
+    3 = 6800 €</p><p>Les frais de scolarité sont pris en charge dans le cas d’<a href="https://nws-akarah-preprod.netlify.app/entreprises/#alternance">un
+    contrat en alternance.</a>
+  image: "/uploads/logo_nws_h.jpg"
+  image2: "/uploads/logo_nws-1.jpg"
+menu:
+  main:
+    weight: 4
+  top:
+    weight: 2
 
 ---

@@ -90,7 +90,7 @@ cursus:
 reasons:
   enable: true
   title: Cinq bonnes raisons d'intégrer la School
-  subtitle:
+  subtitle: 
   item:
   - logo: uploads/reasons/star.svg
     content: 'Monter en compétences avec des expert(es) métiers et des professionnel(les)
@@ -108,20 +108,20 @@ reasons:
     content: Être et évoluer au cœur de l’écosystème numérique normand.
     alt: écosystème numérique
   - logo: "/uploads/diploma.svg"
-    content: 'Un titre RNCP reconnu par l''État. '
+    content: 'Obtenir un titre RNCP reconnu par l''État. '
     alt: titre RNCP
 data:
   enable: true
   title: La NWS en chiffres
   item:
-  - number: "250"
-    title: Étudiants diplômés
-  - number: "170"
-    title: Étudiants par année
-  - number: "150"
-    title: Entreprises partenaires
   - number: 93%
     title: taux d'embauche de nos jeunes diplômés
+  - number: "150"
+    title: Entreprises partenaires
+  - number: "170"
+    title: Étudiants par année
+  - number: "250"
+    title: Alumni
 team:
   enable: 'true'
   title: L'équipe NWS

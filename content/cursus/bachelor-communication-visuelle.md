@@ -214,11 +214,11 @@ testimonials:
   filter:
   - design
 menu:
-  main:
+  desktop:
     name: Bachelor design
     parent: Les cursus
     weight: 4
-  desktop:
+  main:
     name: Bachelor design
     parent: Les cursus
     weight: 4

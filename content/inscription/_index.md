@@ -12,7 +12,7 @@ banner:
   image: "/uploads/banner_entretien.jpg"
 documents:
   enable: true
-  title: Télécharger le PDF
+  title: Téléchargez le PDF
   subtitle: En savoir plus
   icon: "/uploads/icn-cloud.png"
   name: Présentation générale de la NWS
@@ -88,7 +88,7 @@ seo_image: ''
 menu:
   main:
     name: Entretien pédagogique
-    weight: 7
+    weight: 8
   desktop:
     name: Entretien pédagogique
     weight: 4
