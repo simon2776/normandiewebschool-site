@@ -12,7 +12,7 @@ banner:
   image: "/uploads/banner_entretien.jpg"
 documents:
   enable: true
-  title: Télécharger le PDF
+  title: Téléchargez le PDF
   subtitle: En savoir plus
   icon: "/uploads/icn-cloud.png"
   name: Présentation générale de la NWS
