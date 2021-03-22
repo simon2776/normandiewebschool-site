@@ -1,10 +1,9 @@
 ---
-title: L'enseignement à la NWS
+title: Admission
 type: page
-description: 'La Normandie Web School propose un cursus riche et varié privilégiant
-  la mise en pratique des compétences tout en garantissant un solide apport théorique.
-  Le cursus se divise en 3 spécialisations métiers : développement, web design et
-  communication visuelle et marketing digital.'
+description: 'L’admission se fait en dehors de Parcours Sup. Pas de frais pour le traitement
+    du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
+    le 20 juillet 2021.'
 banner:
   title: Admission
   title-line-twho: ''
@@ -67,9 +66,5 @@ financement:
     à partir de janvier).</p><p>Tarif année 2 = 5500 € (ou alternance possible toute
     l’année).</p><p>Tarif année 3 = 6800 € (ou alternance possible toute l’année).</p>'
   image: "/uploads/logo_nws.svg"
-menu:
-  top:
-    name: Admission
-    weight: 2
 
 ---
