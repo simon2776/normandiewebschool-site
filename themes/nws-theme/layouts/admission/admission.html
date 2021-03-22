@@ -4,16 +4,13 @@
   <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
   </section>  
   <!-- /hero area -->
-
+  
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
-<div class="container">
-<div class="row">
   {{ if .Params.about.enable }}
     <!-- about -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image) }}
   {{ end }}
-  </div></div>
 
   {{ if .Params.conditions.enable }}
     <!-- conditions -->
