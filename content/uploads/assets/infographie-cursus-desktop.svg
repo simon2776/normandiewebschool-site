@@ -19,7 +19,7 @@
 		<sliceSourceBounds  bottomLeftOrigin="true" height="632" width="1520" x="0" y="115"></sliceSourceBounds>
 	</sfw>
 </metadata>
-<image width="1520" height="496" xlink:href="79AA1FA6.png"  transform="matrix(1 0 0 1 0 42.845)">
+<image width="1520" height="496" xlink:href="79AA1FA5.png"  transform="matrix(1 0 0 1 0 42.845)">
 </image>
 <path fill="none" stroke="#CA4B38" stroke-width="10" stroke-linecap="round" stroke-dasharray="0,30" d="M150,456.5
 	c407.5,0,1042.2-148.9,1220-448.6"/>
@@ -37,7 +37,7 @@
 	<circle fill="none" stroke="#00A5A5" stroke-width="7" cx="623" cy="406.8" r="70.5"/>
 </g>
 <text transform="matrix(1 0 0 1 606.354 398.845)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="26px">2</text>
-<text transform="matrix(1 0 0 1 619.796 390.1792)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="15.166px">éme</text>
+<text transform="matrix(1 0 0 1 619.796 390.1792)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="15.166px">ème</text>
 <text transform="matrix(1 0 0 1 585.522 429.845)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="26px">année</text>
 <g>
 	<circle fill="#FFFFFF" cx="949" cy="311.8" r="74"/>
