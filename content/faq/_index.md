@@ -70,8 +70,8 @@ subjects:
     questions:
     - question: Existe-t-il des formations entièrement dispensées en anglais à la
         Normandie Web School ?
-      answer: Quelques cours sont dispensés en anglais et une méthode de e-learning
-        est mise à disposition des étudiants
+      answer: "<p>Quelques cours sont dispensés en anglais et une méthode de e-learning
+        est mise à disposition des étudiants.</p>"
     - question: Vais-je acquérir une expérience professionnelle durant la formation
         ?
       answer: "<p>Si le parcours académique est très important dans les formations
