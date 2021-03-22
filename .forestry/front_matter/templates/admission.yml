@@ -43,13 +43,6 @@ fields:
   - type: boolean
     name: enable
     label: enable
-- name: block1
-  type: blocks
-  label: block1
-  template_types: []
-  config:
-    min: 
-    max: 
 - name: conditions
   type: field_group
   config: {}
