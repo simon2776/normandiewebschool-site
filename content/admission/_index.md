@@ -63,7 +63,7 @@ financement:
   content: <p>Tarif année 1 = 5300 €</p><p>Tarif année 2 = 5500 €</p><p>Tarif année
     3 = 6800 €</p><p>Les frais de scolarité sont pris en charge dans le cas d’<a href="https://nws-akarah-preprod.netlify.app/entreprises/#alternance">un
     contrat en alternance.</a>
-  image: "/uploads/logo_nws.jpg"
+  image: "/uploads/logo_nws-1.jpg"
 menu:
   main:
     weight: 4
