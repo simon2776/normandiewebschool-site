@@ -21,7 +21,7 @@
 
   {{ if .Params.financement.enable }}
     <!-- financement -->
-    {{ partial "components/wavy-title" (dict "context" . "title" .Params.financement.title "content" .Params.financement.content) }}
+    {{ partial "components/page-introduction" (dict "context" . "title" .Params.financement.title "content" .Params.financement.content) }}
   {{ end }}
     <!-- /financement -->
 
