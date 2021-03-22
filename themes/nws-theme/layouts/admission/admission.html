@@ -8,16 +8,13 @@
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
 <div class="container my-5">
-
+<div class "row">
   {{ if .Params.about.enable }}
     <!-- about -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image) }}
   {{ end }}
     <!-- /about -->
-  
-<div class "row">
-<div class="col-xs-6 col-md-3">
-</div>
+ </div>
   
   {{ if .Params.conditions.enable }}
     <!-- conditions -->
