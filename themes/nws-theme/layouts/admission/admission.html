@@ -9,13 +9,12 @@
 
   {{ if .Params.about.enable }}
     <!-- about -->
-<div class "row">
-<div class="col-xs-6 col-md-3">
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image) }}
-</div>
   {{ end }}
     <!-- /about -->
-
+<div class "row">
+<div class="col-xs-6 col-md-3">
+</div>
   {{ if .Params.conditions.enable }}
     <!-- conditions -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image" .Params.conditions.image) }}
