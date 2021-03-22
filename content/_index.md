@@ -121,7 +121,7 @@ data:
   - number: "170"
     title: Étudiants par année
   - number: "250"
-    title: Étudiants diplômés
+    title: Alumni
 team:
   enable: 'true'
   title: L'équipe NWS
