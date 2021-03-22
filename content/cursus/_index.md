@@ -13,7 +13,7 @@ banner:
 about:
   enable: true
   title: L'enseignement à la NWS
-  content: "<p>NOTRE CRÉDO : <strong>La professionnalisation et l'insertion des étudiant(es)</strong></p><p>Construire
+  content: "<p>NOTRE CRÉDO: <strong>La professionnalisation et l'insertion des étudiant(es)</strong></p><p>Construire
     nos programmes au plus près des besoins des entreprises. La pédagogie de la <strong>Normandie
     Web School</strong> repose sur la mise en application concrète de votre apprentissage.
     Pour cela, la School dispose d’un écosystème de partenaires qui va vous permettre
