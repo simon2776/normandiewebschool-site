@@ -67,6 +67,8 @@ financement:
     l’année).</p><p>Tarif année 3 = 6800 € (ou alternance possible toute l’année).</p>'
   image: "/uploads/logo_nws.svg"
 menu:
+  main:
+    weight: 4
   top:
     weight: 2
 

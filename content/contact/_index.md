@@ -90,6 +90,6 @@ menu:
   main:
     name: Contact
     URL: contact
-    weight: 5
+    weight: 6
 
 ---
