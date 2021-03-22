@@ -5,9 +5,7 @@
   </section>  
   <!-- /hero area -->
 
-<div class="row">
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
-</div>
 
   {{ if .Params.about.enable }}
     <!-- about -->
