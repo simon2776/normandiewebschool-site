@@ -30,7 +30,7 @@ subjects:
         du Chef de projet, Product Owner ou Scrum Master. <br></p><p>La 4ème année,
         ils peuvent choisir de poursuivre en mastère (18 mois) (titre RNCP niveau
         7) : Expert design et digital marketing, Intégrateur-DevSecOps.</p>"
-    - question: La Normandie Web School délivre-t-il des diplômes reconnus par l’Etat
+    - question: La Normandie Web School délivre-t-elle des diplômes reconnus par l’Etat
         ?
       answer: "<p>Tous les titres délivrés par la Normandie Web School sont inscrits
         au Répertoire national de la certification professionnelle (RNCP), leurs niveaux
