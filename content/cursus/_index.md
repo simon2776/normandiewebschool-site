@@ -162,9 +162,6 @@ partners:
   enable: false
   title: ''
 menu:
-  top:
-    name: Admission
-    weight: 2
   desktop:
     name: Étudier à la NWS
     URL: cursus
