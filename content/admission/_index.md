@@ -65,7 +65,7 @@ financement:
     contrat en alternance.</a></p><p>Tarif année 1 = 5300 € (et alternance possible
     à partir de janvier).</p><p>Tarif année 2 = 5500 € (ou alternance possible toute
     l’année).</p><p>Tarif année 3 = 6800 € (ou alternance possible toute l’année).</p>'
-  image: "/uploads/logo_nws.svg"
+  image: "/uploads/favicon/favicon.png"
 menu:
   main:
     weight: 4
