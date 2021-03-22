@@ -7,14 +7,18 @@
   
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
+<div class="container my-5">
+
   {{ if .Params.about.enable }}
     <!-- about -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image) }}
   {{ end }}
     <!-- /about -->
+  
 <div class "row">
 <div class="col-xs-6 col-md-3">
 </div>
+  
   {{ if .Params.conditions.enable }}
     <!-- conditions -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image" .Params.conditions.image) }}
@@ -29,3 +33,5 @@
 
     {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "cursus") "padding" "pt-0" ) }}
 {{ end }}
+
+  </div>
