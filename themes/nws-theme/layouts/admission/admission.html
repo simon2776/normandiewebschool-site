@@ -21,7 +21,7 @@
 
   {{ if .Params.financement.enable }}
     <!-- financement -->
-    {{ partial "components/page-introduction" (dict "context" . "title" .Params.financement.title "content" .Params.financement.content) }}
+    {{ partial "components/page-introduction" (dict "context" . "title" .Params.financement.title "content" .Params.financement.content "image" .Params.financement.image) }}
   {{ end }}
     <!-- /financement -->
 
