@@ -114,14 +114,14 @@ data:
   enable: true
   title: La NWS en chiffres
   item:
-  - number: "250"
-    title: Étudiants diplômés
-  - number: "170"
-    title: Étudiants par année
-  - number: "150"
-    title: Entreprises partenaires
   - number: 93%
     title: taux d'embauche de nos jeunes diplômés
+  - number: "150"
+    title: Entreprises partenaires
+  - number: "170"
+    title: Étudiants par année
+  - number: "250"
+    title: Étudiants diplômés
 team:
   enable: 'true'
   title: L'équipe NWS
