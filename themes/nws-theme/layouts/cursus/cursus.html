@@ -17,7 +17,7 @@
   <!-- Nos cursus -->
   {{ if .Params.cursus.enable }}
   {{ with .Params.cursus }}
-  <section class="pt-5 bg-lightgrey clip-bottom-white overflow-hidden " id="cursus">
+  <section class="pt-5 bg-lightgrey clip-bottom-white overflow-hidden ">
     <div class="container">
       {{ partial "components/wavy-title" (dict "context" . "title" "Nos cursus") }}
 
@@ -35,7 +35,7 @@
                     {{.content | safeHTML}}
                   </p>
 
-                  <div class="cursus-info">
+                  <div class="cursus-info" id="cursus">
                     <ul class="my-3 {{ .color }} pl-0">
                       <li>[ {{.from}} ]</li>
                     </ul>
