@@ -10,7 +10,7 @@ banner:
   title-line-twho: ''
   subtitle: ''
 about:
-  enable: true
+  enable: false
   title: ''
   content: ''
 cursus:
