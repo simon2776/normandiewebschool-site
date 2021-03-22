@@ -1,9 +1,9 @@
 ---
 title: Admission
 type: page
-description: 'L’admission se fait en dehors de Parcours Sup. Pas de frais pour le traitement
-    du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
-    le 20 juillet 2021.'
+description: L’admission se fait en dehors de Parcours Sup. Pas de frais pour le traitement
+  du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
+  le 20 juillet 2021.
 banner:
   title: Admission
   title-line-twho: ''
@@ -66,5 +66,8 @@ financement:
     à partir de janvier).</p><p>Tarif année 2 = 5500 € (ou alternance possible toute
     l’année).</p><p>Tarif année 3 = 6800 € (ou alternance possible toute l’année).</p>'
   image: "/uploads/logo_nws.svg"
+menu:
+  top:
+    weight: 2
 
 ---
