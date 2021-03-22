@@ -91,11 +91,11 @@ fields:
       schema:
         format: markdown
     label: content
-  - name: image
+  - name: image2
     type: file
     config:
       maxSize: 64
-    label: image
+    label: image2
   label: financement
 pages:
 - content/admission/_index.md
