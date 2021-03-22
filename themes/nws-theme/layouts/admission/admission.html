@@ -11,16 +11,19 @@
     <!-- about -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image) }}
   {{ end }}
+    <!-- /about -->
 
   {{ if .Params.conditions.enable }}
     <!-- conditions -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image" .Params.conditions.image) }}
   {{ end }}
+    <!-- /conditions -->
 
   {{ if .Params.financement.enable }}
     <!-- financement -->
     {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.financement.title "content" .Params.financement.content) }}
   {{ end }}
+    <!-- /financement -->
 
     {{ partial "testimonial-section.html" (dict "context" . "filter" (slice "cursus") "padding" "pt-0" ) }}
 {{ end }}
