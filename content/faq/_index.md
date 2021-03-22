@@ -162,6 +162,6 @@ menu:
     weight: 4
   top:
     name: FAQ
-    weight: 3
+    weight: 4
 
 ---
