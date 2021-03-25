@@ -85,7 +85,7 @@ video:
   href: https://www.youtube.com/channel/UCxmD0A_TGigvE0F4PLCikjA
 cursus:
   enable: true
-  title: Les cursus à la NW
+  title: Les cursus à la NWS
   subtitle: Le parcours de la Normandie Web School résumé en un schéma.
 reasons:
   enable: true
