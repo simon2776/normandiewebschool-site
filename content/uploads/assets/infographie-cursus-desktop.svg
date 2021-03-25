@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg [
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
 	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
 	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
 	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
@@ -10,9 +10,9 @@
 	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
 	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
 ]>
-<svg version="1.2" baseProfile="tiny" id="Calque_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+<svg version="1.1" id="Calque_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1520 749.8"
-	 overflow="visible" xml:space="preserve">
+	 enable-background="new 0 0 1520 749.8" xml:space="preserve">
 <font horiz-adv-x="1000">
 <!-- Fira Sans is a trademark of The Mozilla Corporation. -->
 <!-- Copyright: Copyright 2021 Adobe System Incorporated. All rights reserved. -->
@@ -96,8 +96,22 @@
 		<sliceSourceBounds  bottomLeftOrigin="true" height="631.9" width="1520" x="0" y="115"></sliceSourceBounds>
 	</sfw>
 </metadata>
-<image width="1520" height="496" xlink:href="79AA1FA5.png"  transform="matrix(1 0 0 1 0 42.8)">
-</image>
+<g opacity="0.28">
+	<circle fill="#FFFFFF" cx="10" cy="431.8" r="10"/>
+	<circle fill="none" stroke="#CA4B38" stroke-width="9" cx="10" cy="431.8" r="5.5"/>
+	<circle fill="#FFFFFF" cx="521" cy="508.8" r="30"/>
+	<circle fill="none" stroke="#CA4B38" stroke-width="9" cx="521" cy="508.8" r="25.5"/>
+	<ellipse fill="#FFFFFF" cx="749.5" cy="293.8" rx="34.5" ry="34"/>
+	<ellipse fill="none" stroke="#CA4B38" stroke-width="9" cx="749.5" cy="293.8" rx="30" ry="29.5"/>
+	<circle fill="#FFFFFF" cx="1054" cy="407.8" r="42"/>
+	<circle fill="none" stroke="#CA4B38" stroke-width="9" cx="1054" cy="407.8" r="37.5"/>
+	<ellipse fill="#FFFFFF" cx="185" cy="376.3" rx="18" ry="17.5"/>
+	<ellipse fill="none" stroke="#CA4B38" stroke-width="9" cx="185" cy="376.3" rx="13.5" ry="13"/>
+	<ellipse fill="#FFFFFF" cx="1120" cy="95.3" rx="53" ry="52.5"/>
+	<ellipse fill="none" stroke="#CA4B38" stroke-width="9" cx="1120" cy="95.3" rx="48.5" ry="48"/>
+	<circle fill="#FFFFFF" cx="1450.5" cy="147.3" r="69.5"/>
+	<circle fill="none" stroke="#CA4B38" stroke-width="9" cx="1450.5" cy="147.3" r="65"/>
+</g>
 <path fill="none" stroke="#CA4B38" stroke-width="10" stroke-linecap="round" stroke-dasharray="0,30" d="M150,456.5
 	c407.5,0,1042.2-148.9,1220-448.6"/>
 <g>
@@ -105,9 +119,7 @@
 	<circle fill="none" stroke="#00A5A5" stroke-width="7" cx="265" cy="453.8" r="70.5"/>
 </g>
 <text transform="matrix(1 0 0 1 244.783 440.845)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="28px">1</text>
-<text transform="matrix(1 0 0 1 257.8467 437.1792)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="28px">è</text>
-<text transform="matrix(1 0 0 1 273.3023 437.1792)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="28px">r</text>
-<text transform="matrix(1 0 0 1 283.69 437.1792)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="28px">e</text>
+<text transform="matrix(1 0 0 1 257.8467 437.1792)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="28px">ère</text>
 <text transform="matrix(1 0 0 1 226.522 476.845)" fill="#CA4B38" font-family="'FiraSans-ExtraBold'" font-size="38px">année</text>
 <g>
 	<circle fill="#FFFFFF" cx="623" cy="406.8" r="74"/>
@@ -134,184 +146,15 @@
 <text transform="matrix(1 0 0 1 1260.0364 131.8458)" fill="#CA4B38" font-family="'FiraSans-Bold'" font-size="28px">ème</text>
 <text transform="matrix(1 0 0 1 1206.532 167.845)" fill="#CA4B38" font-family="'FiraSans-ExtraBold'" font-size="38px">années</text>
 <path fill="#00A5A5" d="M129,548.8h276.4v52H129V548.8z"/>
-<text transform="matrix(1 0 0 1 138.205 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">C</text>
-<text transform="matrix(1 0 0 1 146.4853 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">u</text>
-<text transform="matrix(1 0 0 1 155.1401 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">r</text>
-<text transform="matrix(1 0 0 1 160.8554 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">s</text>
-<text transform="matrix(1 0 0 1 167.9951 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">u</text>
-<text transform="matrix(1 0 0 1 176.6498 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">s</text>
-<text transform="matrix(1 0 0 1 183.79 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 187.54 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 191.77 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
-<text transform="matrix(1 0 0 1 200.4848 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 204.7148 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 210.3398 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 214.5698 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 222.6098 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">l</text>
-<text transform="matrix(1 0 0 1 227.0346 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 230.7846 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">:</text>
-<text transform="matrix(1 0 0 1 234.3847 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 238.1347 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">C</text>
-<text transform="matrix(1 0 0 1 246.3544 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">o</text>
-<text transform="matrix(1 0 0 1 255.1147 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
-<text transform="matrix(1 0 0 1 263.8295 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">c</text>
-<text transform="matrix(1 0 0 1 270.6996 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 278.9345 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">p</text>
-<text transform="matrix(1 0 0 1 287.8745 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 293.2446 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 301.4794 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">u</text>
-<text transform="matrix(1 0 0 1 310.1342 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">r</text>
-<text transform="matrix(1 0 0 1 316.0444 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 319.7944 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
-<text transform="matrix(1 0 0 1 328.5092 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">u</text>
-<text transform="matrix(1 0 0 1 337.164 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">m</text>
-<text transform="matrix(1 0 0 1 349.914 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">é</text>
-<text transform="matrix(1 0 0 1 358.1489 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">r</text>
-<text transform="matrix(1 0 0 1 364.059 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 368.289 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">q</text>
-<text transform="matrix(1 0 0 1 377.2739 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">u</text>
-<text transform="matrix(1 0 0 1 385.9286 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
+<text transform="matrix(1 0 0 1 138.205 579.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">Cursus initial : Concepteur numérique</text>
 <path fill="#00A5A5" d="M834,420.8h230v52H834V420.8z"/>
-<text transform="matrix(1 0 0 1 843.135 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">B</text>
-<text transform="matrix(1 0 0 1 852.3298 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 860.5198 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">c</text>
-<text transform="matrix(1 0 0 1 867.6897 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">h</text>
-<text transform="matrix(1 0 0 1 876.4045 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 884.6394 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">l</text>
-<text transform="matrix(1 0 0 1 888.9895 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">o</text>
-<text transform="matrix(1 0 0 1 897.7498 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">r</text>
-<text transform="matrix(1 0 0 1 903.6594 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 907.4094 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">:</text>
-<text transform="matrix(1 0 0 1 911.0095 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 914.7595 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">C</text>
-<text transform="matrix(1 0 0 1 923.1296 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">h</text>
-<text transform="matrix(1 0 0 1 931.8445 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 940.0793 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">f</text>
-<text transform="matrix(1 0 0 1 945.2839 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 949.0339 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">d</text>
-<text transform="matrix(1 0 0 1 958.0188 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 966.2542 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 970.0042 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">P</text>
-<text transform="matrix(1 0 0 1 978.5691 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">r</text>
-<text transform="matrix(1 0 0 1 984.0291 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">o</text>
-<text transform="matrix(1 0 0 1 992.7888 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">j</text>
-<text transform="matrix(1 0 0 1 997.0037 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 1005.2385 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 1010.8635 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 1014.6135 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">d</text>
-<text transform="matrix(1 0 0 1 1023.5989 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 1027.8289 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">g</text>
-<text transform="matrix(1 0 0 1 1035.8835 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 1040.1135 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 1045.5886 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 1053.6287 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">l</text>
+<text transform="matrix(1 0 0 1 843.135 451.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">Bachelor : Chef de Projet digital</text>
 <path fill="#00A5A5" d="M1140,259.8h230v52h-230V259.8z"/>
-<text transform="matrix(1 0 0 1 1155.463 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">M</text>
-<text transform="matrix(1 0 0 1 1167.193 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 1175.233 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">s</text>
-<text transform="matrix(1 0 0 1 1182.3727 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 1187.7428 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 1195.9777 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">r</text>
-<text transform="matrix(1 0 0 1 1201.8878 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 1205.6378 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">:</text>
-<text transform="matrix(1 0 0 1 1209.2374 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 1212.9874 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">E</text>
-<text transform="matrix(1 0 0 1 1220.9376 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">x</text>
-<text transform="matrix(1 0 0 1 1228.4376 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">p</text>
-<text transform="matrix(1 0 0 1 1237.3776 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 1245.6124 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">r</text>
-<text transform="matrix(1 0 0 1 1251.5226 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 1257.1476 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 1260.8976 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">d</text>
-<text transform="matrix(1 0 0 1 1269.8824 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">u</text>
-<text transform="matrix(1 0 0 1 1278.5372 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 1282.2872 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
-<text transform="matrix(1 0 0 1 1291.0021 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">u</text>
-<text transform="matrix(1 0 0 1 1299.6573 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">m</text>
-<text transform="matrix(1 0 0 1 1312.4069 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">é</text>
-<text transform="matrix(1 0 0 1 1320.6422 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">r</text>
-<text transform="matrix(1 0 0 1 1326.5519 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 1330.7819 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">q</text>
-<text transform="matrix(1 0 0 1 1339.7667 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">u</text>
-<text transform="matrix(1 0 0 1 1348.422 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
+<text transform="matrix(1 0 0 1 1155.463 291.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">Master : Expert du numérique</text>
 <path fill="#CA4B38" d="M506,514.8h230v36H506V514.8z"/>
-<text transform="matrix(1 0 0 1 521.9999 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">S</text>
-<text transform="matrix(1 0 0 1 530.3998 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">p</text>
-<text transform="matrix(1 0 0 1 539.3397 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">é</text>
-<text transform="matrix(1 0 0 1 547.5746 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">c</text>
-<text transform="matrix(1 0 0 1 554.7445 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 558.9745 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 567.0145 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">l</text>
-<text transform="matrix(1 0 0 1 571.4393 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 575.6693 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">s</text>
-<text transform="matrix(1 0 0 1 582.6595 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 590.8495 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 596.4745 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 600.7045 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">o</text>
-<text transform="matrix(1 0 0 1 609.4642 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
-<text transform="matrix(1 0 0 1 618.1791 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 621.9291 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">W</text>
-<text transform="matrix(1 0 0 1 634.3344 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 642.5692 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">b</text>
-<text transform="matrix(1 0 0 1 651.5092 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 655.2592 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">M</text>
-<text transform="matrix(1 0 0 1 666.9891 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 675.1786 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">r</text>
-<text transform="matrix(1 0 0 1 681.0887 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">k</text>
-<text transform="matrix(1 0 0 1 688.934 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 697.1688 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 702.7938 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 707.0238 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
-<text transform="matrix(1 0 0 1 715.7386 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">g</text>
+<text transform="matrix(1 0 0 1 521.9999 536.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">Spécialisation Web Marketing</text>
 <path fill="#00A5A5" d="M506,556.8h230v36H506V556.8z"/>
-<text transform="matrix(1 0 0 1 550.988 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">S</text>
-<text transform="matrix(1 0 0 1 559.3879 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">p</text>
-<text transform="matrix(1 0 0 1 568.3278 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">é</text>
-<text transform="matrix(1 0 0 1 576.5627 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">c</text>
-<text transform="matrix(1 0 0 1 583.7326 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 587.9626 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 596.0026 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">l</text>
-<text transform="matrix(1 0 0 1 600.4274 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 604.6574 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">s</text>
-<text transform="matrix(1 0 0 1 611.6476 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 619.8376 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 625.4626 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 629.6926 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">o</text>
-<text transform="matrix(1 0 0 1 638.4523 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
-<text transform="matrix(1 0 0 1 647.1672 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 650.9172 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">D</text>
-<text transform="matrix(1 0 0 1 660.6374 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 668.8723 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">s</text>
-<text transform="matrix(1 0 0 1 676.0124 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 680.2419 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">g</text>
-<text transform="matrix(1 0 0 1 688.2971 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
+<text transform="matrix(1 0 0 1 550.988 578.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">Spécialisation Design</text>
 <path fill="#FEC800" d="M505,598.8h230v36H505V598.8z"/>
-<text transform="matrix(1 0 0 1 519.975 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">S</text>
-<text transform="matrix(1 0 0 1 528.3749 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">p</text>
-<text transform="matrix(1 0 0 1 537.3148 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">é</text>
-<text transform="matrix(1 0 0 1 545.5497 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">c</text>
-<text transform="matrix(1 0 0 1 552.7196 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 556.9496 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 564.9896 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">l</text>
-<text transform="matrix(1 0 0 1 569.4144 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 573.6444 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">s</text>
-<text transform="matrix(1 0 0 1 580.6346 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">a</text>
-<text transform="matrix(1 0 0 1 588.8246 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
-<text transform="matrix(1 0 0 1 594.4496 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">i</text>
-<text transform="matrix(1 0 0 1 598.6796 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">o</text>
-<text transform="matrix(1 0 0 1 607.4393 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
-<text transform="matrix(1 0 0 1 616.1542 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px"> </text>
-<text transform="matrix(1 0 0 1 619.9042 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">D</text>
-<text transform="matrix(1 0 0 1 629.6244 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">é</text>
-<text transform="matrix(1 0 0 1 637.7694 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">v</text>
-<text transform="matrix(1 0 0 1 645.2391 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 653.474 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">l</text>
-<text transform="matrix(1 0 0 1 657.8241 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">o</text>
-<text transform="matrix(1 0 0 1 666.5844 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">p</text>
-<text transform="matrix(1 0 0 1 675.5243 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">p</text>
-<text transform="matrix(1 0 0 1 684.4642 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 692.6991 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">m</text>
-<text transform="matrix(1 0 0 1 705.4491 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">e</text>
-<text transform="matrix(1 0 0 1 713.684 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">n</text>
-<text transform="matrix(1 0 0 1 722.3988 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">t</text>
+<text transform="matrix(1 0 0 1 519.975 620.845)" fill="#FFFFFF" font-family="'FiraSans-Medium'" font-size="15px">Spécialisation Développement</text>
 </svg>
