@@ -15,13 +15,13 @@
   
   {{ if .Params.conditions.enable }}
     <!-- conditions -->
-    {{ partial "components/page-introduction2.html" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image" .Params.conditions.image) }}
+    {{ partial "components/page-introduction" (dict "context" . "title" .Params.conditions.title "content" .Params.conditions.content "image" .Params.conditions.image) }}
   {{ end }}
     <!-- /conditions -->
 
   {{ if .Params.financement.enable }}
     <!-- financement -->
-    {{ partial "components/page-introduction2.html" (dict "context" . "title" .Params.financement.title "content" .Params.financement.content "image" .Params.financement.image) }}
+    {{ partial "components/page-introduction" (dict "context" . "title" .Params.financement.title "content" .Params.financement.content "image" .Params.financement.image) }}
   {{ end }}
     <!-- /financement -->
 
