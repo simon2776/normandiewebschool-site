@@ -1,8 +1,8 @@
 +++
 draft = true
 name = "Fabien Ghesquière"
-picture = ""
+picture = "/uploads/fabien.jpg"
 role = "Alternant chef de projet digital"
-weight = 0
+weight = nil
 
 +++
