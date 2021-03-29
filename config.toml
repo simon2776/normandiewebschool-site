@@ -9,9 +9,15 @@ URL = "cursus"
 name = "Les cursus"
 weight = 1
 [[menu.main]]
+name = "Blog"
+weight = 3
+[[menu.main]]
 URL = "cursus"
 name = "Les cursus"
-weight = 1
+weight = 4
+[[menu.top]]
+name = "Blog"
+weight = 3
 [params]
 abstract = "Grâce à une vision transverse des différents métiers du numérique dans un monde en perpétuelle mutation, la Normandie Web School – par les partenariats qu’elle a noués – fait   en sorte que la formation de ses étudiants soit sans cesse alignée avec les attentes du marché pour qu’ils puissent répondre aux défis des métiers de demain.  "
 address = "Seine Innopolis <br/> 72 Rue de la République <br/> 76140 Le Petit-Quevilly"
@@ -53,5 +59,5 @@ icon = "ti-dribbble"
 URL = "#"
 icon = "ti-twitter-alt"
 [taxonomies]
-    tag = "tags"
-    archive = "archives"
+archive = "archives"
+tag = "tags"

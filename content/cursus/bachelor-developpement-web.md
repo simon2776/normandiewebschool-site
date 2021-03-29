@@ -226,11 +226,11 @@ testimonials:
   filter:
   - dev
 menu:
-  main:
+  desktop:
     name: Bachelor développement
     parent: Les cursus
     weight: 3
-  desktop:
+  main:
     name: Bachelor développement
     parent: Les cursus
     weight: 3

@@ -162,13 +162,13 @@ partners:
   enable: false
   title: ''
 menu:
+  main:
+    name: Cursus intital
+    parent: Les cursus
+    weight: 1
   desktop:
     name: Étudier à la NWS
     URL: cursus
-    parent: Les cursus
-    weight: 1
-  main:
-    name: Cursus intital
     parent: Les cursus
     weight: 1
 
