@@ -45,7 +45,7 @@ recrutement:
   - image: "/uploads/entreprises_2.png"
     title: L'alternance
     button: Trouvez votre alternant
-    content: <balise id="alternance">Le système de l’alternance, en contrat de professionnalisation
+    content: Le système de l’alternance, en contrat de professionnalisation
       ou contrat d’apprentissage, est accessible "au fil de l'eau" en 2ème ou 3ème
       année de bachelor. C’est le parcours clé après les premières expériences de
       stages et avant la recherche du premier emploi. <br/><br/> En contrat d’apprentissage
@@ -54,7 +54,7 @@ recrutement:
       l’OPCO de l'entreprise prend en charge les coûts de formation et l'entreprise
       rémunère l’étudiant (entre 43% et 100% du Smic) en fonction de son âge et du
       type de contrat. L'entreprise bénéficie d'aides et d'allègements de charges
-      sociales sur ces contrats.</balise>
+      sociales sur ces contrats.
     color: color-orange
 colorBlock:
   enable: true
