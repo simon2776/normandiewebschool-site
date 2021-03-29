@@ -9,14 +9,30 @@ URL = "cursus"
 name = "Les cursus"
 weight = 1
 [[menu.main]]
+name = "Migrate to Hugo from Jekyll"
+parent = "tutorials"
+weight = 4
+[[menu.main]]
+name = "Getting Started with Hugo"
+weight = 5
+[[menu.main]]
+name = "(Hu)go Template Primer"
+weight = 6
+[[menu.main]]
+name = "Creating a New Theme"
+parent = "tutorials"
+weight = 7
+[[menu.main]]
 name = "Blog"
+url = "/post"
 weight = 3
 [[menu.main]]
 URL = "cursus"
 name = "Les cursus"
-weight = 4
+weight = 8
 [[menu.top]]
 name = "Blog"
+url = "/post"
 weight = 3
 [params]
 abstract = "Grâce à une vision transverse des différents métiers du numérique dans un monde en perpétuelle mutation, la Normandie Web School – par les partenariats qu’elle a noués – fait   en sorte que la formation de ses étudiants soit sans cesse alignée avec les attentes du marché pour qu’ils puissent répondre aux défis des métiers de demain.  "
