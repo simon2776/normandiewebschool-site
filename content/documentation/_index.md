@@ -107,6 +107,6 @@ menu:
     weight: 4
   main:
     name: Documentation
-    weight: 12
+    weight: 8
 
 ---
