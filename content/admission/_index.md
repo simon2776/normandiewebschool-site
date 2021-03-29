@@ -64,7 +64,7 @@ financement:
     3 = 6800 €</p><p>Les frais de scolarité sont pris en charge dans le cas d’<a href="https://nws-akarah-preprod.netlify.app/entreprises/#alternance">un
     contrat en alternance.</a>
   image: "/uploads/logo_nws_h.jpg"
-  image2: "/uploads/logo_nws-1.jpg"
+  image2: "/uploads/logo_nws_h.png"
 menu:
   main:
     weight: 4
