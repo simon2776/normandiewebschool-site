@@ -56,7 +56,7 @@ conditions:
     3</strong> : avoir un titre ou diplôme Bac + 2 dans le domaine de spécialisation
     choisie.</p><p><strong>Année 4</strong> : avoir un titre ou un diplôme Bac + 3
     dans le domaine de spécialisation choisie.</p>"
-  image: "/uploads/home_round.jpg"
+  image: "/uploads/home_round-1.png"
 financement:
   enable: true
   title: Frais de scolarité
@@ -64,7 +64,7 @@ financement:
     3 = 6800 €</p><p>Les frais de scolarité sont pris en charge dans le cas d’<a href="https://nws-akarah-preprod.netlify.app/entreprises/#alternance">un
     contrat en alternance.</a>
   image: "/uploads/logo_nws_h.jpg"
-  image2: "/uploads/logo_nws-1.jpg"
+  image2: "/uploads/logo_nws_v.png"
 menu:
   main:
     weight: 4
