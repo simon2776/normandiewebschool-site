@@ -52,3 +52,6 @@ icon = "ti-dribbble"
 [[params.social]]
 URL = "#"
 icon = "ti-twitter-alt"
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
