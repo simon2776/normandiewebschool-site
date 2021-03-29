@@ -131,7 +131,7 @@ partners:
   enable: true
   title: Nos partenaires
 testimonials:
-  enable: true
+  enable: false
 image: "/uploads/meta-generale.jpg"
 seo_image: "/uploads/meta-generale.jpg"
 
