@@ -56,7 +56,7 @@ conditions:
     3</strong> : avoir un titre ou diplôme Bac + 2 dans le domaine de spécialisation
     choisie.</p><p><strong>Année 4</strong> : avoir un titre ou un diplôme Bac + 3
     dans le domaine de spécialisation choisie.</p>"
-  image: "/uploads/home_round.jpg"
+  image: "/uploads/home_round-1.png"
 financement:
   enable: true
   title: Frais de scolarité
