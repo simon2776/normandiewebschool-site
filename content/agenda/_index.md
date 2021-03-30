@@ -82,7 +82,7 @@ menu:
   main:
     name: Agenda
     URL: agenda
-    weight: 5
+    weight: 8
   top:
     name: Agenda
     URL: agenda
