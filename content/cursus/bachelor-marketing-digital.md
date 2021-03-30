@@ -214,12 +214,12 @@ testimonials:
   - marketing
 seo_image: ''
 menu:
-  main:
-    name: Bachelor marketing
+  desktop:
+    name: Bachelor Web marketing
     parent: Les cursus
     weight: 2
-  desktop:
-    name: Bachelor marketing
+  main:
+    name: Bachelor Web marketing
     parent: Les cursus
     weight: 2
 

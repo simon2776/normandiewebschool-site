@@ -1,8 +1,8 @@
 +++
-weight = 1
 name = "Sitapha Dia"
-picture = "/uploads/sitapha.jpg"
+picture = "/uploads/sitapha-1.jpg"
 role = "Directeur de l'école"
-type = "team"
+weight = 1
+
 +++
 ~~~~
