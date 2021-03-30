@@ -159,7 +159,7 @@ seo_image: ''
 menu:
   main:
     name: FAQ
-    weight: 9
+    weight: 5
   top:
     name: FAQ
     weight: 4

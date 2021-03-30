@@ -88,7 +88,7 @@ seo_image: ''
 menu:
   main:
     name: Entretien pédagogique
-    weight: 12
+    weight: 8
   desktop:
     name: Entretien pédagogique
     weight: 4
