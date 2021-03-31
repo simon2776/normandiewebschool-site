@@ -1,10 +1,19 @@
 {{ define "main" }}
 {{ $archive := lower .Title }}
 
-<div class="columns">
-    <div class="column is-9">
-        <div class="tile is-child box">
-            <div class="content">
+  <!-- hero area -->
+  <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
+  </section>  
+  <!-- /hero area -->
+
+{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
+
+{{ if .Params.about.enable }}
+    <!-- about -->
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image ) }}
+{{ end }}
+    <!-- /about -->
+
 {{ range $key, $value := .Site.Taxonomies.archives }}{{ if eq $key $archive }}{{ range $value.Pages }}
                 <article class="media">
                     <div class="media-content">
@@ -20,16 +29,9 @@
                 </article>
                 <br>
 {{ end }}{{ end }}{{ end }}
-            </div>
-        </div>
-    </div>
-    <div class="column is-3">
-        {{ partial "widget-tags.html" . }}<br>
         {{ partial "widget-recent.html" . }}<br>
-        {{ partial "widget-related.html" . }}<br>
         {{ partial "widget-archives.html" . }}
     </div>
 </div>
-
 
 {{ end }}

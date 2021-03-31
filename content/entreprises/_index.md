@@ -34,14 +34,6 @@ about:
 recrutement:
   enable: true
   item:
-  - image: "/uploads/entreprise_1.png"
-    title: Les stages
-    button: Trouvez votre stagiaire
-    content: 'Vous pouvez intégrer nos étudiant(es) en stage sur différentes périodes
-      de l’année <br/> Année 1 : stage de 2 mois à partir du mois de mai <br/> Année
-      2 : stage de 4 mois à partir du mois de mars <br/> Année 3 : stage de 6 mois
-      équivalent temps plein à partir de janvier'
-    color: color-blue
   - image: "/uploads/entreprises_2.png"
     title: L'alternance
     button: Trouvez votre alternant
@@ -55,6 +47,14 @@ recrutement:
       43% et 100% du Smic) en fonction de son âge et du type de contrat. L'entreprise
       bénéficie d'aides et d'allègements de charges sociales sur ces contrats.
     color: color-orange
+  - image: "/uploads/entreprise_1.png"
+    title: Les stages
+    button: Trouvez votre stagiaire
+    content: 'Vous pouvez intégrer nos étudiant(es) en stage sur différentes périodes
+      de l’année <br/> Année 1 : stage de 2 mois à partir du mois de mai <br/> Année
+      2 : stage de 4 mois à partir du mois de mars <br/> Année 3 : stage de 6 mois
+      équivalent temps plein à partir de janvier'
+    color: color-blue
 colorBlock:
   enable: true
   item:
@@ -91,7 +91,7 @@ testimonials:
 seo_image: ''
 partenariat:
   enable: true
-  title: Nos partenaires
+  title: Nos partenaires institutionnels
 menu:
   desktop:
     URL: entreprises
