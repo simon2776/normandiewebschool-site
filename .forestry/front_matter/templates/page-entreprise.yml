@@ -119,6 +119,11 @@ fields:
   - name: enable
     type: boolean
     label: enable
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
   label: partenariat
 - type: field_group
   name: testimonials
