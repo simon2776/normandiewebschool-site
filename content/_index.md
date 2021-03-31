@@ -128,7 +128,7 @@ team:
   content: Découvrez l'équipe de la Normandie Web School au service de la pédagogie
     et du développement de chacun des étudiants.
 partners:
-  enable: true
+  enable: false
   title: Nos partenaires
 testimonials:
   enable: true
