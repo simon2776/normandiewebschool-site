@@ -6,6 +6,14 @@
   </section>  
   <!-- /hero area -->
 
+{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
+
+  {{ if .Params.about.enable }}
+    <!-- about -->
+    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image ) }}
+  {{ end }}
+    <!-- /about -->
+
 <div class="columns">
     <div class="column is-9">
         <div class="tile is-child box">
