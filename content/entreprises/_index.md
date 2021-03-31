@@ -89,6 +89,9 @@ partners:
 testimonials:
   enable: true
 seo_image: ''
+partenariat:
+  enable: true
+  title: Nos partenaires
 menu:
   desktop:
     URL: entreprises
