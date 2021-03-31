@@ -21,10 +21,5 @@ testimonials:
   testimonails: []
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
-menu:
-  top:
-    weight: 2
-  main:
-    weight: 2
 
 ---
