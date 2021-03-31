@@ -6,7 +6,7 @@ banner:
   title: Blog
   title-line-twho: ''
   subtitle: Découvrez nos différents posts.
-  image: uploads/cursus-initial.jpg
+  image: uploads/design.jpg
 about:
   enable: false
   title: Les différentes étapes
