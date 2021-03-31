@@ -25,46 +25,6 @@ testimonials:
   testimonails: []
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
-filieres:
-  enable: ''
-  item: []
-cursus:
-  enable: ''
-  title: ''
-  subtitle: ''
-reasons:
-  enable: false
-  title: ''
-  item: []
-data:
-  enable: false
-  title: ''
-  item: []
-team:
-  enable: false
-  title: ''
-  content: ''
-partners:
-  enable: false
-  title: ''
-conditions:
-  enable: true
-  title: Conditions d'admission
-  content: "<p><strong>Année 1</strong> : avoir le Bac ou un niveau Bac + expérience
-    professionnelle.</p><p><strong>Année 2</strong> : avoir réalisé une année ou deux
-    années d’études dans le domaine de la spécialisation choisie.<p><strong>Année
-    3</strong> : avoir un titre ou diplôme Bac + 2 dans le domaine de spécialisation
-    choisie.</p><p><strong>Année 4</strong> : avoir un titre ou un diplôme Bac + 3
-    dans le domaine de spécialisation choisie.</p>"
-  image: "/uploads/home_round-1.png"
-financement:
-  enable: true
-  title: Frais de scolarité
-  content: <p>Tarif année 1 = 5300 €</p><p>Tarif année 2 = 5500 €</p><p>Tarif année
-    3 = 6800 €</p><p>Les frais de scolarité sont pris en charge dans le cas d’<a href="/entreprises/#alternance">un
-    contrat en alternance.</a>
-  image: "/uploads/logo_nws_h.jpg"
-  image2: "/uploads/logo_nws_v.png"
 menu:
   main:
     weight: 2
