@@ -10,7 +10,7 @@ banner:
     le 20 juillet 2021.
   image: uploads/cursus-initial.jpg
 about:
-  enable: true
+  enable: false
   title: Les différentes étapes
   content: "<p>Vous demandez un entretien pédagogique avec un responsable de l’école.</p><p>On
     vous propose une date et une heure : prévoir entre 1h et 1h30.</p><p>Le jour de
