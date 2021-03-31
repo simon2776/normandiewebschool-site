@@ -89,41 +89,11 @@
         </div>
         {{end}}
       </div>
-
-      <div class="col-lg-4 mt-5 mt-lg-0">
-        {{ with .Params.documents }}
-          <div class="card second-push-top">
-            <div class="card-header">
-              <h3 class="mb-0 title-medium color-blue separator-left">{{.title}}</h3>
-            </div>
-
-            <div>
-              <div class="card-body">
-                <p>{{.subtitle}}</p>
-                <div class="container mt-4">
-                  <div id="docs">
-                    <div class="row docs">
-                      <div class="desc col-10 d-flex flex-column justify-content-center">
-                        <p class="font-weight-bold">{{.name}}</p>
-                        <p>{{.format}}</p>
-                      </div>
-                      <div class="icon col-2 d-flex flex-column justify-content-center">
-                        <img src="{{.icon}}" style="object-fit: contain";/>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        {{ end }}
-      </div>
     </div>
   </div>
 </section>
+
 <script src="https://www.google.com/recaptcha/api.js?render=6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs"></script>
-
-
 <script>
   grecaptcha.ready(function() {
     grecaptcha.execute('6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs', {action: 'homepage'})
