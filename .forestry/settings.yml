@@ -31,7 +31,7 @@ sections:
   label: Admission
 - type: document
   path: content/post/_index.md
-  label: Blog  
+  label: Blog
 - type: document
   path: content/contact/_index.md
   label: Contact

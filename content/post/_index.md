@@ -1,9 +1,7 @@
 ---
 title: Blog
 type: page
-description: L’admission se fait en dehors de Parcours Sup. Pas de frais pour le traitement
-  du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
-  le 20 juillet 2021.
+description: Découvrez nos différents posts
 banner:
   title: Blog
   title-line-twho: ''
@@ -26,9 +24,9 @@ testimonials:
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
 menu:
-  main:
-    weight: 2
   top:
+    weight: 2
+  main:
     weight: 2
 
 ---
