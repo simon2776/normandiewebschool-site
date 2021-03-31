@@ -30,6 +30,9 @@ sections:
   path: content/admission/_index.md
   label: Admission
 - type: document
+  path: content/post/_index.md
+  label: Blog  
+- type: document
   path: content/contact/_index.md
   label: Contact
 - type: document
