@@ -155,6 +155,27 @@
 </section>
 {{ end }}
 
+{{ if .Params.partners.enable }}
+  <section class="clip-bottom-lightgrey section">
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-12">
+              <h3 class="text-center with-separator-lg-left text-lg-left title-medium color-orange my-5">
+                {{.Params.partners.title}}
+              </h3>
+
+                {{ $partners := where .Site.RegularPages "Type" "in" "partner" }}
+            <div class="row d-flex align-items-center justify-content-center">
+              {{ range $partners }}
+                {{ partial "partner.html" . }}
+              {{ end }}
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
+
 <script>
   const textWrappers = document.querySelectorAll(".shortenedText")
 
