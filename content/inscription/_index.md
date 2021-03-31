@@ -81,7 +81,7 @@ form:
     required: true
     name: RGPD
   - content: J'accepte recevoir les actualités de la Normandie Web School  ainsi que
-      des publications à portée commerciales.
+      des publications à portée commerciale.
     required: false
     name: newsletter
 seo_image: ''
