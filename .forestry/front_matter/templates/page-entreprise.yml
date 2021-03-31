@@ -112,6 +112,14 @@ fields:
     - type: text
       name: logo
       label: logo
+- name: partenariat
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: enable
+  label: partenariat
 - type: field_group
   name: testimonials
   label: testimonials
