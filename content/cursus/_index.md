@@ -168,7 +168,7 @@ menu:
     parent: Les cursus
     weight: 1
   main:
-    name: Cursus intital
+    name: Cursus initial
     parent: Les cursus
     weight: 1
 
