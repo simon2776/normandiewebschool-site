@@ -56,11 +56,10 @@
             >
             {{ end }}
 
-            {{ if .url }}
               <a href="{{ .href }}" target="_blank">
               <img src="{{.image | relURL}}" alt="{{.Params.Name }}" width="100%"/>
               </a>             
-            {{ end }}
+
             <p class="font-weight-medium text-center px-3 my-3">
                 {{ .description | safeHTML }}
               </p>
