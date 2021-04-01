@@ -714,8 +714,8 @@ HERO HEADER
   position: absolute;
   right: -100%;
   top: 80px; // TODO: ZINDEX
-  width: 65vw;
-
+  width: 100vw;
+  max-width: 320px;
   //
   height: calc(100vh - 80px); /* Fallback for browsers that do not support Custom Properties */
   height: calc((var(--vh, 1vh) * 100) - 80px);
