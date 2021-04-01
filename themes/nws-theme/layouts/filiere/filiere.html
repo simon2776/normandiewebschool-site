@@ -44,27 +44,28 @@
 {{end}}
 
 {{ with .Params.about }}
-<section class="my-3 my-lg-5" id="video">
+  <section class="my-3 my-lg-5" id="filiere">
     <div class="container d-block position-relative text-center">
       <div class="row video-container">
-          <div class="col-12 col-custom-6 d-flex justify-content-center">
+        <div class="col-12 col-custom-6 d-flex justify-content-center">
               <a href="{{ .href }}" target="_blank">
               <img src="{{.image | relURL}}" alt="{{.Params.Name }}" width="100%"/>
-              </a>             
-            <p class="font-weight-medium text-center px-3 my-3">
-                {{ .description | safeHTML }}
-            </p>
-          </div>
+              </a>
         </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-              <a href="/documentation" class="btn font-weight-medium color-blue mt-4 mb-3 pt-3 pb-3 pl-4 pr-4">Télécharger de la documentation</a>
-            </div>
+        <div class="col-12 col-custom-6 text-center text-custom-left">
+          <h3 class="title-medium color-orange  with-separator-custom-left">{{ .title }}</h3>
+          {{ .content | safeHTML }}
+          <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-none" href="{{ .href }}" title="{{.button}}">
+            {{ .button }}
+          </a>
         </div>
+      </div>
+      <a class="btn color-orange mt-5 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-block" href="{{ .href }}" target="_blank" title="{{.button}}">
+        {{ .button }}
+      </a>
     </div>
-      <img src="/uploads/points.svg" class="points">
-
-</section>
+  </section>
+  {{ end }}
 {{ end }}
 
 {{ if .Params.skills.enable }}
