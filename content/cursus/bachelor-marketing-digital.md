@@ -38,6 +38,8 @@ about:
   url: https://www.youtube.com/embed/ZLx18d89pNo
   description: Romain Comoretto, intervenant auprès de la filière marketing digital,
     vous explique en quoi elle consiste.
+  href: https://www.youtube.com/embed/ZLx18d89pNo
+  image: "/uploads/nws_youtube_web_marketing.png"
 skills:
   enable: true
   title: Les Compétences

@@ -38,6 +38,8 @@ about:
   url: https://www.youtube.com/embed/Gs_IBLIYvAs
   description: Maxence Machu, intervenant à la Normandie Web School, vous explique
     la filière Développement Web et Mobile.
+  href: https://www.youtube.com/embed/Gs_IBLIYvAs
+  image: "/uploads/nws_youtube_web_dev.png"
 skills:
   enable: true
   title: Les Compétences
