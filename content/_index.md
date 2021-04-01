@@ -82,7 +82,7 @@ video:
   content: "<p>Qu'est ce que la Normandie Web School ? Que propose cette école 100%
     \ numérique ? Le directeur, l'équipe pédagogique et les intervenants vous répondent.</p>"
   button: Voir toutes nos vidéos
-  href: https://www.youtube.com/channel/UCxmD0A_TGigvE0F4PLCikjA
+  href: https://www.youtube.com/watch?v=qg_8FsSGuBY
   image: "/uploads/nws_youtube_sitapha_dia.png"
 cursus:
   enable: true
