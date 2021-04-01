@@ -83,6 +83,7 @@ video:
     \ numérique ? Le directeur, l'équipe pédagogique et les intervenants vous répondent.</p>"
   button: Voir toutes nos vidéos
   href: https://www.youtube.com/channel/UCxmD0A_TGigvE0F4PLCikjA
+  image: "/uploads/nws_youtube_sitapha_dia.png"
 cursus:
   enable: true
   title: Les cursus à la NWS
