@@ -49,11 +49,11 @@
     <div class="container d-block position-relative text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center d-flex justify-content-center">
                     <a href="{{ .href }}" target="_blank">
                     <img src="{{.image | relURL}}" alt="{{.Params.Name }}" width="100%"/>
                     </a>
-                                <p class="font-weight-medium text-center px-3 my-3">
+                <p class="font-weight-medium text-center px-3 my-3">
                     {{ .description | safeHTML }}
                 </p>
                     <div class="row">
