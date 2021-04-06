@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-content">
-        <div class="title is-4">Posts récents>
+        <div class="title is-7">Posts récents>
         {{ range first 7 (where .Site.RegularPages "Section" "post").ByPublishDate.Reverse }}
         <a href="{{ .Permalink | absURL }}">{{ .Title }}</a></br>
             <time class="has-text-grey-light is-size-7">{{ .Date.Day }} {{ .Date.Month }} {{ .Date.Year }}</time>
