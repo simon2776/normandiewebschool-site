@@ -1,7 +1,7 @@
 ---
 title: Blog
 type: page
-description: Découvrez nos différents posts
+description: Découvrez nos différents articles
 banner:
   title: Blog
   title-line-twho: ''
