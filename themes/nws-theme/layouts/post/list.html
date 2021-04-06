@@ -29,43 +29,6 @@
                 </article>
                 <br>
 {{ end }}{{ end }}{{ end }}
-
-<!-- Recrutement -->
-  <section class="bg-lightgrey clip-bottom-white recrutement pt-5" id="recrutement">
-    <div class="container">
-        {{ partial "components/wavy-title" (dict "context" . "title" "Vous recrutez ?") }}
-      <div class="row row-eq-height">
-        {{ range .item }}
-          <div class="col-md-12 col-lg-6 mb-4">
-            <div class="card h-100 big-bottom-lg center-card {{ .color }} position-relative overflow-visible">
-              <div class="card-header">
-                <img
-                  class="card-img-top rounded-circle card-img-top team-image"
-                  src="{{.image}}"
-                  alt="Valérie"
-                >
-                <h3 class="title-medium {{.color}}">{{.title}}</h3>
-              </div>
-
-              <div>
-                <div class="card-body">
-                  <p class="shortenedText">
-                    {{.content | safeHTML }}
-                  </p>
-                  <div class="row">
-                    <div class="col-12 d-flex justify-content-center position-lg-absolute">
-                    <a href="/contact" class="btn font-weight-medium {{.color}} my-4 my-lg-3 py-3 px-5">{{.button}}</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-
         {{ partial "widget-recent.html" . }}<br>
         {{ partial "widget-archives.html" . }}
     </div>
