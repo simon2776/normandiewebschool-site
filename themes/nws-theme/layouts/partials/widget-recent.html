@@ -3,7 +3,8 @@
         <h5 class="title is-7">Articles récents</h5>
         {{ range first 7 (where .Site.RegularPages "Section" "post").ByPublishDate.Reverse }}
         <a href="{{ .Permalink | absURL }}">{{ .Title }}</a></br>
-            <time class="has-text-grey-light is-size-7">{{ .Date.Day }} {{ .Date.Month }} {{ .Date.Year }}</time>
+            {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}
+            <time class="has-text-grey-light is-size-7">{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
         {{ end }}
     </div>
 </div>
