@@ -1,6 +1,3 @@
-{{ define "main" }}
-{{ $archive := lower .Title }}
-
   <!-- hero area -->
   <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
   </section>  
@@ -30,7 +27,7 @@
                 <br>
 {{ end }}{{ end }}{{ end }}
 
-<!-- Posts -->
+<!-- Recrutement -->
   <section class="bg-lightgrey clip-bottom-white recrutement pt-5" id="recrutement">
     <div class="container">
         {{ partial "components/wavy-title" (dict "context" . "title" "Vous recrutez ?") }}
