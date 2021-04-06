@@ -5,7 +5,7 @@ description: Découvrez nos différents articles
 banner:
   title: Blog
   title-line-twho: ''
-  subtitle: Découvrez nos différents posts.
+  subtitle: Découvrez nos différents articles.
   image: uploads/design.jpg
 about:
   enable: false
