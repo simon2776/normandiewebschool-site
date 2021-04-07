@@ -21,5 +21,10 @@ testimonials:
   testimonails: []
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
+menu:
+  main:
+    URL: cursus
+    name: Nos spécialisations
+    weight: 5
 
 ---

@@ -218,11 +218,11 @@ testimonials:
 menu:
   main:
     name: Bachelor design
-    parent: Les cursus
+    parent: Nos spécialisations
     weight: 4
   desktop:
     name: Bachelor design
-    parent: Les cursus
+    parent: Nos spécialisations
     weight: 4
 
 ---

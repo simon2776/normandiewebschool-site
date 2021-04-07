@@ -134,12 +134,12 @@ testimonials:
 seo_image: ''
 menu:
   desktop:
-    name: Master Expert digital
-    parent: Les cursus
+    name: Mastère Expert digital
+    parent: Nos spécialisations
     weight: 5
   main:
-    name: Master Expert digital
-    parent: Les cursus
+    name: Mastère Expert digital
+    parent: Nos spécialisations
     weight: 5
 
 ---
