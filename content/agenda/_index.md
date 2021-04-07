@@ -18,45 +18,21 @@ event:
   - label: Février 2021
     item: []
   - label: Mars 2021
-    item:
-    - date: 17/03/21
-      name: Après-midi Portes Ouvertes
-      localisation: Seine Innopolis
-      start: 15h00
-      end: 16h30
-      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-17-03
-    - date: 24/03/21
-      name: Après-midi Portes Ouvertes
-      localisation: Seine Innopolis
-      start: 15h00
-      end: 16h30
-      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-17-03-2
-    - date: 27/03/21
-      name: Après-midi Portes Ouvertes
-      localisation: Seine Innopolis
-      start: 13h00
-      end: 17h00
-      href: https://www.weezevent.com/portes-ouvertes-normandie-web-school
-    - date: 31/03/21
-      name: Après-midi Portes Ouvertes
-      localisation: Seine Innopolis
-      start: 15h00
-      end: 16h30
-      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-31-03
+    item: []
   - label: Avril 2021
     item:
-    - date: 21/04/21
-      name: Après-midi Portes Ouvertes
-      localisation: Seine Innopolis
-      start: 15h00
-      end: 16h30
-      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-21-04
     - date: 07/04/21
       name: Après-midi Portes Ouvertes
       localisation: Seine Innopolis
       start: 15h00
       end: 16h30
       href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-07-04
+    - date: 21/04/21
+      name: Après-midi Portes Ouvertes
+      localisation: Seine Innopolis
+      start: 15h00
+      end: 16h30
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-21-04
     name: Salon des jeunes entrepreneur de Rouen et ...
     localisation: Parc des expositions de Rouen (76)
     start: 9h

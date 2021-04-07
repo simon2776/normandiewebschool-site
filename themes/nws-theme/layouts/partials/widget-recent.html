@@ -1,11 +1,10 @@
 <div class="card">
     <div class="card-content">
-        <div class="title is-3">Posts récents>
-        {{ range first 5 (where .Site.RegularPages "Section" "post").ByPublishDate.Reverse }}
-        <a href="{{ .Permalink | absURL }}">{{ .Title }}</a></br>
-            <time class="has-text-grey-light is-size-7">{{ .Date.Day }} {{ .Date.Month }} {{ .Date.Year }}</time>
+        <h5 class="title is-7">Articles récents</h5>
+        {{ range first 7 (where .Site.RegularPages "Section" "post").ByPublishDate.Reverse }}
+            {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}
+            <time class="has-text-grey-light is-size-7">{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
+            <a href="{{ .Permalink | absURL }}">{{ .Title }}</a></br>
         {{ end }}
-        </div>
     </div>
 </div>
-    
