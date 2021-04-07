@@ -95,9 +95,9 @@ partenariat:
 menu:
   desktop:
     URL: entreprises
-    weight: 2
+    weight: 3
   main:
     URL: entreprises
-    weight: 1
+    weight: 6
 
 ---

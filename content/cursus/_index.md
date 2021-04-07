@@ -163,13 +163,13 @@ partners:
   title: ''
 menu:
   desktop:
-    name: Étudier à la NWS
+    name: Etudier à la NWS
     URL: cursus
-    parent: Les cursus
+    parent: Nos spécialisations
     weight: 1
   main:
-    name: Cursus initial
-    parent: Les cursus
+    name: Etudier à la NWS
+    parent: Nos spécialisations
     weight: 1
 
 ---

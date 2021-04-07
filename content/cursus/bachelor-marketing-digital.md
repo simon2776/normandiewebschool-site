@@ -218,11 +218,11 @@ seo_image: ''
 menu:
   desktop:
     name: Bachelor Web marketing
-    parent: Les cursus
+    parent: Nos spécialisations
     weight: 2
   main:
     name: Bachelor Web marketing
-    parent: Les cursus
+    parent: Nos spécialisations
     weight: 2
 
 ---
