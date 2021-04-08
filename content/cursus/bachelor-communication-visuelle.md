@@ -216,11 +216,11 @@ testimonials:
   filter:
   - design
 menu:
-  main:
+  desktop:
     name: Bachelor design
     parent: Nos spécialisations
     weight: 3
-  desktop:
+  main:
     name: Bachelor design
     parent: Nos spécialisations
     weight: 3
