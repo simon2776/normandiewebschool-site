@@ -84,11 +84,9 @@ form:
 seo_image: ''
 menu:
   desktop:
-    name: Contact
     URL: contact
     weight: 3
   main:
-    name: Contact
     URL: contact
     weight: 8
 
