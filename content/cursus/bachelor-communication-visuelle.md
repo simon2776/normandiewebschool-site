@@ -217,11 +217,11 @@ testimonials:
   - design
 menu:
   desktop:
-    name: Bachelor design
+    name: Bachelor Web Design
     parent: Nos spécialisations
     weight: 3
   main:
-    name: Bachelor design
+    name: Bachelor Web Design
     parent: Nos spécialisations
     weight: 3
 

@@ -229,11 +229,11 @@ testimonials:
   - dev
 menu:
   desktop:
-    name: Bachelor développement
+    name: Bachelor Développement
     parent: Nos spécialisations
     weight: 2
   main:
-    name: Bachelor développement
+    name: Bachelor Développement
     parent: Nos spécialisations
     weight: 2
 
