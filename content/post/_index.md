@@ -25,6 +25,6 @@ menu:
   main:
     URL: cursus
     name: Nos spécialisations
-    weight: 5
+    weight: 2
 
 ---

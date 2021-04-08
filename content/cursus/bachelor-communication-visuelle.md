@@ -219,10 +219,10 @@ menu:
   main:
     name: Bachelor design
     parent: Nos spécialisations
-    weight: 4
+    weight: 3
   desktop:
     name: Bachelor design
     parent: Nos spécialisations
-    weight: 4
+    weight: 3
 
 ---

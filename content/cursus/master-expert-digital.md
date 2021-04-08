@@ -136,10 +136,10 @@ menu:
   desktop:
     name: Mastère Expert digital
     parent: Nos spécialisations
-    weight: 5
+    weight: 4
   main:
     name: Mastère Expert digital
     parent: Nos spécialisations
-    weight: 5
+    weight: 4
 
 ---

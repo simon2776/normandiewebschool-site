@@ -219,10 +219,10 @@ menu:
   desktop:
     name: Bachelor Web marketing
     parent: Nos spécialisations
-    weight: 2
+    weight: 1
   main:
     name: Bachelor Web marketing
     parent: Nos spécialisations
-    weight: 2
+    weight: 1
 
 ---

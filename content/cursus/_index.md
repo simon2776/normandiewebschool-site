@@ -164,12 +164,9 @@ partners:
 menu:
   desktop:
     name: Etudier à la NWS
-    URL: cursus
-    parent: Nos spécialisations
     weight: 1
   main:
     name: Etudier à la NWS
-    parent: Nos spécialisations
     weight: 1
 
 ---
