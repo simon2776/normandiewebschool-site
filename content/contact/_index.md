@@ -86,10 +86,10 @@ menu:
   desktop:
     name: Contact
     URL: contact
-    weight: 2
+    weight: 3
   main:
     name: Contact
     URL: contact
-    weight: 7
+    weight: 8
 
 ---

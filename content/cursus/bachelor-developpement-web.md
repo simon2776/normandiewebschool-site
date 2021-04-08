@@ -231,10 +231,10 @@ menu:
   desktop:
     name: Bachelor développement
     parent: Nos spécialisations
-    weight: 3
+    weight: 2
   main:
     name: Bachelor développement
     parent: Nos spécialisations
-    weight: 3
+    weight: 2
 
 ---
