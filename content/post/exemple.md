@@ -1,4 +1,19 @@
-+++ title = "Notre Markdown converti" description = "" tags = [ "go", "golang", "templates", "themes", "development", ] date = "01-05-2021"
++++
+title = "Notre fichier Markdown converti"
+description = ""
+tags = [
+    "go",
+    "golang",
+    "hugo",
+    "development",
+]
+date = "2021-05-10"
+archives = "2021"
+categories = [
+    "Development",
+    "golang",
+]
++++
 
 Le guide pour Google Ads : 14 types de campagnes
 
