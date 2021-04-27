@@ -1,10 +1,10 @@
-+++ title = "(Hu)go Template Primer" description = "" tags = [ "go", "golang", "templates", "themes", "development", ] date = "2014-04-01" archives = "2014" categories = [ "Development", "golang", ] +++
++++ title = "exemple" description = "" tags = [ "go", "golang", "templates", "themes", "development", ] date = "2014-05-15" archives = "2014" categories = [ "Development", "golang", ] +++
 
 Le guide pour Google Ads : 14 types de campagnes
 
 1.  Campagne de recherche pour les mots-clés de votre marque
 
-![](/media/116423205.jpg){width="5.90625in" height="8.333333333333334in"}
+![](/media/116423205.jpg)
 
 -   **Objectif :** capturer les internautes qui recherchent activement
     votre marque par son nom.
