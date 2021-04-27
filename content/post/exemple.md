@@ -2,7 +2,7 @@ Le guide pour Google Ads : 14 types de campagnes
 
 1.  Campagne de recherche pour les mots-clés de votre marque
 
-![](/media/116423205.jpg)
+![](/uploads/116423205.jpg)
 
 -   **Objectif :** capturer les internautes qui recherchent activement
     votre marque par son nom.
