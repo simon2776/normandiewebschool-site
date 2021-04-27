@@ -90,7 +90,7 @@ menu:
     name: Candidater
     weight: 9
   desktop:
-    name: Candidater
+    name: Déposer votre candidature
     weight: 5
 
 ---
