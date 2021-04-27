@@ -87,10 +87,10 @@ form:
 seo_image: ''
 menu:
   main:
-    name: Entretien pédagogique
+    name: Candidater
     weight: 9
   desktop:
-    name: Entretien pédagogique
+    name: Candidater
     weight: 5
 
 ---
