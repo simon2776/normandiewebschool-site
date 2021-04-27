@@ -1,4 +1,4 @@
-+++ title = "exemple" description = "" tags = [ "go", "golang", "templates", "themes", "development", ] date = "2014-05-01" archives = "2014" categories = [ "Development", "golang", ] +++
++++ title = "exemple" description = "" tags = [ "go", "golang", "templates", "themes", "development", ] date = "2021-05-01" archives = "2014" categories = [ "Development", "golang", ] +++
 
 Le guide pour Google Ads : 14 types de campagnes
 
