@@ -1,5 +1,3 @@
-+++ title = "exemple" description = "" tags = ["development", ] date = "2014-05-15" archives = "2014" categories = [] +++
-
 Le guide pour Google Ads : 14 types de campagnes
 
 1.  Campagne de recherche pour les mots-clés de votre marque
