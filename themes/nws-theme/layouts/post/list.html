@@ -30,38 +30,6 @@
                 <br>
 {{ end }}{{ end }}{{ end }}
 
-{{ define "main" }}
-{{ $archive := lower .Title }}  
-
-<!-- hero area -->
-  <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
-  </section>  
-  <!-- /hero area -->
-
-{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
-
-{{ if .Params.about.enable }}
-    <!-- about -->
-    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image ) }}
-{{ end }}
-    <!-- /about -->
-
-{{ range $key, $value := .Site.Taxonomies.archives }}{{ if eq $key $archive }}{{ range $value.Pages }}
-                <article class="media">
-                    <div class="media-content">
-                        <div class="content">
-                            <p class="subtitle is-size-6 has-text-grey-light">
-                                Published at {{ .Date.Format "2006-01-02" }} &middot;
-                                <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
-                            </p>
-                            <p>{{ .Summary }}...</p>
-                            <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
-                        </div>
-                    </div>
-                </article>
-                <br>
-{{ end }}{{ end }}{{ end }}
-
 <section class="bg-lightgrey clip-bottom-white recrutement pt-5" id="recrutement">
     <div class="container">
         <div class="row row-eq-height">
