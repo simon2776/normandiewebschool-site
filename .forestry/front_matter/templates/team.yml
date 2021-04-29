@@ -35,7 +35,6 @@ fields:
     step: 
   label: Ordre
 pages:
-- content/team/carine-colona.md
 - content/team/chloe-vitry.md
 - content/team/fabien-ghesquiere.md
 - content/team/jean-claude.md
