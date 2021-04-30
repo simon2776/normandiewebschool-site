@@ -19,6 +19,8 @@ about:
 testimonials:
   enable: true
   testimonails: []
+  filter:
+  - 'arnaud '
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
 menu:
