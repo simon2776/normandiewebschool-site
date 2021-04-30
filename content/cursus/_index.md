@@ -26,7 +26,7 @@ cursus:
   enable: true
   item:
   - title: Cursus initial
-    content: "<p>La première année vous amène toutes les compétences pour devenir concepteur numérique. Les concepts de bases vous sont enseignés et de nombreux projets vous permettent de les mettre en application.</p><p>A l'issue de l'année, vous avez conçu et réalisé un site web avec un CMS, vous avez produit de nombreux visuels, vous avez produit une vidéo, vous avez acquis les bases de la programmation web et du web marketing et enfin vous avez découvert le community management.</p>"
+    content: "<p>La première année vous amène toutes les compétences pour devenir concepteur numérique. Les concepts de bases vous sont enseignés et de nombreux projets vous permettent de les mettre en application.</p><p>A l'issue de l'année, vous avez conçu et réalisé un site web avec un CMS, vous avez produit de nombreux visuels, vous avez produit une vidéo, vous avez acquis les bases de la programmation web et du web marketing et enfin vous avez découvert le community management.</p><p>L’année préparatoire s’adresse aux titulaires du Baccalauréat, quelle que soit la série mais aussi aux étudiants souhaitant se réorienter.</p>"
     from: Bac +1
     color: color-yellow
     images:
