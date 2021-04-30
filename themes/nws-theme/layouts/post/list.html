@@ -35,6 +35,7 @@
              <div class="col-md-12 col-lg-6 mb-4">
                {{ with .Resource.ByType "image"}}
                {{ range . }}
+               {{ .RelPermalink }}
                {{ end }}
                {{ end }}
                {{ partial "widget-recent.html" . }} </br>
