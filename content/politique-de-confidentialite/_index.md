@@ -1,6 +1,6 @@
 ---
 content: |-
-  ## Qui sommes-nous ?
+  # Qui sommes-nous ?
 
   L’adresse de notre site web est : https://normandiewebschool.fr.
 
