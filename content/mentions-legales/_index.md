@@ -4,7 +4,7 @@ content: |-
 
   Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., nous portons à la connaissance des utilisateurs et visiteurs du site : normandiewebschool.fr les informations suivantes :
 
-  ## Informations légales
+  # Informations légales
 
   * **Propriétaire** : SAS ÉCOLE WEB ET MOBILE
   * **Adresse** : 72 rue de la République 76140 Le Petit-Quevilly
