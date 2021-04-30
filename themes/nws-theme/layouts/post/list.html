@@ -17,16 +17,51 @@
 {{ range $key, $value := .Site.Taxonomies.archives }}{{ if eq $key $archive }}{{ range $value.Pages }}
                 <article class="media">
                     <div class="media-content">
-                        <div class="content">
-                            <p class="subtitle is-size-6 has-text-grey-light">
-                                Published at {{ .Date.Format "2006-01-02" }} &middot;
-                                <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
-                            </p>
-                            <p>{{ .Summary }}...</p>
-                            <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
-                        </div>
-                    </div>
-                </article>
+                       <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mt-5 mt-lg-0 order-2 order-lg-1">
+        <div class="card second-push-top subForm">
+          <div class="card-header">
+              <h2 class="mb-0 title-medium color-blue separator-left">{{ .title_first }}</h2>
+          </div>
+          <div
+            class="card-body accordion-section clearfix"
+            aria-label="Question Accordions"
+          >
+            <div class="row">
+              <div class="col-md-12">
+                <div class="">
+                  {{range $index, $el := .month}}
+                  <div
+                    class="panel-group"
+                    id="accordion"
+                    role="tablist"
+                    aria-multiselectable="true"
+                  >
+                    <div class="panel panel-default mb-3">
+                      <div
+                        class="panel-heading py-2"
+                        role="tab"
+                        id="heading-{{$index}}"
+                      >
+                        <h3 class="panel-title">
+                          <a
+                            class="collapsed position-relative agenda  {{if eq (len .item) 0}} no-cursor {{end}}"
+                            role="button"
+                            title=""
+                            {{if gt (len .item) 0}}data-toggle="collapse"{{end}}
+                            data-parent="#accordion"
+                            href="#collapse-{{$index}}"
+                            aria-expanded="true"
+                            aria-controls="collapse-{{$index}}"
+                          >
+                            {{.label}} {{if gt (len .item) 0}}
+                            <span class="color-orange">({{ len .item }})</span>
+                            {{end}}
+                            <i class="fas fa-angle-down rotate-icon"></i>
+                          </a>
+                        </h3>
+                      </div
                 <br>
 {{ end }}{{ end }}{{ end }}
 <section class="bg-lightgrey clip-bottom-white recrutement pt-5" id="recrutement">
