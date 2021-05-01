@@ -25,7 +25,7 @@ about:
 cursus:
   enable: true
   item:
-  - title: Cursus initial
+  - title: Année préparatoire
     content: "<p>La première année vous amène toutes les compétences pour devenir
       concepteur numérique. Les concepts de bases vous sont enseignés et de nombreux
       projets vous permettent de les mettre en application.</p><p>A l'issue de l'année,
