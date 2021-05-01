@@ -80,7 +80,7 @@ filieres:
   item:
   - image: false
     bulle: 1ère année
-    title: Cursus initial
+    title: Année préparatoire
     content: La première année est une année préparatoire avec un programme de formation
       générale de base qui permet de découvrir, pratiquer et acquérir de solides compétences
       techniques et transverses dans le domaine du numérique.
