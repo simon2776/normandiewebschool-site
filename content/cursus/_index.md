@@ -41,8 +41,8 @@ cursus:
       alt: 1ère année Normandie Web School
   - title: Spécialisations
     content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
-      Les étudiants sont en <strong>filières “Développement Web et Mobile ou marketing
-      Digital ou Web Design”</strong> en fonction de leurs appétences et 100% des
+      Les étudiants sont en <strong>filières “Développement Web et Mobile, Marketing
+      Digital, Web Design ou Community Management”</strong> en fonction de leurs appétences et 100% des
       activités pédagogiques sont dirigées vers l’appréhension des compétences et
       connaissances nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement
       de leurs compétences techniques les étudiants d’<strong>année 3</strong> acquièrent
