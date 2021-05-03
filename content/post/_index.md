@@ -40,7 +40,7 @@ event:
       localisation: ''
       start: ''
       end: ''
-      href: ''
+      href: exemple.md
   - label: ''
     item: []
   - label: ''
