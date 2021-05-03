@@ -33,8 +33,8 @@ skills:
     title: Expérience professionnelle
     description: ''
   - icon: "/uploads/search.svg"
-    title: Maîtrise des technologies web.
-    description: Techno web
+    title: Maîtrise des technologies web
+    description: ''
 years:
   enable: true
   item:
