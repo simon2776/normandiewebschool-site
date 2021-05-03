@@ -24,7 +24,7 @@ testimonials:
   - 'arnaud '
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
-Blog: ''
+Blog: Blog NWS
 Page: ''
 Decouvrez_nos_differents_articles: ''
 event:
