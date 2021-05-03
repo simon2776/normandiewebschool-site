@@ -31,10 +31,16 @@ Decouvrez_nos_differents_articles: ''
 event:
   enable: true
   title_first: Nos articles récents
-  title_second: Archive
+  title_second: Nos articles plus anciens
   month:
   - label: 10 mars 2021
-    item: []
+    item:
+    - date: 
+      name: ''
+      localisation: ''
+      start: ''
+      end: ''
+      href: ''
   - label: ''
     item: []
   - label: ''
