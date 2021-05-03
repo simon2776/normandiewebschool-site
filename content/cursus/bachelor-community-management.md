@@ -52,11 +52,11 @@ years:
       content: "- Déploiement du calendrier <br/> - Événements, live vidéo <br/> -
         Gamification, jeux concours et sondages <br/> - Plateforme participative <br/>
         - Analytics "
-    - title: Projet certifiant et posture professionnelle
-      content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
-        : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
-        d’un projet en mode agence <br/> - Reporting et communication à l’oral et
-        à l’écrit"
+    - title: Création de contenu
+      content: "- Principe de la communication visuelle <br/> - Supports de diffusion,
+        formats et optimisation <br/> - Photos & photomontage avec Photoshop <br/>
+        - Création vectorielle avec Illustrator <br/> - Vidéo et animation avec Premiere
+        Pro et After Effect <br/> - Brand Contant"
     active: ''
 profession:
   enable: true
