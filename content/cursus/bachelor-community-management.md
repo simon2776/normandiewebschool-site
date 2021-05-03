@@ -89,7 +89,7 @@ profession:
     description: Rédigez le contenu d'un site web en prenant en compte la demande
       et les besoins de l'entreprise, le référencement SEO et SEA et les algorithmes
       des navigateurs de recherches.
-  - title: Chargé de Communication digitale
+  - title: Chargé de Communication Digitale
     description: |-
       Le Chargé de communication Web contribue à améliorer l’image de marque de l’entreprise par rapport à la concurrence. Ainsi, il est de son ressort d’organiser et de concevoir la stratégie de communication numérique avec ses partenaires internes et externes.
       Le champ d’action du Chargé de communication online comprend aussi bien la communication interne que la communication externe. En interne, il intervient sur l’intranet, les newsletters internes, le blog de l’entreprise, etc. En externe, il gère le site internet de l’entreprise, l’achat d’espaces publicitaires et les comptes de la société sur les réseaux sociaux.
