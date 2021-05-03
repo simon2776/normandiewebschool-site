@@ -16,10 +16,6 @@ documents:
     entretien pédagogique en <a href="https://normandiewebschool.fr/inscription/">cliquant
     ici</a> après votre lecture.</p>
   document:
-  - icon: ''
-    name: Filière Community Management
-    format: PDF
-    document: "/uploads/community-management.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
@@ -40,6 +36,10 @@ documents:
     name: Filière Marketing
     format: PDF
     document: "/uploads/marketing.pdf"
+  - icon: ''
+    name: Filière Community Management
+    format: PDF
+    document: "/uploads/community-management.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Master "Expert digital"
     format: PDF
