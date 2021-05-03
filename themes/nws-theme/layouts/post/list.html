@@ -78,11 +78,8 @@
                                 >
                                   <p class="font-weight-bold">{{.name}}</p>
                                   <p> {{.localisation}}</p>
-                                  <div>
-                                    <img src= "{{.image | absURL}}"/>
-                                    
+                                   <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
                                 </div>
-                              </div>
                               </div>
                             </a>
                             {{end}}
