@@ -7,7 +7,7 @@ banner:
   title-line-twho: ''
   subtitle: Découvrez nos différents articles.
   image: uploads/design.jpg
-  Blog: ''
+  Blog: Blog NWS
 about:
   enable: false
   title: Les différentes étapes
