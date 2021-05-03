@@ -7,6 +7,7 @@ banner:
   title-line-twho: ''
   subtitle: Découvrez nos différents articles.
   image: uploads/design.jpg
+  Blog: ''
 about:
   enable: false
   title: Les différentes étapes
@@ -23,6 +24,22 @@ testimonials:
   - 'arnaud '
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
+Blog: ''
+Page: ''
+Decouvrez_nos_differents_articles: ''
+event:
+  enable: false
+  title_first: ''
+  title_second: ''
+  month:
+  - label: ''
+    item: []
+  - label: ''
+    item: []
+  - label: ''
+    item: []
+  - label: ''
+    item: []
 menu:
   main:
     name: Nos spécialisations
