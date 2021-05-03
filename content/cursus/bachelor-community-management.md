@@ -8,8 +8,8 @@ banner:
   logo: "/uploads/nws_isd.png"
   title: Bachelor "Community Management"
   image: uploads/design.jpg
-  description: "<p>Le Community Manager Développe et anime une communauté sur les
-    réseaux sociaux. Il Met en place, référence et anime un site de communication
+  description: "<p>Le Community Manager développe et anime une communauté sur les
+    réseaux sociaux. Il met en place, référence et anime un site de communication
     (blog, pages, articles). Il est capable de produire du contenu (textes, vidéos,
     visuels) et de créer et mettre en valeur des fiches produits d’un site e-commerce.
     Il gère enfin la relation client et l’e-réputation.</p>"
