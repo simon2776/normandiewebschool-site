@@ -23,6 +23,11 @@ testimonials:
   - 'arnaud '
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
+event:
+  enable: false
+  title_first: ''
+  title_second: ''
+  month: []
 menu:
   main:
     name: Nos spécialisations

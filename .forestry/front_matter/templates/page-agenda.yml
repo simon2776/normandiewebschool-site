@@ -76,3 +76,4 @@ fields:
         label: href
 pages:
 - content/agenda/_index.md
+- content/post/_index.md
