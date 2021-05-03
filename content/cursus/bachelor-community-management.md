@@ -18,6 +18,8 @@ banner:
   - arrow: left
     label: Community Manager
     href: "/cursus/bachelor-community-management/"
+    justify: text-right
+    color: color-blue2
 about:
   enable: true
   image: "/uploads/faq.png"
