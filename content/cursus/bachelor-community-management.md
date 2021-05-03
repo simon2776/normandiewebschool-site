@@ -48,9 +48,10 @@ years:
         - Stratégie marketing BtoB et BtoC <br/> - Veille sectorielle, économique, culturelle et
         concurrentielle <br/> - Stratégie de communication, social media et éditoriale <br/> - Stratégie d’acquisition : influenceur, relations presse et
         publique, partenariats, SEA <br/> - Outils de publications et de suivi de performances
-    - title: Conception digitale
-      content: "- Création de site et application web Ergonomie et comportements utilisateurs
-        CMS, vitrine et e-commerce <br/> - Hébergement, serveurs Web et cloud Computing"
+    - title: Animation d'une communauté
+      content: "- Déploiement du calendrier <br/> - Événements, live vidéo <br/> -
+        Gamification, jeux concours et sondages <br/> - Plateforme participative <br/>
+        - Analytics "
     - title: Projet certifiant et posture professionnelle
       content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
         : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
