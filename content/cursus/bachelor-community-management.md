@@ -121,9 +121,8 @@ testimonials:
 seo_image: ''
 menu:
   main:
-    name: Mastère Expert digital
-    parent: Nos spécialisations
-    weight: 4
+    name: Bachelor Community Management
+    weight: 10
   desktop:
     name: Mastère Expert digital
     parent: Nos spécialisations
