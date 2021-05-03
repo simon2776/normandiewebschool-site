@@ -34,13 +34,7 @@ event:
   title_second: Archive
   month:
   - label: 10 mars 2021
-    item:
-    - date: 10/03/21
-      name: ''
-      localisation: ''
-      start: ''
-      end: ''
-      href: ''
+    item: []
   - label: ''
     item: []
   - label: ''
