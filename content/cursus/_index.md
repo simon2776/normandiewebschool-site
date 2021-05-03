@@ -133,8 +133,8 @@ filieres:
     to: ''
     color: ''
   - image: false
-    bulle: 4e & 5e année
-    title: Master "Expert Digital"
+    bulle: 4è & 5è années
+    title: Mastère "Expert Digital"
     content: Après les trois années de bachelor, s'il le désire l'étudiant peut intégrer
       le Mastère "Expert Digital" équivalent Bac +5 afin de développer encore plus
       ses compétences. À l’issue du Mastère, les étudiant(es) auront les connaissances
