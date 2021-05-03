@@ -27,6 +27,13 @@ about:
 filieres:
   enable: true
   item:
+  - title: Filière Community Manager
+    content: ''
+    from: ''
+    to: ''
+    color: ''
+    logo: ''
+    href: ''
   - title: Filière Marketing
     content: Le chef de projet marketing digital définit, développe et gère les outils
       numériques destinés au marketing et la communication d’une entreprise ou organisation.
