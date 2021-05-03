@@ -26,7 +26,7 @@ testimonials:
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
 Blog: Blog NWS
-Page: ''
+Page: Blog NWS
 Decouvrez_nos_differents_articles: ''
 event:
   enable: true
