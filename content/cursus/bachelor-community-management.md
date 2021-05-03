@@ -43,6 +43,8 @@ years:
     subtitle: Développez vos compétences et connaissances du monde numérique via nos
       différents programmes. Devenez Community Manager.
     etape:
+    - title: Mise en valeur du contenu
+      content: Référencement
     - title: Analyse et stratégie
       content: |-
         - Stratégie marketing BtoB et BtoC <br/> - Veille sectorielle, économique, culturelle et
@@ -57,6 +59,9 @@ years:
         formats et optimisation <br/> - Photos & photomontage avec Photoshop <br/>
         - Création vectorielle avec Illustrator <br/> - Vidéo et animation avec Premiere
         Pro et After Effect <br/> - Brand Contant"
+    - title: Création de site web
+      content: "- User experience / user interface <br/> - Système de gestion de contenus
+        (CMS) <br/> - Landing page HTML / CSS <br/> - Référencement"
     active: ''
 profession:
   enable: true
