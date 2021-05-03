@@ -76,7 +76,7 @@ filieres:
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: ''
-    logo: ''
+    logo: "/uploads/logo_nws.jpg"
     href: "/cursus/bachelor-community-management/"
   bachelor_titre: BACHELOR CHEF DE PROJET DIGITAL
   bachelor_description: "<p>Formation de base de la Normandie Web School, le Bachelor

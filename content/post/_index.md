@@ -8,6 +8,7 @@ banner:
   subtitle: Découvrez nos différents articles.
   image: uploads/design.jpg
   Blog: Blog NWS
+  L_agenda_de_la_NWS: Blog NWS
 about:
   enable: false
   title: Les différentes étapes
@@ -40,6 +41,8 @@ event:
     item: []
   - label: ''
     item: []
+L_agenda_de_la_NWS: 'Blog NWS '
+Le_calendrier_des_evenements: Découvrez nos différents articles
 menu:
   main:
     name: Nos spécialisations
