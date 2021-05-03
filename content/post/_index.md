@@ -28,7 +28,7 @@ Blog: Blog NWS
 Page: ''
 Decouvrez_nos_differents_articles: ''
 event:
-  enable: false
+  enable: true
   title_first: ''
   title_second: ''
   month:
