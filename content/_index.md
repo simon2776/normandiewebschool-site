@@ -27,13 +27,6 @@ about:
 filieres:
   enable: true
   item:
-  - title: Filière Community Management
-    content: ''
-    from: ''
-    to: ''
-    color: ''
-    logo: ''
-    href: ''
   - title: Filière Marketing
     content: Le chef de projet marketing digital définit, développe et gère les outils
       numériques destinés au marketing et la communication d’une entreprise ou organisation.
@@ -74,6 +67,17 @@ filieres:
     color: color-yellow
     logo: "/uploads/logo-dev.png"
     href: "/cursus/bachelor-developpement-web/"
+  - title: Filière Community Management
+    content: Le Community Manager développe et anime une communauté sur les réseaux
+      sociaux. Il met en place, référence et anime un site de communication (blog,
+      pages, articles). Il est capable de produire du contenu (textes, vidéos, visuels)
+      et de créer et mettre en valeur des fiches produits d’un site e-commerce. Il
+      gère enfin la relation client et l’e-réputation.
+    from: À partir du bac +1
+    to: Jusqu'au bac +3
+    color: ''
+    logo: ''
+    href: "/cursus/bachelor-community-management/"
   bachelor_titre: BACHELOR CHEF DE PROJET DIGITAL
   bachelor_description: "<p>Formation de base de la Normandie Web School, le Bachelor
     Chef de projet digital forme <strong>une nouvelle génération de professionnels,
