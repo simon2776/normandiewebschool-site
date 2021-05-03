@@ -91,6 +91,6 @@ menu:
     weight: 9
   desktop:
     name: Déposer votre candidature
-    weight: 3
+    weight: 5
 
 ---
