@@ -14,7 +14,10 @@ banner:
     visuels) et de créer et mettre en valeur des fiches produits d’un site e-commerce.
     Il gère enfin la relation client et l’e-réputation.</p>"
   color: color-blue2
-  buttons: []
+  buttons:
+  - arrow: left
+    label: Community Manager
+    href: "/cursus/bachelor-community-management/"
 about:
   enable: true
   image: "/uploads/faq.png"
