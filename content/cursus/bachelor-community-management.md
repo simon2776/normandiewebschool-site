@@ -43,9 +43,6 @@ years:
     subtitle: Développez vos compétences et connaissances du monde numérique via nos
       différents programmes. Devenez Community Manager.
     etape:
-    - title: Projet professionnel
-      content: "- CV / Lettre de motivation <br/> - Accompagnement recherche de stages
-        et/ou alternance <br/> - Écosystème numérique"
     - title: Analyse et stratégie
       content: |-
         - Stratégie marketing BtoB et BtoC <br/> - Veille sectorielle, économique, culturelle et
@@ -71,6 +68,9 @@ years:
     - title: Relation client et e-réputation
       content: "- Menaces et opportunités <br/> - Veille, diagnostic et outils <br/>
         - Anticipation et détection <br/> - Gestion de crise"
+    - title: Projet professionnel
+      content: "- CV / Lettre de motivation <br/> - Accompagnement recherche de stages
+        et/ou alternance <br/> - Écosystème numérique"
     active: ''
 profession:
   enable: true
