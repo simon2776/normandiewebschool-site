@@ -85,11 +85,10 @@ profession:
     description: Rédigez des contenus qui plaisent à la fois aux internautes et aux
       moteurs de recherche. Supervisez les informations affichées et identifiez de
       nouvelles opportunités de contenu.
-  - title: Consultant(e) Web DATA
-    description: |2
-
-
-      Les consultant(es) Data & Analytics accompagnent les entreprises dans leurs projets de mise sous contrôle et de valorisation de leurs données pour répondre aux enjeux multiples auxquelles elles se retrouvent confrontées (mise en conformité, compétitivité, etc.). La data est partout et il faut savoir la collecter, l’analyser et l’interpréter  afin de mieux orienter les entreprises dans leur prise de décision marketing : optimisation du parcours client, pilotage de leurs investissements média, amélioration de leurs offres de produits/services, RH,...
+  - title: Rédacteur web
+    description: Rédigez le contenu d'un site web en prenant en compte la demande
+      et les besoins de l'entreprise, le référencement SEO et SEA et les algorithmes
+      des navigateurs de recherches.
   - title: Consultant(e) sémantique
     description: Avoir  un site web est un bon début mais ne suffit pas pour être
       trouvé sur internet. Pour cela il faut être bien référencé par les moteurs de
