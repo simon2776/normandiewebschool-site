@@ -85,7 +85,7 @@ profession:
     description: Rédigez des contenus qui plaisent à la fois aux internautes et aux
       moteurs de recherche. Supervisez les informations affichées et identifiez de
       nouvelles opportunités de contenu.
-  - title: Rédacteur web
+  - title: Rédacteur Web
     description: Rédigez le contenu d'un site web en prenant en compte la demande
       et les besoins de l'entreprise, le référencement SEO et SEA et les algorithmes
       des navigateurs de recherches.
