@@ -93,11 +93,13 @@ profession:
     description: |-
       Le Chargé de communication Web contribue à améliorer l’image de marque de l’entreprise par rapport à la concurrence. Ainsi, il est de son ressort d’organiser et de concevoir la stratégie de communication numérique avec ses partenaires internes et externes.
       Le champ d’action du Chargé de communication online comprend aussi bien la communication interne que la communication externe. En interne, il intervient sur l’intranet, les newsletters internes, le blog de l’entreprise, etc. En externe, il gère le site internet de l’entreprise, l’achat d’espaces publicitaires et les comptes de la société sur les réseaux sociaux.
-  - title: Marketing Business Analyst
-    description: |2-
-
-
-      Le marketing business analyst travaille généralement dans le service ou le département marketing stratégique et opérationnel d'une entreprise. Il détermine les KPI (ou Key Performance Indicator, indicateur clé de performance) indispensables pour mesurer les progrès effectués par rapport aux objectifs stratégiques. Il est chargé de définir différents outils d'analyse, de concevoir des tableaux de bord qui aident la prise de décision et au suivi de la performance commerciale, étudie les bases de données et définit le ROI.
+  - title: Social Média Manager
+    description: "Le social media manager veille à l’e-réputation d’une marque, d’une
+      entreprise sur Internet et sur les réseaux sociaux. \nIl définit en amont une
+      stratégie social media en coordination avec la direction marketing pour améliorer
+      la visibilité et l’image de l’entreprise : identification des cibles et de leur
+      besoins, sélection des plateformes sociales, analyse du positionnement de l’entreprise
+      sur le web et les réseaux sociaux et définition de la ligne éditoriale."
 testimonials:
   enable: true
   filter:
