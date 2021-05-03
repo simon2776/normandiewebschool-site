@@ -43,6 +43,8 @@ years:
     subtitle: Développez vos compétences et connaissances du monde numérique via nos
       différents programmes. Devenez Community Manager.
     etape:
+    - title: E-learning et certification
+      content: Promotion et campagne ads
     - title: Analyse et stratégie
       content: |-
         - Stratégie marketing BtoB et BtoC <br/> - Veille sectorielle, économique, culturelle et
