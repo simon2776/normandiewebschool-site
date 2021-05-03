@@ -3,21 +3,21 @@ label: page-agenda
 hide_body: true
 fields:
 - type: text
-  name: title
-  label: title
+  name: Blog
+  label: Blog NWS
 - type: text
-  name: type
-  label: type
+  name: Page
+  label: Page
 - type: text
-  name: description
-  label: description
+  name: Decouvrez_nos_differents_articles
+  label: Découvrez nos différents articles
 - type: field_group
   name: banner
   label: banner
   fields:
   - type: text
-    name: title
-    label: title
+    name: Blog
+    label: Blog NWS
   - type: text
     name: title-line-twho
     label: title-line-twho
