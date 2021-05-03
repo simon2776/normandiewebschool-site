@@ -1,11 +1,9 @@
 ---
 type: filiere
 layout: filiere
-title: Community Management
+title: Filière Community Management
 date: 2021-05-03T12:14:34.000+06:00
-description: 'Vous souhaitez devenir un expert du numérique et en acquérir les clés
-  management et de la stratégie, alors le mastère  "Expert Digital" est fait pour
-  vous ! '
+description: Développez et animez une communauté sur les réseaux sociaux
 banner:
   logo: "/uploads/nws_isd.png"
   title: Bachelor "Community Management"
