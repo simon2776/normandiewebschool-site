@@ -27,7 +27,7 @@ about:
 filieres:
   enable: true
   item:
-  - title: Filière Community Manager
+  - title: Filière Community Management
     content: ''
     from: ''
     to: ''
