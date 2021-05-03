@@ -31,7 +31,7 @@ Decouvrez_nos_differents_articles: ''
 event:
   enable: true
   title_first: Nos articles récents
-  title_second: Nos articles plus anciens
+  title_second: Nos anciens articles
   month:
   - label: 10 mars 2021
     item:
