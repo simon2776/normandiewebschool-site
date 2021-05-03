@@ -16,10 +16,10 @@ banner:
   color: color-blue2
   buttons:
   - arrow: left
-    label: Community Manager
-    href: "/cursus/bachelor-community-management/"
+    label: Design
+    href: "/cursus/bachelor-communication-visuelle/"
     justify: text-right
-    color: color-blue2
+    color: color-blue
   - arrow: right
     label: Community Manager
     color: color-blue2
