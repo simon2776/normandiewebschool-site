@@ -36,7 +36,7 @@ documents:
     name: Filière Marketing
     format: PDF
     document: "/uploads/marketing.pdf"
-  - icon: ''
+  - icon: "/uploads/icn-cloud.png"
     name: Filière Community Management
     format: PDF
     document: "/uploads/community-management.pdf"
