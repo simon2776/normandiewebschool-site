@@ -42,9 +42,9 @@ cursus:
   - title: Spécialisations
     content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
       Les étudiants sont en <strong>filières “Développement Web et Mobile, Marketing
-      Digital, Web Design ou Community Management”</strong> en fonction de leurs appétences et 100% des
-      activités pédagogiques sont dirigées vers l’appréhension des compétences et
-      connaissances nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement
+      Digital, Web Design ou Community Management”</strong> en fonction de leurs appétences
+      et 100% des activités pédagogiques sont dirigées vers l’appréhension des compétences
+      et connaissances nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement
       de leurs compétences techniques les étudiants d’<strong>année 3</strong> acquièrent
       le <strong>savoir-faire de la gestion d’équipe et la conduite de projet</strong>.
       L’année 3 se déroule en alternance sur un rythme de 1 semaine en cours et 3
