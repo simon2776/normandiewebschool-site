@@ -81,11 +81,10 @@ profession:
     description: Participez à l'élaboration d'une stratégie social media pour produire
       du contenu sur les réseaux sociaux, entretenir une vraie relation avec une communauté
       et maintenir la bonne image d'une entreprise.
-  - title: Chef de projet de transformation digitale
-    description: |+
-      Le Chef de Projet Digital est comme un chef d'orchestre, il est le coordinateur de l’ensemble des étapes relatives à la réalisation d’un projet web ou mobile : création de sites web ou d’applications mobiles etc. Il est un élément clé dans une entreprise ou une agence de communication. En effet, il s’occupe de la réalisation de tous les projets digitaux de sa société. Il doit avoir des compétences en web, en management et doit être sensible à l’innovation.
-
-
+  - title: Content Manager
+    description: Rédigez des contenus qui plaisent à la fois aux internautes et aux
+      moteurs de recherche. Supervisez les informations affichées et identifiez de
+      nouvelles opportunités de contenu.
   - title: Consultant(e) Web DATA
     description: |2
 
