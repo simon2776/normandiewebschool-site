@@ -33,7 +33,7 @@ event:
   title_first: Nos articles récents
   title_second: Archive
   month:
-  - label: ''
+  - label: 10 mars 2021
     item: []
   - label: ''
     item: []
