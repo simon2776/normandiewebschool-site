@@ -89,14 +89,10 @@ profession:
     description: Rédigez le contenu d'un site web en prenant en compte la demande
       et les besoins de l'entreprise, le référencement SEO et SEA et les algorithmes
       des navigateurs de recherches.
-  - title: Consultant(e) sémantique
-    description: Avoir  un site web est un bon début mais ne suffit pas pour être
-      trouvé sur internet. Pour cela il faut être bien référencé par les moteurs de
-      recherche comme Google (plus de 90% des requêtes). Le référencement naturel
-      et la stratégie sémantique sont au cœur du référencement d’un site web.  L'audit
-      sémantique consiste à faire de la recherche de mots-clés et de la catégorisation
-      des contenus. Votre expertise technique permet la meilleure indexation possible
-      d'un site web afin de le trouver depuis la SERP (Search Engine Results Page).
+  - title: Chargé de Communication digitale
+    description: |-
+      Le Chargé de communication Web contribue à améliorer l’image de marque de l’entreprise par rapport à la concurrence. Ainsi, il est de son ressort d’organiser et de concevoir la stratégie de communication numérique avec ses partenaires internes et externes.
+      Le champ d’action du Chargé de communication online comprend aussi bien la communication interne que la communication externe. En interne, il intervient sur l’intranet, les newsletters internes, le blog de l’entreprise, etc. En externe, il gère le site internet de l’entreprise, l’achat d’espaces publicitaires et les comptes de la société sur les réseaux sociaux.
   - title: Marketing Business Analyst
     description: |2-
 
