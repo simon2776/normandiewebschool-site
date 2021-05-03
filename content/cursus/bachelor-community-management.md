@@ -13,7 +13,7 @@ banner:
     (blog, pages, articles). Il est capable de produire du contenu (textes, vidéos,
     visuels) et de créer et mettre en valeur des fiches produits d’un site e-commerce.
     Il gère enfin la relation client et l’e-réputation.</p>"
-  color: color-blue
+  color: color-blue2
   buttons: []
 about:
   enable: true

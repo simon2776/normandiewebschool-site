@@ -75,7 +75,7 @@ filieres:
       gère enfin la relation client et l’e-réputation.
     from: À partir du bac +1
     to: Jusqu'au bac +3
-    color: color-blue
+    color: color-blue2
     logo: "/uploads/logo_nws.jpg"
     href: "/cursus/bachelor-community-management/"
   bachelor_titre: BACHELOR CHEF DE PROJET DIGITAL
