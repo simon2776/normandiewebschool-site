@@ -116,7 +116,7 @@ seo_image: ''
 menu:
   main:
     name: Bachelor Community Management
-    weight: 4
+    weight: 10
     parent: Nos spécialisations
   desktop:
     name: Bachelor Community Management
