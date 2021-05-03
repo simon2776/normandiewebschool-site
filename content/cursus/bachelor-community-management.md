@@ -23,7 +23,7 @@ about:
   url: ''
 skills:
   enable: true
-  title: Pré-requis
+  title: Profil attendu
   subtitle: Quelques compétences humaines et non techniques sont requises.
   item:
   - icon: "/uploads/creativity.svg"
