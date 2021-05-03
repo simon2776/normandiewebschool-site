@@ -17,7 +17,7 @@ banner:
   buttons: []
 about:
   enable: true
-  image: "/uploads/filieres_img1.png"
+  image: "/uploads/faq.png"
   description: Le coût de la formation est pris en charge par l'entreprise employeur
     par le biais des OPCO.
   url: ''
@@ -28,10 +28,10 @@ skills:
   item:
   - icon: "/uploads/creativity.svg"
     title: Titulaire du Baccalauréat
-    description: BAC
+    description: ''
   - icon: "/uploads/search.svg"
     title: Expérience professionnelle
-    description: Tirer parti de son expérience professionnelle
+    description: ''
   - icon: "/uploads/search.svg"
     title: Maîtrise des technologies web.
     description: Techno web
