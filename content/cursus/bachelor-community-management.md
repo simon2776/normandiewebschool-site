@@ -21,9 +21,9 @@ banner:
     justify: text-right
     color: color-blue
   - arrow: right
-    label: Community Manager
-    color: color-blue2
-    href: "/cursus/bachelor-community-management/"
+    label: Marketing
+    color: color-orange
+    href: "/cursus/bachelor-marketing-digital/"
     justify: text-left
 about:
   enable: true
