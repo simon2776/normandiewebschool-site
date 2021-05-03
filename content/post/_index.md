@@ -36,7 +36,7 @@ event:
   - label: 10 mars 2021
     item:
     - date: 
-      name: ''
+      name: Notre premier fichier markdown
       localisation: ''
       start: ''
       end: ''
