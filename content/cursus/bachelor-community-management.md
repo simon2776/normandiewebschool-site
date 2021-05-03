@@ -120,12 +120,11 @@ testimonials:
   - design
 seo_image: ''
 menu:
+  desktop:
+    name: Bachelor Community Management
+    weight: 6
   main:
     name: Bachelor Community Management
     weight: 10
-  desktop:
-    name: Mastère Expert digital
-    parent: Nos spécialisations
-    weight: 4
 
 ---
