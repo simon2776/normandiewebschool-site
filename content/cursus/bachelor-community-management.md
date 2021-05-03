@@ -33,10 +33,8 @@ skills:
     title: Expérience professionnelle
     description: Tirer parti de son expérience professionnelle
   - icon: "/uploads/search.svg"
-    title: Communicant
-    description: 'Pour mener à bien un projet, il faut communiquer. C''est à dire
-      échanger avec les autres personnes et exprimer ses envies, ses besoins et ses
-      attentes. '
+    title: Maîtrise des technologies web.
+    description: Techno web
 years:
   enable: true
   item:
