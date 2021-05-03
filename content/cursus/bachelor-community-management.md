@@ -30,9 +30,8 @@ skills:
     title: Titulaire du Baccalauréat
     description: BAC
   - icon: "/uploads/search.svg"
-    title: Ouvert d'esprit
-    description: Être à l'écoute, prendre en compte les avis de chacun, accepter positivement
-      les remarques et critiques pour développer ses compétences et son sens de relationnel.
+    title: Expérience professionnelle
+    description: Tirer parti de son expérience professionnelle
   - icon: "/uploads/search.svg"
     title: Communicant
     description: 'Pour mener à bien un projet, il faut communiquer. C''est à dire
