@@ -23,13 +23,12 @@ about:
   url: ''
 skills:
   enable: true
-  title: Profils attendus
+  title: Pré-requis
   subtitle: Quelques compétences humaines et non techniques sont requises.
   item:
   - icon: "/uploads/creativity.svg"
-    title: Innovant
-    description: Sachez vous démarquer grâce à des idées, des solutions nouvelles
-      et exploitez les pour aller au delà de l'existant.
+    title: Titulaire du Baccalauréat
+    description: BAC
   - icon: "/uploads/search.svg"
     title: Ouvert d'esprit
     description: Être à l'écoute, prendre en compte les avis de chacun, accepter positivement
@@ -39,15 +38,6 @@ skills:
     description: 'Pour mener à bien un projet, il faut communiquer. C''est à dire
       échanger avec les autres personnes et exprimer ses envies, ses besoins et ses
       attentes. '
-  - icon: "/uploads/search.svg"
-    title: Ambitieux
-    description: Ayez des objectifs et gardez toujours en mémoire qu'on peut faire
-      toujours plus et évoluer. Positivité !
-  - icon: "/uploads/search.svg"
-    title: Créatif
-    description: Amené à souvent créer du contenu ou des supports de communication,
-      la créativité sera la clé pour vous démarquer et réussir à répondre aux attentes
-      du client.
 years:
   enable: true
   item:
