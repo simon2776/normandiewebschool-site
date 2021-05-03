@@ -8,9 +8,11 @@ banner:
   logo: "/uploads/nws_isd.png"
   title: Bachelor "Community Management"
   image: uploads/design.jpg
-  description: |-
-    Vous serez en mesure de mettre en œuvre une stratégie digitale, apporter des solutions techniques et innovantes, manager une équipe et monter des budgets.
-    <br/> Le BAC +5 Expert Marketing Digital se déroule exclusivement en alternance sur 18 mois selon un rythme d'une semaine à l'école et de trois semaines en entreprise.
+  description: "<p>Le Community Manager Développe et anime une communauté sur les
+    réseaux sociaux. Il Met en place, référence et anime un site de communication
+    (blog, pages, articles). Il est capable de produire du contenu (textes, vidéos,
+    visuels) et de créer et mettre en valeur des fiches produits d’un site e-commerce.
+    Il gère enfin la relation client et l’e-réputation.</p>"
   color: color-orange
   buttons: []
 about:
