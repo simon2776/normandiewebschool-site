@@ -116,7 +116,7 @@ filieres:
         Vous avez le choix entre développement web, design graphique, marketing
         digital ou Community Manager.
       link: "/cursus/bachelor-communication-visuelle/"
-    - bulle: "/uploads/logo_nws-1.jpg.png"
+    - bulle: "/uploads/logo_nws-1.jpg"
       title: Spécialisation Community Manager
       color: color-blue2
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
