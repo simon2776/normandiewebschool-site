@@ -116,7 +116,7 @@ seo_image: ''
 menu:
   main:
     name: Bachelor Community Management
-    weight: 10
+    weight: 5
   desktop:
     name: Bachelor Community Management
     weight: 4
