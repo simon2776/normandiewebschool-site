@@ -77,14 +77,10 @@ profession:
   title: Les débouchés métiers
   subtitle: Liste non exhaustive.
   item:
-  - title: Responsable marketing digital
-    description: 'En étroite collaboration avec la direction marketing et communication,
-      le Responsable Marketing Digital (RMD) a un rôle central dans l’entreprise.
-      Il est chargé de mener et d''accompagner les différents projets numériques en
-      lien avec la stratégie d’entreprise. Générez des leads (prospects), augmentez
-      le trafic web, booster la notoriété afin de développer l''activité. Il exploite
-      tous les outils du webmarketing dans un seul but : acquérir et fidéliser avec
-      un ROI optimal.'
+  - title: Community Manager
+    description: Participez à l'élaboration d'une stratégie social media pour produire
+      du contenu sur les réseaux sociaux, entretenir une vraie relation avec une communauté
+      et maintenir la bonne image d'une entreprise.
   - title: Chef de projet de transformation digitale
     description: |+
       Le Chef de Projet Digital est comme un chef d'orchestre, il est le coordinateur de l’ensemble des étapes relatives à la réalisation d’un projet web ou mobile : création de sites web ou d’applications mobiles etc. Il est un élément clé dans une entreprise ou une agence de communication. En effet, il s’occupe de la réalisation de tous les projets digitaux de sa société. Il doit avoir des compétences en web, en management et doit être sensible à l’innovation.
