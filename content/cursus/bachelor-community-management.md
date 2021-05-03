@@ -6,7 +6,7 @@ date: 2021-05-03T12:14:34.000+06:00
 description: Développez et animez une communauté sur les réseaux sociaux
 banner:
   logo: "/uploads/logo_nws-1.jpg"
-  title: Bachelor "Community Management"
+  title: Filière <span class="font-weight-medium"> Community Management</span>
   image: uploads/design.jpg
   description: "<p>Le Community Manager développe et anime une communauté sur les
     réseaux sociaux. Il met en place, référence et anime un site de communication
