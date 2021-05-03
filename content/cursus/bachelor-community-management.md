@@ -39,9 +39,9 @@ years:
   enable: true
   item:
   - button: 2e année
-    title: Le programme en Master
+    title: Programme de la deuxième année Community Management
     subtitle: Développez vos compétences et connaissances du monde numérique via nos
-      différents programmes. Devenez un expert digital.
+      différents programmes. Devenez Community Manager.
     etape:
     - title: Digital marketing et e-commerce
       content: "- CRM / Stratégie Marketing <br/> - Marketing Digital <br/> - Etude
