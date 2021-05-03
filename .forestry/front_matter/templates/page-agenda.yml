@@ -74,11 +74,6 @@ fields:
       - type: text
         name: href
         label: href
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
 pages:
 - content/agenda/_index.md
 - content/post/_index.md
