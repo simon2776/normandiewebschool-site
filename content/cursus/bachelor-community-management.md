@@ -92,7 +92,7 @@ profession:
   - title: Chargé de Communication Digitale
     description: |-
       Le Chargé de communication Web contribue à améliorer l’image de marque de l’entreprise par rapport à la concurrence. Ainsi, il est de son ressort d’organiser et de concevoir la stratégie de communication numérique avec ses partenaires internes et externes.
-      Le champ d’action du Chargé de communication online comprend aussi bien la communication interne que la communication externe. En interne, il intervient sur l’intranet, les newsletters internes, le blog de l’entreprise, etc. En externe, il gère le site internet de l’entreprise, l’achat d’espaces publicitaires et les comptes de la société sur les réseaux sociaux.
+      En interne, il intervient sur l’intranet, les newsletters internes, le blog de l’entreprise, etc. En externe, il gère le site internet de l’entreprise, l’achat d’espaces publicitaires et les comptes de la société sur les réseaux sociaux.
   - title: Social Média Manager
     description: "Le social media manager veille à l’e-réputation d’une marque, d’une
       entreprise sur Internet et sur les réseaux sociaux. \nIl définit en amont une
@@ -106,11 +106,11 @@ testimonials:
   - design
 seo_image: ''
 menu:
-  main:
+  desktop:
     name: Bachelor Community Management
     weight: 4
     parent: Nos spécialisations
-  desktop:
+  main:
     name: Bachelor Community Management
     weight: 4
     parent: Nos spécialisations
