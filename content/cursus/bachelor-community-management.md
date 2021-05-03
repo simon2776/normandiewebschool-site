@@ -43,13 +43,11 @@ years:
     subtitle: Développez vos compétences et connaissances du monde numérique via nos
       différents programmes. Devenez Community Manager.
     etape:
-    - title: Digital marketing et e-commerce
-      content: "- CRM / Stratégie Marketing <br/> - Marketing Digital <br/> - Etude
-        de marché <br/> - Marketing Mobile <br/> - Emailing Newsletter <br/> - Google
-        Analytics Affiliation <br/> - Data <br/> - Diffusion multicanal online et
-        offline Inbound Marketing <br/> - Brand content et stratégie de marque Contenu
-        multimédia et transmédia Storytelling <br/> - Performance e-commerce et web
-        analytics"
+    - title: Analyse et stratégie
+      content: |-
+        - Stratégie marketing BtoB et BtoC <br/> - Veille sectorielle, économique, culturelle et
+        concurrentielle <br/> - Stratégie de communication, social media et éditoriale <br/> - Stratégie d’acquisition : influenceur, relations presse et
+        publique, partenariats, SEA <br/> - Outils de publications et de suivi de performances
     - title: Conception digitale
       content: "- Création de site et application web Ergonomie et comportements utilisateurs
         CMS, vitrine et e-commerce <br/> - Hébergement, serveurs Web et cloud Computing"
