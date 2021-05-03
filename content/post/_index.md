@@ -30,8 +30,8 @@ Page: ''
 Decouvrez_nos_differents_articles: ''
 event:
   enable: true
-  title_first: ''
-  title_second: ''
+  title_first: Nos articles récents
+  title_second: Archive
   month:
   - label: ''
     item: []
