@@ -21,7 +21,7 @@ documents:
     format: PDF
     document: "/uploads/plaquette-nws-generale.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: 'Le cursus initial '
+    name: Année préparatoire
     format: PDF
     document: "/uploads/1ere-annee-cursus-initial.pdf"
   - icon: "/uploads/icn-cloud.png"
