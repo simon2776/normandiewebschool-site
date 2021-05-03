@@ -38,25 +38,6 @@ skills:
 years:
   enable: true
   item:
-  - button: 1er année
-    title: Le programme en Master
-    active: active
-    subtitle: Développez vos compétences et connaissances du monde numérique via nos
-      différents programmes. Devenez un expert digital.
-    etape:
-    - title: Entrepreneuriat et innovation
-      content: "- Business Modeling et Entrepreneurship Marketing et Innovation <br/>
-        - Enjeux et pratiques de la transformation digitale"
-    - title: Management et stratégie
-      content: "- Diagnostic stratégique Management d’équipe <br/> - Gestion de projet
-        digital <br/> - Méthodes de planification de projet / Méthode agile / Scrum
-        master <br/> - Droit de propriété intellectuelle et des nouvelles technologies
-        <br/> - Techniques rédactionnelles <br/> - Gestion budgétaire et trésorerie"
-    - title: Fidélisation et animation de communauté
-      content: "- Réseaux sociaux et Community Management <br/> - Veille et e-reputation
-        <br/> - Gestion de crise <br/> - Stratégie de profils <br/>- Social media
-        Blogging <br/> - Stratégie Social media et stratégie d’influence <br/>- Référencement
-        SEO/SEM"
   - button: 2e année
     title: Le programme en Master
     subtitle: Développez vos compétences et connaissances du monde numérique via nos
