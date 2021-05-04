@@ -42,6 +42,7 @@ event:
       start: ''
       end: ''
       href: ''
+      image: "/uploads/116423205.jpg"
   - label: ''
     item: []
   - label: ''
