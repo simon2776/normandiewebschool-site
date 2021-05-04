@@ -67,14 +67,25 @@ filieres:
     color: color-yellow
     logo: "/uploads/logo-dev.png"
     href: "/cursus/bachelor-developpement-web/"
+  - title: Filière Community Management
+    content: Le Community Manager développe et anime une communauté sur les réseaux
+      sociaux. Il met en place, référence et anime un site de communication (blog,
+      pages, articles). Il est capable de produire du contenu (textes, vidéos, visuels)
+      et de créer et mettre en valeur des fiches produits d’un site e-commerce. Il
+      gère enfin la relation client et l’e-réputation.
+    from: À partir du bac +1
+    to: Jusqu'au bac +3
+    color: color-blue2
+    logo: "/uploads/logo_nws.jpg"
+    href: "/cursus/bachelor-community-management/"
   bachelor_titre: BACHELOR CHEF DE PROJET DIGITAL
   bachelor_description: "<p>Formation de base de la Normandie Web School, le Bachelor
     Chef de projet digital forme <strong>une nouvelle génération de professionnels,
     véritables couteaux suisse capables de parler à la fois le langage des développeurs,
-    des designers et des marketeurs</strong>, pour une conduite de projet plus efficace
-    et une stratégie plus pertinente. Son objectif est de donner aux étudiants les
-    clés d’une intégration professionnelle réussie au sein d’une start-up, d’une grande
-    entreprise ou d’une agence digitale.</p>"
+    des designers, des marketeurs et des Community managers</strong>, pour une conduite
+    de projet plus efficace et une stratégie plus pertinente. Son objectif est de
+    donner aux étudiants les clés d’une intégration professionnelle réussie au sein
+    d’une start-up, d’une grande entreprise ou d’une agence digitale.</p>"
 video:
   enable: true
   url: https://www.youtube.com/embed/qg_8FsSGuBY

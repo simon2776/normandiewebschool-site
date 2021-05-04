@@ -3,8 +3,8 @@ title: L'enseignement à la NWS
 type: page
 description: 'La Normandie Web School propose un cursus riche et varié privilégiant
   la mise en pratique des compétences tout en garantissant un solide apport théorique.
-  Le cursus se divise en 3 spécialisations métiers : développement, web design et
-  communication visuelle et marketing digital.'
+  Le cursus se divise en 4 spécialisations métiers : développement, web design et
+  communication visuelle, marketing digital et community management.'
 banner:
   title: Nos <balise id="initial"><span class="font-weight-medium">Formations</span></balise>
   title-line-twho: ''
@@ -42,9 +42,9 @@ cursus:
   - title: Spécialisations
     content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
       Les étudiants sont en <strong>filières “Développement Web et Mobile, Marketing
-      Digital, Web Design ou Community Management”</strong> en fonction de leurs appétences et 100% des
-      activités pédagogiques sont dirigées vers l’appréhension des compétences et
-      connaissances nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement
+      Digital, Web Design ou Community Management”</strong> en fonction de leurs appétences
+      et 100% des activités pédagogiques sont dirigées vers l’appréhension des compétences
+      et connaissances nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement
       de leurs compétences techniques les étudiants d’<strong>année 3</strong> acquièrent
       le <strong>savoir-faire de la gestion d’équipe et la conduite de projet</strong>.
       L’année 3 se déroule en alternance sur un rythme de 1 semaine en cours et 3
@@ -99,23 +99,30 @@ filieres:
       title: Spécialisation Marketing
       color: color-orange
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique ou marketing
-        digital.
+        Vous avez le choix entre développement web, design graphique, marketing
+        digital ou Community Manager.
       link: "/cursus/bachelor-marketing-digital/"
     - bulle: "/uploads/logo-dev.png"
       title: Spécialisation Développement
       color: color-yellow
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique ou marketing
-        digital.
+        Vous avez le choix entre développement web, design graphique, marketing
+        digital ou Community Manager.
       link: "/cursus/bachelor-developpement-web/"
     - bulle: "/uploads/logo-design.png"
       title: Spécialisation Design
       color: color-blue
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique ou marketing
-        digital.
+        Vous avez le choix entre développement web, design graphique, marketing
+        digital ou Community Manager.
       link: "/cursus/bachelor-communication-visuelle/"
+    - bulle: "/uploads/logo_nws-1.jpg"
+      title: Spécialisation Community Manager
+      color: color-blue2
+      content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
+        Vous avez le choix entre développement web, design graphique, marketing
+        digital ou Community Manager.
+      link: "/cursus/bachelor-community-management/"  
     arrow: true
     arrowImage: "/uploads/arrow-down.svg"
     bulle: ''
@@ -126,8 +133,8 @@ filieres:
     to: ''
     color: ''
   - image: false
-    bulle: 4e & 5e année
-    title: Master "Expert Digital"
+    bulle: 4&5ème années
+    title: Mastère "Expert Digital"
     content: Après les trois années de bachelor, s'il le désire l'étudiant peut intégrer
       le Mastère "Expert Digital" équivalent Bac +5 afin de développer encore plus
       ses compétences. À l’issue du Mastère, les étudiant(es) auront les connaissances

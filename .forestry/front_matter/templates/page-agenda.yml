@@ -3,21 +3,21 @@ label: page-agenda
 hide_body: true
 fields:
 - type: text
-  name: title
-  label: title
+  name: L_agenda_de_la_NWS
+  label: Agenda
 - type: text
-  name: type
-  label: type
+  name: Page
+  label: Page
 - type: text
-  name: description
-  label: description
+  name: Le_calendrier_des_evenements
+  label: Le calendrier des événements
 - type: field_group
   name: banner
   label: banner
   fields:
   - type: text
-    name: title
-    label: title
+    name: L_agenda_de_la_NWS
+    label: L'agenda de la NWS
   - type: text
     name: title-line-twho
     label: title-line-twho
@@ -25,8 +25,8 @@ fields:
     name: subtitle
     label: subtitle
   - type: file
-    name: image
-    label: image
+    name: localisation
+    label: Localisation
 - type: field_group
   name: event
   label: event
@@ -64,7 +64,7 @@ fields:
         label: name
       - type: text
         name: localisation
-        label: localisation
+        label: Localisation
       - type: text
         name: start
         label: start
@@ -76,3 +76,4 @@ fields:
         label: href
 pages:
 - content/agenda/_index.md
+- content/post/_index.md

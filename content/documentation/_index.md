@@ -21,7 +21,7 @@ documents:
     format: PDF
     document: "/uploads/plaquette-nws-generale.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: 'Le cursus initial '
+    name: Année préparatoire
     format: PDF
     document: "/uploads/1ere-annee-cursus-initial.pdf"
   - icon: "/uploads/icn-cloud.png"
@@ -36,6 +36,10 @@ documents:
     name: Filière Marketing
     format: PDF
     document: "/uploads/marketing.pdf"
+  - icon: "/uploads/icn-cloud.png"
+    name: Filière Community Management
+    format: PDF
+    document: "/uploads/community-management.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Master "Expert digital"
     format: PDF

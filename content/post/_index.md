@@ -7,6 +7,9 @@ banner:
   title-line-twho: ''
   subtitle: Découvrez nos différents articles.
   image: uploads/design.jpg
+  Blog: Blog NWS
+  L_agenda_de_la_NWS: Blog NWS
+  localisation: ''
 about:
   enable: false
   title: Les différentes étapes
@@ -23,6 +26,31 @@ testimonials:
   - 'arnaud '
 seo_image: "/uploads/meta-generale.jpg"
 global: ''
+Blog: Blog NWS
+Page: Blog NWS
+Decouvrez_nos_differents_articles: ''
+event:
+  enable: true
+  title_first: Nos articles récents
+  title_second: Nos anciens articles
+  month:
+  - label: 10 mars 2021
+    item:
+    - date: 10/03/21
+      name: Notre premier fichier markdown
+      localisation: ''
+      start: ''
+      end: ''
+      href: ''
+  - label: ''
+    item: []
+  - label: ''
+    item: []
+  - label: ''
+    item: []
+L_agenda_de_la_NWS: 'Blog NWS '
+Le_calendrier_des_evenements: Découvrez nos différents articles
+image: "/uploads/116423205.jpg"
 menu:
   main:
     name: Nos spécialisations

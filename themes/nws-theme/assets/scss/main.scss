@@ -3,6 +3,9 @@
 @import 'responsive';
 //@import 'row-eq-height';
 
+.color-blue2 {
+  color: var(--blue2);
+}
 .color-orange {
   color: var(--orange);
 }
@@ -443,6 +446,11 @@ hr {
 }
 .btn {
   font-size: 1.2em;
+ 
+  &.color-blue2 {
+    background-color: var(--blue2);
+    color: white !important;
+  }
   &.color-yellow {
     background-color: var(--yellow);
     color: white !important;
@@ -1039,6 +1047,10 @@ HERO HEADER
       }
     }
 
+    &.color-blue2 {
+      border-color: var(--blue2);
+    }
+    
     &.color-orange {
       border-color: var(--orange);
     }
