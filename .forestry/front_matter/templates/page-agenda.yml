@@ -77,7 +77,7 @@ fields:
       - name: image
         type: file
         config:
-          maxSize: 50
+          maxSize: 30
         label: image
 pages:
 - content/agenda/_index.md
