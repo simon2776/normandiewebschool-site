@@ -1,0 +1,52 @@
+---
+label: Blog NWS
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: description
+  label: description
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: title-line-twho
+    label: title-line-twho
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: file
+    name: image
+    label: image
+- type: field_group
+  name: event
+  label: event
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title_first
+    label: title_first
+  - type: text
+    name: title_second
+    label: title_second
+  - type: field_group_list
+    name: month
+    label: month
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: list
+      name: item
+      label: item
