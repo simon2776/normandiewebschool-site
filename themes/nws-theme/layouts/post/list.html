@@ -77,8 +77,7 @@
                                   class="desc col-8 d-flex flex-column justify-content-center pr-0"
                                 >
                                   <p class="font-weight-bold">{{.name}}</p>
-                                  {{ $logoFilter := (images.Overlay $logo 50 50 ) }}
-                                  {{ $img := $img | images.Filter $logoFilter }}
+                                   {{ $img := $img.Filter (images.Overlay $logo 50 50 )}}
                             
                                 </div>
                               </div>
