@@ -83,10 +83,12 @@ subjects:
         année, de travailler sur des projets clients concrets.</p>"
     - question: Quels sont les principaux métiers du marché du numérique ?
       answer: "<p>Développement : développeur front, développeur back, webmaster,
-        développeur full stack, intégrateur web, … </p><p>Design graphique : web designer,
+        développeur full stack, intégrateur web, …</p><p>Design graphique : web designer,
         infographiste, réalisateur vidéo, motion designer, UI designer, intégrateur
-        web, … </p><p>Marketing digital : community manager, Ux designer, category
-        manager, web marketer, chargé de référencement, content manager, …</p>"
+        web, …</p><p>Marketing digital : Ux designer, category manager, web marketer,
+        chargé de référencement, …</p><p>Community Management : community manager,
+        content manager, rédacteur web, chargé de communication digitale, social média
+        manager, ...</p>"
   - image: "/uploads/faq-admission-round.png"
     subject: Les admissions
     subtitle: 'Comment se déroulent les admissions ? Quelles en sont les conditions
