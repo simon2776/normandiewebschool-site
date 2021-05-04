@@ -82,4 +82,3 @@ fields:
         default: "/uploads/116423205.jpg"
 pages:
 - content/agenda/_index.md
-- content/post/_index.md
