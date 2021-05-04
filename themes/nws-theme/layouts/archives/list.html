@@ -23,9 +23,7 @@
                                 <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min de lecture
                             </p>
-                               <div>
-                                   <img src="{{.image | absURL }}">
-                                  </div>
+                               
                             <p>{{ .Summary }}...</p>
                         </div>
                     </div>
