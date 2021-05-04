@@ -77,11 +77,14 @@
                                   class="desc col-8 d-flex flex-column justify-content-center pr-0"
                                 >
                                   <p class="font-weight-bold">{{.name}}</p>
-                                  <p> {{.localisation}}</p>
+                                  <div> img src="{{.image | absURL}}"</div>
+                                   {{ partial "widget-recent.html" . }} </br>
+                                   {{ partial "widget-archives.html" . }}
                                    
                                 </div>
                               </div>
                             </a>
+                            {{end}}
                             {{end}}
                           </div>
                         </div>
