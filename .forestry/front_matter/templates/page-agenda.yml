@@ -77,7 +77,7 @@ fields:
       - name: image
         type: file
         config:
-          maxSize: 30
+          maxSize: 64
         label: image
         default: "/uploads/116423205.jpg"
 pages:
