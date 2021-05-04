@@ -77,8 +77,11 @@
                                   class="desc col-8 d-flex flex-column justify-content-center pr-0"
                                 >
                                   <p class="font-weight-bold">{{.name}}</p>
-                                  {{.image.Resize "600x png" }}
-                                  {{end}}
+                                {{ with .Resources.ByType "image" }}
+                                {{ range . }}
+                                {{ .RelPermalink }}
+                                {{ end }}
+                                {{ end }}
                                 </div>
                               </div>
                             </a>
