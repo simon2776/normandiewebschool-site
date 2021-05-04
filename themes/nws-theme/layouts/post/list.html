@@ -21,7 +21,7 @@
           <div
             class="card-body accordion-section clearfix"
             aria-label="Question Accordions"
-            >
+          >
             <div class="row">
               <div class="col-md-12">
                 <div class="">
@@ -52,7 +52,7 @@
                             {{.label}} {{if gt (len .item) 0}}
                             <span class="color-orange">({{ len .item }})</span>
                             {{end}}
-
+                            <i class="fas fa-angle-down rotate-icon"></i>
                           </a>
                         </h3>
                       </div>
@@ -66,13 +66,20 @@
                           <div class="container">
                             {{range .item}}
                             <a href="{{.href}}" rel="noopener" target="_blank" title="{{.name}}">
-                                
-                                  class="desc col-8 d-flex flex-column justify-content-center pr-9"
+                              <div class="row event mb-2">
+                                <div
+                                  class="date col-4 d-flex flex-column justify-content-center pl-0"
+                                >
+                                  <p class="font-weight-bold text-center">{{.date}}</p>
+                                  <p class="text-center">{{.start}} - {{.end}}</p>
+                                </div>
+                                <div
+                                  class="desc col-8 d-flex flex-column justify-content-center pr-0"
                                 >
                                   <p class="font-weight-bold">{{.name}}</p>
                                   <p>{{.localisation}}</p>
-                                  <div class=" desc col-6 d-flex flex-column justify-content-center pr-7" >
-                                    <img src="{{.image | absURL }}">
+ 				  <div class=" desc col-6 d-flex flex-column justify-content-center pr-7" >
+                                   <img src="{{.image | absURL }}">
                                   </div>
                                 </div>
                               </div>
