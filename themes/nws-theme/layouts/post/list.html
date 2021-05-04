@@ -78,8 +78,13 @@
                                 >
                                   <p class="font-weight-bold">{{.name}}</p>
                                   <p>{{.localisation}}</p>
- 				  <div class=" desc col-6 d-flex flex-column justify-content-center pr-7" >
+ 				                           <div class=" desc col-6 d-flex flex-column justify-content-center pr-7" >
                                    <img src="{{.image | absURL }}">
+                                  </div>
+                                   <div class=" desc col-6 d-flex flex-column justify-content-center pr-7" >
+                                     <a href="{{ .href }}" target="_blank">
+                                    <img src="{{.image | relURL}}" alt="{{.Params.Name }}" width="100%"/>
+                                    </a>
                                   </div>
                                 </div>
                               </div>
