@@ -22,6 +22,7 @@
                                 Published at {{ .Date.Format "2006-01-02" }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
                             </p>
+                          
                             <p>{{ .Summary }}...</p>
                             <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
                         </div>
@@ -31,10 +32,12 @@
 {{ end }}{{ end }}{{ end }}
 <section class="bg-lightgrey clip-bottom-white recrutement pt-5" id="recrutement">
     <div class="container">
+      <div class ="media-container">
         <div class="row row-eq-height">
              <div class="col-md-12 col-lg-6 mb-4">
                {{ partial "widget-recent.html" . }} </br>
                {{ partial "widget-archives.html" . }}
+     </div>
     </div>
     </div>
     </div>
