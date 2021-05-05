@@ -1,7 +1,7 @@
 **Interview d'Anna GIRAUD, en 3ème année à la NWS filière
 Communication graphique**
 
-![](https://nws-akarah-preprod.netlify.app/uploads/post/Interview_Anna_Giraud.jpg)
+![](/uploads/post/Interview_Anna_Giraud.jpg)
 
 **Anna, quel est ton parcours ? Ton projet professionnel ?**
 
