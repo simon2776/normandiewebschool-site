@@ -2,7 +2,7 @@
 {{ $archive := lower .Title }}  
 
 <!-- hero area -->
-  <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
+  <section class="hero-area overflow-hidden d-flex align-items-center flex-column justify-content-center pl-0" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
   </section>  
   <!-- /hero area -->
 
@@ -32,7 +32,7 @@
 <section class="bg-lightgrey clip-bottom-white recrutement pt-5" id="recrutement">
     <div class="container">
         <div class="row row-eq-height">
-             <div class="col-md-12 col-lg-6 mb-4 flex-column justify-content-center pl-0">
+             <div class="col-md-12 col-lg-6 mb-4">
                {{ partial "widget-recent.html" . }} </br>
                {{ partial "widget-archives.html" . }}
     </div>
