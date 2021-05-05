@@ -1,7 +1,7 @@
 **Interview d'Anna GIRAUD, en 3ème année à la NWS filière
 Communication graphique**
 
-![](/uploads/post/Interview_Anna_Giraud.jpg =| width=250)
+![](/uploads/post/Interview_Anna_Giraud.jpg | width=250)
 
 **Anna, quel est ton parcours ? Ton projet professionnel ?**
 
