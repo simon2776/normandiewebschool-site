@@ -8,9 +8,9 @@
         <div class="col-lg-12">
           <h3 class="font-tertiary mb-5">{{.Title}}</h3>
 	        <p class="subtitle is-size-6 has-text-grey-light">
-            <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }} &middot;
+            <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
             </p>
-			<div class="content">
+            <div class="content">
             {{.Content }}
         </div>
       </div>
