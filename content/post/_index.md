@@ -54,8 +54,12 @@ Le_calendrier_des_evenements: Découvrez nos différents articles
 image: "/uploads/116423205.jpg"
 date: ''
 subjects:
-  enable: false
-  item: []
+  enable: true
+  item:
+  - image: ''
+    subject: ''
+    subtitle: ''
+    questions: []
 menu:
   main:
     name: Nos spécialisations
