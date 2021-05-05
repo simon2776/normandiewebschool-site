@@ -3,7 +3,7 @@ Communication graphique**
 
 ![postwidth](/uploads/post/Interview_Anna_Giraud.jpg)
 
-**Anna, quel est ton parcours ? Ton projet professionnel ?**
+## **Anna, quel est ton parcours ? Ton projet professionnel ?**
 
 Je viens d\'un bac ES tout ce qu\'il y a de plus général. Alors, après
 celui-ci, j\'ai voulu m\'orienter vers des métiers du secteur du
