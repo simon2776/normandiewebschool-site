@@ -21,7 +21,7 @@
                           <div class="content">
                             <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
                             <p class="subtitle is-size-6 has-text-grey-light">
-                                <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }} &middot;
+                                <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}{{ index $mymonths (printf " %d" .Date.Month) }} {{ .Date.Year }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min de lecture
                             </p>
                           </div>   
