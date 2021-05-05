@@ -52,7 +52,7 @@ event:
 L_agenda_de_la_NWS: 'Blog NWS '
 Le_calendrier_des_evenements: Découvrez nos différents articles
 image: "/uploads/116423205.jpg"
-date: ''
+date: 
 subjects:
   enable: true
   item:

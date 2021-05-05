@@ -48,5 +48,3 @@ fields:
       - type: textarea
         name: answer
         label: answer
-pages:
-- content/post/_index.md
