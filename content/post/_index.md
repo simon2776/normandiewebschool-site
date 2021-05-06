@@ -42,6 +42,7 @@ event:
       start: ''
       end: ''
       href: ''
+      image: "/uploads/116423205.jpg"
   - label: ''
     item: []
   - label: ''
@@ -51,6 +52,14 @@ event:
 L_agenda_de_la_NWS: 'Blog NWS '
 Le_calendrier_des_evenements: Découvrez nos différents articles
 image: "/uploads/116423205.jpg"
+date: 
+subjects:
+  enable: true
+  item:
+  - image: ''
+    subject: ''
+    subtitle: ''
+    questions: []
 menu:
   main:
     name: Nos spécialisations

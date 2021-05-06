@@ -3,6 +3,10 @@
 @import 'responsive';
 //@import 'row-eq-height';
 
+img[alt="postwidth"] { 
+  width:  100%; 
+}
+
 .color-blue2 {
   color: var(--blue2);
 }

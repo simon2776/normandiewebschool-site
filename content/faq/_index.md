@@ -16,20 +16,26 @@ subjects:
     questions:
     - question: Quelles sont les formations préparant aux métiers du numérique dispensées
         à la Normandie Web School ?
-      answer: "<p>Le Bachelor « Chef de projet digital » est accessible après le bac
+      answer: '<p>Le Bachelor « Chef de projet digital » est accessible après le bac
         ou en admissions parallèles après un bac+1 ou bac+2 validé.</p><p><br> La
-        1ère année, les étudiants suivent un tronc commun et abordent 3 domaines :
-        développement web, design graphique, communication digitale. <br></p><p>La
-        2ème année, ils se spécialisent vers différents métiers : Développement :
-        développeur front, développeur back, webmaster, développeur full stack, intégrateur
-        web, … Design graphique : web designer, infographiste, réalisateur vidéo,
-        motion designer, UI designer, intégrateur web, … Marketing digital : community
-        manager, Ux designer, category manager, web marketer, chargé de référencement,
-        content manager, … <br></p><p>La 3ème année, ils sont toujours en spécialisation
-        mais les projets d’année sont montés en commun et en incluant les compétences
-        du Chef de projet, Product Owner ou Scrum Master. <br></p><p>La 4ème année,
-        ils peuvent choisir de poursuivre en mastère (18 mois) (titre RNCP niveau
-        7) : Expert design et digital marketing, Intégrateur-DevSecOps.</p>"
+        1ère année, les étudiants suivent un tronc commun et abordent 4 domaines :
+        <a href="/cursus/bachelor-developpement-web/" title="Web développement">développement
+        web</a>, <a href="/cursus/bachelor-communication-visuelle/" title="Web design">design
+        graphique</a>, <a href="/cursus/bachelor-marketing-digital/" title="Web marketing">web
+        marketing</a> et <a href="/cursus/bachelor-community-management/" title="Community
+        management">community management</a>.<br></p><p>La 2ème année, ils se spécialisent
+        vers différents métiers : Web Développement : développeur front, développeur
+        back, webmaster, développeur full stack, intégrateur web, … Web design : web
+        designer, infographiste, réalisateur vidéo, motion designer, UI designer,
+        intégrateur web, … Web marketing : Ux designer, category manager, web marketer,
+        chargé de référencement, … Community management : community manager, content
+        manager, rédacteur web, chargé de communication digitale, social média manager,
+        ...<br></p><p>La 3ème année, ils sont toujours en spécialisation mais les
+        projets d’année sont montés en commun et en incluant les compétences du Chef
+        de projet, Product Owner ou Scrum Master. <br></p><p>La 4ème année, ils peuvent
+        choisir de poursuivre en <a href="/cursus/master-expert-digital/" title="Mastère
+        Expert digital">Mastère</a> (18 mois) (titre RNCP niveau 7) : Expert design
+        et digital marketing, Intégrateur-DevSecOps.</p>'
     - question: La Normandie Web School délivre-t-elle des diplômes reconnus par l’Etat
         ?
       answer: "<p>Tous les titres délivrés par la Normandie Web School sont inscrits
@@ -108,17 +114,17 @@ subjects:
         vous candidatez est bien faite pour vous !</p>"
     - question: Dois-je passer par le portail Parcoursup pour m'inscrire à la Normandie
         Web School ?
-      answer: "<p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
+      answer: <p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
         aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.
         Nous souhaitons en effet rencontrer nos futurs étudiants et évaluer leur choix
         dans une discussion personnelle qui nous permet de vérifier avec eux qu’ils
-        seront bien à leur place dans la formation pour laquelle ils candidatent !
-        </p><p>Votre dossier scolaire est important pour nous mais il n’est pas l’essentiel.
-        Votre personnalité et votre engagement dans votre choix d’étude est tout aussi
-        important. Ce rapport personnel à l’étudiant est donc pour nous primordial
-        et il ne peut pas se faire par la simple lecture de dossiers en ligne. </p><p>De
-        ce fait, vous pouvez candidater et venir nous rencontrer quand vous le souhaitez.
-        Consulter la page admission</p>"
+        seront bien à leur place dans la formation pour laquelle ils candidatent !</p><p>Votre
+        dossier scolaire est important pour nous mais il n’est pas l’essentiel. Votre
+        personnalité et votre engagement dans votre choix d’étude est tout aussi important.
+        Ce rapport personnel à l’étudiant est donc pour nous primordial et il ne peut
+        pas se faire par la simple lecture de dossiers en ligne.</p><p>De ce fait,
+        vous pouvez candidater et venir nous rencontrer quand vous le souhaitez. Consulter
+        <a href="/inscription/" title="Candidater">la page de candidature</a>.</p>
     - question: Quel profil pour les admissions parallèles (2ème et 3ème année en
         Bachelor) ?
       answer: "<p>Pour intégrer la 2e année du bachelor, vous devez avoir validé une

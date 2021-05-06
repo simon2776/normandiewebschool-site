@@ -87,7 +87,7 @@ form:
 seo_image: ''
 menu:
   main:
-    name: Candidater
+    name: Déposer votre candidature
     weight: 9
   desktop:
     name: Déposer votre candidature
