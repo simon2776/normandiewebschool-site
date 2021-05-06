@@ -47,17 +47,8 @@ subjects:
         (référentiel de compétences) et une obligation de résultats, c'est à dire
         le placement en entreprise de nos apprenants.</p>"
     - question: Organisez-vous des Journées Portes Ouvertes ?
-      answer: "<p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
-        aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.
-        Nous souhaitons en effet rencontrer nos futurs étudiants et évaluer leur choix
-        dans une discussion personnelle qui nous permet de vérifier avec eux qu’ils
-        seront bien à leur place dans la formation pour laquelle ils candidatent !
-        </p><p>Votre dossier scolaire est important pour nous mais il n’est pas l’essentiel.
-        Votre personnalité et votre engagement dans votre choix d’étude est tout aussi
-        important. Ce rapport personnel à l’étudiant est donc pour nous primordial
-        et il ne peut pas se faire par la simple lecture de dossiers en ligne. </p><p>De
-        ce fait, vous pouvez candidater et venir nous rencontrer quand vous le souhaitez.
-        Consulter la page admission</p>"
+      answer: <p>Bien-sûr ! Très régulièrement.</p><p>Vous pouvez retrouver nos dates
+        et le lien d'inscription depuis la page <a href="/agenda/" title="Agenda">Agenda</a>.</p>
     - question: Quel est le rythme de formation ?
       answer: "<p>Toutes les formations de la Normandie Web School sont construites
         sur un double parcours, académique et professionnalisant. Pour les bachelors
