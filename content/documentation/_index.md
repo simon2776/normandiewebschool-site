@@ -41,7 +41,7 @@ documents:
     format: PDF
     document: "/uploads/community-management.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: Master "Expert digital"
+    name: Mastère "Expert digital"
     format: PDF
     document: "/uploads/mastere.pdf"
 form:
