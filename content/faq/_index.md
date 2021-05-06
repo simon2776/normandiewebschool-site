@@ -146,10 +146,10 @@ subjects:
         de faire le point et de vous aider à choisir celle qui vous conviendra le
         mieux.</p>
     - question: Quels sont les délais pour une candidature ?
-      answer: Le délai de la candidature est fixé par la limite des places disponibles
+      answer: <p>Le délai de la candidature est fixé par la limite des places disponibles
         (24 à 25 par promotion). Pour savoir s’il reste des places sur le cursus qui
-        vous intéresse, vous pouvez contacter le service des Admissions de la Normandie
-        Web School.
+        vous intéresse, vous pouvez <a href="/contact/" title="Nous contacter">contacter
+        le service des Admissions</a> de la Normandie Web School.</p>
     - question: Comment financer mes études ?
       answer: "<p>Vous pouvez payer votre formation de manière échelonnée la première
         année de bachelor. Pour ceux qui le souhaitent, les formations de la Normandie
