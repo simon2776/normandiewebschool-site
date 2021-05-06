@@ -27,7 +27,7 @@ cursus:
   item:
   - title: Année préparatoire
     content: "<p>La première année vous amène toutes les compétences pour devenir
-      concepteur numérique. Les concepts de bases vous sont enseignés et de nombreux
+      <strong>concepteur numérique</strong>. Les concepts de bases vous sont enseignés et de nombreux
       projets vous permettent de les mettre en application.</p><p>A l'issue de l'année,
       vous avez conçu et réalisé un site web avec un CMS, vous avez produit de nombreux
       visuels, vous avez produit une vidéo, vous avez acquis les bases de la programmation
