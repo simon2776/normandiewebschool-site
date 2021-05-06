@@ -101,7 +101,7 @@ profession:
       des navigateurs de recherches.
   - title: Chargé de Communication Digitale
     description: |-
-      Le Chargé de communication Web contribue à améliorer l’image de marque de l’entreprise par rapport à la concurrence. Ainsi, il est de son ressort d’organiser et de concevoir la stratégie de communication numérique avec ses partenaires internes et externes.
+      Le Chargé de communication Web contribue à améliorer l’image de marque de l’entreprise. Ainsi, il est de son ressort d’organiser et de concevoir la stratégie de communication numérique avec ses partenaires internes et externes.
       En interne, il intervient sur l’intranet, les newsletters internes, le blog de l’entreprise, etc. En externe, il gère le site internet de l’entreprise, l’achat d’espaces publicitaires et les comptes de la société sur les réseaux sociaux.
   - title: Social Média Manager
     description: "Le social media manager veille à l’e-réputation d’une marque, d’une
