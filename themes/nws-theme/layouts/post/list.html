@@ -14,11 +14,11 @@
 {{ end }}
     <!-- /about -->
 
-{{ range $key, $value := .Site.Taxonomies.archives }}{{ if eq $key $archive }}{{ range $value.Pages }}
+{{ range $key, $value := .Site.Taxonomies.archives.title }}{{ if eq $key $archive }}{{ range $value.Pages }}
                 <article class="media">
                     <div class="media-content">
                         <div class="content">
-                            <p class="title is-size-7 has-text-grey-light">
+                            <p class=" subtitle is-size-7 has-text-grey-light">
                                 Published at {{ .Date.Format "2006-01-02" }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
                             </p>
