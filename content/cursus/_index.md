@@ -94,21 +94,21 @@ filieres:
     carousel: true
     specilisation:
     - bulle: "/uploads/marketing.svg"
-      title: Spécialisation Marketing
+      title: Spécialisation Web Marketing
       color: color-orange
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-marketing-digital/"
     - bulle: "/uploads/logo-dev.png"
-      title: Spécialisation Développement
+      title: Spécialisation Web Développement
       color: color-yellow
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-developpement-web/"
     - bulle: "/uploads/logo-design.png"
-      title: Spécialisation Design
+      title: Spécialisation Web Design
       color: color-blue
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web, design graphique, web marketing
