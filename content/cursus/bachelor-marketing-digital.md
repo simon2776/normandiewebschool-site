@@ -13,13 +13,13 @@ banner:
   logo: "/uploads/logo-marketing.png"
   title: Filière <span class="font-weight-medium"> Marketing digital </span>
   image: uploads/marketing.jpg
-  description: "<p>Le chef de projet marketing digital définit, développe et gère
-    les outils numériques destinés au marketing et la communication d’une entreprise
-    ou organisation. Il peut aussi travailler en agence de communication digitale.
-    Véritable interface, il travaille avec les développeurs, les infographistes pour
-    mener à bien les projets (sites, applications, campagne sur les réseaux sociaux,
-    vidéo etc…). Le bachelor “Chef de projet marketing digital” se déroule sur 3 ans
-    au sein de la Normandie Web School soit en alternance (contrat de professionnalisation
+  description: "<p>Le chef de projet Web marketing définit, développe et gère les
+    outils numériques destinés au marketing et la communication d’une entreprise ou
+    organisation. Il peut aussi travailler en agence de communication digitale. Véritable
+    interface, il travaille avec les développeurs, les infographistes pour mener à
+    bien les projets (sites, applications, campagne sur les réseaux sociaux, vidéo
+    etc…). Le bachelor “Chef de projet Web marketing” se déroule sur 3 ans au sein
+    de la Normandie Web School soit en alternance (contrat de professionnalisation
     ou apprentissage) soit en formation initiale.</p>"
   color: color-orange
   buttons:
