@@ -16,9 +16,9 @@ about:
   image: "/uploads/home_round-1.png"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
     Privée qui forme en 2, 3 ou 5 ans aux métiers du numérique (développement web,
-    du web design et du marketing digital...) et amène vers un titre d’état (RNCP).</p><p>Notre
-    pédagogie est active et répond aux besoins des étudiants d’aujourd’hui. Sortir
-    du modèle classique de l’enseignement, casser les codes, éviter l’enseignement
+    web design, web marketing et du community management) et amène vers un titre d’état
+    (RNCP).</p><p>Notre pédagogie est active et répond aux besoins des étudiants d’aujourd’hui.
+    Sortir du modèle classique de l’enseignement, casser les codes, éviter l’enseignement
     descendant et pousser les apprenants à réfléchir, à remettre en question leurs
     acquis et chercher de nouvelles manières d’agir.</p><p>À la Normandie Web School
     l’étudiant est acteur de son propre apprentissage et construit ses compétences
