@@ -11,7 +11,7 @@ description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et per
   en face-à-face et 180H d''apprentissage individualisé en FOAD'
 banner:
   logo: "/uploads/logo-marketing.png"
-  title: Filière <span class="font-weight-medium"> Marketing digital </span>
+  title: Filière <span class="font-weight-medium"> Web marketing </span>
   image: uploads/marketing.jpg
   description: "<p>Le chef de projet Web marketing définit, développe et gère les
     outils numériques destinés au marketing et la communication d’une entreprise ou
