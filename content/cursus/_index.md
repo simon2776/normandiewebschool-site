@@ -41,8 +41,7 @@ cursus:
       alt: 1ère année Normandie Web School
   - title: Spécialisations
     content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
-      Les étudiants sont en <strong>filières “Développement Web et Mobile, Marketing
-      Digital, Web Design ou Community Management”</strong> en fonction de leurs appétences
+      Les étudiants sont en filières <strong>“<a href="/cursus/bachelor-developpement-web/">Développement Web et Mobile</a>, <a href="/cursus/bachelor-marketing-digital/">Web marketing</a>, <a href="/cursus/bachelor-communication-visuelle/">Web Design</a> ou <a href="/cursus/bachelor-community-management/">Community Management</a>”</strong> en fonction de leurs appétences
       et 100% des activités pédagogiques sont dirigées vers l’appréhension des compétences
       et connaissances nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement
       de leurs compétences techniques les étudiants d’<strong>année 3</strong> acquièrent
@@ -61,7 +60,7 @@ cursus:
       alt: Développement Web Normandie Web School
   - title: Mastère
     content: <p>Après ces trois années, s'il le désire l'étudiant peut intégrer le
-      Mastère "Expert Digital" afin de développer encore plus ses compétences. À l’issue
+  <strong><a href="/cursus/bachelor-community-management/">Mastère "Expert Digital"</a></strong> afin de développer encore plus ses compétences. À l’issue
       du Mastère <strong>équivalent Bac +5</strong>, les étudiant(es) auront les connaissances
       et les compétences techniques pour mettre en œuvre une stratégie de marketing
       digital dans sa globalité.</p>
@@ -99,28 +98,28 @@ filieres:
       title: Spécialisation Marketing
       color: color-orange
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, marketing digital
+        Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-marketing-digital/"
     - bulle: "/uploads/logo-dev.png"
       title: Spécialisation Développement
       color: color-yellow
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, marketing digital
+        Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-developpement-web/"
     - bulle: "/uploads/logo-design.png"
       title: Spécialisation Design
       color: color-blue
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, marketing digital
+        Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-communication-visuelle/"
     - bulle: "/uploads/logo_nws-1.jpg"
       title: Spécialisation Community Manager
       color: color-blue2
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, marketing digital
+        Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-community-management/"
     arrow: true
