@@ -17,7 +17,7 @@
 {{ range $key, $value := .Site.Taxonomies.archives.title }}{{ if eq $key $archive }}{{ range $value.Pages }}
                 <article class="media">
                     <div class="media-content">
-                        <div class="content"
+                        <div class="content">
                             <p class=" subtitle is-size-7 has-text-grey-light">
                                 Published at {{ .Date.Format "2006-01-02" }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
@@ -35,10 +35,10 @@
                 <div class="col-md-12 col-lg-6 mb-4">
                    {{ partial "widget-recent.html" . }}
                 </div>
-                      <div class="col-md-12 col-lg-6 mb-4" >
-                         {{ partial "widget-archives.html" . }}
-                    </div>          
-            </div>
+                 <div class="col-md-12 col-lg-6 mb-4" >
+                      {{ partial "widget-archives.html" . }}
+                 </div>          
+           </div>
       </div>
 </section>
 {{ end }}
