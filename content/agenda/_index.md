@@ -8,6 +8,8 @@ banner:
   subtitle: Retrouvez tous nos événements, nos journées portes ouvertes et bien plus
     encore.
   image: "/uploads/agenda_bg.jpg"
+  L_agenda_de_la_NWS: ''
+  localisation: ''
 event:
   enable: true
   title_first: Le calendrier des événements
@@ -28,26 +30,25 @@ event:
     href: https://google.com
   - label: Mai 2021
     item:
-    - date: 05/05/21
-      name: Après-midi Portes Ouvertes
-      localisation: Seine Innopolis
-      start: 15h00
-      end: 16h30
-      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-05-05
     - date: 12/05/21
       name: Après-midi Portes Ouvertes
       localisation: Seine Innopolis
       start: 15h00
       end: 16h30
       href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-12-05
+      image: ''
     - date: 19/05/21
       name: Après-midi Portes Ouvertes
       localisation: Seine Innopolis
       start: 15h00
       end: 16h30
       href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-19-05
+      image: ''
   - label: Juin 2021
     item: []
+L_agenda_de_la_NWS: ''
+Page: ''
+Le_calendrier_des_evenements: ''
 menu:
   main:
     name: Agenda

@@ -1,7 +1,7 @@
 ---
 type: filiere
 layout: filiere
-title: Filière Marketing digital
+title: Filière Web marketing
 date: 2019-05-12T12:14:34.000+06:00
 description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
   dans tous les détails du marketing, c''est la clé pour obtenir en fin d''année votre
@@ -11,15 +11,15 @@ description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et per
   en face-à-face et 180H d''apprentissage individualisé en FOAD'
 banner:
   logo: "/uploads/logo-marketing.png"
-  title: Filière <span class="font-weight-medium"> Marketing digital </span>
+  title: Filière <span class="font-weight-medium"> Web marketing </span>
   image: uploads/marketing.jpg
-  description: "<p>Le chef de projet marketing digital définit, développe et gère
-    les outils numériques destinés au marketing et la communication d’une entreprise
-    ou organisation. Il peut aussi travailler en agence de communication digitale.
-    Véritable interface, il travaille avec les développeurs, les infographistes pour
-    mener à bien les projets (sites, applications, campagne sur les réseaux sociaux,
-    vidéo etc…). Le bachelor “Chef de projet marketing digital” se déroule sur 3 ans
-    au sein de la Normandie Web School soit en alternance (contrat de professionnalisation
+  description: "<p>Le chef de projet Web marketing définit, développe et gère les
+    outils numériques destinés au marketing et la communication d’une entreprise ou
+    organisation. Il peut aussi travailler en agence de communication digitale. Véritable
+    interface, il travaille avec les développeurs, les infographistes pour mener à
+    bien les projets (sites, applications, campagne sur les réseaux sociaux, vidéo
+    etc…). Le bachelor “Chef de projet Web marketing” se déroule sur 3 ans au sein
+    de la Normandie Web School soit en alternance (contrat de professionnalisation
     ou apprentissage) soit en formation initiale.</p>"
   color: color-orange
   buttons:
@@ -36,8 +36,8 @@ banner:
 about:
   enable: true
   url: https://www.youtube.com/embed/ZLx18d89pNo
-  description: Romain Comoretto, intervenant auprès de la filière marketing digital,
-    vous explique en quoi elle consiste.
+  description: Romain Comoretto, intervenant auprès de la filière Web marketing, vous
+    explique en quoi elle consiste.
   href: https://www.youtube.com/embed/ZLx18d89pNo
   image: "/uploads/nws_youtube_web_marketing.png"
 skills:

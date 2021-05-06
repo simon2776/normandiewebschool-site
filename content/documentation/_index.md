@@ -29,11 +29,11 @@ documents:
     format: PDF
     document: "/uploads/design-graphique.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: Filière Développement
+    name: Filière Web Développement
     format: PDF
     document: "/uploads/developpement.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: Filière Marketing
+    name: Filière Web Marketing
     format: PDF
     document: "/uploads/marketing.pdf"
   - icon: "/uploads/icn-cloud.png"
@@ -41,7 +41,7 @@ documents:
     format: PDF
     document: "/uploads/community-management.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: Master "Expert digital"
+    name: Mastère "Expert digital"
     format: PDF
     document: "/uploads/mastere.pdf"
 form:

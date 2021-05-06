@@ -3,7 +3,7 @@ content = "Je suis en 2ème année marketing et en alternance, la Normandie Web 
 image = "/uploads/billy.jpg"
 name = "Billy Souvannalath"
 tag = ["cursus", "marketing", "a2"]
-title = "2ème année spécialité marketing digital, 2020"
+title = "2ème année spécialité Web marketing, 2020"
 type = "testimonial"
 
 +++

@@ -3,7 +3,7 @@ content = "C’est une succession d'événements assez incroyables qui m’ont a
 image = "/uploads/christ-lefe.jpg"
 name = "Christ Lefe"
 tag = ["cursus", "marketing", "a2"]
-title = "2ème année spécialité marketing digital, 2020"
+title = "2ème année spécialité Web marketing, 2020"
 type = "testimonial"
 
 +++

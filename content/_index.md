@@ -16,9 +16,9 @@ about:
   image: "/uploads/home_round-1.png"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
     Privée qui forme en 2, 3 ou 5 ans aux métiers du numérique (développement web,
-    du web design et du marketing digital...) et amène vers un titre d’état (RNCP).</p><p>Notre
-    pédagogie est active et répond aux besoins des étudiants d’aujourd’hui. Sortir
-    du modèle classique de l’enseignement, casser les codes, éviter l’enseignement
+    web design, web marketing et du community management) et amène vers un titre d’état
+    (RNCP).</p><p>Notre pédagogie est active et répond aux besoins des étudiants d’aujourd’hui.
+    Sortir du modèle classique de l’enseignement, casser les codes, éviter l’enseignement
     descendant et pousser les apprenants à réfléchir, à remettre en question leurs
     acquis et chercher de nouvelles manières d’agir.</p><p>À la Normandie Web School
     l’étudiant est acteur de son propre apprentissage et construit ses compétences
@@ -27,14 +27,14 @@ about:
 filieres:
   enable: true
   item:
-  - title: Filière Marketing
-    content: Le chef de projet marketing digital définit, développe et gère les outils
-      numériques destinés au marketing et la communication d’une entreprise ou organisation.
-      Il peut aussi travailler en agence de communication digitale. Véritable interface,
-      il travaille avec les développeurs, les infographistes pour mener à bien les
-      projets (sites, applications, campagne sur les réseaux sociaux, vidéo etc...).
-      Le bachelor “Chef de projet marketing digital” se déroule sur 3 ans au sein
-      de la Normandie Web School soit en alternance (contrat de professionnalisation
+  - title: Filière Web Marketing
+    content: Le chef de projet Web marketing définit, développe et gère les outils
+      numériques destinés au marketing et la communication d’une entreprise ou d'une
+      organisation. Il peut aussi travailler en agence de communication digitale.
+      Véritable interface, il travaille avec les développeurs, les infographistes
+      pour mener à bien les projets (sites, applications, campagne sur les réseaux
+      sociaux, vidéo etc...). Le bachelor “Web marketing” se déroule sur 3 ans au
+      sein de la Normandie Web School soit en alternance (contrat de professionnalisation
       ou apprentissage) soit en formation initiale. 
     from: À partir du bac +1
     to: Jusqu'au bac +3
@@ -42,13 +42,13 @@ filieres:
     logo: "/uploads/logo-marketing.png"
     href: "/cursus/bachelor-marketing-digital/"
   - title: Filière Web Design & Communication visuelle
-    content: Ce diplôme prépare à concevoir la forme visuelle de messages dans les
-      différents domaines du graphisme, de l’édition et de la publicité, imprimés
-      ou numériques. Il est destiné aux étudiants qui veulent se former aux métiers
-      de web et mobile designer, qui ont une forte appétence en UI et UX et capables
-      d’intégrer des maquettes. Le bachelor “Communication visuelle & Webdesign" se
-      déroule sur 3 ans au sein de la Normandie Web School soit en alternance (contrat
-      de professionnalisation ou apprentissage) soit en formation initiale. 
+    content: Ce titre prépare à concevoir la forme visuelle de messages dans les différents
+      domaines du graphisme, de l’édition et de la publicité, imprimés ou numériques.
+      Il est destiné aux étudiants qui veulent se former aux métiers de web et mobile
+      designer, qui ont une forte appétence en UI et UX et capables d’intégrer des
+      maquettes. Le bachelor “Communication visuelle & Web design" se déroule sur
+      3 ans au sein de la Normandie Web School soit en alternance (contrat de professionnalisation
+      ou apprentissage) soit en formation initiale. 
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-blue

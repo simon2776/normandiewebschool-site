@@ -27,7 +27,7 @@ cursus:
   item:
   - title: Année préparatoire
     content: "<p>La première année vous amène toutes les compétences pour devenir
-      concepteur numérique. Les concepts de bases vous sont enseignés et de nombreux
+      <strong>concepteur numérique</strong>. Les concepts de bases vous sont enseignés et de nombreux
       projets vous permettent de les mettre en application.</p><p>A l'issue de l'année,
       vous avez conçu et réalisé un site web avec un CMS, vous avez produit de nombreux
       visuels, vous avez produit une vidéo, vous avez acquis les bases de la programmation
@@ -41,8 +41,7 @@ cursus:
       alt: 1ère année Normandie Web School
   - title: Spécialisations
     content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
-      Les étudiants sont en <strong>filières “Développement Web et Mobile, Marketing
-      Digital, Web Design ou Community Management”</strong> en fonction de leurs appétences
+      Les étudiants sont en filières <strong>“<a href="/cursus/bachelor-developpement-web/">Développement Web et Mobile</a>, <a href="/cursus/bachelor-marketing-digital/">Web Marketing</a>, <a href="/cursus/bachelor-communication-visuelle/">Web Design</a> ou <a href="/cursus/bachelor-community-management/">Community Management</a>”</strong> en fonction de leurs appétences
       et 100% des activités pédagogiques sont dirigées vers l’appréhension des compétences
       et connaissances nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement
       de leurs compétences techniques les étudiants d’<strong>année 3</strong> acquièrent
@@ -60,8 +59,7 @@ cursus:
     - url: "/uploads/logo-dev.png"
       alt: Développement Web Normandie Web School
   - title: Mastère
-    content: <p>Après ces trois années, s'il le désire l'étudiant peut intégrer le
-      Mastère "Expert Digital" afin de développer encore plus ses compétences. À l’issue
+    content: <p>Après ces trois années, s'il le désire l'étudiant peut intégrer le <strong>"<a href="/cursus/master-expert-digital/">Mastère "Expert Digital</a>"</strong> afin de développer encore plus ses compétences. À l’issue
       du Mastère <strong>équivalent Bac +5</strong>, les étudiant(es) auront les connaissances
       et les compétences techniques pour mettre en œuvre une stratégie de marketing
       digital dans sa globalité.</p>
@@ -96,31 +94,31 @@ filieres:
     carousel: true
     specilisation:
     - bulle: "/uploads/marketing.svg"
-      title: Spécialisation Marketing
+      title: Spécialisation Web Marketing
       color: color-orange
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, marketing digital
+        Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-marketing-digital/"
     - bulle: "/uploads/logo-dev.png"
-      title: Spécialisation Développement
+      title: Spécialisation Web Développement
       color: color-yellow
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, marketing digital
+        Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-developpement-web/"
     - bulle: "/uploads/logo-design.png"
-      title: Spécialisation Design
+      title: Spécialisation Web Design
       color: color-blue
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, marketing digital
+        Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-communication-visuelle/"
     - bulle: "/uploads/logo_nws-1.jpg"
       title: Spécialisation Community Manager
       color: color-blue2
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, marketing digital
+        Vous avez le choix entre développement web, design graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-community-management/"
     arrow: true
@@ -136,7 +134,7 @@ filieres:
     bulle: 4&5ème années
     title: Mastère "Expert Digital"
     content: Après les trois années de bachelor, s'il le désire l'étudiant peut intégrer
-      le Mastère "Expert Digital" équivalent Bac +5 afin de développer encore plus
+      le Mastère Expert Digital équivalent Bac +5 afin de développer encore plus
       ses compétences. À l’issue du Mastère, les étudiant(es) auront les connaissances
       et les compétences techniques pour mettre en oeuvre une stratégie de marketing
       digital dans sa globalité.
