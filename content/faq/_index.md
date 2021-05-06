@@ -108,17 +108,17 @@ subjects:
         vous candidatez est bien faite pour vous !</p>"
     - question: Dois-je passer par le portail Parcoursup pour m'inscrire à la Normandie
         Web School ?
-      answer: "<p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
+      answer: <p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
         aux métiers du numérique n’est pas inscrite dans le processus Parcoursup.
         Nous souhaitons en effet rencontrer nos futurs étudiants et évaluer leur choix
         dans une discussion personnelle qui nous permet de vérifier avec eux qu’ils
-        seront bien à leur place dans la formation pour laquelle ils candidatent !
-        </p><p>Votre dossier scolaire est important pour nous mais il n’est pas l’essentiel.
-        Votre personnalité et votre engagement dans votre choix d’étude est tout aussi
-        important. Ce rapport personnel à l’étudiant est donc pour nous primordial
-        et il ne peut pas se faire par la simple lecture de dossiers en ligne. </p><p>De
-        ce fait, vous pouvez candidater et venir nous rencontrer quand vous le souhaitez.
-        Consulter la page admission</p>"
+        seront bien à leur place dans la formation pour laquelle ils candidatent !</p><p>Votre
+        dossier scolaire est important pour nous mais il n’est pas l’essentiel. Votre
+        personnalité et votre engagement dans votre choix d’étude est tout aussi important.
+        Ce rapport personnel à l’étudiant est donc pour nous primordial et il ne peut
+        pas se faire par la simple lecture de dossiers en ligne.</p><p>De ce fait,
+        vous pouvez candidater et venir nous rencontrer quand vous le souhaitez. Consulter
+        <a href="/inscription/" title="Candidater">la page de candidature</a>.</p>
     - question: Quel profil pour les admissions parallèles (2ème et 3ème année en
         Bachelor) ?
       answer: "<p>Pour intégrer la 2e année du bachelor, vous devez avoir validé une
