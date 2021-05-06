@@ -121,18 +121,18 @@ subjects:
         <a href="/inscription/" title="Candidater">la page de candidature</a>.</p>
     - question: Quel profil pour les admissions parallèles (2ème et 3ème année en
         Bachelor) ?
-      answer: "<p>Pour intégrer la 2e année du bachelor, vous devez avoir validé une
+      answer: <p>Pour intégrer la 2e année du bachelor, vous devez avoir validé une
         première année d’études supérieures. Il vous faudra ensuite nous montrer que
         vous avez déjà une bonne culture générale et que le domaine que vous avez
         choisi vous est déjà un peu familier. Vous n’avez pas donc pas besoin d’avoir
-        forcément validé une année dans le même domaine de spécialité. </p><p>Pour
+        forcément validé une année dans le même domaine de spécialité.</p><p>Pour
         intégrer la 3e année du bachelor, vous devez avoir validé un bac+2. La 3e
         année de bachelor, en accès parallèle, est une formation dense qui regroupe
         des cours de 2e et 3e année. Il est recommandé d’avoir déjà une formation
-        dans un domaine proche ou complémentaire de la formation que vous allez choisir.
-        </p><p>Mais n’hésitez pas à rencontrer nos responsables des admissions, ils
-        pourront faire le point avec vous et vous conseiller pour mettre toutes les
-        chances de réussite de votre côté.</p>"
+        dans un domaine proche ou complémentaire de la formation que vous allez choisir.</p><p>Mais
+        n’hésitez pas à <a href="/inscription/" title="Candidater">rencontrer nos
+        responsables des admissions</a>, ils pourront faire le point avec vous et
+        vous conseiller pour mettre toutes les chances de réussite de votre côté.</p>
     - question: Comment se déroule l'entretien d’admission ?
       answer: "<p>L’entretien d’admission est un entretien individuel. Il permet à
         l’école de mieux comprendre vos attentes, vos projets et les motivations qui
