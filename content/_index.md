@@ -82,7 +82,7 @@ filieres:
   bachelor_description: "<p>Formation de base de la Normandie Web School, le Bachelor
     Chef de projet digital forme <strong>une nouvelle génération de professionnels,
     véritables couteaux suisse capables de parler à la fois le langage des développeurs,
-    des designers, des marketeurs et des Community managers</strong>, pour une conduite
+    des designers, des marketeurs et des community managers</strong>, pour une conduite
     de projet plus efficace et une stratégie plus pertinente. Son objectif est de
     donner aux étudiants les clés d’une intégration professionnelle réussie au sein
     d’une start-up, d’une grande entreprise ou d’une agence digitale.</p>"
