@@ -32,13 +32,15 @@
 <section class="bg-lightgrey clip-bottom-white recrutement pt-5" id="recrutement" >
     <div class="container">
         <div class="row row-eq-height">
+              <div class="card-header">
+                  <h2 class="mb-0 title-medium color-blue separator-left">{{ .title_first }}</h2>
                   <div class="col-md-12 col-lg-6 mb-4">
-                   {{ partial "widget-recent.html" . }}
+                        {{ partial "widget-recent.html" . }}
                  </div>
                     <div class="col-md-12 col-lg-3 mb-4">
-                       {{ partial "widget-archives.html" . }}
-                     </div>
-                 </div> 
+                       {{ partial "widget-archives.html" .title }}
+                    </div>
+              </div> 
          </div>
     </div>
 </section>
