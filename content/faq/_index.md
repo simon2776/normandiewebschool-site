@@ -118,7 +118,8 @@ subjects:
         Ce rapport personnel à l’étudiant est donc pour nous primordial et il ne peut
         pas se faire par la simple lecture de dossiers en ligne.</p><p>De ce fait,
         vous pouvez candidater et venir nous rencontrer quand vous le souhaitez. Consulter
-        <a href="/inscription/" title="Candidater">la page de candidature</a>.</p>
+        <a href="https://normandiewebschool.fr/inscription/" title="Candidater">la
+        page de candidature</a>.</p>
     - question: Quel profil pour les admissions parallèles (2ème et 3ème année en
         Bachelor) ?
       answer: "<p>Pour intégrer la 2e année du bachelor, vous devez avoir validé une
