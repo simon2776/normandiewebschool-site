@@ -59,7 +59,7 @@ cursus:
     - url: "/uploads/logo-dev.png"
       alt: Développement Web Normandie Web School
   - title: Mastère
-    content: <p>Après ces trois années, s'il le désire l'étudiant peut intégrer le Mastère "Expert Digital" afin de développer encore plus ses compétences. À l’issue
+    content: <p>Après ces trois années, s'il le désire l'étudiant peut intégrer le <strong>"<a href="/cursus/master-expert-digital/">Mastère "Expert Digital</a>"</strong> afin de développer encore plus ses compétences. À l’issue
       du Mastère <strong>équivalent Bac +5</strong>, les étudiant(es) auront les connaissances
       et les compétences techniques pour mettre en œuvre une stratégie de marketing
       digital dans sa globalité.</p>
@@ -134,7 +134,7 @@ filieres:
     bulle: 4&5ème années
     title: Mastère "Expert Digital"
     content: Après les trois années de bachelor, s'il le désire l'étudiant peut intégrer
-      le Mastère <strong>"<a href="/cursus/master-expert-digital/">Expert Digital</a>"</strong> équivalent Bac +5 afin de développer encore plus
+      le Mastère Expert Digital équivalent Bac +5 afin de développer encore plus
       ses compétences. À l’issue du Mastère, les étudiant(es) auront les connaissances
       et les compétences techniques pour mettre en oeuvre une stratégie de marketing
       digital dans sa globalité.
