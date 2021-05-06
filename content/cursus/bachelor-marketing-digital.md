@@ -1,7 +1,7 @@
 ---
 type: filiere
 layout: filiere
-title: Filière Marketing digital
+title: Filière Web marketing
 date: 2019-05-12T12:14:34.000+06:00
 description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
   dans tous les détails du marketing, c''est la clé pour obtenir en fin d''année votre
