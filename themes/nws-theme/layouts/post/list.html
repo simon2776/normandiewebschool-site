@@ -33,17 +33,15 @@
     <div class="container">
         <div class="row row-eq-height">
                 <div class="col-md-12 col-lg-6 mb-4">
-                 {{ partial "widget-recent.html" . }}
-               </div>
-                <div class="col-lg-4 mt-5 mt-lg-0 doc-section order-1 order-lg-2">
+                   {{ partial "widget-recent.html" . }}
+          </div>
                       <div class="card second-push-top">
                          <div class="card-header">
                              <h3 class="mb-0 title-medium color-blue separator-left">{{ .title_second }}</h3>
                                {{ partial "widget-archives.html" . }}
                           </div> 
-                      </div>  
-                </div>             
-         </div>
-    </div>
+                      </div>          
+              </div>
+      </div>
 </section>
 {{ end }}
