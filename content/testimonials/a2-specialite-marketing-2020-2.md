@@ -3,7 +3,7 @@ content = "Allier la pratique et la théorie, voilà ce que je recherchais en en
 image = "/uploads/fabien-ghesquiere.jpg"
 name = "Fabien Ghesquiere"
 tag = ["cursus", "marketing", "a2"]
-title = "2ème année spécialité marketing digital, 2020"
+title = "2ème année spécialité Web marketing, 2020"
 type = "testimonial"
 
 +++
