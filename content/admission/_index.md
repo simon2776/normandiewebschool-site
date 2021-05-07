@@ -68,8 +68,8 @@ financement:
   image2: "/uploads/logo_nws_v.png"
 menu:
   main:
-    weight: 6
+    weight: 5
   top:
-    weight: 3
+    weight: 2
 
 ---

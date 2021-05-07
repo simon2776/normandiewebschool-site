@@ -88,7 +88,7 @@ seo_image: ''
 menu:
   main:
     name: Déposer votre candidature
-    weight: 14
+    weight: 13
   desktop:
     name: Déposer votre candidature
     weight: 5

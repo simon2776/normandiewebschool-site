@@ -140,6 +140,6 @@ menu:
   main:
     name: Mastère Expert digital
     parent: Nos spécialisations
-    weight: 9
+    weight: 8
 
 ---

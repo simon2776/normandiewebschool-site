@@ -70,8 +70,6 @@ date: ''
 image: ''
 menu:
   top:
-    weight: 2
-  main:
-    weight: 4
+    weight: 5
 
 ---

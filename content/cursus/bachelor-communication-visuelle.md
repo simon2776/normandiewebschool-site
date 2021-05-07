@@ -223,6 +223,6 @@ menu:
   main:
     name: Bachelor Web Design
     parent: Nos spécialisations
-    weight: 5
+    weight: 4
 
 ---
