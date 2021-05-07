@@ -5,9 +5,9 @@ description: L’admission se fait en dehors de Parcours Sup. Pas de frais pour 
   du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
   le 20 juillet 2021.
 banner:
-  title: Nos différents articles
+  title: Le blog de la school
   title-line-twho: ''
-  subtitle: ''
+  subtitle: Retrouvez ici nos différents articles
   image: uploads/cursus-initial.jpg
 about:
   enable: true
