@@ -1,3 +1,5 @@
++++ title = "Interview Anna GIRAUD" description = "Interview alternant Anna GIRAUD NWS" tags = [ "interview", "nws", "web design",] date = "2021-05-01" archives = "2021" +++
+
 **Interview d'Anna GIRAUD, en 3ème année à la NWS filière
 Communication graphique**
 
