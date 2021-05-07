@@ -99,3 +99,4 @@ fields:
   label: financement
 pages:
 - content/admission/_index.md
+- content/post/_index.md

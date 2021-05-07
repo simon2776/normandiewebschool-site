@@ -66,10 +66,12 @@ financement:
     contrat en alternance.</a>
   image: "/uploads/logo_nws_h.jpg"
   image2: "/uploads/logo_nws_v.png"
+date: ''
+image: ''
 menu:
-  main:
-    weight: 3
   top:
     weight: 2
+  main:
+    weight: 3
 
 ---
