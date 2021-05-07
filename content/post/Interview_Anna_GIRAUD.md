@@ -1,13 +1,15 @@
 +++
-title = "Interview Anna GIRAUD"
+title = "(Hu)go Template Primer"
 description = ""
 tags = [
-    "interview",
-    "nws",
-    "web design",
+    "go",
+    "golang",
+    "templates",
+    "themes",
+    "development",
 ]
-date = "2020-05-05"
-archives = "2020"
+date = "2014-04-01"
+archives = "2014"
 categories = [
     "Development",
     "golang",
