@@ -1,5 +1,5 @@
 ---
-title: L'école des métiers des numérique
+title: L'école des métiers du numérique
 date: 2019-05-12T12:14:34.000+06:00
 description: La Normandie Web School est une École d’Enseignement Supérieur Technique
   Privée qui forme en 2 / 3 ou 5 ans aux métiers du numérique (développement web,
