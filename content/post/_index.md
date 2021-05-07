@@ -68,5 +68,9 @@ financement:
   image2: "/uploads/logo_nws_v.png"
 date: ''
 image: ''
+menu:
+  main:
+    name: Nos spécialisations
+    weight: 14
 
 ---
