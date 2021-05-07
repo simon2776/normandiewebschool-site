@@ -174,7 +174,7 @@ partners:
 menu:
   main:
     name: Etudier à la NWS
-    weight: 2
+    weight: 1
   desktop:
     name: Etudier à la NWS
     weight: 1

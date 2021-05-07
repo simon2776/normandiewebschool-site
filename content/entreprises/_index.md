@@ -98,6 +98,6 @@ menu:
     weight: 4
   main:
     URL: entreprises
-    weight: 11
+    weight: 7
 
 ---

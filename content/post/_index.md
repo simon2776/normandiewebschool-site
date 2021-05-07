@@ -71,6 +71,6 @@ image: ''
 menu:
   main:
     name: Nos spécialisations
-    weight: 14
+    weight: 2
 
 ---

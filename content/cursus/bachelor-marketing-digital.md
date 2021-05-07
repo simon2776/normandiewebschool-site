@@ -216,11 +216,11 @@ testimonials:
   - marketing
 seo_image: ''
 menu:
-  desktop:
+  main:
     name: Bachelor Web Marketing
     parent: Nos spécialisations
     weight: 1
-  main:
+  desktop:
     name: Bachelor Web Marketing
     parent: Nos spécialisations
     weight: 1
