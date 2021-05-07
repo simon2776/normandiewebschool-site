@@ -60,6 +60,7 @@ subjects:
     subject: ''
     subtitle: ''
     questions: []
+img: ''
 menu:
   main:
     name: Nos spécialisations
