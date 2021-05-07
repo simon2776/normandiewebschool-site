@@ -68,8 +68,5 @@ financement:
   image2: "/uploads/logo_nws_v.png"
 date: ''
 image: ''
-menu:
-  top:
-    weight: 5
 
 ---
