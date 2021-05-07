@@ -72,6 +72,6 @@ menu:
   top:
     weight: 2
   main:
-    weight: 3
+    weight: 4
 
 ---

@@ -88,6 +88,6 @@ menu:
     weight: 3
   main:
     URL: contact
-    weight: 8
+    weight: 13
 
 ---
