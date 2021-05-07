@@ -1,6 +1,6 @@
 +++
 title = "Interview Anna GIRAUD"
-description = "Interview alternant Anna GIRAUD"
+description = ""
 tags = [
     "interview",
     "nws",
@@ -8,6 +8,10 @@ tags = [
 ]
 date = "2020-05-05"
 archives = "2020"
+categories = [
+    "Development",
+    "golang",
+]
 +++
 
 **Interview d'Anna GIRAUD, en 3ème année à la NWS filière
