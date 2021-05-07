@@ -7,9 +7,7 @@ description: L’admission se fait en dehors de Parcours Sup. Pas de frais pour 
 banner:
   title: Nos différents articles
   title-line-twho: ''
-  subtitle: L’admission se fait en dehors de Parcours Sup. Pas de frais pour le traitement
-    du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
-    le 20 juillet 2021.
+  subtitle: ''
   image: uploads/cursus-initial.jpg
 about:
   enable: true
