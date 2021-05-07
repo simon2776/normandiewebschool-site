@@ -6,7 +6,7 @@ description: La Normandie Web School est une École d’Enseignement Supérieur 
   web design/communication visuelle et marketing digital) et amène vers un titre reconnu
   par l'état (RNCP).
 banner:
-  title: Bienvenue au la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
+  title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: Bienvenue à la <br/> NORMANDIE WEB SCHOOL
   subtitle: L'école des métiers du numérique au cœur des entreprises.
   image: uploads/fond-seine-innopolis.jpg
