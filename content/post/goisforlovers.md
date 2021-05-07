@@ -16,7 +16,7 @@ categories = [
 ]
 +++
 
-Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for
+Article de test. Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
