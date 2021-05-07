@@ -15,10 +15,5 @@ fields:
 - type: text
   name: description
   label: description
-- name: img
-  type: file
-  config:
-    maxSize: 64
-  label: image
 pages:
 - content/post/_index.md
