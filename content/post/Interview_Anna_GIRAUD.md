@@ -1,4 +1,4 @@
-+++ title = "Interview Anna GIRAUD" +++
++++ title = "Interview Anna GIRAUD" description = "" tags = [ "go", "golang", "templates", "themes", "development", ] date = "2014-04-01" archives = "2014" categories = [ "Development", "golang", ] +++
 
 **Interview d'Anna GIRAUD, en 3ème année à la NWS filière
 Communication graphique**
