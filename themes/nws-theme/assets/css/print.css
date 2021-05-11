@@ -647,6 +647,7 @@ HERO HEADER
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 520px;
 
   h1,
   h2 {
