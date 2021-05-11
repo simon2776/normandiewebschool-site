@@ -1630,7 +1630,7 @@ HERO HEADER
 }
 
 #cursus-filieres {
-  @media(min-width: 800px) {
+  @media(min-width: 992px) {
     background-image: url('/uploads/assets/background-shapes.svg');
     background-size: cover;
     background-position: center;
