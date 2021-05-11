@@ -1628,6 +1628,12 @@ HERO HEADER
     }
   }
 }
+#cursus-filieres {
+  @media(max-height: 650px) {
+    background-image: url('/uploads/assets/background-shapes.svg');
+    background-size: cover;
+    background-position: center;
+  }
 
 #cursus-filieres {
   @media(min-width: 992px) {
