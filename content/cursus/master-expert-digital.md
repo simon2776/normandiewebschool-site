@@ -22,8 +22,6 @@ about:
   image: "/uploads/filieres_img1.png"
   description: Le coût de la formation est pris en charge par l'entreprise employeur
     par le biais des OPCO.
-  url: ''
-  href: ''
 skills:
   enable: true
   title: Profils attendus
