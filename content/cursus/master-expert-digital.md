@@ -13,7 +13,7 @@ banner:
   description: |-
     Vous serez en mesure de mettre en œuvre une stratégie digitale, apporter des solutions techniques et innovantes, manager une équipe et monter des budgets.
     <br/> Le BAC +5 Expert Marketing Digital se déroule exclusivement en alternance sur 18 mois selon un rythme d'une semaine à l'école et de trois semaines en entreprise.
-    Ce mastère est assuré par <a href="https://www.isd-flaubert.com/marketing-digital/">l'ISD Flaubert.</a>
+    <br/> Ce mastère est assuré par <a href="https://www.isd-flaubert.com/marketing-digital/">l'ISD Flaubert.</a>
   color: color-orange
   buttons: []
   url: https://www.isd-flaubert.com/marketing-digital/
