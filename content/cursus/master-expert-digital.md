@@ -15,13 +15,15 @@ banner:
     <br/> Le BAC +5 Expert Marketing Digital se déroule exclusivement en alternance sur 18 mois selon un rythme d'une semaine à l'école et de trois semaines en entreprise.
   color: color-orange
   buttons: []
-  url: 'https://www.isd-flaubert.com/marketing-digital/'
-  href: 'https://www.isd-flaubert.com/marketing-digital/'
+  url: https://www.isd-flaubert.com/marketing-digital/
+  href: https://www.isd-flaubert.com/marketing-digital/
 about:
   enable: true
-  image: "/uploads/filieres_img1.png"
+  image: "/uploads/filieres_img1-1.png"
   description: Le coût de la formation est pris en charge par l'entreprise employeur
     par le biais des OPCO.
+  url: ''
+  href: ''
 skills:
   enable: true
   title: Profils attendus
