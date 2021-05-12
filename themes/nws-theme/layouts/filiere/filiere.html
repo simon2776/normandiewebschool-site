@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-md-12 second-push-top">
                 <div class="card filiere-intro">
-                    <a href="{{ .href }}"><img src="{{.logo}}" alt="{{.title}}" class="logo w-20 w-lg-50 m-auto"/></a>
+                    <a href="{{ .href }} class="logo w-20 w-lg-50 m-auto"><img src="{{.logo}}" alt="{{.title}}" class="logo w-20 w-lg-50 m-auto"/></a>
 
                     <div class="card-header">
                         <h1 class="my-3 my-lg-0 title-medium {{.color}} separator-left separator-lg-block w-100 text-center text-lg-left">{{ .title | safeHTML }}</h1>
@@ -50,9 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center d-flex justify-content-center">
-                    <a href="{{ .href }}" target="_blank">
                     <img src="{{.image | relURL}}" alt="{{.Params.Name }}" width="100%"/>
-                    </a>
                 </div>
                 <p class="col-md-12 font-weight-medium text-center px-3 my-3">
                     {{ .description | safeHTML }}
