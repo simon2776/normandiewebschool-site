@@ -7,7 +7,7 @@ description: 'Vous souhaitez devenir un expert du numérique et en acquérir les
   management et de la stratégie, alors le mastère  "Expert Digital" est fait pour
   vous ! '
 banner:
-  logo: "/uploads/nws_isd.png"
+  logo: "/uploads/logo-isd-horizontal-typo-grise.png"
   title: Mastère "Expert digital"
   image: uploads/design.jpg
   description: |-
@@ -21,6 +21,7 @@ about:
   description: Le coût de la formation est pris en charge par l'entreprise employeur
     par le biais des OPCO.
   url: ''
+  href: ''
 skills:
   enable: true
   title: Profils attendus
@@ -133,11 +134,11 @@ testimonials:
   - design
 seo_image: ''
 menu:
-  main:
+  desktop:
     name: Mastère Expert digital
     parent: Nos spécialisations
     weight: 5
-  desktop:
+  main:
     name: Mastère Expert digital
     parent: Nos spécialisations
     weight: 5
