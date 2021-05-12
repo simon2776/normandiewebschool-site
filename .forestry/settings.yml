@@ -42,6 +42,9 @@ sections:
   path: content/inscription/_index.md
   label: Inscription
 - type: document
+  path: content/inscription_new/_index.md
+  label: Inscription NEW
+- type: document
   path: content/documentation/_index.md
   label: Documentation
 - type: document

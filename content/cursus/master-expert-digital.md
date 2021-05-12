@@ -7,20 +7,24 @@ description: 'Vous souhaitez devenir un expert du numérique et en acquérir les
   management et de la stratégie, alors le mastère  "Expert Digital" est fait pour
   vous ! '
 banner:
-  logo: "/uploads/nws_isd.png"
+  logo: "/uploads/logo-isd-horizontal-typo-grise.png"
   title: Mastère "Expert digital"
   image: uploads/design.jpg
   description: |-
     Vous serez en mesure de mettre en œuvre une stratégie digitale, apporter des solutions techniques et innovantes, manager une équipe et monter des budgets.
     <br/> Le BAC +5 Expert Marketing Digital se déroule exclusivement en alternance sur 18 mois selon un rythme d'une semaine à l'école et de trois semaines en entreprise.
+    <br/> Ce mastère est assuré par <a href="https://www.isd-flaubert.com/marketing-digital/">l'ISD Flaubert.</a>
   color: color-orange
   buttons: []
+  url: https://www.isd-flaubert.com/marketing-digital/
+  href: https://www.isd-flaubert.com/marketing-digital/
 about:
   enable: true
-  image: "/uploads/filieres_img1.png"
+  image: "/uploads/filieres_img1-1.png"
   description: Le coût de la formation est pris en charge par l'entreprise employeur
     par le biais des OPCO.
   url: ''
+  href: ''
 skills:
   enable: true
   title: Profils attendus

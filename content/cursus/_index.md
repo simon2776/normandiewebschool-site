@@ -27,13 +27,14 @@ cursus:
   item:
   - title: Année préparatoire
     content: "<p>La première année vous amène toutes les compétences pour devenir
-      <strong>concepteur numérique</strong>. Les concepts de bases vous sont enseignés et de nombreux
-      projets vous permettent de les mettre en application.</p><p>A l'issue de l'année,
-      vous avez conçu et réalisé un site web avec un CMS, vous avez produit de nombreux
-      visuels, vous avez produit une vidéo, vous avez acquis les bases de la programmation
-      web et du web marketing et enfin vous avez découvert le community management.</p><p>L’année
-      préparatoire s’adresse aux titulaires du Baccalauréat, quelle que soit la série
-      mais aussi aux étudiants souhaitant se réorienter.</p>"
+      <strong>concepteur numérique</strong>. Les concepts de bases vous sont enseignés
+      et de nombreux projets vous permettent de les mettre en application.</p><p>A
+      l'issue de l'année, vous avez conçu et réalisé un site web avec un CMS, vous
+      avez produit de nombreux visuels, vous avez produit une vidéo, vous avez acquis
+      les bases de la programmation web et du web marketing et enfin vous avez découvert
+      le community management.</p><p>L’année préparatoire s’adresse aux titulaires
+      du Baccalauréat, quelle que soit la série mais aussi aux étudiants souhaitant
+      se réorienter.</p>"
     from: Bac +1
     color: color-yellow
     images:
@@ -41,11 +42,14 @@ cursus:
       alt: 1ère année Normandie Web School
   - title: Spécialisations
     content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
-      Les étudiants sont en filières <strong>“<a href="/cursus/bachelor-developpement-web/">Développement Web et Mobile</a>, <a href="/cursus/bachelor-marketing-digital/">Web Marketing</a>, <a href="/cursus/bachelor-communication-visuelle/">Web Design</a> ou <a href="/cursus/bachelor-community-management/">Community Management</a>”</strong> en fonction de leurs appétences
-      et 100% des activités pédagogiques sont dirigées vers l’appréhension des compétences
-      et connaissances nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement
-      de leurs compétences techniques les étudiants d’<strong>année 3</strong> acquièrent
-      le <strong>savoir-faire de la gestion d’équipe et la conduite de projet</strong>.
+      Les étudiants sont en filières <strong>“<a href="/cursus/bachelor-developpement-web/">Développement
+      Web et Mobile</a>, <a href="/cursus/bachelor-marketing-digital/">Web Marketing</a>,
+      <a href="/cursus/bachelor-communication-visuelle/">Web Design</a> ou <a href="/cursus/bachelor-community-management/">Community
+      Management</a>”</strong> en fonction de leurs appétences et 100% des activités
+      pédagogiques sont dirigées vers l’appréhension des compétences et connaissances
+      nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement de leurs
+      compétences techniques les étudiants d’<strong>année 3</strong> acquièrent le
+      <strong>savoir-faire de la gestion d’équipe et la conduite de projet</strong>.
       L’année 3 se déroule en alternance sur un rythme de 1 semaine en cours et 3
       semaines en entreprise. À l'issue de la 3ème année les étudiant(es) passeront
       leur examen pour l'obtention du Titre <strong>"Chef de projet digital"</strong>.</p>
@@ -59,10 +63,11 @@ cursus:
     - url: "/uploads/logo-dev.png"
       alt: Développement Web Normandie Web School
   - title: Mastère
-    content: <p>Après ces trois années, s'il le désire l'étudiant peut intégrer le <strong>"<a href="/cursus/master-expert-digital/">Mastère "Expert Digital</a>"</strong> afin de développer encore plus ses compétences. À l’issue
-      du Mastère <strong>équivalent Bac +5</strong>, les étudiant(es) auront les connaissances
-      et les compétences techniques pour mettre en œuvre une stratégie de marketing
-      digital dans sa globalité.</p>
+    content: <p>Après ces trois années, s'il le désire l'étudiant peut intégrer le
+      <strong>"<a href="/cursus/master-expert-digital/">Mastère "Expert Digital</a>"</strong>
+      afin de développer encore plus ses compétences. À l’issue du Mastère <strong>équivalent
+      Bac +5</strong>, les étudiant(es) auront les connaissances et les compétences
+      techniques pour mettre en œuvre une stratégie de marketing digital dans sa globalité.</p>
     from: Bac +4/5
     color: color-orange
     images:
@@ -134,8 +139,8 @@ filieres:
     bulle: 4&5ème années
     title: Mastère "Expert Digital"
     content: Après les trois années de bachelor, s'il le désire l'étudiant peut intégrer
-      le Mastère Expert Digital équivalent Bac +5 afin de développer encore plus
-      ses compétences. À l’issue du Mastère, les étudiant(es) auront les connaissances
+      le Mastère Expert Digital équivalent Bac +5 afin de développer encore plus ses
+      compétences. À l’issue du Mastère, les étudiant(es) auront les connaissances
       et les compétences techniques pour mettre en oeuvre une stratégie de marketing
       digital dans sa globalité.
     arrow: false
@@ -167,10 +172,10 @@ partners:
   enable: false
   title: ''
 menu:
-  desktop:
+  main:
     name: Etudier à la NWS
     weight: 1
-  main:
+  desktop:
     name: Etudier à la NWS
     weight: 1
 
