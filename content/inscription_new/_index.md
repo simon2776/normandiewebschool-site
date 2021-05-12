@@ -1,5 +1,5 @@
 ---
-title: Candidatez à la NWS
+title: Candidatez à la NWS NEW
 date: 2019-05-12T12:14:34.000+06:00
 description: 'Pour candidater : demander un entretien pédagogique. Vous serez invité
   à l''une de nos sessions d''information.'
@@ -85,12 +85,4 @@ form:
     required: false
     name: newsletter
 seo_image: ''
-menu:
-  main:
-    name: Déposer votre candidature
-    weight: 9
-  desktop:
-    name: Déposer votre candidature
-    weight: 5
-
 ---
