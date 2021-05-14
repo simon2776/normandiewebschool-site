@@ -36,10 +36,6 @@
                       {{ if .required | eq true }} required="true" {{ end }} 
                       class="form-control {{.className}}"
                       name={{.name}}
-                           {{ with .Site.GetPages "page" .Params.related_page }}
-                            <h2>{{ .Title }}</h2>
-                             <p>{{ .Summary }}</p>
-                                {{ end }}
                     />
                   </div>
                   {{end}} {{if .textarea}}
