@@ -37,6 +37,15 @@ fields:
   - type: boolean
     name: enable
     label: enable
+    type: select
+    name: category
+    label: Category
+    description: Select a category for this page
+    hidden: false
+    config:
+    source:
+      type: custom
+    options: [Array]
   - type: text
     name: title
     label: title
