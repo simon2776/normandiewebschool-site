@@ -30,7 +30,7 @@ form:
   - icon: ''
     placeholder: Filière NWS souhaitéé
     type: list
-    required: false
+    required: true
     name: ''
     width: ''
     padding: ''
