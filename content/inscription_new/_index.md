@@ -30,7 +30,7 @@ form:
   - icon: ''
     placeholder: Filière NWS souhaitéé
     type: list
-    required: true
+    required: false
     name: ''
     width: ''
     padding: ''
@@ -40,6 +40,7 @@ form:
     - cursus/bachelor-developpement-web.md
     - cursus/bachelor-community-management.md
     - cursus/master-expert-digital.md
+    list: []
   - icon: "/uploads/icn-user.png"
     placeholder: Votre nom de famille
     type: text
@@ -48,6 +49,7 @@ form:
     width: "50"
     padding: pr-lg-1
     filieres: []
+    list: []
   - icon: "/uploads/icn-user.png"
     placeholder: Votre prénom
     type: text
@@ -56,6 +58,7 @@ form:
     width: "50"
     padding: pl-lg-1
     filieres: []
+    list: []
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
@@ -64,6 +67,7 @@ form:
     width: "50"
     padding: pr-lg-1
     filieres: []
+    list: []
   - icon: "/uploads/icn-mail.png"
     placeholder: Confirmer votre adresse e-mail*
     type: email
@@ -72,6 +76,7 @@ form:
     width: "50"
     padding: pl-lg-1
     filieres: []
+    list: []
   - icon: "/uploads/icn-phone.png"
     placeholder: Votre numéro de téléphone
     type: phone
@@ -80,6 +85,7 @@ form:
     width: "50"
     padding: ''
     filieres: []
+    list: []
   - icon: "/uploads/icn-obj.png"
     placeholder: L'objet de votre message*
     type: text
@@ -89,6 +95,7 @@ form:
     className: w-lg-50
     padding: ''
     filieres: []
+    list: []
   - icon: "/uploads/icn-msg.png"
     placeholder: Votre message*
     textarea: true
@@ -98,6 +105,7 @@ form:
     type: ''
     padding: ''
     filieres: []
+    list: []
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
       exploitées dans le cadre d'apport d'information concernant les formations proposées
