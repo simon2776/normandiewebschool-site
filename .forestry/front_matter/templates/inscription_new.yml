@@ -118,5 +118,6 @@ fields:
     source:
       type: simple
   label: Filière NWS souhaitée
+  hidden: false
 pages:
 - content/inscription_new/_index.md
