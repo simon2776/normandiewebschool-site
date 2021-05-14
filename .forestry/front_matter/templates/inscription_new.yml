@@ -75,6 +75,17 @@ fields:
   - type: textarea
     name: subtitle
     label: subtitle
+  - name: filiere_nws_souhaitee_
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: filieres
+    label: Liste
+    hidden: false
   - type: field_group_list
     name: input
     label: input
@@ -100,16 +111,6 @@ fields:
     - type: text
       name: padding
       label: padding
-  - name: filiere_nws_souhaitee_
-    type: list
-    config:
-      use_select: true
-      min: 
-      max: 
-      source:
-        type: pages
-        section: filieres
-    label: 'Filière NWS souhaitée '
   - type: field_group_list
     name: checkbox
     label: checkbox
