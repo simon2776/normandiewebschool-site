@@ -62,16 +62,6 @@ fields:
   name: form
   label: form
   fields:
-- type: select
-  name: [String]
-  label: [String]
-  description: [String]
-  hidden: [true|false]
-  default: [String]
-  config:
-  source:
-  type: custom
-  options: [Array]
   - type: text
     name: title
     label: title
@@ -106,6 +96,17 @@ fields:
   - type: field_group_list
     name: checkbox
     label: checkbox
+    fields:
+    - type: select
+      name: [String]
+      label: [String]
+      description: [String]
+      hidden: [true|false]
+      default: [String]
+      config:
+      source:
+      type: custom
+      options: [Array]
     fields:
     - type: textarea
       name: content
