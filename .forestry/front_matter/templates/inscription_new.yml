@@ -63,15 +63,15 @@ fields:
   label: form
   fields:
 - type: select
-    name: [String]
-    label: [String]
-    description: [String]
-    hidden: [true|false]
-    default: [String]
-    config:
-    source:
-      type: custom
-    options: [Array]
+  name: [String]
+  label: [String]
+  description: [String]
+  hidden: [true|false]
+  default: [String]
+  config:
+  source:
+  type: custom
+  options: [Array]
   - type: text
     name: title
     label: title
