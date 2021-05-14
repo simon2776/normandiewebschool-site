@@ -97,17 +97,6 @@ fields:
     name: checkbox
     label: checkbox
     fields:
-    - type: select
-      name: [String]
-      label: [String]
-      description: [String]
-      hidden: [true|false]
-      default: [String]
-      config:
-      source:
-      type: custom
-      options: [Array]
-    fields:
     - type: textarea
       name: content
       label: content
