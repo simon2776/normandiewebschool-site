@@ -34,15 +34,15 @@
                       type="{{.type}}"
                       placeholder="{{.placeholder}}"
                       {{ if .required | eq true }} required="true" {{ end }}
-                           {{ with .Site.GetPages "page" .Params.related_page }}
-                            <h2>{{ .Title }}</h2>
-                           <p>{{ .Summary }}</p>
-                           {{ end }}
+                           
                       class="form-control {{.className}}"
-                      name={{.name}}
+                          {{ with .Site.GetPages "page" .Params.related_page }}
+                          <h2>{{ .Title }}</h2>
+                           <p>{{ .Summary }}</p>
+                          name={{.name}}
                     />
                   </div>
-                  {{end}} {{if .textarea}}
+                  {{end}} {{ end }} {{if .textarea}}
                   <div class="input-icon mb-3 position-relative">
                     <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
                     <textarea
