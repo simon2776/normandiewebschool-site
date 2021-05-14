@@ -109,15 +109,5 @@ fields:
 - type: text
   name: seo_image
   label: seo_image
-- name: filiere_nws_souhaitee
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: simple
-  label: Filière NWS souhaitée
-  hidden: false
 pages:
 - content/inscription_new/_index.md
