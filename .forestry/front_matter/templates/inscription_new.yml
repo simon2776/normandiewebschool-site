@@ -110,9 +110,10 @@ fields:
           type: documents
           section: filieres
       label: list
-      hidden: true
+      hidden: false
       showOnly:
         field: required
+        value: true
   - type: field_group_list
     name: checkbox
     label: checkbox
