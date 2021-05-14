@@ -100,6 +100,19 @@ fields:
     - type: text
       name: padding
       label: padding
+    - name: list
+      type: list
+      config:
+        use_select: true
+        min: 
+        max: 
+        source:
+          type: documents
+          section: filieres
+      label: list
+      hidden: false
+      showOnly:
+        field: required
   - type: field_group_list
     name: checkbox
     label: checkbox
