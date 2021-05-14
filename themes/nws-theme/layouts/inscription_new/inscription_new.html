@@ -36,7 +36,6 @@
                       {{ if .required | eq true }} required="true" {{ end }}
                            
                       class="form-control {{.className}}
-                              {{ with .Site.GetPages "page" .Params.related_page }}
                         name={{.name}}
                        title={{ .Title }}
                           <p>{{ .Summary }}</p>                                         
@@ -106,7 +105,6 @@
             });
   });
 </script>
-{{ end }} 
 {{ end }} 
 {{ end }}
 
