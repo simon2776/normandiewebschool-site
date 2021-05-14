@@ -2,6 +2,20 @@
 label: Inscription_NEW
 hide_body: true
 fields:
+- type: select
+  name: category
+  label: Category
+  description: Select a category for this page
+  hidden: false
+  config:
+  source:
+  type: custom
+  options:
+    -"Bachelor Web Marketing"
+    -"Bachelor Développement Web "
+    -"Bachelor Web design"
+    -"BachelorCommunity Manager"
+    -"Mastère Expert Digital"
 - type: text
   name: title
   label: title
