@@ -28,7 +28,7 @@ form:
     Une réponse vous sera donnée dans les plus brefs délais.
   input:
   - icon: ''
-    placeholder: ''
+    placeholder: Filière NWS souhaitéé
     type: list
     required: true
     name: ''
