@@ -107,13 +107,13 @@ fields:
         min: 
         max: 
         source:
-          type: documents
+          type: pages
           section: filieres
       label: list
       hidden: false
       showOnly:
         field: required
-        value: true
+        value: false
   - type: field_group_list
     name: checkbox
     label: checkbox
