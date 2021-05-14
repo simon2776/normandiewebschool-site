@@ -2,6 +2,16 @@
 label: Inscription_NEW
 hide_body: true
 fields:
+type: select
+name: [String]
+label: [String]
+description: [String]
+hidden: [true|false]
+default: [String]
+config:
+    source:
+      type: custom
+    options: [Array]
 - type: text
   name: title
   label: title
