@@ -26,6 +26,13 @@ form:
     Au cours de ce rendez-vous, vous réaliserez un test de culture numérique et vous passerez un entretien individuel avec un membre de l'équipe pédagogique.
     Une réponse vous sera donnée dans les plus brefs délais.
   input:
+  - icon: ''
+    placeholder: Filière  NWS souhaitée
+    type: liste déroulante
+    required: false
+    name: ''
+    width: ''
+    padding: ''
   - icon: "/uploads/icn-user.png"
     placeholder: Votre nom de famille
     type: text
