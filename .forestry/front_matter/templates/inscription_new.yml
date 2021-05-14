@@ -92,7 +92,7 @@ fields:
           type: pages
           section: filieres
       label: list
-      hidden: true
+      hidden: false
       showOnly:
         field: required
         value: true
