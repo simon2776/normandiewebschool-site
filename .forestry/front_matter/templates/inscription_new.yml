@@ -79,6 +79,9 @@ fields:
     name: input
     label: input
     fields:
+    - type: file
+      name: icon
+      label: icon
     - name: list
       type: list
       config:
@@ -93,9 +96,6 @@ fields:
       showOnly:
         field: required
         value: true
-    - type: file
-      name: icon
-      label: icon
     - type: text
       name: placeholder
       label: placeholder
