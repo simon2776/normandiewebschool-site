@@ -113,7 +113,7 @@ fields:
       hidden: false
       showOnly:
         field: required
-        value: false
+        value: true
   - type: field_group_list
     name: checkbox
     label: checkbox
