@@ -85,7 +85,12 @@ form:
     - cursus/bachelor-developpement-web.md
     - cursus/bachelor-community-management.md
     - cursus/master-expert-digital.md
-    list: []
+    list:
+    - cursus/bachelor-marketing-digital.md
+    - cursus/bachelor-communication-visuelle.md
+    - cursus/bachelor-developpement-web.md
+    - cursus/bachelor-community-management.md
+    - cursus/master-expert-digital.md
   - icon: "/uploads/icn-obj.png"
     placeholder: L'objet de votre message*
     type: text
