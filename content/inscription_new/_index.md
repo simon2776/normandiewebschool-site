@@ -27,20 +27,6 @@ form:
     Au cours de ce rendez-vous, vous réaliserez un test de culture numérique et vous passerez un entretien individuel avec un membre de l'équipe pédagogique.
     Une réponse vous sera donnée dans les plus brefs délais.
   input:
-  - icon: ''
-    placeholder: Filière NWS souhaitéé
-    type: list
-    required: true
-    name: ''
-    width: ''
-    padding: ''
-    filieres:
-    - cursus/bachelor-marketing-digital.md
-    - cursus/bachelor-communication-visuelle.md
-    - cursus/bachelor-developpement-web.md
-    - cursus/bachelor-community-management.md
-    - cursus/master-expert-digital.md
-    list: []
   - icon: "/uploads/icn-user.png"
     placeholder: Votre nom de famille
     type: text
@@ -85,6 +71,20 @@ form:
     width: "50"
     padding: ''
     filieres: []
+    list: []
+  - icon: ''
+    placeholder: Filière NWS souhaitéé
+    type: list
+    required: true
+    name: ''
+    width: ''
+    padding: ''
+    filieres:
+    - cursus/bachelor-marketing-digital.md
+    - cursus/bachelor-communication-visuelle.md
+    - cursus/bachelor-developpement-web.md
+    - cursus/bachelor-community-management.md
+    - cursus/master-expert-digital.md
     list: []
   - icon: "/uploads/icn-obj.png"
     placeholder: L'objet de votre message*
