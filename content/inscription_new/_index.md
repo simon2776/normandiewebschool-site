@@ -19,6 +19,7 @@ documents:
   format: PDF
   link: "/uploads/plaquette-nws-generale.pdf"
   document: "/uploads/plaquette-nws-generale.pdf"
+  category: ''
 form:
   title: Candidatez sur le site
   subtitle: |-
@@ -26,6 +27,14 @@ form:
     Au cours de ce rendez-vous, vous réaliserez un test de culture numérique et vous passerez un entretien individuel avec un membre de l'équipe pédagogique.
     Une réponse vous sera donnée dans les plus brefs délais.
   input:
+  - icon: ''
+    placeholder: ''
+    type: list
+    required: true
+    name: ''
+    width: ''
+    padding: ''
+    filieres: []
   - icon: "/uploads/icn-user.png"
     placeholder: Votre nom de famille
     type: text
@@ -33,6 +42,7 @@ form:
     name: last_name
     width: "50"
     padding: pr-lg-1
+    filieres: []
   - icon: "/uploads/icn-user.png"
     placeholder: Votre prénom
     type: text
@@ -40,6 +50,7 @@ form:
     name: first_name
     width: "50"
     padding: pl-lg-1
+    filieres: []
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
@@ -47,6 +58,7 @@ form:
     name: email
     width: "50"
     padding: pr-lg-1
+    filieres: []
   - icon: "/uploads/icn-mail.png"
     placeholder: Confirmer votre adresse e-mail*
     type: email
@@ -54,6 +66,7 @@ form:
     name: email_confirmation
     width: "50"
     padding: pl-lg-1
+    filieres: []
   - icon: "/uploads/icn-phone.png"
     placeholder: Votre numéro de téléphone
     type: phone
@@ -61,13 +74,7 @@ form:
     name: phone
     width: "50"
     padding: ''
-  - icon: ''
-    placeholder: Filière  NWS souhaitée
-    type: liste déroulante
-    required: false
-    name: ''
-    width: ''
-    padding: ''
+    filieres: []
   - icon: "/uploads/icn-obj.png"
     placeholder: L'objet de votre message*
     type: text
@@ -76,6 +83,7 @@ form:
     width: "100"
     className: w-lg-50
     padding: ''
+    filieres: []
   - icon: "/uploads/icn-msg.png"
     placeholder: Votre message*
     textarea: true
@@ -84,6 +92,7 @@ form:
     width: "100"
     type: ''
     padding: ''
+    filieres: []
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
       exploitées dans le cadre d'apport d'information concernant les formations proposées
