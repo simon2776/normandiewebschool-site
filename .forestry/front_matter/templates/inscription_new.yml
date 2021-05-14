@@ -34,18 +34,16 @@ fields:
   name: documents
   label: documents
   fields:
-  - type: boolean
-    name: enable
-    label: enable
-    type: select
+  - type: select
     name: category
     label: Category
     description: Select a category for this page
     hidden: false
-    config:
+    config: 
     source:
       type: custom
-    options: [Array]
+    options:
+    - Array
   - type: text
     name: title
     label: title
@@ -77,6 +75,16 @@ fields:
   - type: textarea
     name: subtitle
     label: subtitle
+  - name: filiere_nws_souhaitee_
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: filieres
+    label: 'Filière NWS souhaitée '
   - type: field_group_list
     name: input
     label: input
