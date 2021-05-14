@@ -39,11 +39,10 @@
                               {{ with .Site.GetPages "page" .Params.related_page }}
                         name={{.name}}
                        title={{ .Title }}
-                          <p>{{ .Summary }}</p>
-                                                                 
+                          <p>{{ .Summary }}</p>                                         
                     />
                   </div>
-                  {{end}} {{end}} {{if .textarea}}
+                  {{end}} {{if .textarea}}
                   <div class="input-icon mb-3 position-relative">
                     <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
                     <textarea
