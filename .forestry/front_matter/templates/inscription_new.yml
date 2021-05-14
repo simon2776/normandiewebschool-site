@@ -82,20 +82,6 @@ fields:
     - type: file
       name: icon
       label: icon
-    - name: list
-      type: list
-      config:
-        use_select: true
-        min: 
-        max: 
-        source:
-          type: pages
-          section: filieres
-      label: list
-      hidden: false
-      showOnly:
-        field: required
-        value: true
     - type: text
       name: placeholder
       label: placeholder
