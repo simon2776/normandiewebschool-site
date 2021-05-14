@@ -110,7 +110,7 @@ fields:
           type: documents
           section: filieres
       label: list
-      hidden: false
+      hidden: true
       showOnly:
         field: required
   - type: field_group_list
