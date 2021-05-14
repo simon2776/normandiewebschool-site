@@ -34,7 +34,12 @@ form:
     name: ''
     width: ''
     padding: ''
-    filieres: []
+    filieres:
+    - cursus/bachelor-marketing-digital.md
+    - cursus/bachelor-communication-visuelle.md
+    - cursus/bachelor-developpement-web.md
+    - cursus/bachelor-community-management.md
+    - cursus/master-expert-digital.md
   - icon: "/uploads/icn-user.png"
     placeholder: Votre nom de famille
     type: text
