@@ -19,6 +19,7 @@ documents:
   format: PDF
   link: "/uploads/plaquette-nws-generale.pdf"
   document: "/uploads/plaquette-nws-generale.pdf"
+  category: ''
 form:
   title: Candidatez sur le site
   subtitle: |-
@@ -33,6 +34,8 @@ form:
     name: last_name
     width: "50"
     padding: pr-lg-1
+    filieres: []
+    list: []
   - icon: "/uploads/icn-user.png"
     placeholder: Votre prénom
     type: text
@@ -40,6 +43,8 @@ form:
     name: first_name
     width: "50"
     padding: pl-lg-1
+    filieres: []
+    list: []
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
@@ -47,6 +52,8 @@ form:
     name: email
     width: "50"
     padding: pr-lg-1
+    filieres: []
+    list: []
   - icon: "/uploads/icn-mail.png"
     placeholder: Confirmer votre adresse e-mail*
     type: email
@@ -54,6 +61,8 @@ form:
     name: email_confirmation
     width: "50"
     padding: pl-lg-1
+    filieres: []
+    list: []
   - icon: "/uploads/icn-phone.png"
     placeholder: Votre numéro de téléphone
     type: phone
@@ -61,6 +70,27 @@ form:
     name: phone
     width: "50"
     padding: ''
+    filieres: []
+    list: []
+  - icon: ''
+    placeholder: Filière NWS souhaitéé
+    type: list
+    required: true
+    name: ''
+    width: ''
+    padding: ''
+    filieres:
+    - cursus/bachelor-marketing-digital.md
+    - cursus/bachelor-communication-visuelle.md
+    - cursus/bachelor-developpement-web.md
+    - cursus/bachelor-community-management.md
+    - cursus/master-expert-digital.md
+    list:
+    - cursus/bachelor-marketing-digital.md
+    - cursus/bachelor-communication-visuelle.md
+    - cursus/bachelor-developpement-web.md
+    - cursus/bachelor-community-management.md
+    - cursus/master-expert-digital.md
   - icon: "/uploads/icn-obj.png"
     placeholder: L'objet de votre message*
     type: text
@@ -69,6 +99,8 @@ form:
     width: "100"
     className: w-lg-50
     padding: ''
+    filieres: []
+    list: []
   - icon: "/uploads/icn-msg.png"
     placeholder: Votre message*
     textarea: true
@@ -77,6 +109,8 @@ form:
     width: "100"
     type: ''
     padding: ''
+    filieres: []
+    list: []
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
       exploitées dans le cadre d'apport d'information concernant les formations proposées
