@@ -75,19 +75,6 @@ fields:
   - type: textarea
     name: subtitle
     label: subtitle
-  - name: filiere
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: filieres
-        file: 
-        path: 
-    label: Filiere
-    hidden: false
   - type: field_group_list
     name: input
     label: input
