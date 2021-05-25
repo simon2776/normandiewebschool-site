@@ -107,7 +107,7 @@ fields:
         required: false
         options: []
         source:
-          type: documents
+          type: pages
           section: filieres
           file: 
           path: 
