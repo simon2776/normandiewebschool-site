@@ -78,7 +78,7 @@ form:
     list: []
     filiere: ''
   - icon: ''
-    placeholder: Filière NWS souhaitéé
+    placeholder: ''
     type: list
     required: true
     name: ''
