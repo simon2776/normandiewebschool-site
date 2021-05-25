@@ -100,6 +100,18 @@ fields:
     - type: text
       name: padding
       label: padding
+    - name: list
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: filieres
+          file: 
+          path: 
+      label: list
   - type: field_group_list
     name: checkbox
     label: checkbox
@@ -113,16 +125,6 @@ fields:
     - type: text
       name: name
       label: name
-  - name: filiere
-    type: list
-    config:
-      use_select: true
-      min: 
-      max: 
-      source:
-        type: pages
-        section: filieres
-    label: filiere
 - type: text
   name: seo_image
   label: seo_image
