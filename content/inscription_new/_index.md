@@ -78,7 +78,7 @@ form:
     list: []
     filiere: ''
   - icon: ''
-    placeholder: ''
+    placeholder: Filière souhaitée
     type: list
     required: true
     name: ''
