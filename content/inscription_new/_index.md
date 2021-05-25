@@ -132,5 +132,6 @@ form:
   list:
     filiere: cursus/bachelor-marketing-digital.md
 seo_image: ''
+draft: true
 
 ---
