@@ -100,7 +100,7 @@ fields:
     - type: text
       name: padding
       label: padding
-    - name: filiere
+    - name: list
       type: select
       default: []
       config:
@@ -111,11 +111,7 @@ fields:
           section: filieres
           file: 
           path: 
-      label: filiere
-      hidden: false
-      showOnly:
-        field: required
-        value: true
+      label: list
   - type: field_group_list
     name: checkbox
     label: checkbox
