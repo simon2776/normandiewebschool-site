@@ -78,7 +78,7 @@ fields:
     fields:
     - name: filiere
       type: select
-      default: []
+      default: cursus/bachelor-marketing-digital.md
       config:
         required: false
         options: []
@@ -90,6 +90,7 @@ fields:
       label: filiere
       showOnly:
         field: filiere
+        value: cursus/bachelor-marketing-digital.md
     label: list
   - type: textarea
     name: subtitle
