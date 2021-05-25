@@ -87,7 +87,7 @@ fields:
         file: 
         path: 
     label: Filiere
-    hidden: true
+    hidden: false
   - type: field_group_list
     name: input
     label: input
