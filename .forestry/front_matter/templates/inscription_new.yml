@@ -102,16 +102,18 @@ fields:
       label: padding
     - name: list
       type: select
-      default: []
+      default: ''
       config:
         required: true
         options: []
         source:
-          type: pages
+          type: simple
           section: filieres
           file: 
           path: 
       label: list
+      showOnly:
+        field: list
   - type: field_group_list
     name: checkbox
     label: checkbox
