@@ -129,6 +129,8 @@ form:
       des publications à portée commerciale.
     required: false
     name: newsletter
+  list:
+    filiere: cursus/bachelor-marketing-digital.md
 seo_image: ''
 
 ---
