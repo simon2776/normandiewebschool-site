@@ -82,8 +82,8 @@ fields:
       required: true
       options: []
       source:
-        type: simple
-        section: 
+        type: pages
+        section: filieres
         file: 
         path: 
     label: list
