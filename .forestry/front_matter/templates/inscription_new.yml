@@ -94,6 +94,8 @@ fields:
           file: 
           path: 
       label: list
+      showOnly:
+        field: list
     - type: text
       name: placeholder
       label: placeholder
