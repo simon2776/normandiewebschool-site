@@ -89,10 +89,10 @@ fields:
         required: false
         options: []
         source:
-          type: pages
+          type: documents
           section: filieres
-          file: 
-          path: 
+          file: content/cursus/bachelor-marketing-digital.md
+          path: profession
       label: list
       showOnly:
         field: list
