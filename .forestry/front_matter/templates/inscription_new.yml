@@ -72,6 +72,25 @@ fields:
   - type: text
     name: title
     label: title
+  - name: list
+    type: field_group
+    config: {}
+    fields:
+    - name: filiere
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: filieres
+          file: 
+          path: 
+      label: filiere
+      showOnly:
+        field: filiere
+    label: list
   - type: textarea
     name: subtitle
     label: subtitle
@@ -100,23 +119,6 @@ fields:
     - type: text
       name: padding
       label: padding
-  - name: list
-    type: field_group
-    config: {}
-    fields:
-    - name: filiere
-      type: select
-      default: []
-      config:
-        required: false
-        options: []
-        source:
-          type: pages
-          section: filieres
-          file: 
-          path: 
-      label: filiere
-    label: list
   - type: field_group_list
     name: checkbox
     label: checkbox
