@@ -114,6 +114,7 @@ fields:
       label: list
       showOnly:
         field: list
+      hidden: true
   - type: field_group_list
     name: checkbox
     label: checkbox
