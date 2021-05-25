@@ -82,6 +82,18 @@ fields:
     - type: file
       name: icon
       label: icon
+    - name: list
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: filieres
+          file: 
+          path: 
+      label: list
     - type: text
       name: placeholder
       label: placeholder
@@ -100,18 +112,6 @@ fields:
     - type: text
       name: padding
       label: padding
-    - name: list
-      type: select
-      default: []
-      config:
-        required: false
-        options: []
-        source:
-          type: pages
-          section: filieres
-          file: 
-          path: 
-      label: list
   - type: field_group_list
     name: checkbox
     label: checkbox
