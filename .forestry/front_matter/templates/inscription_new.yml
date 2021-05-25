@@ -75,6 +75,18 @@ fields:
   - type: textarea
     name: subtitle
     label: subtitle
+  - name: list
+    type: select
+    default: ''
+    config:
+      required: true
+      options: []
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: list
   - type: field_group_list
     name: input
     label: input
@@ -113,18 +125,6 @@ fields:
     - type: text
       name: name
       label: name
-  - name: list
-    type: select
-    default: ''
-    config:
-      required: true
-      options: []
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: list
 - type: text
   name: seo_image
   label: seo_image
