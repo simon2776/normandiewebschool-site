@@ -86,16 +86,17 @@ fields:
       type: select
       default: []
       config:
-        required: false
+        required: true
         options: []
         source:
-          type: documents
+          type: pages
           section: filieres
-          file: content/cursus/bachelor-marketing-digital.md
-          path: profession
+          file: 
+          path: ''
       label: list
       showOnly:
-        field: list
+        field: required
+        value: true
     - type: text
       name: placeholder
       label: placeholder
