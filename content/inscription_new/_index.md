@@ -96,7 +96,7 @@ form:
     - cursus/bachelor-developpement-web.md
     - cursus/bachelor-community-management.md
     - cursus/master-expert-digital.md
-    filiere: cursus/bachelor-community-management.md
+    filiere: ''
   - icon: "/uploads/icn-obj.png"
     placeholder: L'objet de votre message*
     type: text
