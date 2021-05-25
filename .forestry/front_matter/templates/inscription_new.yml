@@ -113,6 +113,9 @@ fields:
           path: 
       label: filiere
       hidden: false
+      showOnly:
+        field: required
+        value: true
   - type: field_group_list
     name: checkbox
     label: checkbox
