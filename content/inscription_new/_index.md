@@ -80,7 +80,7 @@ form:
   - icon: ''
     placeholder: Filière souhaitée
     type: list
-    required: true
+    required: false
     name: ''
     width: ''
     padding: ''
