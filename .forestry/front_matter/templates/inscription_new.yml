@@ -102,9 +102,9 @@ fields:
       label: padding
     - name: list
       type: select
-      default: []
+      default: ''
       config:
-        required: false
+        required: true
         options: []
         source:
           type: documents
@@ -112,6 +112,8 @@ fields:
           file: 
           path: 
       label: list
+      showOnly:
+        field: list
   - type: field_group_list
     name: checkbox
     label: checkbox
