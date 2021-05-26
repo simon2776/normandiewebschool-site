@@ -112,6 +112,21 @@ fields:
     - type: text
       name: padding
       label: padding
+    - name: list
+      type: select
+      default: ''
+      config:
+        required: true
+        options: []
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: list
+      showOnly:
+        field: required
+        value: true
   - type: field_group_list
     name: checkbox
     label: checkbox
