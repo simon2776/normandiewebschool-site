@@ -4,19 +4,32 @@
 
   {{ partial "components/page-title" (dict "context" . "title" .Title ) }}
 
-  <section class="bg-lightgrey pb-4 pt-lg-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 class="font-tertiary mb-5">{{.Title}}</h1>
-	        <p class="subtitle is-size-6 has-text-grey-light">
-            <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
-            </p>
-            <div class="content">
-            {{.Content }}
+<section class="bg-lightgrey pb-4 pt-lg-5" id="introduction">
+  <div class="container pt-lg-3">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-8 col-md-12">
+              <div
+                class="card-header"
+              >
+                <h3 class="mb-0 title-medium color-blue separator-left">{{.title}}</h3>
+              </div>
+              <div>
+		<p class="subtitle is-size-6 has-text-grey-light">
+		<time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
+            	</p>
+                <div class="card-body">
+                  <p class=mb-0>{{.content | safeHTML}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 {{ end }}
