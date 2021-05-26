@@ -11,10 +11,7 @@
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 {{ if .Params.documents.enable }}
 
-           			<h3 class="section-subheading">{{ with .Site.Params.contact.subtitle }}{{ . | markdownify }}{{ end }}</h3>
-           			<br>
-            			</div>
-		   		  </div>
+					<section class="bg-lightgrey pb-4">
 		       			<div class="col-md-6 col-md-offset-3 text-left">
 		          		  <form  action="https://hooks.zapier.com/hooks/..." method="POST" name="sentMessage" id="contactForm">
 				            <div class="form-group">
