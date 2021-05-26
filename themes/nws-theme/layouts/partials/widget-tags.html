@@ -3,9 +3,8 @@
         <h5 class="text-align: center">Sur le même thème</h5>
         <div class="tags">
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-            <span class="tag" class="text-align: center"><a href="{{ "tags" | absURL }}/{{ $name | urlize }}">{{ $name }}</a></br></span>
+            <span class="text-align: center"><a href="{{ "tags" | absURL }}/{{ $name | urlize }}">{{ $name }}</a></br></span>
         {{ end }}
         </div>  
-      
-    </div>
+     </div>
 </div>
