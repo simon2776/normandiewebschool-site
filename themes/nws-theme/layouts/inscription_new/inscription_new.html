@@ -9,23 +9,21 @@
 </section>
 <!-- /hero area -->
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
-
 {{ if .Params.documents.enable }}
-
 
            			<h3 class="section-subheading">{{ with .Site.Params.contact.subtitle }}{{ . | markdownify }}{{ end }}</h3>
            			<br>
-            </div>
-		    </div>
-		        <div class="col-md-6 col-md-offset-3 text-left">
-		            <form  action="https://hooks.zapier.com/hooks/..." method="POST" name="sentMessage" id="contactForm">
+            			</div>
+		   		  </div>
+		       			<div class="col-md-6 col-md-offset-3 text-left">
+		          		  <form  action="https://hooks.zapier.com/hooks/..." method="POST" name="sentMessage" id="contactForm">
 				            <div class="form-group">
 				              		<input type="hidden" name="_subject" value="Form sent from page: {{ .RelPermalink }}">
 				            	</div>
-		                <div class="form-group">
-		                    <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ .  | markdownify }}{{ end }}" name="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . | markdownify}}{{ end }}">
-		                    <p class="help-block text-danger"></p>
-		                </div>
+		                     <div class="form-group">
+		                      <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ .  | markdownify }}{{ end }}" name="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . | markdownify}}{{ end }}">
+		                      <p class="help-block text-danger"></p>
+		                   </div>
 		                <div class="form-group">
 		                    <input type="email" class="form-control" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . | markdownify }}{{ end }}" name="email" required data-validation-required-message="{{ with .Site.Params.contact.form.email.warning }}{{ . | markdownify }}{{ end }}">
 		                    <p class="help-block text-danger"></p>
