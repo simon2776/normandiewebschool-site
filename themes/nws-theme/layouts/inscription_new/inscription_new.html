@@ -64,16 +64,7 @@
                         <label class="form-check-label" for="checkbox-{{$index}}"
                           >{{.content}}</label
                         >
-                       <input 
-                         type="select-field"
-                         <ul>
-                           {{ range .Pages }}
-                           <li>
-                           <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-                           </li>
-                           {{ end }}
-                        </ul>
-                      />
+                       <input
                       </div>
                       {{end}}
                     </div>
