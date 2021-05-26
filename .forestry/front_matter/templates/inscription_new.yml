@@ -113,8 +113,8 @@ fields:
           path: 
       label: list
       showOnly:
-        field: required
-        value: false
+        field: list
+        value: true
   - type: field_group_list
     name: checkbox
     label: checkbox
