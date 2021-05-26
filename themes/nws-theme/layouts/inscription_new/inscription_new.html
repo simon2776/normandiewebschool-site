@@ -43,6 +43,21 @@
 		                    <textarea class="form-control" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . | markdownify }}{{ end }}" name="message" required data-validation-required-message="{{ with .Site.Params.contact.form.message.warning }}{{ . | markdownify }}{{ end }}"></textarea>
 		                    <p class="help-block text-danger"></p>
 		                </div>
+			  	 {{range $index, $el := .checkbox}}
+                     		 <div class="form-check pb-3">
+                       		 <input
+                        	  type="checkbox"
+                         	 class="form-check-input"
+                        	  id="checkbox-{{$index}}"
+                         	 name="{{.name}}"
+                         	 {{ if .required | eq true }} required="true" {{ end }}
+                       			 />
+                        <label class="form-check-label" for="checkbox-{{$index}}"
+                          >{{.content}}</label
+                        >
+                      </div>
+                      {{end}}
+                    </div>
 		                <div class="clearfix"></div>
 		                <div class="col-lg-12 text-center">
 		                    <div id="success">{{ with .Site.Params.contact.success }}{{ . | markdownify }}{{ end }}</div>
