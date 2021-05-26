@@ -5,6 +5,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
+
+		    {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
+		    {{ if .Params.documents.enable }}
+
+
            			<h3 class="section-subheading">{{ with .Site.Params.contact.subtitle }}{{ . | markdownify }}{{ end }}</h3>
            			<br>
             </div>
