@@ -75,18 +75,6 @@ fields:
   - type: textarea
     name: subtitle
     label: subtitle
-  - name: list
-    type: select
-    default: ''
-    config:
-      required: true
-      options: []
-      source:
-        type: pages
-        section: filieres
-        file: 
-        path: 
-    label: list
   - type: field_group_list
     name: input
     label: input
@@ -126,7 +114,7 @@ fields:
       label: list
       showOnly:
         field: required
-        value: true
+        value: false
   - type: field_group_list
     name: checkbox
     label: checkbox
