@@ -36,6 +36,7 @@ form:
     padding: pr-lg-1
     filieres: []
     list: []
+    filiere: ''
   - icon: "/uploads/icn-user.png"
     placeholder: Votre prénom
     type: text
@@ -45,6 +46,7 @@ form:
     padding: pl-lg-1
     filieres: []
     list: []
+    filiere: ''
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
@@ -54,6 +56,7 @@ form:
     padding: pr-lg-1
     filieres: []
     list: []
+    filiere: ''
   - icon: "/uploads/icn-mail.png"
     placeholder: Confirmer votre adresse e-mail*
     type: email
@@ -63,6 +66,7 @@ form:
     padding: pl-lg-1
     filieres: []
     list: []
+    filiere: ''
   - icon: "/uploads/icn-phone.png"
     placeholder: Votre numéro de téléphone
     type: phone
@@ -72,8 +76,9 @@ form:
     padding: ''
     filieres: []
     list: []
+    filiere: ''
   - icon: ''
-    placeholder: Filière NWS souhaitéé
+    placeholder: Filière souhaitée
     type: list
     required: true
     name: ''
@@ -91,6 +96,7 @@ form:
     - cursus/bachelor-developpement-web.md
     - cursus/bachelor-community-management.md
     - cursus/master-expert-digital.md
+    filiere: ''
   - icon: "/uploads/icn-obj.png"
     placeholder: L'objet de votre message*
     type: text
@@ -101,6 +107,7 @@ form:
     padding: ''
     filieres: []
     list: []
+    filiere: ''
   - icon: "/uploads/icn-msg.png"
     placeholder: Votre message*
     textarea: true
@@ -111,6 +118,7 @@ form:
     padding: ''
     filieres: []
     list: []
+    filiere: ''
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
       exploitées dans le cadre d'apport d'information concernant les formations proposées
@@ -121,6 +129,8 @@ form:
       des publications à portée commerciale.
     required: false
     name: newsletter
+  list:
+    filiere: cursus/bachelor-marketing-digital.md
 seo_image: ''
 
 ---
