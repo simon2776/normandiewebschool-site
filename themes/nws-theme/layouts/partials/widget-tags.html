@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-content">
-        <h5 class="title is-5">Sur le même thème</h5>
+        <h3 class="title-medium color-orange">Sur le même thème</h3>
         <div class="tags">
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
             <span class="tag"><a href="{{ "tags" | absURL }}/{{ $name | urlize }}">{{ $name }}</a></span>
