@@ -10,9 +10,6 @@
 
 {{ range $key, $value := .Site.Taxonomies.archives.title }}{{ if eq $key $archive }}{{ range $value.Pages }}
 
-{{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image  ) }}
-{{ end }}
-
                 <article class="media">
                     <div class="media-content">
                         <div class="content">
