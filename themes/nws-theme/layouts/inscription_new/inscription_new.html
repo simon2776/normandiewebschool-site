@@ -57,12 +57,16 @@
                         >
                       </div>
                       {{end}}
+                    <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                      <button
+                        type="submit"
+                        class="btn font-weight-medium color-blue py-3 px-5"
+                      >
+                        Envoyer le message
+                      </button>
                     </div>
-		                <div class="clearfix"></div>
-		                <div class="col-lg-12 text-center">
-		                    <div id="success">{{ with .Site.Params.contact.success }}{{ . | markdownify }}{{ end }}</div>
-		                    <input type="submit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="btn btn-primary btn-xl">
-		                </div>
+                  </div>
                 </form>
             </div>
         </div>
