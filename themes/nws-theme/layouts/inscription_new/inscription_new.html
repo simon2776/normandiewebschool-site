@@ -11,12 +11,17 @@
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 {{ if .Params.documents.enable }}
 
-					<section class="bg-lightgrey pb-4">
-		       			<div class="col-md-6 col-md-offset-3 text-left">
-		          		  <form  action="https://hooks.zapier.com/hooks/..." method="POST" name="sentMessage" id="contactForm">
-				            <div class="form-group">
-				              		<input type="hidden" name="_subject" value="Form sent from page: {{ .RelPermalink }}">
-				            	</div>
+<section class="bg-lightgrey pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        {{ with .Params.form }}
+        <div class="card second-push-top">
+            <div class="card-header">
+              <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
+            </div>
+            <p class="pt-3 m-0">{{.subtitle}}</p>
+          <div>
 		                     <div class="form-group">
 		                      <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ .  | markdownify }}{{ end }}" name="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . | markdownify}}{{ end }}">
 		                      <p class="help-block text-danger"></p>
@@ -46,6 +51,8 @@
             </div>
         </div>
     </div>
+</div>
+	  
 </section>
 
 <script src="https://www.google.com/recaptcha/api.js?render=6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs"></script>
