@@ -19,8 +19,8 @@
 		<p class="subtitle is-size-6 has-text-grey-light">
 		<time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
             	</p>
-                <div class="card-body">
-                  <p class=mb-0>{{.content | safeHTML}}</p>
+           	 <div class="content">
+            	{{.Content }}
                 </div>
               </div>
             </div>
