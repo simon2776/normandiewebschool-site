@@ -12,6 +12,9 @@
           <div class="row">
             <div class="col-md-12">
                 <div class="content">
+                  <p class="subtitle is-size-6 has-text-grey-light">
+                  <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                  </p>
                   <p class=mb-0>{{.Content | safeHTML}}</p>
                 </div>
             </div>
