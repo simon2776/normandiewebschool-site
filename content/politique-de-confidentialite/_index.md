@@ -49,9 +49,5 @@ noindex: true
 title: Politique de confidentialité
 description: ''
 seo_image: ''
-menu:
-  main:
-    name: Blog
-    weight: 11
 
 ---
