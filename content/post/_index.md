@@ -67,10 +67,10 @@ financement:
 date: ''
 image: ''
 menu:
-  top:
-    weight: 5
   main:
     name: Nos spécialisations
     weight: 2
+  top:
+    weight: 5
 
 ---
