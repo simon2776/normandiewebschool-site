@@ -5,12 +5,6 @@
 
 {{ partial "components/page-title" (dict "context" . "title" .Title ) }}
 
-{{ if .Params.about.enable }}
-    <!-- about -->
-    {{ partial "components/page-introduction-up" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image ) }}
-{{ end }}
-    <!-- /about -->
-
 {{ range $key, $value := .Site.Taxonomies.archives }}{{ if eq $key $archive }}{{ range $value.Pages }}
 
 <section class="pb-4 bg-lightgrey">
