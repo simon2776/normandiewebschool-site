@@ -68,8 +68,7 @@ date: ''
 image: ''
 menu:
   main:
-    name: Blog
-    weight: 7
+    weight: 11
   top:
     weight: 5
 

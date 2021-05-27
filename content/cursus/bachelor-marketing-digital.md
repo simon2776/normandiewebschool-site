@@ -223,6 +223,6 @@ menu:
   main:
     name: Bachelor Web Marketing
     parent: Nos spécialisations
-    weight: 1
+    weight: 2
 
 ---
