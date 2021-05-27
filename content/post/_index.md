@@ -5,9 +5,9 @@ description: L’admission se fait en dehors de Parcours Sup. Pas de frais pour 
   du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
   le 20 juillet 2021.
 banner:
-  title: Le blog de la school
+  title: Les actualités NWS
   title-line-twho: ''
-  subtitle: Retrouvez ici nos différents articles
+  subtitle: Retrouvez ici nos différents articles (projets, événements, interviews...)
   image: "/uploads/Blog_NWS.jpg"
 about:
   enable: true
