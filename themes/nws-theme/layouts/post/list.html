@@ -10,32 +10,33 @@
 
 {{ range $key, $value := .Site.Taxonomies.archives.title }}{{ if eq $key $archive }}{{ range $value.Pages }}
 
-                <article class="media">
-                  <section class="pb-4 bg-lightgrey">
+<article class="media">
+ <section class="pb-4 bg-lightgrey">
   <div class="container">
     <div class="row">
       <div class="col-md-12 second-push-top">
         <div class="card">
           <div class="row">
             <div class="col-md-12">
-                    <div class="media-content">
-                        <div class="content">
+              <div class="media-content">
+                 <div class="content">
                                 <p class=" subtitle is-size-7 has-text-grey-light">
                                 Published at {{ .Date.Format "2006-01-02" }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
                                 </p>
                                 <p>{{ .Summary }}...</p>
                                 <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
-                        </div>
-                    </div>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-   </div>
-                  </section>
-                </article>
-                <br>
+    </div>
+  </div>
+  </section>
+</article>
+<br>
 
 {{ end }}{{ end }}{{ end }}
 <section class="bg-lightgrey clip-bottom-white recrutement pt-5" id="recrutement" >
