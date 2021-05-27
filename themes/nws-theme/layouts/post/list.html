@@ -25,23 +25,24 @@
 <br>
 
 {{ end }}{{ end }}{{ end }}
+
 <section class="pb-4 bg-lightgrey">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 second-push-top">
-        <div class="card">
+    <div class="col-12 col-lg-8 mt-5 mt-lg-0 order-2 order-lg-1">
+        <div class="card second-push-top">
           <div class="row">
-                 <div class="col-md-12 col-lg-8 mb-4">
+                <div class="col-md-12 col-lg-8 mb-4">
                         {{ partial "widget-recent.html" . }}
-                 </div>
-                   <div class="col-md-12 col-lg-4 mb-4">
+                </div>
+                <div class="col-md-12 col-lg-4 mb-4">
                        {{ partial "widget-archives.html" . }}
-                   </div>
+                </div>
 
           </div>
         </div>
-      </div>
     </div>
-  </br>
+    </div>
+  </div>
 </section>
 {{ end }}
