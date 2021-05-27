@@ -68,7 +68,7 @@ date: ''
 image: ''
 menu:
   main:
-    weight: 11
+    weight: 7
   top:
     weight: 5
 

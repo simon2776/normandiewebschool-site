@@ -216,13 +216,13 @@ testimonials:
   filter:
   - design
 menu:
+  main:
+    name: Bachelor Web Design
+    parent: Nos spécialisations
+    weight: 3
   desktop:
     name: Bachelor Web Design
     parent: Nos spécialisations
     weight: 3
-  main:
-    name: Bachelor Web Design
-    parent: Nos spécialisations
-    weight: 4
 
 ---

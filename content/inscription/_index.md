@@ -91,6 +91,6 @@ menu:
     weight: 5
   main:
     name: Déposer votre candidature
-    weight: 14
+    weight: 10
 
 ---

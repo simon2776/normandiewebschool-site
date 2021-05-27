@@ -116,13 +116,13 @@ testimonials:
   - design
 seo_image: ''
 menu:
-  desktop:
+  main:
     name: Bachelor Community Management
     weight: 4
     parent: Nos spécialisations
-  main:
+  desktop:
     name: Bachelor Community Management
-    weight: 6
+    weight: 4
     parent: Nos spécialisations
 
 ---
