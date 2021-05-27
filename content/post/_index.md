@@ -8,7 +8,7 @@ banner:
   title: Le blog de la school
   title-line-twho: ''
   subtitle: Retrouvez ici nos différents articles
-  image: uploads/cursus-initial.jpg
+  image: "/uploads/Blog_NWS.jpg"
 about:
   enable: true
   title: Les différentes étapes
