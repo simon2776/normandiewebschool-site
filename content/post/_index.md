@@ -68,8 +68,8 @@ date: ''
 image: ''
 menu:
   main:
-    name: Nos spécialisations
-    weight: 2
+    name: Blog
+    weight: 7
   top:
     weight: 5
 
