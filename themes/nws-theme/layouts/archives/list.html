@@ -1,12 +1,9 @@
 {{ define "main" }}
 {{ $archive := lower .Title }}
 
-  <!-- hero area -->
-  <section class="hero-area overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
-  </section>  
-  <!-- /hero area -->
+{{ partial "page-title.html" . }}
 
-{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
+{{ partial "components/page-title" (dict "context" . "title" .Title ) }}
 
 {{ if .Params.about.enable }}
     <!-- about -->
@@ -15,6 +12,14 @@
     <!-- /about -->
 
 {{ range $key, $value := .Site.Taxonomies.archives }}{{ if eq $key $archive }}{{ range $value.Pages }}
+
+<section class="pb-4 bg-lightgrey">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 second-push-top">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-12">
                 <article class="media">
                     <div class="media-content">
                         <div class="content">
@@ -29,7 +34,15 @@
                         </div>
                     </div>
                 </article>
-                <br>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<br>
+</section>
+
 {{ end }}{{ end }}{{ end }}
             </div>
         </div>
