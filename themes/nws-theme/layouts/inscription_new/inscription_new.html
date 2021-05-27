@@ -49,6 +49,15 @@
                       name="{{.name}}"
                     ></textarea>
                   </div>
+                 <div>
+                <h1>{{ .Title }}</h1>
+                 <ul>
+                <!-- Renders the li.html content view for each content/posts/*.md -->
+                  {{ range .Pages }}
+                  {{ .Render "li"}}
+                  {{ end }}
+                 </ul>
+                 </div>
                   {{end}} {{end}}
                   <div class="row mb-lg-4">
                     <div class="col-lg-8">
