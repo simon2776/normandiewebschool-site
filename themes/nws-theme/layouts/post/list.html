@@ -28,23 +28,25 @@
 
 <section class="pb-4 bg-lightgrey">
   <div class="container">
-      <div class="col-12 col-lg-8 mt-5 mt-lg-0 order-2 order-lg-1">
-        <div class="card second-push-top">
-              <div class="card-body">
+    <div class="row">
+      <div class="col-12 col-lg-8 mt-5 mt-lg-0>
+        <div class="card">
+              <div class="card-body second-push-top">
                 {{ partial "widget-recent.html" . }}
               </div>
         </div>
       </div>
     
-      <div class="col-lg-4 mt-5 mt-lg-0 doc-section order-1 order-lg-2">
-        <div class="card second-push-top">
+      <div class="col-lg-4 mt-5 mt-lg-0">
+        <div class="card">
           <div>
-            <div class="card-body">
+            <div class="card-body second-push-top">
               {{ partial "widget-archives.html" . }}
             </div>
           </div>
         </div>
       </div>
+    </div>
   </div>
 </section>
 
