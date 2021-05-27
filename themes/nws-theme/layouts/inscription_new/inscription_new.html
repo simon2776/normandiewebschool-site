@@ -13,26 +13,7 @@
 {{ if .Params.documents.enable }}
 
 
-<div class="container" id="contact">
-  <div class="row">
-    <div class="col-md-9">
-      <section>
-        {{ .Content }}
-        {{ if isset .Site.Params "email" }}
-        <div role="form" class="contact-form">
-          <form name="contact" id="contact" action="#" class="moodlebox-form" method="post">
-            <div class="control-group">
-              <input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
-            </div>
-            <div class="control-group">
-              <label>{{ i18n "contactName" }}</label><br />
-              <div class="controls">
-                <input type="text" name="name" placeholder="{{ i18n "whatsYourName" }}" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <label>{{ i18n "contactMail" }}</label><br />AAN6zC4CY4GOyV2D_LU1x4CzuHsNs"></script>
+
 <script>
   grecaptcha.ready(function() {
     grecaptcha.execute('6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs', {action: 'homepage'})
