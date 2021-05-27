@@ -1,7 +1,7 @@
 +++
 name = "Aurore Philippe"
 picture = "/uploads/aurore.png"
-role = ""
+role = "Assistante pédagogique"
 weight = 6
 
 +++
