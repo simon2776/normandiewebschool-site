@@ -31,7 +31,7 @@ event:
   - label: Mai 2021
     item:
     - date: 29/05/21
-      name: Table ronde des métiers du numérique
+      name: Table ronde " Tout sur les métiers du numérique"
       localisation: Seine-innopolis
       start: 11h00
       end: 12h00
