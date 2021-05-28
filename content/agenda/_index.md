@@ -35,7 +35,9 @@ event:
       localisation: Seine-innopolis
       start: 11h00
       end: 12h00
-      href: ''
+      href: 'Table ronde "Tout sur les métiers du numérique" Samedi, 29 mai · 11:00am
+        à 12:00pm Informations de connexion Google Meet Lien de l''appel vidéo : https://meet.google.com/syp-ueqe-ngk
+        Ou composez le : ‪(US) +1 413-369-1376‬ CODE : ‪760 204 646‬#'
       image: ''
   - label: Juin 2021
     item: []
