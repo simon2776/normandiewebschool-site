@@ -2,9 +2,9 @@
 title = "Interview Anna GIRAUD"
 description = "Interview alternant Anna GIRAUD"
 tags = [
-    "interview",
-    "nws",
-    "web design",
+    "Interview",
+    "NWS",
+    "Web design",
 ]
 date = "2021-04-25"
 archives = "2021"
