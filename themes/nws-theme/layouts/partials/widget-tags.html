@@ -1,10 +1,9 @@
 <div class="card">
     <div class="card-content">
-        <h5 class="title is-5">Sur le même thème</h5>
-        <div class="tags">
+        <div class="text-center">Sur le même thème :</div>
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-            <span class="tag"><a href="{{ "tags" | absURL }}/{{ $name | urlize }}">{{ $name }}</a></span>
+            <span class="tag"><a href="{{ "tags" | absURL }}/{{ $name | urlize }}">{{ $name }}&nbsp&nbsp;</a></span>
         {{ end }}
-        </div>          
-    </div>
+        </div>  
+     </div>
 </div>

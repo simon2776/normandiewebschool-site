@@ -2,6 +2,7 @@
 name = "Fabien Ghesquière"
 picture = "/uploads/fabien.jpg"
 role = "Alternant chef de projet digital"
-weight = 9
+type = ""
+weight = 10
 
 +++

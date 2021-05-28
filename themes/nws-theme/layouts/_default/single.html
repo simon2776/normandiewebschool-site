@@ -2,19 +2,35 @@
 
   {{ partial "page-title.html" . }}
 
-  <section class="bg-lightgrey pb-4 pt-lg-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 class="font-tertiary mb-5">{{.Title}}</h1>
-	        <p class="subtitle is-size-6 has-text-grey-light">
-            <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
-            </p>
-            <div class="content">
-            {{.Content }}
+  {{ partial "components/page-title" (dict "context" . "title" .Title ) }}
+
+<section class="pb-4 bg-lightgrey">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 second-push-top">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="content">
+                  <p class="subtitle is-size-6 has-text-grey-light">
+                  <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                  </p>
+                  <p class=mb-0>{{.Content | safeHTML}}</p>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+  </br>
+  <div class="container">
+    <div class="row">
+       <div class="col-md-12 d-flex justify-content-center">
+          {{ partial "widget-tags.html" . }}<br>
+       </div>
+    </div>
+  </div>
+</section>
 
 {{ end }}

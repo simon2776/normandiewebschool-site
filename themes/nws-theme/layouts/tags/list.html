@@ -1,12 +1,19 @@
 {{ define "main" }}
-
 {{ $tag := lower .Title }}
 
-<div class="columns">
-    <div class="column is-9">
-        <div class="tile is-child box">
-            <div class="content">
+  {{ partial "page-title.html" . }}
+
+  {{ partial "components/page-title" (dict "context" . "title" .Title ) }}
+
 {{ range $key, $value := .Site.Taxonomies.tags }}{{ if eq $key $tag }}{{ range $value.Pages }}
+
+<section class="pb-4 bg-lightgrey">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 second-push-top">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-12">
                 <article class="media">
                     <div class="media-content">
                         <div class="content">
@@ -24,11 +31,8 @@
             </div>
         </div>
     </div>
-    <div class="column is-3">
-        {{ partial "widget-tags.html" . }}<br>
-        {{ partial "widget-recent.html" . }}<br>
-        {{ partial "widget-archives.html" . }}
-    </div>
 </div>
-
+        </div>
+      </div>
+</section>
 {{ end }}
