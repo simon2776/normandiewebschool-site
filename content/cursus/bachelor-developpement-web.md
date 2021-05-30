@@ -13,7 +13,7 @@ description: " Le codage, l'intégration et la création de plateforme est votre
 banner:
   logo: "/uploads/logo-dev.png"
   title: Filière <span class="font-weight-medium">développement</span>
-  image: "/uploads/marketing.jpg"
+  image: "/uploads/web-dev.jpg"
   description: "<p>Ce cursus prépare au métier de développeur web capable de créer,
     coder et tester des sites Internet et des applications web. La transformation
     digitale des économies fait du développement web une compétences essentielle des
@@ -228,11 +228,11 @@ testimonials:
   filter:
   - dev
 menu:
-  main:
+  desktop:
     name: Bachelor Web Développement
     parent: Nos spécialisations
     weight: 2
-  desktop:
+  main:
     name: Bachelor Web Développement
     parent: Nos spécialisations
     weight: 2

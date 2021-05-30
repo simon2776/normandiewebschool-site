@@ -1,7 +1,8 @@
 +++
 name = "Olivier Richez"
 picture = "/uploads/olivier.png"
-role = ""
+role = "Responsable informatique"
+type = ""
 weight = 7
 
 +++

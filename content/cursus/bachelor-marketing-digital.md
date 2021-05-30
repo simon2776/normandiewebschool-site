@@ -12,7 +12,7 @@ description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et per
 banner:
   logo: "/uploads/logo-marketing.png"
   title: Filière <span class="font-weight-medium"> Web marketing </span>
-  image: uploads/marketing.jpg
+  image: "/uploads/marketing-digital.jpg"
   description: "<p>Le chef de projet Web marketing définit, développe et gère les
     outils numériques destinés au marketing et la communication d’une entreprise ou
     organisation. Il peut aussi travailler en agence de communication digitale. Véritable
@@ -216,11 +216,11 @@ testimonials:
   - marketing
 seo_image: ''
 menu:
-  main:
+  desktop:
     name: Bachelor Web Marketing
     parent: Nos spécialisations
     weight: 1
-  desktop:
+  main:
     name: Bachelor Web Marketing
     parent: Nos spécialisations
     weight: 1
