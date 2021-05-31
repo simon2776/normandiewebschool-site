@@ -26,13 +26,46 @@
 
 {{ end }}{{ end }}{{ end }}
 
+<section class="pb-4 bg-lightgrey">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 second-push-top">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-8 col-md-12">
+              <div class="card-header">
+                <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
+              </div>
+
+              <div>
+                <div class="card-body">
+                  <p class=mb-0>{{.content | safeHTML}}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-none d-lg-flex align-items-center">
+              <img
+                src="{{.image}}"
+                class="d-block mx-auto my-4"
+                style="width: 200px"
+                alt="{{.title}}"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="bg-lightgrey clip-bottom-white recrutement pt-10">
     <div class="container">
         <div class="row row-eq-height">
-                  <div class="col-md-12 col-lg-8 mb-4 second-push-top">
+                  <div class="col-md-12 col-lg-8 mb-4">
                         {{ partial "widget-recent.html" . }}
                  </div>
-                   <div class="col-md-12 col-lg-4 mb-4 second-push-top">
+                   <div class="col-md-12 col-lg-4 mb-4">
                        {{ partial "widget-archives.html" . }}
                    </div>
          </div>
