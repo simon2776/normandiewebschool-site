@@ -20,7 +20,7 @@
                                {{ .Scratch.Set "section_color" }}
                                 {{ range where .Data.Pages}}
                                    <h2>{{ .Title }}</h2>
-                                     <div class="Child Child--{{ $.Scratch.Get section_color}}">
+                                     <div class="Child Child--{{ $.Scratch.Get article_media}}">
                                      […]
                                      <div>
                                 {{ end }}
