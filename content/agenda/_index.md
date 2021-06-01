@@ -29,14 +29,7 @@ event:
     end: 18h45
     href: https://google.com
   - label: Mai 2021
-    item:
-    - date: 29/05/21
-      name: Table ronde " Tout sur les métiers du numérique"
-      localisation: Seine-innopolis
-      start: 11h00
-      end: 12h00
-      href: " https://meet.google.com/syp-ueqe-ngk "
-      image: ''
+    item: []
   - label: Juin 2021
     item:
     - date: 02/06/21
