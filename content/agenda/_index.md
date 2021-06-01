@@ -29,16 +29,44 @@ event:
     end: 18h45
     href: https://google.com
   - label: Mai 2021
-    item:
-    - date: 29/05/21
-      name: Table ronde " Tout sur les métiers du numérique"
-      localisation: Seine-innopolis
-      start: 11h00
-      end: 12h00
-      href: " https://meet.google.com/syp-ueqe-ngk "
-      image: ''
-  - label: Juin 2021
     item: []
+  - label: Juin 2021
+    item:
+    - date: 02/06/21
+      name: Après-midi portes ouvertes de la Normandie Web School 02/06
+      localisation: Seine Innopolis
+      end: 17h00
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-02-06
+      image: "/uploads/logo_nws.svg"
+      start: 15h00
+    - date: 09/06/21
+      name: Après-midi portes ouvertes de la Normandie Web School 09/06
+      localisation: Seine Innopolis
+      start: 15h00
+      end: 17h00
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-09-06
+      image: ''
+    - date: 16/06/21
+      name: Après-midi portes ouvertes de la Normandie Web School 16/06
+      localisation: Seine Innopolis
+      start: 15h00
+      end: 17h00
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-16-06
+      image: ''
+    - date: 23/06/21
+      name: Après-midi portes ouvertes de la Normandie Web School 23/06
+      localisation: Seine Innopolis
+      start: 15h00
+      end: 17h00
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-23-06
+      image: ''
+    - date: 30/06/21
+      name: Après-midi portes ouvertes de la Normandie Web School 30/06
+      localisation: Seine Innopolis
+      start: 15h00
+      end: 17h00
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-30-06
+      image: ''
 L_agenda_de_la_NWS: ''
 Page: ''
 Le_calendrier_des_evenements: ''
