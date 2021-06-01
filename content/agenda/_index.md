@@ -34,11 +34,11 @@ event:
     item:
     - date: 02/06/21
       name: Après-midi portes ouvertes de la Normandie Web School 02/06
-      localisation: Normandie Web School 72 Rue de la République 76140 Le Petit-Quevilly
-      end: '17:00'
+      localisation: Seine Innopolis
+      end: 17h00
       href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-02-06
       image: "/uploads/logo_nws.svg"
-      start: '15:00'
+      start: 15h00
 L_agenda_de_la_NWS: ''
 Page: ''
 Le_calendrier_des_evenements: ''
