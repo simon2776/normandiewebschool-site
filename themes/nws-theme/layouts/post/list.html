@@ -17,19 +17,6 @@
                                 Published at {{ .Date.Format "2006-01-02" }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
                                 </p>
-                               {{ .Scratch.Set "section_color" }}
-                                {{ range where .Data.Pages}}
-                                   <h2>{{ .Title }}</h2>
-                                     <div class="Child Child--{{ $.Scratch.Get section_post}}">
-                                     […]
-                                     <div>
-                                {{ end }}
-                                // Affichera le contenu de section_color.
-
-                                // Alors que…
-                                {{ range where .Data.Pages }}
-                                      {{ partial "post.html" . }}
-                                {{ end }}
                                 <p>{{ .Summary }}...</p>
                                 <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
                  </div>
