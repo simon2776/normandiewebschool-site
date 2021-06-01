@@ -32,6 +32,13 @@ event:
     item: []
   - label: Juin 2021
     item:
+    - date: 16/06/21
+      name: Après-midi portes ouvertes de la Normandie Web School 16/06
+      localisation: Seine Innopolis
+      start: 15h00
+      end: 17h00
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-16-06
+      image: ''
     - date: 09/06/21
       name: Après-midi portes ouvertes de la Normandie Web School 09/06
       localisation: Seine Innopolis
