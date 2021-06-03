@@ -4,27 +4,13 @@
 <div class="card">
                 <h2 class="mb-0 title-medium color-blue separator-left">Dernier article</h2>
         <div id="app">
-                <vue-markdown :source="source"></vue-markdown>
+                <vue-markdown :source="./post/interview_anna_giraud.md"></vue-markdown>
         </div>
 </div>
 
 <script>
     Vue.use(VueMarkdown);
-    new Vue({
-      el: '#app',
-      data() {
-        return {
-          source: 'https://nws-preprod.netlify.app/post/interview_anna_giraud',
-          anchorAttrs: {
-            target: '_blank',
-            rel: 'noopener noreferrer nofollow'
-          }
-        }
-      },
-      mounted () {
-        setInterval(() => {
-          this.source = new Date().toLocaleTimeString();
-        }, 1000);
-      }
+    var vm = new Vue({
+        el: "app"
     });
-  </script>
+</script>
