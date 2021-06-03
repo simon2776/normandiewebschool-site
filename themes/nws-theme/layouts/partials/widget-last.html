@@ -4,13 +4,16 @@
 <div class="card">
                 <h2 class="mb-0 title-medium color-blue separator-left">Dernier article</h2>
         <div id="app">
-                <vue-markdown :source="./post/interview_anna_giraud.md"></vue-markdown>
+                <article />
         </div>
 </div>
 
 <script>
-    Vue.use(VueMarkdown);
-    var vm = new Vue({
-        el: "app"
-    });
+import article from '.post/interview_anna_giraud'
+export default {
+  name: 'app',
+  components: {
+    article
+  }
+}
 </script>
