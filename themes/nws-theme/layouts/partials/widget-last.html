@@ -3,7 +3,7 @@
         <div id="card-content">
              {{ range last 1 (where .Site.RegularPages "Section" "post") }}
                 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                    {{ Summary }}
+                    {{ .Summary }}
                          {{ if .Truncated }}
                          <div>
                          <a href="{{ .RelPermalink }}">Lire la suite…</a>
