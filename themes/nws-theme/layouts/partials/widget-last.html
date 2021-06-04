@@ -1,12 +1,9 @@
 <div class="card">
      <h2 class="mb-0 title-medium color-blue separator-left">Dernier article</h2>
         <div id="card-content">
-          <!-- orders content according to the "lastmod" field in front matter -->
-          {{ range .Pages.ByLastmod }}
-                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
-                    {{.Content}}
-                    <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
-          {{ end }}
+               {{ $lastPost := index (last 1 $allPostsByDate) 0 }}
+               {{ .Title }} &mdash;
+               {{ if eq $lastPost.Permalink $.Permalink }} last-post {{ end }}
+               <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
         </div>
 </div>
