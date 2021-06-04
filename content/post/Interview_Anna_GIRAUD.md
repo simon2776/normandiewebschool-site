@@ -27,7 +27,7 @@ de se réveiller le matin. 
 Je travaille en alternance chez KoalaME, une start-up qui propose de
 simplifier la comptabilité des micro-entrepreneurs, où j\'étais
 auparavant stagiaire mais j\'ai su faire mes preuves et rapidement passé
-au stade d\'alternant, bientôt le CDI. Là-bas, je suis la \"référente\"
+au stade d\'alternant, bientôt le CDI. Je suis la \"référente\"
 du design, une grande partie des choix graphiques passent par moi, mais
 principalement je m\'occupe du site, des vidéos YouTube, du print, du
 design des landing pages, jusqu\'au design des newsletters. Sinon,
