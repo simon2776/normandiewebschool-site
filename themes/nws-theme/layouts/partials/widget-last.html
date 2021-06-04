@@ -8,9 +8,9 @@
                <h4><a href="{{ $lastPost.Permalink }}">{{ $lastPost.Title }}</a></h4>
                {{ if eq $lastPost.Permalink $.Permalink }} last-post {{ end }}
                          {{ $lastPost.Summary }}
-                         {{ if .Truncated }}
+                         {{ if $lastPost.Truncated }}
                          <div>
-                         <a href="{{ .RelPermalink }}">Lire la suite…</a>
+                         <a href="{{ $lastPost.RelPermalink }}">Lire la suite…</a>
                          </div>
                          </br>
                          {{ end }}
