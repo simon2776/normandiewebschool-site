@@ -4,7 +4,7 @@
                {{ $allPosts := where site.RegularPages "Section" "post" }}
                {{ $allPostsByDate := sort $allPosts ".Date" "asc" }}
                {{ $lastPost := index (last 1 $allPostsByDate) 0 }}
-               {{ if eq $lastPost.Permalink $.Permalink }} last-post {{ end }}
+<!--               {{ if eq $lastPost.Permalink $.Permalink }} last-post {{ end }}-->
             
                 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                          {{ .Summary }}
