@@ -3,14 +3,13 @@
         <div id="card-content">
   {{ $allPosts := where site.RegularPages "Type" "posts" }}
   {{ $allPostsByDate := sort $allPosts ".Date" "asc" }}
-
   {{ $firstPost := index (first 1 $allPostsByDate) 0 }}
   {{ $lastPost := index (last 1 $allPostsByDate) 0 }}
-
   {{/* on the single page */}}
   {{ .Title }} &mdash;
-  {{ if eq $firstPost.Permalink $.Permalink }} first-post {{ end }}
   {{ if eq $lastPost.Permalink $.Permalink }} last-post {{ end }}
+                                 {{.Content}}
+             
                <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
         </div>
 </div>
