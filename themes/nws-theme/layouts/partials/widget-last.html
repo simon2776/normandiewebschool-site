@@ -11,6 +11,7 @@
                          <div>
                          <a href="{{ .RelPermalink }}">Lire la suite…</a>
                          </div>
+                         </br>
                          {{ end }}
                     <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
           {{ end }}
