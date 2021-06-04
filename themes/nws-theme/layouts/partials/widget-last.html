@@ -2,12 +2,10 @@
      <h2 class="mb-0 title-medium color-blue separator-left">Dernier article</h2>
         <div id="card-content">
           <!-- orders content according to the "lastmod" field in front matter -->
-          {{ range last 1 .Pages }}
+          {{ range last 2 .Pages }}
                 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
                     {{ .Summary }}
                          {{ if .Truncated }}
-                         <!-- This <div> includes a read more link, but only if the summary is truncated... -->
                          <div>
                          <a href="{{ .RelPermalink }}">Lire la suite…</a>
                          </div>
