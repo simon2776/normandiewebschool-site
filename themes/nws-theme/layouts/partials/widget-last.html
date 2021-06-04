@@ -1,6 +1,7 @@
 <div class="card">
      <h2 class="mb-0 title-medium color-blue separator-left">Dernier article</h2>
         <div id="card-content">
+               {{ with where site.RegularPages "Type" "posts" }}
                {{ $lastPost := index (last 1 $allPostsByDate) 0 }}
                {{ .Title }} &mdash;
                {{ if eq $lastPost.Permalink $.Permalink }} last-post {{ end }}
