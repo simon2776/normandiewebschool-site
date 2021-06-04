@@ -14,6 +14,6 @@
                          </div>
                          </br>
                          {{ end }}
-                    <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Format "02" }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                    <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Format "02" }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
         </div>
 </div>
