@@ -1,6 +1,14 @@
 <div class="card">
                 <h2 class="mb-0 title-medium color-blue separator-left">Dernier article</h2>
         <div id="content">
-        <p class=mb-0>{{.Content | safeHTML}}</p>
+          <ul>
+          <!-- orders content according to the "lastmod" field in front matter -->
+          {{ range .Pages.ByLastmod }}
+              <li>
+              <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+              <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+              </li>
+          {{ end }}
+          </ul>
         </div>
 </div>
