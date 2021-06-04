@@ -21,6 +21,8 @@ celui-ci, j\'ai voulu m\'orienter vers des métiers du secteur du
 numérique qui recrutent, pour avoir un métier qui finalement donne envie
 de se réveiller le matin. 
 
+<!--more-->
+
 **Tu nous parles de ton alternance ?**
 
 Je travaille en alternance chez KoalaME, une start-up qui propose de
