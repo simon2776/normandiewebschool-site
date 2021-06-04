@@ -1,6 +1,9 @@
+<head>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script type="module" src="https://cdn.jsdelivr.net/npm/vue-markdown@2.2.4/dist/vue-markdown.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/vue-markdown@2.2.4/dist/vue-markdown.js"></script>
+</head>
+  
+<body>
 <div class="card">
                 <h2 class="mb-0 title-medium color-blue separator-left">Dernier article</h2>
         <div id="app">
@@ -9,7 +12,7 @@
 </div>
 
 <script>
-import article from './post/interview_anna_giraud'
+import article from './post/interview_anna_giraud.md'
 export default {
   name: 'app',
   components: {
@@ -17,3 +20,4 @@ export default {
   }
 }
 </script>
+</body>
