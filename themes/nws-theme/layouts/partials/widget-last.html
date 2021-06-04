@@ -5,9 +5,9 @@
           <!-- orders content according to the "lastmod" field in front matter -->
           {{ range .Pages.ByLastmod }}
               <li>
-              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+              <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
               <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
-              {{.Content}}
+              {{.Content | safeHTML }}
               <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
               </li>
           {{ end }}
