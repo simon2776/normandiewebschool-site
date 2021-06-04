@@ -6,6 +6,12 @@
                 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                     <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
                     {{ .Summary }}
+                         {{ if .Truncated }}
+                         <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+                         <div>
+                         <a href="{{ .RelPermalink }}">Lire la suite…</a>
+                         </div>
+                         {{ end }}
                     <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
           {{ end }}
         </div>
