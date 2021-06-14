@@ -1,11 +1,11 @@
 {{ define "main" }}
-{{ $tag := lower .Title }}
+{{ $archive := lower .Title }}
 
-  {{ partial "page-title.html" . }}
+{{ partial "page-title.html" . }}
 
-  {{ partial "components/page-title" (dict "context" . "title" .Title ) }}
+{{ partial "components/page-title" (dict "context" . "title" .Title ) }}
 
-{{ range $key, $value := .Site.Taxonomies.tags }}{{ if eq $key $tag }}{{ range $value.Pages }}
+{{ range $key, $value := .Site.Taxonomies.archives }}{{ if eq $key $tag }}{{ range $value.Pages }}
 
 <section class="pb-4 bg-lightgrey">
   <div class="container">
@@ -17,21 +17,28 @@
                 <article class="media">
                     <div class="media-content">
                         <div class="content">
+                          <div class="content">
                             <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
                             <p class="subtitle is-size-6 has-text-grey-light">
-                                Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }} &middot;
+                                <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min de lecture
                             </p>
+                          </div>   
                         </div>
                     </div>
                 </article>
-                <br>
-{{ end }}{{ end }}{{ end }}
+               </div>
             </div>
-        </div>
-    </div>
-</div>
+          </div>
         </div>
       </div>
+    </div>
+<br>
 </section>
+
+{{ end }}{{ end }}{{ end }}
+</div>
+</div>
+</div>
+</div>
 {{ end }}
