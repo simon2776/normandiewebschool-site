@@ -23,24 +23,15 @@
               <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
             </div>
             <p class="pt-3 m-0">{{.subtitle}}</p>
-          <div>
+            
             <div class="card-body">
-
               <div class="card second-push-top subForm">
-                  {{range .item}}
                   <div class="row my-4 d-flex flex-column align-items-center">
-                  <img src="{{.image }}" alt="{{.info}}" class="mb-4">
-                  <h3 class="color-blue w-100 px-4 text-center">  {{ .info | safeHTML }}</h3>
-                  <p class="">{{.subInfo | safeHTML }}</p>
+                  <h3 class="color-blue w-100 px-4 text-center">  {{ Pour toute inscription : 02 79 02 73 78 | safeHTML }}</h3></br>
+                  <p class="">{{ contact@normandiewebschool.fr | safeHTML }}</p>
                   </div>
-                  {{end}}
-                  <div class="col-12 justify-content-center my-4 d-flex">
-                  <a title="{{.inscription_button_text}}" href="{{ .Site.BaseURL }}/inscription/" class="btn font-weight-medium color-blue py-3 px-4">{{.inscription_button_text}}</a>
-          </div>
-        </div>
-               
+              </div>
             </div>
-          </div>
         </div>
         {{end}}
       </div>
