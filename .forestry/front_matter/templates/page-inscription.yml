@@ -113,11 +113,16 @@ fields:
     config:
       maxSize: 64
     label: image
-  - name: text
+  - name: info
     type: text
     config:
       required: false
     label: text
+  - name: subinfo
+    type: text
+    config:
+      required: false
+    label: adresse
   label: Informations d'ouvertur
 pages:
 - content/inscription/_index.md
