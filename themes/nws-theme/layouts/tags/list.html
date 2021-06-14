@@ -1,9 +1,9 @@
 {{ define "main" }}
 {{ $tag := lower .Title }}
 
-  {{ partial "page-title.html" . }}
+{{ partial "page-title.html" . }}
 
-  {{ partial "components/page-title" (dict "context" . "title" .Title ) }}
+{{ partial "components/page-title-theme" (dict "context" . "title" .Title ) }}
 
 {{ range $key, $value := .Site.Taxonomies.tags }}{{ if eq $key $tag }}{{ range $value.Pages }}
 
@@ -17,22 +17,28 @@
                 <article class="media">
                     <div class="media-content">
                         <div class="content">
+                          <div class="content">
                             <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
                             <p class="subtitle is-size-6 has-text-grey-light">
-                                Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }} &middot;
+                                <time class="has-text-grey-light is-size-7">Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min de lecture
                             </p>
-                            <p>{{ .Summary }}...</p>
+                          </div>   
                         </div>
                     </div>
                 </article>
-                <br>
-{{ end }}{{ end }}{{ end }}
+               </div>
             </div>
-        </div>
-    </div>
-</div>
+          </div>
         </div>
       </div>
+    </div>
+<br>
 </section>
+
+{{ end }}{{ end }}{{ end }}
+</div>
+</div>
+</div>
+</div>
 {{ end }}
