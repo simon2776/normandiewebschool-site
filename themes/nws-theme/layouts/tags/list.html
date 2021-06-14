@@ -22,7 +22,6 @@
                                 Publié le {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}&nbsp;{{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }} &middot;
                                 <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min de lecture
                             </p>
-                            <p>{{ .Summary }}...</p>
                         </div>
                     </div>
                 </article>
