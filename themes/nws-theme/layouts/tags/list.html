@@ -5,7 +5,7 @@
 
 {{ partial "components/page-title" (dict "context" . "title" .Title ) }}
 
-{{ range $key, $value := .Site.Taxonomies.archives }}{{ if eq $key $tags }}{{ range $value.Pages }}
+{{ range $key, $value := .Site.Taxonomies.tags }}{{ if eq $key $tag }}{{ range $value.Pages }}
 
 <section class="pb-4 bg-lightgrey">
   <div class="container">
