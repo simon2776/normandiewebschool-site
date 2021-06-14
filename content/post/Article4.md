@@ -1,17 +1,16 @@
 +++
-title = "Interview Anna GIRAUD"
-description = "Interview alternant Anna GIRAUD"
+title = "Article 4 "
+description = "Article 4"
 tags = [
     "Interview",
     "NWS",
     "Web design",
 ]
-date = "2021-04-25"
+date = "2021-06-04"
 archives = "2021"
 +++
 
-**Interview d'Anna GIRAUD, en 3ème année à la NWS filière
-Communication graphique**
+**Article 4**
 
 ![postwidth](/uploads/post/Interview_Anna_Giraud.jpg)
 
@@ -22,19 +21,19 @@ celui-ci, j\'ai voulu m\'orienter vers des métiers du secteur du
 numérique qui recrutent, pour avoir un métier qui finalement donne envie
 de se réveiller le matin. 
 
-<!--more-->
-
 **Tu nous parles de ton alternance ?**
 
 Je travaille en alternance chez KoalaME, une start-up qui propose de
 simplifier la comptabilité des micro-entrepreneurs, où j\'étais
 auparavant stagiaire mais j\'ai su faire mes preuves et rapidement passé
-au stade d\'alternant, bientôt le CDI. Je suis la \"référente\"
+au stade d\'alternant, bientôt le CDI. Là-bas, je suis la \"référente\"
 du design, une grande partie des choix graphiques passent par moi, mais
 principalement je m\'occupe du site, des vidéos YouTube, du print, du
 design des landing pages, jusqu\'au design des newsletters. Sinon,
 l\'équipe est super, on communique beaucoup et on apprend le cœur de
 métier des uns des autres, c\'est super enrichissant et intéressant !
+
+<!--more-->
 
 **Depuis ton intégration, sur quoi as-tu le plus progressé ?**
 
