@@ -20,7 +20,7 @@ documents:
   link: "/uploads/plaquette-nws-generale.pdf"
   document: "/uploads/plaquette-nws-generale.pdf"
 form:
-  title: Candidatez sur le site
+  title: Entretien pédagogique
   subtitle: |-
     Après avoir rempli ce formulaire, l’école vous contactera pour fixer un rendez-vous.
     Au cours de ce rendez-vous, vous réaliserez un test de culture numérique et vous passerez un entretien individuel avec un membre de l'équipe pédagogique.
@@ -85,6 +85,8 @@ form:
     required: false
     name: newsletter
 seo_image: ''
+informations_d_ouverture: ''
+informations_d_ouvertu: {}
 menu:
   desktop:
     name: Déposer votre candidature
