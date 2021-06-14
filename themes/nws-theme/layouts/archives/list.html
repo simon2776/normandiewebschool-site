@@ -3,7 +3,7 @@
 
 {{ partial "page-title.html" . }}
 
-{{ partial "components/page-title" (dict "context" . "title" .Title ) }}
+{{ partial "components/page-title-publien" (dict "context" . "title" .Title ) }}
 
 {{ range $key, $value := .Site.Taxonomies.archives }}{{ if eq $key $archive }}{{ range $value.Pages }}
 
