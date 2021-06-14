@@ -107,6 +107,17 @@ fields:
 - name: informations_d_ouvertu
   type: field_group
   config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
   label: Informations d'ouvertur
 pages:
 - content/inscription/_index.md
