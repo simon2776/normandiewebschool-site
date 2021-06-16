@@ -34,13 +34,7 @@
                       placeholder="{{.placeholder}}"
                       {{ if .required | eq true }} required="true" {{ end }} 
                       class="form-control {{.className}}"
-                      name={{.name}}
-                            <div>
-                           <select multiple class=form-control>
-                                 <option value=un>Web marketing</option>
-                                 <option value=deux>Web Design</option>
-                                 <option value=trois>Développeur web et mobile </option>
-                          </select> 
+                           name={{.name}}
                      </div> 
                     />
                      
@@ -54,6 +48,7 @@
                       placeholder="{{.placeholder}}"
                       {{ if .required | eq true }} required="true" {{ end }}                      
                       name="{{.name}}"
+            </div>
                     ></textarea>
                  
                   </div>
@@ -94,7 +89,7 @@
               </form>
             </div>
           </div>
-        </div>
+       
       {{ end }}
       </div>
     </div>
