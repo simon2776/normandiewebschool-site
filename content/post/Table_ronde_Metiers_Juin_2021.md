@@ -12,7 +12,7 @@ archives = "2021"
 ![postwidth](/uploads/post/Table_ronde_NWS.jpg)
 
 Samedi 30 mai 2021, la Normandie Web School a organisé une table ronde
-autour des métiers du numérique à Seine innopolis, notre animatrice
+autour des métiers du numérique à Seine Innopolis, notre animatrice
 Bleuenn Garry de la société Azulika a assuré l'interview et
 l'interaction avec le public.
 
@@ -29,7 +29,7 @@ web school de planifier et d'organiser un événement.
 
 **Le numérique une passion avant tout**
 
-Enzo DO ROSARIO, la passion du développement est venu chez lui depuis
+Enzo DO ROSARIO, la passion du développement est venue chez lui depuis
 son enfance grâce à son père qui lui-même est dans le domaine du
 numérique. Poussé par sa passion, il se forgea en autonomie dans le
 développement web en testant différents langages de programmation.
