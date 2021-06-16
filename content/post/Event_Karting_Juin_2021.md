@@ -8,7 +8,7 @@ date = "2021-06-10"
 archives = "2021"
 +++
 
-**Objectif cohésion au Rouen Espace Karting**
+**Session de karting avant les épreuves**
 
 ![postwidth](/uploads/post/Groupe_karting.png)
 
