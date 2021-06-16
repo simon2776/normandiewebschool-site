@@ -8,6 +8,7 @@ tags = [
 ]
 date = "2021-04-25"
 archives = "2021"
+seo_image = "/uploads/post/Interview_Anna_Giraud.jpg"
 +++
 
 **Interview d'Anna GIRAUD, en 3ème année à la NWS filière
