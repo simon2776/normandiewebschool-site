@@ -33,13 +33,8 @@
   <meta name="robots" content="noindex" /> 
   {{ end }}
 
-  {{ if .Params.seo_image }} 
-  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.seo_image }}">
-  <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.seo_image }}">
-  {{ else }}
-  <meta property="og:image" content="https://normandiewebschool.fr/uploads/meta-generale.jpg">
+  <meta property="og:image" content="{{ .ogimage }}">
   <meta property="twitter:image" content="https://normandiewebschool.fr/uploads/meta-generale.jpg">
-  {{ end }}
 
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}/uploads/favicon/favicon.ico" type="image/x-icon">
   <link rel="icon" href="{{ .Site.BaseURL }}/uploads/favicon/favicon.png" type="image/png">
