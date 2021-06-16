@@ -35,8 +35,15 @@
                       class="form-control {{.className}}"
                       name={{.name}}
                     />
-       
                   </div>
+                        <div>
+                           <select multiple class=form-control>
+                                 <option value=un>Web marketing</option>
+                                 <option value=deux>Web Design</option>
+                                 <option value=trois>Développeur web et mobile </option>
+                                 <option value=quatre>Expert digital </option>
+                          </select> 
+                     </div>
                   {{end}} {{if .textarea}}
                   <div class="input-icon mb-3 position-relative">
                     <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
@@ -48,6 +55,7 @@
                       name="{{.name}}"
                     ></textarea>
                   </div>
+                  
                   {{end}} {{end}}
                <div class="row mb-lg-4">
                     <div class="col-lg-8">
@@ -60,14 +68,7 @@
                           name="{{.name}}"
                           {{ if .required | eq true }} required="true" {{ end }}
                         />
-                          <div>
-                           <select multiple class=form-control>
-                           <option value=un>Web marketing</option>
-                           <option value=deux>Web Design</option>
-                           <option value=trois>Développeur web et mobile </option>
-                           <option value=quatre>Expert digital </option>
-                     </select> 
-                   </div>
+                          
                   
                         <label class="form-check-label" for="checkbox-{{$index}}"
                           >{{.content}}</label
