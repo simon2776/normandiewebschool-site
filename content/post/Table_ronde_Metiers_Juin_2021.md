@@ -49,8 +49,7 @@ en passant par les sites marchands.
 Chaque métier du numérique demande des aptitudes différentes afin de
 répondre aux exigences des entreprises.
 
-Cloé MAINGOT Web designer et Community manager à
-**Oser sa chance**. Elle est cheffe de projet numérique.
+Chloé MAINGOT Web designer et Community manager à Oser sa chance. Elle est cheffe de projet numérique.
 
 Au sein de son entreprise elle gère la communication visuelle
 et la communication des réseaux sociaux. Grâce à cela, elle renforce ses
@@ -84,7 +83,7 @@ maîtrise parfaite.
 Le community manager s\'occupe de la stratégie de communication d'une
 marque ou d'une entreprise.
 
-Cloé MAINGOT Community manager à Osez sa chance, considérée
+Chloé MAINGOT Community manager à Osez sa chance, considérée
 comme le garant de la réputation et de l\'engagement à l\'égard de la
 marque sur les réseaux sociaux, peut également avoir un rôle plus
 promotionnel à travers la mise en place d\'animations et de jeux,
