@@ -8,6 +8,7 @@ tags = [
 ]
 date = "2021-05-06"
 archives = "2021"
+seo_image = "/uploads/post/Interview_Enzo_DO_ROSARIO.jpg"
 +++
 
 **Interview de Enzo DO ROSARIO, en 3ème année Chef de projet digital option développement web**
