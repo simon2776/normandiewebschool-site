@@ -35,16 +35,16 @@
                       {{ if .required | eq true }} required="true" {{ end }} 
                       class="form-control {{.className}}"
                       name={{.name}}
-                    />
-                     
-                  </div>
-                      <div>
+                            <div>
                            <select multiple class=form-control>
                                  <option value=un>Web marketing</option>
                                  <option value=deux>Web Design</option>
                                  <option value=trois>Développeur web et mobile </option>
                           </select> 
                      </div> 
+                    />
+                     
+              </div>
                   {{end}} {{if .textarea}}
                   <div class="input-icon mb-3 position-relative">
                     <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
