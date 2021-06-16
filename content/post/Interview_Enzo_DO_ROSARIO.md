@@ -16,13 +16,13 @@ archives = "2021"
 
 **Enzo, dis-nous en plus sur ton parcours…**
 
-J\’ai étudié au lycée et préparé un BAC STI 2D avec une spécialisation SIN (Système Informatique Numérique). Mon projet professionnel est de devenir freelance dans le domaine de la Block Chain. 
+J’ai étudié au lycée et préparé un BAC STI 2D avec une spécialisation SIN (Système Informatique Numérique). Mon projet professionnel est de devenir freelance dans le domaine de la Block Chain. 
 
 <!--more-->
 
 **Tu nous parles de ton alternance ?**
 
-Il s\’agit de KerNel Biomedical de nouveaux outils numériques au service de la santé. J\’y suis en tant que développeur (gestion de la recherche).
+Il s’agit de KerNel Biomedical de nouveaux outils numériques au service de la santé. J’y suis en tant que développeur (gestion de la recherche).
 
 **Sur quoi as-tu le plus progressé depuis ton intégration ?**
 
@@ -30,4 +30,4 @@ Sans hésiter le travail en équipe mais aussi prendre confiance en moi grâce �
 
 **Deux bonnes raisons de choisir la NWS ?**
 
-J\’en dirai même 3 : sa pédagogie, la pratique omniprésente et des intervenants très professionnels.
+J’en dirai même 3 : sa pédagogie, la pratique omniprésente et des intervenants très professionnels.
