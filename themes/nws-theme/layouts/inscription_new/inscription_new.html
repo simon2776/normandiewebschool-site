@@ -43,9 +43,20 @@
                       <option value=quatre>Expert digital </option>
                      </select> 
                    </div>
-                     <div>
-                      <textarea class="form-control"></textarea>
-                    </div>
+                  
+                  </div>
+                  {{end}} {{if .textarea}}
+                  <div class="input-icon mb-3 position-relative">
+                    <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
+                    <textarea
+                      cols="30"
+                      rows="10"
+                      placeholder="{{.placeholder}}"
+                      {{ if .required | eq true }} required="true" {{ end }}                      
+                      name="{{.name}}"
+                    ></textarea>
+                  </div>
+                  {{end}} {{end}}
                <div class="row mb-lg-4">
                     <div class="col-lg-8">
                       {{range $index, $el := .checkbox}}
