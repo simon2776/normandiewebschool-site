@@ -6,11 +6,12 @@ tags = [
 ]
 date = "2021-06-10"
 archives = "2021"
+og:image = "/uploads/post/Groupe_karting.png"
 +++
 
 **Session de karting avant les épreuves**
 
-![postwidth](/uploads/post/Groupe_karting.png og:image="/uploads/post/Groupe_karting.png")
+![postwidth](/uploads/post/Groupe_karting.png)
 
 Quoi de mieux que de se défouler sur la piste de karting de Rouen avant les épreuves ! 
 
