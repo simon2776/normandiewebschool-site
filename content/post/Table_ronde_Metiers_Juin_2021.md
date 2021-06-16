@@ -19,7 +19,7 @@ l'interaction avec le public.
 **Nos invités de la table ronde**
 
 La table ronde de la normandie web school à eu le plaisir de recevoir en
-invités, **Chloé MAINGOT** [Webdesigner]{.ul} et Community manager à
+invités, \textbf{Chloé MAINGOT} [Webdesigner]{.ul} et Community manager à
 **[Oser Sa Chance]{.ul}**, **Enzo DO ROSARIO** développeur web chez
 **[KerNel Biomédical]{.ul}**, **Clément VANMERRIS** Média trader au sein
 de **[SeLoger]{.ul}** et **Dylan LAURET** Motion designer à [**Lemasson
