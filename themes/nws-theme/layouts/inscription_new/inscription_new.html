@@ -36,6 +36,19 @@
                      <div>
                       <textarea class="form-control"></textarea>
                     </div>
+                       <div class="form-check pb-3">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="checkbox-{{$index}}"
+                          name="{{.name}}"
+                          {{ if .required | eq true }} required="true" {{ end }}
+                        />
+                        <label class="form-check-label" for="checkbox-{{$index}}"
+                          >{{.content}}</label
+                        >
+                      </div>
+                      {{end}}
                </div>
                     <div class="col-lg-4 d-flex justify-content-center my-5 my-lg-0">
                       <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
