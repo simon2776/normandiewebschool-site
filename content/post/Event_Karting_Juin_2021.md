@@ -1,5 +1,5 @@
 +++
-title = "Objectif cohésion NWS"
+title = "Objectif cohésion KARTING"
 description = "Session de karting avant les épreuves"
 tags = [
     "NWS",
