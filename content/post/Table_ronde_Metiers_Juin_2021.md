@@ -7,6 +7,7 @@ tags = [
 ]
 date = "2021-05-30"
 archives = "2021"
+seo_image = "/uploads/post/Table_ronde_NWS.jpg"
 +++
 
 ![postwidth](/uploads/post/Table_ronde_NWS.jpg)
