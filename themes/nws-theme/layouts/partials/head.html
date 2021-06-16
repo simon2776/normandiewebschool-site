@@ -38,7 +38,7 @@
   <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.seo_image }}">
   {{ else }}
   <meta property="og:image" content="https://normandiewebschool.fr/uploads/meta-generale.jpg">
-  <meta property="twitter:image" content="https://normandiewebschool.fr/uploads/meta-generale.jpg">
+  <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.seo_image }}">
   {{ end }}
 
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}/uploads/favicon/favicon.ico" type="image/x-icon">
