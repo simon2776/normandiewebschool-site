@@ -31,6 +31,6 @@ Pour la Normandie Web School l'humain reste au coeur de sa stratégie et la coh�
 
 **Des événements organisés régulièrement**
 
-L'humain faisant parti de son ADN, la School propose régulièrement des moments de partage et d'évasion !
+L'humain faisant partie de son ADN, la School propose régulièrement des moments de partage et d'évasion !
 
 [![postwidth](/uploads/post/Karts_Video.png)](https://youtu.be/nqhukW8H5y4 "Normandie Web School Session de Karting")
