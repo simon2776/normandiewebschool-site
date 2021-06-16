@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-content">
-        <div class="text-center">Sur le même thème :</div>
+        <div class="text-center">Par thématique :</div>
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
             <span class="tag"><a href="{{ "tags" | absURL }}/{{ $name | urlize }}">{{ $name }}&nbsp&nbsp;</a></span>
         {{ end }}
