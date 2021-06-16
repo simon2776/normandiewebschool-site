@@ -21,7 +21,7 @@ Quoi de mieux que de se défouler sur la piste de karting de Rouen avant les ép
 **Lâchons prise et donnons le meilleur de nous-même**
 
 Que ce soit pour renforcer les liens entre nos étudiants, garder un bon souvenir,
-renforcer les groupes avant les épreuves de fin d'année, cette session a été largement suivie et appréciée de tous.
+ou motiver les troupes avant les épreuves de fin d'année, cette session a été largement suivie et appréciée de tous.
 
 **Une année particulière et sans précédent**
 
