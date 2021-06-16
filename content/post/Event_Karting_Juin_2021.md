@@ -6,7 +6,7 @@ tags = [
 ]
 date = "2021-06-10"
 archives = "2021"
-og:image = ["/uploads/post/Groupe_karting.png"]
+image = ["/uploads/post/Groupe_karting.png"]
 +++
 
 **Session de karting avant les épreuves**
