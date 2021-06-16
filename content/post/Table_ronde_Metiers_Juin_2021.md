@@ -18,18 +18,12 @@ l'interaction avec le public.
 
 **Nos invités de la table ronde**
 
-La table ronde de la normandie web school à eu le plaisir de recevoir en
-invités, Chloé MAINGOT [Webdesigner]("/cursus/bachelor-communication-visuelle/" target="_blank") et Community manager à
-**[Oser Sa Chance]{.ul}**, **Enzo DO ROSARIO** développeur web chez
-**[KerNel Biomédical]{.ul}**, **Clément VANMERRIS** Média trader au sein
-de **[SeLoger]{.ul}** et **Dylan LAURET** Motion designer à [**Lemasson
-Consulting**.]{.ul}
+La table ronde de la normandie web school à eu le plaisir de recevoir nos invités, Chloé MAINGOT [Webdesigner](/cursus/bachelor-communication-visuelle) et [Community manager](/cursus/bachelor-community-management) à Oser Sa Chance, Enzo DO ROSARIO [Développeur web](/cursus/bachelor-developpement-web) chez KerNel Biomédical, Clément VANMERRIS Média trader au sein de SeLoger et Dylan LAURET Motion designer à Lemasson Consulting.
 
 **La table ronde en ligne**
 
 Dû à la crise sanitaire, l'école a planifié l'événement de la table
 ronde en ligne afin de permettre à tous les participants de suivre et d'interagir avec nos invités.
-
 Cette organisation fait intégralement partie de la force de la Normandie
 web school de planifier et d'organiser un événement.
 
@@ -41,7 +35,7 @@ numérique. Poussé par sa passion, il se forgea en autonomie dans le
 développement web en testant différents langages de programmation.
 
 Gagnant plus de compétences, il commence ses études par un bac STI2D,
-dès l'obtention de son Bac il choisit la \#**Normandie web school** pour
+dès l'obtention de son Bac il choisit la Normandie web school pour
 réaliser sa passion.
 
 La passion est un vrai moteur pour travailler dans le numérique que ce
@@ -55,10 +49,10 @@ en passant par les sites marchands.
 Chaque métier du numérique demande des aptitudes différentes afin de
 répondre aux exigences des entreprises.
 
-**Cloé MAINGOT** [Web designer]{.ul} et [Community manager]{.ul} à
+Cloé MAINGOT Web designer et Community manager à
 **Oser sa chance**. Elle est cheffe de projet numérique.
 
-Au sein de son entreprise Cloé MAINGOT, gère la communication visuelle
+Au sein de son entreprise elle gère la communication visuelle
 et la communication des réseaux sociaux. Grâce à cela, elle renforce ses
 compétences pour être force de proposition.
 
@@ -72,7 +66,7 @@ Tout sur les métiers du numérique
 **Le Media trader au coeur de la publicité programmatique**
 
 Selon Clément VANMERRIS, média trader au sein du groupe
-**[seLoger,]{.ul}** un média trader est chargé de gérer l'achat aux
+seLoger, un média trader est chargé de gérer l'achat aux
 enchères d'espaces publicitaires digitaux pour le compte d'annonceurs.
 Ses activités peuvent varier en fonction de la structure de sa société
 mais reposent sur 3 grandes missions. Tout d'abord, le média trader
@@ -90,7 +84,7 @@ maîtrise parfaite.
 Le community manager s\'occupe de la stratégie de communication d'une
 marque ou d'une entreprise.
 
-Cloé MAINGOT Community manageuse à **[Osez sa chance]{.ul}**, considérée
+Cloé MAINGOT Community manager à Osez sa chance, considérée
 comme le garant de la réputation et de l\'engagement à l\'égard de la
 marque sur les réseaux sociaux, peut également avoir un rôle plus
 promotionnel à travers la mise en place d\'animations et de jeux,
@@ -116,10 +110,10 @@ maîtrise pas forcément le chef de projet.
 
 **Motion design de la mise en scène à la réalisation**
 
-**[La Normandie web school]{.ul}** forment des motion designer qui a
+La Normandie web school forme des Motion designer qui a
 pour mission de créer des contenus animés, audiovisuels et interactifs.
 
-Dylan LAURET Motion designer à **[Lemasson Consulting]{.ul}**, tout
+Dylan LAURET Motion designer à Lemasson Consulting, tout
 d'abord, il fait un brief client, ensuite il commence par réaliser les
 moodboards. Comme son nom l'indique, ce tableau d'humeur permet de
 donner une idée de l'univers et de la tendance qui sera utilisée dans
@@ -141,9 +135,9 @@ pas eu lieu d'être.
 
 Un grand merci à tous les participants d'avoir échangé avec nos invités.
 
-Merci à **Bleuenn Garry,** pour la présentation de l'événement.
+Merci à Bleuenn Garry pour la présentation de l'événement.
 
-Merci à la **[Normandie web school]{.ul}** pour l'organisation de la
+Merci à la Normandie web school pour l'organisation de la
 table ronde, qui a permis un bel échange avec le public et les invités.
 
 Et surtout merci aux intervenants, qui nous ont partagé leur expérience
