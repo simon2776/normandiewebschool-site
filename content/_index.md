@@ -41,20 +41,20 @@ filieres:
     color: color-orange
     logo: "/uploads/logo-marketing.png"
     href: "/cursus/bachelor-marketing-digital/"
-  - title: Filière Web Design & Communication visuelle
+  - title: Filière Communication graphique
     content: Ce titre prépare à concevoir la forme visuelle de messages dans les différents
       domaines du graphisme, de l’édition et de la publicité, imprimés ou numériques.
       Il est destiné aux étudiants qui veulent se former aux métiers de web et mobile
       designer, qui ont une forte appétence en UI et UX et capables d’intégrer des
-      maquettes. Le bachelor “Communication visuelle & Web design" se déroule sur
-      3 ans au sein de la Normandie Web School soit en alternance (contrat de professionnalisation
+      maquettes. Le bachelor “Communication graphique" se déroule sur 3 ans au sein
+      de la Normandie Web School soit en alternance (contrat de professionnalisation
       ou apprentissage) soit en formation initiale. 
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-blue
     logo: "/uploads/logo-design.png"
     href: "/cursus/bachelor-communication-visuelle/"
-  - title: Filière Développement
+  - title: Filière Développement web et applicatif
     content: Ce titre prépare au métier de développeur web capable de créer, coder,
       et tester des sites Internet et des applications web. La transformation digitale
       des économies fait du développement web une des compétences essentielles des
