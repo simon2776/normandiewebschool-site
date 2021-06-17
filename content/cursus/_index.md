@@ -102,28 +102,28 @@ filieres:
       color: color-orange
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
-        ou Community Manager.
+        ou Community Management.
       link: "/cursus/bachelor-marketing-digital/"
     - bulle: "/uploads/logo-dev.png"
       title: Spécialisation Développement web et applicatif
       color: color-yellow
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
-        ou Community Manager.
+        ou Community Management.
       link: "/cursus/bachelor-developpement-web/"
     - bulle: "/uploads/logo-design.png"
       title: Spécialisation Communication graphique
       color: color-blue
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
-        ou Community Manager.
+        ou Community Management.
       link: "/cursus/bachelor-communication-visuelle/"
     - bulle: "/uploads/logo_nws-1.jpg"
-      title: Spécialisation Community Manager
+      title: Spécialisation Community Management
       color: color-blue2
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
-        ou Community Manager.
+        ou Community Management.
       link: "/cursus/bachelor-community-management/"
     arrow: true
     arrowImage: "/uploads/arrow-down.svg"
