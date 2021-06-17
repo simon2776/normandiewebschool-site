@@ -89,11 +89,10 @@ years:
         en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
         - Outils vidéo professionnels (Adobe)"
     - title: Création de sites web
-      content: "- Eco-conception web <br/> - Sites mobiles et desktop <br/> - Conception
-        d’interfaces <br/> - Grilles de mise en page <br/> - Systèmes de design et
-        composants web <br/> - Langages du web  HTML / CSS / JavaScript <br/> - Accessibilité
-        et ergonomie <br/> - Rédaction de contenus <br/> - Référencement naturel (SEO)
-        <br/> - Publication "
+      content: "- Eco-conception web <br/> - Sites mobiles et desktops <br/> - Conception
+        d’interfaces <br/> - Systèmes de design & Composants web <br/> - HTML / CSS
+        / JavaScript <br/> - Accessibilité et ergonomie <br/> - Référencement naturel
+        SEO <br/> - Publication "
     - title: Communication et e-commerce
       content: "- Fondamentaux du marketing digital <br/> - Réseaux sociaux professionnels
         <br/> - Réseaux sociaux graphiques et vidéo <br/> - Rédaction et envoi e-mailing
