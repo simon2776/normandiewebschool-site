@@ -1,7 +1,7 @@
 ---
 type: filiere
 layout: filiere
-title: Filière Community Management
+title: Filière Community management
 date: 2021-05-03T12:14:34.000+06:00
 description: Développez et animez une communauté sur les réseaux sociaux
 banner:
