@@ -80,10 +80,10 @@ years:
     etape:
     - title: Création graphique
       content: "- Eco-conception graphique <br/> - Tendances graphiques & veille <br/>
-        - Formes, couleurs et polices <br/>- Identité visuelle & charte graphique
-        <br/>- Illustrations vectorielles et bitmap <br/> - Prise de vue et retouches
-        photo <br/>- Réalisation Print <br/> - Infographies <br/> - Outils graphiques
-        professionnels: Illustrator, inDesign, Lightroom, Photoshop, XD"
+        - Formes, couleurs et polices <br/>- Identité visuelle et charte graphique
+        <br/>- Illustrations vectorielles & bitmap <br/> - Prise de vue & retouche
+        photo <br/>- Réalisation Prints <br/> - Infographies <br/> - Outils graphiques
+        professionnels (Adobe)"
     - title: Vidéo et animation
       content: "- Ecoconception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
         en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
