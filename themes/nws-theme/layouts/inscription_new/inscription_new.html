@@ -96,5 +96,13 @@
     </div>
   </div>
 </section>
+  <script>
+  grecaptcha.ready(function() {
+    grecaptcha.execute('6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs', {action: 'homepage'})
+            .then(function(token) {
+              document.getElementById('captchaResponse').value = token;
+            });
+  });
+</script>
 
 {{ end }}{{ end }}
