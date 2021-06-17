@@ -125,20 +125,12 @@ years:
       content: "- Design de composants <br/> - Frameworks Front (React, Vue) <br/>
         - JamStack et CMS headless <br/> - Backend as a Service <br/> - Analyse de
         performances"
-    - title: Frameworks BackEnd
-      content: "- Modèle MVC, principes SOLID, Design Patterns\n<br/> - Domain Driven
-        Design, Clean Architecture, Sécurité par Design\n<br/> - Test Driven Development
-        en PHP, Agilité, Refactoring\n<br/> - Frameworks PHP : Symfony, Laravel \n<br/>
-        - Containerisation et déploiement avec docker et Kubernetes"
-    - title: Posture professionnelle
-      content: "- Ecoute, curiosité, culture & Intelligence collective. Travail en
-        équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
-        - Positionnement professionnel et responsabilité sociétale"
+    - title: Web services
+      content: "- Architecture Backend, SQL, NoSQL <br/> - Principes SOLID et MVC
+        <br/> - Sécurité en profondeur <br/> - Design d’API <br/> - Conteneurisation
+        et CI/CD <br/> - Frameworks PHP"
     - title: E-learning et certifications
-      content: |-
-        - Culture et outils numériques
-        <br/> - Anglais technique
-        <br/> - Certification Digital et Code
+      content: "- Culture et outils numériques <br/> - Anglais"
     active: ''
   - button: 3e année
     title: Programme troisième année développement web et mobile
