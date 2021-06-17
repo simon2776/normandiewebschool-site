@@ -221,7 +221,7 @@ menu:
     parent: Nos spécialisations
     weight: 3
   main:
-    name: Bachelor Web Design
+    name: Bachelor Communication graphique
     parent: Nos spécialisations
     weight: 3
 

@@ -233,7 +233,7 @@ menu:
     parent: Nos spécialisations
     weight: 2
   main:
-    name: Bachelor Web Développement
+    name: Bachelor Développement Web
     parent: Nos spécialisations
     weight: 2
 

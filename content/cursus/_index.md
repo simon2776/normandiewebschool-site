@@ -33,7 +33,8 @@ cursus:
       avez produit de nombreux visuels, vous avez produit une vidéo, vous avez acquis
       les bases de la programmation web et du web marketing et enfin vous avez découvert
       le community management.</p><p>L’année préparatoire s’adresse aux titulaires
-      du Baccalauréat, quelle que soit la série. Un stage de 2 mois est à prévoir en entreprise.</p>"
+      du Baccalauréat, quelle que soit la série. Un stage de 2 mois est à prévoir
+      en entreprise.</p>"
     from: Bac +1
     color: color-yellow
     images:
@@ -43,15 +44,16 @@ cursus:
     content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
       Les étudiants sont en filières <strong>“<a href="/cursus/bachelor-developpement-web/">Développement
       Web et Applicatif</a>, <a href="/cursus/bachelor-marketing-digital/">Web Marketing</a>,
-      <a href="/cursus/bachelor-communication-visuelle/">Communication graphique</a> ou <a href="/cursus/bachelor-community-management/">Community
-      Management</a>”</strong> en fonction de leurs appétences et 100% des activités
-      pédagogiques sont dirigées vers l’appréhension des compétences et connaissances
-      nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement de leurs
-      compétences techniques les étudiants d’<strong>année 3</strong> acquièrent le
-      <strong>savoir-faire de la gestion d’équipe et la conduite de projet</strong>.
-      L’année 3 se déroule en alternance sur un rythme de 1 semaine en cours et 3
-      semaines en entreprise. À l'issue de la 3ème année les étudiant(es) passeront
-      leur examen pour l'obtention du Titre <strong>"Chef de projet digital"</strong>.</p>
+      <a href="/cursus/bachelor-communication-visuelle/">Communication graphique</a>
+      ou <a href="/cursus/bachelor-community-management/">Community Management</a>”</strong>
+      en fonction de leurs appétences et 100% des activités pédagogiques sont dirigées
+      vers l’appréhension des compétences et connaissances nécessaires à leurs futurs
+      métiers.</p><p>Outre l’approfondissement de leurs compétences techniques les
+      étudiants d’<strong>année 3</strong> acquièrent le <strong>savoir-faire de la
+      gestion d’équipe et la conduite de projet</strong>. L’année 3 se déroule en
+      alternance sur un rythme de 1 semaine en cours et 3 semaines en entreprise.
+      À l'issue de la 3ème année les étudiant(es) passeront leur examen pour l'obtention
+      du Titre <strong>"Chef de projet digital"</strong>.</p>
     from: Bac +2/3
     color: color-blue
     images:
@@ -101,29 +103,29 @@ filieres:
       title: Spécialisation Web Marketing
       color: color-orange
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
-        ou Community Management.
+        Vous avez le choix entre développement web et applicatif, communication graphique,
+        web marketing ou Community Management.
       link: "/cursus/bachelor-marketing-digital/"
     - bulle: "/uploads/logo-dev.png"
       title: Spécialisation Développement web et applicatif
       color: color-yellow
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
-        ou Community Management.
+        Vous avez le choix entre développement web et applicatif, communication graphique,
+        web marketing ou Community Management.
       link: "/cursus/bachelor-developpement-web/"
     - bulle: "/uploads/logo-design.png"
       title: Spécialisation Communication graphique
       color: color-blue
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
-        ou Community Management.
+        Vous avez le choix entre développement web et applicatif, communication graphique,
+        web marketing ou Community Management.
       link: "/cursus/bachelor-communication-visuelle/"
     - bulle: "/uploads/logo_nws-1.jpg"
       title: Spécialisation Community Management
       color: color-blue2
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
-        ou Community Management.
+        Vous avez le choix entre développement web et applicatif, communication graphique,
+        web marketing ou Community Management.
       link: "/cursus/bachelor-community-management/"
     arrow: true
     arrowImage: "/uploads/arrow-down.svg"
