@@ -21,17 +21,20 @@
               <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
             </div>
             <p class="pt-3 m-0">{{.subtitle}}</p>
-          <div>
-            <div class="card-body">
-              <form id="ajaxForm" name='inscription' action="https://getform.io/f/7ae989ac-d8da-4a1b-8dd3-b09a3b4d5910" method="POST" class="mt-3" >
-                <div class="form-group">
+           <div>
+              <div class="card-body">
+                   <form id="ajaxForm" name='inscription' action="https://getform.io/f/7ae989ac-d8da-4a1b-8dd3-b09a3b4d5910" method="POST" class="mt-3" >
+                      <div class="form-group">
+                            <label for="nom">Entrez votre nom</label>
+                        </div>
+                   <input type="text" class="form-control" id="nom" placeholder="Pierre GIRAUD">
               <div class="form-group">
                    <label for="email"></label>
                    <input type="email" class="form-control" id="email" placeholder="votre email">
                  </div>
                  
                  <div class="form-group">
-                   <label for="selection">/label>
+                   <label for="selection"></label>
                    <select id="selection" class="form-control">
                      <option value="">Choix de la filière</option>
                      <optgroup label="Choix de la filière">
