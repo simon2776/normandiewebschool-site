@@ -217,7 +217,7 @@ testimonials:
   - design
 menu:
   desktop:
-    name: Bachelor Web Design
+    name: Bachelor Communication graphique
     parent: Nos spécialisations
     weight: 3
   main:

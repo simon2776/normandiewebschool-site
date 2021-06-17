@@ -228,12 +228,12 @@ testimonials:
   filter:
   - dev
 menu:
-  desktop:
-    name: Bachelor Web Développement
+  main:
+    name: Bachelor Développement web
     parent: Nos spécialisations
     weight: 2
-  main:
-    name: Bachelor Développement Web
+  desktop:
+    name: Bachelor Développement web
     parent: Nos spécialisations
     weight: 2
 
