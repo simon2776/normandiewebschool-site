@@ -137,6 +137,9 @@ years:
       et connaissances qui vous seront enseignées afin d'obtenir le statut de chef
       de projet digital.
     etape:
+    - title: E-learning et certification
+      content: "- Culture et outils numériques <br/> - Certification : compétences
+        numériques et Google <br/> - Anglais <br/> - CNIL et RGPD"
     - title: Entrepreneuriat et innovation
       content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
         objectifs, de la cible et du positionnement  <br/> - Définition d’une stratégie
@@ -162,11 +165,8 @@ years:
         <br/> - Workflow de Lead Nurturing (scoring, marketing automation, data analysis)
         \ <br/> - Web TV : création et diffusion de contenu et live vidéo"
     - title: Projet certifiant
-      content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
-        : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
-        d’un projet en mode agence <br/> - Reporting et communication à l’oral et
-        à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collective. Travail
-        en équipe, esprit collaboratif <br/> - Responsabilité sociétale"
+      content: "- Cahier des charges <br/> - Gestion de projet <br/> - Reporting /
+        Communication orale et écrite <br/> - Responsabilité sociétale"
     active: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
       un pro du numérique. Voici les compétences et connaissances qui vous seront
       enseignées afin d''obtenir le statut de chef de projet digital. '
