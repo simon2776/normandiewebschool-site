@@ -37,7 +37,18 @@
                     />
                    <div>
                   {{end}} {{if .textarea}}
+                     <div class="form-group">
+                   <label for="selection"></label>
+                   <select id="selection" class="form-control">
+                     <option value=""> Spécialité souhaitée</option>
+                     <optgroup label="">
+                       <option value="">Web Marketing</option>
+                       <option value="">Communication graphique</option>
+                       <option value="">Développeur web et applicatif</option>
+                       <option value="">Community management</option>
+                     </optgroup>
                   <div class="input-icon mb-3 position-relative">
+                    
                     <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
                     <textarea
                       cols="30"
