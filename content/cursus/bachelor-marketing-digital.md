@@ -113,24 +113,19 @@ years:
         payant <br/> - Réseaux sociaux <br/> - Emailing <br/> - Partenariats"
     - title: E-commerce et conversion
       content: "- Tunnel de vente <br/> - Storytelling <br/> - Promotion <br/> - Retargeting
-        <br/> - CMS e-commerce <br/> -Pack Adobe <br/> - Rédaction de contenu"
-    - title: Tunnel d'acquisiton
-      content: "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
-        et la visualisation de données, <br/> - La réalisation d'un scoring pour la
-        segmentation <br/> - La mise en place d'un Dashboard dynamique"
-    - title: Marketing social et vidéo
-      content: "- Création d’un tunnel d’acquisition conforme à un plan marketing,
-        <br/> - Déploiement d’une stratégie de content marketing web et réseaux sociaux,
-        <br/> - Création et diffusion d’un email et d’une newsletter, <br/> - Automatisation
-        \ des actions de Lead Nurturing / Growth Hacking."
-    - title: Posture professionnelle
-      content: "- Écoute, curiosité, culture & Intelligence collective\L travail en
-        équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
-        - Positionnement professionnel\n<br/> - Responsabilité sociétales"
-    - title: E-learning et certifications
-      content: Culture et outils numériques <br/> Renforcement orthographique et grammatical
-        <br/> Anglais technique <br/>  Certifications  compétences numériques, outils
-        Adobe
+        <br/> - CMS e-commerce <br/> - Pack Adobe <br/> - Rédaction de contenu"
+    - title: Growth hacking
+      content: " - Product Market Fit <br/> - Channel personas <br/> - Optimisation
+        du tunnel d’acquisition <br/> - User Journey Mapping <br/> - Landing pages"
+    - title: Fidélisation
+      content: |2-
+         - Content marketing <br/> - Content marketing <br/> - Campagnes e-mailing
+        Ambassadeurs et affiliation <br/> - Marketing viral
+    - title: Analytics et optimisation
+      content: "- Google Analytics <br/> - A/B Testing <br/> - Outils de tracking
+        <br/> - Mesure de l’engagement <br/> - Optimisation web"
+    - title: E-learning et certification
+      content: "- Culture et outils numériques <br/> - Anglais"
     active: ''
   - button: 3e année
     title: Programme troisième année marketing digital
