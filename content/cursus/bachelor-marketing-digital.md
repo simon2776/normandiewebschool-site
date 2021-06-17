@@ -101,14 +101,13 @@ years:
     - title: E-learning
       content: "- Français <br/> - Bases du code"
   - button: 2e année
-    title: Programme de la deuxième année marketing digital
+    title: Programme de la deuxième année Web marketing
     subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
     etape:
-    - title: Stratégie Marketing
-      content: "- Les étapes de la démarche marketing (analyser planification, suivi),
-        <br/> - Une analyse concurrentielle comparative, <br/> - La rédaction du plan
-        marketing opérationnel, <br/> - La conception de calendriers éditoriaux <br/>
-        - La production de contenu original conforme au plan marketing."
+    - title: Stratégie Web Marketing
+      content: "- Fondamentaux du marketing <br/> - Veille sectorielle, économique,
+        culturelle et concurrentielle <br/> - Cibles et personas <br/> - Plan marketing
+        et de communication <br/> - CRM et marketing automation"
     - title: Référencement naturel et performance web
       content: "- La typologie de contenus et audit lexical, - La réalisation d'un
         prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
