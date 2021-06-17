@@ -6,7 +6,7 @@ date: 2019-05-12T12:14:34.000+06:00
 description: " Le codage, l'intégration et la création de plateforme est votre passion
   ? Alors la spécialité développement est fait pour vous ! À la clé en fin d'année
   ? Votre titre RNCP de niveau 6 équivalant au BAC+3 et un statut de chef de projet
-  digital.Rythme alterné: 1 semaine en formation et 3 semaines en professionnalisation
+  digital. Rythme alterné: 1 semaine en formation et 3 semaines en professionnalisation
   (en entreprise (pour les alternants) ou en projet pour les étudiants en formation
   initiale.<br/> Nombre d'heures de formation: 455H en face-à-face et 180H d'apprentissage
   individualisé en FOAD"
@@ -14,8 +14,8 @@ banner:
   logo: "/uploads/logo-dev.png"
   title: Filière <span class="font-weight-medium">développement</span>
   image: "/uploads/web-dev.jpg"
-  description: "<p>Ce cursus prépare au métier de développeur web capable de créer,
-    coder et tester des sites Internet et des applications web. La transformation
+  description: "<p>Ce cursus prépare au métier de développeur web et applicatif capable
+    de créer, coder et tester des sites Internet et des applications web. La transformation
     digitale des économies fait du développement web une compétences essentielle des
     entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
     web dans les start-ups du numérique, les ESN (entreprises de services numériques),
@@ -37,7 +37,7 @@ about:
   enable: true
   url: https://www.youtube.com/embed/Gs_IBLIYvAs
   description: Maxence Machu, intervenant à la Normandie Web School, vous explique
-    la filière Développement Web et Mobile.
+    la filière Développement Web et applicatif.
   href: https://www.youtube.com/embed/Gs_IBLIYvAs
   image: "/uploads/nws_youtube_web_dev.png"
 skills:
@@ -103,18 +103,13 @@ years:
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
   - button: 2e année
-    title: Programme de la deuxième année développement web et mobile
+    title: Programme de la deuxième année développement web et applicatif
     subtitle: 'Suivez ce programme intensif pour devenir un spécialiste du développement
-      web et mobile. '
+      web et applicatif. '
     etape:
-    - title: Algorithmique et applications
-      content: "- Architecture des ordinateurs \n<br/> - Logique informatique : variables,
-        boucles, conditions, gestion des erreurs\n<br/> - Structures de données “bas
-        niveau”, gestion de la mémoire \n<br/> - application en C\n<br/> - Programmation
-        Orientée Objet : attributs, méthodes, abstractions\n<br/> - Résolution de
-        problèmes et complexité des algorithmes : structures de données avancées,
-        manipulation de chaînes, tri, recherche, récursion - application en Python\n<br/>
-        - Documentation notebooks Python"
+    - title: Algorithmique et résolutions de problèmes
+      content: "- Architecture informatique <br/> - Structures de données <br/> -
+        Recherche, tri, récursivité <br/> - Temps d’exécution et complexité"
     - title: Développement FrontEnd
       content: |-
         - Protocole HTTP et devtools
@@ -228,11 +223,11 @@ testimonials:
   filter:
   - dev
 menu:
-  main:
+  desktop:
     name: Bachelor Développement web
     parent: Nos spécialisations
     weight: 2
-  desktop:
+  main:
     name: Bachelor Développement web
     parent: Nos spécialisations
     weight: 2
