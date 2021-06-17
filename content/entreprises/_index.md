@@ -88,7 +88,7 @@ partners:
   - logo: "/"
 testimonials:
   enable: true
-seo_image: ''
+seo_image: "/uploads/post/Table_ronde_NWS.jpg"
 partenariat:
   enable: true
   title: Nos partenaires institutionnels

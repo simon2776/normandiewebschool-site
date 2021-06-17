@@ -16,8 +16,8 @@
   <link rel="canonical" href="URL" />
   <!-- open graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ .Site.Title }}"/>
-  <meta property="og:description" content="{{ .Site.Params.description }}"/>
+  <meta property="og:title" content="{{ .Params.title }}"/>
+  <meta property="og:description" content="{{ .Params.description }}"/>
   <meta property="og:site_name" content="{{ .Site.Title }}"/>
 
 
@@ -33,12 +33,12 @@
   <meta name="robots" content="noindex" /> 
   {{ end }}
 
-  {{ if .Params.seo_image }} 
+{{ if .Params.seo_image }} 
   <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.seo_image }}">
   <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.seo_image }}">
   {{ else }}
   <meta property="og:image" content="https://normandiewebschool.fr/uploads/meta-generale.jpg">
-  <meta property="twitter:image" content="https://normandiewebschool.fr/uploads/meta-generale.jpg">
+  <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.seo_image }}">
   {{ end }}
 
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}/uploads/favicon/favicon.ico" type="image/x-icon">
