@@ -110,22 +110,14 @@ years:
     - title: Algorithmique et résolutions de problèmes
       content: "- Architecture informatique <br/> - Structures de données <br/> -
         Recherche, tri, récursivité <br/> - Temps d’exécution et complexité"
-    - title: Développement FrontEnd
-      content: |-
-        - Protocole HTTP et devtools
-        <br/> - APIs web : DOM, AJAX, Service Worker, Web Storage, IndexedDB
-        <br/> - JavaScript : modèle d’exécution, Clean Code, Git, Tests Unitaires
-        <br/> - Echange et manipulation de données avec REST, JSON et OpenId Connect
-        <br/> - JamStack et CMS headless (Wordpress)
-        <br/> - Progressive Web App : workflow de développement et de déploiement
-    - title: Développement BackEnd
-      content: "- Systèmes et Réseaux : Installation, ligne de commande, SSH, TCP/IP
-        \n<br/> - PHP : modèle  impératif et objet, SPL, Clean Code, Tests Unitaires\n<br/>
-        - Environnement et Intégration Continue : VSCode, docker, Git, Travis-CI  \n<br/>
-        - Bases de données relationnelles : normalisation, sécurité, requêtes SQL,
-        transactions, requêtes préparées, procédures stockées\n<br/> - NoSQL : Key-value
-        (memcached), Document (mongodb), graph (Neo4j)\n<br/> - Traitement sécurisé
-        de formulaires et web services avec PHP et Node.js"
+    - title: Programmation PHP et base de données
+      content: "- Environnement de développement <br/> - Programmation PHP, POO <br/>
+        - Tests Unitaires et intégration continue <br/> - Modèle relationnel, SGBD,
+        requêtes SQL"
+    - title: Interfaces interactives
+      content: "- Environnement de développement Node.js <br/> - Écoconception, ergonomie,
+        accessibilité <br/> - Tests Unitaires et d’intégration <br/> - JavaScript
+        pour le web <br/> - Animation CSS et JavaScript <br/> - Webtools"
     - title: Développement Cloud
       content: |-
         - Modèles Cloud : IaaS, PaaS, SaaS, CaaS, FaaS
