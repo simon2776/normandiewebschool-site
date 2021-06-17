@@ -94,12 +94,10 @@ years:
         / JavaScript <br/> - Accessibilité et ergonomie <br/> - Référencement naturel
         SEO <br/> - Publication "
     - title: Communication et e-commerce
-      content: "- Fondamentaux du marketing digital <br/> - Réseaux sociaux professionnels
-        <br/> - Réseaux sociaux graphiques et vidéo <br/> - Rédaction et envoi e-mailing
-        & newsletter <br/> - Intégration de contenus (CMS) <br/> - Sites e-commerce
-        <br/> - Audit lexical, search console et analytics <br/> - Analyse d'éco performance
-        <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
-        <br/>"
+      content: "- Marketing digital <br/> - Réseaux sociaux <br/> - E-mailing & Newsletter
+        <br/> - Intégration de contenus sur CMS <br/> - Sites e-commerce <br/> - Audit
+        lexical, search console et analytics <br/> - Analyse d'éco performance <br/>
+        - Systèmes professionnels de diffusion <br/> - Rédaction professionnelle <br/>"
   - button: 2e année
     title: Programme de la deuxième année marketing digital
     subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
