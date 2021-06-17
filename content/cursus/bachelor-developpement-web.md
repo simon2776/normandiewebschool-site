@@ -118,19 +118,13 @@ years:
       content: "- Environnement de développement Node.js <br/> - Écoconception, ergonomie,
         accessibilité <br/> - Tests Unitaires et d’intégration <br/> - JavaScript
         pour le web <br/> - Animation CSS et JavaScript <br/> - Webtools"
-    - title: Développement Cloud
-      content: |-
-        - Modèles Cloud : IaaS, PaaS, SaaS, CaaS, FaaS
-        <br/> - Identité et Accès Cloud (AIM)
-        <br/> - Développement Serverless Amazon AWS : Lambda, API Gateway, S3, DynamoDB, Serverless Application Model  (test, debugging, déploiement, monitoring)
-        <br/> - Réversibilité et Maîtrise avec OpenShif
-    - title: Frameworks FrontEnd
-      content: |-
-        - Test Driven Development en JavaScript et TypeScript, Jest, Selenium
-        <br/> - Single Page Applications : React.js,  Angular, Vue.js
-        <br/> - Peer programming et Code review
-        <br/> - Développement mobile avec React Native
-        <br/> - Support des navigateurs : Polyfills, Shivs, Shims, transpilation
+    - title: Applications mobiles
+      content: "- Stratégie mobile <br/> - Progressive Web Apps <br/> - Frameworks
+        de développement (Flutter, React Native) <br/> - Applications géolocalisées"
+    - title: Applications web
+      content: "- Design de composants <br/> - Frameworks Front (React, Vue) <br/>
+        - JamStack et CMS headless <br/> - Backend as a Service <br/> - Analyse de
+        performances"
     - title: Frameworks BackEnd
       content: "- Modèle MVC, principes SOLID, Design Patterns\n<br/> - Domain Driven
         Design, Clean Architecture, Sécurité par Design\n<br/> - Test Driven Development
