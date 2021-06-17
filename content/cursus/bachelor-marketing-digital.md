@@ -111,11 +111,9 @@ years:
     - title: Acquisition de trafic
       content: "- Inbound marketing <br/> - Référencement naturel <br/> - Référencement
         payant <br/> - Réseaux sociaux <br/> - Emailing <br/> - Partenariats"
-    - title: Analytics, segmentation et reporting
-      content: '- La définition d''''une stratégie réseaux sociaux et advertising,
-        <br/> - L''écriture et la publication de contenus originaux, <br/> - La diffusion
-        de contenus originaux sur les réseaux sociaux, <br/> - L''optimisation d''une
-        campagne publicitaire  "réseaux sociaux" <br/> - La certification Google Ads.'
+    - title: E-commerce et conversion
+      content: "- Tunnel de vente <br/> - Storytelling <br/> - Promotion <br/> - Retargeting
+        <br/> - CMS e-commerce <br/> -Pack Adobe <br/> - Rédaction de contenu"
     - title: Tunnel d'acquisiton
       content: "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
         et la visualisation de données, <br/> - La réalisation d'un scoring pour la
