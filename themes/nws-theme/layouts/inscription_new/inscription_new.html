@@ -35,7 +35,9 @@
                       class="form-control {{.className}}"
                       name={{.name}}
                     />
+                  </div>
                   {{end}} {{if .textarea}}
+                   <div class="input-icon mb-3 position-relative">
                      <div class="form-group">
                    <label for="selection"></label>
                    <select id="selection" class="form-control">
@@ -49,7 +51,6 @@
                     </select>
                      </br>
                   <div class="input-icon mb-3 position-relative">
-                    
                     <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
                     <textarea
                       cols="30"
