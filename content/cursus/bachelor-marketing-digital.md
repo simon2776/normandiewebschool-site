@@ -108,12 +108,9 @@ years:
       content: "- Fondamentaux du marketing <br/> - Veille sectorielle, économique,
         culturelle et concurrentielle <br/> - Cibles et personas <br/> - Plan marketing
         et de communication <br/> - CRM et marketing automation"
-    - title: Référencement naturel et performance web
-      content: "- La typologie de contenus et audit lexical, - La réalisation d'un
-        prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
-        d'un site éco-performant et de CMS, <br/> - La validation de l'accessibilité
-        et des performances techniques et environnementales, <br/> - La réalisation
-        d'une présentation client. "
+    - title: Acquisition de trafic
+      content: "- Inbound marketing <br/> - Référencement naturel <br/> - Référencement
+        payant <br/> - Réseaux sociaux <br/> - Emailing <br/> - Partenariats"
     - title: Analytics, segmentation et reporting
       content: '- La définition d''''une stratégie réseaux sociaux et advertising,
         <br/> - L''écriture et la publication de contenus originaux, <br/> - La diffusion
