@@ -42,8 +42,8 @@ cursus:
   - title: Spécialisations
     content: <p><strong>L’année 2</strong> est l’année de spécialisation technique.
       Les étudiants sont en filières <strong>“<a href="/cursus/bachelor-developpement-web/">Développement
-      Web et Mobile</a>, <a href="/cursus/bachelor-marketing-digital/">Web Marketing</a>,
-      <a href="/cursus/bachelor-communication-visuelle/">Web Design</a> ou <a href="/cursus/bachelor-community-management/">Community
+      Web et Applicatif</a>, <a href="/cursus/bachelor-marketing-digital/">Web Marketing</a>,
+      <a href="/cursus/bachelor-communication-visuelle/">Communication graphique</a> ou <a href="/cursus/bachelor-community-management/">Community
       Management</a>”</strong> en fonction de leurs appétences et 100% des activités
       pédagogiques sont dirigées vers l’appréhension des compétences et connaissances
       nécessaires à leurs futurs métiers.</p><p>Outre l’approfondissement de leurs
@@ -101,28 +101,28 @@ filieres:
       title: Spécialisation Web Marketing
       color: color-orange
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, web marketing
+        Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-marketing-digital/"
     - bulle: "/uploads/logo-dev.png"
-      title: Spécialisation Web Développement
+      title: Spécialisation Développement web et applicatif
       color: color-yellow
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, web marketing
+        Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-developpement-web/"
     - bulle: "/uploads/logo-design.png"
-      title: Spécialisation Web Design
+      title: Spécialisation Communication graphique
       color: color-blue
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, web marketing
+        Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-communication-visuelle/"
     - bulle: "/uploads/logo_nws-1.jpg"
       title: Spécialisation Community Manager
       color: color-blue2
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
-        Vous avez le choix entre développement web, design graphique, web marketing
+        Vous avez le choix entre développement web et applicatif, communication graphique, web marketing
         ou Community Manager.
       link: "/cursus/bachelor-community-management/"
     arrow: true
