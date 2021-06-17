@@ -79,9 +79,9 @@ years:
       compétences en graphisme, design, marketing et développement. '
     etape:
     - title: Création graphique
-      content: "- Eco-conception graphique <br/> - Tendances graphiques & veille <br/>
+      content: "- Eco-conception graphique <br/> - Tendances graphiques / Veille <br/>
         - Formes, couleurs et polices <br/>- Identité visuelle et charte graphique
-        <br/>- Illustrations vectorielles & bitmap <br/> - Prise de vue & retouche
+        <br/>- Illustrations vectorielles / Bitmap <br/> - Prise de vue / Retouche
         photo <br/>- Réalisation Prints <br/> - Infographies <br/> - Outils graphiques
         professionnels (Adobe)"
     - title: Vidéo et animation
@@ -94,7 +94,7 @@ years:
         / JavaScript <br/> - Accessibilité et ergonomie <br/> - Référencement naturel
         SEO <br/> - Publication "
     - title: Communication et e-commerce
-      content: "- Marketing digital <br/> - Réseaux sociaux <br/> - E-mailing & Newsletter
+      content: "- Marketing digital <br/> - Réseaux sociaux <br/> - E-mailing / Newsletter
         <br/> - Intégration de contenus sur CMS <br/> - Sites e-commerce <br/> - Audit
         lexical, search console et analytics <br/> - Analyse d'éco performance <br/>
         - Systèmes professionnels de diffusion <br/> - Rédaction professionnelle <br/>"
