@@ -33,8 +33,7 @@ cursus:
       avez produit de nombreux visuels, vous avez produit une vidéo, vous avez acquis
       les bases de la programmation web et du web marketing et enfin vous avez découvert
       le community management.</p><p>L’année préparatoire s’adresse aux titulaires
-      du Baccalauréat, quelle que soit la série mais aussi aux étudiants souhaitant
-      se réorienter.</p>"
+      du Baccalauréat, quelle que soit la série. Un stage de 2 mois est à prévoir en entreprise.</p>"
     from: Bac +1
     color: color-yellow
     images:
