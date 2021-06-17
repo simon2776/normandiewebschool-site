@@ -37,6 +37,7 @@
                     />
                        
                   </div>
+                  
                  <div class="form-group">
                    <label for="selection"></label>
                    <select id="selection" class="form-control">
@@ -49,12 +50,18 @@
                      </optgroup>
                    
                    </select>
-                 </div>
-                 <div class="form-group">
-                   <label for="bio">L'objet de votre message</label>
-                   <textarea class="form-control" id="bio"  cols="30"
-                      rows="10"></textarea>
-                 </div>
+               {{end}} {{if .textarea}}
+                  <div class="input-icon mb-3 position-relative">
+                    <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
+                    <textarea
+                      cols="30"
+                      rows="10"
+                      placeholder="{{.placeholder}}"
+                      {{ if .required | eq true }} required="true" {{ end }}                      
+                      name="{{.name}}"
+                    ></textarea>
+                  </div>
+                  {{end}} {{end}}
                   <div class="row mb-lg-4">
                     <div class="col-lg-8">
                       {{range $index, $el := .checkbox}}
