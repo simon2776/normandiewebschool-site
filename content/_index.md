@@ -8,7 +8,7 @@ description: La Normandie Web School est une École d’Enseignement Supérieur 
 banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: Bienvenue à la <br/> NORMANDIE WEB SCHOOL
-  subtitle: Quelques mots sur l'école
+  subtitle: ''
   image: "/uploads/meta-generale.jpg"
 about:
   enable: true
