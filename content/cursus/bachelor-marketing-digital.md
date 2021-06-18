@@ -185,14 +185,13 @@ profession:
   - title: Trafic Manager
     description: Développez et installez une stratégie digitale répondant aux attentes
       et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
-  - title: Gestionnaire de contenu site web
-    description: Rédigez des contenus qui plaisent à la fois aux internautes et aux
-      moteurs de recherche. Supervisez les informations affichées et identifiez de
-      nouvelles opportunités de contenu.
-  - title: Rédacteur web
-    description: 'Rédigez le contenu d''un site web en prenant en compte la demande
-      et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
-      des navigateurs de recherches. '
+  - title: Chargé de Référencement
+    description: Le chargé de référencement web a pour objectif de placer un ou plusieurs
+      sites web en tête des classements des moteurs de recherche.
+  - title: Acquisition Manager
+    description: L'Acquisition Manager est chargé de coordonner toutes les actions
+      d'acquisition mises en place et d'équilibrer les ressources affectées en fonction
+      des résultats et des budgets.
   - title: Web marketer
     description: Développez et installez une stratégie digitale répondant aux attentes
       et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
