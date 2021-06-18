@@ -29,10 +29,10 @@ banner:
     justify: text-right
     href: "/cursus/bachelor-marketing-digital"
   - arrow: right
-    label: Marketing
-    color: color-orange
+    label: Communication graphique
+    color: color-blue
     justify: text-left
-    href: "/cursus/bachelor-marketing-digital"
+    href: "/cursus/bachelor-communication-visuelle/"
 about:
   enable: true
   url: https://www.youtube.com/embed/Gs_IBLIYvAs
