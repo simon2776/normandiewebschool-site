@@ -121,11 +121,9 @@ years:
       content: "- Expérience Utilisateur <br/> - Wireframes et maquettes <br/> - Écoconception,
         ergonomie et accessibilité <br/> - Intégration HTML/CSS et référencement <br/>
         - Thème Wordpress"
-    - title: Intégration web
-      content: "- Rédaction de contenu & référencement\n<br/> - Découpage de maquette
-        & prototypage\n<br/> - Intégration HTML/CSS/JavaScript  \n<br/> - Optimisation
-        des images\n<br/> - Réalisation de sites éco-performants et de CMS (Wordpress)\n<br/>
-        - Validation de l’accessibilité et des performances techniques et environnementales"
+    - title: Motion design
+      content: "- Cahier des charges <br/> - Moodboard et inspiration <br/> - Création
+        des éléments graphiques <br/> - Animation, rendu et montage"
     - title: Gamification et environnements virtuels
       content: |
         - UX : gamification d’expériences
