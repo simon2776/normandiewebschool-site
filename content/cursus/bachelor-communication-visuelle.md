@@ -168,7 +168,7 @@ profession:
   title: Les débouchés métiers
   subtitle: Liste non exhaustive
   item:
-  - title: Chef de projet digital
+  - title: Chef de projet multimédia
     description: Proposez des projets, organisez les dans leur globalité et accompagnez
       les équipes chargées de la production à travers un suivi complet, la création
       d'un plan marketing, des études de marchés et de la veille.
