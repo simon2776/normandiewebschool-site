@@ -38,11 +38,18 @@
                   </div>
                   {{end}} {{if .textarea}}
                   <div class="input-icon mb-3 position-relative">
-                    <div class="form-group">
-                      {{ with .Site.GetPages "page" .Params.related_page }}
-                      <h2>{{ .Title }}</h2>
-                      <p>{{ .Summary }}</p>
-                     {{ end }}
+                   		<div class="form-group">
+                         <label for="selection"></label>
+                         <select id="selection" class="form-control">
+                           <option value=""> Spécialité souhaitée</option>
+                           <optgroup label="">
+                             <option value="">Web Marketing</option>
+                             <option value="">Communication graphique</option>
+                             <option value="">Développeur web et applicatif</option>
+                             <option value="">Community management</option>
+                           </optgroup>
+                          </select>
+                    </div>
                 </div>
                   </br>
                   <div class="input-icon mb-3 position-relative">
