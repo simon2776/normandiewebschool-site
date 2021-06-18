@@ -136,6 +136,8 @@ years:
       pour devenir un pro du numérique. Voici les compétences et connaissances qui
       vous seront enseignées afin d''obtenir le statut de chef de projet digital. '
     etape:
+    - title: E-learning et cerfication
+      content: "- Culture et outils numériques <br/> - Anglais <br/> - CNIL et RGPD"
     - title: Entrepreneuriat et innovation
       content: "- Étude de marché / Benchmark <br/> - Cibles / Objectifs / Positionnement
         <br/> - Stratégie digitale <br/> - Veille <br/> - Écoresponsabilité / Modèle
