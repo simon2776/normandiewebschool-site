@@ -55,13 +55,13 @@ filieres:
     logo: "/uploads/logo-design.png"
     href: "/cursus/bachelor-communication-visuelle/"
   - title: Filière Développement web et applicatif
-    content: Ce titre prépare au métier de développeur web capable de créer, coder,
-      et tester des sites Internet et des applications web. La transformation digitale
-      des économies fait du développement web une des compétences essentielles des
-      entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
+    content: Ce titre prépare au métier de concepteur développeur d'application capable
+      de créer, coder, et tester des sites Internet et des applications web. La transformation
+      digitale des économies fait du développement web une des compétences essentielles
+      des entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
       web dans les start-ups du numérique, les ESN (entreprises de services numériques), 
-      les collectivités territoriales, les associations,  les agences web, les PME,
-      les grandes sociétés...
+      les collectivités territoriales, les associations,  les agences web, les PME
+      et les grandes sociétés.
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-yellow
