@@ -150,11 +150,10 @@ years:
     - title: Behaviour Driven Development en ASP.NET
       content: "- SCRUM / Extreme Programming <br/> - PHP/Symfony à C#/ASP.NET <br/>
         - Behaviour-Driver Development <br/> - UNITY"
-    - title: 'Gestion des Risques : Anticipation, Détection, Remédiation '
-      content: "- Facteurs-risques et cadre juridique \n<br/> - Détection, correction
-        et Post-Mortem d’incidents de sécurité\n<br/> - Modèles d’architecture : VM,
-        conteneurs, cloud, Microservices\n<br/> - Défense en profondeur : infrastructure,
-        code, humain\n<br/> - Refactoring et tests :  applicatifs et de l'infrastructure"
+    - title: Gestion des Risques
+      content: "- Facteurs risques / Cadre juridique <br/> - Incidents de sécurité
+        <br/> - Modèles d’architecture <br/> - Défense en profondeur <br/> - Refactoring
+        et tests"
     - title: Événementiel et VR/AR
       content: |-
         - Rétro-plannings et organisation
