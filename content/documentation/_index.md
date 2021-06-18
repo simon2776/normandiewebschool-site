@@ -29,7 +29,7 @@ documents:
     format: PDF
     document: "/uploads/communication-graphique.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: Filière Web Développement
+    name: Filière Développement web et applicatif
     format: PDF
     document: "/uploads/developpement.pdf"
   - icon: "/uploads/icn-cloud.png"
