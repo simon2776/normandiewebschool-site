@@ -21,7 +21,7 @@ banner:
     justify: text-right
     color: color-blue
   - arrow: right
-    label: Marketing
+    label: Web marketing
     color: color-orange
     href: "/cursus/bachelor-marketing-digital/"
     justify: text-left
