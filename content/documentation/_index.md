@@ -39,7 +39,7 @@ documents:
   - icon: "/uploads/icn-cloud.png"
     name: Filière Community Management
     format: PDF
-    document: "/uploads/community-management.pdf"
+    document: "/uploads/community_management.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Mastère "Expert digital"
     format: PDF
