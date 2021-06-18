@@ -158,18 +158,9 @@ years:
       content: "- Cahier des charges / Dossier de production <br/> - Gestion de projet
         <br/> - Réalisation d’un projet en mode agence <br/> - Reporting / Communication
         orale et écrite <br/> - Responsabilité sociétale"
-    - title: Projet certifiant et posture professionnelle
-      content: "- Cahier des charges et dossier de production\n<br/> - Gestion de
-        projet : allocation de ressources,  planning et budget\n<br/> - Réalisation
-        et gestion d’un projet en mode agence\n<br/> - Reporting et communication
-        à l’oral et à l’écrit\n<br/> - Ecoute, curiosité, culture & Intelligence collective
-        \n<br/> - Travail en équipe, esprit collaboratif et responsabilité sociétale"
-    - title: E-learning et certifications
-      content: |-
-        - Culture et outils numériques
-        <br/> - Certifications : compétences numériques et code
-        <br/> - Renforcement orthographique et grammatical
-        <br/> - Anglais technique
+    - title: E-learning et certification
+      content: "- Culture et outils numériques <br/> - Compétences numériques et code
+        <br/> - Anglais technique <br/> - CNIL et RGPD"
     active: ''
 profession:
   enable: true
