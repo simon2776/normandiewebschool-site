@@ -10,7 +10,7 @@ banner:
   title: Les <span class="font-weight-medium">entreprises</span>
   title-line-twho: ''
   subtitle: La Normandie Web School au plus près des entreprises.
-  image: "/uploads/banner_entreprise.jpg"
+  image: "/uploads/post/Table_ronde_NWS.jpg"
 about:
   enable: true
   title: Introduction
