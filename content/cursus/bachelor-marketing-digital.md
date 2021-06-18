@@ -192,9 +192,10 @@ profession:
     description: L'Acquisition Manager est chargé de coordonner toutes les actions
       d'acquisition mises en place et d'équilibrer les ressources affectées en fonction
       des résultats et des budgets.
-  - title: Web marketer
-    description: Développez et installez une stratégie digitale répondant aux attentes
-      et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
+  - title: Growthhacker
+    description: Le growthhacker, compétent en marketing et programmation, curieux
+      et créatif fait appel à des techniques d’analyses guidées par les données pour
+      amorcer et optimiser la croissance de l’entreprise.
 testimonials:
   enable: true
   filter:
