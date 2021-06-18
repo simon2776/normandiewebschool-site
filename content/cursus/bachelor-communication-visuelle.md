@@ -110,11 +110,10 @@ years:
       content: "- Culture graphique <br/> - Création bitmap et vectorielle et composition
         <br/> - Photographie et retouche photo <br/> - Formats print et techniques
         d’impression <br/> - Adobe In Design, Illustrator et Photoshop"
-    - title: Story maps et création vectorielle
-      content: |
-        - Création de StoryMaps
-        <br/> - Éléments de symbologie SVG avec Illustrator
-        <br/> - Cartes dynamiques en JavaScript
+    - title: Vidéo
+      content: "- Canaux de diffusion <br/> - Conception (Scénario, Storyboard) <br/>
+        - Captation <br/> - Montage et intégration sonore <br/> - Adobe Premiere et
+        Audition\n"
     - title: Book numérique
       content: |
         - Identité visuelle, charte graphique
