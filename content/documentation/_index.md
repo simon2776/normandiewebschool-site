@@ -19,7 +19,7 @@ documents:
   - icon: "/uploads/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
-    document: "/uploads/plaquette-nws-generale.pdf"
+    document: ''
   - icon: "/uploads/icn-cloud.png"
     name: Année préparatoire Concepteur numérique
     format: PDF
