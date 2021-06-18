@@ -178,10 +178,10 @@ profession:
     d'un plan marketing, des études de marchés, de la veille et des réunions et des
     rencontres.
   item:
-  - title: Community Manager
-    description: Participez à l'élaboration d'une stratégie social media pour produire
-      du contenu sur les réseaux sociaux, entretenir une vraie relation avec une communauté
-      et maintenir la bonne image d'une entreprise.
+  - title: Assistant Web Marketing
+    description: L’assistant webmarketing assiste le chef de pôle, les chargés de
+      Webmarketing et les chefs de produits dans la conception, l’organisation et
+      le suivi des actions de marketing opérationnel transmédia.
   - title: Chef de projet marketing
     description: Proposez des projets, organisez les dans leur globalité et accompagnez
       les équipes chargées de la production à travers un suivi complet, la création
@@ -196,7 +196,7 @@ profession:
       et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
       des navigateurs de recherches. '
   - title: Web marketer
-    description: Installez une stratégie de communication internet répondant aux attentes
+    description: Développez et installez une stratégie digitale répondant aux attentes
       et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
 testimonials:
   enable: true
