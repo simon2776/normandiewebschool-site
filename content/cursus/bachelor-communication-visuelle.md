@@ -169,9 +169,9 @@ profession:
   subtitle: Liste non exhaustive
   item:
   - title: Chef de projet multimédia
-    description: Proposez des projets, organisez les dans leur globalité et accompagnez
-      les équipes chargées de la production à travers un suivi complet, la création
-      d'un plan marketing, des études de marchés et de la veille.
+    description: 'Le chef de projet multimédia coordonne l''ensemble de la production
+      d''un projet multimédia. Son objectif : proposer au client un produit de qualité,
+      dans les délais impartis et respectant le budget défini au préalable.'
   - title: Web Designer
     description: 'Créez des pages web et occupez-vous de tous l''aspects graphiques
       de celles-ci en créant si besoin la charte graphique et l''identité visuelle
