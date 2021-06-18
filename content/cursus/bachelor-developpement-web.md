@@ -169,12 +169,13 @@ profession:
     les équipes chargées de la production à travers un développement informatique
     complet de la conception au recettage.
   item:
-  - title: Développeur informatique
-    description: Appuyez vous sur des langages de programmation pour concevoir un
-      logiciel et ayez pour charge de concevoir ou d'améliorer un programme informatique.
   - title: Développeur web
     description: 'Réalisez des logiciels, des sites Internet ou des applications à
       l''aide du langage de programmation. '
+  - title: Développeur application mobile
+    description: Un développeur d’applications mobiles développe des applications
+      pour des terminaux mobiles. Il peut également avoir la mission d’optimiser des
+      applications déjà créées ou d’adapter des sites Web au support mobile.
   - title: Intégrateur web
     description: 'Intégrez des maquettes et des textes sur un site Internet, des logiciels
       ou des applications en utilisant le langage de programmation.  '
