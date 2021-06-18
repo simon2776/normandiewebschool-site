@@ -98,10 +98,10 @@
 
       <div class="col-lg-4 mt-5 mt-lg-0">
         <div class="card second-push-top subForm">
-          <A HREF="mailto:contact@normandiewebschool.fr">{{range .item}}</A>
+          {{range .item}}
           <div class="row my-4 d-flex flex-column align-items-center">
             <img src="{{.image }}" alt="{{.info}}" class="mb-4">
-            <A HREF="tel:0279027378"><h3 class="color-blue w-100 px-4 text-center">  {{ .info | safeHTML }}</h3></A>
+            <h3 class="color-blue w-100 px-4 text-center">  {{ .info | safeHTML }}</h3>
             <p class="">{{.subInfo | safeHTML }}</p>
           </div>
           {{end}}
