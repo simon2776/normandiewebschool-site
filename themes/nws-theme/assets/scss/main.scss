@@ -451,8 +451,8 @@ hr {
 .btn {
   font-size: 1.2em;
  
-  &.color-blue2 {
-    background-color: var(--blue2);
+  &.color-violet {
+    background-color: var(--violet);
     color: white !important;
   }
   &.color-yellow {
@@ -1052,8 +1052,8 @@ HERO HEADER
       }
     }
 
-    &.color-blue2 {
-      border-color: var(--blue2);
+    &.color-violet {
+      border-color: var(--violet);
     }
     
     &.color-orange {
