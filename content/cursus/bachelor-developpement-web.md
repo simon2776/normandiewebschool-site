@@ -129,7 +129,7 @@ years:
       content: "- Architecture Backend, SQL, NoSQL <br/> - Principes SOLID et MVC
         <br/> - Sécurité en profondeur <br/> - Design d’API <br/> - Conteneurisation
         et CI/CD <br/> - Frameworks PHP"
-    - title: E-learning et certification
+    - title: E-learning et certifications
       content: "- Culture et outils numériques <br/> - Anglais"
     active: ''
   - button: 3e année
@@ -143,15 +143,15 @@ years:
         \ <br/> - Stratégie digitale  <br/> - Veille <br/> - Écoresponsabilité / Modèle
         économique web <br/> - Pitch projet"
     - title: Domain Driven Design
-      content: "- Rédaction d’un brief client <br/> - Identification des acteurs du
-        projet sous forme de Personas <br/> - Définition d’une solution technique
-        (site et médias) répondant aux besoins <br/> - Estimation des coûts de conception,
-        de mise en place et de suivi <br/> - Rédaction d’une proposition technique
-        et commerciale"
+      content: "- Entretien / rédaction brief client <br/> - Acteurs du projet et
+        personas <br/> - Vocabulaire universel / Modèle de domaine <br/> - Modélisation
+        fonctionnelle en UML <br/> - Coûts de conception, mise en place et suivi <br/>
+        - Proposition technique et commerciale"
     - title: Behaviour Driven Development en ASP.NET
       content: |
-        - SCRUM / Extreme Programming <br/> - PHP/Symfony à C#/ASP.NET
-        <br/> - Behaviour-Driven Development <br/> - UNITY
+        - Agilité : SCRUM et Extreme Programming
+        <br/> - De PHP/Symfony à C#/ASP.NET
+        <br/> - Behaviour-Driven Development : spécifications exécutables, tests unitaires et d'acceptation, recettage et validation client
     - title: 'Gestion des Risques : Anticipation, Détection, Remédiation '
       content: "- Facteurs-risques et cadre juridique \n<br/> - Détection, correction
         et Post-Mortem d’incidents de sécurité\n<br/> - Modèles d’architecture : VM,
