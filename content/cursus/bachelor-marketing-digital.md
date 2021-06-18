@@ -196,6 +196,11 @@ profession:
     description: Le growthhacker, compétent en marketing et programmation, curieux
       et créatif fait appel à des techniques d’analyses guidées par les données pour
       amorcer et optimiser la croissance de l’entreprise.
+  - title: Chargé de e-commerce
+    description: Le Responsable e-commerce est à la croisée des métiers du web, de
+      la vente et du marketing. Responsable du développement des ventes sur internet,
+      il est en charge de véhiculer l’image de l’entreprise ou de son client auprès
+      du public et de sa clientèle.
 testimonials:
   enable: true
   filter:
