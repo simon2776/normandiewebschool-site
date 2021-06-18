@@ -53,6 +53,13 @@ years:
     active: active
     subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
       compétences en design, marketing, développement et community management.
+    etape:
+    - title: Création graphique
+      content: "- Eco-conception graphique <br/> - Tendances graphiques / Veille <br/>
+        - Formes, couleurs et polices <br/>- Identité visuelle et charte graphique
+        <br/>- Illustrations vectorielles / Bitmap <br/> - Prise de vue / Retouche
+        photo <br/>- Réalisation Prints <br/> - Infographies <br/> - Outils graphiques
+        professionnels (Adobe)"
   - button: 2e année
     title: Programme de la deuxième année Community Management
     subtitle: Développez vos compétences et connaissances du monde numérique via nos
