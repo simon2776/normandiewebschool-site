@@ -19,8 +19,8 @@ banner:
     digitale des économies fait du développement web une compétences essentielle des
     entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
     web dans les start-ups du numérique, les ESN (entreprises de services numériques),
-    les collectivités territoriales, les associations, les agences web, les PME, les
-    grandes sociétés…</p>"
+    les collectivités territoriales, les associations, les agences web, les PME et
+    les grandes sociétés. Devenez concepteur développeur d'application.</p>"
   color: color-yellow
   buttons:
   - arrow: left
