@@ -100,7 +100,7 @@
         <div class="card second-push-top subForm">
           {{range .item}}
           <div class="row my-4 d-flex flex-column align-items-center">
-            <img src="{{.image }}" alt="{{.info}}" class="mb-4">
+            <A HREF="mailto:contact@normandiewebschool.fr"><img src="{{.image }}" alt="{{.info}}" class="mb-4"></A>
             <h3 class="color-blue w-100 px-4 text-center">  {{ .info | safeHTML }}</h3>
             <p class="">{{.subInfo | safeHTML }}</p>
           </div>
