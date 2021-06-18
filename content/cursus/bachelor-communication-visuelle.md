@@ -186,7 +186,7 @@ profession:
   - title: Graphiste multimedia
     description: 'Dessinez, créez et concevez des maquettes pour des supports numérique
       (pages Internet, applications, habillage TV ou radio etc. '
-  - title: Infographiste
+  - title: Infographiste marketing
     description: 'Créez ou restaurez des identités visuelles pour des entreprises
       ou produisez des visuels innovants, percutants et diffusants ou promouvants
       un produit, un service ou encore un évènement. '
