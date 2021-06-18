@@ -29,7 +29,7 @@ banner:
     justify: text-right
     href: "/cursus/bachelor-communication-visuelle/"
   - arrow: right
-    label: Développement
+    label: Développement web
     color: color-yellow
     justify: text-left
     href: "/cursus/bachelor-developpement-web"
