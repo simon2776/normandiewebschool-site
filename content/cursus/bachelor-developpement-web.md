@@ -176,9 +176,11 @@ profession:
     description: Un développeur d’applications mobiles développe des applications
       pour des terminaux mobiles. Il peut également avoir la mission d’optimiser des
       applications déjà créées ou d’adapter des sites Web au support mobile.
-  - title: Intégrateur web
-    description: 'Intégrez des maquettes et des textes sur un site Internet, des logiciels
-      ou des applications en utilisant le langage de programmation.  '
+  - title: Développeur Full Stack
+    description: Le développeur full stack est un codeur capable de réaliser la programmation
+      d’un site ou d'une application web à la fois en frontend et backend. Il dispose
+      ainsi de compétences variées lui permettant de travailler sur chaque étape d'un
+      projet de création allant du développement à la production
   - title: Concepteur web
     description: Conseillez et aidez le client à établir une demande détaillée selon
       ses envies et ses attentes en communication sur le web.
