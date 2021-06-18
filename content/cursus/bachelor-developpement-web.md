@@ -154,11 +154,10 @@ years:
       content: "- Facteurs risques / Cadre juridique <br/> - Incidents de sécurité
         <br/> - Modèles d’architecture <br/> - Défense en profondeur <br/> - Refactoring
         et tests"
-    - title: Événementiel et VR/AR
-      content: |-
-        - Rétro-plannings et organisation
-        <br/> - Collaboration entre agences (marketing, design, code)
-        <br/> - Développement AR/VR avec Unity
+    - title: Projet certifiant
+      content: "- Cahier des charges / Dossier de production <br/> - Gestion de projet
+        <br/> - Réalisation d’un projet en mode agence <br/> - Reporting / Communication
+        orale et écrite <br/> - Responsabilité sociétale"
     - title: Projet certifiant et posture professionnelle
       content: "- Cahier des charges et dossier de production\n<br/> - Gestion de
         projet : allocation de ressources,  planning et budget\n<br/> - Réalisation
