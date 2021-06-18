@@ -186,13 +186,13 @@ testimonials:
   filter:
   - dev
 menu:
-  main:
+  desktop:
     name: Développement web et applicatif
     parent: Nos spécialisations
     weight: 2
-  desktop:
-    name: Concepteur et développeur d'application
-    parent: Bachelors
+  main:
+    name: Développement web et applicatif
+    parent: Nos spécialisations
     weight: 2
 
 ---

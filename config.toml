@@ -5,12 +5,8 @@ theme = "nws-theme"
 title = "L'école des métiers du numérique"
 weight = 1
 [[menu.desktop]]
-name = "Bachelors"
-parent = "Titres certifiés"
-weight = 1
-[[menu.desktop]]
 URL = "cursus"
-name = "Titres certifiés"
+name = "Nos spécialisations"
 weight = 2
 [[menu.main]]
 name = "Nos spécialisations"
