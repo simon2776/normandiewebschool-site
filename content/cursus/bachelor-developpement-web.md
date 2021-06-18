@@ -133,10 +133,10 @@ years:
       content: "- Culture et outils numériques <br/> - Anglais"
     active: ''
   - button: 3e année
-    title: Programme troisième année développement web et applicatif
-    subtitle: 'Apprenez et pratiquez toutes les techniques du developpement pour devenir
+    title: Programme troisième année Concepteur développeur d'application
+    subtitle: 'Apprenez et pratiquez toutes les techniques du développement pour devenir
       un pro du numérique. Voici les compétences et connaissances qui vous seront
-      enseignées afin d''obtenir le statut de chef de projet digital. '
+      enseignées afin d''obtenir le statut de concepteur développeur d''application. '
     etape:
     - title: Entrepreneuriat et innovation
       content: "- Étude de marché / Benchmark <br/> - Cibles / Objectifs / Positionnement
