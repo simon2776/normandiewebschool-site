@@ -11,7 +11,7 @@ description: "Si vous aimez la création, l'image, la video et le web, venez app
   formation: 455H en face-à-face et 180H d'apprentissage individualisé en FOAD"
 banner:
   logo: "/uploads/logo-design.png"
-  title: Filière <span class="font-weight-medium"> Design </span>
+  title: Filière <span class="font-weight-medium"> Communication graphique </span>
   image: "/uploads/web-design.jpg"
   description: <p>Ce titre prépare à concevoir la forme visuelle de messages dans
     les différents domaines du graphisme, de l’édition et de la publicité, imprimés
