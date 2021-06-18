@@ -13,6 +13,46 @@
 <!-->  </section>
 <!-->  <!-- /hero area -->
 
+  <div class="bg-lightgrey section pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div style="margin:20%">
+
+          {{ $testimonials := where .Site.RegularPages "Type" "in" "testimonial" }}
+
+          <div id="testimonialsCarousel" class="carousel slide pb-5" data-ride="carousel" data-interval="20000">
+            <ol class="carousel-indicators">
+              {{ range $index, $value := $testimonials }}
+              <li data-target="#testimonialsCarousel" data-slide-to="{{$index}}" class="{{ if (eq $index 0 )}}active{{end}}"></li>
+              {{end}}
+            </ol>
+
+            <div class="carousel-inner">
+              {{ range $index, $value := $testimonials }}
+                <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">
+                  {{ partial "testimonial.html" . }}
+                </div>
+              {{ end }}
+            </div>
+
+            <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
+              <span class="color-blue" style="position: absolute;top: 160px;"><i class="fa fa-angle-left carousel-arrow" aria-hidden="true"></i></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-slide="next">
+              <span class="color-blue" style="position: absolute;top: 160px;"><i class="fa fa-angle-right carousel-arrow" aria-hidden="true"></i></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
   <section class="bg-lightgrey d-block d-lg-none">
     <div class="pb-4 container up">
       <div class="row">
