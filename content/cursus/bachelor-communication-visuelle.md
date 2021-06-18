@@ -117,12 +117,10 @@ years:
     - title: Contenus web interactifs
       content: "- Animation CSS <br/> - Interaction utilisateur <br/> - Animation
         de SVG <br/> - Web Canvas\n"
-    - title: Production vidéo & community management
-      content: |-
-        - Storyboards
-        <br/> - Captation, montage et intégration sonore
-        <br/> - Motion design et animations 2D
-        <br/> - Réseaux sociaux vidéo
+    - title: Création de site web
+      content: "- Expérience Utilisateur <br/> - Wireframes et maquettes <br/> - Écoconception,
+        ergonomie et accessibilité <br/> - Intégration HTML/CSS et référencement <br/>
+        - Thème Wordpress"
     - title: Intégration web
       content: "- Rédaction de contenu & référencement\n<br/> - Découpage de maquette
         & prototypage\n<br/> - Intégration HTML/CSS/JavaScript  \n<br/> - Optimisation
