@@ -139,10 +139,9 @@ years:
       enseignées afin d''obtenir le statut de chef de projet digital. '
     etape:
     - title: Entrepreneuriat et innovation
-      content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
-        objectifs, de la cible et du positionnement  <br/> - Définition d’une stratégie
-        digitale  <br/> - Veille systématique et curation de contenu <br/> - Écoresponsabilité
-        et modèle économique web <br/> - Pitch projet devant des parties prenantes"
+      content: "- Étude de marché / Benchmark <br/> - Cibles / Objectifs / Positionnement
+        \ <br/> - Stratégie digitale  <br/> - Veille <br/> - Écoresponsabilité / Modèle
+        économique web <br/> - Pitch projet"
     - title: Domain Driven Design
       content: "- Rédaction d’un brief client <br/> - Identification des acteurs du
         projet sous forme de Personas <br/> - Définition d’une solution technique
