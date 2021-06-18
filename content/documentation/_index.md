@@ -23,7 +23,7 @@ documents:
   - icon: "/uploads/icn-cloud.png"
     name: Année préparatoire Concepteur numérique
     format: PDF
-    document: "/uploads/1ere-annee-cursus-initial.pdf"
+    document: "/uploads/a1.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Filière Web Design & Communication visuelle
     format: PDF
