@@ -145,11 +145,10 @@ years:
         et personas <br/> - Solutions techniques (UX/UI) <br/> - Estimation des coûts
         <br/> - Proposition technique et commerciale"
     - title: Design et Intégration agile
-      content: |-
-        - Mise en oeuvre d’un processus agile associant le client
-        <br/> - Réalisation d’une maquette en fonction de contraintes UX/UI
-        <br/> - Intégration HTML/CSS/ JavaScript éco-performante, accessible et adaptative
-        <br/> - Tests, Recettage et validation
+      content: "- Processus agile <br/> - Maquette en fonction des contraintes UX/UI
+        <br/> - Intégration HTML / CSS / JavaScript <br/> - Tests, recettage et validation
+        <br/> - Maquette <br/> - Pack Adobe (In Design, Illustrator, Photoshop, XD)
+        <br/> - Responsive"
     - title: Gestion des Risques et Amélioration Continue
       content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
         : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
