@@ -152,10 +152,10 @@ years:
     - title: Projet certifiant
       content: "- Cahier des charges / Dossier de production <br/> - Gestion de projet
         et réalisation en mode agence <br/> - Reporting / Communication orale et écrite"
-    - title: Gestion des Risques et Amélioration Continue
-      content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
-        : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
-        - Mise-à-jour qualitative de contenus sous contrainte de la Direction Artistique"
+    - title: Gestion des risques et amélioration continue
+      content: "- Facteurs-risques et cadre juridique <br/> - Communication de crise
+        <br/> - Post-Mortem / Atelier d’auto-critique <br/> - Mise-à-jour qualitative
+        de contenus sous contrainte de la Direction Artistique"
     - title: Événementiel et vidéo
       content: |-
         - Planification et organisation
