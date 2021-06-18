@@ -12,7 +12,7 @@ description: " Le codage, l'intégration et la création de plateforme est votre
   individualisé en FOAD"
 banner:
   logo: "/uploads/logo-dev.png"
-  title: Filière <span class="font-weight-medium">développement</span>
+  title: Filière <span class="font-weight-medium">Développement web et applicatif</span>
   image: "/uploads/web-dev.jpg"
   description: "<p>Ce cursus prépare au métier de développeur web et applicatif capable
     de créer, coder et tester des sites Internet et des applications web. La transformation
