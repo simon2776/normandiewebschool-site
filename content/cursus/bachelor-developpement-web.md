@@ -148,10 +148,8 @@ years:
         fonctionnelle en UML <br/> - Coûts de conception, mise en place et suivi <br/>
         - Proposition technique et commerciale"
     - title: Behaviour Driven Development en ASP.NET
-      content: |
-        - Agilité : SCRUM et Extreme Programming
-        <br/> - De PHP/Symfony à C#/ASP.NET
-        <br/> - Behaviour-Driven Development : spécifications exécutables, tests unitaires et d'acceptation, recettage et validation client
+      content: "- SCRUM / Extreme Programming <br/> - PHP/Symfony à C#/ASP.NET <br/>
+        - Behaviour-Driver Development <br/> - UNITY"
     - title: 'Gestion des Risques : Anticipation, Détection, Remédiation '
       content: "- Facteurs-risques et cadre juridique \n<br/> - Détection, correction
         et Post-Mortem d’incidents de sécurité\n<br/> - Modèles d’architecture : VM,
