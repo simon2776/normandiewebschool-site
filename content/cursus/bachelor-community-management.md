@@ -48,7 +48,6 @@ skills:
 years:
   enable: true
   item:
-  - button: 3e année
   - button: 1er année
     title: Le programme en cursus initial
     active: active
@@ -112,6 +111,8 @@ years:
       content: "- CV / Lettre de motivation <br/> - Accompagnement recherche de stages
         et/ou alternance <br/> - Écosystème numérique"
     active: ''
+  - button: 3e année
+    title: Programme troisième année Community management
 profession:
   enable: true
   title: Les débouchés métiers
