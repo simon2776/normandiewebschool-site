@@ -106,6 +106,8 @@ years:
       pour devenir un pro du numérique. Voici les compétences et connaissances qui
       vous seront enseignées
     etape:
+    - title: E-learning et certification
+      content: Culture et outils numériques <br/> - Anglais
     - title: Veille et création artistique
       content: "- Culture graphique <br/> - Création bitmap et vectorielle et composition
         <br/> - Photographie et retouche photo <br/> - Formats print et techniques
