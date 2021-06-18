@@ -149,6 +149,9 @@ years:
         <br/> - Intégration HTML / CSS / JavaScript <br/> - Tests, recettage et validation
         <br/> - Maquette <br/> - Pack Adobe (In Design, Illustrator, Photoshop, XD)
         <br/> - Responsive"
+    - title: Projet certifiant
+      content: "- Cahier des charges / Dossier de production <br/> - Gestion de projet
+        et réalisation en mode agence <br/> - Reporting / Communication orale et écrite"
     - title: Gestion des Risques et Amélioration Continue
       content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
         : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
@@ -160,12 +163,6 @@ years:
         <br/> - Motion design et animation
         <br/> - Réalité Virtuelle : ambiance visuelle et sonore, intégration avec Unity
         <br/> - Web TV : création et diffusion de contenu et live vidéo
-    - title: Projet certifiant et posture professionnelle
-      content: |-
-        - Cahier des charges et dossier de production
-        <br/> - Gestion de projet : allocation de ressources,  planning et budget
-        <br/> - Réalisation et gestion d’un projet en mode agence
-        <br/> - Reporting et communication à l’oral et à l’écrit
     active: ''
 profession:
   enable: true
