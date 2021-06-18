@@ -131,7 +131,7 @@ years:
         canaux de communication <br/> - Format de contenus\n"
     active: ''
   - button: 3e année
-    title: Spécialité marketing digital, 3e année
+    title: Spécialité Communication graphique, 3e année
     subtitle: 'Apprenez et pratiquez toutes les techniques du design et du graphisme
       pour devenir un pro du numérique. Voici les compétences et connaissances qui
       vous seront enseignées afin d''obtenir le statut de chef de projet digital. '
