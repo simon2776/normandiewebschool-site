@@ -169,10 +169,6 @@ profession:
     les équipes chargées de la production à travers un développement informatique
     complet de la conception au recettage.
   item:
-  - title: Chef de projet digital web
-    description: Chef de projet digital consiste à coordonner les opérations liées
-      aux marketing digital et au webmarketing. Il peut, dans ce sens, participer
-      à la transformation digitale de son entreprise.
   - title: Développeur web
     description: 'Réalisez des logiciels, des sites Internet ou des applications à
       l''aide du langage de programmation. '
@@ -195,6 +191,10 @@ profession:
       ou produits sur Internet et/ou web mobile. Il doit garantir la qualité technique
       des applications et veiller au respect des charges et des délais qui ont été
       impartis.
+  - title: Chef de projet digital web
+    description: Chef de projet digital consiste à coordonner les opérations liées
+      aux marketing digital et au webmarketing. Il peut, dans ce sens, participer
+      à la transformation digitale de son entreprise.
 testimonials:
   enable: true
   filter:
