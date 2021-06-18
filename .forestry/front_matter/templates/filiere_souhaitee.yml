@@ -1,14 +1,1 @@
----
-type: select
-name: category
-label: Category
-description: Select a category for this page
-hidden: false
-config:
-    source:
-      type: custom
-    options:
-        - "Web Marketing"
-        - "Communication graphique"
-        - "Développement web et applicatif"
-        - "Community management"
+
