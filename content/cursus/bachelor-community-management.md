@@ -92,6 +92,12 @@ years:
         formats et optimisation <br/> - Photos & photomontage avec Photoshop <br/>
         - Création vectorielle avec Illustrator <br/> - Vidéo et animation avec Premiere
         Pro et After Effect <br/> - Brand Contant"
+    - title: Mise en valeur du contenu
+      content: "- Tunnel de vente site e-commerce et réseaux sociaux <br/> - Newsletter,
+        blog et emailing <br/> - Storytelling <br/> - Promotion et campagne ads"
+    - title: Relation client et e-réputation
+      content: "- Menaces et opportunités <br/> - Veille, diagnostic et outils <br/>
+        - Anticipation et détection <br/> - Gestion de crise"
     - title: Animation d'une communauté
       content: "- Déploiement du calendrier <br/> - Événements, live vidéo <br/> -
         Gamification, jeux concours et sondages <br/> - Plateforme participative <br/>
@@ -99,14 +105,8 @@ years:
     - title: Création de site web
       content: "- User experience / user interface <br/> - Système de gestion de contenus
         (CMS) <br/> - Landing page HTML / CSS <br/> - Référencement"
-    - title: Mise en valeur du contenu
-      content: "- Tunnel de vente site e-commerce et réseaux sociaux <br/> - Newsletter,
-        blog et emailing <br/> - Storytelling <br/> - Promotion et campagne ads"
     - title: E-learning et certification
-      content: "- Création graphique <br/> - Anglais technique <br/> - Facebook blueprint"
-    - title: Relation client et e-réputation
-      content: "- Menaces et opportunités <br/> - Veille, diagnostic et outils <br/>
-        - Anticipation et détection <br/> - Gestion de crise"
+      content: "- Création graphique <br/> - Anglais <br/> - Facebook blueprint"
     - title: Projet professionnel
       content: "- CV / Lettre de motivation <br/> - Accompagnement recherche de stages
         et/ou alternance <br/> - Écosystème numérique"
