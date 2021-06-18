@@ -82,10 +82,11 @@ years:
       différents programmes. Devenez Community Manager.
     etape:
     - title: Analyse et stratégie
-      content: |-
-        - Stratégie marketing BtoB et BtoC <br/> - Veille sectorielle, économique, culturelle et
-        concurrentielle <br/> - Stratégie de communication, social media et éditoriale <br/> - Stratégie d’acquisition : influenceur, relations presse et
-        publique, partenariats, SEA <br/> - Outils de publications et de suivi de performances
+      content: "- Stratégie marketing BtoB et BtoC <br/> - Veille sectorielle, économique,
+        culturelle et concurrentielle <br/> - Stratégie de communication, social media
+        et éditoriale <br/> - Stratégie d’acquisition : influenceur, relations presse
+        et publique, partenariats, SEA <br/> - Outils de publications et de suivi
+        de performances"
     - title: Animation d'une communauté
       content: "- Déploiement du calendrier <br/> - Événements, live vidéo <br/> -
         Gamification, jeux concours et sondages <br/> - Plateforme participative <br/>
