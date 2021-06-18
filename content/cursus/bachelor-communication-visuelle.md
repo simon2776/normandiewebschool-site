@@ -196,11 +196,11 @@ testimonials:
   - design
 menu:
   desktop:
-    name: Bachelor Communication graphique
+    name: Communication graphique
     parent: Nos spécialisations
     weight: 3
   main:
-    name: Bachelor Communication graphique
+    name: Communication graphique
     parent: Nos spécialisations
     weight: 3
 

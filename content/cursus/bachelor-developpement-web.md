@@ -187,11 +187,11 @@ testimonials:
   - dev
 menu:
   desktop:
-    name: Bachelor Développement web
+    name: Développement web et applicatif
     parent: Nos spécialisations
     weight: 2
   main:
-    name: Bachelor Développement web
+    name: Développement web et applicatif
     parent: Nos spécialisations
     weight: 2
 
