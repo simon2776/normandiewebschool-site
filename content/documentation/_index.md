@@ -31,7 +31,7 @@ documents:
   - icon: "/uploads/icn-cloud.png"
     name: Filière Développement web et applicatif
     format: PDF
-    document: "/uploads/developpement.pdf"
+    document: "/uploads/developpeur_web.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Filière Web Marketing
     format: PDF
