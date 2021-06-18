@@ -24,10 +24,10 @@ banner:
   color: color-orange
   buttons:
   - arrow: left
-    label: Design
-    color: color-blue
+    label: Community management
+    color: color-violet
     justify: text-right
-    href: "/cursus/bachelor-communication-visuelle/"
+    href: "/cursus/bachelor-community-management"
   - arrow: right
     label: Développement web
     color: color-yellow
