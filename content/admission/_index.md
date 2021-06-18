@@ -68,6 +68,7 @@ financement:
   image2: "/uploads/logo_nws_v.png"
 menu:
   main:
+    name: Admission / Tarifs
     weight: 3
   top:
     name: Admission / Tarifs
