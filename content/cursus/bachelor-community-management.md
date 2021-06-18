@@ -54,28 +54,28 @@ years:
     subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
       compétences en design, marketing, développement et community management.
     etape:
-    - title: E-learning
-      content: "- Français <br/> - Bases du code"
-    - title: Communication et e-commerce
-      content: "- Marketing digital <br/> - Réseaux sociaux <br/> - E-mailing / Newsletter
-        <br/> - Intégration de contenus sur CMS <br/> - Sites e-commerce <br/> - Audit
-        lexical, search console et analytics <br/> - Analyse d'éco performance <br/>
-        - Systèmes professionnels de diffusion <br/> - Rédaction professionnelle <br/>"
-    - title: Création de sites web
-      content: "- Eco-conception web <br/> - Sites mobiles et desktops <br/> - Conception
-        d’interfaces <br/> - Systèmes de design & Composants web <br/> - HTML / CSS
-        / JavaScript <br/> - Accessibilité et ergonomie <br/> - Référencement naturel
-        SEO <br/> - Publication "
-    - title: Vidéo et animation
-      content: "- Eco-conception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
-        en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
-        - Outils vidéo professionnels (Adobe)"
     - title: Création graphique
       content: "- Eco-conception graphique <br/> - Tendances graphiques / Veille <br/>
         - Formes, couleurs et polices <br/>- Identité visuelle et charte graphique
         <br/>- Illustrations vectorielles / Bitmap <br/> - Prise de vue / Retouche
         photo <br/>- Réalisation Prints <br/> - Infographies <br/> - Outils graphiques
         professionnels (Adobe)"
+    - title: Vidéo et animation
+      content: "- Eco-conception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
+        en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
+        - Outils vidéo professionnels (Adobe)"
+    - title: Création de sites web
+      content: "- Eco-conception web <br/> - Sites mobiles et desktops <br/> - Conception
+        d’interfaces <br/> - Systèmes de design & Composants web <br/> - HTML / CSS
+        / JavaScript <br/> - Accessibilité et ergonomie <br/> - Référencement naturel
+        SEO <br/> - Publication "
+    - title: Communication et e-commerce
+      content: "- Marketing digital <br/> - Réseaux sociaux <br/> - E-mailing / Newsletter
+        <br/> - Intégration de contenus sur CMS <br/> - Sites e-commerce <br/> - Audit
+        lexical, search console et analytics <br/> - Analyse d'éco performance <br/>
+        - Systèmes professionnels de diffusion <br/> - Rédaction professionnelle <br/>"
+    - title: E-learning
+      content: "- Français <br/> - Bases du code"
   - button: 2e année
     title: Programme de la deuxième année Community Management
     subtitle: Développez vos compétences et connaissances du monde numérique via nos
