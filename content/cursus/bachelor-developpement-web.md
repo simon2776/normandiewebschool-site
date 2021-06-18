@@ -181,9 +181,10 @@ profession:
       d’un site ou d'une application web à la fois en frontend et backend. Il dispose
       ainsi de compétences variées lui permettant de travailler sur chaque étape d'un
       projet de création allant du développement à la production
-  - title: Concepteur web
-    description: Conseillez et aidez le client à établir une demande détaillée selon
-      ses envies et ses attentes en communication sur le web.
+  - title: Intégrateur
+    description: L’intégrateur web intègre les pages d’un site Internet en « traduisant
+      » les projets de l’équipe graphique en langage informatique dans le respect
+      des normes et standards en vigueur.
 testimonials:
   enable: true
   filter:
