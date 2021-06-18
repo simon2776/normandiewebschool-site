@@ -176,7 +176,11 @@ profession:
     description: 'Créez des pages web et occupez-vous de tous l''aspects graphiques
       de celles-ci en créant si besoin la charte graphique et l''identité visuelle
       du site Internet. '
-  - title: UX/UI designer
+  - title: Infographiste marketing
+    description: 'Créez ou restaurez des identités visuelles pour des entreprises
+      ou produisez des visuels innovants, percutants et diffusants ou promouvants
+      un produit, un service ou encore un évènement. '
+  - title: UX/UI
     description: Imaginez et de concevez des parcours utilisateurs qui créent de l'émotion
       afin de rendre la navigation sur le web (ou ailleurs) plus simple, désirable,
       intuitive et rapide.
@@ -186,10 +190,6 @@ profession:
   - title: Graphiste multimedia
     description: 'Dessinez, créez et concevez des maquettes pour des supports numérique
       (pages Internet, applications, habillage TV ou radio etc. '
-  - title: Infographiste marketing
-    description: 'Créez ou restaurez des identités visuelles pour des entreprises
-      ou produisez des visuels innovants, percutants et diffusants ou promouvants
-      un produit, un service ou encore un évènement. '
 testimonials:
   enable: true
   filter:
