@@ -41,9 +41,9 @@ documents:
     format: PDF
     document: "/uploads/community_management.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: Mastère "Expert digital"
+    name: Mastère Expert digital
     format: PDF
-    document: "/uploads/mastere.pdf"
+    document: "/uploads/mastere_expert_digital.pdf"
 form:
   title: Vos coordonnées
   subtitle: ''
