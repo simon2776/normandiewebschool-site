@@ -129,7 +129,7 @@ years:
       content: "- Architecture Backend, SQL, NoSQL <br/> - Principes SOLID et MVC
         <br/> - Sécurité en profondeur <br/> - Design d’API <br/> - Conteneurisation
         et CI/CD <br/> - Frameworks PHP"
-    - title: E-learning et certifications
+    - title: E-learning et certification
       content: "- Culture et outils numériques <br/> - Anglais"
     active: ''
   - button: 3e année
@@ -150,9 +150,8 @@ years:
         et commerciale"
     - title: Behaviour Driven Development en ASP.NET
       content: |
-        - Agilité : SCRUM et Extreme Programming
-        <br/> - De PHP/Symfony à C#/ASP.NET
-        <br/> - Behaviour-Driven Development : spécifications exécutables, tests unitaires et d'acceptation, recettage et validation client
+        - SCRUM / Extreme Programming <br/> - PHP/Symfony à C#/ASP.NET
+        <br/> - Behaviour-Driven Development <br/> - UNITY
     - title: 'Gestion des Risques : Anticipation, Détection, Remédiation '
       content: "- Facteurs-risques et cadre juridique \n<br/> - Détection, correction
         et Post-Mortem d’incidents de sécurité\n<br/> - Modèles d’architecture : VM,
