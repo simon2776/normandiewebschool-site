@@ -114,11 +114,9 @@ years:
       content: "- Canaux de diffusion <br/> - Conception (Scénario, Storyboard) <br/>
         - Captation <br/> - Montage et intégration sonore <br/> - Adobe Premiere et
         Audition\n"
-    - title: Book numérique
-      content: |
-        - Identité visuelle, charte graphique
-        <br/> - Ergonomie et UX : Arborescence, accessibilité, style guide, zoning, wireframe
-        <br/> - Design : application responsive de la charte graphique et du style guide, UI, maquettage, typographie / pictos et boutons
+    - title: Contenus web intéractifs
+      content: "- Animation CSS <br/> - Interaction utilisateur <br/> - Animation
+        de SVG <br/> - Web Canvas\n"
     - title: Production vidéo & community management
       content: |-
         - Storyboards
