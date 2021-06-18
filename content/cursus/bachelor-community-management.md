@@ -48,6 +48,7 @@ skills:
 years:
   enable: true
   item:
+  - button: 3e année
   - button: 1er année
     title: Le programme en cursus initial
     active: active
