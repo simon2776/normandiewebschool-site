@@ -23,10 +23,10 @@ banner:
   color: color-blue
   buttons:
   - arrow: left
-    label: Marketing
-    color: color-orange
+    label: Développement web
+    color: color-yellow
     justify: text-right
-    href: "/cursus/bachelor-marketing-digital"
+    href: "/cursus/bachelor-developpement-web/"
   - arrow: right
     label: Développement
     color: color-yellow
