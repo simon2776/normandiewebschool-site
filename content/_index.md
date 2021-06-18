@@ -9,7 +9,7 @@ banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: Bienvenue à la <br/> NORMANDIE WEB SCHOOL
   subtitle: L'école des métiers du numérique au cœur des entreprises.
-  image: uploads/fond-seine-innopolis.jpg
+  image: "/uploads/nws02.png"
 about:
   enable: true
   title: L'école des métiers du numérique au cœur des entreprises
@@ -145,6 +145,6 @@ partners:
 testimonials:
   enable: true
 image: "/uploads/meta-generale.jpg"
-seo_image: "/uploads/meta-generale.jpg"
+seo_image: ''
 
 ---
