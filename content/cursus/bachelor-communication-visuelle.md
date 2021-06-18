@@ -74,8 +74,8 @@ years:
   - button: 1er année
     title: Le programme en cursus initial
     active: active
-    subtitle: 'De nombreux cours riches et variés y sont enseignés. Développez vos
-      compétences en graphisme, design, marketing et développement. '
+    subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
+      compétences en design, marketing, développement et community management.
     etape:
     - title: Création graphique
       content: "- Eco-conception graphique <br/> - Tendances graphiques & veille <br/>
