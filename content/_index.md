@@ -12,7 +12,7 @@ banner:
   image: uploads/fond-seine-innopolis.jpg
 about:
   enable: true
-  title: Quelques mots sur l'école
+  title: L'école des métiers du numérique au cœur des entreprises
   image: "/uploads/home_round-1.png"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
     Privée qui forme en 2, 3 ou 5 ans aux métiers du numérique (développement web,
