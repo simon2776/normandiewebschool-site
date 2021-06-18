@@ -28,10 +28,10 @@ banner:
     justify: text-right
     href: "/cursus/bachelor-developpement-web/"
   - arrow: right
-    label: Développement
-    color: color-yellow
+    label: Community management
+    color: color-violet
     justify: text-left
-    href: "/cursus/bachelor-developpement-web"
+    href: "/cursus/bachelor-community-management"
 about:
   enable: true
   url: https://www.youtube.com/embed/9TvFKWtQV2E
