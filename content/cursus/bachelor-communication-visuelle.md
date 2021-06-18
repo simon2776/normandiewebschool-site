@@ -107,13 +107,9 @@ years:
       vous seront enseignées
     etape:
     - title: Veille et création artistique
-      content: |-
-        - Veille et création
-        <br/> - Dessin vectoriel avec Illustrator
-        <br/> - Photographie, détourage, retouches Photoshop
-        <br/> - Composition graphique avec InDesign
-        <br/> - Techniques d’impression
-        <br/> - Réseaux sociaux photos et images
+      content: "- Culture graphique <br/> - Création bitmap et vectorielle et composition
+        <br/> - Photographie et retouche photo <br/> - Formats print et techniques
+        d’impression <br/> - Adobe In Design, Illustrator et Photoshop"
     - title: Story maps et création vectorielle
       content: |
         - Création de StoryMaps
