@@ -57,6 +57,6 @@ menu:
   top:
     name: Agenda
     URL: agenda
-    weight: 1
+    weight: 2
 
 ---

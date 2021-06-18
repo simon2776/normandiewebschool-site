@@ -70,6 +70,7 @@ menu:
   main:
     weight: 7
   top:
-    weight: 5
+    name: BLOG
+    weight: 3
 
 ---

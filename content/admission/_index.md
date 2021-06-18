@@ -70,6 +70,7 @@ menu:
   main:
     weight: 3
   top:
-    weight: 2
+    name: Admission / Tarifs
+    weight: 1
 
 ---
