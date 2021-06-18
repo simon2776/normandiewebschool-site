@@ -27,7 +27,7 @@ documents:
   - icon: "/uploads/icn-cloud.png"
     name: Filière Communication graphique
     format: PDF
-    document: "/uploads/design-graphique.pdf"
+    document: "/uploads/communication-graphique.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Filière Web Développement
     format: PDF
