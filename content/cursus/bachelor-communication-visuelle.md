@@ -101,7 +101,7 @@ years:
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
   - button: 2e année
-    title: Programme de la deuxième année design graphisme
+    title: Programme de la deuxième année Communication graphique
     subtitle: Apprenez et pratiquez toutes les techniques du design et du graphisme
       pour devenir un pro du numérique. Voici les compétences et connaissances qui
       vous seront enseignées
