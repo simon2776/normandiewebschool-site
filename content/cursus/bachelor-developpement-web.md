@@ -133,7 +133,7 @@ years:
       content: "- Culture et outils numériques <br/> - Anglais"
     active: ''
   - button: 3e année
-    title: Programme troisième année développement web et mobile
+    title: Programme troisième année développement web et applicatif
     subtitle: 'Apprenez et pratiquez toutes les techniques du developpement pour devenir
       un pro du numérique. Voici les compétences et connaissances qui vous seront
       enseignées afin d''obtenir le statut de chef de projet digital. '
