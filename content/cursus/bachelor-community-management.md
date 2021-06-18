@@ -54,6 +54,10 @@ years:
     subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
       compétences en design, marketing, développement et community management.
     etape:
+    - title: Vidéo et animation
+      content: "- Eco-conception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
+        en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
+        - Outils vidéo professionnels (Adobe)"
     - title: Création graphique
       content: "- Eco-conception graphique <br/> - Tendances graphiques / Veille <br/>
         - Formes, couleurs et polices <br/>- Identité visuelle et charte graphique
