@@ -137,17 +137,13 @@ years:
       vous seront enseignées afin d''obtenir le statut de chef de projet digital. '
     etape:
     - title: Entrepreneuriat et innovation
-      content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
-        objectifs, de la cible et du positionnement  <br/> - Définition d’une stratégie
-        digitale  <br/> - Veille systématique et curation de contenu <br/> - Écoresponsabilité
-        et modèle économique web <br/> - Pitch projet devant des parties prenantes"
+      content: "- Étude de marché / Benchmark <br/> - Cibles / Objectifs / Positionnement
+        <br/> - Stratégie digitale <br/> - Veille <br/> - Écoresponsabilité / Modèle
+        économique web <br/> - Pitch projet devant des parties prenantes"
     - title: Etude du besoin
-      content: |-
-        - Entretien et rédaction de brief client
-        <br/> - Identification des acteurs du projet sous forme de Personas
-        <br/> - Définition d’une solution technique (UX / UI)
-        <br/> - Estimation des coûts de conception, de mise en place et de suivi
-        <br/> - Rédaction et pitch client d’une proposition technique et commerciale
+      content: "- Entretien / rédaction du brief client <br/> - Acteurs du projets
+        et personas <br/> - Solutions techniques (UX/UI) <br/> - Estimation des coûts
+        <br/> - Proposition technique et commerciale"
     - title: Design et Intégration agile
       content: |-
         - Mise en oeuvre d’un processus agile associant le client
