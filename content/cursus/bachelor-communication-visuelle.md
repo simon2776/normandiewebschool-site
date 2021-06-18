@@ -188,8 +188,8 @@ profession:
     description: "Créez et animez des vidéos explicatives ou animez des visuels propres
       à une entreprise. \n"
   - title: Graphiste multimedia
-    description: 'Dessinez, créez et concevez des maquettes pour des supports numérique
-      (pages Internet, applications, habillage TV ou radio etc. '
+    description: Dessinez, créez et concevez des maquettes pour des supports numérique
+      (pages Internet, applications, habillage TV ou radio).
 testimonials:
   enable: true
   filter:
