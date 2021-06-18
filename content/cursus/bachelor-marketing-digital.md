@@ -204,11 +204,11 @@ testimonials:
   - marketing
 seo_image: ''
 menu:
-  desktop:
-    name: Web Marketing
-    parent: Nos spécialisations
-    weight: 1
   main:
+    name: Web Marketing
+    parent: Bachelors
+    weight: 1
+  desktop:
     name: Web Marketing
     parent: Nos spécialisations
     weight: 1

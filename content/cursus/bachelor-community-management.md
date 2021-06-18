@@ -148,7 +148,7 @@ menu:
   main:
     name: Community Management
     weight: 4
-    parent: Nos spécialisations
+    parent: Bachelors
   desktop:
     name: Community Management
     weight: 4
