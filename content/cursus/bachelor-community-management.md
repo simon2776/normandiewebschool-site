@@ -87,15 +87,15 @@ years:
         et éditoriale <br/> - Stratégie d’acquisition : influenceur, relations presse
         et publique, partenariats, SEA <br/> - Outils de publications et de suivi
         de performances"
-    - title: Animation d'une communauté
-      content: "- Déploiement du calendrier <br/> - Événements, live vidéo <br/> -
-        Gamification, jeux concours et sondages <br/> - Plateforme participative <br/>
-        - Analytics "
     - title: Création de contenu
       content: "- Principe de la communication visuelle <br/> - Supports de diffusion,
         formats et optimisation <br/> - Photos & photomontage avec Photoshop <br/>
         - Création vectorielle avec Illustrator <br/> - Vidéo et animation avec Premiere
         Pro et After Effect <br/> - Brand Contant"
+    - title: Animation d'une communauté
+      content: "- Déploiement du calendrier <br/> - Événements, live vidéo <br/> -
+        Gamification, jeux concours et sondages <br/> - Plateforme participative <br/>
+        - Analytics "
     - title: Création de site web
       content: "- User experience / user interface <br/> - Système de gestion de contenus
         (CMS) <br/> - Landing page HTML / CSS <br/> - Référencement"
