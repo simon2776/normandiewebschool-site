@@ -113,6 +113,8 @@ years:
     active: ''
   - button: 3e année
     title: Programme troisième année Community management
+    subtitle: Voici les compétences et connaissances qui vous seront enseignées afin
+      d'obtenir le statut de chef de projet digital.
 profession:
   enable: true
   title: Les débouchés métiers
