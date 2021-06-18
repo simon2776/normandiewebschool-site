@@ -195,11 +195,11 @@ testimonials:
   filter:
   - design
 menu:
-  desktop:
-    name: Communication graphique
-    parent: Bachelors
-    weight: 3
   main:
+    name: Communication graphique
+    parent: Nos spécialisations
+    weight: 3
+  desktop:
     name: Communication graphique
     parent: Bachelors
     weight: 3

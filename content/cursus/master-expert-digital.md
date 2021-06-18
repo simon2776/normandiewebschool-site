@@ -143,7 +143,7 @@ menu:
     weight: 2
   main:
     name: Mastère Expert digital
-    parent: Titres certifiés
-    weight: 2
+    parent: Nos spécialisations
+    weight: 5
 
 ---
