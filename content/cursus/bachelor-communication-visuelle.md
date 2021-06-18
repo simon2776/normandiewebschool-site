@@ -157,12 +157,9 @@ years:
         <br/> - Post-Mortem / Atelier d’auto-critique <br/> - Mise-à-jour qualitative
         de contenus sous contrainte de la Direction Artistique"
     - title: Événementiel et vidéo
-      content: |-
-        - Planification et organisation
-        <br/> - Communication visuelle et vidéo
-        <br/> - Motion design et animation
-        <br/> - Réalité Virtuelle : ambiance visuelle et sonore, intégration avec Unity
-        <br/> - Web TV : création et diffusion de contenu et live vidéo
+      content: "- Planification et organisation <br/> - Communication visuelle et
+        vidéo <br/> - Motion design et animation <br/> - Réalité virtuelle <br/> -
+        Web TV"
     active: ''
 profession:
   enable: true
