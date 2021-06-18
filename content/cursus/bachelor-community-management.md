@@ -54,6 +54,11 @@ years:
     subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
       compétences en design, marketing, développement et community management.
     etape:
+    - title: Création de sites web
+      content: "- Eco-conception web <br/> - Sites mobiles et desktops <br/> - Conception
+        d’interfaces <br/> - Systèmes de design & Composants web <br/> - HTML / CSS
+        / JavaScript <br/> - Accessibilité et ergonomie <br/> - Référencement naturel
+        SEO <br/> - Publication "
     - title: Vidéo et animation
       content: "- Eco-conception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
         en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
