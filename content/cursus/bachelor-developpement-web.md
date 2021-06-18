@@ -24,10 +24,10 @@ banner:
   color: color-yellow
   buttons:
   - arrow: left
-    label: Design
-    color: color-blue
+    label: Web marketing
+    color: color-orange
     justify: text-right
-    href: "/cursus/bachelor-communication-visuelle/"
+    href: "/cursus/bachelor-marketing-digital"
   - arrow: right
     label: Marketing
     color: color-orange
