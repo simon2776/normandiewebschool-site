@@ -184,7 +184,7 @@ profession:
     description: Imaginez et de concevez des parcours utilisateurs qui créent de l'émotion
       afin de rendre la navigation sur le web (ou ailleurs) plus simple, désirable,
       intuitive et rapide.
-  - title: Motion Designer
+  - title: Designer
     description: "Créez et animez des vidéos explicatives ou animez des visuels propres
       à une entreprise. \n"
   - title: Graphiste multimedia
