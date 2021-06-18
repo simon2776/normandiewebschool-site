@@ -35,9 +35,8 @@
 <!-->    </div>
 <!-->   </section>
 
-
+  <!-- about -->
   {{ if .Params.about.enable }}
-    <!-- about -->
     {{ partial "components/page-introduction" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image  ) }}
   {{ end }}
 
