@@ -182,11 +182,9 @@ profession:
     description: L’assistant webmarketing assiste le chef de pôle, les chargés de
       Webmarketing et les chefs de produits dans la conception, l’organisation et
       le suivi des actions de marketing opérationnel transmédia.
-  - title: Chef de projet marketing
-    description: Proposez des projets, organisez les dans leur globalité et accompagnez
-      les équipes chargées de la production à travers un suivi complet, la création
-      d'un plan marketing, des études de marchés, de la veille et des réunions et
-      des rencontres.
+  - title: Trafic Manager
+    description: Développez et installez une stratégie digitale répondant aux attentes
+      et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
   - title: Gestionnaire de contenu site web
     description: Rédigez des contenus qui plaisent à la fois aux internautes et aux
       moteurs de recherche. Supervisez les informations affichées et identifiez de
