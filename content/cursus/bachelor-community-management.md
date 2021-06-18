@@ -16,7 +16,7 @@ banner:
   color: color-violet
   buttons:
   - arrow: left
-    label: Design
+    label: Communication graphique
     href: "/cursus/bachelor-communication-visuelle/"
     justify: text-right
     color: color-blue
