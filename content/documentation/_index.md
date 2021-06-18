@@ -35,7 +35,7 @@ documents:
   - icon: "/uploads/icn-cloud.png"
     name: Filière Web Marketing
     format: PDF
-    document: "/uploads/marketing.pdf"
+    document: "/uploads/web_marketing.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Filière Community Management
     format: PDF
