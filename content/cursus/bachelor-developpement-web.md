@@ -169,6 +169,12 @@ profession:
     les équipes chargées de la production à travers un développement informatique
     complet de la conception au recettage.
   item:
+  - title: Chef de projet technique
+    description: Le chef de projet technique web analyse techniquement les besoins,
+      organise, planifie et met en œuvre le développement informatique des services
+      ou produits sur Internet et/ou web mobile. Il doit garantir la qualité technique
+      des applications et veiller au respect des charges et des délais qui ont été
+      impartis.
   - title: Développeur web
     description: 'Réalisez des logiciels, des sites Internet ou des applications à
       l''aide du langage de programmation. '
