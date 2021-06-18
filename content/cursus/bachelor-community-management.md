@@ -5,7 +5,7 @@ title: Filière Community management
 date: 2021-05-03T12:14:34.000+06:00
 description: Développez et animez une communauté sur les réseaux sociaux
 banner:
-  logo: "/uploads/skd_nws_logo_cm_png.png"
+  logo: "/uploads/logo-cm-1.png"
   title: Filière <span class="font-weight-medium"> Community Management</span>
   image: uploads/design.jpg
   description: "<p>Le Community Manager développe et anime une communauté sur les
