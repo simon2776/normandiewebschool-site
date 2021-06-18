@@ -114,7 +114,7 @@ years:
       content: "- Canaux de diffusion <br/> - Conception (Scénario, Storyboard) <br/>
         - Captation <br/> - Montage et intégration sonore <br/> - Adobe Premiere et
         Audition\n"
-    - title: Contenus web intéractifs
+    - title: Contenus web interactifs
       content: "- Animation CSS <br/> - Interaction utilisateur <br/> - Animation
         de SVG <br/> - Web Canvas\n"
     - title: Production vidéo & community management
