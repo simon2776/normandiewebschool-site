@@ -124,12 +124,9 @@ years:
     - title: Motion design
       content: "- Cahier des charges <br/> - Moodboard et inspiration <br/> - Création
         des éléments graphiques <br/> - Animation, rendu et montage"
-    - title: Gamification et environnements virtuels
-      content: |
-        - UX : gamification d’expériences
-        <br/> - 3D : concepts, modélisation, texturing, animations
-        <br/> - Réalité Virtuelle
-        <br/> - Monétisation
+    - title: Brand content
+      content: "- Objectifs et stratégie <br/> - Storytelling <br/> - Personas et
+        canaux de communication <br/> - Format de contenus\n"
     active: ''
   - button: 3e année
     title: Spécialité marketing digital, 3e année
