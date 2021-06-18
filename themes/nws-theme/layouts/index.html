@@ -37,7 +37,9 @@
 
   <!-- about -->
   {{ if .Params.about.enable }}
+    <div style="margin-top:20%">
     {{ partial "components/page-introduction" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image  ) }}
+    </div>
   {{ end }}
 
   
