@@ -54,6 +54,11 @@ years:
     subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
       compétences en design, marketing, développement et community management.
     etape:
+    - title: Communication et e-commerce
+      content: "- Marketing digital <br/> - Réseaux sociaux <br/> - E-mailing / Newsletter
+        <br/> - Intégration de contenus sur CMS <br/> - Sites e-commerce <br/> - Audit
+        lexical, search console et analytics <br/> - Analyse d'éco performance <br/>
+        - Systèmes professionnels de diffusion <br/> - Rédaction professionnelle <br/>"
     - title: Création de sites web
       content: "- Eco-conception web <br/> - Sites mobiles et desktops <br/> - Conception
         d’interfaces <br/> - Systèmes de design & Composants web <br/> - HTML / CSS
