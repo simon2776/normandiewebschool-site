@@ -499,15 +499,10 @@ NAVBAR
 }
 
 .hero-area-desktop {
-  min-height: 600px;
-}
-
-@media (max-width: 1280px) {
-  .hero-area-desktop {
+    min-height: 600px;
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
-  }
 }
 
 .hero-area h1 {
