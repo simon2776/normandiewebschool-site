@@ -498,6 +498,30 @@ NAVBAR
   }
 }
 
+.hero-area-desktop {
+  min-height: 600px;
+}
+
+@media (max-width: 991px) {
+  .hero-area-desktop {
+    min-height: 40vh;
+    position: relative;
+
+    &:before {
+      display: block;
+      content: '';
+      background-image: url('/uploads/assets/header-bg-clip.svg');
+      background-size: auto;
+      padding-top: 10%;
+      width: 100vw;
+      height: 40px;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+
+
 .hero-area h1 {
   position: relative;
   z-index: 2;
