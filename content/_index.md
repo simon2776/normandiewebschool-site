@@ -12,7 +12,7 @@ banner:
   image: "/uploads/banniere_accueil6.png"
 about:
   enable: true
-  title: L'école des métiers du numérique au cœur des entreprises
+  title: L'école en quelques mots
   image: "/uploads/home_round-1.png"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
     Privée qui forme en 2, 3 ou 5 ans aux métiers du numérique (développement web,
