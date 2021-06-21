@@ -1,39 +1,9 @@
 {{ define "main" }}
 
   <!-- hero area -->
-  <section class="hero-area overflow-hidden d-flex align-items-center " id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-11 d-none d-lg-block">
-          <h1>{{ .Params.banner.title | safeHTML }}</h1>
-          <h2>{{ .Params.banner.subtitle | safeHTML }}</h2>
-        </div>
-      </div>
-    </div>
+  <section class="hero-area-desktop overflow-hidden d-flex align-items-center " id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
   </section>
   <!-- /hero area -->
-
-   <section class="bg-lightgrey d-block d-lg-none">
-     <div class="pb-4 container up">
-       <div class="row">
-         <div class="col-md-12">
-             <div class="card">
-               <div class="card-header">
-                 <h3 class="mb-0 title-medium color-orange separator-left">
-                   {{ .Params.banner.title | safeHTML }}
-                </h3>
-               </div>
- 
-               <div class="card-body">
-                 <p class="font-weight-medium mb-0">
-                   {{ .Params.banner.subtitle | safeHTML }}
-                 </p>
-               </div>
-             </div>
-         </div>
-       </div>
-    </div>
-   </section>
 
   <!-- about -->
   {{ if .Params.about.enable }}
