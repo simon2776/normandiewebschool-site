@@ -507,21 +507,8 @@ NAVBAR
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
-
-    &:before {
-      display: block;
-      content: '';
-      background-image: url('/uploads/assets/header-bg-clip.svg');
-      background-size: auto;
-      padding-top: 10%;
-      width: 100vw;
-      height: 40px;
-      position: absolute;
-      bottom: 0;
-    }
   }
 }
-
 
 .hero-area h1 {
   position: relative;
