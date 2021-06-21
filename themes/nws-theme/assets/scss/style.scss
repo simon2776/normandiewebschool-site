@@ -506,6 +506,8 @@ NAVBAR
   .hero-area-desktop {
     min-height: 40vh;
     position: relative;
+    background-size: auto;
+    position: absolute;
 
     &:before {
       display: block;
