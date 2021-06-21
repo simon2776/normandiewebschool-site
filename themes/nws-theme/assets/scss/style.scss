@@ -405,8 +405,9 @@ a:hover {
 }
 
 .form-control {
-  border: 0;
-  border-radius: 0;
+  background-color:var(--lightgrey) !important;
+  border: 1 px solid  #c7c7c7;
+  border-radius: 1 px solid  #c7c7c7;
   border-bottom: 1px solid #c7c7c7;
   height: 60px;
 }
@@ -495,6 +496,14 @@ NAVBAR
       bottom: 0;
     }
   }
+}
+
+.hero-area-desktop {
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-color: #f2f2f2;
 }
 
 .hero-area h1 {

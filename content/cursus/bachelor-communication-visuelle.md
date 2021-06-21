@@ -1,7 +1,7 @@
 ---
 type: filiere
 layout: filiere
-title: Filière web design & communication visuelle
+title: Filière Communication graphique
 date: 2019-05-12T12:14:34.000+06:00
 description: "Si vous aimez la création, l'image, la video et le web, venez apprendre
   la méthodologie et les techniques qui révéleront votre talent. \nObjectif :  titre
@@ -11,27 +11,27 @@ description: "Si vous aimez la création, l'image, la video et le web, venez app
   formation: 455H en face-à-face et 180H d'apprentissage individualisé en FOAD"
 banner:
   logo: "/uploads/logo-design.png"
-  title: Filière <span class="font-weight-medium"> Design </span>
+  title: Filière <span class="font-weight-medium"> Communication graphique </span>
   image: "/uploads/web-design.jpg"
   description: <p>Ce titre prépare à concevoir la forme visuelle de messages dans
     les différents domaines du graphisme, de l’édition et de la publicité, imprimés
     ou numériques. Il est destiné aux étudiants qui veulent se former aux métiers
     de web et mobile designer, qui ont une forte compétence en UI et UX et capables
-    d’intégrer des maquettes. Le bachelor “Communication visuelle &amp; Webdesign"
-    se déroule sur 3 ans au sein de la Normandie Web School soit en alternance (contrat
-    de professionnalisation ou apprentissage) soit en formation initiale.</p>
+    d’intégrer des maquettes. Le bachelor “Communication graphique" se déroule sur
+    3 ans au sein de la Normandie Web School soit en alternance (contrat de professionnalisation
+    ou apprentissage) soit en formation initiale.</p>
   color: color-blue
   buttons:
   - arrow: left
-    label: Marketing
-    color: color-orange
-    justify: text-right
-    href: "/cursus/bachelor-marketing-digital"
-  - arrow: right
-    label: Développement
+    label: Développement web
     color: color-yellow
+    justify: text-right
+    href: "/cursus/bachelor-developpement-web/"
+  - arrow: right
+    label: Community management
+    color: color-violet
     justify: text-left
-    href: "/cursus/bachelor-developpement-web"
+    href: "/cursus/bachelor-community-management"
 about:
   enable: true
   url: https://www.youtube.com/embed/9TvFKWtQV2E
@@ -74,8 +74,8 @@ years:
   - button: 1er année
     title: Le programme en cursus initial
     active: active
-    subtitle: 'De nombreux cours riches et variés y sont enseignés. Développez vos
-      compétences en graphisme, design, marketing et développement. '
+    subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
+      compétences en design, marketing, développement et community management.
     etape:
     - title: Création graphique
       content: "- Eco-conception graphique <br/> - Tendances graphiques & veille <br/>
@@ -101,127 +101,106 @@ years:
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
   - button: 2e année
-    title: Programme de la deuxième année design graphisme
+    title: Programme de la deuxième année Communication graphique
     subtitle: Apprenez et pratiquez toutes les techniques du design et du graphisme
       pour devenir un pro du numérique. Voici les compétences et connaissances qui
       vous seront enseignées
     etape:
+    - title: E-learning et certification
+      content: Culture et outils numériques <br/> - Anglais
     - title: Veille et création artistique
-      content: |-
-        - Veille et création
-        <br/> - Dessin vectoriel avec Illustrator
-        <br/> - Photographie, détourage, retouches Photoshop
-        <br/> - Composition graphique avec InDesign
-        <br/> - Techniques d’impression
-        <br/> - Réseaux sociaux photos et images
-    - title: Story maps et création vectorielle
-      content: |
-        - Création de StoryMaps
-        <br/> - Éléments de symbologie SVG avec Illustrator
-        <br/> - Cartes dynamiques en JavaScript
-    - title: Book numérique
-      content: |
-        - Identité visuelle, charte graphique
-        <br/> - Ergonomie et UX : Arborescence, accessibilité, style guide, zoning, wireframe
-        <br/> - Design : application responsive de la charte graphique et du style guide, UI, maquettage, typographie / pictos et boutons
-    - title: Production vidéo & community management
-      content: |-
-        - Storyboards
-        <br/> - Captation, montage et intégration sonore
-        <br/> - Motion design et animations 2D
-        <br/> - Réseaux sociaux vidéo
-    - title: Intégration web
-      content: "- Rédaction de contenu & référencement\n<br/> - Découpage de maquette
-        & prototypage\n<br/> - Intégration HTML/CSS/JavaScript  \n<br/> - Optimisation
-        des images\n<br/> - Réalisation de sites éco-performants et de CMS (Wordpress)\n<br/>
-        - Validation de l’accessibilité et des performances techniques et environnementales"
-    - title: Gamification et environnements virtuels
-      content: |
-        - UX : gamification d’expériences
-        <br/> - 3D : concepts, modélisation, texturing, animations
-        <br/> - Réalité Virtuelle
-        <br/> - Monétisation
+      content: "- Culture graphique <br/> - Création bitmap et vectorielle et composition
+        <br/> - Photographie et retouche photo <br/> - Formats print et techniques
+        d’impression <br/> - Adobe In Design, Illustrator et Photoshop"
+    - title: Vidéo
+      content: "- Canaux de diffusion <br/> - Conception (Scénario, Storyboard) <br/>
+        - Captation <br/> - Montage et intégration sonore <br/> - Adobe Premiere et
+        Audition\n"
+    - title: Contenus web interactifs
+      content: "- Animation CSS <br/> - Interaction utilisateur <br/> - Animation
+        de SVG <br/> - Web Canvas\n"
+    - title: Création de site web
+      content: "- Expérience Utilisateur <br/> - Wireframes et maquettes <br/> - Écoconception,
+        ergonomie et accessibilité <br/> - Intégration HTML/CSS et référencement <br/>
+        - Thème Wordpress"
+    - title: Motion design
+      content: "- Cahier des charges <br/> - Moodboard et inspiration <br/> - Création
+        des éléments graphiques <br/> - Animation, rendu et montage"
+    - title: Brand content
+      content: "- Objectifs et stratégie <br/> - Storytelling <br/> - Personas et
+        canaux de communication <br/> - Format de contenus\n"
     active: ''
   - button: 3e année
-    title: Spécialité marketing digital, 3e année
+    title: Spécialité Communication graphique, 3e année
     subtitle: 'Apprenez et pratiquez toutes les techniques du design et du graphisme
       pour devenir un pro du numérique. Voici les compétences et connaissances qui
       vous seront enseignées afin d''obtenir le statut de chef de projet digital. '
     etape:
+    - title: E-learning et cerfication
+      content: "- Culture et outils numériques <br/> - Anglais <br/> - CNIL et RGPD"
     - title: Entrepreneuriat et innovation
-      content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
-        objectifs, de la cible et du positionnement  <br/> - Définition d’une stratégie
-        digitale  <br/> - Veille systématique et curation de contenu <br/> - Écoresponsabilité
-        et modèle économique web <br/> - Pitch projet devant des parties prenantes"
+      content: "- Étude de marché / Benchmark <br/> - Cibles / Objectifs / Positionnement
+        <br/> - Stratégie digitale <br/> - Veille <br/> - Écoresponsabilité / Modèle
+        économique web <br/> - Pitch projet devant des parties prenantes"
     - title: Etude du besoin
-      content: |-
-        - Entretien et rédaction de brief client
-        <br/> - Identification des acteurs du projet sous forme de Personas
-        <br/> - Définition d’une solution technique (UX / UI)
-        <br/> - Estimation des coûts de conception, de mise en place et de suivi
-        <br/> - Rédaction et pitch client d’une proposition technique et commerciale
+      content: "- Entretien / rédaction du brief client <br/> - Acteurs du projets
+        et personas <br/> - Solutions techniques (UX/UI) <br/> - Estimation des coûts
+        <br/> - Proposition technique et commerciale"
     - title: Design et Intégration agile
-      content: |-
-        - Mise en oeuvre d’un processus agile associant le client
-        <br/> - Réalisation d’une maquette en fonction de contraintes UX/UI
-        <br/> - Intégration HTML/CSS/ JavaScript éco-performante, accessible et adaptative
-        <br/> - Tests, Recettage et validation
-    - title: Gestion des Risques et Amélioration Continue
-      content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
-        : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
-        - Mise-à-jour qualitative de contenus sous contrainte de la Direction Artistique"
+      content: "- Processus agile <br/> - Maquette en fonction des contraintes UX/UI
+        <br/> - Intégration HTML / CSS / JavaScript <br/> - Tests, recettage et validation
+        <br/> - Maquette <br/> - Pack Adobe (In Design, Illustrator, Photoshop, XD)
+        <br/> - Responsive"
+    - title: Projet certifiant
+      content: "- Cahier des charges / Dossier de production <br/> - Gestion de projet
+        et réalisation en mode agence <br/> - Reporting / Communication orale et écrite"
+    - title: Gestion des risques et amélioration continue
+      content: "- Facteurs-risques et cadre juridique <br/> - Communication de crise
+        <br/> - Post-Mortem / Atelier d’auto-critique <br/> - Mise-à-jour qualitative
+        de contenus sous contrainte de la Direction Artistique"
     - title: Événementiel et vidéo
-      content: |-
-        - Planification et organisation
-        <br/> - Communication visuelle et vidéo
-        <br/> - Motion design et animation
-        <br/> - Réalité Virtuelle : ambiance visuelle et sonore, intégration avec Unity
-        <br/> - Web TV : création et diffusion de contenu et live vidéo
-    - title: Projet certifiant et posture professionnelle
-      content: |-
-        - Cahier des charges et dossier de production
-        <br/> - Gestion de projet : allocation de ressources,  planning et budget
-        <br/> - Réalisation et gestion d’un projet en mode agence
-        <br/> - Reporting et communication à l’oral et à l’écrit
+      content: "- Planification et organisation <br/> - Communication visuelle et
+        vidéo <br/> - Motion design et animation <br/> - Réalité virtuelle <br/> -
+        Web TV"
     active: ''
 profession:
   enable: true
   title: Les débouchés métiers
   subtitle: Liste non exhaustive
   item:
-  - title: Chef de projet digital
-    description: Proposez des projets, organisez les dans leur globalité et accompagnez
-      les équipes chargées de la production à travers un suivi complet, la création
-      d'un plan marketing, des études de marchés et de la veille.
+  - title: Chef de projet multimédia
+    description: 'Le chef de projet multimédia coordonne l''ensemble de la production
+      d''un projet multimédia. Son objectif : proposer au client un produit de qualité,
+      dans les délais impartis et respectant le budget défini au préalable.'
   - title: Web Designer
     description: 'Créez des pages web et occupez-vous de tous l''aspects graphiques
       de celles-ci en créant si besoin la charte graphique et l''identité visuelle
       du site Internet. '
-  - title: UX/UI designer
-    description: Imaginez et de concevez des parcours utilisateurs qui créent de l'émotion
-      afin de rendre la navigation sur le web (ou ailleurs) plus simple, désirable,
-      intuitive et rapide.
-  - title: Motion Designer
-    description: "Créez et animez des vidéos explicatives ou animez des visuels propres
-      à une entreprise. \n"
-  - title: Graphiste multimedia
-    description: 'Dessinez, créez et concevez des maquettes pour des supports numérique
-      (pages Internet, applications, habillage TV ou radio etc. '
-  - title: Infographiste
+  - title: Infographiste marketing
     description: 'Créez ou restaurez des identités visuelles pour des entreprises
       ou produisez des visuels innovants, percutants et diffusants ou promouvants
       un produit, un service ou encore un évènement. '
+  - title: UX/UI
+    description: Imaginez et de concevez des parcours utilisateurs qui créent de l'émotion
+      afin de rendre la navigation sur le web (ou ailleurs) plus simple, désirable,
+      intuitive et rapide.
+  - title: Designer
+    description: "Créez et animez des vidéos explicatives ou animez des visuels propres
+      à une entreprise. \n"
+  - title: Graphiste multimedia
+    description: Dessinez, créez et concevez des maquettes pour des supports numérique
+      (pages Internet, applications, habillage TV ou radio).
 testimonials:
   enable: true
   filter:
   - design
 menu:
   desktop:
-    name: Bachelor Web Design
+    name: Communication graphique
     parent: Nos spécialisations
     weight: 3
   main:
-    name: Bachelor Web Design
+    name: Communication graphique
     parent: Nos spécialisations
     weight: 3
 

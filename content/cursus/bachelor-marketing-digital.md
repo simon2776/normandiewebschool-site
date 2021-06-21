@@ -24,12 +24,12 @@ banner:
   color: color-orange
   buttons:
   - arrow: left
-    label: Design
-    color: color-blue
+    label: Community management
+    color: color-violet
     justify: text-right
-    href: "/cursus/bachelor-communication-visuelle/"
+    href: "/cursus/bachelor-community-management"
   - arrow: right
-    label: Développement
+    label: Développement web
     color: color-yellow
     justify: text-left
     href: "/cursus/bachelor-developpement-web"
@@ -75,69 +75,57 @@ years:
   - button: 1er année
     title: Le programme en cursus initial
     active: active
-    subtitle: 'De nombreux cours riches et variés y sont enseignés. Développez vos
-      compétences en graphisme, design, marketing et développement. '
+    subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
+      compétences en design, marketing, développement et community management.
     etape:
     - title: Création graphique
-      content: "- Eco-conception graphique <br/> - Tendances graphiques & veille <br/>
-        - Formes, couleurs et polices <br/>- Identité visuelle & charte graphique
-        <br/>- Illustrations vectorielles et bitmap <br/> - Prise de vue et retouches
-        photo <br/>- Réalisation Print <br/> - Infographies <br/> - Outils graphiques
-        professionnels: Illustrator, inDesign, Lightroom, Photoshop, XD"
+      content: "- Eco-conception graphique <br/> - Tendances graphiques / Veille <br/>
+        - Formes, couleurs et polices <br/>- Identité visuelle et charte graphique
+        <br/>- Illustrations vectorielles / Bitmap <br/> - Prise de vue / Retouche
+        photo <br/>- Réalisation Prints <br/> - Infographies <br/> - Outils graphiques
+        professionnels (Adobe)"
     - title: Vidéo et animation
-      content: "- Ecoconception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
+      content: "- Eco-conception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
         en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
-        - Outils vidéo professionnels : Adobe Premiere, After Effects"
+        - Outils vidéo professionnels (Adobe)"
     - title: Création de sites web
-      content: "- Eco-conception web <br/> - Sites mobiles et desktop <br/> - Conception
-        d’interfaces <br/> - Grilles de mise en page <br/> - Systèmes de design et
-        composants web <br/> - Langages du web  HTML / CSS / JavaScript <br/> - Accessibilité
-        et ergonomie <br/> - Rédaction de contenus <br/> - Référencement naturel (SEO)
-        <br/> - Publication "
+      content: "- Eco-conception web <br/> - Sites mobiles et desktops <br/> - Conception
+        d’interfaces <br/> - Systèmes de design & Composants web <br/> - HTML / CSS
+        / JavaScript <br/> - Accessibilité et ergonomie <br/> - Référencement naturel
+        SEO <br/> - Publication "
     - title: Communication et e-commerce
-      content: "- Fondamentaux du marketing digital <br/> - Réseaux sociaux professionnels
-        <br/> - Réseaux sociaux graphiques et vidéo <br/> - Rédaction et envoi e-mailing
-        & newsletter <br/> - Intégration de contenus (CMS) <br/> - Sites e-commerce
-        <br/> - Audit lexical, search console et analytics <br/> - Analyse d'éco performance
-        <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
-        <br/>"
+      content: "- Marketing digital <br/> - Réseaux sociaux <br/> - E-mailing / Newsletter
+        <br/> - Intégration de contenus sur CMS <br/> - Sites e-commerce <br/> - Audit
+        lexical, search console et analytics <br/> - Analyse d'éco performance <br/>
+        - Systèmes professionnels de diffusion <br/> - Rédaction professionnelle <br/>"
+    - title: E-learning
+      content: "- Français <br/> - Bases du code"
   - button: 2e année
-    title: Programme de la deuxième année marketing digital
+    title: Programme de la deuxième année Web marketing
     subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
     etape:
-    - title: Stratégie Marketing
-      content: "- Les étapes de la démarche marketing (analyser planification, suivi),
-        <br/> - Une analyse concurrentielle comparative, <br/> - La rédaction du plan
-        marketing opérationnel, <br/> - La conception de calendriers éditoriaux <br/>
-        - La production de contenu original conforme au plan marketing."
-    - title: Référencement naturel et performance web
-      content: "- La typologie de contenus et audit lexical, - La réalisation d'un
-        prototype avec un contenu optimisé SEO, <br/> - La configuration et le déploiement
-        d'un site éco-performant et de CMS, <br/> - La validation de l'accessibilité
-        et des performances techniques et environnementales, <br/> - La réalisation
-        d'une présentation client. "
-    - title: Analytics, segmentation et reporting
-      content: '- La définition d''''une stratégie réseaux sociaux et advertising,
-        <br/> - L''écriture et la publication de contenus originaux, <br/> - La diffusion
-        de contenus originaux sur les réseaux sociaux, <br/> - L''optimisation d''une
-        campagne publicitaire  "réseaux sociaux" <br/> - La certification Google Ads.'
-    - title: Tunnel d'acquisiton
-      content: "- Google Analytics, Tag Manager et DataStudio, <br/> - L'exploration
-        et la visualisation de données, <br/> - La réalisation d'un scoring pour la
-        segmentation <br/> - La mise en place d'un Dashboard dynamique"
-    - title: Marketing social et vidéo
-      content: "- Création d’un tunnel d’acquisition conforme à un plan marketing,
-        <br/> - Déploiement d’une stratégie de content marketing web et réseaux sociaux,
-        <br/> - Création et diffusion d’un email et d’une newsletter, <br/> - Automatisation
-        \ des actions de Lead Nurturing / Growth Hacking."
-    - title: Posture professionnelle
-      content: "- Écoute, curiosité, culture & Intelligence collective\L travail en
-        équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
-        - Positionnement professionnel\n<br/> - Responsabilité sociétales"
-    - title: E-learning et certifications
-      content: Culture et outils numériques <br/> Renforcement orthographique et grammatical
-        <br/> Anglais technique <br/>  Certifications  compétences numériques, outils
-        Adobe
+    - title: Stratégie Web Marketing
+      content: "- Fondamentaux du marketing <br/> - Veille sectorielle, économique,
+        culturelle et concurrentielle <br/> - Cibles et personas <br/> - Plan marketing
+        et de communication <br/> - CRM et marketing automation"
+    - title: Acquisition de trafic
+      content: "- Inbound marketing <br/> - Référencement naturel <br/> - Référencement
+        payant <br/> - Réseaux sociaux <br/> - Emailing <br/> - Partenariats"
+    - title: E-commerce et conversion
+      content: "- Tunnel de vente <br/> - Storytelling <br/> - Promotion <br/> - Retargeting
+        <br/> - CMS e-commerce <br/> - Pack Adobe <br/> - Rédaction de contenu"
+    - title: Growth hacking
+      content: " - Product Market Fit <br/> - Channel personas <br/> - Optimisation
+        du tunnel d’acquisition <br/> - User Journey Mapping <br/> - Landing pages"
+    - title: Fidélisation
+      content: |2-
+         - Content marketing <br/> - Content marketing <br/> - Campagnes e-mailing
+        Ambassadeurs et affiliation <br/> - Marketing viral
+    - title: Analytics et optimisation
+      content: "- Google Analytics <br/> - A/B Testing <br/> - Outils de tracking
+        <br/> - Mesure de l’engagement <br/> - Optimisation web"
+    - title: E-learning et certification
+      content: "- Culture et outils numériques <br/> - Anglais"
     active: ''
   - button: 3e année
     title: Programme troisième année marketing digital
@@ -165,20 +153,20 @@ years:
         Sélection des médias Paid/Owned/Earned <br/> - Création de tunnels optimisés
         UX/UI <br/> - Réalisation d’un site e-commerce <br/> - Tests, Recettage et
         validation"
-    - title: Gestion des Risques et Amélioration Continue
-      content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
-        : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
-        - Refonte et optimisation sous contrainte de la Direction Marketing"
     - title: Événementiel
       content: "- Mise en place et déploiement de la stratégie digitale d’un évènement
         <br/> - Workflow de Lead Nurturing (scoring, marketing automation, data analysis)
         \ <br/> - Web TV : création et diffusion de contenu et live vidéo"
+    - title: Gestion des Risques et Amélioration Continue
+      content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
+        : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
+        - Refonte et optimisation sous contrainte de la Direction Marketing"
     - title: Projet certifiant
-      content: "- Cahier des charges et dossier de production <br/> - Gestion de projet
-        : allocation de ressources,  planning et budget <br/> - Réalisation et gestion
-        d’un projet en mode agence <br/> - Reporting et communication à l’oral et
-        à l’écrit <br/> - Ecoute, curiosité, culture & Intelligence collective. Travail
-        en équipe, esprit collaboratif <br/> - Responsabilité sociétale"
+      content: "- Cahier des charges <br/> - Gestion de projet <br/> - Reporting /
+        Communication orale et écrite <br/> - Responsabilité sociétale"
+    - title: E-learning et certification
+      content: "- Culture et outils numériques <br/> - Certification : compétences
+        numériques et Google <br/> - Anglais <br/> - CNIL et RGPD"
     active: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
       un pro du numérique. Voici les compétences et connaissances qui vous seront
       enseignées afin d''obtenir le statut de chef de projet digital. '
@@ -190,26 +178,29 @@ profession:
     d'un plan marketing, des études de marchés, de la veille et des réunions et des
     rencontres.
   item:
-  - title: Community Manager
-    description: Participez à l'élaboration d'une stratégie social media pour produire
-      du contenu sur les réseaux sociaux, entretenir une vraie relation avec une communauté
-      et maintenir la bonne image d'une entreprise.
-  - title: Chef de projet marketing
-    description: Proposez des projets, organisez les dans leur globalité et accompagnez
-      les équipes chargées de la production à travers un suivi complet, la création
-      d'un plan marketing, des études de marchés, de la veille et des réunions et
-      des rencontres.
-  - title: Gestionnaire de contenu site web
-    description: Rédigez des contenus qui plaisent à la fois aux internautes et aux
-      moteurs de recherche. Supervisez les informations affichées et identifiez de
-      nouvelles opportunités de contenu.
-  - title: Rédacteur web
-    description: 'Rédigez le contenu d''un site web en prenant en compte la demande
-      et les besoins de l''entreprise, le référencement SEO et SEA et les algorithmes
-      des navigateurs de recherches. '
-  - title: Web marketer
-    description: Installez une stratégie de communication internet répondant aux attentes
+  - title: Assistant Web Marketing
+    description: L’assistant webmarketing assiste le chef de pôle, les chargés de
+      Webmarketing et les chefs de produits dans la conception, l’organisation et
+      le suivi des actions de marketing opérationnel transmédia.
+  - title: Trafic Manager
+    description: Développez et installez une stratégie digitale répondant aux attentes
       et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
+  - title: Chargé de Référencement
+    description: Le chargé de référencement web a pour objectif de placer un ou plusieurs
+      sites web en tête des classements des moteurs de recherche.
+  - title: Acquisition Manager
+    description: L'Acquisition Manager est chargé de coordonner toutes les actions
+      d'acquisition mises en place et d'équilibrer les ressources affectées en fonction
+      des résultats et des budgets.
+  - title: Growthhacker
+    description: Le growthhacker, compétent en marketing et programmation, curieux
+      et créatif fait appel à des techniques d’analyses guidées par les données pour
+      amorcer et optimiser la croissance de l’entreprise.
+  - title: Chargé de e-commerce
+    description: Le Responsable e-commerce est à la croisée des métiers du web, de
+      la vente et du marketing. Responsable du développement des ventes sur internet,
+      il est en charge de véhiculer l’image de l’entreprise ou de son client auprès
+      du public et de sa clientèle.
 testimonials:
   enable: true
   filter:
@@ -217,11 +208,11 @@ testimonials:
 seo_image: ''
 menu:
   desktop:
-    name: Bachelor Web Marketing
+    name: Web Marketing
     parent: Nos spécialisations
     weight: 1
   main:
-    name: Bachelor Web Marketing
+    name: Web Marketing
     parent: Nos spécialisations
     weight: 1
 

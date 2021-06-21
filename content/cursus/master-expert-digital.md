@@ -137,11 +137,11 @@ testimonials:
   - design
 seo_image: ''
 menu:
-  main:
+  desktop:
     name: Mastère Expert digital
     parent: Nos spécialisations
     weight: 5
-  desktop:
+  main:
     name: Mastère Expert digital
     parent: Nos spécialisations
     weight: 5

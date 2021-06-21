@@ -7,12 +7,12 @@ description: La Normandie Web School est une École d’Enseignement Supérieur 
   par l'état (RNCP).
 banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
-  title-line-twho: Bienvenue à la <br/> NORMANDIE WEB SCHOOL
-  subtitle: L'école des métiers du numérique au cœur des entreprises.
-  image: uploads/fond-seine-innopolis.jpg
+  title-line-twho: ''
+  subtitle: L'école des métiers du numérique au cœur des entreprises
+  image: "/uploads/fond-seine-innopolis.jpg"
 about:
   enable: true
-  title: Quelques mots sur l'école
+  title: La school en quelques mots
   image: "/uploads/home_round-1.png"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
     Privée qui forme en 2, 3 ou 5 ans aux métiers du numérique (développement web,
@@ -41,27 +41,27 @@ filieres:
     color: color-orange
     logo: "/uploads/logo-marketing.png"
     href: "/cursus/bachelor-marketing-digital/"
-  - title: Filière Web Design & Communication visuelle
+  - title: Filière Communication graphique
     content: Ce titre prépare à concevoir la forme visuelle de messages dans les différents
       domaines du graphisme, de l’édition et de la publicité, imprimés ou numériques.
       Il est destiné aux étudiants qui veulent se former aux métiers de web et mobile
       designer, qui ont une forte appétence en UI et UX et capables d’intégrer des
-      maquettes. Le bachelor “Communication visuelle & Web design" se déroule sur
-      3 ans au sein de la Normandie Web School soit en alternance (contrat de professionnalisation
+      maquettes. Le bachelor “Communication graphique" se déroule sur 3 ans au sein
+      de la Normandie Web School soit en alternance (contrat de professionnalisation
       ou apprentissage) soit en formation initiale. 
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-blue
     logo: "/uploads/logo-design.png"
     href: "/cursus/bachelor-communication-visuelle/"
-  - title: Filière Développement
-    content: Ce titre prépare au métier de développeur web capable de créer, coder,
-      et tester des sites Internet et des applications web. La transformation digitale
-      des économies fait du développement web une des compétences essentielles des
-      entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
+  - title: Filière Développement web et applicatif
+    content: Ce titre prépare au métier de concepteur développeur d'application capable
+      de créer, coder, et tester des sites Internet et des applications web. La transformation
+      digitale des économies fait du développement web une des compétences essentielles
+      des entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
       web dans les start-ups du numérique, les ESN (entreprises de services numériques), 
-      les collectivités territoriales, les associations,  les agences web, les PME,
-      les grandes sociétés...
+      les collectivités territoriales, les associations,  les agences web, les PME
+      et les grandes sociétés.
     from: À partir du bac +1
     to: Jusqu'au bac +3
     color: color-yellow
@@ -75,8 +75,8 @@ filieres:
       gère enfin la relation client et l’e-réputation.
     from: À partir du bac +1
     to: Jusqu'au bac +3
-    color: color-blue2
-    logo: "/uploads/logo_nws.jpg"
+    color: color-violet
+    logo: "/uploads/logo-cm.png"
     href: "/cursus/bachelor-community-management/"
   bachelor_titre: BACHELOR CHEF DE PROJET DIGITAL
   bachelor_description: "<p>Formation de base de la Normandie Web School, le Bachelor
@@ -145,6 +145,6 @@ partners:
 testimonials:
   enable: true
 image: "/uploads/meta-generale.jpg"
-seo_image: "/uploads/meta-generale.jpg"
+seo_image: ''
 
 ---

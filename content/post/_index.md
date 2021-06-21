@@ -68,8 +68,10 @@ date: ''
 image: ''
 menu:
   main:
-    weight: 7
-  top:
+    name: BLOG
     weight: 5
+  top:
+    name: BLOG
+    weight: 3
 
 ---

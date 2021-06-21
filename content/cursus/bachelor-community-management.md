@@ -1,11 +1,11 @@
 ---
 type: filiere
 layout: filiere
-title: Filière Community Management
+title: Filière Community management
 date: 2021-05-03T12:14:34.000+06:00
 description: Développez et animez une communauté sur les réseaux sociaux
 banner:
-  logo: "/uploads/logo_nws-1.jpg"
+  logo: "/uploads/logo-cm-1.png"
   title: Filière <span class="font-weight-medium"> Community Management</span>
   image: uploads/design.jpg
   description: "<p>Le Community Manager développe et anime une communauté sur les
@@ -13,15 +13,15 @@ banner:
     (blog, pages, articles). Il est capable de produire du contenu (textes, vidéos,
     visuels) et de créer et mettre en valeur des fiches produits d’un site e-commerce.
     Il gère enfin la relation client et l’e-réputation.</p>"
-  color: color-blue2
+  color: color-violet
   buttons:
   - arrow: left
-    label: Design
+    label: Communication graphique
     href: "/cursus/bachelor-communication-visuelle/"
     justify: text-right
     color: color-blue
   - arrow: right
-    label: Marketing
+    label: Web marketing
     color: color-orange
     href: "/cursus/bachelor-marketing-digital/"
     justify: text-left
@@ -48,36 +48,65 @@ skills:
 years:
   enable: true
   item:
+  - button: 1er année
+    title: Le programme en cursus initial
+    active: active
+    subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
+      compétences en design, marketing, développement et community management.
+    etape:
+    - title: Création graphique
+      content: "- Eco-conception graphique <br/> - Tendances graphiques / Veille <br/>
+        - Formes, couleurs et polices <br/>- Identité visuelle et charte graphique
+        <br/>- Illustrations vectorielles / Bitmap <br/> - Prise de vue / Retouche
+        photo <br/>- Réalisation Prints <br/> - Infographies <br/> - Outils graphiques
+        professionnels (Adobe)"
+    - title: Vidéo et animation
+      content: "- Eco-conception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
+        en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
+        - Outils vidéo professionnels (Adobe)"
+    - title: Création de sites web
+      content: "- Eco-conception web <br/> - Sites mobiles et desktops <br/> - Conception
+        d’interfaces <br/> - Systèmes de design & Composants web <br/> - HTML / CSS
+        / JavaScript <br/> - Accessibilité et ergonomie <br/> - Référencement naturel
+        SEO <br/> - Publication "
+    - title: Communication et e-commerce
+      content: "- Marketing digital <br/> - Réseaux sociaux <br/> - E-mailing / Newsletter
+        <br/> - Intégration de contenus sur CMS <br/> - Sites e-commerce <br/> - Audit
+        lexical, search console et analytics <br/> - Analyse d'éco performance <br/>
+        - Systèmes professionnels de diffusion <br/> - Rédaction professionnelle <br/>"
+    - title: E-learning
+      content: "- Français <br/> - Bases du code"
   - button: 2e année
     title: Programme de la deuxième année Community Management
     subtitle: Développez vos compétences et connaissances du monde numérique via nos
       différents programmes. Devenez Community Manager.
     etape:
     - title: Analyse et stratégie
-      content: |-
-        - Stratégie marketing BtoB et BtoC <br/> - Veille sectorielle, économique, culturelle et
-        concurrentielle <br/> - Stratégie de communication, social media et éditoriale <br/> - Stratégie d’acquisition : influenceur, relations presse et
-        publique, partenariats, SEA <br/> - Outils de publications et de suivi de performances
-    - title: Animation d'une communauté
-      content: "- Déploiement du calendrier <br/> - Événements, live vidéo <br/> -
-        Gamification, jeux concours et sondages <br/> - Plateforme participative <br/>
-        - Analytics "
+      content: "- Stratégie marketing BtoB et BtoC <br/> - Veille sectorielle, économique,
+        culturelle et concurrentielle <br/> - Stratégie de communication, social media
+        et éditoriale <br/> - Stratégie d’acquisition : influenceur, relations presse
+        et publique, partenariats, SEA <br/> - Outils de publications et de suivi
+        de performances"
     - title: Création de contenu
       content: "- Principe de la communication visuelle <br/> - Supports de diffusion,
         formats et optimisation <br/> - Photos & photomontage avec Photoshop <br/>
         - Création vectorielle avec Illustrator <br/> - Vidéo et animation avec Premiere
         Pro et After Effect <br/> - Brand Contant"
-    - title: Création de site web
-      content: "- User experience / user interface <br/> - Système de gestion de contenus
-        (CMS) <br/> - Landing page HTML / CSS <br/> - Référencement"
     - title: Mise en valeur du contenu
       content: "- Tunnel de vente site e-commerce et réseaux sociaux <br/> - Newsletter,
         blog et emailing <br/> - Storytelling <br/> - Promotion et campagne ads"
-    - title: E-learning et certification
-      content: "- Création graphique <br/> - Anglais technique <br/> - Facebook blueprint"
     - title: Relation client et e-réputation
       content: "- Menaces et opportunités <br/> - Veille, diagnostic et outils <br/>
         - Anticipation et détection <br/> - Gestion de crise"
+    - title: Animation d'une communauté
+      content: "- Déploiement du calendrier <br/> - Événements, live vidéo <br/> -
+        Gamification, jeux concours et sondages <br/> - Plateforme participative <br/>
+        - Analytics "
+    - title: Création de site web
+      content: "- User experience / user interface <br/> - Système de gestion de contenus
+        (CMS) <br/> - Landing page HTML / CSS <br/> - Référencement"
+    - title: E-learning et certification
+      content: "- Création graphique <br/> - Anglais <br/> - Facebook blueprint"
     - title: Projet professionnel
       content: "- CV / Lettre de motivation <br/> - Accompagnement recherche de stages
         et/ou alternance <br/> - Écosystème numérique"
@@ -116,12 +145,12 @@ testimonials:
   - design
 seo_image: ''
 menu:
-  main:
-    name: Bachelor Community Management
+  desktop:
+    name: Community Management
     weight: 4
     parent: Nos spécialisations
-  desktop:
-    name: Bachelor Community Management
+  main:
+    name: Community Management
     weight: 4
     parent: Nos spécialisations
 

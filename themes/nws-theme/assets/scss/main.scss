@@ -7,8 +7,8 @@ img[alt="postwidth"] {
   width:  100%; 
 }
 
-.color-blue2 {
-  color: var(--blue2);
+.color-violet {
+  color: var(--violet);
 }
 .color-orange {
   color: var(--orange);
@@ -451,8 +451,8 @@ hr {
 .btn {
   font-size: 1.2em;
  
-  &.color-blue2 {
-    background-color: var(--blue2);
+  &.color-violet {
+    background-color: var(--violet);
     color: white !important;
   }
   &.color-yellow {
@@ -906,7 +906,7 @@ HERO HEADER
 }
 .cursus-title {
   font-weight: bold;
-  color: #bebebe;
+  color: #fec800;
   font-size: 1.5rem;
 }
 
@@ -1052,8 +1052,8 @@ HERO HEADER
       }
     }
 
-    &.color-blue2 {
-      border-color: var(--blue2);
+    &.color-violet {
+      border-color: var(--violet);
     }
     
     &.color-orange {
@@ -1278,7 +1278,6 @@ HERO HEADER
     padding-left: 40px;
     border: 1px solid #d1d1d1;
     border-radius: 50px;
-    width: 100%;
     outline: none;
     height: 40px;
 

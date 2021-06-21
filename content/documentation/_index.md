@@ -19,31 +19,31 @@ documents:
   - icon: "/uploads/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
-    document: "/uploads/plaquette-nws-generale.pdf"
+    document: ''
   - icon: "/uploads/icn-cloud.png"
-    name: Année préparatoire
+    name: Année préparatoire Concepteur numérique
     format: PDF
-    document: "/uploads/1ere-annee-cursus-initial.pdf"
+    document: "/uploads/a1.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: Filière Web Design & Communication visuelle
+    name: Filière Communication graphique
     format: PDF
-    document: "/uploads/design-graphique.pdf"
+    document: "/uploads/communication-graphique.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: Filière Web Développement
+    name: Filière Développement web et applicatif
     format: PDF
-    document: "/uploads/developpement.pdf"
+    document: "/uploads/developpeur_web.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Filière Web Marketing
     format: PDF
-    document: "/uploads/marketing.pdf"
+    document: "/uploads/web_marketing.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Filière Community Management
     format: PDF
-    document: "/uploads/community-management.pdf"
+    document: "/uploads/community_management.pdf"
   - icon: "/uploads/icn-cloud.png"
-    name: Mastère "Expert digital"
+    name: Mastère Expert digital
     format: PDF
-    document: "/uploads/mastere.pdf"
+    document: "/uploads/mastere_expert_digital.pdf"
 form:
   title: Vos coordonnées
   subtitle: ''
@@ -108,9 +108,9 @@ menu:
   top:
     name: Documentation
     URL: documentation
-    weight: 3
+    weight: 4
   main:
     name: Documentation
-    weight: 5
+    weight: 6
 
 ---

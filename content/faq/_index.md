@@ -98,14 +98,15 @@ subjects:
         avoir ?
       answer: <p>L’obtention du baccalauréat est requise pour intégrer nos formations.
         Par contre, nous n’appliquons pas de sélection par filière, vous pouvez donc
-        candidater que vous ayez obtenu un bac général, professionnel ou technologique.</p><p>Ce
-        qui compte pour nous c’est votre motivation, votre curiosité et votre culture
-        générale. Pour préparer votre entretien d’admission, réfléchissez donc bien
-        à ce qui vous intéresse dans la spécialité que vous avez choisie !</p><p>Pourquoi
-        vous souhaitez faire cette formation ? Qu’aimez-vous faire dans la vie ? Quels
-        types de métiers vous tentent ? Autant de questions qui vous permettront de
-        vérifier au cours de l’entretien que la formation à laquelle vous <a href="/inscription/"
-        title="Candidater">candidatez</a> est bien faite pour vous !</p>
+        candidater que vous ayez obtenu un bac général, professionnel ou technologique.
+        Il n'y a en théorie aucune limite d'âge.</p><p>Ce qui compte pour nous c’est
+        votre motivation, votre curiosité et votre culture générale. Pour préparer
+        votre entretien d’admission, réfléchissez donc bien à ce qui vous intéresse
+        dans la spécialité que vous avez choisie !</p><p>Pourquoi vous souhaitez faire
+        cette formation ? Qu’aimez-vous faire dans la vie ? Quels types de métiers
+        vous tentent ? Autant de questions qui vous permettront de vérifier au cours
+        de l’entretien que la formation à laquelle vous <a href="/inscription/" title="Candidater">candidatez</a>
+        est bien faite pour vous !</p>
     - question: Dois-je passer par le portail Parcoursup pour m'inscrire à la Normandie
         Web School ?
       answer: <p>La Normandie Web School, comme beaucoup d’écoles privées qui forment
@@ -162,9 +163,9 @@ seo_image: ''
 menu:
   main:
     name: FAQ
-    weight: 6
+    weight: 7
   top:
     name: FAQ
-    weight: 4
+    weight: 5
 
 ---

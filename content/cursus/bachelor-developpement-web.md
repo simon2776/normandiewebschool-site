@@ -1,43 +1,43 @@
 ---
 type: filiere
 layout: filiere
-title: Filière développement web et mobile
+title: Filière Développement web et applicatif
 date: 2019-05-12T12:14:34.000+06:00
 description: " Le codage, l'intégration et la création de plateforme est votre passion
   ? Alors la spécialité développement est fait pour vous ! À la clé en fin d'année
   ? Votre titre RNCP de niveau 6 équivalant au BAC+3 et un statut de chef de projet
-  digital.Rythme alterné: 1 semaine en formation et 3 semaines en professionnalisation
+  digital. Rythme alterné: 1 semaine en formation et 3 semaines en professionnalisation
   (en entreprise (pour les alternants) ou en projet pour les étudiants en formation
   initiale.<br/> Nombre d'heures de formation: 455H en face-à-face et 180H d'apprentissage
   individualisé en FOAD"
 banner:
   logo: "/uploads/logo-dev.png"
-  title: Filière <span class="font-weight-medium">développement</span>
+  title: Filière <span class="font-weight-medium">Développement web et applicatif</span>
   image: "/uploads/web-dev.jpg"
-  description: "<p>Ce cursus prépare au métier de développeur web capable de créer,
-    coder et tester des sites Internet et des applications web. La transformation
+  description: "<p>Ce cursus prépare au métier de développeur web et applicatif capable
+    de créer, coder et tester des sites Internet et des applications web. La transformation
     digitale des économies fait du développement web une compétences essentielle des
     entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
     web dans les start-ups du numérique, les ESN (entreprises de services numériques),
-    les collectivités territoriales, les associations, les agences web, les PME, les
-    grandes sociétés…</p>"
+    les collectivités territoriales, les associations, les agences web, les PME et
+    les grandes sociétés. Devenez concepteur développeur d'application.</p>"
   color: color-yellow
   buttons:
   - arrow: left
-    label: Design
-    color: color-blue
-    justify: text-right
-    href: "/cursus/bachelor-communication-visuelle/"
-  - arrow: right
-    label: Marketing
+    label: Web marketing
     color: color-orange
-    justify: text-left
+    justify: text-right
     href: "/cursus/bachelor-marketing-digital"
+  - arrow: right
+    label: Communication graphique
+    color: color-blue
+    justify: text-left
+    href: "/cursus/bachelor-communication-visuelle/"
 about:
   enable: true
   url: https://www.youtube.com/embed/Gs_IBLIYvAs
   description: Maxence Machu, intervenant à la Normandie Web School, vous explique
-    la filière Développement Web et Mobile.
+    la filière Développement Web et applicatif.
   href: https://www.youtube.com/embed/Gs_IBLIYvAs
   image: "/uploads/nws_youtube_web_dev.png"
 skills:
@@ -76,8 +76,8 @@ years:
   - button: 1er année
     title: Le programme en cursus initial
     active: active
-    subtitle: 'De nombreux cours riches et variés y sont enseignés. Développez vos
-      compétences en graphisme, design, marketing et développement. '
+    subtitle: De nombreux cours riches et variés y sont enseignés. Développez vos
+      compétences en design, marketing, développement et community management.
     etape:
     - title: Création graphique
       content: "- Eco-conception graphique <br/> - Tendances graphiques & veille <br/>
@@ -103,106 +103,64 @@ years:
         <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
         <br/>"
   - button: 2e année
-    title: Programme de la deuxième année développement web et mobile
+    title: Programme de la deuxième année développement web et applicatif
     subtitle: 'Suivez ce programme intensif pour devenir un spécialiste du développement
-      web et mobile. '
+      web et applicatif. '
     etape:
-    - title: Algorithmique et applications
-      content: "- Architecture des ordinateurs \n<br/> - Logique informatique : variables,
-        boucles, conditions, gestion des erreurs\n<br/> - Structures de données “bas
-        niveau”, gestion de la mémoire \n<br/> - application en C\n<br/> - Programmation
-        Orientée Objet : attributs, méthodes, abstractions\n<br/> - Résolution de
-        problèmes et complexité des algorithmes : structures de données avancées,
-        manipulation de chaînes, tri, recherche, récursion - application en Python\n<br/>
-        - Documentation notebooks Python"
-    - title: Développement FrontEnd
-      content: |-
-        - Protocole HTTP et devtools
-        <br/> - APIs web : DOM, AJAX, Service Worker, Web Storage, IndexedDB
-        <br/> - JavaScript : modèle d’exécution, Clean Code, Git, Tests Unitaires
-        <br/> - Echange et manipulation de données avec REST, JSON et OpenId Connect
-        <br/> - JamStack et CMS headless (Wordpress)
-        <br/> - Progressive Web App : workflow de développement et de déploiement
-    - title: Développement BackEnd
-      content: "- Systèmes et Réseaux : Installation, ligne de commande, SSH, TCP/IP
-        \n<br/> - PHP : modèle  impératif et objet, SPL, Clean Code, Tests Unitaires\n<br/>
-        - Environnement et Intégration Continue : VSCode, docker, Git, Travis-CI  \n<br/>
-        - Bases de données relationnelles : normalisation, sécurité, requêtes SQL,
-        transactions, requêtes préparées, procédures stockées\n<br/> - NoSQL : Key-value
-        (memcached), Document (mongodb), graph (Neo4j)\n<br/> - Traitement sécurisé
-        de formulaires et web services avec PHP et Node.js"
-    - title: Développement Cloud
-      content: |-
-        - Modèles Cloud : IaaS, PaaS, SaaS, CaaS, FaaS
-        <br/> - Identité et Accès Cloud (AIM)
-        <br/> - Développement Serverless Amazon AWS : Lambda, API Gateway, S3, DynamoDB, Serverless Application Model  (test, debugging, déploiement, monitoring)
-        <br/> - Réversibilité et Maîtrise avec OpenShif
-    - title: Frameworks FrontEnd
-      content: |-
-        - Test Driven Development en JavaScript et TypeScript, Jest, Selenium
-        <br/> - Single Page Applications : React.js,  Angular, Vue.js
-        <br/> - Peer programming et Code review
-        <br/> - Développement mobile avec React Native
-        <br/> - Support des navigateurs : Polyfills, Shivs, Shims, transpilation
-    - title: Frameworks BackEnd
-      content: "- Modèle MVC, principes SOLID, Design Patterns\n<br/> - Domain Driven
-        Design, Clean Architecture, Sécurité par Design\n<br/> - Test Driven Development
-        en PHP, Agilité, Refactoring\n<br/> - Frameworks PHP : Symfony, Laravel \n<br/>
-        - Containerisation et déploiement avec docker et Kubernetes"
-    - title: Posture professionnelle
-      content: "- Ecoute, curiosité, culture & Intelligence collective. Travail en
-        équipe, esprit collaboratif\n<br/> - Connaissance de soi et des autres \n<br/>
-        - Positionnement professionnel et responsabilité sociétale"
+    - title: Algorithmique et résolutions de problèmes
+      content: "- Architecture informatique <br/> - Structures de données <br/> -
+        Recherche, tri, récursivité <br/> - Temps d’exécution et complexité"
+    - title: Programmation PHP et base de données
+      content: "- Environnement de développement <br/> - Programmation PHP, POO <br/>
+        - Tests Unitaires et intégration continue <br/> - Modèle relationnel, SGBD,
+        requêtes SQL"
+    - title: Interfaces interactives
+      content: "- Environnement de développement Node.js <br/> - Écoconception, ergonomie,
+        accessibilité <br/> - Tests Unitaires et d’intégration <br/> - JavaScript
+        pour le web <br/> - Animation CSS et JavaScript <br/> - Webtools"
+    - title: Applications mobiles
+      content: "- Stratégie mobile <br/> - Progressive Web Apps <br/> - Frameworks
+        de développement (Flutter, React Native) <br/> - Applications géolocalisées"
+    - title: Applications web
+      content: "- Design de composants <br/> - Frameworks Front (React, Vue) <br/>
+        - JamStack et CMS headless <br/> - Backend as a Service <br/> - Analyse de
+        performances"
+    - title: Web services
+      content: "- Architecture Backend, SQL, NoSQL <br/> - Principes SOLID et MVC
+        <br/> - Sécurité en profondeur <br/> - Design d’API <br/> - Conteneurisation
+        et CI/CD <br/> - Frameworks PHP"
     - title: E-learning et certifications
-      content: |-
-        - Culture et outils numériques
-        <br/> - Anglais technique
-        <br/> - Certification Digital et Code
+      content: "- Culture et outils numériques <br/> - Anglais"
     active: ''
   - button: 3e année
-    title: Programme troisième année développement web et mobile
-    subtitle: 'Apprenez et pratiquez toutes les techniques du developpement pour devenir
+    title: Programme troisième année Concepteur développeur d'application
+    subtitle: 'Apprenez et pratiquez toutes les techniques du développement pour devenir
       un pro du numérique. Voici les compétences et connaissances qui vous seront
-      enseignées afin d''obtenir le statut de chef de projet digital. '
+      enseignées afin d''obtenir le statut de concepteur développeur d''application. '
     etape:
     - title: Entrepreneuriat et innovation
-      content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
-        objectifs, de la cible et du positionnement  <br/> - Définition d’une stratégie
-        digitale  <br/> - Veille systématique et curation de contenu <br/> - Écoresponsabilité
-        et modèle économique web <br/> - Pitch projet devant des parties prenantes"
+      content: "- Étude de marché / Benchmark <br/> - Cibles / Objectifs / Positionnement
+        \ <br/> - Stratégie digitale  <br/> - Veille <br/> - Écoresponsabilité / Modèle
+        économique web <br/> - Pitch projet"
     - title: Domain Driven Design
-      content: "- Rédaction d’un brief client <br/> - Identification des acteurs du
-        projet sous forme de Personas <br/> - Définition d’une solution technique
-        (site et médias) répondant aux besoins <br/> - Estimation des coûts de conception,
-        de mise en place et de suivi <br/> - Rédaction d’une proposition technique
-        et commerciale"
+      content: "- Entretien / rédaction brief client <br/> - Acteurs du projet et
+        personas <br/> - Vocabulaire universel / Modèle de domaine <br/> - Modélisation
+        fonctionnelle en UML <br/> - Coûts de conception, mise en place et suivi <br/>
+        - Proposition technique et commerciale"
     - title: Behaviour Driven Development en ASP.NET
-      content: |
-        - Agilité : SCRUM et Extreme Programming
-        <br/> - De PHP/Symfony à C#/ASP.NET
-        <br/> - Behaviour-Driven Development : spécifications exécutables, tests unitaires et d'acceptation, recettage et validation client
-    - title: 'Gestion des Risques : Anticipation, Détection, Remédiation '
-      content: "- Facteurs-risques et cadre juridique \n<br/> - Détection, correction
-        et Post-Mortem d’incidents de sécurité\n<br/> - Modèles d’architecture : VM,
-        conteneurs, cloud, Microservices\n<br/> - Défense en profondeur : infrastructure,
-        code, humain\n<br/> - Refactoring et tests :  applicatifs et de l'infrastructure"
-    - title: Événementiel et VR/AR
-      content: |-
-        - Rétro-plannings et organisation
-        <br/> - Collaboration entre agences (marketing, design, code)
-        <br/> - Développement AR/VR avec Unity
-    - title: Projet certifiant et posture professionnelle
-      content: "- Cahier des charges et dossier de production\n<br/> - Gestion de
-        projet : allocation de ressources,  planning et budget\n<br/> - Réalisation
-        et gestion d’un projet en mode agence\n<br/> - Reporting et communication
-        à l’oral et à l’écrit\n<br/> - Ecoute, curiosité, culture & Intelligence collective
-        \n<br/> - Travail en équipe, esprit collaboratif et responsabilité sociétale"
-    - title: E-learning et certifications
-      content: |-
-        - Culture et outils numériques
-        <br/> - Certifications : compétences numériques et code
-        <br/> - Renforcement orthographique et grammatical
-        <br/> - Anglais technique
+      content: "- SCRUM / Extreme Programming <br/> - PHP/Symfony à C#/ASP.NET <br/>
+        - Behaviour-Driver Development <br/> - UNITY"
+    - title: Gestion des Risques
+      content: "- Facteurs risques / Cadre juridique <br/> - Incidents de sécurité
+        <br/> - Modèles d’architecture <br/> - Défense en profondeur <br/> - Refactoring
+        et tests"
+    - title: Projet certifiant
+      content: "- Cahier des charges / Dossier de production <br/> - Gestion de projet
+        <br/> - Réalisation d’un projet en mode agence <br/> - Reporting / Communication
+        orale et écrite <br/> - Responsabilité sociétale"
+    - title: E-learning et certification
+      content: "- Culture et outils numériques <br/> - Compétences numériques et code
+        <br/> - Anglais technique <br/> - CNIL et RGPD"
     active: ''
 profession:
   enable: true
@@ -211,29 +169,43 @@ profession:
     les équipes chargées de la production à travers un développement informatique
     complet de la conception au recettage.
   item:
-  - title: Développeur informatique
-    description: Appuyez vous sur des langages de programmation pour concevoir un
-      logiciel et ayez pour charge de concevoir ou d'améliorer un programme informatique.
-  - title: 'Développeur '
+  - title: Développeur web
     description: 'Réalisez des logiciels, des sites Internet ou des applications à
       l''aide du langage de programmation. '
-  - title: Intégrateur web
-    description: 'Intégrez des maquettes et des textes sur un site Internet, des logiciels
-      ou des applications en utilisant le langage de programmation.  '
-  - title: Concepteur web
-    description: Conseillez et aidez le client à établir une demande détaillée selon
-      ses envies et ses attentes en communication sur le web.
+  - title: Développeur application mobile
+    description: Un développeur d’applications mobiles développe des applications
+      pour des terminaux mobiles. Il peut également avoir la mission d’optimiser des
+      applications déjà créées ou d’adapter des sites Web au support mobile.
+  - title: Développeur Full Stack
+    description: Le développeur full stack est un codeur capable de réaliser la programmation
+      d’un site ou d'une application web à la fois en frontend et backend. Il dispose
+      ainsi de compétences variées lui permettant de travailler sur chaque étape d'un
+      projet de création allant du développement à la production
+  - title: Intégrateur
+    description: L’intégrateur web intègre les pages d’un site Internet en « traduisant
+      » les projets de l’équipe graphique en langage informatique dans le respect
+      des normes et standards en vigueur.
+  - title: Chef de projet technique
+    description: Le chef de projet technique web analyse techniquement les besoins,
+      organise, planifie et met en œuvre le développement informatique des services
+      ou produits sur Internet et/ou web mobile. Il doit garantir la qualité technique
+      des applications et veiller au respect des charges et des délais qui ont été
+      impartis.
+  - title: Chef de projet digital web
+    description: Chef de projet digital consiste à coordonner les opérations liées
+      aux marketing digital et au webmarketing. Il peut, dans ce sens, participer
+      à la transformation digitale de son entreprise.
 testimonials:
   enable: true
   filter:
   - dev
 menu:
   desktop:
-    name: Bachelor Web Développement
+    name: Développement web et applicatif
     parent: Nos spécialisations
     weight: 2
   main:
-    name: Bachelor Web Développement
+    name: Développement web et applicatif
     parent: Nos spécialisations
     weight: 2
 
