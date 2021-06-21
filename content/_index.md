@@ -9,10 +9,10 @@ banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: ''
   subtitle: L'école des métiers du numérique au cœur des entreprises
-  image: "/uploads/banniere_accueil6.png"
+  image: "/uploads/banniere_accueil7.png"
 about:
   enable: true
-  title: L'école en quelques mots
+  title: La school en quelques mots
   image: "/uploads/home_round-1.png"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
     Privée qui forme en 2, 3 ou 5 ans aux métiers du numérique (développement web,
