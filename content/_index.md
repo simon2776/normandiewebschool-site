@@ -9,7 +9,7 @@ banner:
   title: ''
   title-line-twho: ''
   subtitle: ''
-  image: "/uploads/banniere_accueil3.png"
+  image: "/uploads/banniere_accueil4.png"
 about:
   enable: true
   title: L'école des métiers du numérique au cœur des entreprises
