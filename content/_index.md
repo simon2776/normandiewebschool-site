@@ -13,7 +13,7 @@ banner:
 about:
   enable: true
   title: La school en quelques mots
-  image: "/uploads/home_round-1.png"
+  image: "/uploads/logo_nws-1.jpg"
   content: "<p>La <strong>NWS</strong> est une École d’Enseignement Supérieur Technique
     Privée qui forme en 2, 3 ou 5 ans aux métiers du numérique (web marketing, développement
     web et applicatif, communication graphique et community management) et amène vers
