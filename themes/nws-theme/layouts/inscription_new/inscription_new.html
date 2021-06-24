@@ -36,12 +36,26 @@
                       class="form-control {{.className}}"
                       name={{.name}}
                     />
+                                             <label for="spe"></label>
+                         <select id="spe" class="form-control" name="spe">
+                           <option value="">Année visée</option>
+                             <option value="">Année préparatoire</option>
+                             <option value="">Web Marketing 2ème année</option>
+                             <option value="">Web Marketing 3ème année</option>
+                             <option value="">Développement web et applicatif 2ème année</option>
+                             <option value="">Développement web et applicatif 3ème année</option>
+                             <option value="">Communication graphique 2ème année</option>
+                             <option value="">Communication graphique 3ème année</option>
+                             <option value="">Community management 2ème année</option>
+                             <option value="">Mastère Expert digital</option>
+                           </optgroup>
+                        </select>
                   </div>
                   {{end}} {{if .textarea}}
                   <div class="input-icon mb-3 position-relative">
                    		<div class="form-group">
-                         <label for="spe-select"></label>
-                         <select id="spe-select" class="form-control" name="spe">
+                         <label for="spe"></label>
+                         <select id="spe" class="form-control" name="spe">
                            <option value="">Année visée</option>
                              <option value="">Année préparatoire</option>
                              <option value="">Web Marketing 2ème année</option>
