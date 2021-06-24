@@ -7,6 +7,7 @@ tags = [
 ]
 date = "2021-06-24"
 archives = "2021"
+seo_image = "/uploads/post/Life_Jobdating_ATB_Creation.png"
 +++
 
 ![postwidth](/uploads/post/Life_Jobdating_ATB_Creation.png)
