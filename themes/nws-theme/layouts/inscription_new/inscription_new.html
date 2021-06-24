@@ -110,13 +110,58 @@
     </div>
   </div>
 </section>
-  <script>
+
+<script>
   grecaptcha.ready(function() {
     grecaptcha.execute('6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs', {action: 'homepage'})
             .then(function(token) {
               document.getElementById('captchaResponse').value = token;
             });
   });
+</script>
+
+<script>
+    encode.onclick = async (e) => {
+        let response = await fetch('https://normandiewebschool.fr:8080/applicants', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+        })
+
+        let text = await response.text(); // read response body as text
+        data = JSON.parse(text);
+        document.querySelector("#encoded").innerHTML = text;
+      //  document.querySelector("#encoded").innerHTML = `First name = ${data.firstname} <br/> 
+      //                                                  Last name = ${data.lastname} <br/>
+      //                                                  Age    = ${data.age}`
+    };
+
+    formElem.onsubmit = async (e) => {
+      e.preventDefault();
+      var form = document.querySelector("#formElem");
+     // var form = document.forms[0];
+
+        data = {
+          firstname : form.querySelector('input[name="firstname"]').value,
+          lastname : form.querySelector('input[name="name"]').value,
+          email : form.querySelector('input[name="email"]').value,
+          phone : form.querySelector('input[name="phone"]').value,
+          spe : form.querySelector('input[name="spe"]').value,
+          msg : form.querySelector('input[name="msg"]').value
+        }
+
+        let response = await fetch('https://normandiewebschool.fr:8080/applicants', {
+                method: 'POST', // or 'PUT'
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+        })
+
+        let text = await response.text(); // read response body as text
+        document.querySelector("#decoded").innerHTML = text;
+    };
 </script>
 
 {{ end }}{{ end }}
