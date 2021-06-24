@@ -1,5 +1,13 @@
 {{ define "main" }}
 
+<!-- hero area -->
+<section
+  class="hero-area overflow-hidden d-flex align-items-center"
+  id="parallax"
+  style="background-image: url('{{ .Params.banner.image | absURL }}')"
+>
+</section>
+<!-- /hero area -->
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
 {{ if .Params.documents.enable }}
