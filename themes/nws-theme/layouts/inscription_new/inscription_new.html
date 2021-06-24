@@ -23,7 +23,8 @@
             <p class="pt-3 m-0">{{.subtitle}}</p>
           <div>
             <div class="card-body">
-              <form id="ajaxForm" name='inscription' action="https://normandiewebschool.fr:8080/applicants" method="POST" class="mt-3" >
+              
+              <form id="Form" class="mt-3" >
                 <div class="form-group">
                   {{range .input}} {{if (not .textarea)}}
                   <div class="input-icon mb-3 position-relative w-lg-{{ .width }} {{ .padding }} d-lg-inline-block">
@@ -101,6 +102,7 @@
                   </div>
                 </div>
               </form>
+            
             </div>
           </div>
         </div>
@@ -136,9 +138,9 @@
       //                                                  Age    = ${data.age}`
     };
 
-    ajaxForm.onsubmit = async (e) => {
+    Form.onsubmit = async (e) => {
       e.preventDefault();
-      var form = document.querySelector("#ajaxForm");
+      var form = document.querySelector("#Form");
      // var form = document.forms[0];
 
         data = {
