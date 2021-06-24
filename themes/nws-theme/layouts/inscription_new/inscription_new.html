@@ -38,6 +38,7 @@
                     />
                   </div>
                   {{end}} {{if .textarea}}
+             <form id="Form" class="mt-3" >
                   <div class="input-icon mb-3 position-relative">
                    		<div class="form-group">
                          <label for="spe"></label>
@@ -56,6 +57,7 @@
                         </select>
                     </div>
                 </div>
+                  </form>
                   </br>
                   <div class="input-icon mb-3 position-relative">
                     <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
@@ -131,7 +133,7 @@
           lastname : form.querySelector('input[name="last_name"]').value,
           email : form.querySelector('input[name="email"]').value,
           phone : form.querySelector('input[name="phone"]').value,
- //         spe : form.querySelector('input[name="spe"]').value,
+          spe : form.querySelector('input[name="spe"]').value,
           msg : form.querySelector('input[name="msg"]').value
         }
 
