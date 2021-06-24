@@ -28,9 +28,9 @@ form:
     Une réponse vous sera donnée dans les plus brefs délais.
   input:
   - icon: "/uploads/icn-user.png"
-    placeholder: Votre prénom
+    placeholder: Votre prénom*
     type: text
-    required: false
+    required: true
     name: first_name
     width: "50"
     padding: pl-lg-1
@@ -38,9 +38,9 @@ form:
     list: []
     filiere: ''
   - icon: "/uploads/icn-user.png"
-    placeholder: Votre nom
+    placeholder: Votre nom*
     type: text
-    required: false
+    required: true
     name: last_name
     width: "50"
     padding: pr-lg-1
