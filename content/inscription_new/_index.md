@@ -28,22 +28,22 @@ form:
     Une réponse vous sera donnée dans les plus brefs délais.
   input:
   - icon: "/uploads/icn-user.png"
-    placeholder: Votre nom de famille
-    type: text
-    required: false
-    name: last_name
-    width: "50"
-    padding: pr-lg-1
-    filieres: []
-    list: []
-    filiere: ''
-  - icon: "/uploads/icn-user.png"
     placeholder: Votre prénom
     type: text
     required: false
     name: first_name
     width: "50"
     padding: pl-lg-1
+    filieres: []
+    list: []
+    filiere: ''
+  - icon: "/uploads/icn-user.png"
+    placeholder: Votre nom
+    type: text
+    required: false
+    name: last_name
+    width: "50"
+    padding: pr-lg-1
     filieres: []
     list: []
     filiere: ''
@@ -57,62 +57,21 @@ form:
     filieres: []
     list: []
     filiere: ''
-  - icon: "/uploads/icn-mail.png"
-    placeholder: Confirmer votre adresse e-mail*
-    type: email
-    required: true
-    name: email_confirmation
-    width: "50"
-    padding: pl-lg-1
-    filieres: []
-    list: []
-    filiere: ''
   - icon: "/uploads/icn-phone.png"
-    placeholder: Votre numéro de téléphone
+    placeholder: Votre numéro de téléphone*
     type: phone
-    required: false
+    required: true
     name: phone
     width: "50"
     padding: ''
     filieres: []
     list: []
     filiere: ''
-  - icon: ''
-    placeholder: Filière souhaitée
-    type: list
-    required: true
-    name: ''
-    width: ''
-    padding: ''
-    filieres:
-    - cursus/bachelor-marketing-digital.md
-    - cursus/bachelor-communication-visuelle.md
-    - cursus/bachelor-developpement-web.md
-    - cursus/bachelor-community-management.md
-    - cursus/master-expert-digital.md
-    list:
-    - cursus/bachelor-marketing-digital.md
-    - cursus/bachelor-communication-visuelle.md
-    - cursus/bachelor-developpement-web.md
-    - cursus/bachelor-community-management.md
-    - cursus/master-expert-digital.md
-    filiere: ''
-  - icon: "/uploads/icn-obj.png"
-    placeholder: L'objet de votre message*
-    type: text
-    required: true
-    name: object
-    width: "100"
-    className: w-lg-50
-    padding: ''
-    filieres: []
-    list: []
-    filiere: ''
   - icon: "/uploads/icn-msg.png"
-    placeholder: Votre message*
+    placeholder: Votre message
     textarea: true
-    required: true
-    name: message
+    required: false
+    name: msg
     width: "100"
     type: ''
     padding: ''
@@ -131,6 +90,7 @@ form:
     name: newsletter
   list:
     filiere: cursus/bachelor-marketing-digital.md
+  filiere: ''
 seo_image: ''
 
 ---
