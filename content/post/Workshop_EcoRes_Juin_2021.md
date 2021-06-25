@@ -15,12 +15,13 @@ Notre ambition est d’adapter nos programmes aux défis de demain dans le but d
 
 ![postwidth](/uploads/post/Workshop_Juin2021_1.png)
 
-Encore un grand merci à nos partenaires qui ont répondus présents lors de ce Workshop. Une rencontre stimulante et engageante qui nous conforte une fois de plus dans notre démarche écoresponsable. 
+Encore un grand merci à nos partenaires qui ont répondus présents lors de ce Workshop. Une rencontre stimulante et engageante qui nous conforte une fois de plus dans notre démarche écoresponsable.
 
-![postwidth](/uploads/post/Workshop_Juin2021_2.png)
+
+![](/uploads/post/Workshop_Juin2021_2.png)
 
 <center>**MERCI**</center>
 
 <center>Merci tout simplement, nous continuons de travailler et d’écrire la suite… avec vous !</center>
 
-![postwidth](/uploads/post/Workshop_Juin2021_3.png)
+![](/uploads/post/Workshop_Juin2021_3.png)
