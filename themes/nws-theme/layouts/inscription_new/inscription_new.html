@@ -23,7 +23,7 @@
             
             <div class="card-body">
             {{ with .Params.form }}
-                <form id="Form" class="mt-3" >
+            <form id="Form" class="mt-3" >
                 <div class="form-group">
                 {{range .input}}
                     <img src="{{.icon}}" alt="" class="icn-contact" />
@@ -35,9 +35,9 @@
                     name={{.name}}
                     />
                 {{end}}
-                </div>
+                </div>                
             {{end}}
-                  
+
                     <label for="spe"></label>
                     <input type="select">
                     <name>spe</name>
@@ -68,6 +68,25 @@
                     ></textarea>
                     </input>
 
+                    <div class="row mb-lg-4">
+                    <div class="col-lg-8">
+                      {{range $index, $el := .checkbox}}
+                        <div class="form-check pb-3">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="checkbox-{{$index}}"
+                          name="{{.name}}"
+                          {{ if .required | eq true }} required="true" {{ end }}
+                        />
+                        <label class="form-check-label" for="checkbox-{{$index}}"
+                          >{{.content}}</label
+                        >
+                        </div>
+                      {{end}}
+                    </div>
+                    </div>
+
                     <div class="col-lg-4 d-flex justify-content-center my-5 my-lg-0">
                         <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                     </div>
@@ -81,7 +100,8 @@
                         <div id="encoded"></div>
                     </div>
                     </div>
-                </form>
+            </form>
+            </div>   
         </div>
       </div>
     </div>
@@ -124,4 +144,3 @@
         document.querySelector("#decoded").innerHTML = text;
     };
 </script>
-{{ end }}{{ end }}
