@@ -68,10 +68,10 @@ financement:
   image2: "/uploads/logo_nws_v.png"
 menu:
   main:
-    name: Admission / Tarifs
+    name: Admission / Coût
     weight: 3
   top:
-    name: Admission / Tarifs
+    name: Admission / Coût
     weight: 1
 
 ---
