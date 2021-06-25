@@ -22,8 +22,8 @@ Encore un grand merci à nos partenaires qui ont répondus présents lors de ce 
 
 ![postwidth](/uploads/post/Workshop_Juin2021_2.png)
 
-<center>MERCI</center>
+**MERCI**
 
-<center>Merci tout simplement, nous continuons de travailler et d’écrire la suite… avec vous !</center>
+Merci tout simplement, nous continuons de travailler et d’écrire la suite… avec vous !
 
 ![postwidth](/uploads/post/Workshop_Juin2021_3.png)
