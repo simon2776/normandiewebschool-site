@@ -13,12 +13,11 @@ seo_image = "/uploads/post/Workshop_Juin2021_2.png"
 
 Notre ambition est d’adapter nos programmes aux défis de demain dans le but de sensibiliser nos étudiants à une démarche d’amélioration continue visant à réduire l’empreinte écologique, économique et sociale des technologies de l’information et de la communication.
 
-<!--more-->
-
 ![postwidth](/uploads/post/Workshop_Juin2021_1.png)
 
-Encore un grand merci à nos partenaires qui ont répondus présents lors de ce Workshop. Une rencontre stimulante et engageante qui nous conforte une fois de plus dans notre démarche écoresponsable.
+<!--more-->
 
+Encore un grand merci à nos partenaires qui ont répondus présents lors de ce Workshop. Une rencontre stimulante et engageante qui nous conforte une fois de plus dans notre démarche écoresponsable.
 
 ![postwidth](/uploads/post/Workshop_Juin2021_2.png)
 
