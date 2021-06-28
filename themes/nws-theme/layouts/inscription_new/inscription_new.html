@@ -29,7 +29,6 @@
                   <input type="text" class="form-control" id="Nom" name="last_name" placeholder="Votre nom *" required minlength="2" maxlength="20" size="10">
                   <input type="email" class="form-control" id="Mail" name="mail" placeholder="Votre adresse email *" required minlength="3" maxlength="20" size="10">
                   <input type="text" class="form-control" id="Phone" name="phone" placeholder="Votre numéro de téléphone *" required minlength="8" maxlength="15" size="10">
-                </div>
                   <label for="spe"></label>
                   <select id="spe" class="form-control">
                   <option value="">Année visée</option>
@@ -45,7 +44,6 @@
                              <option value="">Mastère Expert digital</option>
                   </optgroup>
                   </select>
-                  </br>
                   <div class="input-icon mb-3 position-relative">
                     <img src="{{.icon}}" alt="" class="icn-contact icn-contact-message" />
                     <textarea
@@ -55,6 +53,7 @@
                       {{ if .required | eq true }} required="true" {{ end }}                      
                       name="{{.name}}"
                     ></textarea>
+                </div>
                   </div>
                   <div class="row mb-lg-4">
                     <div class="col-lg-8">
