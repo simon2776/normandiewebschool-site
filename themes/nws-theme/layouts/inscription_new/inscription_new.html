@@ -102,7 +102,7 @@
 
 <script>
     encode.onclick = async (e) => {
-        let response = await fetch('http://normandiewebschool.fr:8080/applicants', {
+        let response = await fetch('https://normandiewebschool.fr:8080/applicants', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -131,7 +131,7 @@
           msg : form.querySelector('input[name="msg"]').value
         }
 
-        let response = await fetch('http://normandiewebschool.fr:8080/applicants', {
+        let response = await fetch('https://normandiewebschool.fr:8080/applicants', {
                 method: 'POST', // or 'PUT'
                 headers: {
                     'Content-Type': 'application/json',
