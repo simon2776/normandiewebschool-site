@@ -43,8 +43,10 @@
                              <option value="Community management 2ème année">Community management 2ème année</option>
                              <option value="Mastère Expert digital">Mastère Expert digital</option>
                   </select></br>
-                  <input type="textarea" rows="10" cols="30" id="msg" name="msg" placeholder="Votre message" class="input-icon mb-3 position-relative">
+                  <div class="input-icon mb-3 position-relative">
+                  <input type="textarea" rows="10" cols="30" id="msg" name="msg" placeholder="Votre message">
                   </input>
+                  </div>
                 </div>
                   </div>
                   <div class="row mb-lg-4">
@@ -100,7 +102,7 @@
 
 <script>
     encode.onclick = async (e) => {
-        let response = await fetch('https://normandiewebschool.fr:443/applicants', {
+        let response = await fetch('https://normandiewebschool.fr:8080/applicants', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -129,7 +131,7 @@
           msg : form.querySelector('input[name="msg"]').value
         }
 
-        let response = await fetch('https://normandiewebschool.fr:443/applicants', {
+        let response = await fetch('https://normandiewebschool.fr:8080/applicants', {
                 method: 'POST', // or 'PUT'
                 headers: {
                     'Content-Type': 'application/json',
