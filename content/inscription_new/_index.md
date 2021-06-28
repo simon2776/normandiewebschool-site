@@ -21,7 +21,7 @@ documents:
   document: "/uploads/plaquette-nws-generale.pdf"
   category: ''
 form:
-  title: Candidatez sur le site
+  title: Formulaire d'inscription
   subtitle: |-
     Après avoir rempli ce formulaire, l’école vous contactera pour fixer un rendez-vous.
     Au cours de ce rendez-vous, vous réaliserez un test de culture numérique et vous passerez un entretien individuel avec un membre de l'équipe pédagogique.
