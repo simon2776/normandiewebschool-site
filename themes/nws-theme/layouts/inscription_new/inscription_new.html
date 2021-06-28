@@ -30,6 +30,7 @@
                   <input type="text" class="form-control" id="Nom" name="last_name" placeholder="Votre nom *" required minlength="2" maxlength="30" size="10"></br>
                   <input type="email" class="form-control" id="Mail" name="email" placeholder="Votre adresse email *" required minlength="3" maxlength="40" size="10"></br>
                   <input type="tel" class="form-control" id="Phone" name="phone" placeholder="Votre numéro de téléphone *" required minlength="8" maxlength="15" size="10"></br>
+                  <label for="spe"></label>   
                   <select name="spe" id="spe">
                   <option value="">-- Année visée --</option>
                              <option value="Année préparatoire">Année préparatoire</option>
@@ -124,7 +125,7 @@
           lastname : form.querySelector('input[name="last_name"]').value,
           email : form.querySelector('input[name="email"]').value,
           phone : form.querySelector('input[name="phone"]').value,
-          spe : form.querySelector('input[name="spe"]').value,
+          spe : form.querySelector('select[name="spe"]').value,
           msg : form.querySelector('input[name="msg"]').value
         }
 
