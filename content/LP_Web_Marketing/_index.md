@@ -9,7 +9,7 @@ banner:
   title-line-twho: ''
   subtitle: Vous aurez un entretien avec un membre de l'équipe pédagogique. Venez
     avec votre CV.
-  image: "/uploads/banner_entretien.jpg"
+  image: "/uploads/Header_LP_Web_Marketing.jpg"
 documents:
   enable: true
   title: Téléchargez le PDF
