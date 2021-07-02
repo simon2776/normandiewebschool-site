@@ -48,6 +48,9 @@ sections:
   path: content/documentation/_index.md
   label: Documentation
 - type: document
+  path: content/LP_Web_Marketing/_index.md
+  label: Spécialisation Web Marketing
+- type: document
   path: content/politique-de-confidentialite/_index.md
   label: Politique de confidentialité
 - type: document

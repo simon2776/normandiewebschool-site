@@ -119,7 +119,7 @@ years:
         du tunnel d’acquisition <br/> - User Journey Mapping <br/> - Landing pages"
     - title: Fidélisation
       content: |2-
-         - Content marketing <br/> - Content marketing <br/> - Campagnes e-mailing
+         - Content marketing <br/> - Campagnes e-mailing
         Ambassadeurs et affiliation <br/> - Marketing viral
     - title: Analytics et optimisation
       content: "- Google Analytics <br/> - A/B Testing <br/> - Outils de tracking

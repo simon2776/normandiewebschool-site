@@ -122,7 +122,7 @@ filieres:
       link: "/cursus/bachelor-communication-visuelle/"
     - bulle: "/uploads/logo_nws-1.jpg"
       title: Spécialisation Community Management
-      color: color-blue2
+      color: color-violet
       content: Choisissez selon vos talents et vos passions une spécialisation adéquate.
         Vous avez le choix entre développement web et applicatif, communication graphique,
         web marketing ou Community Management.
