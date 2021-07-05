@@ -1,8 +1,7 @@
 ---
-title: Spécalisation Web Marketing
-date: 2021-06-28T12:14:34.000+06:00
-description: 'Pour candidater : demander un entretien pédagogique. Vous serez invité
-  à l''une de nos sessions d''information.'
+title: LP Web Marketing
+date: 2021-07-05T08:14:34+02:00
+description: ''
 global: ''
 banner:
   title: Candidatez à la <span class="font-weight-medium">NWS</span>
