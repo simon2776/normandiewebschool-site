@@ -655,9 +655,9 @@ HERO HEADER
  */
 .hero-arealp {
   min-height: 850px;
-  --padding: 0.5em; 
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 .hero-area {
