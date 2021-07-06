@@ -1,5 +1,5 @@
-        {{- partial "preloader.html" . -}}
-        {{- block "main" . }}{{- end }}
+{{- partial "preloader.html" . -}}
+{{- block "main" . }}
 
 <!-- hero area -->
 <section class="hero-arealp overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
@@ -140,3 +140,4 @@
         document.querySelector("#decoded").innerHTML = text;
     };
 </script>
+{{ end }}{{ end }}
