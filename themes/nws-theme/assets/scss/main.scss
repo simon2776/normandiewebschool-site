@@ -659,6 +659,13 @@ HERO HEADER
   background-repeat: no-repeat;
   background-size: cover;
 
+.hero-arealp {
+  min-height: 600px;
+  --padding: 0.5em; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  
   h1,
   h2 {
     background-color: white;
