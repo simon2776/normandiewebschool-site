@@ -659,12 +659,13 @@ HERO HEADER
   background-repeat: no-repeat;
   background-size: cover;
 
-.hero-areaheaderlp {
+.hero-arealp {
   --padding: 0.5em; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+}
+  
   h1,
   h2 {
     background-color: white;
@@ -705,7 +706,6 @@ HERO HEADER
   .font-weight-medium {
     font-family: 'Fugaz One', sans-serif;
   }
-}
 }
 
 //Burger menu
