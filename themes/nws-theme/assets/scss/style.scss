@@ -483,6 +483,10 @@ NAVBAR
   min-height: 1002px;
 }
 
+.d-flexlp {
+  display: none;
+}  
+
 @media (max-width: 991px) {
   .hero-area {
     min-height: 40vh;
