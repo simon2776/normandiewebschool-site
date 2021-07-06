@@ -481,6 +481,10 @@ NAVBAR
 
 .hero-arealp {
   min-height: 1002px;
+  --padding: 0.5em; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 991px) {
