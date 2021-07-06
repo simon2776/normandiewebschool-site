@@ -653,19 +653,19 @@ NAVBAR
 /*
 HERO HEADER
  */
+.hero-arealp {
+  min-height: 850px;
+  --padding: 0.5em; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .hero-area {
   --padding: 0.5em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-.hero-arealp {
-  min-height: 600px;
-  --padding: 0.5em; 
-  background-repeat: no-repeat;
-  background-position: center;
-}
-  
   h1,
   h2 {
     background-color: white;
