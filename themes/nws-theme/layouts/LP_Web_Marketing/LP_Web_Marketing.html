@@ -1,10 +1,9 @@
-{{ partial "components/page-title" (dict "context" . "title" .Title ) }}
-
-<!-- hero area -->
-<section class="hero-arealp overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
-</section>
-<!-- /hero area -->
-
+<section class="bg-lightgrey pb-4">
+  <div class="container">
+    <img class="hero-arealp" src="/uploads/Header_LP_Web_Marketing.png" alt="" />
+	</div>
+</section>    
+    
 {{ if .Params.documents.enable }}
 <section class="bg-lightgrey pb-4">
   <div class="container">
