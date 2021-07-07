@@ -1,6 +1,4 @@
-    <body>
-        {{- block "main" . }}{{- end }}
-    </body>
+{{ partial "components/page-title" (dict "context" . "title" .Title ) }}
 
 <!-- hero area -->
 <section class="hero-arealp overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
@@ -142,4 +140,3 @@
     };
 </script>
 
-{{ end }}
