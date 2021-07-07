@@ -47,7 +47,14 @@ event:
       href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-30-06
       image: ''
   - label: Juillet 2021
-    item: []
+    item:
+    - date: 21/07/21
+      name: Après-midi portes ouvertes de la Normandie Web School 21/07
+      localisation: ''
+      start: ''
+      end: ''
+      href: ''
+      image: "/uploads/116423205.jpg"
 L_agenda_de_la_NWS: ''
 Page: ''
 Le_calendrier_des_evenements: ''
