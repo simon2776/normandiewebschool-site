@@ -1,9 +1,11 @@
+{{- partial "head.html" . -}}
 
-<!-- hero area -->
-<section class="hero-arealp overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .Params.banner.image | absURL }}')">
-</section>
-<!-- /hero area -->
-
+<section class="bg-lightgrey pb-4">
+  <div class="hero-arealp">
+    <img class="hero-arealp overflow-hidden d-flex align-items-center" src="/uploads/Header_LP_Web_Marketing.png" alt="" />
+  </div>
+</section>    
+    
 {{ if .Params.documents.enable }}
 <section class="bg-lightgrey pb-4">
   <div class="container">
@@ -138,5 +140,4 @@
         document.querySelector("#decoded").innerHTML = text;
     };
 </script>
-
 {{ end }}
