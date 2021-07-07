@@ -31,20 +31,22 @@ event:
   - label: Mai 2021
     item: []
   - label: Juin 2021
+    item: []
+  - label: Juillet 2021
     item:
-    - date: 23/06/21
-      name: Après-midi portes ouvertes de la Normandie Web School 23/06
+    - date: 21/07/21
+      name: Après-midi portes ouvertes de la Normandie Web School 21/07
       localisation: Seine Innopolis
       start: 15h00
       end: 17h00
-      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-23-06
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-21-07
       image: ''
-    - date: 30/06/21
-      name: Après-midi portes ouvertes de la Normandie Web School 30/06
+    - date: 28/07/21
+      name: Après-midi portes ouvertes de la Normandie Web School 28/07
       localisation: Seine Innopolis
       start: 15h00
       end: 17h00
-      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-30-06
+      href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-28-07
       image: ''
 L_agenda_de_la_NWS: ''
 Page: ''

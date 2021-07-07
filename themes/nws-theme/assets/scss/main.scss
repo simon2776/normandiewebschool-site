@@ -653,20 +653,18 @@ NAVBAR
 /*
 HERO HEADER
  */
+.hero-arealp {
+  min-height: 850px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .hero-area {
   --padding: 0.5em;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-.hero-area-headerlp {
-  --padding: 0.5em;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
   h1,
   h2 {
@@ -821,7 +819,6 @@ HERO HEADER
       }
     }
   }
-}
 
 #side-menu {
   .navbar {
@@ -858,7 +855,8 @@ HERO HEADER
     }
   }
 }
-
+ }
+  
 //home
 #home-filieres {
   .card-header {
