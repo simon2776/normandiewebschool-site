@@ -46,6 +46,8 @@ event:
       end: 17h00
       href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-30-06
       image: ''
+  - label: Juillet 2021
+    item: []
 L_agenda_de_la_NWS: ''
 Page: ''
 Le_calendrier_des_evenements: ''
