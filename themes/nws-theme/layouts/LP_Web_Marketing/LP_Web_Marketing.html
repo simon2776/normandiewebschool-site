@@ -81,6 +81,7 @@
                 </div>
 </section>
 
+{{ with .Params.about }}
 <section class="pb-4 position-relative overflow-hidden" id="filiere-doc">
 <div class="container d-block position-relative text-center">
 <div class="container">
@@ -89,6 +90,7 @@
 </div>
 </div>
 </section>
+{{ end }}
 
 <script>
   grecaptcha.ready(function() {
