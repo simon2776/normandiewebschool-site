@@ -11,6 +11,11 @@ fields:
 - type: text
   name: description
   label: description
+- name: description2
+  type: text
+  config:
+    required: false
+  label: description2
 - type: text
   name: global
   label: global
