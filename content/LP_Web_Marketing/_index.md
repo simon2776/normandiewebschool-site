@@ -3,9 +3,9 @@ title: LP Web Marketing
 date: 2021-07-05T08:14:34.000+02:00
 description: ''
 banner:
-  logo: "/uploads/Header_LP_Web_Marketing.png"
+  logo: ''
   title: Filière <span class="font-weight-medium"> Web marketing </span>
-  image: "/uploads/marketing-digital.jpg"
+  image: "/uploads/Header_LP_Web_Marketing.png"
   description: "<p>Le chef de projet Web marketing définit, développe et gère les
     outils numériques destinés au marketing et la communication d’une entreprise ou
     organisation. Il peut aussi travailler en agence de communication digitale. Véritable
