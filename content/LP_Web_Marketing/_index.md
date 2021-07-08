@@ -11,7 +11,7 @@ banner:
     organisation. Il peut aussi travailler en agence de communication digitale. Véritable
     interface, il travaille avec les développeurs, les infographistes pour mener à
     bien les projets (sites, applications, campagne sur les réseaux sociaux, vidéo
-    etc…). Le bachelor “Chef de projet Web marketing” se déroule sur 3 ans au sein
+    etc…).  Le bachelor “Chef de projet Web marketing” se déroule sur 3 ans au sein
     de la Normandie Web School soit en alternance (contrat de professionnalisation
     ou apprentissage) soit en formation initiale.</p>"
   color: color-orange
