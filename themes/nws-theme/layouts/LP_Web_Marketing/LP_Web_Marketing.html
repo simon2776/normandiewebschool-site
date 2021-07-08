@@ -1,143 +1,196 @@
 {{- partial "head.html" . -}}
 
-<section class="bg-lightgrey pb-4">
-  <div class="hero-arealp">
-    <img class="hero-arealp overflow-hidden d-flex align-items-center" src="/uploads/Header_LP_Web_Marketing.png" alt="" />
-  </div>
-</section>    
-    
-{{ if .Params.documents.enable }}
-<section class="bg-lightgrey pb-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-8">
-        {{ with .Params.form }}
-        <div class="card second-push-top">
-            <div class="card-header">
-              <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
-            </div>
-            <p class="pt-3 m-0">{{.subtitle}}</p>
-          <div>
-            <div class="card-body">
-              <form id="ajaxForm" name='inscription' action="https://normandiewebschool.fr:8080/applicants" method="POST" class="mt-3" >
-                <div class="form-group">
-                  <div class="input-icon mb-3 position-relative w-lg-50 pr-lg-1 d-lg-inline-block">
-                  <img src="/uploads/icn-user.png" alt="" class="icn-contact"><input type="text" class="form-control" id="Prenom" name="firstname" placeholder="Votre prénom (requis)" required="true" minlength="1" maxlength="20"></div>
-                  <div class="input-icon mb-3 position-relative w-lg-50 pl-lg-1 d-lg-inline-block">
-                  <img src="/uploads/icn-user.png" alt="" class="icn-contact"><input type="text" class="form-control" id="Nom" name="name" placeholder="Votre nom (requis)" required="true" minlength="2" maxlength="30"></div>
-                  <div class="input-icon mb-3 position-relative w-lg-50 pr-lg-1 d-lg-inline-block">
-                  <img src="/uploads/icn-mail.png" alt="icn-contact" class="icn-contact"><input type="email" class="form-control" id="Mail" name="email" placeholder="Votre adresse email (requis)" required="true"></div>
-                  <div class="input-icon mb-3 position-relative w-lg-50 pl-lg-1 d-lg-inline-block">
-                  <img src="/uploads/icn-phone.png" alt="icn-contact" class="icn-contact"><input type="tel" class="form-control" id="Phone" name="phone" placeholder="Votre numéro de téléphone (requis)" required="true" minlength="8" maxlength="15"></div>
-                  <div class="input-icon mb-3 position-relative w-lg-100  d-lg-inline-block">
-                  <img src="/uploads/icn-msg.png" alt="icn-contact" class="icn-contact icn-contact-message"><textarea cols="30" rows="5" maxlength="300" class="form-control" id="msg" name="msg" placeholder="Votre message (facultatif)"></textarea></div>      
-                  <div class="input-icon mb-3 position-relative w-lg-100  d-lg-inline-block">
-                  <label for="spe"></label>   
-                  <select name="spe" id="spe" class="form-control" required="true">
-                  <option value="">-- Année souhaitée --</option>
-                             <option value="Année préparatoire">Année préparatoire</option>
-                             <option value="Web Marketing 2ème année">Web Marketing 2ème année</option>
-                             <option value="Web Marketing 3ème année">Web Marketing 3ème année</option>
-                             <option value="Développement web et applicatif 2ème année">Développement web et applicatif 2ème année</option>
-                             <option value="Développement web et applicatif 3ème année">Développement web et applicatif 3ème année</option>
-                             <option value="Communication graphique 2ème année">Communication graphique 2ème année</option>
-                             <option value="Communication graphique 3ème année">Communication graphique 3ème année</option>
-                             <option value="Community management 2ème année">Community management 2ème année</option>
-                             <option value="Mastère Expert digital">Mastère Expert digital</option>
-                  </select></div>
-                  </div>
-                  <div class="row mb-lg-4">
-                    <div class="col-lg-8">
-                      {{range $index, $el := .checkbox}}
-                      <div class="form-check pb-3">
-                        <input
-                          type="checkbox"
-                          class="form-check-input"
-                          id="checkbox-{{$index}}"
-                          name="{{.name}}"
-                          {{ if .required | eq true }} required="true" {{ end }}
-                        />
-                        <label class="form-check-label" for="checkbox-{{$index}}"
-                          >{{.content}}</label
-                        >
-                      </div>
-                      {{end}}
-                    </div>
-                    <div class="col-lg-4 d-flex justify-content-center my-5 my-lg-0">
-                      <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-12 d-flex justify-content-center">
-                      <div id="decoded"></div>
-                      <button type="submit" id="encode" class="btn font-weight-medium color-blue py-3 px-5">
-                        <a>Postuler</a>
-                      </button>
-                      <div id="encoded"></div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+<section class="pb-4 bg-lightgrey position-relative overflow-hidden" id="filiere-doc">
+<div class="container d-block position-relative text-center">
+<div class="container">
+        <!-- hero area -->
+        {{ with .Params.banner }}
+        <section class="hero-arealp bg-lightgrey overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .image | absURL }}')"></section>
         {{end}}
-      </div>
+        {{ if .Params.about.enable }}
+        {{ with .Params.about }}
+        <div class="video">
+        <video style="box-shadow: -4px 5px 9px 0px #ffffff;" controls preload="auto" controlslist="nodownload" height="230" width="409" box-shadow="10px 5px 5px #ffffff" id="_NWSWebMarketing" poster="/uploads/interview_romain.png">
+        <source src="/uploads/WEBMARKETING.mp4" type="video/mp4" />
+        </div>       
+        <p class="col-md-12 font-weight-medium text-center px-3 my-3">            
+        {{ .description | safeHTML }}
+        </p>
+        
+                
+                    <div class="row">
+                        <div class="col-12 text center d-flex justify-content-center">
+                        <a href="/documentation" class="btn font-weight-medium color-blue mt-4 mb-3 pt-3 pb-3 pl-4 pr-4">Télécharger de la documentation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="/uploads/points.svg" class="points">
     </div>
-  </div>
 </section>
+{{ end }}
+{{ end }}
 
-<script>
-  grecaptcha.ready(function() {
-    grecaptcha.execute('6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs', {action: 'homepage'})
-            .then(function(token) {
-              document.getElementById('captchaResponse').value = token;
-            });
-  });
-</script>
 
-<script>
-    encode.onclick = async (e) => {
-        let response = await fetch('https://normandiewebschool.fr:8080/applicants', {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-        })
+{{ if .Params.skills.enable }}
+{{ with .Params.skills }}
+<section class="bg-lightgrey pt-4 clip-bottom-white skills" id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div
+                        class="card-header"
+                    >
+                        <h2 class="mb-0 color-blue title-medium separator-left">
+                            {{.title}}
+                        </h2>
+                    </div>
 
-        let text = await response.text(); // read response body as text
-        data = JSON.parse(text);
-        document.querySelector("#encoded").innerHTML = text;
-      //  document.querySelector("#encoded").innerHTML = `First name = ${data.firstname} <br/> 
-      //                                                  Last name = ${data.lastname} <br/>
-      //                                                  Age    = ${data.age}`
-    };
+                    <div>
+                        <div class="card-body">
+                            <p class="mb-4">
+                                {{.subtitle}}
+                            </p>
 
-    ajaxForm.onsubmit = async (e) => {
-      e.preventDefault();
-      var form = document.querySelector("#ajaxForm");
-     // var form = document.forms[0];
+                            <div class="row">
+                                {{ range .item }}
+                                    <div class="col-12 col-lg-4 d-flex flex-column align-items-center skill mt-5">
+                                    <div class="icon mb-3">
+                                        <img src="{{.icon}}" alt="{{.title}}">
+                                    </div>
+                                    <h3 class="text-center mb-3">{{.title}}</h3>
+                                    <p>{{.description | safeHTML }}</p>
+                                    </div>
+                                {{ end }}
+                            </div>
 
-        data = {
-          firstname : form.querySelector('input[name="firstname"]').value,
-          lastname : form.querySelector('input[name="name"]').value,
-          email : form.querySelector('input[name="email"]').value,
-          phone : form.querySelector('input[name="phone"]').value,
-          spe : form.querySelector('select[name="spe"]').value,
-          msg : form.querySelector('textarea[name="msg"]').value
-        }
+                            <div class="row mt-5 mb-4 d-block d-lg-none">
+                                <div class="col-12 d-flex justify-content-center">
+                                <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher toutes les compétences</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
 
-        let response = await fetch('https://normandiewebschool.fr:8080/applicants', {
-                method: 'POST', // or 'PUT'
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-        })
 
-        let text = await response.text(); // read response body as text
-        document.querySelector("#decoded").innerHTML = text;
-    };
-</script>
+{{ if .Params.years.enable }}
+{{ with .Params.years }}
+<section class="section" id="years">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div
+                    id="yearCarousel"
+                    class="carousel slide"
+                    data-ride="carousel"
+                    data-interval="false"
+                >
+                    <div class="carousel-indicators justify-content-around justify-content-lg-center">
+                        {{range $index, $value := .item}}
+                        <a
+                            data-target="#yearCarousel"
+                            data-slide-to="{{$index}}"
+                            class="btn btn-years {{.active}} mx-lg-4"
+                        >{{.button}}</a>
+                        {{end}}
+                    </div>
+
+                    <div class="carousel-inner mt-5">
+                        {{ range $index, $value := .item }}
+                        <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">
+                            <div>
+                                <h3 class="mb-0 title-medium color-blue text-lg-center">
+                                    {{.title}}
+                                </h3>
+                            </div>
+                            <p class="my-4 text-lg-center">{{.subtitle | safeHTML }}</p>
+
+                            <div class="row">
+                                {{ range $index, $value := .etape }}
+                                    <div class="col-12 col-lg-4 flex-column mt-4">
+                                        <div class="step container">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <p class="number mb-0 mr-2">
+                                                    {{add $index 1}}
+                                                </p>
+                                                <h3 class="mb-0">
+                                                    {{.title}}
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                {{.content | safeHTML }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                        {{ end }}
+                        <div class="row mt-5 mb-4 d-block d-lg-none">
+                            <div class="col-12 d-flex justify-content-center">
+                                <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4 btn-ue">Afficher toutes les unités d'enseignement</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if .Params.profession.enable }}
+{{ with .Params.profession }}
+<section class="clip-bottom-lightgrey" id="profession">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="mb-0 color-blue title-medium separator-left">
+                            {{.title}}
+                        </h3>
+                    </div>
+                    <div>
+                        <div class="card-body">
+                            <p class="mb-4">
+                                {{.subtitle}}
+                            </p>
+
+                            <div class="row  d-flex justify-content-center">
+                                {{ range .item }}
+                                    <div class="col-12 col-lg-4 flex-column align-items-center profession mt-5 px-lg-5">
+                                        <h3 class="text-center mb-3 color-blue">{{.title}}</h3>
+                                        <p class="text-center m-auto">{{.description}}</p>
+                                    </div>
+                                {{ end }}
+                            </div>
+                            <div class="row mt-5 mb-4 d-block d-lg-none">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <a href="" class="btn btn-outline font-weight-medium color-blue py-3 px-4">Afficher tous les débouchés</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+{{ if .Params.testimonials.enable }}
+    {{ partial "testimonial-section.html" (dict "context" . "filter" .Params.testimonials.filter ) }}
 {{ end }}
