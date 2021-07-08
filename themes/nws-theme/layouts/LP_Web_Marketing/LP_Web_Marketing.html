@@ -15,8 +15,15 @@
         </div>       
         <p class="col-md-12 font-weight-medium text-center px-3 my-3">            
         {{ .description | safeHTML }}
-        </p>
-        
+        </p>               
+        </div>
+        </div>
+</div>
+        <img src="/uploads/points.svg" class="points">
+</div>
+</section>
+{{ end }}
+{{ end }}
 
 <section class="bg-lightgrey pb-4">
   <div class="container">
@@ -150,19 +157,7 @@
         let text = await response.text(); // read response body as text
         document.querySelector("#decoded").innerHTML = text;
     };
-</script>                
-                
-                
-                    
-        </div>
-        </div>
-</div>
-        <img src="/uploads/points.svg" class="points">
-</div>
-</section>
-{{ end }}
-{{ end }}
-
+</script>   
 
 {{ if .Params.skills.enable }}
 {{ with .Params.skills }}
