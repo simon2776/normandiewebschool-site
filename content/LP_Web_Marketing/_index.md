@@ -3,7 +3,7 @@ title: LP Web Marketing
 date: 2021-07-05T08:14:34.000+02:00
 description: ''
 banner:
-  logo: "/uploads/logo-marketing.png"
+  logo: "/uploads/Header_LP_Web_Marketing.png"
   title: Filière <span class="font-weight-medium"> Web marketing </span>
   image: "/uploads/marketing-digital.jpg"
   description: "<p>Le chef de projet Web marketing définit, développe et gère les
