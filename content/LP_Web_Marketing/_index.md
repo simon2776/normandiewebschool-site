@@ -29,8 +29,7 @@ banner:
 about:
   enable: true
   url: https://www.youtube.com/embed/ZLx18d89pNo
-  description: Romain Comoretto, intervenant auprès de la filière Web marketing, vous
-    explique en quoi elle consiste.
+  description: Candidatez dès maintenant...
   href: https://www.youtube.com/embed/ZLx18d89pNo
   image: "/uploads/nws_youtube_web_marketing.png"
 skills:
