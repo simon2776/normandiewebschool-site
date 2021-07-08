@@ -8,30 +8,29 @@
         <section class="hero-arealp bg-lightgrey overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .image | absURL }}')"></section>
         {{end}}
 
-        
         {{ if .Params.about.enable }}
         {{ with .Params.about }}
-        <div class="video">
-        <video id="_NWSWebMarketing" poster="Sans_titre-4-web-resources/image/1.png" ">
+        <div class="row">
+        <video id="_NWSWebMarketing" poster="Sans_titre-4-web-resources/image/1.png" controls="controls">
         <source src="/uploads/WEBMARKETING.mp4" type="video/mp4" />       
         <p class="col-md-12 font-weight-medium text-center px-3 my-3">            
         {{ .description | safeHTML }}
         </p>
         </div>
                 
-        <div class="row">
-            <div class="col-12 text center d-flex justify-content-center">
-            <a href="/documentation" class="btn font-weight-medium color-blue mt-4 mb-3 pt-3 pb-3 pl-4 pr-4">Télécharger de la documentation</a>
+                    <div class="row">
+                        <div class="col-12 text center d-flex justify-content-center">
+                        <a href="/documentation" class="btn font-weight-medium color-blue mt-4 mb-3 pt-3 pb-3 pl-4 pr-4">Télécharger de la documentation</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-                </div>
-        </div>
-        {{ end }}
-        {{ end }}
-<img src="/uploads/points.svg" class="points">
-</div>
-</div>
+        <img src="/uploads/points.svg" class="points">
+    </div>
 </section>
+{{ end }}
+{{ end }}
 
 
 {{ if .Params.skills.enable }}
