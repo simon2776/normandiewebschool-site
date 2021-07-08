@@ -2,7 +2,6 @@
 title: LP Web Marketing
 date: 2021-07-05T08:14:34.000+02:00
 description: ''
-
 banner:
   logo: "/uploads/logo-marketing.png"
   title: Filière <span class="font-weight-medium"> Web marketing </span>
@@ -35,7 +34,7 @@ about:
   href: https://www.youtube.com/embed/ZLx18d89pNo
   image: "/uploads/nws_youtube_web_marketing.png"
 skills:
-  enable: true
+  enable: false
   title: Les Compétences
   subtitle: 'Quelques compétences humaines et non techniques sont requises. '
   item:
@@ -64,7 +63,7 @@ skills:
     description: 'Pour mener à bien un projet il faut communiquer. C''est à dire échanger
       avec les autres personnes et exprimer ses envies, ses besoins et ses attentes. '
 years:
-  enable: true
+  enable: false
   item:
   - button: 1er année
     title: Le programme en cursus initial
@@ -196,8 +195,9 @@ profession:
       il est en charge de véhiculer l’image de l’entreprise ou de son client auprès
       du public et de sa clientèle.
 testimonials:
-  enable: true
+  enable: false
   filter:
   - marketing
 seo_image: ''
+
 ---
