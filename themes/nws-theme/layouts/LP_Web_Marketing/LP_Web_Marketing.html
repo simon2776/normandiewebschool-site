@@ -7,16 +7,16 @@
         {{ with .Params.banner }}
         <section class="hero-arealp bg-lightgrey overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .image | absURL }}')"></section>
         {{end}}
-
         {{ if .Params.about.enable }}
         {{ with .Params.about }}
         <div class="video">
         <video style="box-shadow: -4px 5px 9px 0px #ffffff;" controls preload="auto" controlslist="nodownload" height="230" width="409" box-shadow="10px 5px 5px #ffffff" id="_NWSWebMarketing" poster="/uploads/interview_romain.png">
-        <source src="/uploads/WEBMARKETING.mp4" type="video/mp4" />       
+        <source src="/uploads/WEBMARKETING.mp4" type="video/mp4" />
+        </div>       
         <p class="col-md-12 font-weight-medium text-center px-3 my-3">            
         {{ .description | safeHTML }}
         </p>
-        </div>
+        
                 
                     <div class="row">
                         <div class="col-12 text center d-flex justify-content-center">
