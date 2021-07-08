@@ -5,7 +5,7 @@
 <div class="container">
         <!-- hero area -->
         {{ with .Params.banner }}
-        <section class="hero-arealp bg-lightgrey overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .image | absURL }}')"></section>
+        <section class="hero-arealp overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .image | absURL }}')"></section>
         {{end}}
         {{ if .Params.about.enable }}
         {{ with .Params.about }}
@@ -25,7 +25,7 @@
 {{ end }}
 {{ end }}
 
-<section class="bg-lightgrey pb-4">
+<section class="pb-4">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8">
