@@ -661,6 +661,15 @@ HERO HEADER
   margin:auto
 }
 
+.video {
+  position: absolute;
+  overflow: hidden;
+  width:100%;
+  height:100%;
+  margin-top: -400px;
+  margin-left: 150px;
+}
+
 .hero-area {
   --padding: 0.5em;
   background-position: center;

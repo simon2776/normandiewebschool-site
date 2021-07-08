@@ -1,35 +1,37 @@
 {{- partial "head.html" . -}}
 
-        <section class="pb-4 bg-lightgrey position-relative overflow-hidden" id="filiere-doc">
-        <div class="container d-block position-relative text-center">
-        <div class="container">
-<!-- hero area -->
-{{ with .Params.banner }}
-<section class="hero-arealp bg-lightgrey overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .image | absURL }}')"></section>
-{{end}}
+<section class="pb-4 bg-lightgrey position-relative overflow-hidden" id="filiere-doc">
+<div class="container d-block position-relative text-center">
+<div class="container">
+        <!-- hero area -->
+        {{ with .Params.banner }}
+        <section class="hero-arealp bg-lightgrey overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .image | absURL }}')"></section>
+        {{end}}
 
-{{ if .Params.about.enable }}
-{{ with .Params.about }}
-
-            <div class="row">
-                <iframe style="width: 50%; position: absolute; overflow: hidden; margin-top: -400px; margin-left: 150px;" src="https://www.youtube.com/embed/ZLx18d89pNo?autoplay=0" title="NWS Web Marketing" frameborder="2" allowtransparency="true" scrolling="no" controls="0" disablekb="0" fs="0" loop="1" modestbranding="1" rel="0" showinfo="0"></iframe>
-                <p class="col-md-12 font-weight-medium text-center px-3 my-3">
-                    {{ .description | safeHTML }}
-                </p>
-            </div>
-                    <div class="row">
-                        <div class="col-12 text center d-flex justify-content-center">
-                        <a href="/documentation" class="btn font-weight-medium color-blue mt-4 mb-3 pt-3 pb-3 pl-4 pr-4">Télécharger de la documentation</a>
-                        </div>
-                    </div>
-                </div>
+        {{ if .Params.about.enable }}
+        {{ with .Params.about }}
+        <div class="video">
+        <video id="_NWSWebMarketing" poster="Sans_titre-4-web-resources/image/1.png" ">
+        <source src="/uploads/ITW_MARKETING.mp4" type="video/mp4" />       
+        <p class="col-md-12 font-weight-medium text-center px-3 my-3">            
+        {{ .description | safeHTML }}
+        </p>
+        </div>
+                
+        <div class="row">
+            <div class="col-12 text center d-flex justify-content-center">
+            <a href="/documentation" class="btn font-weight-medium color-blue mt-4 mb-3 pt-3 pb-3 pl-4 pr-4">Télécharger de la documentation</a>
             </div>
         </div>
-        <img src="/uploads/points.svg" class="points">
-    </div>
+                </div>
+        </div>
+        {{ end }}
+        {{ end }}
+<img src="/uploads/points.svg" class="points">
+</div>
+</div>
 </section>
-{{ end }}
-{{ end }}
+
 
 {{ if .Params.skills.enable }}
 {{ with .Params.skills }}
