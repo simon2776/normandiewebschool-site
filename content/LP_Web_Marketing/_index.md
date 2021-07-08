@@ -200,14 +200,4 @@ testimonials:
   filter:
   - marketing
 seo_image: ''
-menu:
-  desktop:
-    name: Web Marketing
-    parent: Nos spécialisations
-    weight: 1
-  main:
-    name: Web Marketing
-    parent: Nos spécialisations
-    weight: 1
-
 ---
