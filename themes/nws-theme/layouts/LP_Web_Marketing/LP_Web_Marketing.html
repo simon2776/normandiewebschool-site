@@ -30,11 +30,7 @@
     <div class="row">
       <div class="col-12 col-lg-8">
         {{ with .Params.form }}
-        <div class="card second-push-top">
-            <div class="card-header">
-              <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
-            </div>
-            <p class="pt-3 m-0">{{.subtitle}}</p>
+        <div class="card">
           <div>
             <div class="card-body">
               <form id="ajaxForm" name='inscription' action="https://normandiewebschool.fr:8080/applicants" method="POST" class="mt-3" >
