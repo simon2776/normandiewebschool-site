@@ -3,41 +3,6 @@
 <!-- hero area -->
 {{ with .Params.banner }}
 <section class="hero-arealp bg-lightgrey overflow-hidden d-flex align-items-center" id="parallax" style="background-image: url('{{ .image | absURL }}')"></section>
-
-<section class="pb-4 bg-lightgrey up">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 second-push-top">
-                <div class="card filiere-intro">
-                    <img src="{{.logo}}" alt="{{.title}}" href="{{.href}}" class="logo w-20 w-lg-50 m-auto "/>
-                    <div class="card-header">
-                        <h1 class="my-3 my-lg-0 title-medium {{.color}} separator-left separator-lg-block w-100 text-center text-lg-left">{{ .title | safeHTML }}</h1>
-                    </div>
-
-                    <div class="card-body description">
-                        <p class="font-weight-medium text-center text-lg-left">
-                        {{ .description | safeHTML }}
-                        </p>
-                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="row justify-content-between justify-content-lg-center p-3 btn-filieres">
-        {{ range  $index, $value := .buttons }}
-                <a href="{{.href}}" class="col-5 col-lg-3 card py-4 px-1 switch-btn">
-                    <div>
-                        <div class="arrow {{.arrow}} {{.color}}"></div>
-                        <p class="font-weight-bold {{.justify}} {{.color}} m-0 text-lg-center">
-                            {{.label}}
-                        </p>
-                    </div>
-                </a>
-                {{ if $index | eq 0 }}
-                <div style="width: 30px" class="d-none d-md-block"></div>
-                {{ end }}
-        {{ end }}
-    </div>
-</section>
 {{end}}
 
 {{ if .Params.about.enable }}
