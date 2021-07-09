@@ -499,14 +499,13 @@ NAVBAR
 }
 
 .hero-area-lp {
-  min-height: ;
-  background-position: ;
 }
 
 @media (max-width: 991px) {
   .hero-arealp {
     min-height: 40vh;
     position: relative;
+    background-position: 0;
 
     &:before {
       display: block;
