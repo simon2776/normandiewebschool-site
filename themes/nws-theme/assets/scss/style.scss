@@ -521,6 +521,16 @@ NAVBAR
   }
 }
 
+.container {
+}
+
+@media (max-width: 991px) {
+  .container {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+}
+
 .hero-area-desktop {
     min-height: 600px;
     background-repeat: no-repeat;
