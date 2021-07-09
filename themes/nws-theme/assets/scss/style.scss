@@ -503,7 +503,7 @@ NAVBAR
 
 @media (max-width: 991px) {
   .hero-arealp {
-    min-height: 32vh;
+    min-height: 36vh;
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
@@ -528,6 +528,15 @@ NAVBAR
   .container {
       padding-left: 0px;
       padding-right: 0px;
+  }
+}
+
+.points {
+}
+
+@media (max-width: 991px) {
+  .container {
+      opacity: 0;
   }
 }
 
