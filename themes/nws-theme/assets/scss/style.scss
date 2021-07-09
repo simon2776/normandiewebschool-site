@@ -507,17 +507,6 @@ NAVBAR
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-
-    &:before {
-      display: block;
-      content: '';
-      background-image: url('/uploads/assets/header-bg-clip.svg');
-      background-size: cover;
-      width: 100vw;
-      height: 40px;
-      position: absolute;
-      bottom: 0;
-    }
   }
 }
 
