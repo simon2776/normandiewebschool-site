@@ -41,19 +41,17 @@ reasons:
   - logo: "/uploads/reasons/star.svg"
     content: MONTEZ EN COMPETENCE
     alt: Monter en compétences
-  - logo: uploads/reasons/window.svg
-    content: Bénéficier d’un apprentissage pratique sur des  projets concrets et qui
-      ont du sens en partenariat avec des entreprises.
+  - logo: "/uploads/reasons/window.svg"
+    content: DES PROJETS CONCRETS
     alt: Projet
-  - logo: uploads/reasons/connect.svg
-    content: Développer ses compétences grâce à un cursus complet et une mise en pratique
-      en alternance et/ou en stage.
+  - logo: "/uploads/reasons/connect.svg"
+    content: FORMATION PRISE EN CHARGE PAR L'ENTREPRISE VIA L'OPCO
     alt: Alternance et stage
-  - logo: uploads/reasons/student.svg
-    content: Être et évoluer au cœur de l’écosystème numérique normand.
+  - logo: "/uploads/reasons/student.svg"
+    content: EVOLUEZ AU COEUR DE L'ECOSYSTEME NORMAND
     alt: écosystème numérique
   - logo: "/uploads/diploma.svg"
-    content: 'Obtenir un titre RNCP reconnu par l''État. '
+    content: OBTENEZ UN TITRE RNCP RECONNU PAR L'ETAT
     alt: titre RNCP
 form:
   title: Formulaire d'inscription
