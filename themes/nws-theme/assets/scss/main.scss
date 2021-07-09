@@ -128,10 +128,6 @@ END GDISPLAY
 }
 
 .points {
-}
-
-@media (min-width: 991px) {
-  .points {
   position: absolute;
   filter: brightness(0.5);
   bottom: 0;
@@ -139,7 +135,6 @@ END GDISPLAY
   transform: translate(25%, 45%);
   opacity: 0.5;
   }
-}
 
 .card-header {
   .fugaz.font-weight-medium { // TODO: CLEAN
