@@ -22,14 +22,11 @@
 {{ if .Params.reasons.enable }}
   {{ with .Params.reasons }}
   <!-- reasons -->
-  <section class="section bg-lightgrey clip-top-white" id="reasons">
+  <section class="section clip-top-white" id="reasons">
     <div class="container">
       <div class="row">
-
         <div class="col-lg-12 text-center">
           <div class="card center-card with-border {{ .color }}">
-            <h3 class="title-medium color-blue mb-0">{{ .title | safeHTML }}</h3>
-            <p>{{ .subtitle | markdownify }}</p>
             <div class="card-body d-lg-flex">
               {{ range .item }}
               <div class="mt-4 mt-lg-0 w-lg-20 px-2">
