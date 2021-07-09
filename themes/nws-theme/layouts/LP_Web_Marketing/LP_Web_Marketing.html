@@ -26,11 +26,8 @@
 {{ end }}
 
 <section class="bg-lightgrey clip-bottom-white recrutement pt-5" id="recrutement">
-    <div class="container"><balise id="alternance">
-        {{ partial "components/wavy-title" (dict "context" . "title" "Vous recrutez ?") }}
-      </balise>
+    <div class="container">
       <div class="row row-eq-height">
-        {{ range .item }}
           <div class="col-md-12 col-lg-6 mb-4">
             <div class="card h-100 big-bottom-lg center-card {{ .color }} position-relative overflow-visible">
               <div class="card-header">
