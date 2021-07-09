@@ -667,6 +667,10 @@ HERO HEADER
 }
 
 .video {
+}
+
+@media (min-width: 991px) {
+  .video {
   position: absolute;
   overflow: hidden;
   width:100%;
@@ -674,6 +678,7 @@ HERO HEADER
   margin-top: -379px;
   margin-left: -271px;
   left: 1px;
+  }
 }
 
 .hero-area {
