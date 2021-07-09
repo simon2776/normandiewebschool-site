@@ -653,13 +653,21 @@ NAVBAR
 /*
 HERO HEADER
  */
-.hero-arealp {
-  min-height: 662px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin:auto
+.hero-area-lp {
 }
+
+@media (min-width: 991px) {
+  .hero-arealp {
+      min-height: 662px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin:auto
+  }
+}
+
+
+
 
 .video {
   position: absolute;
