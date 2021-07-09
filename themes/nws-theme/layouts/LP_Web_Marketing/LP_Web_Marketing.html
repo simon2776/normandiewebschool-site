@@ -13,9 +13,6 @@
         <video style="box-shadow: -4px 5px 9px 0px #ffffff;" controls preload="auto" controlslist="nodownload" height="230" width="409" box-shadow="10px 5px 5px #ffffff" id="_NWSWebMarketing" poster="/uploads/interview_romain.png">
         <source src="/uploads/WEBMARKETING.mp4" type="video/mp4" />
         </div>       
-        <p class="col-md-12 font-weight-medium text-center px-3 my-3" style="font-family: Fugaz One;font-size: x-large;" >            
-        {{ .description | safeHTML }}
-        </p>               
         </div>
         </div>
 </div>
@@ -52,6 +49,10 @@
   <!-- /reasons -->
   {{ end }}
   {{ end }}
+
+        <p class="col-md-12 font-weight-medium text-center px-3 my-3" style="font-family: Fugaz One;font-size: x-large;" >            
+        {{ .description | safeHTML }}
+        </p>  
 
 <section class="pb-4">
         <div class="container">
