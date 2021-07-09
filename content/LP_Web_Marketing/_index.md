@@ -30,7 +30,7 @@ about:
   enable: true
   url: https://www.youtube.com/embed/ZLx18d89pNo
   description: Candidatez dès maintenant...
-  description2: ...et préparez dès aujourd’hui votre avenir professionnel
+  description2: "...et préparez dès aujourd’hui votre avenir professionnel"
   href: https://www.youtube.com/embed/ZLx18d89pNo
   image: "/uploads/nws_youtube_web_marketing.png"
 reasons:
@@ -38,9 +38,8 @@ reasons:
   title: Cinq bonnes raisons d'intégrer la School
   subtitle: 
   item:
-  - logo: uploads/reasons/star.svg
-    content: 'Monter en compétences avec des expert(es) métiers et des professionnel(les)
-      reconnu(es) dans le domaine du numérique. '
+  - logo: "/uploads/reasons/star.svg"
+    content: MONTEZ EN COMPETENCE
     alt: Monter en compétences
   - logo: uploads/reasons/window.svg
     content: Bénéficier d’un apprentissage pratique sur des  projets concrets et qui
