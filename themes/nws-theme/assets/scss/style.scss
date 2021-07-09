@@ -506,6 +506,7 @@ NAVBAR
     min-height: 38vh;
     position: relative;
     background-size: cover;
+    background-repeat: no-repeat;
 
     &:before {
       display: block;
