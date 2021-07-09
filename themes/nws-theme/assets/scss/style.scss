@@ -503,9 +503,9 @@ NAVBAR
 
 @media (max-width: 991px) {
   .hero-arealp {
-    min-height: 38vh;
+    min-height: 32vh;
     position: relative;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
     &:before {
