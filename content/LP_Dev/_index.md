@@ -7,15 +7,14 @@ banner:
   title: Filière <span class="font-weight-medium"> LP Développement Web et Applicatif
     </span>
   image: "/uploads/Header_LP_Dev.png"
-  description: "<p>Le chef de projet Web marketing définit, développe et gère les
-    outils numériques destinés au marketing et la communication d’une entreprise ou
-    organisation. Il peut aussi travailler en agence de communication digitale. Véritable
-    interface, il travaille avec les développeurs, les infographistes pour mener à
-    bien les projets (sites, applications, campagne sur les réseaux sociaux, vidéo
-    etc…).  Le bachelor “Chef de projet Web marketing” se déroule sur 3 ans au sein
-    de la Normandie Web School soit en alternance (contrat de professionnalisation
-    ou apprentissage) soit en formation initiale.</p>"
-  color: color-orange
+  description: Ce cursus prépare au métier de développeur web et applicatif capable
+    de créer, coder et tester des sites Internet et des applications web. La transformation
+    digitale des économies fait du développement web une compétences essentielle des
+    entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
+    web dans les start-ups du numérique, les ESN (entreprises de services numériques),
+    les collectivités territoriales, les associations, les agences web, les PME et
+    les grandes sociétés. Devenez concepteur développeur d'application.
+  color: color-yellow
   buttons:
   - arrow: left
     label: Community management
