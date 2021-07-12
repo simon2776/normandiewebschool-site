@@ -254,34 +254,36 @@ years:
 profession:
   enable: true
   title: Les débouchés métiers
-  subtitle: Proposez des projets, organisez les dans leur globalité et accompagnez
-    les équipes chargées de la production à travers un suivi complet, la création
-    d'un plan marketing, des études de marchés, de la veille et des réunions et des
-    rencontres.
+  subtitle: Proposez des projets, organisez les dans leur globalité ou accompagnez
+    les équipes chargées de la production à travers un développement informatique
+    complet de la conception au recettage.
   item:
-  - title: Assistant Web Marketing
-    description: L’assistant webmarketing assiste le chef de pôle, les chargés de
-      Webmarketing et les chefs de produits dans la conception, l’organisation et
-      le suivi des actions de marketing opérationnel transmédia.
-  - title: Trafic Manager
-    description: Développez et installez une stratégie digitale répondant aux attentes
-      et aux besoins des visiteurs afin d'augmenter le trafic et les ventes.
-  - title: Chargé de Référencement
-    description: Le chargé de référencement web a pour objectif de placer un ou plusieurs
-      sites web en tête des classements des moteurs de recherche.
-  - title: Acquisition Manager
-    description: L'Acquisition Manager est chargé de coordonner toutes les actions
-      d'acquisition mises en place et d'équilibrer les ressources affectées en fonction
-      des résultats et des budgets.
-  - title: Growthhacker
-    description: Le growthhacker, compétent en marketing et programmation, curieux
-      et créatif fait appel à des techniques d’analyses guidées par les données pour
-      amorcer et optimiser la croissance de l’entreprise.
-  - title: Chargé de e-commerce
-    description: Le Responsable e-commerce est à la croisée des métiers du web, de
-      la vente et du marketing. Responsable du développement des ventes sur internet,
-      il est en charge de véhiculer l’image de l’entreprise ou de son client auprès
-      du public et de sa clientèle.
+  - title: Développeur web
+    description: 'Réalisez des logiciels, des sites Internet ou des applications à
+      l''aide du langage de programmation. '
+  - title: Développeur application mobile
+    description: Un développeur d’applications mobiles développe des applications
+      pour des terminaux mobiles. Il peut également avoir la mission d’optimiser des
+      applications déjà créées ou d’adapter des sites Web au support mobile.
+  - title: Développeur Full Stack
+    description: Le développeur full stack est un codeur capable de réaliser la programmation
+      d’un site ou d'une application web à la fois en frontend et backend. Il dispose
+      ainsi de compétences variées lui permettant de travailler sur chaque étape d'un
+      projet de création allant du développement à la production
+  - title: Intégrateur
+    description: L’intégrateur web intègre les pages d’un site Internet en « traduisant
+      » les projets de l’équipe graphique en langage informatique dans le respect
+      des normes et standards en vigueur.
+  - title: Chef de projet technique
+    description: Le chef de projet technique web analyse techniquement les besoins,
+      organise, planifie et met en œuvre le développement informatique des services
+      ou produits sur Internet et/ou web mobile. Il doit garantir la qualité technique
+      des applications et veiller au respect des charges et des délais qui ont été
+      impartis.
+  - title: Chef de projet digital web
+    description: Chef de projet digital consiste à coordonner les opérations liées
+      aux marketing digital et au webmarketing. Il peut, dans ce sens, participer
+      à la transformation digitale de son entreprise.
 testimonials:
   enable: false
   filter:
