@@ -1,41 +1,128 @@
 ---
-type: filiere
-layout: filiere
-title: Filière Communication graphique
-date: 2019-05-12T12:14:34.000+06:00
+title: LP Communication graphique
+date: 2021-07-05T08:14:34.000+02:00
 description: ''
 banner:
   logo: ''
-  title: Filière <span class="font-weight-medium">Communication graphique</span>
-  image: "/uploads/web-dev.jpg"
-  description: Ce titre prépare à concevoir la forme visuelle de messages dans les
-    différents domaines du graphisme, de l’édition et de la publicité, imprimés ou
-    numériques. Il est destiné aux étudiants qui veulent se former aux métiers de
-    web et mobile designer, qui ont une forte compétence en UI et UX et capables d’intégrer
-    des maquettes. Le bachelor “Communication graphique" se déroule sur 3 ans au sein
-    de la Normandie Web School soit en alternance (contrat de professionnalisation
-    ou apprentissage) soit en formation initiale.
+  title: Filière <span class="font-weight-medium"> LP Développement Web et Applicatif
+    </span>
+  image: "/uploads/Header_LP_Dev.png"
+  description: Ce cursus prépare au métier de développeur web et applicatif capable
+    de créer, coder et tester des sites Internet et des applications web. La transformation
+    digitale des économies fait du développement web une compétences essentielle des
+    entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
+    web dans les start-ups du numérique, les ESN (entreprises de services numériques),
+    les collectivités territoriales, les associations, les agences web, les PME et
+    les grandes sociétés. Devenez concepteur développeur d'application.
   color: color-yellow
   buttons:
   - arrow: left
-    label: Web marketing
-    color: color-orange
+    label: Community management
+    color: color-violet
     justify: text-right
-    href: "/cursus/bachelor-marketing-digital"
+    href: "/cursus/bachelor-community-management"
   - arrow: right
-    label: Communication graphique
-    color: color-blue
+    label: Développement web
+    color: color-yellow
     justify: text-left
-    href: "/cursus/bachelor-communication-visuelle/"
+    href: "/cursus/bachelor-developpement-web"
 about:
   enable: true
-  url: https://www.youtube.com/embed/Gs_IBLIYvAs
-  description: Maxence Machu, intervenant à la Normandie Web School, vous explique
-    la filière Développement Web et applicatif.
-  href: https://www.youtube.com/embed/Gs_IBLIYvAs
-  image: "/uploads/nws_youtube_web_dev.png"
-skills:
+  url: https://www.youtube.com/embed/ZLx18d89pNo
+  description: Candidatez dès maintenant...
+  description2: "...et préparez dès aujourd’hui votre avenir professionnel"
+  href: https://www.youtube.com/embed/ZLx18d89pNo
+  image: "/uploads/nws_youtube_web_marketing.png"
+reasons:
   enable: true
+  title: Cinq bonnes raisons d'intégrer la School
+  subtitle: 
+  item:
+  - logo: "/uploads/reasons/star.svg"
+    content: MONTEZ EN COMPETENCE
+    alt: Monter en compétences
+  - logo: "/uploads/reasons/window.svg"
+    content: DES PROJETS CONCRETS
+    alt: Projet
+  - logo: "/uploads/reasons/connect.svg"
+    content: FORMATION PRISE EN CHARGE PAR L'ENTREPRISE VIA L'OPCO
+    alt: Alternance et stage
+  - logo: "/uploads/reasons/student.svg"
+    content: EVOLUEZ AU COEUR DE L'ECOSYSTEME NORMAND
+    alt: écosystème numérique
+  - logo: "/uploads/diploma.svg"
+    content: OBTENEZ UN TITRE RNCP RECONNU PAR L'ETAT
+    alt: titre RNCP
+form:
+  title: Formulaire d'inscription
+  subtitle: |-
+    Après avoir rempli ce formulaire, l’école vous contactera pour fixer un rendez-vous.
+    Au cours de ce rendez-vous, vous réaliserez un test de culture numérique et vous passerez un entretien individuel avec un membre de l'équipe pédagogique.
+    Une réponse vous sera donnée dans les plus brefs délais.
+  input:
+  - icon: "/uploads/icn-user.png"
+    placeholder: Votre prénom*
+    type: text
+    required: true
+    name: first_name
+    width: "50"
+    padding: pl-lg-1
+    filieres: []
+    list: []
+    filiere: ''
+  - icon: "/uploads/icn-user.png"
+    placeholder: Votre nom*
+    type: text
+    required: true
+    name: last_name
+    width: "50"
+    padding: pr-lg-1
+    filieres: []
+    list: []
+    filiere: ''
+  - icon: "/uploads/icn-mail.png"
+    placeholder: Votre adresse e-mail*
+    type: email
+    required: true
+    name: email
+    width: "50"
+    padding: pr-lg-1
+    filieres: []
+    list: []
+    filiere: ''
+  - icon: "/uploads/icn-phone.png"
+    placeholder: Votre numéro de téléphone*
+    type: phone
+    required: true
+    name: phone
+    width: "50"
+    padding: ''
+    filieres: []
+    list: []
+    filiere: ''
+  - icon: "/uploads/icn-msg.png"
+    placeholder: Votre message
+    textarea: true
+    required: false
+    name: msg
+    width: "100"
+    type: ''
+    padding: ''
+    filieres: []
+    list: []
+    filiere: ''
+  checkbox:
+  - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
+      exploitées dans le cadre d'apport d'information concernant les formations proposées
+      par l'école.
+    required: true
+    name: RGPD
+  - content: J'accepte recevoir les actualités de la Normandie Web School  ainsi que
+      des publications à portée commerciale.
+    required: false
+    name: newsletter
+skills:
+  enable: false
   title: Les Compétences
   subtitle: 'Quelques compétences humaines et non techniques sont requises. '
   item:
@@ -49,7 +136,7 @@ skills:
     description: 'Le monde extérieur est toujours en pleine évolution. Il faut donc
       se mettre régulièrement à jour quant à l''actualité générale ou numérique. Une
       force pour évoluer. Mais il faut également être ouvert à tous les cours proposés
-      qui ne pourront que vous être bénéfique. '
+      qui ne pourront que vous être bénéfiques. '
   - icon: "/uploads/search.svg"
     title: Imaginatif
     description: Trouver des idées innovantes, encore jamais vues ou toutes récentes
@@ -60,12 +147,11 @@ skills:
       positivement les remarques et critiques pour développer ses compétences et son
       sens du relationnel. '
   - icon: "/uploads/search.svg"
-    title: Sachant travailler en équipe
-    description: 'Lors de votre cursus et dans le monde du travail, le travail d''équipe
-      est essentiel. Celui-ci sert à s''organiser, échanger, s''écouter et exploiter
-      les forces de chacun. C''est une qualité indispensable. '
+    title: Communicant
+    description: 'Pour mener à bien un projet il faut communiquer. C''est à dire échanger
+      avec les autres personnes et exprimer ses envies, ses besoins et ses attentes. '
 years:
-  enable: true
+  enable: false
   item:
   - button: 1er année
     title: Le programme en cursus initial
@@ -74,88 +160,97 @@ years:
       compétences en design, marketing, développement et community management.
     etape:
     - title: Création graphique
-      content: "- Eco-conception graphique <br/> - Tendances graphiques & veille <br/>
-        - Formes, couleurs et polices <br/>- Identité visuelle & charte graphique
-        <br/>- Illustrations vectorielles et bitmap <br/> - Prise de vue et retouches
-        photo <br/>- Réalisation Print <br/> - Infographies <br/> - Outils graphiques
-        professionnels: Illustrator, inDesign, Lightroom, Photoshop, XD"
+      content: "- Eco-conception graphique <br/> - Tendances graphiques / Veille <br/>
+        - Formes, couleurs et polices <br/>- Identité visuelle et charte graphique
+        <br/>- Illustrations vectorielles / Bitmap <br/> - Prise de vue / Retouche
+        photo <br/>- Réalisation Prints <br/> - Infographies <br/> - Outils graphiques
+        professionnels (Adobe)"
     - title: Vidéo et animation
-      content: "- Ecoconception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
+      content: "- Eco-conception vidéo\n<br/> - Scénarisation\n<br/> - Prise de vue
         en studio et en extérieur\n<br/> - Montage vidéo\n<br/> - Motion Design \n<br/>
-        - Outils vidéo professionnels : Adobe Premiere, After Effects"
+        - Outils vidéo professionnels (Adobe)"
     - title: Création de sites web
-      content: "- Eco-conception web <br/> - Sites mobiles et desktop <br/> - Conception
-        d’interfaces <br/> - Grilles de mise en page <br/> - Systèmes de design et
-        composants web <br/> - Langages du web  HTML / CSS / JavaScript <br/> - Accessibilité
-        et ergonomie <br/> - Rédaction de contenus <br/> - Référencement naturel (SEO)
-        <br/> - Publication "
+      content: "- Eco-conception web <br/> - Sites mobiles et desktops <br/> - Conception
+        d’interfaces <br/> - Systèmes de design & Composants web <br/> - HTML / CSS
+        / JavaScript <br/> - Accessibilité et ergonomie <br/> - Référencement naturel
+        SEO <br/> - Publication "
     - title: Communication et e-commerce
-      content: "- Fondamentaux du marketing digital <br/> - Réseaux sociaux professionnels
-        <br/> - Réseaux sociaux graphiques et vidéo <br/> - Rédaction et envoi e-mailing
-        & newsletter <br/> - Intégration de contenus (CMS) <br/> - Sites e-commerce
-        <br/> - Audit lexical, search console et analytics <br/> - Analyse d'éco performance
-        <br/> - Systèmes professionnels de diffusion Wordpress, Woocommerce, Sendinblue
-        <br/>"
+      content: "- Marketing digital <br/> - Réseaux sociaux <br/> - E-mailing / Newsletter
+        <br/> - Intégration de contenus sur CMS <br/> - Sites e-commerce <br/> - Audit
+        lexical, search console et analytics <br/> - Analyse d'éco performance <br/>
+        - Systèmes professionnels de diffusion <br/> - Rédaction professionnelle <br/>"
+    - title: E-learning
+      content: "- Français <br/> - Bases du code"
   - button: 2e année
-    title: Programme de la deuxième année développement web et applicatif
-    subtitle: 'Suivez ce programme intensif pour devenir un spécialiste du développement
-      web et applicatif. '
+    title: Programme de la deuxième année Web marketing
+    subtitle: Suivez ce programme intensif pour devenir un professionnel du marketing.
     etape:
-    - title: Algorithmique et résolutions de problèmes
-      content: "- Architecture informatique <br/> - Structures de données <br/> -
-        Recherche, tri, récursivité <br/> - Temps d’exécution et complexité"
-    - title: Programmation PHP et base de données
-      content: "- Environnement de développement <br/> - Programmation PHP, POO <br/>
-        - Tests Unitaires et intégration continue <br/> - Modèle relationnel, SGBD,
-        requêtes SQL"
-    - title: Interfaces interactives
-      content: "- Environnement de développement Node.js <br/> - Écoconception, ergonomie,
-        accessibilité <br/> - Tests Unitaires et d’intégration <br/> - JavaScript
-        pour le web <br/> - Animation CSS et JavaScript <br/> - Webtools"
-    - title: Applications mobiles
-      content: "- Stratégie mobile <br/> - Progressive Web Apps <br/> - Frameworks
-        de développement (Flutter, React Native) <br/> - Applications géolocalisées"
-    - title: Applications web
-      content: "- Design de composants <br/> - Frameworks Front (React, Vue) <br/>
-        - JamStack et CMS headless <br/> - Backend as a Service <br/> - Analyse de
-        performances"
-    - title: Web services
-      content: "- Architecture Backend, SQL, NoSQL <br/> - Principes SOLID et MVC
-        <br/> - Sécurité en profondeur <br/> - Design d’API <br/> - Conteneurisation
-        et CI/CD <br/> - Frameworks PHP"
-    - title: E-learning et certifications
+    - title: Stratégie Web Marketing
+      content: "- Fondamentaux du marketing <br/> - Veille sectorielle, économique,
+        culturelle et concurrentielle <br/> - Cibles et personas <br/> - Plan marketing
+        et de communication <br/> - CRM et marketing automation"
+    - title: Acquisition de trafic
+      content: "- Inbound marketing <br/> - Référencement naturel <br/> - Référencement
+        payant <br/> - Réseaux sociaux <br/> - Emailing <br/> - Partenariats"
+    - title: E-commerce et conversion
+      content: "- Tunnel de vente <br/> - Storytelling <br/> - Promotion <br/> - Retargeting
+        <br/> - CMS e-commerce <br/> - Pack Adobe <br/> - Rédaction de contenu"
+    - title: Growth hacking
+      content: " - Product Market Fit <br/> - Channel personas <br/> - Optimisation
+        du tunnel d’acquisition <br/> - User Journey Mapping <br/> - Landing pages"
+    - title: Fidélisation
+      content: |2-
+         - Content marketing <br/> - Campagnes e-mailing
+        Ambassadeurs et affiliation <br/> - Marketing viral
+    - title: Analytics et optimisation
+      content: "- Google Analytics <br/> - A/B Testing <br/> - Outils de tracking
+        <br/> - Mesure de l’engagement <br/> - Optimisation web"
+    - title: E-learning et certification
       content: "- Culture et outils numériques <br/> - Anglais"
     active: ''
   - button: 3e année
-    title: Programme troisième année Concepteur développeur d'application
-    subtitle: 'Apprenez et pratiquez toutes les techniques du développement pour devenir
-      un pro du numérique. Voici les compétences et connaissances qui vous seront
-      enseignées afin d''obtenir le statut de concepteur développeur d''application. '
+    title: Programme troisième année marketing digital
+    subtitle: Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
+      dans tous les détails du marketing, c'est la clé pour obtenir en fin d'année
+      votre titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre
+      au nom d'un d'un chef de projet digital.<br/><br/>Apprenez et pratiquez toutes
+      les techniques du marketing pour devenir un pro du numérique. Voici les compétences
+      et connaissances qui vous seront enseignées afin d'obtenir le statut de chef
+      de projet digital.
     etape:
     - title: Entrepreneuriat et innovation
-      content: "- Étude de marché / Benchmark <br/> - Cibles / Objectifs / Positionnement
-        \ <br/> - Stratégie digitale  <br/> - Veille <br/> - Écoresponsabilité / Modèle
-        économique web <br/> - Pitch projet"
-    - title: Domain Driven Design
-      content: "- Entretien / rédaction brief client <br/> - Acteurs du projet et
-        personas <br/> - Vocabulaire universel / Modèle de domaine <br/> - Modélisation
-        fonctionnelle en UML <br/> - Coûts de conception, mise en place et suivi <br/>
-        - Proposition technique et commerciale"
-    - title: Behaviour Driven Development en ASP.NET
-      content: "- SCRUM / Extreme Programming <br/> - PHP/Symfony à C#/ASP.NET <br/>
-        - Behaviour-Driver Development <br/> - UNITY"
-    - title: Gestion des Risques
-      content: "- Facteurs risques / Cadre juridique <br/> - Incidents de sécurité
-        <br/> - Modèles d’architecture <br/> - Défense en profondeur <br/> - Refactoring
-        et tests"
+      content: "- Étude de marché, Benchmark concurrentiel <br/> - Formalisation des
+        objectifs, de la cible et du positionnement  <br/> - Définition d’une stratégie
+        digitale  <br/> - Veille systématique et curation de contenu <br/> - Écoresponsabilité
+        et modèle économique web <br/> - Pitch projet devant des parties prenantes"
+    - title: Etude du besoin
+      content: "- Rédaction d’un brief client <br/> - Identification des acteurs du
+        projet sous forme de Personas <br/> - Définition d’une solution technique
+        (site et médias) répondant aux besoins <br/> - Estimation des coûts de conception,
+        de mise en place et de suivi <br/> - Rédaction d’une proposition technique
+        et commerciale"
+    - title: Marketing agile
+      content: "- Mise en oeuvre d’un processus agile associant le client <br/> -
+        Sélection des médias Paid/Owned/Earned <br/> - Création de tunnels optimisés
+        UX/UI <br/> - Réalisation d’un site e-commerce <br/> - Tests, Recettage et
+        validation"
+    - title: Événementiel
+      content: "- Mise en place et déploiement de la stratégie digitale d’un évènement
+        <br/> - Workflow de Lead Nurturing (scoring, marketing automation, data analysis)
+        \ <br/> - Web TV : création et diffusion de contenu et live vidéo"
+    - title: Gestion des Risques et Amélioration Continue
+      content: "- Facteurs-risques et cadre juridique  <br/> - Communication de crise
+        : web et réseaux sociaux <br/> - Post-Mortem et atelier d’auto-critique <br/>
+        - Refonte et optimisation sous contrainte de la Direction Marketing"
     - title: Projet certifiant
-      content: "- Cahier des charges / Dossier de production <br/> - Gestion de projet
-        <br/> - Réalisation d’un projet en mode agence <br/> - Reporting / Communication
-        orale et écrite <br/> - Responsabilité sociétale"
+      content: "- Cahier des charges <br/> - Gestion de projet <br/> - Reporting /
+        Communication orale et écrite <br/> - Responsabilité sociétale"
     - title: E-learning et certification
-      content: "- Culture et outils numériques <br/> - Compétences numériques et code
-        <br/> - Anglais technique <br/> - CNIL et RGPD"
-    active: ''
+      content: "- Culture et outils numériques <br/> - Certification : compétences
+        numériques et Google <br/> - Anglais <br/> - CNIL et RGPD"
+    active: 'Apprenez et pratiquez toutes les techniques du marketing pour devenir
+      un pro du numérique. Voici les compétences et connaissances qui vous seront
+      enseignées afin d''obtenir le statut de chef de projet digital. '
 profession:
   enable: true
   title: Les débouchés métiers
@@ -190,7 +285,9 @@ profession:
       aux marketing digital et au webmarketing. Il peut, dans ce sens, participer
       à la transformation digitale de son entreprise.
 testimonials:
-  enable: true
+  enable: false
   filter:
-  - dev
+  - marketing
+seo_image: ''
+
 ---
