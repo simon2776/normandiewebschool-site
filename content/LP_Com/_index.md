@@ -3,24 +3,18 @@ type: filiere
 layout: filiere
 title: Filière Communication graphique
 date: 2019-05-12T12:14:34.000+06:00
-description: " Le codage, l'intégration et la création de plateforme est votre passion
-  ? Alors la spécialité développement est fait pour vous ! À la clé en fin d'année
-  ? Votre titre RNCP de niveau 6 équivalant au BAC+3 et un statut de chef de projet
-  digital. Rythme alterné: 1 semaine en formation et 3 semaines en professionnalisation
-  (en entreprise (pour les alternants) ou en projet pour les étudiants en formation
-  initiale.<br/> Nombre d'heures de formation: 455H en face-à-face et 180H d'apprentissage
-  individualisé en FOAD"
+description: ''
 banner:
   logo: "/uploads/logo-dev.png"
   title: Filière <span class="font-weight-medium">Développement web et applicatif</span>
   image: "/uploads/web-dev.jpg"
-  description: "<p>Ce cursus prépare au métier de développeur web et applicatif capable
-    de créer, coder et tester des sites Internet et des applications web. La transformation
-    digitale des économies fait du développement web une compétences essentielle des
-    entreprises de toutes tailles et de tous secteurs. On trouve ainsi des développeurs
-    web dans les start-ups du numérique, les ESN (entreprises de services numériques),
-    les collectivités territoriales, les associations, les agences web, les PME et
-    les grandes sociétés. Devenez concepteur développeur d'application.</p>"
+  description: Ce titre prépare à concevoir la forme visuelle de messages dans les
+    différents domaines du graphisme, de l’édition et de la publicité, imprimés ou
+    numériques. Il est destiné aux étudiants qui veulent se former aux métiers de
+    web et mobile designer, qui ont une forte compétence en UI et UX et capables d’intégrer
+    des maquettes. Le bachelor “Communication graphique" se déroule sur 3 ans au sein
+    de la Normandie Web School soit en alternance (contrat de professionnalisation
+    ou apprentissage) soit en formation initiale.
   color: color-yellow
   buttons:
   - arrow: left
