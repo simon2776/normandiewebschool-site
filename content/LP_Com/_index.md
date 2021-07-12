@@ -6,7 +6,7 @@ banner:
   logo: ''
   title: Filière <span class="font-weight-medium"> LP Développement Web et Applicatif
     </span>
-  image: "/uploads/Header_LP_Dev.png"
+  image: "/uploads/Header_LP_Com.png"
   description: Ce cursus prépare au métier de développeur web et applicatif capable
     de créer, coder et tester des sites Internet et des applications web. La transformation
     digitale des économies fait du développement web une compétences essentielle des
