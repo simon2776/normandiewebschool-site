@@ -254,36 +254,30 @@ years:
 profession:
   enable: true
   title: Les débouchés métiers
-  subtitle: Proposez des projets, organisez les dans leur globalité ou accompagnez
-    les équipes chargées de la production à travers un développement informatique
-    complet de la conception au recettage.
+  subtitle: Liste non exhaustive
   item:
-  - title: Développeur web
-    description: 'Réalisez des logiciels, des sites Internet ou des applications à
-      l''aide du langage de programmation. '
-  - title: Développeur application mobile
-    description: Un développeur d’applications mobiles développe des applications
-      pour des terminaux mobiles. Il peut également avoir la mission d’optimiser des
-      applications déjà créées ou d’adapter des sites Web au support mobile.
-  - title: Développeur Full Stack
-    description: Le développeur full stack est un codeur capable de réaliser la programmation
-      d’un site ou d'une application web à la fois en frontend et backend. Il dispose
-      ainsi de compétences variées lui permettant de travailler sur chaque étape d'un
-      projet de création allant du développement à la production
-  - title: Intégrateur
-    description: L’intégrateur web intègre les pages d’un site Internet en « traduisant
-      » les projets de l’équipe graphique en langage informatique dans le respect
-      des normes et standards en vigueur.
-  - title: Chef de projet technique
-    description: Le chef de projet technique web analyse techniquement les besoins,
-      organise, planifie et met en œuvre le développement informatique des services
-      ou produits sur Internet et/ou web mobile. Il doit garantir la qualité technique
-      des applications et veiller au respect des charges et des délais qui ont été
-      impartis.
-  - title: Chef de projet digital web
-    description: Chef de projet digital consiste à coordonner les opérations liées
-      aux marketing digital et au webmarketing. Il peut, dans ce sens, participer
-      à la transformation digitale de son entreprise.
+  - title: Chef de projet multimédia
+    description: 'Le chef de projet multimédia coordonne l''ensemble de la production
+      d''un projet multimédia. Son objectif : proposer au client un produit de qualité,
+      dans les délais impartis et respectant le budget défini au préalable.'
+  - title: Web Designer
+    description: 'Créez des pages web et occupez-vous de tous l''aspects graphiques
+      de celles-ci en créant si besoin la charte graphique et l''identité visuelle
+      du site Internet. '
+  - title: Infographiste marketing
+    description: 'Créez ou restaurez des identités visuelles pour des entreprises
+      ou produisez des visuels innovants, percutants et diffusants ou promouvants
+      un produit, un service ou encore un évènement. '
+  - title: UX/UI
+    description: Imaginez et de concevez des parcours utilisateurs qui créent de l'émotion
+      afin de rendre la navigation sur le web (ou ailleurs) plus simple, désirable,
+      intuitive et rapide.
+  - title: Designer
+    description: "Créez et animez des vidéos explicatives ou animez des visuels propres
+      à une entreprise. \n"
+  - title: Graphiste multimedia
+    description: Dessinez, créez et concevez des maquettes pour des supports numérique
+      (pages Internet, applications, habillage TV ou radio).
 testimonials:
   enable: false
   filter:
