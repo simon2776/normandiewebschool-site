@@ -185,8 +185,7 @@ profession:
       besoins, sélection des plateformes sociales, analyse du positionnement de l’entreprise
       sur le web et les réseaux sociaux et définition de la ligne éditoriale."
 testimonials:
-  enable: true
+  enable: false
   filter:
   - dev
-
 ---
