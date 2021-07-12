@@ -5,8 +5,8 @@ title: Filière Communication graphique
 date: 2019-05-12T12:14:34.000+06:00
 description: ''
 banner:
-  logo: "/uploads/logo-dev.png"
-  title: Filière <span class="font-weight-medium">Développement web et applicatif</span>
+  logo: ''
+  title: Filière <span class="font-weight-medium">Communication graphique</span>
   image: "/uploads/web-dev.jpg"
   description: Ce titre prépare à concevoir la forme visuelle de messages dans les
     différents domaines du graphisme, de l’édition et de la publicité, imprimés ou
