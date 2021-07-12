@@ -73,28 +73,28 @@
                                 >{{.content}}</label>
                                 </div>
                             {{end}}
-                        </div>
+                            </div>
                             <div class="col-lg-4 d-flex justify-content-center my-5 my-lg-0">
                             <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                             </div>
                         </div>
-                    <div class="row">
-                        <div class="col-12 d-flex justify-content-center">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center">
                             <div id="decoded"></div>
-                            <button type="submit" id="encode" class="btn font-weight-medium color-blue py-3 px-5">
-                            <a>Postuler</a>
-                            </button>
+                                <button type="submit" id="encode" class="btn font-weight-medium color-blue py-3 px-5">
+                                <a>Postuler</a>
+                                </button>
                             <div id="encoded"></div>
+                            /div>
                         </div>
-                    </div>
                 </div>
             </form>
-            </div>
             </div>
         {{end}}
     </div>
 </section>
 
+{{ if .Params.about.enable }}
 {{ with .Params.about }}
 <section class="pb-4 position-relative overflow-hidden" id="filiere-doc">
     <div class="container d-block position-relative text-center">
@@ -104,6 +104,29 @@
         </div>
     </div>
 </section>
+{{ end }}
+{{ end }}
+
+{{ if .Params.profession.enable }}
+{{ with .Params.profession }}
+<section class="clip-bottom-lightgrey" id="profession">
+    <div class="container">
+        <div class="card center-card" style="box-shadow: 0 0 0px #00000029;">
+            <div class="card center-card d-lg-flex">
+                <div class="row  d-flex justify-content-center">
+                {{ range .item }}
+                    <div class="col-12 col-lg-4 flex-column align-items-center profession mt-5 px-lg-5">
+                    <h3 class="text-center mb-3 color-blue">{{.title}}</h3>
+                    <p class="text-center m-auto">{{.description}}</p>
+                    </div>
+                {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+{{ end }}
 {{ end }}
 
 <script>
@@ -157,24 +180,3 @@
     };
 </script>   
 
-{{ if .Params.profession.enable }}
-{{ with .Params.profession }}
-<section class="clip-bottom-lightgrey" id="profession">
-    <div class="container">
-        <div class="card center-card" style="box-shadow: 0 0 0px #00000029;">
-            <div class="card center-card d-lg-flex">
-                <div class="row  d-flex justify-content-center">
-                {{ range .item }}
-                    <div class="col-12 col-lg-4 flex-column align-items-center profession mt-5 px-lg-5">
-                    <h3 class="text-center mb-3 color-blue">{{.title}}</h3>
-                    <p class="text-center m-auto">{{.description}}</p>
-                    </div>
-                {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-</section>
-{{ end }}
-{{ end }}
