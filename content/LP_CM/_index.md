@@ -11,9 +11,9 @@ description: " Le codage, l'intégration et la création de plateforme est votre
   initiale.<br/> Nombre d'heures de formation: 455H en face-à-face et 180H d'apprentissage
   individualisé en FOAD"
 banner:
-  logo: "/uploads/logo-dev.png"
-  title: Filière <span class="font-weight-medium">Développement web et applicatif</span>
-  image: "/uploads/web-dev.jpg"
+  logo: ''
+  title: Filière <span class="font-weight-medium">Community Management</span>
+  image: "/uploads/Header_LP_CM.png"
   description: "<p>Ce cursus prépare au métier de développeur web et applicatif capable
     de créer, coder et tester des sites Internet et des applications web. La transformation
     digitale des économies fait du développement web une compétences essentielle des
@@ -194,4 +194,5 @@ testimonials:
   enable: true
   filter:
   - dev
+
 ---
