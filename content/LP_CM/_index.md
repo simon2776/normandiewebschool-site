@@ -165,36 +165,31 @@ years:
 profession:
   enable: true
   title: Les débouchés métiers
-  subtitle: Proposez des projets, organisez les dans leur globalité ou accompagnez
-    les équipes chargées de la production à travers un développement informatique
-    complet de la conception au recettage.
+  subtitle: Liste non exhaustive.
   item:
-  - title: Développeur web
-    description: 'Réalisez des logiciels, des sites Internet ou des applications à
-      l''aide du langage de programmation. '
-  - title: Développeur application mobile
-    description: Un développeur d’applications mobiles développe des applications
-      pour des terminaux mobiles. Il peut également avoir la mission d’optimiser des
-      applications déjà créées ou d’adapter des sites Web au support mobile.
-  - title: Développeur Full Stack
-    description: Le développeur full stack est un codeur capable de réaliser la programmation
-      d’un site ou d'une application web à la fois en frontend et backend. Il dispose
-      ainsi de compétences variées lui permettant de travailler sur chaque étape d'un
-      projet de création allant du développement à la production
-  - title: Intégrateur
-    description: L’intégrateur web intègre les pages d’un site Internet en « traduisant
-      » les projets de l’équipe graphique en langage informatique dans le respect
-      des normes et standards en vigueur.
-  - title: Chef de projet technique
-    description: Le chef de projet technique web analyse techniquement les besoins,
-      organise, planifie et met en œuvre le développement informatique des services
-      ou produits sur Internet et/ou web mobile. Il doit garantir la qualité technique
-      des applications et veiller au respect des charges et des délais qui ont été
-      impartis.
-  - title: Chef de projet digital web
-    description: Chef de projet digital consiste à coordonner les opérations liées
-      aux marketing digital et au webmarketing. Il peut, dans ce sens, participer
-      à la transformation digitale de son entreprise.
+  - title: Community Manager
+    description: Participez à l'élaboration d'une stratégie social media pour produire
+      du contenu sur les réseaux sociaux, entretenir une vraie relation avec une communauté
+      et maintenir la bonne image d'une entreprise.
+  - title: Content Manager
+    description: Rédigez des contenus qui plaisent à la fois aux internautes et aux
+      moteurs de recherche. Supervisez les informations affichées et identifiez de
+      nouvelles opportunités de contenu.
+  - title: Rédacteur Web
+    description: Rédigez le contenu d'un site web en prenant en compte la demande
+      et les besoins de l'entreprise, le référencement SEO et SEA et les algorithmes
+      des navigateurs de recherches.
+  - title: Chargé de Communication Digitale
+    description: |-
+      Le Chargé de communication Web contribue à améliorer l’image de marque de l’entreprise. Ainsi, il est de son ressort d’organiser et de concevoir la stratégie de communication numérique avec ses partenaires internes et externes.
+      En interne, il intervient sur l’intranet, les newsletters internes, le blog de l’entreprise, etc. En externe, il gère le site internet de l’entreprise, l’achat d’espaces publicitaires et les comptes de la société sur les réseaux sociaux.
+  - title: Social Média Manager
+    description: "Le social media manager veille à l’e-réputation d’une marque, d’une
+      entreprise sur Internet et sur les réseaux sociaux. \nIl définit en amont une
+      stratégie social media en coordination avec la direction marketing pour améliorer
+      la visibilité et l’image de l’entreprise : identification des cibles et de leur
+      besoins, sélection des plateformes sociales, analyse du positionnement de l’entreprise
+      sur le web et les réseaux sociaux et définition de la ligne éditoriale."
 testimonials:
   enable: true
   filter:
