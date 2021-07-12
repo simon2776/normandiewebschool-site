@@ -27,6 +27,26 @@ banner:
     color: color-blue
     justify: text-left
     href: "/cursus/bachelor-communication-visuelle/"
+reasons:
+  enable: true
+  title: Cinq bonnes raisons d'intégrer la School
+  subtitle: 
+  item:
+  - logo: "/uploads/reasons/star.svg"
+    content: MONTEZ EN COMPETENCE
+    alt: Monter en compétences
+  - logo: "/uploads/reasons/window.svg"
+    content: DES PROJETS CONCRETS
+    alt: Projet
+  - logo: "/uploads/reasons/connect.svg"
+    content: FORMATION PRISE EN CHARGE PAR L'ENTREPRISE VIA L'OPCO
+    alt: Alternance et stage
+  - logo: "/uploads/reasons/student.svg"
+    content: EVOLUEZ AU COEUR DE L'ECOSYSTEME NORMAND
+    alt: écosystème numérique
+  - logo: "/uploads/diploma.svg"
+    content: OBTENEZ UN TITRE RNCP RECONNU PAR L'ETAT
+    alt: titre RNCP
 about:
   enable: true
   url: https://www.youtube.com/embed/Gs_IBLIYvAs
