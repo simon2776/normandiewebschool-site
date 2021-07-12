@@ -51,6 +51,9 @@ sections:
   path: content/LP_Web_Marketing/_index.md
   label: LP Web Marketing
 - type: document
+  path: content/LP_Dev/_index.md
+  label: LP Développement Web et Applicatif
+- type: document
   path: content/politique-de-confidentialite/_index.md
   label: Politique de confidentialité
 - type: document
