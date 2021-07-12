@@ -1,4 +1,6 @@
 ---
+type: ''
+layout: ''
 title: Filière Community Management
 date: 2019-05-12T12:14:34.000+06:00
 description: ''
@@ -30,8 +32,7 @@ banner:
 about:
   enable: true
   url: https://www.youtube.com/embed/Gs_IBLIYvAs
-  description: Maxence Machu, intervenant à la Normandie Web School, vous explique
-    la filière Développement Web et applicatif.
+  description: Candidatez dès maintenant...
   href: https://www.youtube.com/embed/Gs_IBLIYvAs
   image: "/uploads/nws_youtube_web_dev.png"
   description2: ''
