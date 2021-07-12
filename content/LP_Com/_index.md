@@ -1,7 +1,7 @@
 ---
 type: filiere
 layout: filiere
-title: Filière Développement web et applicatif
+title: Filière Communication graphique
 date: 2019-05-12T12:14:34.000+06:00
 description: " Le codage, l'intégration et la création de plateforme est votre passion
   ? Alors la spécialité développement est fait pour vous ! À la clé en fin d'année
@@ -200,11 +200,11 @@ testimonials:
   filter:
   - dev
 menu:
-  main:
+  desktop:
     name: Développement web et applicatif
     parent: Nos spécialisations
     weight: 2
-  desktop:
+  main:
     name: Développement web et applicatif
     parent: Nos spécialisations
     weight: 2
