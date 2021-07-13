@@ -67,6 +67,9 @@ fields:
   - type: textarea
     name: description
     label: description
+  - type: textarea
+    name: description2
+    label: description2
   - name: image
     type: file
     config:
@@ -170,4 +173,5 @@ fields:
     name: filter
     label: filter
 pages:
+- content/LP_CM/_index.md
 - content/cursus/master-expert-digital.md

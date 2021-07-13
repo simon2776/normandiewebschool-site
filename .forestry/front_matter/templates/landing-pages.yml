@@ -12,6 +12,9 @@ fields:
   name: description
   label: description
 - type: text
+  name: description2
+  label: description2
+- type: text
   name: global
   label: global
 - type: field_group
