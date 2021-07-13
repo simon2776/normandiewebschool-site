@@ -65,7 +65,7 @@ event:
       start: '09h00'
       end: ''
       href: https://normandiewebschool.fr/
-      name: Rentrée année 1 Initial
+      name: Rentrée Année 1 Initial
       image: ''
 L_agenda_de_la_NWS: ''
 Page: ''
