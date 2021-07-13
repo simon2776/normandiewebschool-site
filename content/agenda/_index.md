@@ -15,6 +15,8 @@ event:
   title_first: Le calendrier des événements
   title_second: Nos prochains événements
   month:
+  - label: Septembre 2021
+    item: []
   - label: Janvier 2021
     item: []
   - label: Février 2021
@@ -48,6 +50,8 @@ event:
       end: 17h00
       href: https://www.weezevent.com/apres-midi-portes-ouvertes-de-la-normandie-web-school-28-07
       image: ''
+  - label: Août 2021
+    item: []
 L_agenda_de_la_NWS: ''
 Page: ''
 Le_calendrier_des_evenements: ''
