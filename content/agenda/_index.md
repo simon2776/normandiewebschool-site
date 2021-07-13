@@ -41,7 +41,7 @@ event:
       localisation: ''
       start: '09h00'
       end: ''
-      href: ''
+      href: https://normandiewebschool.fr/
       name: Rentrée Année 1 Alternance
       image: ''
 L_agenda_de_la_NWS: ''
