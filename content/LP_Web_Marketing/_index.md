@@ -30,11 +30,12 @@ about:
   enable: true
   url: https://www.youtube.com/embed/ZLx18d89pNo
   description: Candidatez dès maintenant...
-  description2: "...et préparez dès aujourd’hui votre avenir professionnel"
+  description2: "...et préparez dès aujourd’hui votre avenir professionnel avec les
+    métiers qui recrutent"
   href: https://www.youtube.com/embed/ZLx18d89pNo
   image: "/uploads/nws_youtube_web_marketing.png"
 reasons:
-  enable: true
+  enable: false
   title: Cinq bonnes raisons d'intégrer la School
   subtitle: 
   item:
