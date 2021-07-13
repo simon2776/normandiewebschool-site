@@ -15,21 +15,6 @@ event:
   title_first: Le calendrier des événements
   title_second: Nos prochains événements
   month:
-  - label: Janvier 2021
-    item: []
-  - label: Février 2021
-    item: []
-  - label: Mars 2021
-    item: []
-  - label: Avril 2021
-    item: []
-    name: Salon des jeunes entrepreneur de Rouen et ...
-    localisation: Parc des expositions de Rouen (76)
-    start: 9h
-    end: 18h45
-    href: https://google.com
-  - label: Mai 2021
-    item: []
   - label: Juin 2021
     item: []
   - label: Juillet 2021
