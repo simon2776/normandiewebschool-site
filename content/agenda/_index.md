@@ -51,7 +51,14 @@ event:
   - label: Août 2021
     item: []
   - label: Septembre 2021
-    item: []
+    item:
+    - date: 06/09/21
+      localisation: ''
+      start: '09h00'
+      end: ''
+      href: ''
+      name: Rentrée Année 1 Alternance
+      image: ''
 L_agenda_de_la_NWS: ''
 Page: ''
 Le_calendrier_des_evenements: ''
