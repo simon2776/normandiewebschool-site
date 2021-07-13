@@ -35,7 +35,7 @@ about:
   href: https://www.youtube.com/embed/ZLx18d89pNo
   image: "/uploads/nws_youtube_web_marketing.png"
 reasons:
-  enable: true
+  enable: false
   title: Cinq bonnes raisons d'intégrer la School
   subtitle: 
   item:
