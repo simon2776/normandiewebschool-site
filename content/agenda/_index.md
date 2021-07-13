@@ -37,6 +37,13 @@ event:
     item: []
   - label: Septembre 2021
     item:
+    - date: 03/09/21
+      name: Rentrée Année 2
+      localisation: ''
+      start: '09h00'
+      end: ''
+      href: https://normandiewebschool.fr/
+      image: ''
     - date: 06/09/21
       localisation: ''
       start: '09h00'
