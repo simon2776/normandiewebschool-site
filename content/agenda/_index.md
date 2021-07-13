@@ -51,6 +51,13 @@ event:
       href: https://normandiewebschool.fr/
       name: Rentrée Année 1 Alternance
       image: ''
+    - date: 13/09/21
+      name: Rentrée Année 3
+      localisation: ''
+      start: '09h00'
+      end: ''
+      href: https://normandiewebschool.fr/
+      image: ''
   - label: Octobre 2021
     item:
     - date: 04/10/21
