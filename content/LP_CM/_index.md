@@ -212,7 +212,7 @@ form:
   filiere: ''
 seo_image: ''
 reasons:
-  enable: true
+  enable: false
   title: Cinq bonnes raisons d'intégrer la School
   subtitle: ''
   item:
