@@ -671,6 +671,15 @@ HERO HEADER
 .hero-area-lp {
 }
 
+@media (min-width: 540px) and (max-width: 768px) {
+  .hero-arealp {
+      min-height: 430px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+  }
+}
+
 @media (min-width: 540px) {
   .hero-arealp {
       min-height: 662px;
