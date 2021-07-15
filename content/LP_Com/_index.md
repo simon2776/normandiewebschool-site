@@ -36,7 +36,7 @@ about:
 reasons:
   enable: true
   title: Cinq bonnes raisons d'intégrer la School
-  subtitle: 
+  subtitle: ''
   item:
   - logo: "/uploads/reasons/star.svg"
     content: MONTEZ EN COMPETENCE
