@@ -249,3 +249,5 @@ fields:
 - type: text
   name: seo_image
   label: seo_image
+pages:
+- content/LP_Web_Marketing/_index.md
