@@ -1,6 +1,6 @@
 ---
 title: LP Web Marketing
-date: 2021-07-05T08:14:34.000+02:00
+date: 2021-07-15T08:14:34+02:00
 description: ''
 banner:
   logo: ''
