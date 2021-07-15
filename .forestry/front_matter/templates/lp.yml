@@ -249,3 +249,13 @@ fields:
 - type: text
   name: seo_image
   label: seo_image
+- name: test
+  type: number
+  label: test
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
