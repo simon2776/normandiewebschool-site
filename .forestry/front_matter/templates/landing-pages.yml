@@ -134,7 +134,3 @@ fields:
 - type: text
   name: seo_image
   label: seo_image
-pages:
-- content/LP_CM/_index.md
-- content/LP_Com/_index.md
-- content/LP_Dev/_index.md
