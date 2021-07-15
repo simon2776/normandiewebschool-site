@@ -671,18 +671,18 @@ HERO HEADER
 .hero-area-lp {
 }
 
-@media (min-width: 540px) and (max-width: 769px) {
+@media (min-width: 540px) {
   .hero-arealp {
-      min-height: 430px;
+      min-height: 662px;
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
   }
 }
 
-@media (min-width: 540px) {
+@media (min-width: 540px) and (max-width: 769px) {
   .hero-arealp {
-      min-height: 662px;
+      min-height: 430px;
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
