@@ -680,6 +680,15 @@ HERO HEADER
   }
 }
 
+@media (min-width: 540px) and (max-width: 769px) {
+  .hero-arealp {
+      min-height: 430px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+  }
+}
+
 .video {
 }
 

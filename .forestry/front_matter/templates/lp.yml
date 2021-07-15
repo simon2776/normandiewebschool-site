@@ -1,26 +1,21 @@
 ---
-label: page-filiere
+label: LP
 hide_body: true
 fields:
-- name: seo
-  type: include
-  config: {}
-  template: seo
-  label: SEO
 - type: text
-  name: type
-  label: type
-- type: text
-  name: layout
-  label: layout
+  name: title
+  label: title
 - type: datetime
   name: date
   label: date
+- type: text
+  name: description
+  label: description
 - type: field_group
   name: banner
   label: banner
   fields:
-  - type: file
+  - type: text
     name: logo
     label: logo
   - type: text
@@ -64,22 +59,101 @@ fields:
   - type: text
     name: url
     label: url
-  - type: textarea
+  - type: text
     name: description
     label: description
-  - type: textarea
+  - type: text
     name: description2
     label: description2
-  - name: image
-    type: file
-    config:
-      maxSize: 64
-    label: image
-  - name: href
-    type: text
-    config:
-      required: false
+  - type: text
+    name: href
     label: href
+  - type: file
+    name: image
+    label: image
+- type: field_group
+  name: reasons
+  label: reasons
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: field_group_list
+    name: item
+    label: item
+    fields:
+    - type: file
+      name: logo
+      label: logo
+    - type: text
+      name: content
+      label: content
+    - type: text
+      name: alt
+      label: alt
+- type: field_group
+  name: form
+  label: form
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: field_group_list
+    name: input
+    label: input
+    fields:
+    - type: file
+      name: icon
+      label: icon
+    - type: text
+      name: placeholder
+      label: placeholder
+    - type: text
+      name: type
+      label: type
+    - type: boolean
+      name: required
+      label: required
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: width
+      label: width
+    - type: text
+      name: padding
+      label: padding
+    - type: list
+      name: filieres
+      label: filieres
+    - type: list
+      name: list
+      label: list
+    - type: text
+      name: filiere
+      label: filiere
+  - type: field_group_list
+    name: checkbox
+    label: checkbox
+    fields:
+    - type: textarea
+      name: content
+      label: content
+    - type: boolean
+      name: required
+      label: required
+    - type: text
+      name: name
+      label: name
 - type: field_group
   name: skills
   label: skills
@@ -172,5 +246,9 @@ fields:
   - type: list
     name: filter
     label: filter
+- type: text
+  name: seo_image
+  label: seo_image
 pages:
-- content/cursus/master-expert-digital.md
+- content/LP_CM/_index.md
+- content/LP_Web_Marketing/_index.md
