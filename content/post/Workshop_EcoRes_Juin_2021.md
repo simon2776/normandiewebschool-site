@@ -17,7 +17,7 @@ Notre ambition est d’adapter nos programmes aux défis de demain dans le but d
 
 <!--more-->
 
-Encore un grand merci à nos partenaires qui ont répondus présents lors de ce Workshop. Une rencontre stimulante et engageante qui nous conforte une fois de plus dans notre démarche écoresponsable.
+Encore un grand merci à nos partenaires qui ont répondu présents lors de ce Workshop. Une rencontre stimulante et engageante qui nous conforte une fois de plus dans notre démarche écoresponsable.
 
 ![postwidth](/uploads/post/Workshop_Juin2021_2.png)
 
