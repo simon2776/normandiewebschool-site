@@ -23,7 +23,7 @@
             <p class="pt-3 m-0">{{.subtitle}}</p>
           <div>
             <div class="card-body">
-              <form id="ajaxForm" name='inscription' action="https://auto.normandiewebschool.fr/jct/applicant.php" method="POST" class="mt-3" >
+              <form id="ajaxFormIns" name='inscription' action="https://auto.normandiewebschool.fr/jct/applicant.php" method="POST" class="mt-3" >
                 <div class="form-group">
                   <div class="input-icon mb-3 position-relative w-lg-50 pr-lg-1 d-lg-inline-block">
                   <img src="/uploads/icn-user.png" alt="" class="icn-contact"><input type="text" class="form-control" id="Prenom" name="firstname" placeholder="Votre prénom (requis)" required="true" minlength="1" maxlength="20"></div>
@@ -36,8 +36,7 @@
                   <div class="input-icon mb-3 position-relative w-lg-100  d-lg-inline-block">
                   <img src="/uploads/icn-msg.png" alt="icn-contact" class="icn-contact icn-contact-message"><textarea cols="30" rows="5" maxlength="300" class="form-control" id="msg" name="msg" placeholder="Votre message (facultatif)"></textarea></div>      
                   <div class="input-icon mb-3 position-relative w-lg-100  d-lg-inline-block">
-                  <label for="spe"></label>   
-                  <select name="spe" id="spe" class="form-control" required="true">
+                  <label for="spe"></label><select name="spe" id="spe" class="form-control" required="true">
                   <option value="">-- Année souhaitée --</option>
                              <option value="Année préparatoire">Année préparatoire</option>
                              <option value="Web Marketing 2ème année">Web Marketing 2ème année</option>
@@ -92,15 +91,5 @@
   </div>
 </section>
 
-<script src="https://www.google.com/recaptcha/api.js?render=6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs"></script>
-
-<script>
-  grecaptcha.ready(function() {
-    grecaptcha.execute('6Ld62j8aAAAAAN6zC4CY4GOyV2D_LU1x4CzuHsNs', {action: 'homepage'})
-            .then(function(token) {
-              document.getElementById('captchaResponse').value = token;
-            });
-  });
-</script>
 
 {{ end }}{{ end }}

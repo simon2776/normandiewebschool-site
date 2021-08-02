@@ -137,16 +137,16 @@
   }
 
   /*
-  Formulaire de contact
+  Formulaire de contact Page Inscription
    */
-  $('#ajaxForm').submit(function (e) {
+  $('#ajaxFormIns').submit(function (e) {
     e.preventDefault();
 
     var action = $(this).attr('action');
 
-    let button_text = $('#ajaxForm button').text();
-    $('#ajaxForm button').attr('disabled', true);
-    $('#ajaxForm button').text('Chargement...');
+    let button_text = $('#ajaxFormIns button').text();
+    $('#ajaxFormIns button').attr('disabled', true);
+    $('#ajaxFormIns button').text('Chargement...');
 
     $.ajax({
       type: 'POST',
@@ -164,9 +164,9 @@
       .done(function () {
         $('.success').addClass('is-active');
 
-        $('#ajaxForm')[0].reset();
+        $('#ajaxFormIns')[0].reset();
 
-        $('#ajaxForm').prepend(
+        $('#ajaxFormIns').prepend(
           $(
             '<div class="alert alert-success" role="alert">\n' +
               '  Merci, votre message a bien été envoyé \n' +
@@ -175,7 +175,7 @@
         );
       })
       .fail(function () {
-        $('#ajaxForm').prepend(
+        $('#ajaxFormIns').prepend(
           $(
             '<div class="alert alert-danger" role="alert">\n' +
               ' Oups, une erreur est survenue.. \n' +
@@ -184,8 +184,8 @@
         );
       })
       .always(function () {
-        $('#ajaxForm button').attr('disabled', false);
-        $('#ajaxForm button').text(button_text);
+        $('#ajaxFormIns button').attr('disabled', false);
+        $('#ajaxFormIns button').text(button_text);
       });
   });
 
