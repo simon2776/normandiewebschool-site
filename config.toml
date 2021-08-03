@@ -39,7 +39,7 @@ URL = "plugins/slick/slick.min.js"
 enable = true
 preloader = ""
 [[params.social]]
-URL = "#"
+URL = "https://www.facebook.com/normandiewebschool/"
 icon = "ti-facebook"
 [[params.social]]
 URL = "#"
