@@ -10,11 +10,9 @@ archives = "2021"
 seo_image = "/uploads/post/Interro_Amelie.png"
 +++
 
-![postwidth](/uploads/post/uploads/post/Interro_Amelie.png)
+![postwidth](/uploads/post/Interro_Amelie.png)
 
-Interro surprise - Amélie
-
-L'avis de nos étudiant(e)s c'est aussi important ! 
+Retour sur Amélie qui donne son avis sur l'école.
 
 <!--more-->
 
