@@ -7,14 +7,14 @@ content: |-
   ## Informations légales
 
   * **Propriétaire** : SAS ÉCOLE WEB ET MOBILE
-  * **Adresse** : 72 rue de la République 76140 Le Petit-Quevilly
+  * **Adresse** : 22 Place Henri Gadeau de Kerville 76100 ROUEN
   * **Téléphone** : 02 52 60 02 38
   * **SAS au capital de** : 42 500 €
   * **SIRET** : 82392759500012
     Société Immatriculée au RCS de Rouen
   * **Numéro de TVA intracommunautaire** : FR85823927595
   * **Adresse de contact** : contact@normandiewebschool.fr
-  * **Développement** : NWS – 72 rue de la République 76140 Le Petit-Quevilly
+  * **Développement** : NWS – 22 Place Henri Gadeau de Kerville 76100 ROUEN
   * **Responsable de la publication** : Sitapha Dia
   * **Webmaster** : Sitapha Dia
   * **Hébergement** : OVH – 2 rue Kellermann – 59100 Roubaix – France

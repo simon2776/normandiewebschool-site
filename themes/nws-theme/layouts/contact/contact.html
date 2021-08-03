@@ -101,8 +101,8 @@
           {{range .item}}
           <div class="row my-4 d-flex flex-column align-items-center">
             <img src="{{.image }}" alt="{{.info}}" class="mb-4">
-            <h3 class="color-blue w-100 px-4 text-center">  {{ .info | safeHTML }}</h3>
-            <p class="">{{.subInfo | safeHTML }}</p>
+            <center><h3 class="color-blue w-100 px-4 text-center">  {{ .info | safeHTML }}</h3>
+            <p class="">{{.subInfo | safeHTML }}</p></center>
           </div>
           {{end}}
           <div class="col-12 justify-content-center my-4 d-flex">

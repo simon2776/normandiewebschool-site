@@ -77,8 +77,8 @@ form:
     info: 02 79 02 73 78
     subInfo: 'Lun - Ven : 8h30 - 17h'
   - image: "/uploads/icn-marker-blue.png"
-    info: Seine Innopolis
-    subInfo: 72 rue de la République <br/> 76140 Le Petit-Quevilly
+    info: ''
+    subInfo: 22 Place Henri Gadeau de Kerville <br/> 76100 ROUEN
   button_text: Envoyer le message
   inscription_button_text: Candidater
 seo_image: ''
