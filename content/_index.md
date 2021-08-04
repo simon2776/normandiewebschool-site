@@ -1,7 +1,7 @@
 ---
 title: L'école des métiers du numérique
 date: 2019-05-12T12:14:34.000+06:00
-description: 'Formez vous aux métiers du numérique : Web marketing, Développement
+description: 'Formez vous sur Rouen aux métiers du numérique : Web marketing, Développement
   web, Communication graphique et Community management.'
 banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
