@@ -3,46 +3,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 <article class="col-12 mb-4 text-center testimonial">
-    <div class="item active">
-        <div class="item">
+
              
     {{ partial "snippets/img-srcset-testi" (dict "image" .Params.Image "alt" .Params.Name "width" "140" "class" "card-img-top rounded-circle card-img-top border-blue team-image" ) }}
 
     <h4 class="color-blue mt-2">{{ .Params.Name }}</h4>
     <h5 class="color-blue">{{ .Params.Title }}</h5>
     <p>{{ .Params.content }}</p>
-                    </div>
-    </div>
+
 </article>
-<script>
-    /*lazy slide*/
 
-    var cHeight = 0;
-
-    $('#carousel-example-generic').on('slide.bs.carousel', function(e) {
-
-      var $nextImage = $(e.relatedTarget).find('img');
-
-      $activeItem = $('.active.item', this);
-
-      // prevents the slide decrease in height
-      if (cHeight == 0) {
-        cHeight = $(this).height();
-        $activeItem.next('.item').height(cHeight);
-      }
-
-      // prevents the loaded image if it is already loaded
-      //var src = $nextImage.data('lazy-load-src');
-      var src = $nextImage.attr('lazy-load-src');
-
-      if (typeof src !== "undefined" && src != "") {
-
-        // minor tweaks here: lazy-load-src > data-src
-        $nextImage.attr('lazy-load-src', '');
-        $nextImage.attr('data-src',      src);
-        //$nextImage.attr('src',src);
-        // inform ResponsiveIO about changes on your page
-        ResponsiveIO.refresh($nextImage[0]);
-      }
-    });
-</script>
