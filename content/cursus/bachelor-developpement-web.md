@@ -195,11 +195,11 @@ testimonials:
   filter:
   - dev
 menu:
-  main:
+  desktop:
     name: Développement web et applicatif
     parent: Nos spécialisations
     weight: 2
-  desktop:
+  main:
     name: Développement web et applicatif
     parent: Nos spécialisations
     weight: 2

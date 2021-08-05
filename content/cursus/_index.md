@@ -171,10 +171,10 @@ partners:
   enable: false
   title: ''
 menu:
-  desktop:
+  main:
     name: Etudier à la NWS
     weight: 1
-  main:
+  desktop:
     name: Etudier à la NWS
     weight: 1
 
