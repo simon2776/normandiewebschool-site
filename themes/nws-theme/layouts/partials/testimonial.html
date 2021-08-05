@@ -8,7 +8,7 @@
 
             
             
-    {{ (dict "image" .Params.Image "alt" .Params.Name "width" "140" "class" "card-img-top rounded-circle card-img-top border-blue team-image" ) }}
+    {{ partial "snippets/img-srcset-testi" (dict "image" .Params.Image "alt" .Params.Name "width" "140" "class" "card-img-top rounded-circle card-img-top border-blue team-image" ) }}
 
     <h4 class="color-blue mt-2">{{ .Params.Name }}</h4>
     <h5 class="color-blue">{{ .Params.Title }}</h5>
