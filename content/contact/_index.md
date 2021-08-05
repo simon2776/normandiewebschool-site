@@ -74,8 +74,8 @@ form:
     info: contact@normandiewebschool.fr
     subInfo: ''
   - image: "/uploads/icn-phone-blue.png"
-    info: 02 79 02 73 78
-    subInfo: 'Lun - Ven : 8h30 - 17h'
+    info: <a href="tel:+33279027378">02 79 02 73 78</a>
+    subInfo: 'Lundi au vendredi : 8h30 - 17h00'
   - image: "/uploads/icn-marker-blue.png"
     info: 22 Place Henri Gadeau de Kerville 76100 ROUEN
     subInfo: 22 Place Henri Gadeau de Kerville <br/> 76100 ROUEN
