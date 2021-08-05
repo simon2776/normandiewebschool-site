@@ -3,12 +3,9 @@ type: filiere
 layout: filiere
 title: Filière Web marketing
 date: 2019-05-12T12:14:34.000+06:00
-description: 'Si vous aimez la rédaction, les réseaux sociaux, étudiez et persévérez
-  dans tous les détails du marketing, c''est la clé pour obtenir en fin d''année votre
-  titre RNCP de niveau 6 équivalant au BAC+3. Vous pourrez enfin répondre au nom de
-  chef de projet digital. Rythme en alternance: 1 semaines en formation et 3 semaines
-  en alternance en entreprise. <br/> Nombre d''heures de formations: 455H de formations
-  en face-à-face et 180H d''apprentissage individualisé en FOAD'
+description: Apprenez à mettre en place une stratégie digitale afin d'atteindre vos
+  objectifs d'acquisition, de notoriété et de fidélisation. Devenez expert en web
+  marketing.
 banner:
   logo: "/uploads/logo-marketing.png"
   title: Filière <span class="font-weight-medium"> Web marketing </span>

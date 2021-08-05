@@ -1,7 +1,8 @@
 ---
 title: La documentation sur l'école
 date: 2019-05-12T06:14:34.000+00:00
-description: Renseignez vos coordonnées et accédez à toute la documentation sur l'école.
+description: 'Renseignez vos coordonnées et accédez à toute la documentation sur l''école
+  : l''année préparatoire, nos spécialisations et les conditions d''admission.'
 banner:
   title: Accédez à la <span class="font-weight-medium">documentation</span>
   title-line-twho: ''
@@ -19,7 +20,7 @@ documents:
   - icon: "/uploads/icn-cloud.png"
     name: Présentation générale de la NWS
     format: PDF
-    document: ''
+    document: "/uploads/skd_nws_plaquette-2021_1.pdf"
   - icon: "/uploads/icn-cloud.png"
     name: Année préparatoire Concepteur numérique
     format: PDF

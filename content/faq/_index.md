@@ -1,7 +1,8 @@
 ---
 title: Foire aux questions
 type: page
-description: Les réponses aux questions les plus posées.
+description: Toutes les questions que vous vous posez ont ici leur réponse. L'école,
+  nos programmes et les conditions d'admission y sont détaillés.
 banner:
   title: <span class="font-weight-medium">FAQ</span>
   title-line-twho: ''

@@ -9,7 +9,7 @@
 
   <!-- about -->
   {{ if .Params.about.enable }}
-    {{ partial "components/page-introduction" (dict "context" . "title" .Params.about.title "content" .Params.about.content "image" .Params.about.image  ) }}
+    {{ partial "components/page-introduction-accueil" (dict "context" . "content" .Params.about.content "image" .Params.about.image  ) }}
   {{ end }}
   <!-- /about -->
 
@@ -23,7 +23,7 @@
       {{ partial "components/wavy-title" (dict "context" . "title" "Nos spécialisations") }}
 
       <div class="row pl-3 pr-3">
-          <h3 class="text-center with-separator-lg-left text-lg-left title-medium color-orange mt-3">{{ .bachelor_titre | safeHTML }}</h3>
+          <h2 class="text-center with-separator-lg-left text-lg-left title-medium color-orange mt-3">{{ .bachelor_titre | safeHTML }}</h2>
 
           <p class="pl-3 pr-3 mb-2">{{ .bachelor_description | safeHTML }} </p>
       </div>

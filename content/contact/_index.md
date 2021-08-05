@@ -1,11 +1,11 @@
 ---
 title: Nous contacter
 date: 2019-05-12T12:14:34.000+06:00
-description: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
+description: Contacter l'école du numérique de Rouen. Venez rencontrer l'équipe pédagogique.
 banner:
   title: Nous  <span class="font-weight-medium">contacter</span>
   title-line-twho: ''
-  subtitle: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
+  subtitle: Contacter l'école du numérique de Rouen. Venez rencontrer l'équipe pédagogique.
   image: "/uploads/contact_bg.png"
 form:
   enable: true
@@ -71,14 +71,14 @@ form:
     name: newsletter
   item:
   - image: "/uploads/icn-mail-blue.png"
-    info: contact@normandiewebschool.fr
+    info: <a href="mailto:contact@normandiewebschool.fr">contact@normandiewebschool.fr</a>
     subInfo: ''
   - image: "/uploads/icn-phone-blue.png"
-    info: 02 79 02 73 78
-    subInfo: 'Lun - Ven : 8h30 - 17h'
+    info: <a href="tel:+33279027378">02 79 02 73 78</a>
+    subInfo: 'Lundi au vendredi : 8h30 - 17h00'
   - image: "/uploads/icn-marker-blue.png"
-    info: ''
-    subInfo: 22 Place Henri Gadeau de Kerville <br/> 76100 ROUEN
+    info: 22 Place Henri Gadeau de Kerville 76100 ROUEN
+    subInfo: Métro Saint-Sever
   button_text: Envoyer le message
   inscription_button_text: Candidater
 seo_image: ''

@@ -1,7 +1,7 @@
 ---
 title: L'agenda de l'école
 type: page
-description: Retrouvez tous nos événements et nos Journées Portes Ouvertes
+description: Retrouvez tous nos événements, journées portes ouvertes et salons.
 banner:
   title: L'Agenda de la <span class="font-weight-medium">NWS</span>
   title-line-twho: ''
@@ -56,6 +56,7 @@ event:
 L_agenda_de_la_NWS: ''
 Page: ''
 Le_calendrier_des_evenements: ''
+seo_image: ''
 menu:
   main:
     name: Agenda

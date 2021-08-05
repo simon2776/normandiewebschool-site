@@ -1,11 +1,11 @@
 ---
 type: filiere
 layout: filiere
-title: Mastère
+title: Mastère Expert Digital
 date: 2019-05-12T12:14:34.000+06:00
-description: 'Vous souhaitez devenir un expert du numérique et en acquérir les clés
-  management et de la stratégie, alors le mastère  "Expert Digital" est fait pour
-  vous ! '
+description: Vous souhaitez devenir un expert du numérique et en acquérir les clés
+  du management et de la stratégie, alors le mastère Expert Digital est fait pour
+  vous ! Ce mastère est assuré par l'ISD Flaubert.
 banner:
   logo: "/uploads/logo-isd-horizontal-typo-grise.png"
   title: Mastère "Expert digital"
@@ -25,6 +25,7 @@ about:
     par le biais des OPCO.
   url: ''
   href: ''
+  description2: ''
 skills:
   enable: true
   title: Profils attendus

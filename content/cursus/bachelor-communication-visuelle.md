@@ -3,12 +3,8 @@ type: filiere
 layout: filiere
 title: Filière Communication graphique
 date: 2019-05-12T12:14:34.000+06:00
-description: "Si vous aimez la création, l'image, la video et le web, venez apprendre
-  la méthodologie et les techniques qui révéleront votre talent. \nObjectif :  titre
-  Web designer RNCP de niveau 5 équivalant au BAC+2. \nRythme alterné: 1 semaine en
-  formation et 3 semaines en professionnalisation (en entreprise (pour les alternants)
-  ou en projet pour les étudiants en formation initiale.\n<br/> Nombre d'heures de
-  formation: 455H en face-à-face et 180H d'apprentissage individualisé en FOAD"
+description: Si vous aimez la création, l'image, la video et le web, venez apprendre
+  la méthodologie et les techniques qui révéleront votre talent. Devenez web designer.
 banner:
   logo: "/uploads/logo-design.png"
   title: Filière <span class="font-weight-medium"> Communication graphique </span>

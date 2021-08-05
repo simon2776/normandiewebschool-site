@@ -1,11 +1,9 @@
 ---
-title: Les entreprises
+title: Les entreprises partenaires
 type: page
 description: Les entreprises sont l’un des piliers essentiel de l’école que ce soit
-  pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
-  co-construction d’événements.Un comité de perfectionnement a pour objectif chaque
-  année d’adapter les programmes au plus proche de la réalité des besoins en compétences
-  sur le marché de l'emploi.
+  pour l’insertion professionnelle, l’ingénierie pédagogique et la co-construction
+  d’événements. Un écosystème professionnalisant.
 banner:
   title: Les <span class="font-weight-medium">entreprises</span>
   title-line-twho: ''
@@ -13,13 +11,13 @@ banner:
   image: "/uploads/banner_entreprise.jpg"
 about:
   enable: true
-  title: Introduction
+  title: Un écosystème professionnalisant
   image: "/uploads/sitapha-cours.png"
   content: "Les entreprises sont l’un des piliers essentiel de l’école que ce soit
     pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
     co-construction d’événements.  Les relations entreprises sont une composante essentielle
     de la formation des étudiant(es) et du fonctionnement de l’école.  C’est pour
-    cela que la Normandie web school a choisi  de placer le monde professionnel au
+    cela que la Normandie web school a choisi de placer le monde professionnel au
     cœur de son dispositif pédagogique en  associant les entreprises à la démarche
     de préparation des étudiant(es) au marché de l’emploi.\nUn comité de perfectionnement
     a pour objectif chaque année d’adapter les programmes au plus proche de la réalité
@@ -88,7 +86,7 @@ partners:
   - logo: "/"
 testimonials:
   enable: true
-seo_image: "/uploads/post/Table_ronde_NWS.jpg"
+seo_image: ''
 partenariat:
   enable: true
   title: Nos partenaires institutionnels

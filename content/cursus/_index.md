@@ -1,10 +1,7 @@
 ---
-title: L'enseignement à la NWS
+title: Un enseignement 100% numérique
 type: page
-description: 'La Normandie Web School propose un cursus riche et varié privilégiant
-  la mise en pratique des compétences tout en garantissant un solide apport théorique.
-  Le cursus se divise en 4 spécialisations métiers : développement, web design et
-  communication visuelle, marketing digital et community management.'
+description: 'La Normandie Web School propose un cursus riche et varié privilégiant la mise en pratique des compétences tout en garantissant un solide apport théorique.'
 banner:
   title: Nos <balise id="initial"><span class="font-weight-medium">Formations</span></balise>
   title-line-twho: ''

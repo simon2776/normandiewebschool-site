@@ -6,18 +6,20 @@
   id="parallax"
   style="background-image: url('{{ .Params.banner.image | absURL }}')"
 >
-  <div class="container d-block d-lg-none">
-    <div class="row">
-      <div class="col-lg-11 d-none d-lg-block">
-        <h1>{{ .Params.banner.title | safeHTML }}</h1>
-        <h2>{{ .Params.banner.subtitle | safeHTML }}</h2>
-      </div>
-    </div>
-  </div>
+
 </section>
 <!-- /hero area -->
 
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
+
+          <div class="container d-block d-lg-none">
+          <div class="row">
+          <div class="col-lg-11 d-none d-lg-block">
+          {{ .Params.banner.subtitle | safeHTML }}
+          <h2>{{ .Params.banner.subtitle | safeHTML }}</h2>
+          </div>
+          </div>
+          </div>
 
 {{ if .Params.form.enable }}
 <!-- about -->
