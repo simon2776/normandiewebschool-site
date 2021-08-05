@@ -3,7 +3,7 @@ title: Les entreprises partenaires
 type: page
 description: Les entreprises sont l’un des piliers essentiel de l’école que ce soit
   pour l’insertion professionnelle, l’ingénierie pédagogique et la co-construction
-  d’événements.
+  d’événements. Un écosystème professionnalisant.
 banner:
   title: Les <span class="font-weight-medium">entreprises</span>
   title-line-twho: ''
