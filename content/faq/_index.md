@@ -1,7 +1,7 @@
 ---
 title: Foire aux questions
 type: page
-description: Les réponses aux questions les plus posées.
+description: Toutes les questions que vous vous posez ont ici leur réponse.
 banner:
   title: <span class="font-weight-medium">FAQ</span>
   title-line-twho: ''
