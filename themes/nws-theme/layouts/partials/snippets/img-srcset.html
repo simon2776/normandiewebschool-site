@@ -1,7 +1,15 @@
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 {{ $image := (site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .image ) }}
-<div class="items">
-<img data-lazy="{{ .image | absURL }}" alt="{{.alt}}" width="{{.width}}" {{if .class }}class="{{.class}}" {{end}}/>
+<div class="carousel slide lazy">
+<div class="item">
+<img data-src="{{ .image | absURL }}" alt="{{.alt}}" width="{{.width}}" {{if .class }}class="{{.class}}" {{end}}/>
 </div>
+</div>
+<script>
+  $(function() {
+  return $(".carousel.lazy").on("slide", function(ev) {
+    var lazy;
+    lazy = $(ev.relatedTarget).find("img[data-src]");
+    lazy.attr("src", lazy.data('src'));
+    lazy.removeAttr("data-src");
+  });
+});</script>
