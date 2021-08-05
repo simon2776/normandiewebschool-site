@@ -3,8 +3,8 @@ type: filiere
 layout: filiere
 title: Filière Communication graphique
 date: 2019-05-12T12:14:34.000+06:00
-description: 'Si vous aimez la création, l''image, la video et le web, venez apprendre
-  la méthodologie et les techniques qui révéleront votre talent : devenez web designer.'
+description: Si vous aimez la création, l'image, la video et le web, venez apprendre
+  la méthodologie et les techniques qui révéleront votre talent. Devenez web designer.
 banner:
   logo: "/uploads/logo-design.png"
   title: Filière <span class="font-weight-medium"> Communication graphique </span>
