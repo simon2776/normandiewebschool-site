@@ -1,15 +1,7 @@
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 <article class="col-12 mb-4 text-center testimonial">
-
-             
-    {{ partial "snippets/img-srcset-testi" (dict "image" .Params.Image "alt" .Params.Name "width" "140" "class" "card-img-top rounded-circle card-img-top border-blue team-image" ) }}
-
+    {{ partial "snippets/img-srcset" (dict "image" .Params.Image "alt" .Params.Name "width" "140" "class" "card-img-top rounded-circle card-img-top border-blue team-image" ) }}
     <h4 class="color-blue mt-2">{{ .Params.Name }}</h4>
     <h5 class="color-blue">{{ .Params.Title }}</h5>
     <p>{{ .Params.content }}</p>
-
 </article>
 
