@@ -71,7 +71,7 @@ form:
     name: newsletter
   item:
   - image: "/uploads/icn-mail-blue.png"
-    info: contact@normandiewebschool.fr
+    info: <a href="mailto:contact@normandiewebschool.fr">contact@normandiewebschool.fr</a>
     subInfo: ''
   - image: "/uploads/icn-phone-blue.png"
     info: <a href="tel:+33279027378">02 79 02 73 78</a>
