@@ -1,7 +1,7 @@
     <div class="item active">
         <div class="item">
 {{ $image := (site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .image ) }}
-            <img data-lasy-load="{{ .image | absURL }}" alt="{{.alt}}" width="{{.width}}" {{if .class }}class="{{.class}}" {{end}}/>
+            <img lazy-load-src="{{ .image | absURL }}" alt="{{.alt}}" width="{{.width}}" {{if .class }}class="{{.class}}" {{end}}/>
                     </div>
     </div>
 <script>
