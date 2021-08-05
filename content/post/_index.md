@@ -5,7 +5,7 @@ description: 'Plongez vous régulièrement dans la vie de la Normandie Web Schoo
   ses étudiants, ses évènements et ses intervenants. Un regard sans détour sur la
   NWS'
 banner:
-  title: Nos actualités
+  title: La vie à la school
   title-line-twho: ''
   subtitle: Retrouvez ici nos différents articles (projets, événements, interviews...)
   image: "/uploads/Blog_NWS.jpg"
