@@ -3,7 +3,8 @@ type: filiere
 layout: filiere
 title: Filière Community management
 date: 2021-05-03T12:14:34.000+06:00
-description: Développez et animez une communauté sur les réseaux sociaux
+description: Préparez un métier d'avenir. Animez une communauté sur les réseaux sociaux
+  et maintenez la bonne image d'une entreprise. Devenez community manager.
 banner:
   logo: "/uploads/logo-cm-1.png"
   title: Filière <span class="font-weight-medium"> Community Management</span>
