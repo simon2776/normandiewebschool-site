@@ -5,7 +5,7 @@ description: Contacter l'école du numérique de Rouen. Venez rencontrer l'équi
 banner:
   title: Nous  <span class="font-weight-medium">contacter</span>
   title-line-twho: ''
-  subtitle: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
+  subtitle: Contacter l'école du numérique de Rouen. Venez rencontrer l'équipe pédagogique.
   image: "/uploads/contact_bg.png"
 form:
   enable: true
