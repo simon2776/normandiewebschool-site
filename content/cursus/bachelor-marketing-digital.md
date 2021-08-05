@@ -4,7 +4,8 @@ layout: filiere
 title: Filière Web marketing
 date: 2019-05-12T12:14:34.000+06:00
 description: Apprenez à mettre en place une stratégie digitale afin d'atteindre vos
-  objectifs d'acquisition, de notoriété et de fidélisation. Spécialisation web marketing.
+  objectifs d'acquisition, de notoriété et de fidélisation. Devenez expert en web
+  marketing.
 banner:
   logo: "/uploads/logo-marketing.png"
   title: Filière <span class="font-weight-medium"> Web marketing </span>
