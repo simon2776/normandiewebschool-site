@@ -12,13 +12,6 @@
 
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
-{{ if .Params.form.enable }}
-<!-- about -->
-<section class="bg-lightgrey pb-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-8">
-        {{ with .Params.form }}
           <div class="container d-block d-lg-none">
           <div class="row">
           <div class="col-lg-11 d-none d-lg-block">
@@ -27,6 +20,14 @@
           </div>
           </div>
           </div>
+
+{{ if .Params.form.enable }}
+<!-- about -->
+<section class="bg-lightgrey pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        {{ with .Params.form }}
         <div class="card second-push-top">
           <div class="card-header">
             <h3 class="mb-0 title-medium color-blue separator-left">{{.title}}</h3>
