@@ -1,7 +1,7 @@
 ---
-title: Nous contacter
+title: Nous contacter par téléphone et par mail
 date: 2019-05-12T12:14:34.000+06:00
-description: Un enseignement professionnalisant et varié pour un avenir 100% numérique.
+description: Contacter l'école du numérique de Rouen et Normandie
 banner:
   title: Nous  <span class="font-weight-medium">contacter</span>
   title-line-twho: ''
