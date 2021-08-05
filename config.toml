@@ -30,6 +30,8 @@ URL = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 URL = "plugins/slick/slick.css"
 [[params.plugins.js]]
+URL = "plugins/tarteaucitron/tarteaucitron.js"
+[[params.plugins.js]]
 URL = "plugins/LAZYSIZES/lazysizes.min.js"
 [[params.plugins.js]]
 URL = "plugins/jQuery/jquery.min.js"
