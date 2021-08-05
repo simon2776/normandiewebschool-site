@@ -86,9 +86,8 @@
       <div class="row video-container">
         <div class="col-12 col-custom-6 d-flex justify-content-center">
           <a href="{{ .href }}" target="_blank" rel="noreferrer" aria-label="yt">
-          <amp-img src="/uploads/NWS_YouTube_Sitapha_Dia.png" alt="NWS Sitapha DIA" width="100%"/></amp-img>
+          <img src="/uploads/NWS_YouTube_Sitapha_Dia.png" alt="NWS Sitapha DIA" width="100%"/>
           </a>
-                   
         </div>
         <div class="col-12 col-custom-6 text-center text-custom-left">
           <h3 class="title-medium color-orange  with-separator-custom-left">{{ .title }}</h3>
@@ -171,7 +170,7 @@
             <div class="card-body d-lg-flex">
               {{ range .item }}
               <div class="mt-4 mt-lg-0 w-lg-20 px-2">
-                <amp-img src="{{ .logo }}" alt="{{.alt}}" class="mt-4"></amp-img>
+                <img src="{{ .logo }}" alt="{{.alt}}" class="mt-4">
                 <p class="mt-4 mr-md-5 ml-md-5 mr-lg-1 ml-lg-1 mt-lg-3">{{.content}}</p>
               </div>
               {{ end }}
