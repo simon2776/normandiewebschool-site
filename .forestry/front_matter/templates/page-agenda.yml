@@ -2,6 +2,11 @@
 label: page-agenda
 hide_body: true
 fields:
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 - type: text
   name: L_agenda_de_la_NWS
   label: Agenda
