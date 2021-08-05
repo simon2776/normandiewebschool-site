@@ -85,8 +85,7 @@
     <div class="container d-block position-relative text-center">
       <div class="row video-container">
         <div class="col-12 col-custom-6 d-flex justify-content-center">
-                
-          <a href="{{ .href }}" target="_blank" rel="noreferrer">
+          <a href="{{ .href }}" target="_blank" rel="noreferrer" aria-label="yt">
           <amp-img src="/uploads/NWS_YouTube_Sitapha_Dia.png" alt="NWS Sitapha DIA" width="100%"/></amp-img>
           </a>
                    
@@ -94,12 +93,12 @@
         <div class="col-12 col-custom-6 text-center text-custom-left">
           <h3 class="title-medium color-orange  with-separator-custom-left">{{ .title }}</h3>
           {{ .content | safeHTML }}
-          <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-none" href="{{ .href }}" title="{{.button}}" rel="noreferrer" aria-label="yt">
+          <a class="btn color-orange mt-5 mt-lg-4 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-none" href="{{ .href }}" title="{{.button}}" rel="noreferrer">
             {{ .button }}
           </a>
         </div>
       </div>
-      <a class="btn color-orange mt-5 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-block" href="{{ .href }}" target="_blank" title="{{.button}}" rel="noreferrer" aria-label="yt">
+      <a class="btn color-orange mt-5 mb-3 pt-2 pb-2 pl-5 pr-5 fit d-custom-block" href="{{ .href }}" target="_blank" title="{{.button}}" rel="noreferrer">
         {{ .button }}
       </a>
     </div>
