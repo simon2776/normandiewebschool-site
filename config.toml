@@ -4,10 +4,6 @@ summaryLength = "10"
 theme = "nws-theme"
 title = "L'école des métiers du numérique"
 weight = 1
-[[menu.desktop]]
-URL = "cursus"
-name = "Nos spécialisations"
-weight = 2
 [[menu.main]]
 name = "Nos spécialisations"
 weight = 2
