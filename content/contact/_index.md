@@ -78,7 +78,7 @@ form:
     subInfo: 'Lundi au vendredi : 8h30 - 17h00'
   - image: "/uploads/icn-marker-blue.png"
     info: 22 Place Henri Gadeau de Kerville 76100 ROUEN
-    subInfo: 22 Place Henri Gadeau de Kerville <br/> 76100 ROUEN
+    subInfo: Métro Saint-Sever
   button_text: Envoyer le message
   inscription_button_text: Candidater
 seo_image: ''
