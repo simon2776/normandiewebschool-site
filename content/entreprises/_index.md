@@ -1,11 +1,9 @@
 ---
-title: Les entreprises
+title: Les entreprises partenaires
 type: page
 description: Les entreprises sont l’un des piliers essentiel de l’école que ce soit
-  pour l’insertion professionnelle mais aussi pour l’ingénierie pédagogique et la
-  co-construction d’événements.Un comité de perfectionnement a pour objectif chaque
-  année d’adapter les programmes au plus proche de la réalité des besoins en compétences
-  sur le marché de l'emploi.
+  pour l’insertion professionnelle, l’ingénierie pédagogique et la co-construction
+  d’événements.
 banner:
   title: Les <span class="font-weight-medium">entreprises</span>
   title-line-twho: ''
@@ -88,7 +86,7 @@ partners:
   - logo: "/"
 testimonials:
   enable: true
-seo_image: "/uploads/post/Table_ronde_NWS.jpg"
+seo_image: ''
 partenariat:
   enable: true
   title: Nos partenaires institutionnels
