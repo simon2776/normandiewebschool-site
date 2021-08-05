@@ -1,7 +1,8 @@
 ---
 title: Un enseignement 100% numérique
 type: page
-description: 'La Normandie Web School propose un cursus riche et varié privilégiant la mise en pratique des compétences tout en garantissant un solide apport théorique.'
+description: La Normandie Web School propose un cursus riche et varié privilégiant
+  la mise en pratique des compétences tout en garantissant un solide apport théorique.
 banner:
   title: Nos <balise id="initial"><span class="font-weight-medium">Formations</span></balise>
   title-line-twho: ''

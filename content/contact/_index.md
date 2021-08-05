@@ -85,7 +85,7 @@ seo_image: ''
 menu:
   desktop:
     URL: contact
-    weight: 3
+    weight: 4
   main:
     URL: contact
     weight: 9

@@ -93,7 +93,7 @@ partenariat:
 menu:
   desktop:
     URL: entreprises
-    weight: 4
+    weight: 3
   main:
     URL: entreprises
     weight: 8
