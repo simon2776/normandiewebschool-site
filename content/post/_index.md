@@ -1,9 +1,9 @@
 ---
-title: Blog
+title: Suivez l'actualité de l'école
 type: page
-description: L’admission se fait en dehors de Parcours Sup. Pas de frais pour le traitement
-  du dossier d’admission. Les admissions débutent le 28 janvier 2021 et se terminent
-  le 20 juillet 2021.
+description: 'Plongez vous régulièrement dans la vie de la Normandie Web School :
+  ses étudiants, ses évènements et ses intervenants. Un regard sans détour sur la
+  NWS'
 banner:
   title: Nos actualités
   title-line-twho: ''
