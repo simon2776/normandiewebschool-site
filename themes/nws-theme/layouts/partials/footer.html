@@ -75,6 +75,7 @@
 {{ $script := resources.Get "js/script.js" | minify}}
 <script defer src="{{ $script.Permalink }}"></script>
 
+<script type="text/javascript" src="/plugins/tarteaucitron/tarteaucitron.js"></script>
 <script type="text/javascript">
         tarteaucitron.init({
     	  "privacyUrl": "", /* Privacy policy url */
