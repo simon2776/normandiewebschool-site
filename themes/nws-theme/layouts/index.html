@@ -9,7 +9,7 @@
 
   <!-- about -->
   {{ if .Params.about.enable }}
-    {{ partial "components/page-introduction" (dict "context" . "content" .Params.about.content "image" .Params.about.image  ) }}
+    {{ partial "components/page-introduction-accueil" (dict "context" . "content" .Params.about.content "image" .Params.about.image  ) }}
   {{ end }}
   <!-- /about -->
 
