@@ -41,7 +41,7 @@
     
                     <div class="logo d-flex justify-content-around">
                       {{ range .images }}
-                        <img src="{{.url}}" alt="{{.alt}}">
+                        <img data-src="{{.url}}" class="lazyload" alt="{{.alt}}">
                       {{ end }}
                     </div>
                   </div>
@@ -55,7 +55,7 @@
           </div>
         {{ end }}
       </div>
-      <img src="/uploads/points.svg" class="points" alt="">
+      <img data-src="/uploads/points.svg" class="lazyload points" alt="">
     </div>
   </section>
   {{ end }}
@@ -75,8 +75,8 @@
 
         <div class="cursus_filieres mt-5 ">
 
-          <img src="{{ `/uploads/arrow-down.svg` | absURL }}" alt="" class="arrow-1 d-none d-lg-block"/>
-          <img src="{{ `/uploads/arrow-down.svg` | absURL }}" alt="" class="arrow-2 d-none d-lg-block"/>
+          <img data-src="{{ `/uploads/arrow-down.svg` | absURL }}" alt="" class="lazyload arrow-1 d-none d-lg-block"/>
+          <img data-src="{{ `/uploads/arrow-down.svg` | absURL }}" alt="" class="lazyload arrow-2 d-none d-lg-block"/>
 
           {{ range .item }}
             <div class="row flex-column align-items-center mb-5">
@@ -86,7 +86,7 @@
                   {{ range $index, $value := .specilisation }}
                     <div class="carousel-item {{ if (eq $index 0 )}}active{{end}}">
                       <div class="circle mx-auto">
-                        <img src="{{.bulle}}" alt="" class="w-50 h-50" />
+                        <img data-src="{{.bulle}}" alt="" class="lazyload w-50 h-50" />
                       </div>
                       <div class="text-center">
                         <p class="w-lg-100 {{.color}}">{{.title}}</p>
@@ -117,7 +117,7 @@
               {{end}}
 
               {{if .arrow}}
-              <img src="{{.arrowImage}}" alt="" class="d-block d-lg-none mt-5"/>
+              <img data-src="{{.arrowImage}}" alt="" class="lazyload d-block d-lg-none mt-5"/>
               {{ end }}
             </div>
           {{ end }}
