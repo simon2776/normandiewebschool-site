@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-md-12 second-push-top">
                 <div class="card filiere-intro">
-                    <img src="{{.logo}}" alt="{{.title}}" href="{{.href}}" class="logo w-20 w-lg-50 m-auto "/>
+                    <img data-src="{{.logo}}" alt="{{.title}}" href="{{.href}}" class="lazyload logo w-20 w-lg-50 m-auto "/>
                     <div class="card-header">
                         <h1 class="my-3 my-lg-0 title-medium {{.color}} separator-left separator-lg-block w-100 text-center text-lg-left">{{ .title | safeHTML }}</h1>
                     </div>
@@ -49,8 +49,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center d-flex justify-content-center">
-                    <a href="{{ .href }}" target="_blank">
-                        <img src="{{.image | relURL}}" alt="{{.Params.Name }}" max-width: 140px/></a>
+                    <a href="{{ .href }}" target="_blank" aria-label="yt" rel="noreferrer">
+                        <img data-src="{{.image | relURL}}" class="lazyload" alt="{{.Params.Name }}" max-width: 140px/></a>
                 </div>
                 <p class="col-md-12 font-weight-medium text-center px-3 my-3">
                     {{ .description | safeHTML }}
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-                    <img src="/uploads/points.svg" class="points" alt="">
+                    <img data-src="/uploads/points.svg" class="lazyload points" alt="">
     </div>
 </section>
 {{ end }}
@@ -95,7 +95,7 @@
                                 {{ range .item }}
                                     <div class="col-12 col-lg-4 d-flex flex-column align-items-center skill mt-5">
                                     <div class="icon mb-3">
-                                        <img src="{{.icon}}" alt="{{.title}}">
+                                        <img data-src="{{.icon}}" class="lazyload" alt="{{.title}}">
                                     </div>
                                     <h3 class="text-center mb-3">{{.title}}</h3>
                                     <p>{{.description | safeHTML }}</p>
