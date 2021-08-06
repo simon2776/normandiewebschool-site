@@ -24,7 +24,7 @@
 
       <div class="row pl-3 pr-3">
           <h2 class="text-center with-separator-lg-left text-lg-left title-medium color-orange mt-3">{{ .bachelor_titre | safeHTML }}</h2>
-          <p class="pl-3 pr-3 mb-2">{{ .bachelor_description | safeHTML }} </p>
+          {{ .bachelor_description | safeHTML }}
       </div>
       <div class="row">
         {{ range $index, $value := .item }}
