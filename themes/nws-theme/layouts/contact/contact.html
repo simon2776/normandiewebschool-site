@@ -38,7 +38,7 @@
                 <div class="form-group">
                   {{range .input}} {{if (not .textarea)}}
                   <div class="input-icon mb-3 position-relative w-lg-{{ .width }} {{ .padding }} d-lg-inline-block">
-                    <img src="{{.icon}}" alt="icn-contact" class="icn-contact" />
+                    <img data-src="{{.icon}}" alt="icn-contact" class="lazyload icn-contact" />
                     <input
                       type="{{.type}}"
                       placeholder="{{.placeholder}}"
@@ -49,7 +49,7 @@
                   </div>
                   {{end}} {{if .textarea}}
                   <div class="input-icon mb-3 position-relative">
-                    <img src="{{.icon}}" alt="icn-contact" class="icn-contact icn-contact-message" />
+                    <img data-src="{{.icon}}" alt="icn-contact" class="lazyload icn-contact icn-contact-message" />
                     <textarea
                       cols="30"
                       rows="10"
@@ -102,7 +102,7 @@
         <div class="card second-push-top subForm">
           {{range .item}}
           <div class="row my-4 d-flex flex-column align-items-center">
-            <img src="{{.image }}" alt="{{.info}}" class="mb-4">
+            <img data-src="{{.image }}" alt="{{.info}}" class="lazyload mb-4">
             <center><h3 class="color-blue w-100 px-4 text-center">  {{ .info | safeHTML }}</h3>
             <p class="">{{.subInfo | safeHTML }}</p></center>
           </div>
