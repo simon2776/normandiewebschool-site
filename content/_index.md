@@ -77,13 +77,13 @@ filieres:
     logo: "/uploads/logo-cm.png"
     href: "/cursus/bachelor-community-management/"
   bachelor_titre: BACHELOR CHEF DE PROJET DIGITAL
-  bachelor_description: "Formation de base de la Normandie Web School,
+  bachelor_description: "<span style="margin-left:10px"></span>Formation de base de la Normandie Web School,
     le Bachelor Chef de projet digital forme <strong>une nouvelle génération de professionnels,
     véritables couteaux suisse capables de parler à la fois le langage des développeurs,
     des designers, des marketeurs et des community managers</strong>, pour une conduite
     de projet plus efficace et une stratégie plus pertinente. Son objectif est de
     donner aux étudiants les clés d’une intégration professionnelle réussie au sein
-    d’une start-up, d’une grande entreprise ou d’une agence digitale."
+    d’une start-up, d’une grande entreprise ou d’une agence digitale."</span>
 video:
   enable: true
   url: https://www.youtube.com/embed/qg_8FsSGuBY
