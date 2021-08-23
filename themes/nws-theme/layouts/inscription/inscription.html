@@ -17,27 +17,26 @@
       <div class="pb-4 col-12 col-lg-8">
         {{ with .Params.form }}
         <div class="card second-push-top">
-            <div class="card-header">
-              <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
-            </div>
-            <p class="pt-3 m-0">{{.subtitle}}</p>
-          <div>
-            <div class="card-body">
-              <form id="" name='inscription' action="https://auto.normandiewebschool.fr/jct/applicant.php" method="POST" class="mt-3" >
-                <div class="form-group">
-                  <div class="input-icon mb-3 position-relative w-lg-50 pr-lg-1 d-lg-inline-block">
-                  <img src="/uploads/icn-user.png" alt="" class="icn-contact"><input type="text" class="form-control" id="Prenom" name="firstname" placeholder="Votre prénom (requis)" required="true" minlength="1" maxlength="20"></div>
-                  <div class="input-icon mb-3 position-relative w-lg-50 pl-lg-1 d-lg-inline-block">
-                  <img src="/uploads/icn-user.png" alt="" class="icn-contact"><input type="text" class="form-control" id="Nom" name="name" placeholder="Votre nom (requis)" required="true" minlength="2" maxlength="30"></div>
-                  <div class="input-icon mb-3 position-relative w-lg-50 pr-lg-1 d-lg-inline-block">
-                  <img src="/uploads/icn-mail.png" alt="icn-contact" class="icn-contact"><input type="email" class="form-control" id="Mail" name="email" placeholder="Votre adresse email (requis)" required="true"></div>
-                  <div class="input-icon mb-3 position-relative w-lg-50 pl-lg-1 d-lg-inline-block">
-                  <img src="/uploads/icn-phone.png" alt="icn-contact" class="icn-contact"><input type="tel" class="form-control" id="Phone" name="phone" placeholder="Votre numéro de téléphone (requis)" required="true" minlength="8" maxlength="15"></div>
-                  <div class="input-icon mb-3 position-relative w-lg-100  d-lg-inline-block">
-                  <img src="/uploads/icn-msg.png" alt="icn-contact" class="icn-contact icn-contact-message"><textarea cols="30" rows="5" maxlength="300" class="form-control" id="msg" name="msg" placeholder="Votre message (facultatif)"></textarea></div>      
-                  <div class="input-icon mb-3 position-relative w-lg-100  d-lg-inline-block">
-                  <label for="spe"></label><select name="spe" id="spe" class="form-control" required="true">
-                  <option value="">-- Année souhaitée --</option>
+        <div class="card-header">
+        <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
+        </div>
+        <p class="pt-3 m-0">{{.subtitle}}</p>
+        <div>
+        <div class="card-body">
+        <form id="ajaxForm" name='inscription' action="https://auto.normandiewebschool.fr/jct/applicant.php" method="POST" class="mt-3" >
+        <div class="form-group">
+          <div class="input-icon mb-3 position-relative w-lg-50 pr-lg-1 d-lg-inline-block">
+          <img src="/uploads/icn-user.png" alt="" class="icn-contact"><input type="text" class="form-control" id="Prenom" name="firstname" placeholder="Votre prénom (requis)" required="true" minlength="1" maxlength="20"></div>
+          <div class="input-icon mb-3 position-relative w-lg-50 pl-lg-1 d-lg-inline-block">
+          <img src="/uploads/icn-user.png" alt="" class="icn-contact"><input type="text" class="form-control" id="Nom" name="name" placeholder="Votre nom (requis)" required="true" minlength="2" maxlength="30"></div>
+          <div class="input-icon mb-3 position-relative w-lg-50 pr-lg-1 d-lg-inline-block">
+          <img src="/uploads/icn-mail.png" alt="icn-contact" class="icn-contact"><input type="email" class="form-control" id="Mail" name="email" placeholder="Votre adresse email (requis)" required="true"></div>
+          <div class="input-icon mb-3 position-relative w-lg-50 pl-lg-1 d-lg-inline-block">
+          <img src="/uploads/icn-phone.png" alt="icn-contact" class="icn-contact"><input type="tel" class="form-control" id="Phone" name="phone" placeholder="Votre numéro de téléphone (requis)" required="true" minlength="8" maxlength="15"></div>
+          <div class="input-icon mb-3 position-relative w-lg-100  d-lg-inline-block">
+          <label for="spe"></label>
+          <select name="spe" id="spe" class="form-control" required="true">
+          <option value="">-- Année souhaitée --</option>
                              <option value="Année préparatoire">Année préparatoire</option>
                              <option value="Web Marketing 2ème année">Web Marketing 2ème année</option>
                              <option value="Web Marketing 3ème année">Web Marketing 3ème année</option>
@@ -46,9 +45,10 @@
                              <option value="Communication graphique 2ème année">Communication graphique 2ème année</option>
                              <option value="Communication graphique 3ème année">Communication graphique 3ème année</option>
                              <option value="Community management 2ème année">Community management 2ème année</option>
-                  </select></div>
-                  </div>
-           <div class="mb-lg-4">
+          </select>
+          </div>
+        </div>
+            <div class="mb-lg-4">
               <div class="col-lg-8">
               {{range $index, $el := .checkbox}}
                 <div class="form-check pb-3">
@@ -79,7 +79,7 @@
                   </div>
                 </div>
               </div>
-              </form>
+       </form>
             </div>
           </div>
         </div>
