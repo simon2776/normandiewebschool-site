@@ -65,6 +65,10 @@ sections:
 - type: document
   path: content/mentions-legales/_index.md
   label: Mentions légales
+- type: document
+  path: content/merci/_index.md
+  label: Merci
+  match: "**/*"
 - type: heading
   label: Données
 - type: directory
