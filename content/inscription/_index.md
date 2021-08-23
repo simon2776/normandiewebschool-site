@@ -19,26 +19,34 @@ documents:
   format: PDF
   link: "/uploads/plaquette-nws-generale.pdf"
   document: "/uploads/plaquette-nws-generale.pdf"
+  category: ''
 form:
-  title: Entretien pédagogique
+  title: Formulaire d'inscription
   subtitle: |-
+    Après avoir rempli ce formulaire, l’école vous contactera pour fixer un rendez-vous.
     Au cours de ce rendez-vous, vous réaliserez un test de culture numérique et vous passerez un entretien individuel avec un membre de l'équipe pédagogique.
     Une réponse vous sera donnée dans les plus brefs délais.
   input:
   - icon: "/uploads/icn-user.png"
-    placeholder: Votre nom de famille
+    placeholder: Votre prénom*
     type: text
-    required: false
-    name: last_name
-    width: "50"
-    padding: pr-lg-1
-  - icon: "/uploads/icn-user.png"
-    placeholder: Votre prénom
-    type: text
-    required: false
+    required: true
     name: first_name
     width: "50"
     padding: pl-lg-1
+    filieres: []
+    list: []
+    filiere: ''
+  - icon: "/uploads/icn-user.png"
+    placeholder: Votre nom*
+    type: text
+    required: true
+    name: last_name
+    width: "50"
+    padding: pr-lg-1
+    filieres: []
+    list: []
+    filiere: ''
   - icon: "/uploads/icn-mail.png"
     placeholder: Votre adresse e-mail*
     type: email
@@ -46,33 +54,30 @@ form:
     name: email
     width: "50"
     padding: pr-lg-1
-  - icon: "/uploads/icn-mail.png"
-    placeholder: Confirmer votre adresse e-mail*
-    type: email
-    required: true
-    name: email_confirmation
-    width: "50"
-    padding: pl-lg-1
+    filieres: []
+    list: []
+    filiere: ''
   - icon: "/uploads/icn-phone.png"
-    placeholder: Votre numéro de téléphone
+    placeholder: Votre numéro de téléphone*
     type: phone
-    required: false
+    required: true
     name: phone
     width: "50"
-  - icon: "/uploads/icn-obj.png"
-    placeholder: L'objet de votre message*
-    type: text
-    required: true
-    name: object
-    width: "100"
-    className: w-lg-50
+    padding: ''
+    filieres: []
+    list: []
+    filiere: ''
   - icon: "/uploads/icn-msg.png"
-    placeholder: Votre message*
+    placeholder: Votre message
     textarea: true
-    required: true
-    name: message
+    required: false
+    name: msg
     width: "100"
     type: ''
+    padding: ''
+    filieres: []
+    list: []
+    filiere: ''
   checkbox:
   - content: En soumettant ce formulaire, j'accepte que les informations saisies soient
       exploitées dans le cadre d'apport d'information concernant les formations proposées
@@ -83,15 +88,9 @@ form:
       des publications à portée commerciale.
     required: false
     name: newsletter
+  list:
+    filiere: cursus/bachelor-marketing-digital.md
+  filiere: ''
 seo_image: ''
-informations_d_ouverture: ''
-informations_d_ouvertu: {}
-menu:
-  desktop:
-    name: Déposer votre candidature
-    weight: 5
-  main:
-    name: Déposer votre candidature
-    weight: 10
 
 ---
