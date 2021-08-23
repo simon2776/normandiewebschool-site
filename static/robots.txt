@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /collaborateurs/
+Sitemap: https://normandiewebschool.fr/sitemap.xml
