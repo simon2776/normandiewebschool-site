@@ -8,7 +8,7 @@ banner:
   title: Candidatez à la <span class="font-weight-medium">NWS</span>
   title-line-twho: ''
   subtitle: Vous aurez un entretien avec un membre de l'équipe pédagogique. Venez
-    avec votre CV.
+    avec votre CV. 
   image: "/uploads/banner_entretien.jpg"
 documents:
   enable: true
