@@ -10,4 +10,5 @@ banner:
 testimonials:
   enable: true
   testimonails: []
-seo_image: "/uploads/meta-generale.jpg"
+  
+---
