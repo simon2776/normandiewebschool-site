@@ -68,7 +68,6 @@ sections:
 - type: document
   path: content/merci/_index.md
   label: Merci
-  match: "**/*"
 - type: heading
   label: Données
 - type: directory
