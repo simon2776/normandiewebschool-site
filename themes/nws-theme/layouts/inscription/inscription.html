@@ -48,35 +48,37 @@
                              <option value="Community management 2ème année">Community management 2ème année</option>
                   </select></div>
                   </div>
-                  <div class="row mb-lg-4">
-                    <div class="col-lg-8">
-                      {{range $index, $el := .checkbox}}
-                      <div class="form-check pb-3">
-                        <input
-                          type="checkbox"
-                          class="form-check-input"
-                          id="checkbox-{{$index}}"
-                          name="{{.name}}"
-                          {{ if .required | eq true }} required="true" {{ end }}
-                        />
-                        <label class="form-check-label" for="checkbox-{{$index}}"
-                          >{{.content}}</label
-                        >
-                      </div>
-                      {{end}}
-                    </div>
+           <div class="mb-lg-4">
+              <div class="col-lg-8">
+              {{range $index, $el := .checkbox}}
+                <div class="form-check pb-3">
+                <input
+                type="checkbox"
+                class="form-check-input"
+                id="checkbox-{{$index}}"
+                name="{{.name}}"
+                {{ if .required | eq true }} required="true" {{ end }}
+                />
+                <label class="form-check-label" for="checkbox-{{$index}}"
+                >{{.content}}</label
+                >
+                </div>
+              {{end}}
+              </div>
                 <div class="col-lg-4 d-flex justify-content-center my-5 my-lg-0">
                 <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                 </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 d-flex justify-content-center">
-                      <button type="submit" class="btn font-weight-medium color-blue py-3 px-5">
-                        <a>Postuler</a>
-                      </button>
-                    </div>
+             </div>
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-center">
+                    <div id="decoded"></div>
+                    <button type="submit" id="encode" class="btn font-weight-medium color-blue py-3 px-5">
+                    <a>Postuler</a>
+                    </button>
+                    <div id="encoded"></div>
                   </div>
                 </div>
+              </div>
               </form>
             </div>
           </div>
