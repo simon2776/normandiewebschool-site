@@ -11,38 +11,79 @@
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
 {{ if .Params.documents.enable }}
-
 <section class="bg-lightgrey pb-4">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-8">
+      <div class="pb-4 col-12 col-lg-8">
         {{ with .Params.form }}
         <div class="card second-push-top">
-            <div class="card-header">
-              <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
-            </div>
-            <p class="pt-3 m-0">{{.subtitle}}</p>
+        <div class="card-header">
+        <h2 class="mb-0 title-medium color-blue separator-left">{{.title}}</h2>
         </div>
-        {{end}}
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="bg-lightgrey clip-bottom-white recrutement pt-10">
-    <div class="container">
-    <div style="margin-bottom:5%">
-        <div class="row row-eq-height">
-              <div class="col-md-12 col-lg-8 mb-4">
-                <div class="card">
-                <div class="card-content">
-                   <p>Pour les admissions en première année post-bac ou les admissions parallèles (en année 2 ou année 3) merci de prendre RDV directement en nous appelant ou par e-mail.</p>
-                  <a href="tel:0279027378">02 79 02 73 78</a></br></br>
-                   <a href="mailto:contact@normandiewebschool.fr">contact@normandiewebschool.fr</a>
+        <p class="pt-3 m-0">{{.subtitle}}</p>
+        <div>
+        <div class="card-body">
+        <form id="ajaxForm" name='inscription' action="https://auto.normandiewebschool.fr/jct/applicant.php" method="POST" class="mt-3" >
+        <div class="form-group">
+          <div class="input-icon mb-3 position-relative w-lg-50 pr-lg-1 d-lg-inline-block">
+          <img src="/uploads/icn-user.png" alt="" class="icn-contact"><input type="text" class="form-control" id="Prenom" name="firstname" placeholder="Votre prénom (requis)" required="true" minlength="1" maxlength="20"></div>
+          <div class="input-icon mb-3 position-relative w-lg-50 pl-lg-1 d-lg-inline-block">
+          <img src="/uploads/icn-user.png" alt="" class="icn-contact"><input type="text" class="form-control" id="Nom" name="name" placeholder="Votre nom (requis)" required="true" minlength="2" maxlength="30"></div>
+          <div class="input-icon mb-3 position-relative w-lg-50 pr-lg-1 d-lg-inline-block">
+          <img src="/uploads/icn-mail.png" alt="icn-contact" class="icn-contact"><input type="email" class="form-control" id="Mail" name="email" placeholder="Votre adresse email (requis)" required="true"></div>
+          <div class="input-icon mb-3 position-relative w-lg-50 pl-lg-1 d-lg-inline-block">
+          <img src="/uploads/icn-phone.png" alt="icn-contact" class="icn-contact"><input type="tel" class="form-control" id="Phone" name="phone" placeholder="Votre numéro de téléphone (requis)" required="true" minlength="8" maxlength="15"></div>
+          <div class="input-icon mb-3 position-relative w-lg-100  d-lg-inline-block">
+          <label for="spe"></label>
+          <select name="spe" id="spe" class="form-control" required="true">
+          <option value="">-- Année souhaitée --</option>
+                             <option value="Année préparatoire">Année préparatoire</option>
+                             <option value="Web Marketing 2ème année">Web Marketing 2ème année</option>
+                             <option value="Web Marketing 3ème année">Web Marketing 3ème année</option>
+                             <option value="Développement web et applicatif 2ème année">Développement web et applicatif 2ème année</option>
+                             <option value="Développement web et applicatif 3ème année">Développement web et applicatif 3ème année</option>
+                             <option value="Communication graphique 2ème année">Communication graphique 2ème année</option>
+                             <option value="Communication graphique 3ème année">Communication graphique 3ème année</option>
+                             <option value="Community management 2ème année">Community management 2ème année</option>
+          </select>
+          </div>
+        </div>
+            <div class="mb-lg-4">
+              <div class="col-lg-8">
+              {{range $index, $el := .checkbox}}
+                <div class="form-check pb-3">
+                <input
+                type="checkbox"
+                class="form-check-input"
+                id="checkbox-{{$index}}"
+                name="{{.name}}"
+                {{ if .required | eq true }} required="true" {{ end }}
+                />
+                <label class="form-check-label" for="checkbox-{{$index}}"
+                >{{.content}}</label
+                >
                 </div>
+              {{end}}
+              </div>
+                <div class="col-lg-4 d-flex justify-content-center my-5 my-lg-0">
+                <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
+                </div>
+             </div>
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-center">
+                    <div id="decoded"></div>
+                    <button type="submit" id="encode" class="btn font-weight-medium color-blue py-3 px-5">
+                    <a>Postuler</a>
+                    </button>
+                    <div id="encoded"></div>
+                  </div>
                 </div>
               </div>
-                  
+       </form>
+            </div>
+          </div>
+        </div>
+        {{end}}
               <div class="col-md-12 col-lg-4 mb-4">
                 <div class="card">
                 <div class="card-content">
@@ -52,9 +93,21 @@
                 </div>
                 </div>
               </div>
-        </div>
+      </div>
     </div>
-    </div>
+  </div>
 </section>
 
-{{ end }} {{ end }}
+<script src="https://www.google.com/recaptcha/api.js?render=6LcpLRwcAAAAAAxdIw7C4sLf_kTmM3fPpPCkOuVw"></script>
+
+<script>
+  grecaptcha.ready(function() {
+    grecaptcha.execute('6LcpLRwcAAAAAAxdIw7C4sLf_kTmM3fPpPCkOuVw', {action: 'homepage'})
+            .then(function(token) {
+              document.getElementById('captchaResponse').value = token;
+            });
+  });
+</script>
+
+{{ end }}
+{{ end }}
