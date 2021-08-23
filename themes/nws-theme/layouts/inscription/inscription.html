@@ -100,13 +100,4 @@
 
 {{ end }}{{ end }}
 
-<script src="https://www.google.com/recaptcha/api.js?render=6LcpLRwcAAAAAAxdIw7C4sLf_kTmM3fPpPCkOuVw"></script>
 
-<script>
-  grecaptcha.ready(function() {
-    grecaptcha.execute('6LcpLRwcAAAAAAxdIw7C4sLf_kTmM3fPpPCkOuVw', {action: 'homepage'})
-            .then(function(token) {
-              document.getElementById('captchaResponse').value = token;
-            });
-  });
-</script>
