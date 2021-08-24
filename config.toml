@@ -1,10 +1,10 @@
 baseURL = "https://normandiewebschool.fr"
+enableRobotsTXT = false
 languageCode = "fr-fr"
 summaryLength = "10"
 theme = "nws-theme"
 title = "L'école des métiers du numérique"
 weight = 1
-enableRobotsTXT=false
 [[menu.desktop]]
 name = "Nos spécialisations"
 weight = 2

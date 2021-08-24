@@ -92,6 +92,12 @@ form:
     filiere: cursus/bachelor-marketing-digital.md
   filiere: ''
 seo_image: ''
+menu:
+  desktop:
+    name: Candidater
+    weight: 5
+  main:
+    name: Candidater
+    weight: 10
 
 ---
-
