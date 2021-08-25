@@ -1,8 +1,8 @@
 ---
 title: Candidatez à la NWS
 date: 2019-05-12T12:14:34.000+06:00
-description: 'Pour candidater : demandez un entretien pédagogique. Vous serez invité
-  à l''une de nos sessions d''information sur Rouen.'
+description: Vous serez invité à l'une de nos sessions d'information sur Rouen 22
+  Place Henri Gadeau de Kerville
 global: ''
 banner:
   title: Candidatez à la <span class="font-weight-medium">NWS</span>
@@ -92,6 +92,8 @@ form:
     filiere: cursus/bachelor-marketing-digital.md
   filiere: ''
 seo_image: ''
+informations_d_ouverture: ''
+informations_d_ouvertu: {}
 menu:
   desktop:
     name: Candidater
