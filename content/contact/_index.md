@@ -1,7 +1,7 @@
 ---
 title: Nous contacter
 date: 2019-05-12T12:14:34.000+06:00
-description: Contacter l'école du numérique de Rouen. Venez rencontrer l'équipe pédagogique.
+description: Normandie Web School 22 Place Henri Gadeau de Kerville 76100 Rouen
 banner:
   title: Nous  <span class="font-weight-medium">contacter</span>
   title-line-twho: ''
