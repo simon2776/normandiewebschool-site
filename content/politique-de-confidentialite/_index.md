@@ -47,7 +47,7 @@ content: |-
   Les commentaires des visiteurs peuvent être vérifiés à l’aide d’un service automatisé de détection des commentaires indésirables.
 noindex: false
 title: Politique de confidentialité
-description: ''
+description: Normandie Web School 22 Place Henri Gadeau de Kerville 76100 Rouen
 seo_image: ''
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: L'école des métiers du numérique
 date: 2019-05-12T12:14:34.000+06:00
-description: 'Formez vous sur Rouen aux métiers du numérique : Web marketing, Développement
+description: '22 Place Henri Gadeau de Kerville à Rouen : Web marketing, Développement
   web, Communication graphique et Community management.'
 banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
@@ -77,13 +77,13 @@ filieres:
     logo: "/uploads/logo-cm.png"
     href: "/cursus/bachelor-community-management/"
   bachelor_titre: BACHELOR CHEF DE PROJET DIGITAL
-  bachelor_description: "Formation de base de la Normandie Web School,
-    le Bachelor Chef de projet digital forme <strong>une nouvelle génération de professionnels,
+  bachelor_description: Formation de base de la Normandie Web School, le Bachelor
+    Chef de projet digital forme <strong>une nouvelle génération de professionnels,
     véritables couteaux suisse capables de parler à la fois le langage des développeurs,
     des designers, des marketeurs et des community managers</strong>, pour une conduite
     de projet plus efficace et une stratégie plus pertinente. Son objectif est de
     donner aux étudiants les clés d’une intégration professionnelle réussie au sein
-    d’une start-up, d’une grande entreprise ou d’une agence digitale."
+    d’une start-up, d’une grande entreprise ou d’une agence digitale.
 video:
   enable: true
   url: https://www.youtube.com/embed/qg_8FsSGuBY
