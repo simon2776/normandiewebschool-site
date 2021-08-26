@@ -7,7 +7,7 @@ banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: ''
   subtitle: L'école des métiers du numérique au cœur des entreprises
-  image: "/uploads/fond-seine-innopolis.jpg"
+  image: "/uploads/banniere_place_henri_gadeau_de_kerville.jpg"
 about:
   enable: true
   title: La school en quelques mots
