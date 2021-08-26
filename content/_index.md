@@ -6,7 +6,8 @@ description: '22 Place Henri Gadeau de Kerville à Rouen : Web marketing, Dével
 banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: ''
-  subtitle: L'école des métiers du numérique au cœur des entreprises
+  subtitle: L'école des métiers du numérique au cœur des entreprises.<br>Place Henri
+    Gadeau de Kerville à Rouen - Métro Saint-Sever
   image: "/uploads/banniere_place_henri_gadeau_de_kerville.jpg"
 about:
   enable: true
