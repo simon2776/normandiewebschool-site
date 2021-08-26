@@ -7,7 +7,7 @@ banner:
   title: Bienvenue à la <br/> <span class="font-weight-medium">NORMANDIE WEB SCHOOL</span>
   title-line-twho: ''
   subtitle: L'école des métiers du numérique au cœur des entreprises<br><br><center>Place
-    Henri Gadeau de Kerville à Rouen</center><br><center>Métro Saint-Sever</center>
+    Henri Gadeau de Kerville à Rouen - Métro Saint-Sever</center>
   image: "/uploads/banniere_place_henri_gadeau_de_kerville.jpg"
 about:
   enable: true
