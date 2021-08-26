@@ -144,6 +144,6 @@ partners:
 testimonials:
   enable: true
 image: "/uploads/meta-generale.jpg"
-seo_image: ''
+seo_image: "/uploads/banniere_place_henri_gadeau_de_kerville.jpg"
 
 ---

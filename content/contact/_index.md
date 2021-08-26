@@ -6,7 +6,7 @@ banner:
   title: Nous  <span class="font-weight-medium">contacter</span>
   title-line-twho: ''
   subtitle: Contacter l'école du numérique de Rouen. Venez rencontrer l'équipe pédagogique.
-  image: "/uploads/contact_bg.png"
+  image: "/uploads/banniere_place_henri_gadeau_de_kerville.jpg"
 form:
   enable: true
   title: Formulaire de contact
