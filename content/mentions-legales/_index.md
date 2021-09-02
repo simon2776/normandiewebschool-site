@@ -16,7 +16,7 @@ content: |-
   * **Développement** : NWS – 22 Place Henri Gadeau de Kerville 76100 ROUEN
   * **Responsable de la publication** : Sitapha Dia
   * **Webmaster** : Sitapha Dia
-  * **Hébergement** : OVH – 2 rue Kellermann – 59100 Roubaix  France
+  * **Hébergement** : OVH – 2 rue Kellermann – 59100 Roubaix - France
 
   ## Description des services fournis
 
