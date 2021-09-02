@@ -10,8 +10,7 @@ content: |-
   * **Adresse** : 22 Place Henri Gadeau de Kerville 76100 ROUEN
   * **Téléphone** : 02 52 60 02 38
   * **SAS au capital de** : 42 500 €
-  * **SIRET** : 82392759500012
-    Société Immatriculée au RCS de Rouen
+  * **SIRET** : 82392759500020 (Société Immatriculée au RCS de Rouen)
   * **Numéro de TVA intracommunautaire** : FR85823927595
   * **Adresse de contact** : contact@normandiewebschool.fr
   * **Développement** : NWS – 22 Place Henri Gadeau de Kerville 76100 ROUEN
