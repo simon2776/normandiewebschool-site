@@ -33,7 +33,7 @@ content: |-
 
   ## Liens hypertextes et cookies
 
-  Le site normandiewebschool.fr contient un certain nombre de liens hypertextes vers d’autres sites (partenaires, informations …) mis en place avec l’autorisation du propriétaire du site . Cependant, le propriétaire du site n’a pas la possibilité de vérifier le contenu des sites visités et décline donc toute responsabilité de ce fait quant aux risques éventuels de contenus illicites.
+  Le site normandiewebschool.fr contient un certain nombre de liens hypertextes vers d’autres sites (partenaires, informations …) mis en place avec l’autorisation du propriétaire du site. Cependant, le propriétaire du site n’a pas la possibilité de vérifier le contenu des sites visités et décline donc toute responsabilité de ce fait quant aux risques éventuels de contenus illicites.
 
   L’utilisateur est informé que lors de ses visites sur le site normandiewebschool.fr, un ou des cookies sont susceptibles de s’installer automatiquement sur son ordinateur. Un cookie est un fichier de petite taille, qui ne permet pas l’identification de l’utilisateur, mais qui enregistre des informations relatives à la navigation d’un ordinateur sur un site. Les données ainsi obtenues visent à faciliter la navigation ultérieure sur le site, et ont également vocation à permettre diverses mesures de fréquentation.
 
