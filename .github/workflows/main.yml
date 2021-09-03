@@ -29,8 +29,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
-          extended: true
+          hugo-version: ${{ matrix.hugo-version }}
+          extended: ${{ matrix.extended }}
       - name: Build
         run: |
           npm install
