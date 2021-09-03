@@ -30,7 +30,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: ${{ matrix.hugo-version }}
-          extended: true
+          extended: ${{ matrix.extended }}
       - name: Build
         run: |
           npm install
