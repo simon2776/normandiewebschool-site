@@ -43,7 +43,7 @@ content: |-
 
   En France, les données personnelles sont notamment protégées par la loi n° 78-87 du 6 janvier 1978, la loi n° 2004-801 du 6 août 2004, l’article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.
 
-  Sur le site normandiewebschool.fr, le propriétaire du site ne collecte des informations personnelles relatives à l’utilisateur que pour le besoin de certains services proposés par le site normandiewebschool.fr. L’utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu’il procède par lui-même à leur saisie. Il est alors précisé à l’utilisateur du site normandiewebschool.fr l’obligation ou non de fournir ces informations.
+  Sur le site normandiewebschool.fr, le propriétaire du site ne collecte des informations personnelles relatives à l’utilisateur que pour le besoin de certains services proposés par le site normandiewebschool.fr. L’utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu’il procède par lui-même à leur saisie.  Il est alors précisé à l’utilisateur du site normandiewebschool.fr l’obligation ou non de fournir ces informations.
 
   Conformément aux dispositions des articles 38 et suivants de la loi 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, tout utilisateur dispose d’un droit d’accès, de rectification, de suppression et d’opposition aux données personnelles le concernant. Pour l’exercer, adressez votre demande à normandiewebschool.fr par email : contact@normandiewebschool.fr ou en effectuant une demande écrite et signée, accompagnée d’une copie du titre d’identité avec signature du titulaire de la pièce, en précisant l’adresse à laquelle la réponse doit être envoyée.
 
