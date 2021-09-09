@@ -149,8 +149,8 @@ annonce:
   enable: true
   content: <p>Dernières places <strong>uniquement</strong> en 1ère année préparatoire
     encore accessibles.</p><p>Dépêchez vous il est encore temps, leur rentrée n'a
-    pas encore commencé ;-)</p><p>&lt;center&gt;<a href="https://normandiewebschool.fr/inscription/"
-    title="CANDIDATER">CANDIDATER</a>&lt;/center&gt;</p>
-  title: ''
+    pas encore commencé ;-)</p><p>&lt;p align="center"&gt;<a href="https://normandiewebschool.fr/inscription/"
+    title="CANDIDATER">CANDIDATER</a>&lt;/p&gt;</p>
+  title: DERNIERES INSCRIPTIONS
 
 ---
