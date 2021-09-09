@@ -5,8 +5,11 @@
         <div class="card">
           <div class="row">
               <div>
+                <div class="card-header">
+                <div class="mb-0 title-medium color-blue separator-left">{{.title}}</div>
+                </div>
                 <div class="card-body">
-                  <p class=mb-0>{{.content | safeHTML}}</p>
+                <p class=mb-0>{{.content | safeHTML}}</p>
                 </div>
               </div>
           </div>
