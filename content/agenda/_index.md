@@ -17,6 +17,13 @@ event:
   month:
   - label: Septembre 2021
     item:
+    - date: 15/09/21
+      name: Après-midi Portes Ouvertes
+      localisation: 22 Place Henri Gadeau de Kerville 76100 ROUEN (Métro Saint-Sever)
+      start: '15:00'
+      end: '17:00'
+      href: https://normandiewebschool.fr/contact
+      image: ''
     - date: 13/09/21
       name: Rentrée Année 3
       localisation: ''
