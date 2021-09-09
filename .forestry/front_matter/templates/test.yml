@@ -210,5 +210,27 @@ fields:
   - type: boolean
     name: enable
     label: enable
+- name: annonce
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: enable
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: content
+  label: Annonce
 pages:
 - content/_index.md

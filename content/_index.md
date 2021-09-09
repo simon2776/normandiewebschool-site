@@ -145,5 +145,11 @@ testimonials:
   enable: true
 image: "/uploads/meta-generale.jpg"
 seo_image: "/uploads/banniere_place_henri_gadeau_de_kerville.jpg"
+annonce:
+  enable: true
+  content: "<p>Nos dernières places <strong>uniquement</strong> en 1ère année préparatoire
+    sont encore accessibles.</p><p>Dépêchez vous il est encore temps, la rentrée n'a
+    pas encore commencé \U0001F60E</p>"
+  title: DERNIERES INSCRIPTIONS !
 
 ---
