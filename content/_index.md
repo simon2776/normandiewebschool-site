@@ -147,10 +147,9 @@ image: "/uploads/meta-generale.jpg"
 seo_image: "/uploads/banniere_place_henri_gadeau_de_kerville.jpg"
 annonce:
   enable: true
-  content: <p>Dernières places <strong>uniquement</strong> en 1ère année préparatoire
+  content: <p>Nos dernières places <strong>uniquement</strong> en 1ère année préparatoire sont
     encore accessibles.</p><p>Dépêchez vous il est encore temps, leur rentrée n'a
-    pas encore commencé ;-)</p><div style="text-align:center"><a href="https://normandiewebschool.fr/inscription/"
-    title="CANDIDATER">CANDIDATER</a></div>
+    pas encore commencé ;-)</p>
   title: DERNIERES INSCRIPTIONS !
 
 ---
