@@ -7,6 +7,12 @@
 
 {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
+  <!-- annonce -->
+  {{ if .Params.annonce.enable }}
+    {{ partial "components/page-introduction-annonce" (dict "context" . "content" .Params.annonce.content ) }}
+  {{ end }}
+  <!-- /annonce -->
+
   <!-- about -->
   {{ if .Params.about.enable }}
     {{ partial "components/page-introduction-accueil" (dict "context" . "content" .Params.about.content "image" .Params.about.image  ) }}
