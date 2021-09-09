@@ -5,11 +5,11 @@
   </section>
   <!-- /hero area -->
 
-{{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
+  {{ partial "components/page-title" (dict "context" . "title" .Params.banner.title "subtitle" .Params.banner.subtitle ) }}
 
   <!-- annonce -->
   {{ if .Params.annonce.enable }}
-    {{ partial "components/page-introduction-annonce" (dict "context" . "content" .Params.annonce.content ) }}
+    {{ partial "components/page-introduction-annonce" (dict "context" . "title" .Params.banner.title "content" .Params.annonce.content ) }}
   {{ end }}
   <!-- /annonce -->
 
