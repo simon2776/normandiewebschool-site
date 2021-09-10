@@ -148,8 +148,11 @@ seo_image: "/uploads/banniere_place_henri_gadeau_de_kerville.jpg"
 annonce:
   enable: true
   content: "<p>Nos dernières places <strong>uniquement</strong> en 1ère année préparatoire
-    sont encore accessibles.</p><p>Dépêchez vous il est encore temps, la rentrée n'a
-    pas encore commencé \U0001F60E</p>"
+    et 2ème année Web Marketing sont encore accessibles.</p><p>Dépêchez vous il est
+    encore temps, la rentrée n'a pas encore commencé \U0001F60E</p><p>Venez nous rencontrer
+    <strong>les mercredi 15 et 22 septembre</strong> après-midi à partir de 15h00
+    à travers nos portes ouvertes ! --&gt; <a href=\"https://normandiewebschool.fr/contact\"
+    title=\"Nous contacter\">Nous contacter</a></p>"
   title: DERNIERES INSCRIPTIONS !
 
 ---
