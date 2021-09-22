@@ -8,7 +8,7 @@ banner:
   title-line-twho: ''
   subtitle: L'école des métiers du numérique au cœur des entreprises à Rouen.<br>Place
     Henri Gadeau de Kerville - Métro Saint-Sever
-  image: "/uploads/banniere_place_henri_gadeau_de_kerville.jpg"
+  image: "/uploads/img_20210921_144016.jpg"
 about:
   enable: true
   title: La school en quelques mots
