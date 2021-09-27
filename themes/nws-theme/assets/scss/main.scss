@@ -274,6 +274,11 @@ CARD COMPONENT
         background-color: var(--green);
       }
     }
+    &.color-violet {
+      &:after {
+        background-color: var(--violet);
+      }
+    }
   }
 
   &.center-card {
