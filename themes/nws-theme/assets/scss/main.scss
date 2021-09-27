@@ -40,6 +40,7 @@ a {
 GLOBAL DISPLAY
  */
 .fit {
+  width: -moz-fit-content;
   width: fit-content;
 }
 .no-cursor {
