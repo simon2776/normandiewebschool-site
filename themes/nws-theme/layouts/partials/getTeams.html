@@ -1,8 +1,7 @@
 {{ $team := where .Site.RegularPages "Type" "in" "team" }}
 
-<script>
-    nonce="2726c7f26c"
-    window.onload = () => {
+<script nonce="2726c7f26c">
+        window.onload = () => {
         const data = []
         {{range $team.ByWeight}}
             data.push({
