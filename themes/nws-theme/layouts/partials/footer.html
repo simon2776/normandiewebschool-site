@@ -67,10 +67,10 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .URL | absURL }}"></script>
+<script nonce="R4nd0m" src="{{ .URL | absURL }}"></script>
 {{ end }}
-<script defer src="https://kit.fontawesome.com/0cd9807eef.js" crossorigin="anonymous"></script>
+<script defer nonce="R4nd0m" src="https://kit.fontawesome.com/0cd9807eef.js" crossorigin="anonymous"></script>
 
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
-<script defer src="{{ $script.Permalink }}"></script>
+<script defer nonce="R4nd0m" src="{{ $script.Permalink }}"></script>
