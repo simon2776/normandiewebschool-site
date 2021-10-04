@@ -106,8 +106,9 @@ Header append Vary User-Agent env=!dont-vary
 # END Expire headers
 
 # BEGIN Cache-Control Headers
-<IfModule mod_headers.c>
-Header set Content-Security-Policy "report-uri https://normandiewebschool.fr/my-csp"
+<IfModule mod_headers.c>Header set Content-Security-Policy "
+report-uri 'https://normandiewebschool.fr/my-csp';
+"
  <FilesMatch "\\.(ico|jpe?g|png|gif|swf|gz|ttf)$">
  Header set Cache-Control "max-age=2592000, public"
  </FilesMatch>
