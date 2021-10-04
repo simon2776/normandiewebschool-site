@@ -109,6 +109,7 @@ Header append Vary User-Agent env=!dont-vary
 <IfModule mod_headers.c>
  <FilesMatch "\\.(ico|jpe?g|png|gif|swf|gz|ttf)$">
  Header set Cache-Control "max-age=2592000, public"
+ Header set Content-Security-Policy "report-uri 'https://normandiewebschool.fr/my-csp';"
  </FilesMatch>
  <FilesMatch "\\.(css)$">
  Header set Cache-Control "max-age=2592000, public"
