@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://normandiewebschool.fr/sitemap.xml
