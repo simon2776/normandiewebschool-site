@@ -1,9 +1,7 @@
 User-agent: *
-
-Sitemap: https://normandiewebschool.fr/sitemap.xml
-
 # robotstxt.org - if ENV production variable is false robots will be disallowed.
 {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+Sitemap: https://normandiewebschool.fr/sitemap.xml
   Disallow:
 {{ else }}
   Disallow: /
