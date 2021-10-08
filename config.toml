@@ -1,4 +1,3 @@
-baseURL = "https://normandiewebschool.fr"
 enableRobotsTXT = true
 languageCode = "fr-fr"
 summaryLength = "10"
