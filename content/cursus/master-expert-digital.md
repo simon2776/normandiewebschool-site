@@ -20,7 +20,7 @@ banner:
   href: https://www.isd-flaubert.com/marketing-digital/
 about:
   enable: true
-  image: "/uploads/filieres_img1-1.png"
+  image: "/uploads/filieres_img1-1.jpg"
   description: Le coût de la formation est pris en charge par l'entreprise employeur
     par le biais des OPCO.
   url: ''
