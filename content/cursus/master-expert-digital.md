@@ -9,7 +9,7 @@ description: Vous souhaitez devenir un expert du numérique et en acquérir les 
 banner:
   logo: "/uploads/logo-isd-horizontal-typo-grise.png"
   title: Mastère "Expert digital"
-  image: "/content/uploads/web-marketing.jpg"
+  image: "/uploads/web-marketing.jpg"
   description: |-
     Vous serez en mesure de mettre en œuvre une stratégie digitale, apporter des solutions techniques et innovantes, manager une équipe et monter des budgets.
     <br/> Le BAC +5 Expert Marketing Digital se déroule exclusivement en alternance sur 18 mois selon un rythme d'une semaine à l'école et de trois semaines en entreprise.
